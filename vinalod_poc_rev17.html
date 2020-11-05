@@ -31,7 +31,7 @@ seed URI or nodeID:
 <OPTION>(theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
 <OPTION>---
 <OPTION>(A publication about cellar)http://publications.europa.eu/resource/cellar/50ecce27-857e-11e8-ac6a-01aa75ed71a1.0001
-<OPTION>(General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0003
+<OPTION>(General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0004
 <OPTION>---
 <OPTION>(membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
 <OPTION>(organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
@@ -179,7 +179,7 @@ if (isNaN(newSeed))
 	{	query = query +"filter(?s=bif:iri_id_from_num("+newSeed+"))";}
 
 query = query + "}\
-order by DESC(?oLANG) \
+order by DESC(?oLANG) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) \
 LIMIT "+nbResultId.value+" \
 OFFSET "+pageId*nbResultId.value;
 
