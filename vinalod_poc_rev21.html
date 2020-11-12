@@ -268,51 +268,64 @@ if (results[i].o.value.startsWith('http'))
 {
 	//if starts with http then it is an uri, let's allow to go there
 	colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='"+results[i].o.value+"' onClick='Go(this)'>";
-	if (results[i].o.value.endsWith('jpg')) { colonne3.innerHTML += "<img src='"+results[i].o.value+"' width='40' />" ;}
-	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/FEMALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/4/43/Correct_Female_Icon.svg' width='40' />" ;}
-	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/MALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/9/90/Male_Icon.svg' width='40' />" ;}
-	if (results[i].o.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' width='40' />" ;}
-	if (results[i].o.value=="http://www.w3.org/ns/org#hasSite") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' width='40' />" ;}
-	if (results[i].o.value=="http://publications.europa.eu/resource/authority/country/DEU") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg' width='40' />" ;}
+	if (results[i].o.value.endsWith('jpg')) { colonne3.innerHTML += "<img src='"+results[i].o.value+"' height='30' />" ;}
+	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/FEMALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/4/43/Correct_Female_Icon.svg' height='30' />" ;}
+	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/MALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/9/90/Male_Icon.svg' height='30' />" ;}
+	if (results[i].o.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
+	if (results[i].o.value=="http://www.w3.org/ns/org#hasSite") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
+	if (results[i].o.value=="http://publications.europa.eu/resource/authority/country/DEU") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg' height='30' />" ;}
 	
-	if (results[i].o.value=="http://publications.europa.eu/resource/authority/country/ITA") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/a/ac/Printable_Flag_of_Italy.svg' width='40' />" ;}
+	if (results[i].o.value=="http://publications.europa.eu/resource/authority/country/ITA") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/a/ac/Printable_Flag_of_Italy.svg' height='30' />" ;}
 
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/role-qualifier/STAFF_LEAD_ORG") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/6/67/Golden_Medal_-1_Icon.svg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/role-qualifier/STAFF_LEAD_ORG") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/6/67/Golden_Medal_-1_Icon.svg' height='30' />" ;}
 
-if (results[i].o.value=="http://xmlns.com/foaf/0.1/Person") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' width='40' />" ;}
+if (results[i].o.value=="http://xmlns.com/foaf/0.1/Person") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' height='30' />" ;}
 
-if (results[i].o.value=="http://dbpedia.org/ontology/Person") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' width='40' />" ;}
+if (results[i].o.value=="http://dbpedia.org/ontology/Person") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' height='30' />" ;}
 
 
 
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0") { colonne3.innerHTML += "<img src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0") { colonne3.innerHTML += "<img src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg' height='30' />" ;}
 
 //http://publications.europa.eu/resource/authority/use-context/WHOISWHO
 //http://publications.europa.eu/resource/authority/use-context/EURLEX
 //http://publications.europa.eu/resource/authority/use-context/TED
 
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/4/47/Forbidden_Symbol.svg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/4/47/Forbidden_Symbol.svg' height='30' />" ;}
 
 
 
 
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/use-context/ODP") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/sites/all/themes/openDataPortalTheme/images/odp_en.png' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/COM") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-commission-cl.jpg' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECB") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-bce-cl.jpg' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/CURIA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-cj-cl.gif' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-cdc-cl.gif' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/EP") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-pe-cl.gif' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/PUBL") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-op-cl.jpg' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/CONSIL") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-conseil-cl.jpg' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-conseil-cl.jpg' width='40' />" ;}
-if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/EEAS") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-eeas-cl.jpg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/use-context/ODP") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/sites/all/themes/openDataPortalTheme/images/odp_en.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/COM") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-commission-cl.jpg' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECB") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-bce-cl.jpg' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/CURIA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-cj-cl.gif' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-cdc-cl.gif' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/EP") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-pe-cl.gif' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/PUBL") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-op-cl.jpg' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/CONSIL") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-conseil-cl.jpg' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-conseil-cl.jpg' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/EEAS") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-eeas-cl.jpg' height='30' />" ;}
 
 
 //http://publications.europa.eu/ontology/euvoc#Site
 
-if (results[i].o.value.includes("twitter.com")) { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/1/1a/Twitter_topic_icon.svg' width='40' />" ;}
-if (results[i].o.value.includes("instagram.com")) { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/8/8b/Instagram_William_Aditya_Sarana.png'  width='40' />" ;}
-	
+if (results[i].o.value.includes("twitter.com")) { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/1/1a/Twitter_topic_icon.svg' height='30' />" ;}
+if (results[i].o.value.includes("instagram.com")) { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/8/8b/Instagram_William_Aditya_Sarana.png'  height='30' />" ;}
+
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/AGRI") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain01.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/ECON") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain05.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/EDUC") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain10.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/ENER") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain02.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/ENVI") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain09.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/GOVE") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain07.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/HEAL") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain11.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/INTR") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain06.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/JUST") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain08.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/REGI") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain03.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/SOCI") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain12.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/TECH") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain13.png' height='30' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-theme/TRAN") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/data/images/eurovoc_domains/odp_domain04.png' height='30' />" ;}
 
 	
 }
@@ -332,18 +345,18 @@ else
 	  
 	  	  var colonne2 = ligne.insertCell(0);//add a cell in the row
 	  colonne2.innerHTML += results[i].p.value ;
-	  if (results[i].p.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' width='40' />" ;}
-	  if (results[i].p.value=="http://www.w3.org/ns/org#organization") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/2/23/Noun_Projects_organization_icon_1235401.svg' width='40' />" ;}
-	  	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasTelephone") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png' width='40' />" ;}
-	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasEmail") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/5/5f/Email_Silk.svg' width='40' />" ;}
+	  if (results[i].p.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/ns/org#organization") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/2/23/Noun_Projects_organization_icon_1235401.svg' height='30' />" ;}
+	  	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasTelephone") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png' height='30' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasEmail") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/5/5f/Email_Silk.svg' height='30' />" ;}
 	  
-	  if (results[i].p.value=="http://www.w3.org/ns/org#member") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' width='40' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/ns/org#member") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' height='30' />" ;}
 	  
-	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#broader") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Zoom_out_font_awesome.svg' width='40' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#broader") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Zoom_out_font_awesome.svg' height='30' />" ;}
 	  
-	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#narrower") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/c/cd/Zoom_in_font_awesome.svg' width='40' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#narrower") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/c/cd/Zoom_in_font_awesome.svg' height='30' />" ;}
 	
-  if (results[i].p.value=="http://xmlns.com/foaf/0.1/homepage") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/dc/Crystal128-www.svg' width='40' />" ;}
+  if (results[i].p.value=="http://xmlns.com/foaf/0.1/homepage") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/dc/Crystal128-www.svg' height='30' />" ;}
 
   
 	  	
