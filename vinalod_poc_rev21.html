@@ -31,6 +31,9 @@ seed URI or nodeID:
 <OPTION>(Eurovoc concept)http://eurovoc.europa.eu/100224
 <OPTION>(theme of a publication)http://publications.europa.eu/resource/authority/pub-theme/G01A
 <OPTION>(theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
+<OPTION>(NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
+<OPTION>(Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
+
 <OPTION>---
 <OPTION>(A publication about cellar)http://publications.europa.eu/resource/cellar/50ecce27-857e-11e8-ac6a-01aa75ed71a1.0001
 <OPTION>(General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0004
@@ -39,12 +42,14 @@ seed URI or nodeID:
 <OPTION>(person: president of the EP)http://publications.europa.eu/resource/directory/person/EP_EP_096864
 <OPTION>(organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
 <OPTION>(organization: Council of the European Union)http://publications.europa.eu/resource/authority/corporate-body/CONSIL
+<OPTION>(organization deprecated: European Coal and Steel Community)http://publications.europa.eu/resource/authority/corporate-body/ECSC
+
 <OPTION>(EU Whoiswho dataset of the OP)http://publications.europa.eu/resource/directory/PUBL
 <OPTION>---
 <OPTION>(EU ODP: dataset)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
 <OPTION>(JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
-<OPTION>(NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
+
 <OPTION>---
 <OPTION>others that may not work properly
 <OPTION>http://publications.europa.eu/resource/dataset/CONSIL/2020-11-02_2020-11-02.MUL
@@ -56,6 +61,7 @@ seed URI or nodeID:
 <OPTION>http://publications.europa.eu/resource/genpub/2017.5061.ENG
 <OPTION>http://publications.europa.eu/resource/genpub/PUB_OA0117789ENC
 <OPTION>(person: http://publications.europa.eu/resource/directory/person/COM_00006AA30CD2
+<OPTION>(Site: building JEAN MONET in Luxembourg)http://publications.europa.eu/resource/authority/site/JMO
 
 
 
@@ -281,7 +287,25 @@ if (results[i].o.value=="http://dbpedia.org/ontology/Person") { colonne3.innerHT
 
 if (results[i].o.value=="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0") { colonne3.innerHTML += "<img src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg' width='40' />" ;}
 
+//http://publications.europa.eu/resource/authority/use-context/WHOISWHO
+//http://publications.europa.eu/resource/authority/use-context/EURLEX
+//http://publications.europa.eu/resource/authority/use-context/TED
 
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/4/47/Forbidden_Symbol.svg' width='40' />" ;}
+
+
+
+
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/use-context/ODP") { colonne3.innerHTML += "<img src='https://data.europa.eu/euodp/sites/all/themes/openDataPortalTheme/images/odp_en.png' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/COM") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-commission-cl.jpg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECB") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-bce-cl.jpg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/CURIA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-cj-cl.gif' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-cdc-cl.gif' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/EP") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-pe-cl.gif' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/PUBL") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-op-cl.jpg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/CONSIL") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-conseil-cl.jpg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/ECA") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-conseil-cl.jpg' width='40' />" ;}
+if (results[i].o.value=="http://publications.europa.eu/resource/authority/corporate-body/EEAS") { colonne3.innerHTML += "<img src='http://publications.europa.eu/code/images/scan/5000200-eeas-cl.jpg' width='40' />" ;}
 
 
 //http://publications.europa.eu/ontology/euvoc#Site
@@ -313,12 +337,15 @@ else
 	  	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasTelephone") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png' width='40' />" ;}
 	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasEmail") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/5/5f/Email_Silk.svg' width='40' />" ;}
 	  
-	  if (results[i].p.value=="http://www.w3.org/ns/org#member") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' width='40' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/ns/org#member") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg' width='40' />" ;}
 	  
-	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#broader") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Zoom_out_font_awesome.svg' width='40' />" ;}
+	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#broader") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Zoom_out_font_awesome.svg' width='40' />" ;}
 	  
-	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#narrower") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/c/cd/Zoom_in_font_awesome.svg' width='40' />" ;}
-	  
+	  if (results[i].p.value=="http://www.w3.org/2004/02/skos/core#narrower") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/c/cd/Zoom_in_font_awesome.svg' width='40' />" ;}
+	
+  if (results[i].p.value=="http://xmlns.com/foaf/0.1/homepage") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/dc/Crystal128-www.svg' width='40' />" ;}
+
+  
 	  	
 		
 	  
