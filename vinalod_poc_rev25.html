@@ -13,13 +13,14 @@
 <div align="right">
 SparQL endpoint:
 <SELECT id="url" NAME="url" SIZE="1"  >
-<OPTION>https://publications.europa.eu/webapi/rdf/sparql
-<OPTION>https://data.europa.eu/euodp/sparqlep
-<OPTION>http://publications.europa.eu/webapi/rdf/sparql
-<OPTION>http://data.europa.eu/euodp/sparqlep
-<OPTION>https://query.wikidata.org/bigdata/namespace/wdq/sparql
-<OPTION>https://query.wikidata.org/sparql
-<OPTION>http://lod.openaire.eu/sparql
+<OPTION>(CELLAR SECURE)https://publications.europa.eu/webapi/rdf/sparql
+<OPTION>(EU ODP SECURE)https://data.europa.eu/euodp/sparqlep
+<OPTION>(CELLAR)http://publications.europa.eu/webapi/rdf/sparql
+<OPTION>(EU ODP)http://data.europa.eu/euodp/sparqlep
+<OPTION>(WIKIDATA)https://query.wikidata.org/bigdata/namespace/wdq/sparql
+<OPTION>(WIKIDATA2)https://query.wikidata.org/sparql
+<OPTION>(OPENAIRE)http://lod.openaire.eu/sparql
+<OPTION>(EDP)http://lod.openaire.eu/sparql
 </SELECT>
 <SELECT id="lvid" NAME="lv" SIZE="1"  >
 <OPTION>en
@@ -31,27 +32,26 @@ SparQL endpoint:
 <!-- choice of name -->
 seed URI or nodeID:
 <SELECT id="seedid" NAME="seed" SIZE="1"  >
-<OPTION>(Eurovoc concept)http://eurovoc.europa.eu/100224
-<OPTION>(theme of a publication)http://publications.europa.eu/resource/authority/pub-theme/G01A
-<OPTION>(theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
-<OPTION>(NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
-<OPTION>(Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
+<OPTION>(CELLAR/EU ODP:Eurovoc concept)http://eurovoc.europa.eu/100224
+<OPTION>(CELLAR: theme of a publication)http://publications.europa.eu/resource/authority/pub-theme/G01A
+<OPTION>(CELLAR/EU ODP: theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
+<OPTION>(CELLAR/EU ODP: NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
+<OPTION>(CELLAR: Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
 
 <OPTION>---
-<OPTION>(A publication about cellar)http://publications.europa.eu/resource/cellar/50ecce27-857e-11e8-ac6a-01aa75ed71a1.0001
-<OPTION>(General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0004
+<OPTION>(CELLAR: A publication about cellar)http://publications.europa.eu/resource/cellar/50ecce27-857e-11e8-ac6a-01aa75ed71a1.0001
+<OPTION>(CELLAR: General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0004
 <OPTION>---
-<OPTION>(membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
-<OPTION>(person: president of the EP)http://publications.europa.eu/resource/directory/person/EP_EP_096864
-<OPTION>(organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
-<OPTION>(organization: Council of the European Union)http://publications.europa.eu/resource/authority/corporate-body/CONSIL
-<OPTION>(organization deprecated: European Coal and Steel Community)http://publications.europa.eu/resource/authority/corporate-body/ECSC
-
+<OPTION>(CELLAR: membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
+<OPTION>(CELLAR: person: president of the EP)http://publications.europa.eu/resource/directory/person/EP_EP_096864
+<OPTION>(CELLAR: organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
+<OPTION>(CELLAR/EU ODP: organization: Council of the European Union)http://publications.europa.eu/resource/authority/corporate-body/CONSIL
+<OPTION>(CELLAR/EU ODP:organization deprecated: European Coal and Steel Community)http://publications.europa.eu/resource/authority/corporate-body/ECSC
 <OPTION>(EU Whoiswho dataset of the OP)http://publications.europa.eu/resource/directory/PUBL
 <OPTION>---
 <OPTION>(EU ODP: dataset)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
-<OPTION>(JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
+<OPTION>(EU ODP: JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
 
 <OPTION>---
 <OPTION>http://www.wikidata.org/entity/Q11924796
@@ -210,8 +210,8 @@ LIMIT "+nbResultId.value+" \
 OFFSET "+pageId*nbResultId.value;
 
 
-
-var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  sparqlQuery  )+ "&format=json";
+// let's take the what is after "(XYZ)" in the URL
+var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURIComponent(  sparqlQuery  )+ "&format=json";
 //var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=json";
 //var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=application%2Fsparql-results%2Bjson";
 // encodeURI
