@@ -37,6 +37,7 @@ SparQL endpoint:
 Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" NAME="button" id="searchName" Value="Search" onClick="Back(this.form.name.value)"><br/>
 seed URI or nodeID:
 <SELECT id="seedid" NAME="seed" SIZE="1"  >
+<OPTION>(CELLAR EuroSciVoc concept "engineering and technology")http://publications.europa.eu/resource/authority/euroscivoc/073eaa71-d67e-4608-9918-8b5b63dbb6e8
 <OPTION>(CELLAR/EU ODP Label "juncker" - backward)juncker
 <OPTION>(CELLAR/EU ODP Label - backward)coronavirus disease
 <OPTION>(CELLAR/EU ODP:Eurovoc concept)http://eurovoc.europa.eu/100224
@@ -49,6 +50,7 @@ seed URI or nodeID:
 <OPTION>(CELLAR: membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
 <OPTION>(CELLAR: person: president of the EP)http://publications.europa.eu/resource/directory/person/EP_EP_096864
 <OPTION>(CELLAR: organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
+<OPTION>(CELLAR: organization )http://publications.europa.eu/resource/directory/organization/EP
 <OPTION>(CELLAR/EU ODP: organization: Council of the European Union)http://publications.europa.eu/resource/authority/corporate-body/CONSIL
 <OPTION>(CELLAR/EU ODP:organization deprecated: European Coal and Steel Community)http://publications.europa.eu/resource/authority/corporate-body/ECSC
 <OPTION>(Wikidata: Simone Veil)http://www.wikidata.org/entity/Q298180
@@ -235,7 +237,16 @@ if (isNaN(newSeed))
 
 		
 		//sparqlQuery = sparqlQuery +"filter(str(?o)='David Maria SASSOLI')";
-		sparqlQuery = sparqlQuery +"filter(?p=<http://xmlns.com/foaf/0.1/familyName>||?p=<http://www.w3.org/2004/02/skos/core#prefLabel>||?p=<http://publications.europa.eu/ontology/cdm#expression_abstract>)";
+		
+		sparqlQuery = sparqlQuery +"filter(?p=<http://www.w3.org/2004/02/skos/core#prefLabel>";
+		
+		// filter for cellar string text
+		sparqlQuery = sparqlQuery +"||?p=<http://xmlns.com/foaf/0.1/familyName>||?p=<http://publications.europa.eu/ontology/cdm#expression_abstract>";
+		
+		// filter for openair tring text
+		sparqlQuery = sparqlQuery +"||?p=<https://w3id.org/dingo#abstract_or_summary_description>||?p=<https://w3id.org/dingo#title>||?p=<https://w3id.org/dingo#legalName>";
+		sparqlQuery = sparqlQuery +")";
+		
 		//sparqlQuery = sparqlQuery +"?o rdf:type xsd:strings .";
 		}
 	
@@ -246,9 +257,9 @@ if (isNaN(newSeed))
 
 
 sparqlQuery = sparqlQuery + "}\
-order by DESC(?oLANG) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) ?s ?g \
-LIMIT "+nbResultId.value+" \
-OFFSET "+pageId*nbResultId.value;
+order by DESC(?oLANG) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) ?s ?g ";
+//if ((!(newSeed.includes('http')))&&backward==false) sparqlQuery = sparqlQuery + "(?o='"+newSeed+"') "; 
+sparqlQuery = sparqlQuery + "LIMIT "+nbResultId.value+" OFFSET "+pageId*nbResultId.value;
 
 
 // let's take the what is after "(XYZ)" in the URL
@@ -258,7 +269,7 @@ var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURICompon
 var tableau = document.getElementById("table_result");
 var theUri= document.getElementById("theUri");
 //theUri.innerHTML="Showing content of URI: "+newSeed;
-theUri.innerHTML="Searching content for "+newSeed;
+theUri.innerHTML="<i>Searching content for </i>"+newSeed;
 tableau.innerHTML = "";
 var seqNumber = ++queryCount;
 if (1> 0) {
@@ -274,7 +285,7 @@ else
 $.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
 	
-	theUri.innerHTML="Showing content of "+newSeed;
+	theUri.innerHTML="<i>Showing content of</i> "+newSeed;
 	
 	tableau.innerHTML = "";
 	var ligne = tableau.insertRow(-1);//add a row to the result table    
@@ -342,6 +353,11 @@ if (results[i].o.value.startsWith('http'))
 	
 	
 	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/MALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/9/90/Male_Icon.svg' height='30' />" ;}
+	
+	if (results[i].o.value=="http://publications.europa.eu/resource/authority/address-type/ADR_OFFICE") { colonne3.innerHTML += "<img src='https://static.thenounproject.com/png/26565-200.png' height='30' />" ;}
+	
+	
+	
 	if (results[i].o.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
 	if (results[i].o.value=="http://www.w3.org/ns/org#hasSite") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
 	if (results[i].o.value=="http://publications.europa.eu/resource/authority/country/DEU") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg' height='30' />" ;}
@@ -415,6 +431,9 @@ else
 	// if there is oID, it means it is a blank node, so we can go to this blank node
 	if (results[i].oID.value)
 	{colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='"+results[i].oID.value+"' onClick='Go(\""+results[i].oID.value+"\")'>";}
+	else
+	{colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='<-' onClick='Back(\""+results[i].o.value+"\")'>";}
+	
 }
 		  
 	  
