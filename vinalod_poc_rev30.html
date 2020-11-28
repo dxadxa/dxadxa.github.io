@@ -3,6 +3,11 @@
 <html>
 	<body>
 
+<style>
+div.center { text-align: center; }
+</style>
+
+
 <!-- this code aims to demonstrate navigation into SPARQL endpoint , EUPL 2020 X.DESURMONT-->
 
 <!-- the page -->
@@ -52,6 +57,7 @@ seed URI or nodeID:
 <OPTION>(CELLAR: organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
 <OPTION>(CELLAR: organization )http://publications.europa.eu/resource/directory/organization/EP
 <OPTION>(CELLAR/EU ODP: organization: Council of the European Union)http://publications.europa.eu/resource/authority/corporate-body/CONSIL
+<OPTION>(CELLAR/EU ODP: organization)http://publications.europa.eu/resource/authority/corporate-body/PUBL
 <OPTION>(CELLAR/EU ODP:organization deprecated: European Coal and Steel Community)http://publications.europa.eu/resource/authority/corporate-body/ECSC
 <OPTION>(Wikidata: Simone Veil)http://www.wikidata.org/entity/Q298180
 <OPTION>(Wikidata: David Sassoli)http://www.wikidata.org/entity/Q2391857
@@ -269,7 +275,7 @@ var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURICompon
 var tableau = document.getElementById("table_result");
 var theUri= document.getElementById("theUri");
 //theUri.innerHTML="Showing content of URI: "+newSeed;
-theUri.innerHTML="<i>Searching content for </i>"+newSeed;
+theUri.innerHTML="<i>Searching content for </i>"+newSeed +"<BR/><BR/><BR/><BR/><div class='center'>     <img src='https://upload.wikimedia.org/wikipedia/commons/9/92/Loading_icon_cropped.gif' height='40' /></div>";
 tableau.innerHTML = "";
 var seqNumber = ++queryCount;
 if (1> 0) {
