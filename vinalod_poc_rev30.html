@@ -39,7 +39,9 @@ SparQL endpoint:
 </div>
 
 <!-- choice of name -->
-Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" NAME="button" id="searchName" Value="Search" onClick="Back(this.form.name.value)"><br/>
+Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.name.value)">
+<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.name.value)">
+<br/>
 seed URI or nodeID:
 <SELECT id="seedid" NAME="seed" SIZE="1"  >
 <OPTION>(CELLAR EuroSciVoc concept "engineering and technology")http://publications.europa.eu/resource/authority/euroscivoc/073eaa71-d67e-4608-9918-8b5b63dbb6e8
@@ -67,6 +69,9 @@ seed URI or nodeID:
 <OPTION>http://dbpedia.org/resource/Jean-Claude_Juncker
 <OPTION>(EU Whoiswho dataset of the OP)http://publications.europa.eu/resource/directory/PUBL
 <OPTION>(EU ODP: dataset)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data
+<OPTION>(EU ODP: Catalogue of datasets of EU ODP)http://data.europa.eu/88u/catalog/euodp
+<OPTION>(EU ODP: list of catalogues - BACK)http://www.w3.org/ns/dcat#Catalog
+<OPTION>(EU ODP: all catalogue records - BACK)http://www.w3.org/ns/dcat#CatalogRecord
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
 <OPTION>(EU ODP: JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
 <OPTION>(OPENAIRE: the projet OPENAIR)http://lod.openaire.eu/data/erc/source/h2020/p_643410
