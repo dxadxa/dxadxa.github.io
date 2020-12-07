@@ -11,7 +11,7 @@ div.center { text-align: center; }
 <!-- this code aims to demonstrate navigation into SPARQL endpoint , EUPL 2020 X.DESURMONT-->
 
 <!-- the page -->
-<h2>VINALOD Proof of concept</h2>
+<h2><div style="color:red">VI</div>NALOD Proof of concept</h2>
 <FORM NAME="theForm" id="testformid">
 
 <!-- Choice of linguistic version of data -->
@@ -147,6 +147,7 @@ var searchquery;
 var queryCount=0;
 var newSeed ="";
 var backward=false;
+var sparqlQuery;
 
 // Get the input field
 var input = document.getElementById("nameid");
@@ -226,6 +227,15 @@ theForm = document.getElementById("testformid");
     QuickQuery(theForm);
 };
 
+function copyToClipboard() {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val(sparqlQuery).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+
 <!-- C. The quick query and display that goes fast during user typing -->
 function QuickQuery (form)
 {
@@ -234,7 +244,7 @@ $( 'pageInfo' ).html( '' );
 //from <dcatapop-public> \
 
 // 1. Find the person (quick and light version of the SparQL query)
-var sparqlQuery = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \
+sparqlQuery = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \
 select  distinct ?g ?s ?p ?o ?oID ?oLANG \
 where {GRAPH ?g {?s ?p ?o.} \
 bind (if(ISBLANK(?o),<LONG::bif:iri_id_num>(?o),'') as ?oID).";
@@ -315,7 +325,7 @@ else
 $.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
 	
-	theUri.innerHTML="<i>Showing content of</i> "+newSeed + " (number of rows: "+results.length+")";
+	theUri.innerHTML="<i>Showing content of</i> "+newSeed + " (number of rows: "+results.length+") <button onclick='copyToClipboard()'>Copy query to clipboard</button>";
 	
 	tableau.innerHTML = "";
 	var ligne = tableau.insertRow(-1);//add a row to the result table    
