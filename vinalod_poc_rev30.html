@@ -38,6 +38,12 @@ SparQL endpoint:
 </SELECT>
 </div>
 
+<!--- choice for a specific graph -->
+<SELECT id="graphnameid" NAME="graphname" SIZE="1"  >
+<OPTION>
+<OPTION>dcatapop-public
+</SELECT>
+
 <!-- choice of name -->
 Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.name.value)">
 <INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.name.value)">
@@ -74,6 +80,12 @@ seed URI or nodeID:
 <OPTION>(EU ODP: all catalogue records - BACK)http://www.w3.org/ns/dcat#CatalogRecord
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
 <OPTION>(EU ODP: JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
+<OPTION>(EU ODP: JRC NAMES: Jacques Chirac)http://data.europa.eu/euodp/resource/jrc-names/Jacques_Chirac
+<OPTION>(EU ODP: JRC NAMES: Jacques Chirac)http://data.europa.eu/euodp/resource/jrc-names/Jaques_Chiraci__et/canonicalForm>
+<OPTION>(EU ODP scoraboard)http://data.lod2.eu/scoreboard/country/Luxembourg
+<OPTION>(EU ODP scoraboard)http://data.lod2.eu/scoreboard/indicatorgroups/Internet+usage
+<OPTION>(EU ODP scoraboard)http://data.lod2.eu/scoreboard/indicators/AAAA_cov_1M_websites__websites
+<OPTION>(EU ODP EU BUDGET TEST)http://data.europa.eu/4rx/ABB2018/SEC3E
 <OPTION>(OPENAIRE: the projet OPENAIR)http://lod.openaire.eu/data/erc/source/h2020/p_643410
 <OPTION>(EDP: a dataset - NOT WORKING )https://europeandataportal.eu/set/data/cdd979d5-8b42-31a4-a33a-d31d5bc8930a
 <OPTION>http://publications.europa.eu/resource/authority/licence/COM_REUSE
@@ -114,6 +126,11 @@ seed URI or nodeID:
 </tr></table>
 <h2 id="theUri"></h2>
 <small><table id="table_result"></table></small>
+
+<div align="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Discover_Wikipedia_kids%27_T-shirt.jpg/240px-Discover_Wikipedia_kids%27_T-shirt.jpg" />
+</div>
+
 <pageInfo></pageInfo>
 
 <!-- Here is the code in javascript to handle the interaction with user and with SparQL endpoint -->
@@ -214,6 +231,8 @@ function QuickQuery (form)
 {
 $( 'pageInfo' ).html( '' );
 
+//from <dcatapop-public> \
+
 // 1. Find the person (quick and light version of the SparQL query)
 var sparqlQuery = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \
 select  distinct ?g ?s ?p ?o ?oID ?oLANG \
@@ -243,13 +262,13 @@ if (isNaN(newSeed))
 		else
 		{ 
 		//sparqlQuery = sparqlQuery +"filter(REGEX(ucase(str(?o)), '^"+newSeed.toUpperCase()+"'))";
-		sparqlQuery = sparqlQuery +"filter(REGEX(ucase(str(?o)), '"+newSeed.toUpperCase()+"'))";
+		sparqlQuery = sparqlQuery +"filter(REGEX(ucase(str(?o)), '"+newSeed.toUpperCase()+"')||str(?o)='"+newSeed+"')";
 	
 
 		
 		//sparqlQuery = sparqlQuery +"filter(str(?o)='David Maria SASSOLI')";
 		
-		sparqlQuery = sparqlQuery +"filter(?p=<http://www.w3.org/2004/02/skos/core#prefLabel>";
+		sparqlQuery = sparqlQuery +"filter(?p=<http://www.w3.org/2004/02/skos/core#prefLabel>||?p=<http://www.w3.org/2000/01/rdf-schema#label>";
 		
 		// filter for cellar string text
 		sparqlQuery = sparqlQuery +"||?p=<http://xmlns.com/foaf/0.1/familyName>||?p=<http://publications.europa.eu/ontology/cdm#expression_abstract>";
@@ -296,7 +315,7 @@ else
 $.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
 	
-	theUri.innerHTML="<i>Showing content of</i> "+newSeed;
+	theUri.innerHTML="<i>Showing content of</i> "+newSeed + " (number of rows: "+results.length+")";
 	
 	tableau.innerHTML = "";
 	var ligne = tableau.insertRow(-1);//add a row to the result table    
@@ -353,7 +372,7 @@ if (results[i].o.value.startsWith('http'))
 	//if starts with http then it is an uri, let's allow to go there
 	//colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='"+results[i].o.value+"' onClick='Go(this)'>";
 	colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='<-' onClick='Back(\""+results[i].o.value+"\")'>";
-	colonne3.innerHTML += results[i].o.value;
+	colonne3.innerHTML += "<a href='"+results[i].o.value+"'>"+results[i].o.value+"</a>";
 	colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='->' onClick='Go(\""+results[i].o.value+"\")'>";
 	  
 	
@@ -473,7 +492,14 @@ else
    
 	var colonne1 = ligne.insertCell(0);//add a cell in the row
 	  colonne1.innerHTML += "<INPUT TYPE='button' NAME='button' Value='<-' onClick='Back(\""+results[i].s.value+"\")'>";
-	  colonne1.innerHTML += results[i].s.value;
+	  
+
+if (results[i].s.value.startsWith('http'))
+{colonne1.innerHTML += "<a href='"+results[i].s.value+"'>"+results[i].s.value+"</a>";}
+else
+{olonne1.innerHTML += results[i].s.value;}
+
+	  	
 	  colonne1.innerHTML += "<INPUT TYPE='button' NAME='button' Value='->' onClick='Go(\""+results[i].s.value+"\")'>";
 
 
