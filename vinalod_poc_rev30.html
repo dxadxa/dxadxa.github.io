@@ -59,6 +59,8 @@ seed URI or nodeID:
 <OPTION>(CELLAR/EU ODP/EDP: theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
 <OPTION>(CELLAR/EU ODP: NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
 <OPTION>(CELLAR: Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
+<OPTION>(CELLAR: measurement unit: meter)http://publications.europa.eu/resource/authority/measurement-unit/MTR
+<OPTION>(CELLAR/EU ODP/EDP)http://publications.europa.eu/resource/authority/file-type/HTML
 <OPTION>(CELLAR: General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0006
 <OPTION>(CELLAR: membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
 <OPTION>(CELLAR: person: president of the EP)http://publications.europa.eu/resource/directory/person/EP_EP_096864
@@ -76,8 +78,11 @@ seed URI or nodeID:
 <OPTION>(EU Whoiswho dataset of the OP)http://publications.europa.eu/resource/directory/PUBL
 <OPTION>(EU ODP: dataset)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data
 <OPTION>(EDP: dataset of EU ODP)https://europeandataportal.eu/set/data/covid-19-coronavirus-data
+<OPTION>(EU ODP: dataset)http://data.europa.eu/88u/dataset/eu-whoiswho-the-official-directory-of-the-european-union
+<OPTION>(EDP: dataset of EU ODP)https://europeandataportal.eu/set/data/eu-whoiswho-the-official-directory-of-the-european-union
 <OPTION>(EU ODP: Catalogue of datasets of EU ODP)http://data.europa.eu/88u/catalog/euodp
 <OPTION>(EDP: Catalogue of datasets of EU ODP)https://europeandataportal.eu/id/catalogue/european-union-open-data-portal
+<OPTION>(EDP: Catalogue of datasets ESIF)https://europeandataportal.eu/id/catalogue/esif
 <OPTION>(EU ODP/EDP: list of catalogues - BACK)http://www.w3.org/ns/dcat#Catalog
 <OPTION>(EU ODP: all catalogue records - BACK)http://www.w3.org/ns/dcat#CatalogRecord
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
@@ -509,7 +514,7 @@ else
 if (results[i].s.value.startsWith('http'))
 {colonne1.innerHTML += "<a href='"+results[i].s.value+"'>"+results[i].s.value+"</a>";}
 else
-{olonne1.innerHTML += results[i].s.value;}
+{colonne1.innerHTML += results[i].s.value;}
 
 	  	
 	  colonne1.innerHTML += "<INPUT TYPE='button' NAME='button' Value='->' onClick='Go(\""+results[i].s.value+"\")'>";
