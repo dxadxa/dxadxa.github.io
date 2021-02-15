@@ -17,11 +17,12 @@ SparQL endpoint:
 <OPTION>(data.europa.eu)https://data.europa.eu/euodp/sparqlep
 <OPTION>(WIKIDATA)https://query.wikidata.org/sparql
 <OPTION>(OPENAIRE)http://lod.openaire.eu/sparql
+<OPTION>(EDP)http://lod.openaire.eu/sparql
 <!--<OPTION>-----
 <OPTION>(CELLAR)http://publications.europa.eu/webapi/rdf/sparql
 <OPTION>(EU ODP)http://data.europa.eu/euodp/sparqlep
 <OPTION>(WIKIDATA)https://query.wikidata.org/bigdata/namespace/wdq/sparql
-<OPTION>(EDP)http://lod.openaire.eu/sparql -->
+-->
 </SELECT>
 <SELECT id="lvid" NAME="lv" SIZE="1"  >
 <OPTION>en
@@ -38,22 +39,18 @@ seed URI or nodeID:
 <OPTION>(CELLAR/EU ODP: theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
 <OPTION>(CELLAR/EU ODP: NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
 <OPTION>(CELLAR: Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
-<OPTION>---
 <OPTION>(CELLAR: General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0005
-<OPTION>---
 <OPTION>(CELLAR: membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
 <OPTION>(CELLAR: person: president of the EP)http://publications.europa.eu/resource/directory/person/EP_EP_096864
 <OPTION>(CELLAR: organization: Unit EU Open Data and CORDIS)http://publications.europa.eu/resource/directory/organization/PUBL/COM_CRF_245238
 <OPTION>(CELLAR/EU ODP: organization: Council of the European Union)http://publications.europa.eu/resource/authority/corporate-body/CONSIL
 <OPTION>(CELLAR/EU ODP:organization deprecated: European Coal and Steel Community)http://publications.europa.eu/resource/authority/corporate-body/ECSC
 <OPTION>(EU Whoiswho dataset of the OP)http://publications.europa.eu/resource/directory/PUBL
-<OPTION>---
 <OPTION>(EU ODP: dataset)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
 <OPTION>(EU ODP: JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
-
 <OPTION>(OPENAIRE: the projet OPENAIR)http://lod.openaire.eu/data/erc/source/h2020/p_643410
-<OPTION>---
+<OPTION>(EDP: a dataset )https://europeandataportal.eu/set/data/cdd979d5-8b42-31a4-a33a-d31d5bc8930a
 <OPTION>(Wikidata: Simone Veil)http://www.wikidata.org/entity/Q298180
 <OPTION>(Wikidata: David Sassoli)http://www.wikidata.org/entity/Q2391857
 <OPTION>(Wikidata: Member of the European Parliament)http://www.wikidata.org/entity/Q27169
@@ -225,7 +222,7 @@ var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURICompon
 var tableau = document.getElementById("table_result");
 var theUri= document.getElementById("theUri");
 //theUri.innerHTML="Showing content of URI: "+newSeed;
-theUri.innerHTML="Showing content of URI: "+ "<INPUT TYPE='button' NAME='button' Value='"+newSeed+"' onClick='Back(this)'>";
+theUri.innerHTML="Showing content of URI: "+newSeed;
 var seqNumber = ++queryCount;
 if (1> 0) {
 

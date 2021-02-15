@@ -19,6 +19,7 @@ SparQL endpoint:
 <OPTION>http://data.europa.eu/euodp/sparqlep
 <OPTION>https://query.wikidata.org/bigdata/namespace/wdq/sparql
 <OPTION>https://query.wikidata.org/sparql
+<OPTION>http://lod.openaire.eu/sparql
 </SELECT>
 <SELECT id="lvid" NAME="lv" SIZE="1"  >
 <OPTION>en
@@ -224,11 +225,14 @@ $("result").html("<BR>");
 // 2.Display result of the quick query
 
 settings = {
-        headers: { Accept: 'application/sparql-results+json' },
-        
+url: queryUrl
+       , async: true        
     };
 
-$.ajax(queryUrl).then  (function( _data ) {
+// headers: { Accept: 'application/sparql-results+json' },
+
+//$.ajax({settings, error: function(xhr){   alert("An error occured: " + xhr.status + " " + xhr.statusText);}}).then  (function( _data ) {
+$.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
 	tableau.innerHTML = "";
 	var ligne = tableau.insertRow(-1);//add a row to the result table    

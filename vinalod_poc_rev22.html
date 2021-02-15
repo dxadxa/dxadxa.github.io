@@ -19,7 +19,6 @@ SparQL endpoint:
 <OPTION>http://data.europa.eu/euodp/sparqlep
 <OPTION>https://query.wikidata.org/bigdata/namespace/wdq/sparql
 <OPTION>https://query.wikidata.org/sparql
-<OPTION>http://lod.openaire.eu/sparql
 </SELECT>
 <SELECT id="lvid" NAME="lv" SIZE="1"  >
 <OPTION>en
@@ -104,7 +103,6 @@ seed URI or nodeID:
 <!-- Here is the code in javascript to handle the interaction with user and with SparQL endpoint -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
 <SCRIPT LANGUAGE="JavaScript">
 
 function getQueryParams(qs) {
@@ -192,27 +190,26 @@ function QuickQuery (form)
 $( 'pageInfo' ).html( '' );
 
 // 1. Find the person (quick and light version of the SparQL query)
-var sparqlQuery = "select  distinct ?s ?p ?o ?oID ?oLANG \
+var query = "select  distinct ?s ?p ?o ?oID ?oLANG \
 where {?s ?p ?o.\
-bind (if(ISBLANK(?o),<LONG::bif:iri_id_num>(?o),'') as ?oID).";
+bind (if(ISBLANK(?o),<LONG::bif:iri_id_num>(?o),'') as ?oID).\
+bind (if(LANG(?o),LANG(?o),'') as ?oLANG).";
 
-
-sparqlQuery = sparqlQuery + "bind (if(LANG(?o),LANG(?o),'') as ?oLANG).FILTER(?oLANG='"+form.lv.value+"'||?oLANG='')";
+query = query + "FILTER(?oLANG='"+form.lv.value+"'||?oLANG='')";
 
 if (isNaN(newSeed))
-	{	sparqlQuery = sparqlQuery +"filter(?s=<"+newSeed+">)";}
+	{	query = query +"filter(?s=<"+newSeed+">)";}
 	else
-	{	sparqlQuery = sparqlQuery +"filter(?s=bif:iri_id_from_num("+newSeed+"))";}
+	{	query = query +"filter(?s=bif:iri_id_from_num("+newSeed+"))";}
 
-sparqlQuery = sparqlQuery + "}\
+query = query + "}\
 order by DESC(?oLANG) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) \
 LIMIT "+nbResultId.value+" \
 OFFSET "+pageId*nbResultId.value;
 
 
 
-var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  sparqlQuery  )+ "&format=json";
-//var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=json";
+var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=json";
 //var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=application%2Fsparql-results%2Bjson";
 // encodeURI
 var tableau = document.getElementById("table_result");
@@ -224,15 +221,11 @@ if (1> 0) {
 $("result").html("<BR>");
 // 2.Display result of the quick query
 
-settings = {
-url: queryUrl
-       , async: true   , dataType: 'jsonp'     
-    };
-
-// headers: { Accept: 'application/sparql-results+json' },
-
-//$.ajax({settings, error: function(xhr){   alert("An error occured: " + xhr.status + " " + xhr.statusText);}}).then  (function( _data ) {
-$.ajax(settings).then  (function( _data ) {
+$.ajax({
+	//https://www.w3schools.com/jquery/ajax_ajax.asp
+    dataType: "jsonp",
+	type: "POST",
+    url: queryUrl}).then  (function( _data ) {
 	var results = _data.results.bindings;
 	tableau.innerHTML = "";
 	var ligne = tableau.insertRow(-1);//add a row to the result table    
@@ -347,9 +340,9 @@ if (results[i].o.value=="http://publications.europa.eu/resource/authority/data-t
 }
 else
 {
-	if (results[i].o["xml:lang"])
+	if (results[i].oLANG.value)
 	{//if this is a label in the requested linguitic version then display in italics
-		colonne3.innerHTML += "<i>"+results[i].o.value +"</i>" +  results[i].o["xml:lang"];}
+		colonne3.innerHTML += "<i>"+results[i].o.value +"</i>";}
 	else
 	{colonne3.innerHTML += results[i].o.value ;}
 	

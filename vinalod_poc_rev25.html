@@ -15,11 +15,12 @@ SparQL endpoint:
 <SELECT id="url" NAME="url" SIZE="1"  >
 <OPTION>(CELLAR SECURE)https://publications.europa.eu/webapi/rdf/sparql
 <OPTION>(EU ODP SECURE)https://data.europa.eu/euodp/sparqlep
+<OPTION>(WIKIDATA2)https://query.wikidata.org/sparql
+<OPTION>(OPENAIRE)http://lod.openaire.eu/sparql
+<OPTION>-----
 <OPTION>(CELLAR)http://publications.europa.eu/webapi/rdf/sparql
 <OPTION>(EU ODP)http://data.europa.eu/euodp/sparqlep
 <OPTION>(WIKIDATA)https://query.wikidata.org/bigdata/namespace/wdq/sparql
-<OPTION>(WIKIDATA2)https://query.wikidata.org/sparql
-<OPTION>(OPENAIRE)http://lod.openaire.eu/sparql
 <OPTION>(EDP)http://lod.openaire.eu/sparql
 </SELECT>
 <SELECT id="lvid" NAME="lv" SIZE="1"  >
@@ -37,9 +38,7 @@ seed URI or nodeID:
 <OPTION>(CELLAR/EU ODP: theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
 <OPTION>(CELLAR/EU ODP: NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
 <OPTION>(CELLAR: Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
-
 <OPTION>---
-<OPTION>(CELLAR: A publication about cellar)http://publications.europa.eu/resource/cellar/50ecce27-857e-11e8-ac6a-01aa75ed71a1.0001
 <OPTION>(CELLAR: General report on the activities of the European Union 2019)http://publications.europa.eu/resource/cellar/66b3214d-6281-11ea-b735-01aa75ed71a1.0004
 <OPTION>---
 <OPTION>(CELLAR: membership: President of the Commission)http://publications.europa.eu/resource/directory/membership/COM_COLL/COM-MDR_COM_COLL-00006A0440FF-000022A263-PRESID_COM-
@@ -53,12 +52,13 @@ seed URI or nodeID:
 <OPTION>(EU ODP: distribution)http://data.europa.eu/88u/distribution/260bbbde-2316-40eb-aec3-7cd7bfc2f590
 <OPTION>(EU ODP: JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
 
+<OPTION>(OPENAIRE: the projet OPENAIR)http://lod.openaire.eu/data/erc/source/h2020/p_643410
 <OPTION>---
-<OPTION>http://www.wikidata.org/entity/Q11924796
-<OPTION>http://www.wikidata.org/entity/Q1083483
-<OPTION>http://www.wikidata.org/entity/Q3624078
-<OPTION>http://www.wikidata.org/entity/Q16917
+<OPTION>(Wikidata: Simone Veil)http://www.wikidata.org/entity/Q298180
+<OPTION>(Wikidata: European Commission)http://www.wikidata.org/entity/Q8880
+
 <OPTION>---
+<OPTION>(CELLAR: A publication about cellar)http://publications.europa.eu/resource/cellar/50ecce27-857e-11e8-ac6a-01aa75ed71a1.0001
 
 <OPTION>others that may not work properly
 <OPTION>http://publications.europa.eu/resource/dataset/CONSIL/2020-11-02_2020-11-02.MUL
@@ -197,7 +197,7 @@ where {?s ?p ?o.\
 bind (if(ISBLANK(?o),<LONG::bif:iri_id_num>(?o),'') as ?oID).";
 
 
-sparqlQuery = sparqlQuery + "bind (if(LANG(?o),LANG(?o),'') as ?oLANG).FILTER(?oLANG='"+form.lv.value+"'||?oLANG='')";
+if (!(url.value.includes("wikidata"))) { sparqlQuery = sparqlQuery + "bind (if(LANG(?o),LANG(?o),'') as ?oLANG).FILTER(?oLANG='"+form.lv.value+"'||?oLANG='')"; }
 
 if (isNaN(newSeed))
 	{	sparqlQuery = sparqlQuery +"filter(?s=<"+newSeed+">)";}
@@ -224,10 +224,11 @@ if (1> 0) {
 $("result").html("<BR>");
 // 2.Display result of the quick query
 
-settings = {
-url: queryUrl
-       , async: true   , dataType: 'jsonp'     
-    };
+if (url.value.includes("wikidata"))
+{settings = { url: queryUrl, async: true       }; }
+else
+{settings = { url: queryUrl, async: true   , dataType: 'jsonp'     }; }
+
 
 // headers: { Accept: 'application/sparql-results+json' },
 
@@ -284,7 +285,7 @@ if (results[i].o.value.startsWith('http'))
 {
 	//if starts with http then it is an uri, let's allow to go there
 	colonne3.innerHTML += "<INPUT TYPE='button' NAME='button' Value='"+results[i].o.value+"' onClick='Go(this)'>";
-	if (results[i].o.value.endsWith('jpg')) { colonne3.innerHTML += "<img src='"+results[i].o.value+"' height='30' />" ;}
+	if (results[i].o.value.endsWith('jpg')||results[i].o.value.endsWith('jpeg')) { colonne3.innerHTML += "<img src='"+results[i].o.value+"' height='30' />" ;}
 	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/FEMALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/4/43/Correct_Female_Icon.svg' height='30' />" ;}
 	if (results[i].o.value=="http://publications.europa.eu/resource/authority/human-sex/MALE") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/9/90/Male_Icon.svg' height='30' />" ;}
 	if (results[i].o.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne3.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
@@ -349,7 +350,11 @@ else
 {
 	if (results[i].o["xml:lang"])
 	{//if this is a label in the requested linguitic version then display in italics
-		colonne3.innerHTML += "<i>"+results[i].o.value +"</i>" +  results[i].o["xml:lang"];}
+		if (results[i].o["xml:lang"]==form.lv.value)
+		{	colonne3.innerHTML += "<i>"+results[i].o.value +"</i>" ;}
+		else
+		{	colonne3.innerHTML += "<del>"+results[i].o.value +"</del> (" +  results[i].o["xml:lang"]+")";}
+		}
 	else
 	{colonne3.innerHTML += results[i].o.value ;}
 	
@@ -360,7 +365,14 @@ else
 		  
 	  
 	  	  var colonne2 = ligne.insertCell(0);//add a cell in the row
-	  colonne2.innerHTML += results[i].p.value ;
+
+if (results[i].p.value.startsWith('http'))
+{  colonne2.innerHTML += "<INPUT TYPE='button' NAME='button' Value='"+results[i].p.value+"' onClick='Go(this)'>"; }
+else
+{ colonne2.innerHTML += results[i].p.value ;}
+	  
+	  
+	  
 	  if (results[i].p.value=="http://publications.europa.eu/ontology/euvoc#contactPoint") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png' height='30' />" ;}
 	  if (results[i].p.value=="http://www.w3.org/ns/org#organization") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/2/23/Noun_Projects_organization_icon_1235401.svg' height='30' />" ;}
 	  	  if (results[i].p.value=="http://www.w3.org/2006/vcard/ns#hasTelephone") { colonne2.innerHTML += "<img src='https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png' height='30' />" ;}

@@ -17,6 +17,8 @@ SparQL endpoint:
 <OPTION>https://data.europa.eu/euodp/sparqlep
 <OPTION>http://publications.europa.eu/webapi/rdf/sparql
 <OPTION>http://data.europa.eu/euodp/sparqlep
+<OPTION>https://query.wikidata.org/bigdata/namespace/wdq/sparql
+<OPTION>https://query.wikidata.org/sparql
 </SELECT>
 <SELECT id="lvid" NAME="lv" SIZE="1"  >
 <OPTION>en
@@ -51,6 +53,12 @@ seed URI or nodeID:
 <OPTION>(JRC NAMES: David Sassoli)http://data.europa.eu/euodp/resource/jrc-names/David_Sassoli
 
 <OPTION>---
+<OPTION>http://www.wikidata.org/entity/Q11924796
+<OPTION>http://www.wikidata.org/entity/Q1083483
+<OPTION>http://www.wikidata.org/entity/Q3624078
+<OPTION>http://www.wikidata.org/entity/Q16917
+<OPTION>---
+
 <OPTION>others that may not work properly
 <OPTION>http://publications.europa.eu/resource/dataset/CONSIL/2020-11-02_2020-11-02.MUL
 <OPTION>http://publications.europa.eu/resource/dataset/CONSIL/2020-11-02_2020-11-02
@@ -185,6 +193,7 @@ var query = "select  distinct ?s ?p ?o ?oID ?oLANG \
 where {?s ?p ?o.\
 bind (if(ISBLANK(?o),<LONG::bif:iri_id_num>(?o),'') as ?oID).\
 bind (if(LANG(?o),LANG(?o),'') as ?oLANG).";
+
 query = query + "FILTER(?oLANG='"+form.lv.value+"'||?oLANG='')";
 
 if (isNaN(newSeed))
@@ -199,8 +208,8 @@ OFFSET "+pageId*nbResultId.value;
 
 
 
-var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=application%2Fsparql-results%2Bjson";
-//"&format=json";
+var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=json";
+//var queryUrl = url.value + "?query=" + prefixes +  encodeURIComponent(  query  ) + "&format=application%2Fsparql-results%2Bjson";
 // encodeURI
 var tableau = document.getElementById("table_result");
 var theUri= document.getElementById("theUri");
