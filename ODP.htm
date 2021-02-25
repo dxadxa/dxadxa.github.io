@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+  
+  <style type="text/css" media="screen">
+  #tabnav {
+        margin: 0;
+        padding: 0 0 20px 10px;
+        border-bottom: 1px solid #696;
+        }
+
+#tabnav li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+        }
+
+#tabnav a:link, #tabnav a:visited {
+        float: left;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: bold;
+        margin: 0 10px 4px 10px;
+        text-decoration: none;
+        color: #9c9;
+
+        }
+
+#tabnav li.active a:link, #tabnav li.active a:visited, #tabnav a:hover {
+        border-bottom: 4px solid #696;
+        padding-bottom: 2px;
+        background: #fff;
+        color: #363;
+        }
+
+#tabnav a:hover {
+        color: #696;
+        }
+  </style>
+  <title>DASHBOARD ODP (rev20210225)</title>
+
+  
+</head><body>
+
+<br/>
+
+<b>The aim of this page is to easily have access to operational information of ODP</b>
+
+<h2 id="BACK">NALs tables</h2>
+
+
+<h3>Sparql Endpoints</h3>
+
+
+<a href="http://cellarinternal.publications.europa.eu/webapi/rdf/sparql">PROD internal</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">PROD Back Office</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://fo1.virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">PROD Front Office 1</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://fo2.virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">PROD Front Office 2</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://publications.europa.eu/webapi/rdf/sparql">PROD</a> (time-out 6 minutes tested on the 20200505, 10 minutes 20201123)<br/>
+<a href="http://cellar-test.publications.europa.eu/webapi/rdf/sparql">cellar-test Front Office</a> (time-out 6 minutes tested on the 20200505)<br/>
+
+
+<H3>authority tables</H3>
+
+<a href="https://op.europa.eu/o/wiw-organization-detail/map.jsp?authority_code=MER">display of maps for site</a><br />
+<a href="http://publications.europa.eu/webapi/rdf/sparql?default-graph-uri=&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E+%0D%0A%0D%0Aselect++distinct+%3FNalConcept++%3FSourceMapping+%0D%0A%0D%0Awhere+%7B%0D%0A%3FNalConcept+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23context%3E+%3FSourceMapping.%0D%0A%0D%0A%0D%0Afilter%28%3FSourceMapping%3D%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fuse-context%2FODP%3E%29%0D%0A%7D+order+by+%3FNalConcept&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">Display the list of mapping ODP et OP autority tables</a>
+
+</body></html>
