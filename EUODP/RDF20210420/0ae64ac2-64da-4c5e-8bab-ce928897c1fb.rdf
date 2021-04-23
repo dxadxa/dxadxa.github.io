@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9c0f0411-ee25-46ec-92a0-8f401b5227aa">
+    <dcterms:description xml:lang="en">Web-mapping application  displaying geographic roll-up / drill-down of mean annual domestic waste emissions to freshwater network in the 2010s over administrative and hydrological geo-hierarchies. Data , stored at granularity of CCM 2.1 elementary catchments, are summarized over 4 level administrative, 4 level hydrological as well as 2 level official river basin district hierarchies. Map viewer defaults to population equivalent emissions over administrative areas. Upon different layer  selection it is possible to display different emission types over different hierarchies. Hierarchical level display is constrained to chosen zoom level. Attribute access provided upon mouse clicks on active map layers.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://water.jrc.ec.europa.eu/portal/apps/webappviewer/index.html?id=bbba0c3daa784e85b1f06bb091ccb7e4"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Domestic waste emissions to European freshwaters in the 2010s - (v 1.0) - Map Viewer - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/47eca5d2-b165-4d68-98a4-62f16d88da94">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0ae64ac2-64da-4c5e-8bab-ce928897c1fb"/>
+    <schema:url xml:lang="en">https://water.jrc.ec.europa.eu</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/0ae64ac2-64da-4c5e-8bab-ce928897c1fb">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/70dba2e6-7dc1-4c8e-b87d-c2ceea76bdfa"/>
+    <dcatapop:ckanName>0ae64ac2-64da-4c5e-8bab-ce928897c1fb</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/47eca5d2-b165-4d68-98a4-62f16d88da94"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6076d479-8c51-44ad-b8c2-ee37b669b0de"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7df84612-ecd4-44e0-a191-937af3e8ffa3"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-28</dcterms:issued>
+    <dcterms:description xml:lang="en">Mean annual domestic waste emissions (Population Equivalent, 5-days Biochemical Oxygen Demand BOD5, Nitrogen and Phosphorus) to freshwater network. Estimation of domestic waste emissions to waters is needed for pollution assessment and modelling. Quantity and location of domestic waste emissions to European freshwaters are provided for the 2010s. Specifically, the dataset reports mean annual domestic waste emissions in terms of Population Equivalent (PE), and loads (t/y) of total Nitrogen, total Phosphorus, and 5-days Biochemical Oxygen Demand (BOD). The assessment is based on available European databases, population density and national statistics data. The spatial resolution and extent of the analysis corresponded to the CCM2 River and Catchment Database for Europe. Data  distribution provided as attribute table of  CCM 2.1 elementary catchment polygons.</dcterms:description>
+    <dcat:keyword xml:lang="en">Population and society</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9c0f0411-ee25-46ec-92a0-8f401b5227aa"/>
+    <dcterms:title xml:lang="en">Domestic waste emissions to European freshwaters in the 2010s (v. 1.0)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>0ae64ac2-64da-4c5e-8bab-ce928897c1fb</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/305a235a-de8c-44f6-94c4-199c33929594"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b8b4b0b4-1d49-4b31-91ae-dff2c23c4679"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/305a235a-de8c-44f6-94c4-199c33929594">
+    <dcterms:description xml:lang="en">Csv file containing domestic waste emissions to European freshwaters in the 2010s as attributes of a CCM 2.1 elementary catchment feature class. A csv file containing  aggregated data at NUTS 3 administrative level is also provided</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Domestic waste emissions to European freshwaters in the 2010s - (v 1.0) - Csv file</dcterms:title>
+    <dcat:accessURL rdf:resource="https://water.jrc.ec.europa.eu/portal/sharing/rest/content/items/5e76a520079943a6a6cfa3d531567f8e/data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bda7745e-2443-4c64-a4b4-dc50891bde06">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/70dba2e6-7dc1-4c8e-b87d-c2ceea76bdfa">
+    <schema:url>http://data.europa.eu/89h/0ae64ac2-64da-4c5e-8bab-ce928897c1fb</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0ae64ac2-64da-4c5e-8bab-ce928897c1fb"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/0ae64ac2-64da-4c5e-8bab-ce928897c1fb</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6076d479-8c51-44ad-b8c2-ee37b669b0de">
+    <dcterms:description xml:lang="en">Vigiak, O., Grizzetti, B., Zanni, M., Dorati, C., Bouraoui, F., Aloe, A. and Pistocchi, A., Estimation of domestic and industrial waste emissions to European waters in the 2010s, EUR 29451 EN, Publications Office of the European Union, Luxembourg, 2018, ISBN 978-92-79-97297-3 (online),978-92-79-97296-6 (print),978-92-79-98211-8 (ePub), doi:10.2760/08152 (online),10.2760/204793 (print),10.2760/942431 (ePub), JRC113729.</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0ae64ac2-64da-4c5e-8bab-ce928897c1fb"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">Estimation of domestic and industrial waste emissions to European waters in the 2010s</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://doi.org/10.2760/08152</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b8b4b0b4-1d49-4b31-91ae-dff2c23c4679">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://water.jrc.ec.europa.eu/portal/sharing/rest/content/items/c2e240914a97460a8bbd84c891bd73f2/data"/>
+    <dcterms:title xml:lang="en">Domestic waste emissions to European freshwaters in the 2010s - (v 1.0) - File geodatabase</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">File geodatabase containing domestic waste emissions to European freshwaters in the 2010s as attributes of a CCM 2.1 elementary catchment feature class. A table class of aggregated data at NUTS 3 administrative level is also provided</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b167c834-d7d6-49ec-bfa5-94a4c39264f2">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/0ae64ac2-64da-4c5e-8bab-ce928897c1fb"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T10:33:19</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:02:49</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7df84612-ecd4-44e0-a191-937af3e8ffa3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="eu-hub-water-agriculture@ec.europe.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/bda7745e-2443-4c64-a4b4-dc50891bde06"/>
+  </rdf:Description>
+</rdf:RDF>

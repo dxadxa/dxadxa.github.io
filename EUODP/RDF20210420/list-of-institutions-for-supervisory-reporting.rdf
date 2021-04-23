@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d1ffa06e-7da0-4544-93c6-6214e49889c7">
+    <schema:url>https://eba.europa.eu/contacts</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/list-of-institutions-for-supervisory-reporting">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2149"/>
+    <dcatapop:ckanName>list-of-institutions-for-supervisory-reporting</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_8f89faac"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c4058fe4-5425-4e20-af93-f9f485229296"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1452"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4195"/>
+    <dcterms:description xml:lang="en">Updated list of financial institutions, which have a reporting obligation to the European Banking Authority (EBA).</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EBA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/828d7153-4728-4523-b162-0b1ca29a5dd6"/>
+    <dcterms:title xml:lang="en">EBA list of Institutions for Supervisory Reporting</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0c161697-a433-4234-9f7c-e0484ecac5bb"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0c161697-a433-4234-9f7c-e0484ecac5bb">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/list-of-institutions-for-supervisory-reporting"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://eba.europa.eu/risk-analysis-and-data</dcterms:title>
+    <schema:url>https://eba.europa.eu/risk-analysis-and-data</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/828d7153-4728-4523-b162-0b1ca29a5dd6">
+    <vcard:organisation-name>EBA European Banking Authority</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/d1ffa06e-7da0-4544-93c6-6214e49889c7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c4058fe4-5425-4e20-af93-f9f485229296">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:title xml:lang="en">List of Reporting Institutions</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://eba.europa.eu/documents/10180/15926/2019+update+of+EBA+List+of+Institutions+for+Supervisory+Reporting.xlsx/f408b62e-d82c-44dd-860e-e471d52de919"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://eba.europa.eu/documents/10180/15926/2019+update+of+EBA+List+of+Institutions+for+Supervisory+Reporting.xlsx/f408b62e-d82c-44dd-860e-e471d52de919"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/967104c8-45b9-4b8c-a4be-8d9de9f69d1c">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/list-of-institutions-for-supervisory-reporting"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-12T11:09:30</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-16T11:22:04</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

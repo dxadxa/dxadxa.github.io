@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0c41907c-30c6-472c-8295-07db1e26e368">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tesov252"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c6b5d6d9-0da0-4ba4-9edf-cc06f91dcbeb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tesov252.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3762d00c-6527-4f9c-ba41-eee63e0f16a9">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/eeba2bba-f55c-4ddd-b7e3-1b2e7ad450ad">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dA7HERaJjFVbAAzVwAUe2w">
+    <dcterms:title xml:lang="fr">Taux de risque de pauvreté avant transferts sociaux par groupe d'âge - enquête EU-SILC</dcterms:title>
+    <dcterms:description xml:lang="de">Anteil von Personen mit einem verfügbaren Äquivalenzeinkommen, vor Sozialleistungen, unter der Armutsgefährdungsschwelle. Alters- und Hinterblieben-Versorgung werden als Einkommen vor Sozialleistungen und nicht als Sozialleistungen verwendet.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0c41907c-30c6-472c-8295-07db1e26e368"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8e228a32-1802-4c84-bc44-44b755b10113"/>
+    <dcterms:identifier>tesov252</dcterms:identifier>
+    <dcterms:description xml:lang="en">The share of persons with an equivalised disposable income, before social transfers, below the at-risk-of-poverty threshold. Retirement and survivor's pensions are counted as income before transfers and not as social transfers.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f518004f-4c76-4a03-abdb-d5ac4c5194c4"/>
+    <dcterms:title xml:lang="en">At-risk-of-poverty rate before social transfers by age group - EU-SILC survey</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/74129611-2c5e-451f-9b76-71049cad7279"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c314ad2a-d262-4e22-b5b1-b13b3719c0c4"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/eeba2bba-f55c-4ddd-b7e3-1b2e7ad450ad"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:title xml:lang="de">Armutsgefährdungsquote vor Sozialleistungen nach Altersgruppe - EU-SILC Erhebung</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c6b5d6d9-0da0-4ba4-9edf-cc06f91dcbeb"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/db7ca6ad-d1f7-45d2-9acd-1b7cdba569a9"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/802cdece-cc90-4420-877b-1ed30b617b1f"/>
+    <dcatapop:ckanName>dA7HERaJjFVbAAzVwAUe2w</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/eba6ad78-5bb0-4c62-9ab0-c73ed544b2a7"/>
+    <dcterms:description xml:lang="fr">Proportion de personnes dont le revenu disponible équivalent, avant transferts sociaux, se situe en-dessous du seuil de risque de pauvreté. Les pensions de vieillesse et de survie sont considérées comme revenus d'origine et non pas comme des transferts sociaux.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f518004f-4c76-4a03-abdb-d5ac4c5194c4">
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tesov252"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8e228a32-1802-4c84-bc44-44b755b10113">
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tesov252"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/74129611-2c5e-451f-9b76-71049cad7279">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tesov252</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tesov252</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dA7HERaJjFVbAAzVwAUe2w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/f2de8931-b226-42f4-9fa7-841cbcc9bb48">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/db7ca6ad-d1f7-45d2-9acd-1b7cdba569a9">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tesov252.sdmx.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/802cdece-cc90-4420-877b-1ed30b617b1f">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dA7HERaJjFVbAAzVwAUe2w"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tesov252</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/79d8fa34-7673-476a-8be4-e023ec5eea6b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">759</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:43:55.522394</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:43:42</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dA7HERaJjFVbAAzVwAUe2w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c314ad2a-d262-4e22-b5b1-b13b3719c0c4">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tesov252.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/12f384a3-b35a-4796-b795-e457aee420dd">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/eba6ad78-5bb0-4c62-9ab0-c73ed544b2a7">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/3762d00c-6527-4f9c-ba41-eee63e0f16a9"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/12f384a3-b35a-4796-b795-e457aee420dd"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/f2de8931-b226-42f4-9fa7-841cbcc9bb48"/>
+  </rdf:Description>
+</rdf:RDF>

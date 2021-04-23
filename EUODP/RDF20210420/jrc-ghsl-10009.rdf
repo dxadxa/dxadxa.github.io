@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e2599f13-27fb-4f58-8bfe-1f69e4b5a44c">
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_BUILT_LDSMTIDC_GLOBE_R2018A/"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Multi-temporal Landsat imagery collections, with foootprints and metadata of the scenses, for epoch 1975, 1990, 2000 and 2014. Data organisation: SHP fileproduct. Projection: World Geodetic System 1984 (WGS 84) (EPSG:4326).</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">GHS_BUILT_LDSMTIDC_GLOBE_R2018A</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-ghsl-10009">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ef004e8d-d62a-4114-93aa-d6b6e0ee6ea9"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:ckanName>jrc-ghsl-10009</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e2599f13-27fb-4f58-8bfe-1f69e4b5a44c"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>jrc-ghsl-10009</dcterms:identifier>
+    <dcterms:description xml:lang="en">Multi-temporal information layers on footprint and metadata of Landsat scenes used in the production of GHS BUILT grid R2018A. The scenes are organised in imge data collections, and  were prepared by the Global Land Survey (GLS1975, GLS1990, GLS2000) and by the JRC (Landsat 8 collection for 2014).</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">Regions and cities</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/45d75aa6-0967-4453-b256-e6cfde8c7e99"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/0a33de2a-5f3c-4b6f-a8b8-1f5e1b73b5d6"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/dda5a194-0836-49cb-8698-5750023a6056"/>
+    <dcterms:title xml:lang="en">GHS-BUILT R2018A - GHS built-up grid INPUT DATA, Landsat multitemporal collections (1975-1990-2000-2014)</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-09</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/45d75aa6-0967-4453-b256-e6cfde8c7e99">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10009"/>
+    <schema:url>http://data.europa.eu/89h/jrc-ghsl-10009</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-ghsl-10009</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dda5a194-0836-49cb-8698-5750023a6056">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://ghsl.jrc.ec.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10009"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a1d1c047-4361-4d2b-a964-948ba276f44b">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:23:43</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05 18:59:08.067328</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0a33de2a-5f3c-4b6f-a8b8-1f5e1b73b5d6">
+    <dcterms:description xml:lang="en">Florczyk, A., Melchiorri, M., Corban, C., Schiavina, M., Maffenini, L., Pesaresi, M., Politis, P., Sabo, F., Carneiro Freire, S., Ehrlich, D., Kemper, T., Tommasi, P., Airaghi, D. and Zanchetta, L., Description of the GHS Urban Centre Database 2015, Publications Office of the European Union, Luxembourg, 2019, ISBN 978-92-79-99753-2 (online), doi:10.2760/037310 (online), JRC115586.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Description of the GHS Urban Centre Database 2015</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.2760/037310</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10009"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ef004e8d-d62a-4114-93aa-d6b6e0ee6ea9">
+    <vcard:hasEmail rdf:resource="jrc-ghsl-data@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/d6c16447-9ee4-42a2-888e-40e48aca2f25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d6c16447-9ee4-42a2-888e-40e48aca2f25">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3af40922-0779-469b-bb14-94f1f5a94ea8">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">322</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-105"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-18 07:11:48.598041</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:30:35</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-105">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:identifier>jrc-esdac-105</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcatapop:ckanName>jrc-esdac-105</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/51ffe91f-4a75-42e2-8525-4b70d0b80db3"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="en">This dataset consists of a number of data layers  (raster GRID maps) that are associated to the peer-reviewed  publication "Assessment of soil organic carbon stocks under future climate and land cover changes in Europe" . Layers cover the current Soil Organic Carbon Stocks (2016) and the projected Soil Organic Carbon Stocks  by 2050, for various Climate Scenarios (CCSM4, HadGEM2-AO , IPSL-CM5A-LR  MRI-CGCM3) and Representative Concentration Pathways (RCPs).</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/98ba5ddc-97e9-432e-9f7c-edce1a0c18c3"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-03</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f8f62953-4040-43e9-a4e3-5b6714a42195"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d94214df-0c96-40aa-bb55-a00e1df0e716"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-01</dcterms:issued>
+    <dcterms:title xml:lang="en">Soil Organic Carbon (SOC) Projections for Europe</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/98ba5ddc-97e9-432e-9f7c-edce1a0c18c3">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-105"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://esdac.jrc.ec.europa.eu/content/soil-organic-carbon-soc-projections-europe</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f8f62953-4040-43e9-a4e3-5b6714a42195">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/691a5429-d56d-4230-9d4b-1faf176cb4c2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/51ffe91f-4a75-42e2-8525-4b70d0b80db3">
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-105</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-105</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-105"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/691a5429-d56d-4230-9d4b-1faf176cb4c2">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d94214df-0c96-40aa-bb55-a00e1df0e716">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Soil Organic Carbon (SOC) Projections for Europe</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://esdac.jrc.ec.europa.eu/content/soil-organic-carbon-soc-projections-europe"/>
+  </rdf:Description>
+</rdf:RDF>

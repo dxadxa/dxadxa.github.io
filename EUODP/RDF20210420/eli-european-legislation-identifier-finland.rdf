@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c9cc310a-467e-4f5a-acf4-c41416eb8c5b">
+    <dcat:downloadURL rdf:resource="http://data.finlex.fi/en/download"/>
+    <dcat:accessURL rdf:resource="http://data.finlex.fi/en/download"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Downloading of datasets - JSON-LD, RDF and XML files as ZIP packages (License: CC-BY-4.0 or CC-BY-NC-4.0)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued xml:lang="en">2018-04-03 00:00:00</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">Please pay attention to the different licenses: http://data.finlex.fi/en/termsofuse</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eli-european-legislation-identifier-finland">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcatapop:ckanName>eli-european-legislation-identifier-finland</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">ELI (European Legislation Identifier) - Finland</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3032"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1589"/>
+    <dcatapop:datasetGroup rdf:resource="eli"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/78a116d1-6cc4-4b3d-9a41-fb53d8b3f713"/>
+    <owl:versionInfo>None</owl:versionInfo>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5127"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1533"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-04 17:05:16.617791</dcterms:modified>
+    <dcat:keyword xml:lang="en">ELI</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/154caac5-33c2-4000-a743-78e6e32742cc"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-04 08:56:48.393937</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a097bf24-d384-47f3-a44a-8bb6a55ce13f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c9cc310a-467e-4f5a-acf4-c41416eb8c5b"/>
+    <dcterms:description xml:lang="en">This is the ELI metadata of Finland. ELI (European Legislation Identifier) defines a common metadata model for sharing legislation description on the web of data.&#13;
+&#13;
+The key contents of the legal norms, such as acts, decrees that further define acts, and case-law (legal cases) related to their implementation have been available for viewing on the Internet, via the Finlex service provided by the Ministry of Justice. Although information on law and justice has been available, in this way, to human readers in the form of web pages, the datasets have not been available in the form of open data usable by IT applications, other online services and legislative applications through the downloading of data or via open interfaces.&#13;
+&#13;
+At its current initial stage, Semantic Finlex includes:&#13;
+&#13;
+* a wide range of original texts of acts and decrees (approx. 45,000),&#13;
+* consolidated legislation based on the aforementioned statutes (approx. 2,800),&#13;
+* decisions of the Supreme Court (approx. 5,400), and&#13;
+* decisions of the Supreme Administrative Court (approx. 7,000).&#13;
+&#13;
+The contents are automatically updated from the Finlex service.&#13;
+&#13;
+Please find further information here: http://data.finlex.fi/en/main&#13;
+And please pay attention to the different licenses: http://data.finlex.fi/en/termsofuse</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a097bf24-d384-47f3-a44a-8bb6a55ce13f">
+    <dcterms:title xml:lang="en">Data service and data model</dcterms:title>
+    <schema:url xml:lang="en">http://data.finlex.fi/en/datamodeling</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en">Data service and data model</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eli-european-legislation-identifier-finland"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/154caac5-33c2-4000-a743-78e6e32742cc">
+    <dcterms:title xml:lang="en">title_http://data.finlex.fi/en/main</dcterms:title>
+    <schema:url>http://data.finlex.fi/en/main</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eli-european-legislation-identifier-finland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/edc1cd29-11de-40d3-b61b-53c644102028">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">765</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-20T16:13:23</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eli-european-legislation-identifier-finland"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">655</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-04 08:56:48.393937</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/78a116d1-6cc4-4b3d-9a41-fb53d8b3f713">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

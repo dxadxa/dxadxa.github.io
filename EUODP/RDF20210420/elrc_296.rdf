@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_296">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cd24dd4e-19c6-431a-adce-88b40e06d058"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4ccade71-3694-4e73-a317-67939e5f7736"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-14 10:47:20.572902</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5d165c0f-139b-4598-aa55-19aa5d3b8d5b"/>
+    <dcterms:title xml:lang="en">Polish Food DataSet 3</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b079fb7b-5abe-4d23-b447-4d4beb498ddd"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-14 17:09:37.847392</dcterms:issued>
+    <dcterms:identifier>ELRC_296</dcterms:identifier>
+    <dcatapop:ckanName>elrc_296</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5af02afe-b3b2-4603-8e9d-09b12dd54f07"/>
+    <dcterms:description xml:lang="en">A collection of Polish-English translations of the Polish Food quarterly published by the Polish Ministry of Agriculture, including issues 61-64 and 79 (100K words in 2913 segments). The translations were manually aligned at the sentence level and encoded in the XLiFF format.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cd24dd4e-19c6-431a-adce-88b40e06d058">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:issued xml:lang="en">2017-12-18 16:49:13.754213</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: application/xml</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/polish-food-dataset-3/2df2bc0afe6e11e6bfe700155d0205027908c7d424d54aedb61197801b79a831/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b079fb7b-5abe-4d23-b447-4d4beb498ddd">
+    <dcterms:description xml:lang="en">Validation report</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://data.europa.eu/data/euodp/dataset/c4870066-545a-4e84-9cf9-797d8ce3f925/resource/0796e56c-58a7-4e60-9764-ed9877f32152/download/elrc296polishfooddataset3valrep.pdf"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4ccade71-3694-4e73-a317-67939e5f7736">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:description xml:lang="en">Metadata description</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://data.europa.eu/data/euodp/dataset/c4870066-545a-4e84-9cf9-797d8ce3f925/resource/5cd1ba27-b7ad-43af-864a-5ea914e6ff8a/download/elrc296polishfooddataset3md.xml"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ae91acb9-a918-4fb2-83f6-6e31703d3379">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:29:59</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_296"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">559</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">455</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14 17:09:37.847392</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5d165c0f-139b-4598-aa55-19aa5d3b8d5b">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_296</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_296</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_296"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5af02afe-b3b2-4603-8e9d-09b12dd54f07">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

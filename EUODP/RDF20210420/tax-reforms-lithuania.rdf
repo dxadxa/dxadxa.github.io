@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d1e5927f-d00a-41f1-9d2a-a232d2ecca8c">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_lt-tax-reforms-tables.xlsx"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Latest tax reforms - Lithuania</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_lt-tax-reforms-tables.xlsx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/cb8a6d60-8877-4e55-b031-be8964ea474c">
+    <vcard:organisation-name>European Commission, Taxation and Customs Union DG</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/ac56fa03-b744-46ce-b36c-290300bd1121"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ac56fa03-b744-46ce-b36c-290300bd1121">
+    <schema:url>https://ec.europa.eu/taxation_customs/contacts_en</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2d3a7df4-b233-49ed-ab2e-97b952a9115d">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-lithuania"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:52:38</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:52:38</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/tax-reforms-lithuania">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/561"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6343"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d2fb69c5-f4a6-4673-8cb4-c621d510cb2d"/>
+    <dcterms:title xml:lang="en">Tax reforms: Lithuania</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1310"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/dataset/taxes-in-europe-database"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1021"/>
+    <dcatapop:ckanName>tax-reforms-lithuania</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5709"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/57"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/cb8a6d60-8877-4e55-b031-be8964ea474c"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2504"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d1e5927f-d00a-41f1-9d2a-a232d2ecca8c"/>
+    <dcterms:description xml:lang="en">The dataset contains a table summarizing the main tax reforms in Lithuania.   &#13;
+The tables include the latest reforms announced, legislated or implemented during the current year and not published in the last [Tax policies in the European Union Survey] (https://ec.europa.eu/taxation_customs/business/company-tax/tax-good-governance/european-semester/tax-policies-european-union-survey_en).   &#13;
+The reforms are categorized by type of measure (VAT, CIT, PIT, etc.) and a brief description is provided along with the direction of change of the reform (base increase/decrease, rate increase/decrease).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d2fb69c5-f4a6-4673-8cb4-c621d510cb2d">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-lithuania"/>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

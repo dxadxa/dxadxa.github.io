@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ba0a9de5-1e85-426a-8d64-076709fe3a8e">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: JSON</dcterms:description>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: JSON</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/unofficial-consolidated-legislative-texts-slovene/86c1b430f43c11e6bfe700155d020502200c5e174af44ee0a1d4546971b342eb/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/8b6da94f-4000-4989-a86d-01110f222d62">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">434</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:31:55</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_287"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-02-22T07:51:21</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_287">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ba0a9de5-1e85-426a-8d64-076709fe3a8e"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-04-11</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SLV"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcatapop:ckanName>elrc_287</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">Unofficial Consolidated legislative texts (Slovene)</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/85ed7d53-4ea0-42e3-b422-b35ffd470417"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <dcterms:identifier>ELRC_287</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d551f211-2e1f-473e-aacc-3224e768e414"/>
+    <dcterms:description xml:lang="en">A collection (corpus in json format) of unofficial Consolidated text of the Laws, Regulations and other general acts in Slovenia. The dataset comprises 21556 HTML files with approximately  103 million tokens. More information: https://nio.gov.si/nio/data/neuradna+preciscena+besedila+predpisov?lang=en
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/85ed7d53-4ea0-42e3-b422-b35ffd470417">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_287</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_287"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_287</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d551f211-2e1f-473e-aacc-3224e768e414">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

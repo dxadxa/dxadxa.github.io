@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e180a625-e7fa-4638-b7e1-17b459f6b16e">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:42:05.481434</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:53:41</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">264</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/18lQMpvhCb1GW1Q7kWukxA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/eb5bdd28-eef9-4d95-9f40-f94cc40a7767">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_de060.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/78da3f6d-7518-4070-bdc9-787a4b282208">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_de060.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6f5f31a8-c680-41e1-aba9-8e74e3824417">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/18lQMpvhCb1GW1Q7kWukxA">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/78da3f6d-7518-4070-bdc9-787a4b282208"/>
+    <dcterms:title xml:lang="en">Participation in formal education by type of disability, sex and age</dcterms:title>
+    <dcterms:description xml:lang="de">Beteiligung an formaler Bildung, nach Art der Behinderung, Geschlecht und Alter</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/66ba54db-aa13-4794-a133-abca806b00ac"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8f1e55b5-1e9f-4671-ba16-aac3816accf8"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="de">Beteiligung an formaler Bildung, nach Art der Behinderung, Geschlecht und Alter</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="en">Participation in formal education by type of disability, sex and age</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/97ff2fe6-ca80-4d7e-9ee8-96823d517641"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-21</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:title xml:lang="fr">Participation à l'éducation formelle par type d'incapacité, sexe et âge</dcterms:title>
+    <dcterms:identifier>hlth_de060</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d23a3f16-0c93-4635-ae85-623dd17d2f5a"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/20505141-b81c-4c26-b9f8-e24972e0a7b6"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/eb5bdd28-eef9-4d95-9f40-f94cc40a7767"/>
+    <dcatapop:ckanName>18lQMpvhCb1GW1Q7kWukxA</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:description xml:lang="fr">Participation à l'éducation formelle par type d'incapacité, sexe et âge</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f7c89a0f-1b24-41c6-82c0-c0374f7827a0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1280"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/6452e356-1e64-4ddb-8d47-ed28b8a1287b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f7c89a0f-1b24-41c6-82c0-c0374f7827a0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/18lQMpvhCb1GW1Q7kWukxA"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/hlth_dsb_prv_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/66ba54db-aa13-4794-a133-abca806b00ac">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/hlth_dsb_prv_esms.sdmx.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/18lQMpvhCb1GW1Q7kWukxA"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8f1e55b5-1e9f-4671-ba16-aac3816accf8">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/18lQMpvhCb1GW1Q7kWukxA"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_de060</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/6452e356-1e64-4ddb-8d47-ed28b8a1287b">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d23a3f16-0c93-4635-ae85-623dd17d2f5a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_de060.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/97ff2fe6-ca80-4d7e-9ee8-96823d517641">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/18lQMpvhCb1GW1Q7kWukxA"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_de060</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_de060</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/7f4df288-d085-4776-881a-d295d493c84f">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/0adc2c52-641a-4ff7-9317-c024c916a577">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/20505141-b81c-4c26-b9f8-e24972e0a7b6">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/6f5f31a8-c680-41e1-aba9-8e74e3824417"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/7f4df288-d085-4776-881a-d295d493c84f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/0adc2c52-641a-4ff7-9317-c024c916a577"/>
+  </rdf:Description>
+</rdf:RDF>

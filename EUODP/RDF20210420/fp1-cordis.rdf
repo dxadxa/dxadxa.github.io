@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6d71deaf-4847-45e8-8bfc-15dc4a8bc501">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/fp1-cordis"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-11 16:28:36.886177</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1930</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-02-01T13:02:14</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2719c786-112d-438a-9ddb-f2ebf5be43c3">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">FP1 Organisations</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">List of participating organisations including project Record Control Number (RCN), project ID, project acronym, organisation role, organisation name, organisation short name, organisation type, organisation country</dcterms:description>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP1/cordis-fp1organizations.csv"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/fp1-cordis">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3656"/>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcat:keyword xml:lang="en">research results</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-29 09:23:23.916402</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-11 16:28:36.886177</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e97d7595-c11d-4600-b01c-37886de9e496"/>
+    <dcat:keyword xml:lang="en">research and innovation</dcat:keyword>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/NEVER"/>
+    <dcterms:description xml:lang="en">This dataset contains projects funded by the European Union under the first framework programme for research and technological development (FP1) from 1984 to 1987. &#13;
+&#13;
+The file 'FP1 Projects' contains the public grant information for each project, including the following information: Record Control Number (RCN), project ID (grant agreement number), project acronym, project status, funding programme, topic, project title, project start date, project end date, project objective, project total cost, EC max contribution (commitment), call ID, funding scheme (type of action), coordinator, coordinator country, participants (ordered in a semi-colon separated list), participant countries (ordered in a semi-colon separated list).&#13;
+&#13;
+The participating organisations are listed in the file 'FP1 Organisations' which includes: project Record Control Number (RCN), project ID, project acronym, organisation role, organisation ID, organisation name, organisation short name, organisation type, participation ended (true/false), EC contribution, organisation country.&#13;
+&#13;
+**The dataset has been updated to match the structure of more recent datasets - some fields may not be populated**&#13;
+&#13;
+Reference data (countries, funding schemes/types of action, subjects (SIC codes)) can be found in this dataset: https://data.europa.eu/euodp/en/data/dataset/cordisref-data</dcterms:description>
+    <dcatapop:ckanName>fp1-cordis</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9b0230e1-091a-4322-b2e7-adee1b48cb9d"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e081f7d6-d9b7-4a5a-925f-55ff1991acf8"/>
+    <dcterms:title xml:lang="en">CORDIS - EU funded projects under FP1 (1984–1987)</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/95353413-40c2-45fb-823f-a38ad69d3567"/>
+    <dcat:keyword xml:lang="en">FP1</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/46449543-50f0-4008-ab41-954a6f12ea4f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/36d42b25-ea8c-48dd-bf1d-1172e572a46c"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8454"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2801"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2719c786-112d-438a-9ddb-f2ebf5be43c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/36d42b25-ea8c-48dd-bf1d-1172e572a46c">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/16930346-bf09-4182-9647-f5c3dcee38df"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/629a6005-ab3a-4949-98d9-51af84ed8ec4"/>
+    <vcard:hasEmail rdf:resource="cordis@publications.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/95353413-40c2-45fb-823f-a38ad69d3567">
+    <dcterms:title xml:lang="en">FP1 Projects</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">FP1 projects</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP1/cordis-fp1projects.xlsx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/16930346-bf09-4182-9647-f5c3dcee38df">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://cordis.europa.eu/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/629a6005-ab3a-4949-98d9-51af84ed8ec4">
+    <vcard:hasValue rdf:resource="+352292942210"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e97d7595-c11d-4600-b01c-37886de9e496">
+    <dcterms:description xml:lang="en">Full XML for each FP1 project</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">FP1 Projects (individual XML files)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP1/cordis-fp1projects-xml.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9b0230e1-091a-4322-b2e7-adee1b48cb9d">
+    <dcterms:description xml:lang="en">List of participating organisations including project Record Control Number (RCN), project ID, project acronym, organisation role, organisation name, organisation short name, organisation type, organisation country</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:title xml:lang="en">FP1 Organisations</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP1/cordis-fp1organizations.xlsx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/46449543-50f0-4008-ab41-954a6f12ea4f">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP1/cordis-fp1projects.csv"/>
+    <dcterms:title xml:lang="en">FP1 Projects</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:description xml:lang="en">FP1 projects</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e081f7d6-d9b7-4a5a-925f-55ff1991acf8">
+    <dcterms:title xml:lang="en">title_https://cordis.europa.eu/guidance/archive_en.html</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>https://cordis.europa.eu/guidance/archive_en.html</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

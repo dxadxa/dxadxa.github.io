@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8f9df772-9cff-4469-ada9-3ddba466c70a">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/earn_ses14_actrl.tsv.gz"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f4e9ecf3-6562-4c98-84e9-20bbff387513">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/earn_ses14_actrl.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c3b15812-dea8-460c-825c-f2cb846bd533">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/earn_ses14_actrl.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/0d19cf60-e470-4914-87a6-1d6ef67dc670">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:03:19</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/UOZldD6LYJ6U01ZeSPybMQ"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2016-07-08 06:17:48.752913</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/6b92a59b-36ac-4ae0-823b-a7b79710301f">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/UOZldD6LYJ6U01ZeSPybMQ">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/76c63a62-08c7-406c-a56f-b74fef618f02"/>
+    <dcterms:title xml:lang="de">Jahresverdienst nach wirtschaftlicher Kontrolle (Unternehmen mit 10 beschäftige Personen oder mehr) - NACE Rev. 2, B-S ohne O</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1802"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f4e9ecf3-6562-4c98-84e9-20bbff387513"/>
+    <dcterms:title xml:lang="en">Annual earnings by economic control (enterprises with 10 employed persons or more) - NACE Rev. 2, B-S excluding O</dcterms:title>
+    <dcterms:title xml:lang="fr">Salaire annuel par type de contrôle économique (entreprises avec 10 personnes employées ou plus) - NACE Rév. 2, B-S excepté O</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/0a7908a4-da09-4fde-b98d-1c83d284b193"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-13</dcterms:modified>
+    <dcatapop:ckanName>UOZldD6LYJ6U01ZeSPybMQ</dcatapop:ckanName>
+    <dcterms:description xml:lang="fr">Salaire annuel par type de contrôle économique (entreprises avec 10 personnes employées ou plus) - NACE Rév. 2, B-S excepté O</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d304d39e-ed71-4de6-80d2-8d624d2624bb"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e9da9bca-0b27-4389-995c-58ac75484cd3"/>
+    <dcterms:description xml:lang="en">Annual earnings by economic control (enterprises with 10 employed persons or more) - NACE Rev. 2, B-S excluding O</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c3b15812-dea8-460c-825c-f2cb846bd533"/>
+    <dcterms:identifier>earn_ses14_actrl</dcterms:identifier>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/1cb7f2ec-d678-4717-b728-f55e3bb36094"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/67509962-6541-42de-93e3-083213f2edc5"/>
+    <dcterms:description xml:lang="de">Jahresverdienst nach wirtschaftlicher Kontrolle (Unternehmen mit 10 beschäftige Personen oder mehr) - NACE Rev. 2, B-S ohne O</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8f9df772-9cff-4469-ada9-3ddba466c70a"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/76c63a62-08c7-406c-a56f-b74fef618f02">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/UOZldD6LYJ6U01ZeSPybMQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/earn_ses14_actrl</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/earn_ses14_actrl</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/1cb7f2ec-d678-4717-b728-f55e3bb36094">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d304d39e-ed71-4de6-80d2-8d624d2624bb">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/UOZldD6LYJ6U01ZeSPybMQ"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/earn_ses14_actrl</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0a7908a4-da09-4fde-b98d-1c83d284b193">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/earn_ses2014_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/UOZldD6LYJ6U01ZeSPybMQ"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/67509962-6541-42de-93e3-083213f2edc5">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/480c9693-9260-4a80-815a-c69c662a166b"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/6b92a59b-36ac-4ae0-823b-a7b79710301f"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/fa4fba4c-853a-48d8-b7a9-0d4b240d99e6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e9da9bca-0b27-4389-995c-58ac75484cd3">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/earn_ses2014_esms.sdmx.zip</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/UOZldD6LYJ6U01ZeSPybMQ"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/fa4fba4c-853a-48d8-b7a9-0d4b240d99e6">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/480c9693-9260-4a80-815a-c69c662a166b">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3269e650-ed9b-4e70-b1c4-de9fc9767f47">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipspd10.sdmx.zip"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/2a4cec92-8e82-45b6-a31b-37084398d4b9">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/de630eac-00c1-4ec4-82ec-9cb1e0fa47e2">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b8d012db-cbbb-41b7-9c81-e8695319dd17">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3kotQHy3UWFPikVdBuX2g"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/tipspd_esms.sdmx.zip</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f31b2aca-5cb5-4919-a5d3-53998d551e3b">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tipspd10"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f972bf59-520e-4208-895a-1d64111251a2">
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tipspd10"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d6146c64-b273-4980-b572-305ac6fc2a99">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipspd10.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/3kotQHy3UWFPikVdBuX2g">
+    <dcterms:description xml:lang="de">Der Schuldenstand des privaten Sektors umfasst den Bestand an Verbindlichkeiten der Sektoren nichtfinanzielle Kapitalgesellschaften, Private Haushalte und Organisationen ohne Erwerbszweck (S.11_S.14_S.15). Die Instrumente, die bei der Zusammenstellung des Schuldenstands des privaten Sektors berücksichtigt werden, sind Schuldverschreibungen (F.3) und Kredite (F.4). Die Daten werden nicht konsolidiert dargestellt (d. h. Transaktionen innerhalb desselben Sektors werden berücksichtigt), und zwar in % des BIP und in Mio. Landeswährung. Die Definitionen der Sektoren und Instrumente stützen sich auf das ESVG 2010.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/508a8a33-34a0-42c3-ad60-235d22838679"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/136d5f03-b358-4b2a-b587-98c06083d586"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d6146c64-b273-4980-b572-305ac6fc2a99"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/166a5e91-6250-454e-aab3-920a4167a5a9"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b8d012db-cbbb-41b7-9c81-e8695319dd17"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcatapop:ckanName>3kotQHy3UWFPikVdBuX2g</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/9d11c667-f1cc-404a-92a1-ada7ae48cc09"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/98ad3a39-2d32-4433-91ca-2ef545223916"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:title xml:lang="en">Private sector debt, non-consolidated</dcterms:title>
+    <dcterms:description xml:lang="fr">La dette du secteur privé correspond aux encours des passifs des secteurs des sociétés non financières, des ménages et des institutions sans but lucratif au service des ménages (S.11_S.14_S.15). Les instruments pris en compte dans le calcul de la dette du secteur privé sont les titres de créances (F.3) et les crédits (F.4). Les données sont présentées en termes non consolidés, c'est-à-dire en tenant compte des opérations effectuées entre unités d'un même secteur, et sont exprimées sous forme de pourcentage du PIB et en millions d'unités monétaires nationales. Les concepts utilisés pour la définition des secteurs et des instruments sont conformes au SEC 2010.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-29</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/774cb026-c84a-4bfc-9999-78c400bc2f67"/>
+    <dcterms:title xml:lang="fr">Dette du secteur privé, non consolidée</dcterms:title>
+    <dcterms:description xml:lang="en">The private sector debt is the stock of liabilities held by the sectors Non-Financial corporations, Households and Non-Profit institutions serving households (S.11_S.14_S.15). The instruments that are taken into account to compile private sector debt are Debt securities (F.3) and Loans (F.4). Data are presented in non-consolidated terms, i.e. taking into account transactions within the same sector and expressed in % of GDP and million of national currency. Definitions regarding sectors and instruments are based on the ESA 2010.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3269e650-ed9b-4e70-b1c4-de9fc9767f47"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f972bf59-520e-4208-895a-1d64111251a2"/>
+    <dcterms:identifier>tipspd10</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/56"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f31b2aca-5cb5-4919-a5d3-53998d551e3b"/>
+    <dcterms:title xml:lang="de">Schuldenstand des privaten Sektors, nicht konsolidiert</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a8168588-5603-47e6-96c9-f068423f292c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/7cb13692-46e1-4642-ab01-44debe6fd676">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/3kotQHy3UWFPikVdBuX2g"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1052</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-30T07:53:52</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1150</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 13:43:57.142748</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/98ad3a39-2d32-4433-91ca-2ef545223916">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tipspd10</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tipspd10</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3kotQHy3UWFPikVdBuX2g"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9d11c667-f1cc-404a-92a1-ada7ae48cc09">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3kotQHy3UWFPikVdBuX2g"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/tipspd_esms.htm</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/136d5f03-b358-4b2a-b587-98c06083d586">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/508a8a33-34a0-42c3-ad60-235d22838679">
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tipspd10"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a8168588-5603-47e6-96c9-f068423f292c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/de630eac-00c1-4ec4-82ec-9cb1e0fa47e2"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/2402e86b-8ec6-4747-a2e4-6067d7675472"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/2a4cec92-8e82-45b6-a31b-37084398d4b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/166a5e91-6250-454e-aab3-920a4167a5a9">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tipspd10</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3kotQHy3UWFPikVdBuX2g"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/774cb026-c84a-4bfc-9999-78c400bc2f67">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipspd10.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/2402e86b-8ec6-4747-a2e4-6067d7675472">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

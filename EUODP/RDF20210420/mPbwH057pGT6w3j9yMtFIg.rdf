@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/89b93bb1-d61e-460e-ae01-1ef31fe7bae5">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tsc00009.tsv.gz"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e31aa74b-58e1-48d8-9a39-8419307df4c4">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsc00009</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/mPbwH057pGT6w3j9yMtFIg"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tsc00009</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/84acd488-e302-4ccc-8c96-4abde2549347">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tsc00009"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/mPbwH057pGT6w3j9yMtFIg">
+    <dcatapop:ckanName>mPbwH057pGT6w3j9yMtFIg</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/23f39e38-1775-40e7-9e2f-f61753b19bef"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/45a726c1-42e5-463d-8c3a-3b329827be7d"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <dcterms:identifier>tsc00009</dcterms:identifier>
+    <dcat:keyword xml:lang="en">patent</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="de">Patentanmeldungen beim Europäischen Patentamt (EPA) nach Prioritätsjahr</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/0939a40e-ed24-48ef-ba42-2eea36f8b6a1"/>
+    <dcterms:description xml:lang="en">The total European patent applications refer to requests for protection of an invention directed either directly to the European Patent Office (EPO) or filed under the Patent Cooperation Treaty and designating the EPO (Euro-PCT), regardless of whether they are granted or not. The data shows the total number of applications per country. If one application has more than one inventor, the application is divided equally among all of them and subsequently among their countries of residence, thus avoiding double counting.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9b0aeeba-7ba4-4327-abfe-1c82aae3bfe6"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:keyword xml:lang="en">research and development</dcat:keyword>
+    <dcterms:title xml:lang="en">Patent applications to the European patent office (EPO) by priority year</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/aeb6bf96-b032-4b0e-a67e-69f6dcc319ef"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/84acd488-e302-4ccc-8c96-4abde2549347"/>
+    <dcterms:description xml:lang="de">Die Gesamtzahl der europäischen Patentanmeldungen bezieht sich auf die Anträge auf den Schutz einer Erfindung, die entweder direkt beim Europäischen Patentamt (EPA) eingereicht werden oder bei denen das EPA gemäß dem Patentzusammenarbeitsvertrag als Adressat benannt wird (Euro-PCT); dabei spielt es keine Rolle, ob dem Antrag stattgegeben wird. Die Daten geben die Gesamtzahl der Anmeldungen je Land an. Wenn eine Anmeldung mehr als einen Erfinder hat, wird die Anmeldung gleichmässig auf die Erfinder aufgeteilt, und damit auf die Länder, in denen die Erfinder wohnhaft sind. Damit werden Mehrfachzählungen vermieden.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7681f923-0fc8-4588-8b18-3a6673ed32b1"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/eb2a0c44-ad4d-4934-a067-65d2b17b3c6b"/>
+    <dcterms:description xml:lang="fr">Le total des dépôts de brevets européens correspond aux demandes de protection d'une invention adressée soit directement à l'Office européen des brevets (OEB), soit classée dans le cadre du traité de coopération en matière de brevets et désignant l'OEB (Euro-PCT), qu'ils aient été accordés ou non. Les données indiquent le nombre total de demandes par pays. Si une demande a plus d'un inventeur, elle est divisé en part égale entre chaque inventeur et dans un deuxième temps, entre leur pays de résidence, ceci afin d'éviter un double comptage.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e31aa74b-58e1-48d8-9a39-8419307df4c4"/>
+    <dcterms:title xml:lang="fr">Demandes de brevets déposées auprès de l'office européen des brevets (OEB) par année de priorité</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/89b93bb1-d61e-460e-ae01-1ef31fe7bae5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/eb2a0c44-ad4d-4934-a067-65d2b17b3c6b">
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tsc00009"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4a205d04-b22c-48d8-b93e-b8b2bd160b11">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7681f923-0fc8-4588-8b18-3a6673ed32b1">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/4a205d04-b22c-48d8-b93e-b8b2bd160b11"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/3c10fba7-2802-425c-8dcd-946ffb492213"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/765f036b-306d-49cf-8d2c-da2a83445f7d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/45a726c1-42e5-463d-8c3a-3b329827be7d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tsc00009</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/mPbwH057pGT6w3j9yMtFIg"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/0939a40e-ed24-48ef-ba42-2eea36f8b6a1">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/aeb6bf96-b032-4b0e-a67e-69f6dcc319ef">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tsc00009"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e8ae9d9a-c16c-402c-a444-30b1d1b724fb">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:11:12.632423</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:18:02</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1304</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1178</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/mPbwH057pGT6w3j9yMtFIg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/23f39e38-1775-40e7-9e2f-f61753b19bef">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tsc00009.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/765f036b-306d-49cf-8d2c-da2a83445f7d">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/3c10fba7-2802-425c-8dcd-946ffb492213">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9b0aeeba-7ba4-4327-abfe-1c82aae3bfe6">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tsc00009.tsv.gz&amp;unzip=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+</rdf:RDF>

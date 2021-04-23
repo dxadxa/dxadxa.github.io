@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b75cf519-5bac-4894-a521-eb8d16e4bbc5">
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="mailto:peter.bergamaschi@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/69f99a71-e779-4b55-9e12-a3b34de1a1cf">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/43cb5697-94e2-435b-ad60-26f4a2d02d1c">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/69f99a71-e779-4b55-9e12-a3b34de1a1cf"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/73bcba39-8858-4815-93cd-ddd61219e19c"/>
+    <dcterms:title xml:lang="en">Global CH4 flux inversions 2000-2017 (GCP-CH4)</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-06</dcterms:issued>
+    <dcatapop:ckanName>global-ch4-flux-inversions-2000-2017-gcp-ch4</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b75cf519-5bac-4894-a521-eb8d16e4bbc5"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>http://data.europa.eu/89h/43cb5697-94e2-435b-ad60-26f4a2d02d1c</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4b44c87d-4e83-427e-842c-898e95566342"/>
+    <dcterms:description xml:lang="en">Inverse-modelling of global CH4 emissions during 2000-2017 based on TM5-4DVAR model (using NOAA surface and GOSAT satellite observations) provided for the Global Carbon Project CH4 (Saunois, M., Stavert, A. R., Poulter, B., Bousquet, P., Canadell, J. G., Jackson, R. B., Raymond, P. A., Dlugokencky, E. J., Houweling, S., Patra, P. K., Ciais, P., Arora, V. K., Bastviken, D., Bergamaschi, P., Blake, D. R., Brailsford, G., Bruhwiler, L., Carlson, K. M., Carrol, M., Castaldi, S., Chandra, N., Crevoisier, C., Crill, P. M., Covey, K., Curry, C. L., Etiope, G., Frankenberg, C., Gedney, N., Hegglin, M. I., Höglund-Isaksson, L., Hugelius, G., Ishizawa, M., Ito, A., Janssens-Maenhout, G., Jensen, K. M., Joos, F., Kleinen, T., Krummel, P. B., Langenfelds, R. L., Laruelle, G. G., Liu, L., Machida, T., Maksyutov, S., McDonald, K. C., McNorton, J., Miller, P. A., Melton, J. R., Morino, I., Müller, J., Murgia-Flores, F., Naik, V., Niwa, Y., Noce, S., O'Doherty, S., Parker, R. J., Peng, C., Peng, S., Peters, G. P., Prigent, C., Prinn, R., Ramonet, M., Regnier, P., Riley, W. J., Rosentreter, J. A., Segers, A., Simpson, I. J., Shi, H., Smith, S. J., Steele, L. P., Thornton, B. F., Tian, H., Tohjima, Y., Tubiello, F. N., Tsuruta, A., Viovy, N., Voulgarakis, A., Weber, T. S., van Weele, M., van der Werf, G. R., Weiss, R. F., Worthy, D., Wunch, D., Yin, Y., Yoshida, Y., Zhang, W., Zhang, Z., Zhao, Y., Zheng, B., Zhu, Q., Zhu, Q., and Zhuang, Q.: The Global Methane Budget 2000–2017, Earth Syst. Sci. Data Discuss., https://doi.org/10.5194/essd-2019-128, in review, 2019)</dcterms:description>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c66a0768-872c-4149-95ca-26d55de4bb91"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:identifier>43cb5697-94e2-435b-ad60-26f4a2d02d1c</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/73bcba39-8858-4815-93cd-ddd61219e19c">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/43cb5697-94e2-435b-ad60-26f4a2d02d1c"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/43cb5697-94e2-435b-ad60-26f4a2d02d1c</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4b44c87d-4e83-427e-842c-898e95566342">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/NETCDF"/>
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHG-INV/GCP_CH4_flux_inversions_2000-2017/LATEST/"/>
+    <dcterms:title xml:lang="en">Global CH4 flux inversions 2000-2017 (GCP-CH4)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9c3e5c5f-0d38-452f-9c7b-ce2eea6ab491">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:27</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-31T02:17:53</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/43cb5697-94e2-435b-ad60-26f4a2d02d1c"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c66a0768-872c-4149-95ca-26d55de4bb91">
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/43cb5697-94e2-435b-ad60-26f4a2d02d1c</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/43cb5697-94e2-435b-ad60-26f4a2d02d1c"/>
+    <schema:url>http://data.europa.eu/88u/dataset/43cb5697-94e2-435b-ad60-26f4a2d02d1c</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC">
+    <rdfs:label xml:lang="en">public</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

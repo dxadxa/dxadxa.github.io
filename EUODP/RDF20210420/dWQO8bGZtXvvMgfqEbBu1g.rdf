@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7ca8e52c-5fa4-4e68-a5c9-078fc909a63c">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/trng_hour03s.sdmx.zip"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3b649e0f-dd21-40c9-85ff-b9e311c042ca">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/trng_hour03s.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/904ac5e6-2abb-4d83-ac67-c0c7d7ed4d64">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/trng_cvt_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dWQO8bGZtXvvMgfqEbBu1g"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dWQO8bGZtXvvMgfqEbBu1g">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/200159ff-08bf-4477-a6f6-4579832b6570"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7ca8e52c-5fa4-4e68-a5c9-078fc909a63c"/>
+    <dcterms:title xml:lang="en">Percentage of the total hours in external CVT courses, by training provider and size class</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcatapop:ckanName>dWQO8bGZtXvvMgfqEbBu1g</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/904ac5e6-2abb-4d83-ac67-c0c7d7ed4d64"/>
+    <dcterms:title xml:lang="de">Gesamtstunden in externen Weiterbildungskursen nach Weiterbildungsanbieter und Größenklasse (%)</dcterms:title>
+    <dcterms:description xml:lang="en">Percentage of the total hours in external CVT courses, by training provider and size class</dcterms:description>
+    <dcterms:description xml:lang="fr">Pourcentage des heures totales dans les cours externes de formation professionnelle continue, par fournisseur de formation et classe de taille</dcterms:description>
+    <dcterms:title xml:lang="fr">Pourcentage des heures totales dans les cours externes de formation professionnelle continue, par fournisseur de formation et classe de taille</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/fc7f0cfe-11df-46d6-a8c3-fe75c2fef325"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3b649e0f-dd21-40c9-85ff-b9e311c042ca"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f9566b40-0608-4fe2-8c58-6c4a3dfd69ce"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/041f9bfa-d3c5-49c9-bff6-097160da8bfb"/>
+    <dcterms:identifier>trng_hour03s</dcterms:identifier>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-26</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ce3a3377-3da1-4214-89ab-1e5b0422e1b2"/>
+    <dcterms:description xml:lang="de">Gesamtstunden in externen Weiterbildungskursen nach Weiterbildungsanbieter und Größenklasse (%)</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/39a5787a-8425-4116-a7e3-a75ac46317f2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fc7f0cfe-11df-46d6-a8c3-fe75c2fef325">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dWQO8bGZtXvvMgfqEbBu1g"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/trng_hour03s</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/trng_hour03s</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ce3a3377-3da1-4214-89ab-1e5b0422e1b2">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dWQO8bGZtXvvMgfqEbBu1g"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/trng_hour03s</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/18ca5a26-34aa-497b-ab3b-5254f9d55319">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3dcd9f16-7519-459d-8c1c-fdcf0ad0337b">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 11:10:56.581151</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dWQO8bGZtXvvMgfqEbBu1g"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:22:25</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/041f9bfa-d3c5-49c9-bff6-097160da8bfb">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/trng_cvt_esms.sdmx.zip</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dWQO8bGZtXvvMgfqEbBu1g"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/200159ff-08bf-4477-a6f6-4579832b6570">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/4fc4dfbc-e533-4e88-a468-b012a54780c2"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/09647ed7-9834-4f86-99c8-1c1490d4afa8"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/18ca5a26-34aa-497b-ab3b-5254f9d55319"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f9566b40-0608-4fe2-8c58-6c4a3dfd69ce">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/trng_hour03s.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/09647ed7-9834-4f86-99c8-1c1490d4afa8">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/39a5787a-8425-4116-a7e3-a75ac46317f2">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/4fc4dfbc-e533-4e88-a468-b012a54780c2">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

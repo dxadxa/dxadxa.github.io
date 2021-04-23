@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ad879152-8c52-42ac-9fdd-db8dcf6a91d7">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/NIKB7d8PmbmnHNAli6UjPQ"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teimf200</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/02a0d07a-4e7a-4808-8b2f-e33a77bc3ea6">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8ae8646a-03c2-4c3a-af66-3e3947911a15">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teimf200.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1683045d-5616-4889-9941-781e2e3f2984">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/NIKB7d8PmbmnHNAli6UjPQ"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_mf_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/NIKB7d8PmbmnHNAli6UjPQ">
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/5622a4e4-c290-4c92-8a0d-682eba0f8bae"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/48e72c13-27c0-420b-b614-eb3256be135e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/420420c1-cfa1-44f9-8aaf-ad7899be38db"/>
+    <dcterms:title xml:lang="en">Euro/national currency exchange rates</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c6cf099f-a147-4263-8bf0-3b7e02550128"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1683045d-5616-4889-9941-781e2e3f2984"/>
+    <dcterms:description xml:lang="fr">Le taux de change euro-devise nationale représente l'équivalent d'un euro exprimé dans une devise nationale. Par exemple, le taux d'exchange de l'euro vis-à-vis du dollar américain est l'équivalent d'un euro exprimé en dollars. Les données mensuelles correspondent à la moyenne des taux d'échange observés pendant les jours ouvrables. Les données sont présentées sous forme brute. Source: Banque Centrale Européenne (BCE)</dcterms:description>
+    <dcatapop:ckanName>NIKB7d8PmbmnHNAli6UjPQ</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4390"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8ae8646a-03c2-4c3a-af66-3e3947911a15"/>
+    <dcterms:title xml:lang="de">Euro/nationale Währung-Wechselkurse</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/23cf294c-a15d-4a0e-8e80-b285a8d25624"/>
+    <dcterms:identifier>teimf200</dcterms:identifier>
+    <dcterms:description xml:lang="de">Der Euro-nationale Währung Wechselkurs entspricht dem Gegenwert von einem Euro ausgedrückt in nationaler Währung. Zum Beispiel ist der Euro-Dollar Wechselkurs der Gegenwert von einem Euro ausgedrückt in US Dollar. Monatliche Daten sind der Durchschnitt der geschäftstäglich beobachteten Wechselkurse. Alle Daten werden in Rohform dargestellt. Quelle: Europäische Zentralbank (EZB)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-11</dcterms:modified>
+    <dcterms:title xml:lang="fr">Taux de change euro/unités monétaires nationales</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ad879152-8c52-42ac-9fdd-db8dcf6a91d7"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7534bcd1-f50c-4150-a7af-46b6a69942ec"/>
+    <dcterms:description xml:lang="en">The Euro-national currency exchange rate represents the equivalent of one euro expressed in national currency. For example, the euro-dollar exchange rate is the equivalent of one euro expressed in United States dollars. Monthly data are the average of the observed business day rates. Data are presented in raw form. Source: European Central Bank (ECB)</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9f9339be-6b8f-4a99-a4de-b56675246e5b"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a9fc1d4d-4117-4502-84f7-0a96b37bf0fb"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fd21fa4d-c435-4b51-b601-47d49cfd5353"/>
+    <dcat:keyword xml:lang="en">monetary and financial indicators</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fd21fa4d-c435-4b51-b601-47d49cfd5353">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teimf200"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/36e7914b-624a-453e-a6ee-0210512de867">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/23cf294c-a15d-4a0e-8e80-b285a8d25624">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teimf200.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/420420c1-cfa1-44f9-8aaf-ad7899be38db">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teimf200"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/48e72c13-27c0-420b-b614-eb3256be135e">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teimf200.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b78bff66-da52-4f04-8523-e1b20a16d007">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/NIKB7d8PmbmnHNAli6UjPQ"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:33:04</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:55:50.202191</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4538</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/5622a4e4-c290-4c92-8a0d-682eba0f8bae">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c6cf099f-a147-4263-8bf0-3b7e02550128">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teimf200"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9f9339be-6b8f-4a99-a4de-b56675246e5b">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teimf200</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/NIKB7d8PmbmnHNAli6UjPQ"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teimf200</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7534bcd1-f50c-4150-a7af-46b6a69942ec">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/NIKB7d8PmbmnHNAli6UjPQ"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_mf_esms.htm</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a9fc1d4d-4117-4502-84f7-0a96b37bf0fb">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/4dc676e3-8e9f-4489-afdb-8c7ad258b15c"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/36e7914b-624a-453e-a6ee-0210512de867"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/02a0d07a-4e7a-4808-8b2f-e33a77bc3ea6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/4dc676e3-8e9f-4489-afdb-8c7ad258b15c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

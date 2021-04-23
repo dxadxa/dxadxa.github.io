@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_485">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c28cfa75-13f6-46c0-98a4-598eee025e1d"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <dcterms:title xml:lang="en">Civil Aviation Regulations (Processed)</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8e0eea59-07c6-4807-86b3-4fa6bdc91d30"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/19e7ee7f-4dde-447d-820a-40ccf20129c9"/>
+    <dcterms:identifier>ELRC_485</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-04-03</dcterms:modified>
+    <dcterms:description xml:lang="en">A collection of parallel Polish-English texts published by the Polish Civil Aviation Office and complemented by two acts of Civil Aviation Legislation. Sentence-level alignment of translation segments  was carried out manually and encoded in the XLiFF format. There are five publications in the collection &#13;
+a) National Quality Control Programme on aviation security regulation (ochrona_lotnictwa_cywilnego.xlf, 328 segments 11351 words), &#13;
+b) Ordinance on the National Civil Aviation Security Programme (rozporzadzenie_ochrona_lotnictwa_cywilnego.xlf, 683 segments, 21385 words), &#13;
+c) The State Safety Program (kraj_prog_bezp_ulc.xlf, 545 segments, 25387 words). &#13;
+d) Annex 17 to the Convention on International Civil Aviation (ulc_annex_17.xlf, 312 segments, 13397 words) and&#13;
+e) Safety Management Manual (podr_zarz_bezp_ulc.xlf, 1106 segments, 39184 words).&#13;
+The total size of the collection is 110 704 words in 2646 parallel segments.&#13;
+It was converted into a 2288-TUs English-Polish resource in TMX format.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcatapop:ckanName>elrc_485</dcatapop:ckanName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/bda21ac6-8204-4f42-bd00-079ab447d2a9">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-02-22T07:52:00</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_485"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:42:06</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c28cfa75-13f6-46c0-98a4-598eee025e1d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_485"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_485</dcterms:title>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_485</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/19e7ee7f-4dde-447d-820a-40ccf20129c9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:description>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/civil-aviation-regulations-processed/55381e1ad10c11e7b7d400155d0267069cc80f9810204ab0a6bfc626a0276a44/"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8e0eea59-07c6-4807-86b3-4fa6bdc91d30">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

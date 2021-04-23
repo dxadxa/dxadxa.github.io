@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8163ba90-c8d6-4ccf-ae1b-138a6ced0fa5">
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/trng_aes_197.tsv.gz"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/81812bc8-b3a2-45e8-a3ad-5e04c5f3c359">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4pn7ymbtb8MxOq2zB19rQ"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/trng_aes_12m0_esms.sdmx.zip</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2c48d0d9-6f23-4ee7-ae29-b449e89459d9">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a8e1961b-06c7-4df9-bd29-0437afd43293">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/trng_aes_197</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4pn7ymbtb8MxOq2zB19rQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/43e8f205-6d77-4661-bbd4-6f06caf2937f">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/2c48d0d9-6f23-4ee7-ae29-b449e89459d9"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/f6a65485-d900-4efc-8f2b-08fb957743c3"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/6e0d2136-3b0b-47be-8b84-bed628fbe9a0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/4pn7ymbtb8MxOq2zB19rQ">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b61f0250-cb4b-4f09-b171-ddcc263d784a"/>
+    <dcatapop:ckanName>4pn7ymbtb8MxOq2zB19rQ</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/c428ade0-26e3-4e43-b5ba-8e424d169f3e"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-02</dcterms:modified>
+    <dcterms:description xml:lang="fr">Population ne participant pas à l’éducation et la formation par raison principale et niveau d’éducation atteint</dcterms:description>
+    <dcterms:identifier>trng_aes_197</dcterms:identifier>
+    <dcterms:title xml:lang="en">Population not participating in education or training by main reason and educational attainment level</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8163ba90-c8d6-4ccf-ae1b-138a6ced0fa5"/>
+    <dcterms:title xml:lang="fr">Population ne participant pas à l’éducation et la formation par raison principale et niveau d’éducation atteint</dcterms:title>
+    <dcterms:description xml:lang="de">Nicht an Bildung oder Weiterbildung teilnehmende Bevölkerung nach Hauptgrund und Bildungsabschluss</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a8e1961b-06c7-4df9-bd29-0437afd43293"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5349f5b1-baee-4463-ba22-0154b2cd81db"/>
+    <dcterms:description xml:lang="en">Population not participating in education or training by main reason and educational attainment level</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/11fa6056-d96e-452b-9be9-6e8e6b75e017"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f3c385cc-e67a-4ffb-99c5-d807705dd8b6"/>
+    <dcterms:title xml:lang="de">Nicht an Bildung oder Weiterbildung teilnehmende Bevölkerung nach Hauptgrund und Bildungsabschluss</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/81812bc8-b3a2-45e8-a3ad-5e04c5f3c359"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/43e8f205-6d77-4661-bbd4-6f06caf2937f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b61f0250-cb4b-4f09-b171-ddcc263d784a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/trng_aes_197.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b3de648d-348b-4f2b-a5a6-c601514aaee7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:45:02</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/4pn7ymbtb8MxOq2zB19rQ"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">258</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 13:40:27.312691</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/c428ade0-26e3-4e43-b5ba-8e424d169f3e">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f3c385cc-e67a-4ffb-99c5-d807705dd8b6">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/trng_aes_12m0_esms.htm</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4pn7ymbtb8MxOq2zB19rQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/11fa6056-d96e-452b-9be9-6e8e6b75e017">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4pn7ymbtb8MxOq2zB19rQ"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/trng_aes_197</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/trng_aes_197</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5349f5b1-baee-4463-ba22-0154b2cd81db">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/trng_aes_197.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/6e0d2136-3b0b-47be-8b84-bed628fbe9a0">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/f6a65485-d900-4efc-8f2b-08fb957743c3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

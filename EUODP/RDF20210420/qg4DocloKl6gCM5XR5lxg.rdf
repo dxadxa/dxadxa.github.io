@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e2e6e78a-f389-416b-b875-0246a0df4d4b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/gov_10q_ggnfa.sdmx.zip"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/4d29ccf1-0d51-4591-bf11-14d55c913803">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/80b45187-425e-47ae-a96b-a912a451ca5e">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">597</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:10:57.789440</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">646</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/qg4DocloKl6gCM5XR5lxg"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:57:40</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b6a55fae-d338-41ad-9a80-d87ea83a6a2c">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/gov_10q_ggnfa_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/qg4DocloKl6gCM5XR5lxg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/900ba714-0209-4cc1-a292-c1e093f11675">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/da33ab70-5d11-4cae-9af5-05d39fd9fc20"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/05ac18ff-1531-451d-b104-d13b92d62a27"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/074f4001-cf06-417f-a276-ed1d7179ba22"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/780e5e7d-96bf-4c4b-ae10-60e9cac3f1d7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/gov_10q_ggnfa_esms.sdmx.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/qg4DocloKl6gCM5XR5lxg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/qg4DocloKl6gCM5XR5lxg">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b6a55fae-d338-41ad-9a80-d87ea83a6a2c"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/4d29ccf1-0d51-4591-bf11-14d55c913803"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fc76ff94-147e-48e3-b0b4-fe091170de44"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ce666972-b18e-4702-8ab9-93343a3ae769"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/900ba714-0209-4cc1-a292-c1e093f11675"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ce872dba-70fd-4806-84a4-c23a52f78138"/>
+    <dcat:keyword xml:lang="en">coronavirus</dcat:keyword>
+    <dcterms:title xml:lang="fr">Comptes non-financiers trimestriels des administrations publiques</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1018"/>
+    <dcat:keyword xml:lang="en">COVID-19</dcat:keyword>
+    <dcatapop:ckanName>qg4DocloKl6gCM5XR5lxg</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="de">Vierteljährliche nichtfinanzielle Staatskonten</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">Quarterly non-financial accounts for general government</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/97afa3dc-8362-495b-8327-6ecd211011f8"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/780e5e7d-96bf-4c4b-ae10-60e9cac3f1d7"/>
+    <dcterms:description xml:lang="en">Quarterly non-financial accounts for general government</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e2e6e78a-f389-416b-b875-0246a0df4d4b"/>
+    <dcterms:title xml:lang="de">Vierteljährliche nichtfinanzielle Staatskonten</dcterms:title>
+    <dcterms:description xml:lang="fr">Comptes non-financiers trimestriels des administrations publiques</dcterms:description>
+    <dcterms:identifier>gov_10q_ggnfa</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/da33ab70-5d11-4cae-9af5-05d39fd9fc20">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fc76ff94-147e-48e3-b0b4-fe091170de44">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/gov_10q_ggnfa.tsv.gz&amp;unzip=true"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/074f4001-cf06-417f-a276-ed1d7179ba22">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/97afa3dc-8362-495b-8327-6ecd211011f8">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/gov_10q_ggnfa.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ce872dba-70fd-4806-84a4-c23a52f78138">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/gov_10q_ggnfa</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/qg4DocloKl6gCM5XR5lxg"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ce666972-b18e-4702-8ab9-93343a3ae769">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/gov_10q_ggnfa</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/qg4DocloKl6gCM5XR5lxg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/gov_10q_ggnfa</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/05ac18ff-1531-451d-b104-d13b92d62a27">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

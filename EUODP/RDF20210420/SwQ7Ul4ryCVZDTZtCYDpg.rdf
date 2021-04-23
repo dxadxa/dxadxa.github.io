@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/de5190e5-da59-486a-9a75-3453e2717b3f">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7fce22d1-49cf-4c40-bec4-b6b6116c91dc">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tag00017"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ce428270-5fa2-47a7-a10c-2b9ce3e77e65">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00017.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/SwQ7Ul4ryCVZDTZtCYDpg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/25b1bb1b-1f6e-4333-9306-377b2c3a654d"/>
+    <dcatapop:ckanName>SwQ7Ul4ryCVZDTZtCYDpg</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:identifier>tag00017</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/190eb575-3fed-42a4-8b1a-730d82d68992"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:keyword xml:lang="en">sheep</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7fce22d1-49cf-4c40-bec4-b6b6116c91dc"/>
+    <dcterms:description xml:lang="fr">Nombre d'ovins (au-delà de 500 000) tiré de l'enquête de novembre/décembre</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f4a8ddf5-4b0f-46bb-8c46-63eacbc0d6e5"/>
+    <dcterms:description xml:lang="de">Anzahl der Schaffe (über 500 000) aus der November/Dezember Erhebung</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5475f619-4ab2-4b75-ad5f-75cfa7bfb145"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ce428270-5fa2-47a7-a10c-2b9ce3e77e65"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/34498b18-6092-44b2-b372-c36f2078e40f"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-26</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/de5190e5-da59-486a-9a75-3453e2717b3f"/>
+    <dcterms:title xml:lang="de">Anzahl der Schafe</dcterms:title>
+    <dcterms:title xml:lang="fr">Nombre d'ovins</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5f06ce7d-17d3-4253-9367-1dcdd400f771"/>
+    <dcat:keyword xml:lang="en">agriculture</dcat:keyword>
+    <dcat:keyword xml:lang="en">agricultural structure</dcat:keyword>
+    <dcterms:title xml:lang="en">Number of sheep</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/64fbde8b-5253-4a3f-9b50-b56ffc36fb79"/>
+    <dcterms:description xml:lang="en">Number of sheep (over 500,000) from the November/December survey</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5f06ce7d-17d3-4253-9367-1dcdd400f771">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/dd8248bb-0c37-435a-a5e7-a8b926c6dade"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/f18f2262-1f7e-46c4-ad46-7a3c98cd3026"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/31e2ca0e-8e0b-4de3-8f07-6ef8a4a0a317"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/25b1bb1b-1f6e-4333-9306-377b2c3a654d">
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tag00017"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/dd8248bb-0c37-435a-a5e7-a8b926c6dade">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/31e2ca0e-8e0b-4de3-8f07-6ef8a4a0a317">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/dfc5d675-a904-4dd5-9370-e2785dd3209c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T08:14:27</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1564</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:24:15.143587</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1417</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/SwQ7Ul4ryCVZDTZtCYDpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f4a8ddf5-4b0f-46bb-8c46-63eacbc0d6e5">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tag00017"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/f18f2262-1f7e-46c4-ad46-7a3c98cd3026">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/64fbde8b-5253-4a3f-9b50-b56ffc36fb79">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00017.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5475f619-4ab2-4b75-ad5f-75cfa7bfb145">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tag00017</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/SwQ7Ul4ryCVZDTZtCYDpg"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/34498b18-6092-44b2-b372-c36f2078e40f">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00017.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/190eb575-3fed-42a4-8b1a-730d82d68992">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tag00017</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/SwQ7Ul4ryCVZDTZtCYDpg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tag00017</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

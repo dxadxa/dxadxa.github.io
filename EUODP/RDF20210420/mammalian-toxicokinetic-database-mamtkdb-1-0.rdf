@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f98ca922-8f95-4ae8-91ff-1eb3dfac2e0e">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-31T09:06:43</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/mammalian-toxicokinetic-database-mamtkdb-1-0"/>
+    <dcatapop:numberOfViews>0</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-04-16T15:39:14</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/mammalian-toxicokinetic-database-mamtkdb-1-0">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1229"/>
+    <dcat:keyword xml:lang="en">pharmaceutical</dcat:keyword>
+    <dcat:keyword xml:lang="en">exposome</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>mammalian-toxicokinetic-database-mamtkdb-1-0</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Elimination half-lives in mammals, including humans, have been proposed as a potential complementary metric to expand the assessment of bioaccumulative properties of a substance to cover air-breathing organisms. In order to explore the possibilities of using such data in bioaccumulation assessment and predictions, human and terrestrial mammalian elimination half-life data have been collected along with physiochemical data/parameters. The database will facilitate looking up toxicokinetic data and finding respective studies. This first version of the Mammalian toxicokinetic database (MamTKDB 1.0) contains elimination half-life values for around 1400 substances collected from publications and publicly available studies. The data were collected by Norwegian Institute of Public Health (NIPH) together with European Chemicals Agency (ECHA) in 2016-2020 (Hofer T, Peltola-Thies J, Karamertzanis P, Myhre O, Lantto T, Hirmann D). </dcterms:description>
+    <dcterms:title xml:lang="en">Mammalian toxicokinetic database (MamTKDB) 1.0</dcterms:title>
+    <dcat:keyword xml:lang="en">food-chain</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-31</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/24f48293-8498-494f-91e3-454922ba490b"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2825"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1042"/>
+    <dcat:keyword xml:lang="en">contaminants</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/89a619d0-bf42-4954-b991-e52993e3a2d1"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHA"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/51d6c83a-ce1c-4fad-b5c8-47aa99362c5b"/>
+    <dcat:keyword xml:lang="en">persistence</dcat:keyword>
+    <adms:identifier rdf:resource="http://www.w3.org/ns/adms#Identifier/9063b3c5-f11c-4f4a-b662-cbd69dc9bd9f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:hasPart rdf:resource="https://doi.org/10.1021/es4029414"/>
+    <dcat:keyword xml:lang="en">bioaccumulation</dcat:keyword>
+    <dcat:keyword xml:lang="en">mammals</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/51d6c83a-ce1c-4fad-b5c8-47aa99362c5b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="https://echa.europa.eu/documents/10162/13630/mammalian_toxicokinetic_database_en.xlsx/"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Mammalian toxicokinetic database (MamTKDB) 1.0</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:description xml:lang="en">Elimination half-lives in mammals, including humans, have been proposed as a potential complementary metric to expand the assessment of bioaccumulative properties of a substance to cover air-breathing organisms. In order to explore the possibilities of using such data in bioaccumulation assessment and predictions, human and terrestrial mammalian elimination half-life data have been collected along with physiochemical data/parameters. The database will facilitate looking up toxicokinetic data and finding respective studies. This first version of the Mammalian toxicokinetic database (MamTKDB 1.0) contains elimination half-life values for around 1400 substances collected from publications and publicly available studies. The data were collected by Norwegian Institute of Public Health (NIPH) together with European Chemicals Agency (ECHA) in 2015-2020. </dcterms:description>
+    <dcterms:issued xml:lang="en">2021-03-31</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:accessURL rdf:resource="https://echa.europa.eu/documents/10162/13630/mammalian_toxicokinetic_database_en.xlsx/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/24f48293-8498-494f-91e3-454922ba490b">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/mammalian-toxicokinetic-database-mamtkdb-1-0"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://echa.europa.eu/management-of-pbt-vpvb-substances</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://echa.europa.eu/management-of-pbt-vpvb-substances</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#Identifier/9063b3c5-f11c-4f4a-b662-cbd69dc9bd9f">
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <skos:notation rdf:datatype="http://purl.org/spar/datacite/doi">10.2906/101099104097/2</skos:notation>
+    <skos:notation rdf:datatype="http://publications.europa.eu/resource/authority/notation-type/DOI">10.2906/101099104097/2</skos:notation>
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
+    <adms:schemeAgency>Publications Office</adms:schemeAgency>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-16T15:39:14</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/89a619d0-bf42-4954-b991-e52993e3a2d1">
+    <vcard:organisation-name>ECHA PBT EG </vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="pbt_wg@echa.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

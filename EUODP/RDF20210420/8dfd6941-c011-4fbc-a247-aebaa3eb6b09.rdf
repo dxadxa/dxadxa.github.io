@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/279dcd1b-40ff-45c3-ba69-d5922c07d813">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/8dfd6941-c011-4fbc-a247-aebaa3eb6b09"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:10:32</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:10:32</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/8dfd6941-c011-4fbc-a247-aebaa3eb6b09">
+    <dcterms:identifier>8dfd6941-c011-4fbc-a247-aebaa3eb6b09</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:title xml:lang="en">EURL ECVAM Kinetic Parameters Dataset</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bdad4323-4e3d-420d-9800-2219e653e381"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5918e8b5-c060-4f90-888d-dba6c35ba112"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/23836876-8382-40c5-ae5b-33d27e55a166"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="en">The ECVAM KinParDB contains kinetic parameters on 100 chemicals (pharma, pesticides, industrial chemicals as well as environmental contaminants), each of which has been or still is used in various ECVAM validation programs. The database is searchable for names and CAS-numbers and provides detailed information on kinetic parameters. It provides as well the experimental details underlying the generation of the kinetic data that were used to derive the kinetic parameters.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dcterms:issued>
+    <dcatapop:ckanName>8dfd6941-c011-4fbc-a247-aebaa3eb6b09</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3695b710-e4b1-47dc-9199-5db0f14adaf6"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3dcf1dde-4023-492d-95b3-3131d0862980"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/566ddf87-aea0-49d9-b015-6983512caeb8">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5918e8b5-c060-4f90-888d-dba6c35ba112">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/8dfd6941-c011-4fbc-a247-aebaa3eb6b09"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/KinParDB/LATEST/KinCalTool.xls</schema:url>
+    <dcterms:description xml:lang="en">The KinCalTool  is a Kinetics Calculation Tool developed  for the construction of C,t-curves, using a 1- or 2-compartment kinetic model and the kinetic parameters present in KinParDB.</dcterms:description>
+    <dcterms:title xml:lang="en">Kinetics Calculation Tool (KinCalTool)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/23836876-8382-40c5-ae5b-33d27e55a166">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/8dfd6941-c011-4fbc-a247-aebaa3eb6b09"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/8dfd6941-c011-4fbc-a247-aebaa3eb6b09</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/8dfd6941-c011-4fbc-a247-aebaa3eb6b09</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3dcf1dde-4023-492d-95b3-3131d0862980">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/KinParDB/LATEST/KinParDB.xls"/>
+    <dcterms:title xml:lang="en">EURL ECVAM Kinetic Parameters Dataset</dcterms:title>
+    <dcterms:description xml:lang="en">The database can be opened by (double) clicking on the icon. The opening screen of the database displays all substances present (in alphabetical order), CAS numbers and the number of experiments present in the database for each substance. The experiments in human and/or rat are split in in vivo (kinetic data) and ex vivo (static data = protein binding) experiments.
+
+Using the button on top of the opening screen, substances can be filtered and/or searched. The search/filter can be used for (a part of) the CAS number or (a part of) the substance. Experiments can be viewed by double clicking the yellow cell or by using the button ‘go to selected experiments’ at the bottom of the table.
+
+In the new screen, the various experiments of the selected compound can be viewed and a specific experiment (e.g. specific dose or specific dosing route) can be chosen to view its publication details, experiment details or test details. If two experiments seem to be identical, check with the ‘experimental details’ button for differences in e.g. sex, frequency, duration.
+
+In an experiment, several dose levels may be tested which are defined in the database as ‘tests’. If an experiment contains only one test (only single dose investigated), the ‘refine experiment’ and ‘refine test’ buttons will provide identical result screens.
+
+Publication details include author(s), title, publication year and journal information. Experiment details include substance administered, (sub)species, age and/or weight, gender, species conditions, feed regimen, route of administration, vehicle information, frequency and duration of administration and quality rating. The criteria for the quality rates as provided upon assessment of the data by experts in kinetics are described in the methodological report.
+
+Test details show the substance, the model used in the specific experiment and/or in the reanalysis (1- or 2-compartment model), the parameter names, their values (mean ± SD and/or range) and the number of observations. The first column (P) presents whether the substance is the parent (mark with a cross) or the metabolite. The kinetic models which are used are described in the methodological report.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3695b710-e4b1-47dc-9199-5db0f14adaf6">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/566ddf87-aea0-49d9-b015-6983512caeb8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="sandra.coecke@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bdad4323-4e3d-420d-9800-2219e653e381">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/8dfd6941-c011-4fbc-a247-aebaa3eb6b09"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">Report describing the methodological approach used for building the database.</dcterms:description>
+    <dcterms:title xml:lang="en">Methodological report</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/KinParDB/LATEST/Methodological_report.pdf</schema:url>
+  </rdf:Description>
+</rdf:RDF>

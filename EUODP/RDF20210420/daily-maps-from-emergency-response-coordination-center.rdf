@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/43d6a719-9b0b-4a57-bffe-639566868015">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/daily-maps-from-emergency-response-coordination-center"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-09T11:15:53</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-18T14:09:50</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5c14045c-0102-452f-814e-a97aa2699b77">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Daily maps created by ERCC</dcterms:title>
+    <dcat:accessURL rdf:resource="https://erccportal.jrc.ec.europa.eu/Maps/Daily-maps"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8e79eb55-e022-4fc7-88be-0c5e36c34250">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/daily-maps-from-emergency-response-coordination-center"/>
+    <dcterms:title xml:lang="en">title_https://erccportal.jrc.ec.europa.eu/Maps/Daily-maps</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://erccportal.jrc.ec.europa.eu/Maps/Daily-maps</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/daily-maps-from-emergency-response-coordination-center">
+    <dcterms:title xml:lang="en">Daily maps from Emergency Response Coordination Center</dcterms:title>
+    <dcterms:description xml:lang="en">The ERCC (Emergency Response Coordination Center), as part of DG ECHO, coordinates the EU response to natural and man-made disasters. The ERCC, in close cooperation with JRC, publishes on a daily basis a product called ‘ECHO Daily Map’. The maps are reflecting data on various emergency situations, such as floods, earthquakes, forest fires, pandemics; climate change related topic such as sea-ice anomalies and humanitarian aid topics such as migration in third countries. The source of the data is mentioned in the maps.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/92a89d4a-3c26-4f35-9a3f-c5757a117bee"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHO"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/8e79eb55-e022-4fc7-88be-0c5e36c34250"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcatapop:ckanName>daily-maps-from-emergency-response-coordination-center</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/881"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5c14045c-0102-452f-814e-a97aa2699b77"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/92a89d4a-3c26-4f35-9a3f-c5757a117bee">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

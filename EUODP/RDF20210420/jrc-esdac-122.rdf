@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3e7a2b4b-5529-4c3c-bedc-981ce5267d4b">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://esdac.jrc.ec.europa.eu/content/chemical-properties-european-scale-based-lucas-topsoil-data</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-122"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/dc2ba646-436d-43aa-a233-cbcc85bb3f71">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/chemical-properties-european-scale-based-lucas-topsoil-data"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Maps of Soil Chemical properties at European scale based on LUCAS 2009/2012 topsoil data</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-122">
+    <dcatapop:ckanName>jrc-esdac-122</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3e7a2b4b-5529-4c3c-bedc-981ce5267d4b"/>
+    <dcterms:title xml:lang="en">Maps of Soil Chemical properties at European scale based on LUCAS 2009/2012 topsoil data</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>jrc-esdac-122</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/fc49ac01-dc67-4fd8-996e-9715747de141"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a95f16fd-9c3c-4b76-8307-42f0dbb0548d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/dc2ba646-436d-43aa-a233-cbcc85bb3f71"/>
+    <dcterms:description xml:lang="en">This group of datasets contains 8 chemical properties: pH, pH (CaCl), Cation Exchange Capacity (CEC), Calcium carbonates (CaCO3), C:N ratio, Nitrogen (N), Phosphorus (P) and Potassium (K) using soil point data from the LUCAS 2009/2012 soil surveys (around 22,000 points) for EU-26 (not included Cyprus and Croatia).  The chemical properties maps for the European Union were produced using Gaussian process regression (GPR) models. Resolution: 500m. Format: TIFF; projection information: ETRS89 / LAEA Europe</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-05</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7b459611-2f60-4d3c-a3df-c81a11182805">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/49e6c624-07f1-4049-9bc8-6ef601b333d5">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T09:19:39</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-122"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:47:12</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fc49ac01-dc67-4fd8-996e-9715747de141">
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-122</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-122</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-122"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a95f16fd-9c3c-4b76-8307-42f0dbb0548d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/7b459611-2f60-4d3c-a3df-c81a11182805"/>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

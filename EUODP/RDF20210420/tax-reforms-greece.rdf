@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/tax-reforms-greece">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0155cee7-c6ec-446f-80e9-b0dd3e996f4e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/59b5d4eb-5369-4ee8-b36f-0943c7151991"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1310"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f8c56051-c8a7-4cb3-959b-5e5f78f412b8"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6343"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1182"/>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/dataset/taxes-in-europe-database"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/57"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/561"/>
+    <dcterms:description xml:lang="en">The dataset contains a table summarizing the main tax reforms in Greece.   &#13;
+The tables include the latest reforms announced, legislated or implemented during the current year and not published in the last [Tax policies in the European Union Survey] (https://ec.europa.eu/taxation_customs/business/company-tax/tax-good-governance/european-semester/tax-policies-european-union-survey_en).   &#13;
+The reforms are categorized by type of measure (VAT, CIT, PIT, etc.) and a brief description is provided along with the direction of change of the reform (base increase/decrease, rate increase/decrease).</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2504"/>
+    <dcterms:title xml:lang="en">Tax reforms: Greece</dcterms:title>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1021"/>
+    <dcatapop:ckanName>tax-reforms-greece</dcatapop:ckanName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/59b5d4eb-5369-4ee8-b36f-0943c7151991">
+    <dcterms:title xml:lang="en">Latest tax reforms - Greece</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_el-tax-reforms-tables.xlsx"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_el-tax-reforms-tables.xlsx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f8c56051-c8a7-4cb3-959b-5e5f78f412b8">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/86e8d971-aa41-4f21-a164-a59533430dfe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Taxation and Customs Union DG</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/86e8d971-aa41-4f21-a164-a59533430dfe">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/contacts_en</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/02f37d25-a551-4084-94c5-f8674a22556a">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-greece"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:23:33</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:16:20</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0155cee7-c6ec-446f-80e9-b0dd3e996f4e">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-greece"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</dcterms:title>
+    <schema:url>https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</schema:url>
+  </rdf:Description>
+</rdf:RDF>

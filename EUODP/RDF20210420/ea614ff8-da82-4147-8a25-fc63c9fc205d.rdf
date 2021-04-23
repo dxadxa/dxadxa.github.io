@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4c06c68c-fd8e-4276-84c8-5249e984e404">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/f8a252f7-edcd-45cd-af81-389f63a5d344"/>
+    <vcard:hasEmail rdf:resource="peter.bergamaschi@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f8a252f7-edcd-45cd-af81-389f63a5d344">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1c0fe1e7-5d79-4cd7-aa39-203ce923bebd">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/ea614ff8-da82-4147-8a25-fc63c9fc205d"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:25</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:25</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/ea614ff8-da82-4147-8a25-fc63c9fc205d">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4c06c68c-fd8e-4276-84c8-5249e984e404"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-09</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/25eacd4e-cbe2-44ae-9433-8fa5ff7d8448"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e360d003-944b-4426-abb1-86224f0e8da0"/>
+    <dcatapop:ckanName>ea614ff8-da82-4147-8a25-fc63c9fc205d</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Inverse modelling of global CH4 emissions during 2003-2011 based on TM5-4DVAR model, NOAA surface observations and the XCH4 satellite retrievals from SCIAMACHY (described in detail in Bergamaschi, P., S. Houweling, A. Segers, M. Krol, C. Frankenberg,
+R. A. Scheepmaker, E. Dlugokencky, S. C. Wofsy, E. A. Kort, C. Sweeney, T. Schuck,C. Brenninkmeijer, H. Chen, V. Beck, and C. Gerbig (2013), Atmospheric CH4 in the first decade of the 21st century: Inverse modeling analysis using SCIAMACHY satellite retrievals and NOAA surface measurements, J. Geophys. Res. Atmos., 118, 7350–7369, doi:10.1002/jgrd.50480). The data set includes gridded monthly average fluxes and daily average 3D CH4 concentration fields</dcterms:description>
+    <dcterms:identifier>ea614ff8-da82-4147-8a25-fc63c9fc205d</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">Global CH4 flux inversion 2003-2011 (MACC / NOAA + SCIAMACHY)</dcterms:title>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/25eacd4e-cbe2-44ae-9433-8fa5ff7d8448">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">CH4 inversions reanalysis using the NOAA surface observations and the XCH4 satellite retrievals from SCIAMACHY (v10-S1SCIA_ra)</dcterms:title>
+    <dcat:accessURL rdf:resource="https://apps.ecmwf.int/datasets/data/macc-ghg-inversions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e360d003-944b-4426-abb1-86224f0e8da0">
+    <schema:url>http://data.europa.eu/89h/ea614ff8-da82-4147-8a25-fc63c9fc205d</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ea614ff8-da82-4147-8a25-fc63c9fc205d"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/ea614ff8-da82-4147-8a25-fc63c9fc205d</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

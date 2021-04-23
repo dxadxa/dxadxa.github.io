@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/tax-reforms-malta">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1021"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/dataset/taxes-in-europe-database"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6343"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <dcterms:title xml:lang="en">Tax reforms: Malta</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2504"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/17fa0b48-69c2-482a-a888-767118887c20"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/57"/>
+    <dcatapop:ckanName>tax-reforms-malta</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">The dataset contains a table summarizing the main tax reforms in Malta.   &#13;
+The tables include the latest reforms announced, legislated or implemented during the current year and not published in the last [Tax policies in the European Union Survey] (https://ec.europa.eu/taxation_customs/business/company-tax/tax-good-governance/european-semester/tax-policies-european-union-survey_en).   &#13;
+The reforms are categorized by type of measure (VAT, CIT, PIT, etc.) and a brief description is provided along with the direction of change of the reform (base increase/decrease, rate increase/decrease).</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/09af739a-ac78-4495-8c48-e5f6a2556be0"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e318261a-4fa4-45c1-88b1-52e134753b1b"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1310"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1774"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/561"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/56111218-6956-40be-a7be-1bc7d9303e38">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:56:11</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:56:11</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-malta"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/849d5075-0556-40f5-81a8-688a92e5ffef">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/contacts_en</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/09af739a-ac78-4495-8c48-e5f6a2556be0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</schema:url>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-malta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/17fa0b48-69c2-482a-a888-767118887c20">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_mt-tax-reforms-tables.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_mt-tax-reforms-tables.xlsx"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Latest tax reforms - Malta</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e318261a-4fa4-45c1-88b1-52e134753b1b">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/849d5075-0556-40f5-81a8-688a92e5ffef"/>
+    <vcard:organisation-name>European Commission, Taxation and Customs Union DG</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

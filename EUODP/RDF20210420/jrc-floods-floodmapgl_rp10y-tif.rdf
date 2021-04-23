@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4e03e74d-899d-4497-bebd-4b71890b48f1">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Flood hazard map of the World - 10-year return period</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">GeoTiff image</dcterms:title>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/FLOODS/GlobalMaps/floodMapGL_rp10y.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9371afcc-28ad-4cc0-b63c-6eee3d91a1d4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2097d825-d932-454d-9768-2720f1707ea3">
+    <dcterms:description xml:lang="en">Dottori F, Salamon P, Bianchi A, Alfieri L, Hirpa F, Feyen L. Development and evaluation of a framework for global flood hazard mapping. ADVANCES IN WATER RESOURCES 94; 2015. p. 87-102. JRC93811</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-floods-floodmapgl_rp10y-tif"/>
+    <dcterms:title xml:lang="en">Development and evaluation of a framework for global flood hazard mapping</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.advwatres.2016.05.002</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-floods-floodmapgl_rp10y-tif">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4e03e74d-899d-4497-bebd-4b71890b48f1"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2097d825-d932-454d-9768-2720f1707ea3"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-02</dcterms:issued>
+    <dcterms:title xml:lang="en">Flood hazard map of the World - 10-year return period</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/908934b9-08a7-41a2-9918-2441f893649b"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-02</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:description xml:lang="en">The map depicts flood prone areas at global scale for flood events with 10-year return period. Resolution is 30 arcseconds (approx. 1km). Cell values indicate water depth (in m). The map can be used to assess flood exposure and risk of population and assets. NOTE: this dataset is based on JRC elaborations and is not an official flood hazard map (for details and limitations please refer to related publications).</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e6c1f869-15a1-489b-9d6f-976e4a0d41da"/>
+    <dcatapop:ckanName>jrc-floods-floodmapgl_rp10y-tif</dcatapop:ckanName>
+    <dcterms:identifier>jrc-floods-floodmapgl_rp10y-tif</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/acc16c38-9379-41b3-a51f-b862a50d108b"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/312b602e-faad-463a-b007-53c77f1114f9"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/312b602e-faad-463a-b007-53c77f1114f9">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-floods-floodmapgl_rp10y-tif"/>
+    <dcterms:description xml:lang="en">Trigg M; Birch C; Neal J; Bates P; Smith A; Sampson C; Yamazaki D; Hirabayashi Y; Pappenberger F; Dutra E; Ward P; Winsemius H; Salamon P; Dottori F; Rudari R; Kappes M; Simpson A; Hadzilacos G; Fewtrell T. The credibility challenge for global fluvial flood risk analysis. ENVIRONMENTAL RESEARCH LETTERS 11 (9); 2016. p. 094014. JRC102849</dcterms:description>
+    <dcterms:title xml:lang="en">The credibility challenge for global fluvial flood risk analysis</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.1088/1748-9326/11/9/094014</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/908934b9-08a7-41a2-9918-2441f893649b">
+    <schema:url xml:lang="en">https://ec.europa.eu/jrc/en/research-topic/floods</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-floods-floodmapgl_rp10y-tif"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e6c1f869-15a1-489b-9d6f-976e4a0d41da">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="francesco.dottori@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9371afcc-28ad-4cc0-b63c-6eee3d91a1d4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/acc16c38-9379-41b3-a51f-b862a50d108b">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-floods-floodmapgl_rp10y-tif"/>
+    <schema:url>http://data.europa.eu/89h/jrc-floods-floodmapgl_rp10y-tif</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-floods-floodmapgl_rp10y-tif</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/05154fcb-27e4-43fd-aa70-b2026571ed54">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">894</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">964</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 12:55:47.987471</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-floods-floodmapgl_rp10y-tif"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:31:38</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

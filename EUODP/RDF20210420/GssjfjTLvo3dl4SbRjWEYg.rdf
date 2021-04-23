@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dde38ef7-843e-4602-aeff-0526d7f9c7e2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/419f1d60-0aab-442a-8f39-8851d23c4e00">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2ea5dd4d-b5cf-4616-b812-0e4b0d5f8c8f">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_lvph05.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/77b0540f-430d-496e-88d5-f5abf39ff9ca">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_lvph05.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/87f8edaa-0c2b-4a44-8936-73884421bcbe">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/GssjfjTLvo3dl4SbRjWEYg"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_lvph05</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/GssjfjTLvo3dl4SbRjWEYg">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d93d0342-dda1-4701-9a42-18c3db23ed0c"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2ea5dd4d-b5cf-4616-b812-0e4b0d5f8c8f"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3659"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/89c60d36-9828-4125-88af-2f2c298780ec"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bc2ff8b2-18f2-4cd0-a878-ed1b1fffd065"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="fr">Distribution des ménages avec enfants selon le nombre d'enfants - enquête EU-SILC</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/83"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="de">Verteilung der privaten Haushalte mit Kindern nach Anzahl von Kindern (Quelle: EU-SILC)</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7de95dc4-59bf-457d-8810-a15043b95e0e"/>
+    <dcterms:identifier>ilc_lvph05</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/77b0540f-430d-496e-88d5-f5abf39ff9ca"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4050"/>
+    <dcterms:title xml:lang="en">Distribution of households with children by number of children - EU-SILC survey</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+    <dcterms:description xml:lang="en">Distribution of households with children by number of children - EU-SILC survey</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c6862012-f9c1-4ea3-ae96-44b4c18137f1"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/87f8edaa-0c2b-4a44-8936-73884421bcbe"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1469"/>
+    <dcatapop:ckanName>GssjfjTLvo3dl4SbRjWEYg</dcatapop:ckanName>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/3844355c-2b6f-461c-bdf3-8759bc74ab12"/>
+    <dcterms:title xml:lang="de">Verteilung der privaten Haushalte mit Kindern nach Anzahl von Kindern (Quelle: EU-SILC)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="fr">Distribution des ménages avec enfants selon le nombre d'enfants - enquête EU-SILC</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7de95dc4-59bf-457d-8810-a15043b95e0e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ilc_esms.sdmx.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/GssjfjTLvo3dl4SbRjWEYg"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bc2ff8b2-18f2-4cd0-a878-ed1b1fffd065">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/GssjfjTLvo3dl4SbRjWEYg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ilc_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/8905a02e-d606-41ab-a585-909a3ad5e782">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 13:35:26.815633</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">669</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/GssjfjTLvo3dl4SbRjWEYg"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:58:10</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/3844355c-2b6f-461c-bdf3-8759bc74ab12">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c6862012-f9c1-4ea3-ae96-44b4c18137f1">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_lvph05.tsv.gz"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d93d0342-dda1-4701-9a42-18c3db23ed0c">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/dba0dabe-c979-4063-b523-a1bd27b8f078"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/dde38ef7-843e-4602-aeff-0526d7f9c7e2"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/419f1d60-0aab-442a-8f39-8851d23c4e00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/dba0dabe-c979-4063-b523-a1bd27b8f078">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/89c60d36-9828-4125-88af-2f2c298780ec">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_lvph05</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/GssjfjTLvo3dl4SbRjWEYg"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_lvph05</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

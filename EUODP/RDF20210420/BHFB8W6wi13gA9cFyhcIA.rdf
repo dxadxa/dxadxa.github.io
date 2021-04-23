@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/bde05973-6f70-46fd-9c62-888821a49823">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/60607890-f76b-4b23-b369-890c905b9c9e"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/65f2bcdb-8409-40e0-9f74-740211035d4d"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/0923477e-83ac-496a-a976-065e6b57eaaa"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/33e03616-1310-4994-b3e5-0490cb2fc8ff">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_ehis_de5.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/60607890-f76b-4b23-b369-890c905b9c9e">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e124097e-f1fb-4b8e-88ad-bddda0dae9fa">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_ehis_de5</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_ehis_de5</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/BHFB8W6wi13gA9cFyhcIA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/d9b10003-f1c9-41fa-b9ea-32675f09f686">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9ba021f3-246b-4871-a0c3-c8fb67cee740">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_ehis_de5.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/BHFB8W6wi13gA9cFyhcIA">
+    <dcterms:description xml:lang="fr">Fumeurs quotidiens par nombre de cigarettes, sexe, âge et niveau d'éducation atteint (%)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2384834a-941d-4874-a279-5e4c191b8f09"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/33e03616-1310-4994-b3e5-0490cb2fc8ff"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/bde05973-6f70-46fd-9c62-888821a49823"/>
+    <dcterms:title xml:lang="de">Tägliche Raucher nach Anzahl der Zigaretten, nach Geschlecht, Alter und Bildungsabschluss (%)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="fr">Fumeurs quotidiens par nombre de cigarettes, sexe, âge et niveau d'éducation atteint (%)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcatapop:ckanName>BHFB8W6wi13gA9cFyhcIA</dcatapop:ckanName>
+    <dcterms:description xml:lang="de">Tägliche Raucher nach Anzahl der Zigaretten, nach Geschlecht, Alter und Bildungsabschluss (%)</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:title xml:lang="en">Daily smokers by number of cigarettes by sex, age and educational attainment level (%)</dcterms:title>
+    <dcterms:identifier>hlth_ehis_de5</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/29e3f57c-6756-4aab-9b24-4f05649d01a7"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8d5ef00b-68f5-444f-b2a3-a9df6d617ee7"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/26b4d56b-ef67-464e-946c-120bc483f64d"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-20</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9ba021f3-246b-4871-a0c3-c8fb67cee740"/>
+    <dcterms:description xml:lang="en">Daily smokers by number of cigarettes by sex, age and educational attainment level (%)</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/d9b10003-f1c9-41fa-b9ea-32675f09f686"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1280"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e124097e-f1fb-4b8e-88ad-bddda0dae9fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2384834a-941d-4874-a279-5e4c191b8f09">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_ehis_de5.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/019b78ad-ccf3-4881-983b-dadb693f3d95">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:42:34</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 10:29:41.650865</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/BHFB8W6wi13gA9cFyhcIA"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/26b4d56b-ef67-464e-946c-120bc483f64d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_ehis_de5</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/BHFB8W6wi13gA9cFyhcIA"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8d5ef00b-68f5-444f-b2a3-a9df6d617ee7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/BHFB8W6wi13gA9cFyhcIA"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/hlth_det_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/29e3f57c-6756-4aab-9b24-4f05649d01a7">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/hlth_det_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/BHFB8W6wi13gA9cFyhcIA"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/0923477e-83ac-496a-a976-065e6b57eaaa">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/65f2bcdb-8409-40e0-9f74-740211035d4d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

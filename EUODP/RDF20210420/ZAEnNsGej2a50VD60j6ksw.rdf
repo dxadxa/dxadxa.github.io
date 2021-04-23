@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/2128715b-6bda-4807-83ac-6593ba87415f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ac270c00-47db-4b1d-8e4c-c16728539c47">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ZAEnNsGej2a50VD60j6ksw"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tgs00114</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9c2b3ca8-628d-460e-8d21-8513cc78c917">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ZAEnNsGej2a50VD60j6ksw"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/reg_tran_esms.sdmx.zip</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b60da9a6-767d-4863-b504-f0ace66dfd89">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tgs00114.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/0bbdf109-dafa-4ff6-be4b-41ad8066ee2e">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/8ab058d5-2010-4623-a80c-c3fc187e5fc2"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/eec7d478-8028-41df-b6ae-c016473e0d58"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/2128715b-6bda-4807-83ac-6593ba87415f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6df2b380-5231-4267-89c9-104d769bd3aa">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tgs00114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/ZAEnNsGej2a50VD60j6ksw">
+    <dcatapop:ckanName>ZAEnNsGej2a50VD60j6ksw</dcatapop:ckanName>
+    <dcterms:identifier>tgs00114</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/64013677-36b4-4eb3-971c-ad68bc13d046"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcterms:title xml:lang="fr">Réseaux autoroutiers par région NUTS 2</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c0b9e3ab-ca34-4fde-ab8b-3a198884487f"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-09</dcterms:modified>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/99f63879-2e29-4127-8433-dc5eb32a6bef"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/15d83bfc-7f1d-4b62-b9f3-f216e4f8e7f9"/>
+    <dcterms:title xml:lang="en">Motorways network by NUTS 2 regions</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6df2b380-5231-4267-89c9-104d769bd3aa"/>
+    <dcterms:title xml:lang="de">Autobahnnetze auf regionaler Ebene NUTS 2</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/9c2b3ca8-628d-460e-8d21-8513cc78c917"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b60da9a6-767d-4863-b504-f0ace66dfd89"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4268"/>
+    <dcterms:description xml:lang="en">Data on motorways network at regional level (NUTS 2). Data available for EU, EFTA and TR, expressed in kilometres and kilometers per 1 000 km2.</dcterms:description>
+    <dcterms:description xml:lang="de">Daten für Autobahnnetze auf regionaler Ebene (NUTS 2). Daten verfügbar für EU, EFTA und TR, in Kilometer und Kilometer pro 1 000 Km2.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/94e5a27d-b443-4dd4-86f6-59ca34ef3ece"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/0bbdf109-dafa-4ff6-be4b-41ad8066ee2e"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/eb585068-84c6-47e4-ba21-9e6fb107c706"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:description xml:lang="fr">Données sur les réseaux autoroutiers au niveau régional (NUTS 2). Données disponibles pour UE, EFTA et TR, exprimées en kilomètres et kilomètres par 1 000 km2.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/55831c1e-cb95-4be8-aaf3-f957f10ee112"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ac270c00-47db-4b1d-8e4c-c16728539c47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/64013677-36b4-4eb3-971c-ad68bc13d046">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tgs00114.tsv.gz"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c0b9e3ab-ca34-4fde-ab8b-3a198884487f">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/reg_tran_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ZAEnNsGej2a50VD60j6ksw"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/eec7d478-8028-41df-b6ae-c016473e0d58">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/55831c1e-cb95-4be8-aaf3-f957f10ee112">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tgs00114.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/15d83bfc-7f1d-4b62-b9f3-f216e4f8e7f9">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tgs00114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/eb585068-84c6-47e4-ba21-9e6fb107c706">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ZAEnNsGej2a50VD60j6ksw"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tgs00114</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tgs00114</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/94e5a27d-b443-4dd4-86f6-59ca34ef3ece">
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tgs00114"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/99f63879-2e29-4127-8433-dc5eb32a6bef">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8ab058d5-2010-4623-a80c-c3fc187e5fc2">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d6ab4458-ba0d-485d-9a08-63d9add9e3c9">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/ZAEnNsGej2a50VD60j6ksw"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:44:26</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 10:05:04.054793</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">377</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363</dcatapop:numberOfDownloads>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f109227b-47d9-495b-b07c-59884193129e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://digital-agenda-data.eu/sparql?query=PREFIX+dad-prop%3A+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2F%3E%0APREFIX+cube%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0A%0ACONSTRUCT+%7B+%3Fs+%3Fp+%3Fo+%7D+WHERE+%7B%0A++%3Fs+%3Fp+%3Fo+.%0A++%3Fs+a+cube%3AObservation+.%0A++%3Fs+dad-prop%3Aindicator+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fcodelist%2Findicator%2Fmob_subs%3E+.%0A++%3Fs+cube%3AdataSet+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdataset%2Fdigital-agenda-scoreboard-key-indicators%3E%0A%7D&amp;format=application%2Frdf%2Bxml"/>
+    <dcat:downloadURL rdf:resource="http://digital-agenda-data.eu/sparql?query=PREFIX+dad-prop%3A+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2F%3E%0APREFIX+cube%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0A%0ACONSTRUCT+%7B+%3Fs+%3Fp+%3Fo+%7D+WHERE+%7B%0A++%3Fs+%3Fp+%3Fo+.%0A++%3Fs+a+cube%3AObservation+.%0A++%3Fs+dad-prop%3Aindicator+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fcodelist%2Findicator%2Fmob_subs%3E+.%0A++%3Fs+cube%3AdataSet+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdataset%2Fdigital-agenda-scoreboard-key-indicators%3E%0A%7D&amp;format=application%2Frdf%2Bxml"/>
+    <dcterms:title xml:lang="en">All available observations for the indicator, in RDF/XML format.</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2016-10-27 15:42:17.319667</dcterms:issued>
+    <dcterms:description xml:lang="en">All indicator observations in RDF/XML format. A simple query that returns observations as triples in RDF/XML format.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/65b65565-346a-4646-8519-1a328550c410"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/9d4f48a1-3a71-460f-a305-31c3053af403"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CYP"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/827c0488-3a7c-428c-a481-d5364bda5a91"/>
+    <dcatapop:ckanName>QfZpvm83bNaQyBWPZkTA</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e2e799d7-8c2b-40f3-804c-c400f9b09c9d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7ec48017-caab-45a2-ac7d-d9bbb0acfe9c"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-10-27 13:42:16.977991</dcterms:modified>
+    <dcterms:title xml:lang="en">Total number of subscriptions (SIM cards)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EST"/>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a17a0608-ca68-4306-ba5e-9f56548710d5"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LVA"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:identifier>mob_subs</dcterms:identifier>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/91440164-667b-49b0-9722-00921762af69"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f109227b-47d9-495b-b07c-59884193129e"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c8ac49b2-0285-4335-9edd-a72ba75b5666"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/37f9034b-0d03-43fb-8c9b-57e198feb5cf"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcterms:description xml:lang="en">Mobile subscriptions are defined as the number of active SIM cards. It includes both voice and data services, installed in telephones, modem, usb keys or other devices.&#13;
+&#13;
+### Original source&#13;
+&#13;
+Electronic communications market indicators collected by Commission services, through National Regulatory Authorities, for the Communications Committee (COCOM) - January and July reports.:&#13;
+&#13;
+http://ec.europa.eu/digital-agenda/about-fast-and-ultra-fast-internet-access&#13;
+&#13;
+### Parent dataset&#13;
+&#13;
+This dataset is part of of another dataset:&#13;
+&#13;
+http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/fa13ccb3-441d-49b8-b5cb-ddf1187c83d5"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ROU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcterms:alternative xml:lang="en">Number of mobile subscriptions</dcterms:alternative>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-05-22 06:44:59.734839</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6df6c3a6-8d6e-45be-a054-f98403f75d1f"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/fa13ccb3-441d-49b8-b5cb-ddf1187c83d5">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01T00:00:00</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/65b65565-346a-4646-8519-1a328550c410">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">SPARQL endpoint of the entire parent dataset.</dcterms:title>
+    <dcat:accessURL rdf:resource="http://digital-agenda-data.eu/data/sparql"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:description xml:lang="en">SPARQL endpoint for querying and creating applications based on the most recent data.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SPARQLQ"/>
+    <dcat:downloadURL rdf:resource="http://digital-agenda-data.eu/data/sparql"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2016-10-27 15:42:17.319675</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a17a0608-ca68-4306-ba5e-9f56548710d5">
+    <dcat:accessURL rdf:resource="http://digital-agenda-data.eu/download/digital-agenda-scoreboard-key-indicators.ttl.zip"/>
+    <dcat:downloadURL rdf:resource="http://digital-agenda-data.eu/download/digital-agenda-scoreboard-key-indicators.ttl.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">N3/Turtle download of the entire parent dataset.</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"/>
+    <dcterms:description xml:lang="en">Zipped and N3-formatted entire parent dataset: digital-agenda-scoreboard-key-indicators</dcterms:description>
+    <dcterms:issued xml:lang="en">2016-10-27 15:42:17.319687</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1683b5d9-f981-47e9-b035-9e83e3269823">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://digital-agenda-data.eu/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7ec48017-caab-45a2-ac7d-d9bbb0acfe9c">
+    <dcat:downloadURL rdf:resource="http://digital-agenda-data.eu/download/digital-agenda-scoreboard-key-indicators.csv.zip"/>
+    <dcterms:description xml:lang="en">Zipped and CSV-formatted entire parent dataset: digital-agenda-scoreboard-key-indicators</dcterms:description>
+    <dcterms:title xml:lang="en">CSV download of the entire parent dataset.</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://digital-agenda-data.eu/download/digital-agenda-scoreboard-key-indicators.csv.zip"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:modified xml:lang="en">2016-10-26 00:00:00</dcterms:modified>
+    <dcterms:issued xml:lang="en">2016-10-27 15:42:17.319681</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c8ac49b2-0285-4335-9edd-a72ba75b5666">
+    <dcterms:issued xml:lang="en">2016-10-27 15:42:17.319648</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:accessURL rdf:resource="http://digital-agenda-data.eu/sparql?query=PREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E%0APREFIX+dad-prop%3A+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2F%3E%0APREFIX+cube%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0A%0ASELECT%0A++bif%3Asubseq%28str%28%3Ftime%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Ftime%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Ftime_period%0A++bif%3Asubseq%28str%28%3FrefArea%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3FrefArea%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Fref_area%0A++bif%3Asubseq%28str%28%3Findic%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Findic%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Findicator%0A++bif%3Asubseq%28str%28%3Fbrkdwn%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Fbrkdwn%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Fbreakdown%0A++bif%3Asubseq%28str%28%3Funit%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Funit%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Funit_measure%0A++str%28%3Fval%29+as+%3Fvalue%0AWHERE+%7B%0A++%3Fs+a+cube%3AObservation+.%0A++%3Fs+dad-prop%3Atime-period+%3Ftime+.%0A++%3Fs+dad-prop%3Aref-area+%3FrefArea+.%0A++%3Fs+dad-prop%3Aindicator+%3Findic+.%0A++%3Fs+dad-prop%3Abreakdown+%3Fbrkdwn+.%0A++%3Fs+dad-prop%3Aunit-measure+%3Funit+.%0A++%3Fs+sdmx-measure%3AobsValue+%3Fval+.%0A++%3Fs+cube%3AdataSet+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdataset%2Fdigital-agenda-scoreboard-key-indicators%3E+.%0A++filter+%28%3Findic+%3D+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fcodelist%2Findicator%2Fmob_subs%3E%29%0A%7D%0Aorder+by+%3Ftime_period+%3Fref_area+%3Findicator+%3Fbreakdown+%3Funit_measure&amp;format=text%2Fcsv"/>
+    <dcat:downloadURL rdf:resource="http://digital-agenda-data.eu/sparql?query=PREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E%0APREFIX+dad-prop%3A+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2F%3E%0APREFIX+cube%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0A%0ASELECT%0A++bif%3Asubseq%28str%28%3Ftime%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Ftime%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Ftime_period%0A++bif%3Asubseq%28str%28%3FrefArea%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3FrefArea%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Fref_area%0A++bif%3Asubseq%28str%28%3Findic%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Findic%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Findicator%0A++bif%3Asubseq%28str%28%3Fbrkdwn%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Fbrkdwn%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Fbreakdown%0A++bif%3Asubseq%28str%28%3Funit%29%2C+bif%3Astrrchr%28bif%3Areplace%28str%28%3Funit%29%2C+%27%2F%27%2C+%27%23%27%29%2C+%27%23%27%29+%2B+1%29+as+%3Funit_measure%0A++str%28%3Fval%29+as+%3Fvalue%0AWHERE+%7B%0A++%3Fs+a+cube%3AObservation+.%0A++%3Fs+dad-prop%3Atime-period+%3Ftime+.%0A++%3Fs+dad-prop%3Aref-area+%3FrefArea+.%0A++%3Fs+dad-prop%3Aindicator+%3Findic+.%0A++%3Fs+dad-prop%3Abreakdown+%3Fbrkdwn+.%0A++%3Fs+dad-prop%3Aunit-measure+%3Funit+.%0A++%3Fs+sdmx-measure%3AobsValue+%3Fval+.%0A++%3Fs+cube%3AdataSet+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdataset%2Fdigital-agenda-scoreboard-key-indicators%3E+.%0A++filter+%28%3Findic+%3D+%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fcodelist%2Findicator%2Fmob_subs%3E%29%0A%7D%0Aorder+by+%3Ftime_period+%3Fref_area+%3Findicator+%3Fbreakdown+%3Funit_measure&amp;format=text%2Fcsv"/>
+    <dcterms:description xml:lang="en">All indicator observations in CSV format. A simple query that returns table-file having a flat structure, with one row for each statistical observation and one column for each dimension or attribute.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">All available observations for the indicator, in CSV format.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/91440164-667b-49b0-9722-00921762af69">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Dataset visualizations.</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={"indicator-group":"any","indicator":"mob_subs"}</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA"/>
+    <dcterms:description xml:lang="en">Dynamically generated visualizations (i.e. charts, diagrams) of the dataset contents.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6df6c3a6-8d6e-45be-a054-f98403f75d1f">
+    <schema:url xml:lang="en">http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators</schema:url>
+    <dcterms:title xml:lang="en">Parent dataset homepage.</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:description xml:lang="en">Main information about metadata, structure, links to downloads, used in the parent dataset this indicator comes from.</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/37f9034b-0d03-43fb-8c9b-57e198feb5cf">
+    <vcard:organisation-name>DG CONNECT Unit F4 Knowledge Base</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1683b5d9-f981-47e9-b035-9e83e3269823"/>
+    <vcard:hasEmail rdf:resource="mailto:CNECT-F4@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1616dee9-6fea-4ee2-a9b6-af7436b419f0">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-08T17:14:10</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-22 06:44:59.734839</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1857</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1887</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/827c0488-3a7c-428c-a481-d5364bda5a91">
+    <schema:url>http://semantic.digital-agenda-data.eu/codelist/indicator/mob_subs</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://semantic.digital-agenda-data.eu/codelist/indicator/mob_subs</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e2e799d7-8c2b-40f3-804c-c400f9b09c9d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dcterms:title xml:lang="en">Data Structure Definition of the parent dataset.</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators/@@structure</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">RDF/XML formatted Data Structrue Definition of the parent dataset.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9d4f48a1-3a71-460f-a305-31c3053af403">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Metadata codelists used in the parent dataset.</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/QfZpvm83bNaQyBWPZkTA"/>
+    <schema:url xml:lang="en">http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators/@@codelists</schema:url>
+    <dcterms:description xml:lang="en">RDF/XML formatted codelists for metadata used in the parent dataset this indicator comes from.</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

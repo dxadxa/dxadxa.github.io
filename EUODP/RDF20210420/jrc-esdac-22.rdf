@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/eeed172b-7640-40d0-85dd-5fa586d9690d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4ee173cb-9535-45ac-a0dc-d926fcd2c006">
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/eeed172b-7640-40d0-85dd-5fa586d9690d"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-22">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4ee173cb-9535-45ac-a0dc-d926fcd2c006"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e2e4817f-a4b3-4efb-a3ec-95230da914b0"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-11</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4bb17276-e98e-4150-b3dc-2635dbb9bddf"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/92758521-8d8d-439f-9d8f-fc502b97e0be"/>
+    <dcatapop:ckanName>jrc-esdac-22</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:title xml:lang="en">Soil pH in Europe</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">A quantitative map of estimated soil pH values across Europe from a compilation of 12,333 soil pH measurements from 11 different sources, and using a geo-statistical framework based on Regression-Kriging. Fifty-four (54) auxiliary variables in the form of raster maps at 5km resolution were used to explain the differences in the distribution of soil pH (CaCl2) and the kriged map of the residuals from the regression model was added.</dcterms:description>
+    <dcterms:identifier>jrc-esdac-22</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/92758521-8d8d-439f-9d8f-fc502b97e0be">
+    <dcat:accessURL rdf:resource="http://esdac.jrc.ec.europa.eu/content/soil-ph-europe"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Soil pH in Europe</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e2e4817f-a4b3-4efb-a3ec-95230da914b0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-22"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">http://esdac.jrc.ec.europa.eu/content/soil-ph-europe</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4bb17276-e98e-4150-b3dc-2635dbb9bddf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-22"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-22</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-22</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6653a80b-c9a3-486d-a22c-0c1064af8f57">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">552</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:54:56</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">458</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-22"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 13:46:51.004931</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

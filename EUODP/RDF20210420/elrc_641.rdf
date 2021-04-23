@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9829c659-0ab5-41b9-b18c-e40db9a8275b">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_641</dcterms:title>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_641</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_641"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_641">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>ELRC_641</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ee0ef219-186c-432c-b115-ab592f010653"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcterms:title xml:lang="en">German-French website parallel corpus from the Federal Foreign Office Berlin (Processed)</dcterms:title>
+    <dcatapop:ckanName>elrc_641</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-04-22</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9829c659-0ab5-41b9-b18c-e40db9a8275b"/>
+    <dcterms:description xml:lang="en">German-French texts extracted from the website of the Federal Foreign Office Berlin. This includes 11,852 pairs that were translated between October 2013 and the beginning of November 2015 and converted into a .TMX file format.&#13;
+The current version is a correction and cleaning of the original tmx, and a stripped file.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/936a81a4-abb1-42be-9f8f-e7e8d6322af5"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/936a81a4-abb1-42be-9f8f-e7e8d6322af5">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:description>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/german-french-website-parallel-corpus-from-the-federal-foreign-office-berlin-processed/2e0b0e9af1de11e7b7d400155d02670624938a336fd8454fba78121440a53c70/"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f66a6bc9-5e28-454b-aa55-ce9c1cff4b83">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-11T12:55:18</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_641"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:45:13</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ee0ef219-186c-432c-b115-ab592f010653">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

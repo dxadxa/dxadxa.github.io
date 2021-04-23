@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/lcp">
+    <dcterms:title xml:lang="en">[DEPRECATED] Reported data on large combustion plants covered by Directive 2001/80/EC</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-09T08:00:00Z</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:identifier>DAT-149-en</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4b4a13ec-ad2b-47bc-b8e4-f507009459b5"/>
+    <dcat:keyword>combustion plants</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1dce6129-fc24-4fdc-bb2e-089598c6970f"/>
+    <dcat:keyword>industry</dcat:keyword>
+    <dcterms:description xml:lang="en">The Directive on the limitation of emissions of certain pollutants into the air from large combustion plants (LCP Directive, 2001/80/EC) applies to combustion plants with a rated thermal input equal to or greater than 50 MW, irrespective of the type of fuel used (solid, liquid or gaseous).</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ed4dc512-e9e2-4418-9927-9316cce93964"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/76383f3e-da21-4698-bcf0-7e776edfeb99"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword>air emissions</dcat:keyword>
+    <dcat:keyword>so2</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d751bae2-083d-467b-b07d-f41a67628467"/>
+    <dcat:keyword>nox</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-04T14:48:02Z</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1dce6129-fc24-4fdc-bb2e-089598c6970f">
+    <dcterms:title xml:lang="en">LCP_database_v1.1_csv.zip</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/lcp/plant-by-plant-emissions-lcp/lcp_db_csv/view"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d751bae2-083d-467b-b07d-f41a67628467">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Reported data on large combustion plants covered by Directive 2001/80/EC</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/lcp"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/lcp</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ed4dc512-e9e2-4418-9927-9316cce93964">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/lcp/information-on-the-database-structure/lcp_database_metadata/view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:title xml:lang="en">LCP_database_metadata_v1.1.pdf</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/76383f3e-da21-4698-bcf0-7e776edfeb99">
+    <dcterms:title xml:lang="en">LCP_database_v1.1_mdb.zip</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MDB"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/lcp/plant-by-plant-emissions-lcp/lcp_db_mdb/view"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d45c9ed2-4817-4e32-b08e-763cde72ec6d">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/lcp"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:14:38</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:14:38</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/f81066a4-ee88-48e6-ba02-c37acabfab45">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/29ddd024-a099-4e39-8a2d-4324a5c7069d">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4b4a13ec-ad2b-47bc-b8e4-f507009459b5">
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/29ddd024-a099-4e39-8a2d-4324a5c7069d"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/f81066a4-ee88-48e6-ba02-c37acabfab45"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/43c3922b-a5ea-40a8-9876-63dd0ac95728"/>
+  </rdf:Description>
+</rdf:RDF>

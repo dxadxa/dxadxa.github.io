@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/303c2ab0-ce74-4526-a792-b6a41a7fbdd9">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-30T07:55:22</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5450</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/38mT9yVqp2FhG7WWGQF13Q"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:58:33.228374</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5553</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/201f5a54-a046-421a-b886-5dedefc36923">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ttr00012</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/38mT9yVqp2FhG7WWGQF13Q"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/ttr00012</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d5f2c9c9-ae78-4474-a617-2491ba31f4ce">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9ea42ef7-bba0-4df5-bdcc-394994e58ba2">
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=ttr00012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8c2a942d-d784-46e8-a4fd-5842bc580e75">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ttr00012.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/38mT9yVqp2FhG7WWGQF13Q">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c1446dcb-613d-41eb-b30b-75c7ba705f52"/>
+    <dcterms:description xml:lang="de">Diese Tabelle zeigt die jährliche Anzahl der in Europa beförderten Passagiere (Ankünfte plus Abflüge), pro Land. Beförderte Passagiere: - sind alle Fluggäste auf einem bestimmten Flug (mit derselben Flugnummer), die nur einmal gezählt werden und nicht noch einmal für jede Teilstrecke des Fluges. - sind alle Zahlgäste und nicht zahlenden Fluggäste (Freigäste), deren Reise am Meldeflughafen beginnt oder endet, sowie umsteigende Fluggäste, die am Meldeflughafen zusteigen oder aussteigen. - ausgenommen sind Fluggäste im ungebrochenen Durchgangsverkehr.</dcterms:description>
+    <dcterms:title xml:lang="en">Air transport of passengers by country (yearly data)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/201f5a54-a046-421a-b886-5dedefc36923"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/1640ccfb-daeb-4d0c-b037-76a1e936872c"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bf8ce518-407e-4abe-8eaf-0740afb6a60f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8c2a942d-d784-46e8-a4fd-5842bc580e75"/>
+    <dcterms:title xml:lang="de">Passagieraufkommen in der Luftfahrt, pro Land (jährliche Dateien)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9ea42ef7-bba0-4df5-bdcc-394994e58ba2"/>
+    <dcterms:description xml:lang="fr">La table montre le nombre total annuel de passagers transportés en Europe (départs et arrivées) ventilé par pays. Les passagers transportés sont : - tous les passagers d’un vol particulier (identifié par un numéro de vol) comptés une seule fois et non pour chacune des étapes de ce vol. - tous les passagers payants et non payants dont le voyage commence ou se termine à l'aéroport déclarant et les passagers en correspondance embarquant ou quittant le vol à l'aéroport déclarant. - les passagers en transit direct ne sont pas pris en compte.</dcterms:description>
+    <dcatapop:ckanName>38mT9yVqp2FhG7WWGQF13Q</dcatapop:ckanName>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/986be5db-bb8b-478e-9aa0-d0b4d1761f2b"/>
+    <dcterms:title xml:lang="fr">Transport aérien de passagers par pays (données annuelles)</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/fc1bc2f7-8291-45e1-9035-8c8338bf6ee8"/>
+    <dcterms:identifier>ttr00012</dcterms:identifier>
+    <dcat:keyword xml:lang="en">air transport</dcat:keyword>
+    <dcterms:description xml:lang="en">The table shows the yearly number of passengers carried in Europe (arrivals plus departures), broken down by country. Passengers carried: - are all passengers on a particular flight (with one flight number) counted once only and not repeatedly on each individual stage of that flight. - are all revenue and non-revenue passengers whose journey begins or terminates at the reporting airport and transfer passengers joining or leaving the flight at the reporting airport. - excludes direct transit passengers.</dcterms:description>
+    <dcat:keyword xml:lang="en">transport statistics</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-29</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1add5302-e817-4450-b122-49f3905ee1e3"/>
+    <dcat:keyword xml:lang="en">carriage of passengers</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8df6916c-bde0-4802-9e00-b0adc23d1e12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/5c76d0f8-2192-47d8-aca6-e13c917cc194">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/986be5db-bb8b-478e-9aa0-d0b4d1761f2b">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=ttr00012"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c1446dcb-613d-41eb-b30b-75c7ba705f52">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=ttr00012"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/fc1bc2f7-8291-45e1-9035-8c8338bf6ee8">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/d5f2c9c9-ae78-4474-a617-2491ba31f4ce"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/5c76d0f8-2192-47d8-aca6-e13c917cc194"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/eca37806-b219-4f2d-b9d7-ceaa40b1f1ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bf8ce518-407e-4abe-8eaf-0740afb6a60f">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ttr00012.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/1640ccfb-daeb-4d0c-b037-76a1e936872c">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1add5302-e817-4450-b122-49f3905ee1e3">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ttr00012.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8df6916c-bde0-4802-9e00-b0adc23d1e12">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/38mT9yVqp2FhG7WWGQF13Q"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/ttr00012</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/eca37806-b219-4f2d-b9d7-ceaa40b1f1ef">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

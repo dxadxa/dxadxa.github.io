@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/6cb15c8c-7ef2-4cc1-a703-b0f27c7f4a00">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/1afb8f06-1359-49f2-aed5-a433dafb36da"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/9db9fd1b-5603-4ef2-937c-ff059b1f63f4"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/d2742983-cdd3-415a-b74c-e89196c675d9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/546b6c0e-2daa-4694-9dab-bf2671995632">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">2017-CO2_IntensEL_EEA_csv</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/co2-intensity-of-electricity-generation/eea-2017-co2-emission-intensity/2017-co2_intensel_eea_csv/view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/co2-intensity-of-electricity-generation">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/40ad8d1c-0a20-4526-b113-9f6d1d2cf303"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6011"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/546b6c0e-2daa-4694-9dab-bf2671995632"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T14:40:00Z</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/6cb15c8c-7ef2-4cc1-a703-b0f27c7f4a00"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>intensity of electricity generation</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] CO2 Intensity of Electricity Generation</dcterms:title>
+    <dcterms:identifier>DAT-232-en</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword>co2 emission</dcat:keyword>
+    <dcterms:description xml:lang="en">Electricity generation gives rise to negative impacts on the environment and human health throughout all stages of its life-cycle. To date, power generation remains the largest GHG-emitting sector in Europe. Carbon dioxide (CO2) is by far the most commonly-emitted GHG across the sector, being a product of combustion processes. An almost complete decarbonisation of the EU’s electricity sector is needed in order to meet the EU’s objective of becoming the first carbon-neutral continent by 2050.
+Electricity can play an increasing role in decarbonising energy use across a number of sectors, such as transport, industry and households. Information about the carbon intensity of electricity generation is therefore relevant for many stakeholders. The EEA and its European Topic Centre for Climate Change Mitigation and Energy (ETC/CME) produce each year country- and EU-level data on the average annual CO2 emission intensity of electricity generation.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-28T13:58:53Z</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/40ad8d1c-0a20-4526-b113-9f6d1d2cf303">
+    <dcterms:title xml:lang="en">[DEPRECATED] CO2 Intensity of Electricity Generation</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/co2-intensity-of-electricity-generation"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/co2-intensity-of-electricity-generation</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/9db9fd1b-5603-4ef2-937c-ff059b1f63f4">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b0549357-7122-4683-8230-c1680412431c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/co2-intensity-of-electricity-generation"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">462</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:26:34</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:26:34</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">343</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/1afb8f06-1359-49f2-aed5-a433dafb36da">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

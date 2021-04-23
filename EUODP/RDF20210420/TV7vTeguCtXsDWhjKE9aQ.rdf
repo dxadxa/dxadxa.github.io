@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/05cec49d-6559-4574-a608-4c03660762d5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_partme$ee?format=json&amp;compressed=false"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Download dataset in JSON format (not compressed)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bbd34cc8-6eee-47f8-84c3-14108d37004e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_partme$ee?format=csv&amp;compressed=false"/>
+    <dcterms:title xml:lang="en">Download dataset in CSV format (not compressed)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/85943b76-5b3b-44a6-934d-96d7e6340601">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/TV7vTeguCtXsDWhjKE9aQ"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 13:22:04.008792</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-08-20T13:28:29</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e96fa251-b436-4e5a-aed2-232b895a278f">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/lmp_esms.htm</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/TV7vTeguCtXsDWhjKE9aQ"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/TV7vTeguCtXsDWhjKE9aQ">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/dcf0841d-7694-466d-95c9-2abe7188e347"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fabdafef-326f-4ee4-81e0-360fa0d926d0"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-20</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8640875c-7bd7-49b4-a3ef-fe2d5dfcf87f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/05cec49d-6559-4574-a608-4c03660762d5"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e96fa251-b436-4e5a-aed2-232b895a278f"/>
+    <dcterms:identifier>LMP_PARTME$EE</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bbd34cc8-6eee-47f8-84c3-14108d37004e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8bf57f30-6173-428e-8310-b562922825ef"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/045e4fb9-c5ad-4c66-93bc-62aa61d74e5f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:title xml:lang="en">Participants by LMP intervention - Estonia</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c9e143d2-7547-4ee1-854a-80698e198b48"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EMPL"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1802"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c67538e4-9624-464c-8df3-b7dfc357e583"/>
+    <dcatapop:ckanName>TV7vTeguCtXsDWhjKE9aQ</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Participants by LMP intervention - Estonia</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/0b4f8383-b4ff-4f8c-a34b-00cfe8436897"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dcf0841d-7694-466d-95c9-2abe7188e347">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/page/LMP_PARTME%24EE</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/page/LMP_PARTME%24EE</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/TV7vTeguCtXsDWhjKE9aQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c67538e4-9624-464c-8df3-b7dfc357e583">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/view/LMP_PARTME$EE"/>
+    <dcterms:title xml:lang="en">Data visualization. Table, graphs and map visualizations are also available.</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0b4f8383-b4ff-4f8c-a34b-00cfe8436897">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/TV7vTeguCtXsDWhjKE9aQ"/>
+    <dcterms:title xml:lang="en">Eurostat - European statistics : online help</dcterms:title>
+    <schema:url xml:lang="en">https://ec.europa.eu/eurostat/online-help/public/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8640875c-7bd7-49b4-a3ef-fe2d5dfcf87f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/dataflow/EMPL/lmp_partme$ee/1.0?references=descendants&amp;detail=referencepartial&amp;format=sdmx_2.1_generic&amp;compressed=false"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Download data structure in SDMX-ML 2.1 format</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/045e4fb9-c5ad-4c66-93bc-62aa61d74e5f">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/018430ec-7c41-4334-a3a5-f9339566f689"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/f659efb0-3d99-45db-9d1b-2617c09b5059"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Directorate General for Employment,social affairs and inclusion</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9303a245-1fee-43f2-9dba-74a0024b0dd6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fabdafef-326f-4ee4-81e0-360fa0d926d0">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_partme$ee?format=sdmx_2.1_generic&amp;compressed=true"/>
+    <dcterms:title xml:lang="en">Download dataset in SDMX-ML 2.1 generic format</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/018430ec-7c41-4334-a3a5-f9339566f689">
+    <vcard:hasValue rdf:resource="+3222991111"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c9e143d2-7547-4ee1-854a-80698e198b48">
+    <dcterms:title xml:lang="en">Download dataset in TSV format (not compressed)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_partme$ee?format=tsv&amp;compressed=false"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9303a245-1fee-43f2-9dba-74a0024b0dd6">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/social/main.jsp?catId=2</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8bf57f30-6173-428e-8310-b562922825ef">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/page/LMP_PARTME$EE"/>
+    <dcterms:title xml:lang="en">More information on the Website of Directorate-General of Employment, Social Affairs and Inclusion</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/f659efb0-3d99-45db-9d1b-2617c09b5059">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Directorate-General for Employment, Social Affairs and Inclusion European Commission 1049 Bruxelles/Brussel Belgium</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a1bc02b5-b2ff-4e9f-a869-45f56eabbd1a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/med_air2.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2c4c4dd7-651e-4529-a33e-a98e74cdddc0">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/med_air2.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d328e790-759f-486a-83ab-066ed33fd862">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/24a7d7e7-1b4c-47cc-a200-6770fa7fe88f">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c388f9cf-2473-4b53-8e38-bf00261171f7">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Um4Ols5Uj3izuCHG0avf8w"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/med_air2</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/60ec800c-312b-4584-b68d-68f78f9f0eed">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/med_esms.sdmx.zip</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Um4Ols5Uj3izuCHG0avf8w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/a4424db9-dbff-48c1-b54f-2407ac73735f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f3e0b7e5-2f0e-46a2-81b7-e7faeb3461f8">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">552</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:23:27</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/Um4Ols5Uj3izuCHG0avf8w"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:06:16.686620</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/Um4Ols5Uj3izuCHG0avf8w">
+    <dcterms:title xml:lang="en">Air transport infrastructure: length of paved runways</dcterms:title>
+    <dcterms:description xml:lang="de">Flugverkehr - Infrastruktur: Start- und Landebahnlänge</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2c4c4dd7-651e-4529-a33e-a98e74cdddc0"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/60ec800c-312b-4584-b68d-68f78f9f0eed"/>
+    <dcterms:title xml:lang="fr">Transport aérien: longueur des pistes</dcterms:title>
+    <dcterms:identifier>med_air2</dcterms:identifier>
+    <dcatapop:ckanName>Um4Ols5Uj3izuCHG0avf8w</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/7932"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-28</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/cca45a98-88b7-4d9f-8a3b-f9c593264924"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0001e6a1-40ce-434e-a1ea-bab6fd76272a"/>
+    <dcterms:description xml:lang="fr">Transport aérien: longueur des pistes</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c388f9cf-2473-4b53-8e38-bf00261171f7"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c1df8d0d-18b8-4e05-b784-e0774bfb98ed"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/864faa2f-fa5e-47ca-8c4c-ff64cc0785ec"/>
+    <dcterms:title xml:lang="de">Flugverkehr - Infrastruktur: Start- und Landebahnlänge</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a1bc02b5-b2ff-4e9f-a869-45f56eabbd1a"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/1d82ff43-f696-47cb-8afc-e85b251e5bdd"/>
+    <dcterms:description xml:lang="en">Air transport infrastructure: length of paved runways</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cca45a98-88b7-4d9f-8a3b-f9c593264924">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/med_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Um4Ols5Uj3izuCHG0avf8w"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c1df8d0d-18b8-4e05-b784-e0774bfb98ed">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/med_air2.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/864faa2f-fa5e-47ca-8c4c-ff64cc0785ec">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/a4424db9-dbff-48c1-b54f-2407ac73735f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/24a7d7e7-1b4c-47cc-a200-6770fa7fe88f"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/d328e790-759f-486a-83ab-066ed33fd862"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/1d82ff43-f696-47cb-8afc-e85b251e5bdd">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0001e6a1-40ce-434e-a1ea-bab6fd76272a">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Um4Ols5Uj3izuCHG0avf8w"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/med_air2</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/med_air2</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

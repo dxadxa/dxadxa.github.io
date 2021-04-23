@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a56f8edb-4a23-4929-8c85-1768d7788b07">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 14:07:00.673699</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:24:59</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5de7bdf0-d185-469f-bd80-c7b8c1df331e">
+    <schema:url xml:lang="en">http://esdac.jrc.ec.europa.eu/content/maps-related-predicting-preservation-cultural-artefacts-and-buried-materials-soils-eu-0</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-41"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-41">
+    <dcterms:identifier>jrc-esdac-41</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-01</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/1cbeae50-d79a-4495-9345-4d3ec09d03d1"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-12</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:title xml:lang="en">Maps of preservation capacity of cultural artefacts and buried materials in soils in the EU</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:description xml:lang="en">Maps (2016) that indicate the preservation capacity of cultural artefacts and buried materials in soils in the EU, for bones, teeth and shells (bones), organic materials (organics), metals (Cu, bronze and Fe) (metals), stratigraphic evidence (strati).</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5de7bdf0-d185-469f-bd80-c7b8c1df331e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2566c0a5-a982-47ed-99b1-1379a673c6ae"/>
+    <dcatapop:ckanName>jrc-esdac-41</dcatapop:ckanName>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/05cb2b1c-c76d-4d0b-85f5-1418a47aa0f3"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9e667be8-b108-4caa-b16d-347364354240">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1cbeae50-d79a-4495-9345-4d3ec09d03d1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-41"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-41</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-41</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2566c0a5-a982-47ed-99b1-1379a673c6ae">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Maps of preservation capacity of cultural artefacts and buried materials in soils in the EU</dcterms:title>
+    <dcat:accessURL rdf:resource="http://esdac.jrc.ec.europa.eu/content/maps-related-predicting-preservation-cultural-artefacts-and-buried-materials-soils-eu-0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/05cb2b1c-c76d-4d0b-85f5-1418a47aa0f3">
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9e667be8-b108-4caa-b16d-347364354240"/>
+  </rdf:Description>
+</rdf:RDF>

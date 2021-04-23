@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/MiFID_SI">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/51208a29-e153-4df1-b63e-cb2d4ac6e3e0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4eedf7d1-38b6-49f6-8560-0a2b865e5f6d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4eddca9c-5121-4df6-8a3c-a1847446c73b"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 17:50:55.100783</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3e26f305-58a6-4e49-bfa3-2388ff6b9365"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b983abbe-def3-4fff-9a2a-bb5f6b418b86"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/72d88454-5cd4-43ed-8544-6e1aa135cef7"/>
+    <dcterms:title xml:lang="en">Systematic internalisers</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/8004eb96-6d6a-41f1-af86-f3be9a21c5ee"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b2abc001-6312-47ca-a001-21eec7fca614"/>
+    <dcatapop:ckanName>MiFID_SI</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1804"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1488"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/870a4cf1-68ea-478b-9621-bf6499828e78"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">ESMA makes available a list of all systematic internalisers, in respect of shares admitted to trading on a regulated market.  This list is based on the information communicated by the competent authorities, regarding the systemic internalisers they have authorised as investment firms. The list is reviewed the list at least annually.</dcterms:description>
+    <dcat:keyword xml:lang="en">systematic internalisers</dcat:keyword>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESMA"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5362"/>
+    <dcat:keyword xml:lang="en">SI</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESMA"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8469"/>
+    <dcat:keyword xml:lang="en">MiFID</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8004eb96-6d6a-41f1-af86-f3be9a21c5ee">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_upreg</dcterms:title>
+    <schema:url>https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_upreg</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MiFID_SI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b983abbe-def3-4fff-9a2a-bb5f6b418b86">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7Dae_entityTypeCode%3AMIS&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=xml&amp;indent=true"/>
+    <dcterms:title xml:lang="en">Request the list of systematic internalisers (XML)</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7Dae_entityTypeCode%3AMIS&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=xml&amp;indent=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b2abc001-6312-47ca-a001-21eec7fca614">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MiFID_SI"/>
+    <dcterms:title xml:lang="en">ESMA Registers - Application to Application Help File</dcterms:title>
+    <schema:url xml:lang="en">https://registers.esma.europa.eu/publication/helpApp</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cf47ff86-785c-4ab5-8c6a-6a86474e48d1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7072</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-27 17:50:55.100783</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-10T14:27:07</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/MiFID_SI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/51208a29-e153-4df1-b63e-cb2d4ac6e3e0">
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7Dae_entityTypeCode%3AMIS&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=json&amp;indent=true"/>
+    <dcterms:title xml:lang="en">Request the list of systematic internalisers (JSON)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7Dae_entityTypeCode%3AMIS&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=json&amp;indent=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4eddca9c-5121-4df6-8a3c-a1847446c73b">
+    <dcterms:title xml:lang="en">Request the list of systematic internalisers trading shares (XML)</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!parent+which%3D%22type_s%3Aparent%22%7D+and+ac_serviceName%3A%22SHRS+(shares)%22&amp;fq=ae_entityTypeCode%3AMIS&amp;wt=xml&amp;rows=1000&amp;indent=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!parent+which%3D%22type_s%3Aparent%22%7D+and+ac_serviceName%3A%22SHRS+(shares)%22&amp;fq=ae_entityTypeCode%3AMIS&amp;wt=xml&amp;rows=1000&amp;indent=true"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3e26f305-58a6-4e49-bfa3-2388ff6b9365">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_upreg#"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Access the MiFID/UCITS/AIFMD entities Register </dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/72d88454-5cd4-43ed-8544-6e1aa135cef7">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Securities and Markets Authority (ESMA)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/74b0328e-9e87-4d95-95b8-bbd7e93cc292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4eedf7d1-38b6-49f6-8560-0a2b865e5f6d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MiFID_SI"/>
+    <dcterms:title xml:lang="en">MiFID/UCITS/AIFMD Core Schema Information</dcterms:title>
+    <schema:url xml:lang="en">https://registers.esma.europa.eu/publication/helpApp#MiFID_UCITS_AIFMD_Information</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/74b0328e-9e87-4d95-95b8-bbd7e93cc292">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>https://registers.esma.europa.eu/publication/contactPage</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/870a4cf1-68ea-478b-9621-bf6499828e78">
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!parent+which%3D%22type_s%3Aparent%22%7D+and+ac_serviceName%3A%22SHRS+(shares)%22&amp;fq=ae_entityTypeCode%3AMIS&amp;wt=json&amp;rows=1000&amp;indent=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!parent+which%3D%22type_s%3Aparent%22%7D+and+ac_serviceName%3A%22SHRS+(shares)%22&amp;fq=ae_entityTypeCode%3AMIS&amp;wt=json&amp;rows=1000&amp;indent=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Request the list of systematic internalisers trading shares (JSON)</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

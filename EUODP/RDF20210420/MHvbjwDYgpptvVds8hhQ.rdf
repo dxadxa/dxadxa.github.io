@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/108227e5-13c9-4d7f-9107-53100b818e13">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/rail_go_intunld.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/284a3ca0-18e2-4fce-8486-533d91c29720">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/rail_go_intunld.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/b3f8eda4-7a01-4142-996b-bb948993179a">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-10-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1982-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f7db2036-cf76-44e4-8707-2705d78418eb">
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/rail_go_intunld.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2fb5234a-d4dd-4f11-89de-fd206d1ad858">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MHvbjwDYgpptvVds8hhQ"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/rail_pa_esms.htm</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/33dd5e9f-f0ee-4f72-a20d-e3d82799a6a6">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/06b8a4f9-aba1-4d22-bb60-770be26b1593">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/33dd5e9f-f0ee-4f72-a20d-e3d82799a6a6"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/af9d3d41-2f25-479a-a0ae-904d207160f6"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/b17bdcb0-fdd2-4b8a-bd57-ced6cc23e767"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/MHvbjwDYgpptvVds8hhQ">
+    <dcterms:description xml:lang="en">International transport of goods from the reporting country to the unloading country (Monthly data) (1982-2002)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:identifier>rail_go_intunld</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/afc2b31f-c220-47fd-a336-3c22585bd668"/>
+    <dcterms:title xml:lang="de">Grenzüberschreitender Güterverkehr vom Meldeland zum Entladungsland (Monatliche Daten) (1982-2002)</dcterms:title>
+    <dcterms:title xml:lang="en">International transport of goods from the reporting country to the unloading country (Monthly data) (1982-2002)</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2fb5234a-d4dd-4f11-89de-fd206d1ad858"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c8b2d6de-11e7-45b4-a042-14250d0b7ac7"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/06b8a4f9-aba1-4d22-bb60-770be26b1593"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/108227e5-13c9-4d7f-9107-53100b818e13"/>
+    <dcterms:description xml:lang="de">Grenzüberschreitender Güterverkehr vom Meldeland zum Entladungsland (Monatliche Daten) (1982-2002)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f7db2036-cf76-44e4-8707-2705d78418eb"/>
+    <dcterms:title xml:lang="fr">Transport international de marchandises du pays de chargement vers le pays déclarant (données mensuelles) (1982-2002)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/284a3ca0-18e2-4fce-8486-533d91c29720"/>
+    <dcterms:description xml:lang="fr">Transport international de marchandises du pays de chargement vers le pays déclarant (données mensuelles) (1982-2002)</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/b3f8eda4-7a01-4142-996b-bb948993179a"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-20</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcatapop:ckanName>MHvbjwDYgpptvVds8hhQ</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/661a6d7c-bc9c-4be2-882c-44b753a81841"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c8b2d6de-11e7-45b4-a042-14250d0b7ac7">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/rail_pa_esms.sdmx.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MHvbjwDYgpptvVds8hhQ"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/afc2b31f-c220-47fd-a336-3c22585bd668">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MHvbjwDYgpptvVds8hhQ"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/rail_go_intunld</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/rail_go_intunld</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/0eee2644-c128-40ff-9284-e6e403f63825">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:44:42</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:28:08.412309</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/MHvbjwDYgpptvVds8hhQ"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/661a6d7c-bc9c-4be2-882c-44b753a81841">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/rail_go_intunld</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/MHvbjwDYgpptvVds8hhQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/b17bdcb0-fdd2-4b8a-bd57-ced6cc23e767">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/af9d3d41-2f25-479a-a0ae-904d207160f6">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

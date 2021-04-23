@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7a2e6389-060c-4ba8-8c84-aca61022ef76">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/spanish-french-website-parallel-corpus/0cb6cd0c13f811e7bfe700155d020502bda8633397a942bfa6f730489349c137/"/>
+    <dcterms:issued xml:lang="en">2017-12-18 16:40:49.205759</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: application/x-tmx+xml</dcterms:title>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: application/x-tmx+xml</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ff00f87e-223f-493b-9856-3308ef79ad76">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_338">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b8fa23ba-28ca-479e-b067-eaade2dc3a41"/>
+    <dcatapop:ckanName>elrc_338</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7a2e6389-060c-4ba8-8c84-aca61022ef76"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>ELRC_338</dcterms:identifier>
+    <dcterms:description xml:lang="en">This is a parallel corpus of bilingual texts crawled from multilingual websites, which contains 15,797 TUs. &#13;
+Period of crawling : 15/11/2016 - 23/01/2017.&#13;
+A strict validation process has been followed, which resulted in discarding:&#13;
+- TUs from crawled websites that do not comply to the PSI directive, &#13;
+- TUs with more than 99% of mispelled tokens, &#13;
+- TUs identified during the manual validation process and all the TUs from websites which error rate in the sample extracted for manual validation is strictly above the following thresholds: &#13;
+50% of TUs with language identification errors, &#13;
+50% of TUs with alignment errors, &#13;
+50% of TUs with tokenization errors, &#13;
+20% of TUs identified as machine translated content, &#13;
+50% of TUs with translation errors.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-14 10:22:47.001139</dcterms:modified>
+    <dcterms:title xml:lang="en">Spanish-French website parallel corpus</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-14 17:02:17.797022</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ff00f87e-223f-493b-9856-3308ef79ad76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b8fa23ba-28ca-479e-b067-eaade2dc3a41">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_338</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_338"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_338</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6f7875af-3efd-42b3-9dc4-320a2d09baa5">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_338"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:25:15</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14 17:02:17.797022</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">643</dcatapop:numberOfViews>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">535</dcatapop:numberOfDownloads>
+  </rdf:Description>
+</rdf:RDF>

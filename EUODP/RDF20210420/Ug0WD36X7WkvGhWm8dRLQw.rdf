@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3838b044-a029-4265-865a-31fb344b9bf1">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/t2020_rd330.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bb53aa96-d850-4a40-b6e5-69c96e10003e">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ug0WD36X7WkvGhWm8dRLQw"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/t2020_rd330_esmsip2.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3ed64ada-404a-47c5-beb2-a669f1ccf90f">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/t2020_rd330.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cd2c8cfc-a8b9-40fd-8a72-68afa281a489">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/t2020_rd330.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/Ug0WD36X7WkvGhWm8dRLQw">
+    <dcterms:title xml:lang="de">Anteil erneuerbarer Energien am Bruttoendenergieverbrauch</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a2fdbd14-8126-4de4-8e52-1763002fb1a5"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3838b044-a029-4265-865a-31fb344b9bf1"/>
+    <dcterms:identifier>t2020_rd330</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3ed64ada-404a-47c5-beb2-a669f1ccf90f"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/398776fe-a40a-4a27-a408-6ae396c7da18"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcatapop:ckanName>Ug0WD36X7WkvGhWm8dRLQw</dcatapop:ckanName>
+    <dcterms:description xml:lang="fr">L'indicateur mesure la part des énergies renouvelables dans la consommation finale brute d'énergie selon la Directive sur l'énergie renouvelable. La consommation finale brute d'énergie est l'énergie utilisée par les consommateurs finaux (consommation finale d'énergie) plus les pertes sur le réseau et la consommation propre des centrales électriques. Cet indicateur est calculé sur la base de la Directive 2009/28/CE sur la promotion de l’utilisation de l’énergie provenant des sources renouvelables. Le calcul est basé sur les données collectées dans le cadre du Règlement (CE) n° 1099/2008 sur les statistiques de l’énergie et complété par des données spécifiques additionnelles transmises à Eurostat par des administrations nationales. Dans certains pays les systèmes statistiques ne sont pas encore totalement développés pour répondre aux exigences de la Directive 2009/28/CE, en particulier par rapport à la chaleur ambiante captée de l'environnement par les pompes à chaleur.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f681df66-3ccb-472d-a697-34da1ad0e05e"/>
+    <dcterms:description xml:lang="de">Der Indikator misst den Anteil des Verbrauchs erneuerbarer Energien am Bruttoendenergieverbrauch gemäß der Richtlinie Erneuerbare Energien. Der Bruttoendenergieverbrauch ist der Energieverbrauch der Endverbraucher (Endenergieverbrauch) zuzüglich der Netzverluste und des Eigenverbrauchs der Kraftwerke. Dieser Indikator wird auf der Grundlage der Richtlinie 2009/28/EG zur Förderung der Nutzung von Energie aus erneuerbaren Quellen berechnet. Die Berechnung basiert auf Daten, die im Rahmen der Energiestatistik Verordnung (EG) Nr. 1099/2008 erhoben und durch spezifische Zusatzdaten ergänzt wurden, die von den nationalen Verwaltungen an Eurostat übermittelt wurden. In einigen Ländern sind die statistischen Systeme noch nicht vollständig entwickelt, um alle Anforderungen der Richtlinie 2009/28/EG zu erfüllen, insbesondere in Bezug auf die Umgebungswärme, die von Wärmepumpen aus der Umgebung gewonnen wird.</dcterms:description>
+    <dcterms:title xml:lang="fr">Part des énergies renouvelables dans la consommation finale brute d'énergie</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6ac08ce2-1d7e-4389-b460-52cebb3d1b56"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bb53aa96-d850-4a40-b6e5-69c96e10003e"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/829f33b6-2153-4203-a8eb-7f3408a85d98"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/212779d4-b7c1-4ccc-a176-18b89e86301b"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cd2c8cfc-a8b9-40fd-8a72-68afa281a489"/>
+    <dcterms:title xml:lang="en">Share of renewable energy in gross final energy consumption</dcterms:title>
+    <dcterms:description xml:lang="en">The indicator measures the share of renewable energy consumption in gross final energy consumption according to the Renewable Energy Directive. The gross final energy consumption is the energy used by end-consumers (final energy consumption) plus grid losses and self-consumption of power plants. This indicator is calculated on the basis of Directive 2009/28/EC on the promotion of the use of energy from renewable sources. The calculation is based on data collected in the framework of Regulation (EC) No 1099/2008 on energy statistics and complemented by specific supplementary data transmitted by national administrations to Eurostat. In some countries the statistical systems are not yet fully developed to meet all requirements of Directive 2009/28/EC, in particular with respect to ambient heat captured from the environment by heat pumps.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d7963336-724e-4143-82c6-f88b0e0d06f7"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/887e9f21-fa0a-45ae-acaa-26afb3695bc3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/829f33b6-2153-4203-a8eb-7f3408a85d98">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=t2020_rd330"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/212779d4-b7c1-4ccc-a176-18b89e86301b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=t2020_rd330"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f681df66-3ccb-472d-a697-34da1ad0e05e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/e8c00798-df6d-42a8-aac6-49887ec71e59"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/2b640cf2-9658-4896-a1db-a875439bacb5"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/f5d074b0-97c7-4a1a-b2f3-d25d80e4295c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a2fdbd14-8126-4de4-8e52-1763002fb1a5">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rd330</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ug0WD36X7WkvGhWm8dRLQw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f5d074b0-97c7-4a1a-b2f3-d25d80e4295c">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6ac08ce2-1d7e-4389-b460-52cebb3d1b56">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/t2020_rd330_esmsip2.sdmx.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ug0WD36X7WkvGhWm8dRLQw"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d7963336-724e-4143-82c6-f88b0e0d06f7">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rd330</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rd330</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ug0WD36X7WkvGhWm8dRLQw"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/887e9f21-fa0a-45ae-acaa-26afb3695bc3">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=t2020_rd330"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/398776fe-a40a-4a27-a408-6ae396c7da18">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ab34920e-1717-4c6a-a791-b29bb8467fb8">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/Ug0WD36X7WkvGhWm8dRLQw"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:20:09</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-24 05:10:11.489193</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/e8c00798-df6d-42a8-aac6-49887ec71e59">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/2b640cf2-9658-4896-a1db-a875439bacb5">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

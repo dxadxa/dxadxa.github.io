@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/8b72b163-e586-4850-8bfa-b0a739f9709d">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 13:22:17.788997</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:37:14</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">680</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/YrI3JjYlQsT14UuUmiwmA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2cc2c4cf-9bad-430e-840f-995f5b9e7b11">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_li21.sdmx.zip"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5626cab3-96f0-4b21-9a9d-430e125f989e">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/YrI3JjYlQsT14UuUmiwmA"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_li21</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d229bcbd-7733-40b6-947a-0cf65d422152">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/YrI3JjYlQsT14UuUmiwmA"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ilc_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5551150a-f7b7-4fe5-bd77-60520ac92b29">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/YrI3JjYlQsT14UuUmiwmA"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ilc_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/YrI3JjYlQsT14UuUmiwmA">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+    <dcterms:title xml:lang="en">Persistent at-risk-of-poverty rate by sex and age - EU-SILC and ECHP surveys</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4050"/>
+    <dcterms:title xml:lang="de">Quote der dauerhaften Armutsgefährdung nach Geschlecht und Alter - EU-SILC und ECHP Erhebungen</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/83"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/41a4d054-3fd1-4cd2-9e72-ffddd96c1cd6"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5626cab3-96f0-4b21-9a9d-430e125f989e"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/af32fcd3-aee7-42d2-b3e6-bdb48f00c3b0"/>
+    <dcterms:description xml:lang="de">Quote der dauerhaften Armutsgefährdung nach Geschlecht und Alter - EU-SILC und ECHP Erhebungen</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2cc2c4cf-9bad-430e-840f-995f5b9e7b11"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3659"/>
+    <dcterms:title xml:lang="fr">Taux de risque persistant de pauvreté par sexe et âge - enquêtes EU-SILC et PCM</dcterms:title>
+    <dcterms:description xml:lang="fr">Taux de risque persistant de pauvreté par sexe et âge - enquêtes EU-SILC et PCM</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/85ff09b6-b5e7-413a-8863-37e14d396d29"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/62f3e407-fd91-480f-b5fb-33ce7075a7a7"/>
+    <dcatapop:ckanName>YrI3JjYlQsT14UuUmiwmA</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Persistent at-risk-of-poverty rate by sex and age - EU-SILC and ECHP surveys</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5551150a-f7b7-4fe5-bd77-60520ac92b29"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d229bcbd-7733-40b6-947a-0cf65d422152"/>
+    <dcterms:identifier>ilc_li21</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1469"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/134cafd0-5189-4642-8cf7-17d1438ce39d"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/62f3e407-fd91-480f-b5fb-33ce7075a7a7">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_li21.tsv.gz"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2b359c0d-286e-45e8-85c1-267b0e2fdf11">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/41a4d054-3fd1-4cd2-9e72-ffddd96c1cd6">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_li21</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_li21</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/YrI3JjYlQsT14UuUmiwmA"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/134cafd0-5189-4642-8cf7-17d1438ce39d">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_li21.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/af32fcd3-aee7-42d2-b3e6-bdb48f00c3b0">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/2b359c0d-286e-45e8-85c1-267b0e2fdf11"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/d047cb62-3c59-49a3-b89c-3973f12b274c"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/3601e308-d5eb-4d70-aed6-72a8c5ab444e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/85ff09b6-b5e7-413a-8863-37e14d396d29">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/3601e308-d5eb-4d70-aed6-72a8c5ab444e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/d047cb62-3c59-49a3-b89c-3973f12b274c">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

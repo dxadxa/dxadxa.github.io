@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/population-density">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T00:00:00Z</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3890ae2d-33cd-41df-a4cb-7766eb10c6b9"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:description xml:lang="en">Distribution of population using Corine land cover (CLC90)</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword>geospatial data</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:keyword>EEA owned data sets</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/dfcfbb79-222b-490b-9da1-f4d9ec2e0f06"/>
+    <dcat:keyword>population</dcat:keyword>
+    <dcterms:title xml:lang="en">[DEPRECATED] Population density</dcterms:title>
+    <dcat:keyword>Corine Land Cover</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-25T11:52:28Z</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b2e25279-bc1d-43f2-b9f8-0f9e8772cf5f"/>
+    <dcterms:identifier>DAT-19-en</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/1eba7ca2-7420-443f-8815-bbc35424e7a9"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/fb915efd-c465-44c1-8cff-49d8a440a08a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/399bfa15-8ed7-4abc-b95d-247dcb25e720">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:09:43</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/population-density"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:09:43</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b2e25279-bc1d-43f2-b9f8-0f9e8772cf5f">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/population-density/mapping-population-density/mapping-population-density/view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Mapping population density</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:description></dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dfcfbb79-222b-490b-9da1-f4d9ec2e0f06">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/population-density"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/population-density</schema:url>
+    <dcterms:title xml:lang="en">[DEPRECATED] Population density</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3890ae2d-33cd-41df-a4cb-7766eb10c6b9">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Zipped ESRI coverage</dcterms:title>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/population-density/zipped-esri-coverage/zipped-esri-coverage/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/6d4e3540-6250-451e-9696-42ba2b40b40f">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/1eba7ca2-7420-443f-8815-bbc35424e7a9">
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/fb915efd-c465-44c1-8cff-49d8a440a08a"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/8d32c0f5-c546-454f-b84d-3180d6ba498a"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/6d4e3540-6250-451e-9696-42ba2b40b40f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

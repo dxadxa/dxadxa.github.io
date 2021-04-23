@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e052e00b-a97f-40ad-8b93-fce021366edb">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9f830a0b-6e94-446b-8ed0-b62a80a4efbf"/>
+    <vcard:hasEmail rdf:resource="thomas.telsnig@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d5aab4d6-808b-4710-aee5-47608262b69f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://community.ieawind.org/task26/dataviewer"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">IEA Wind - Task26 - Data viewer</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/2b23e7fc-4bd9-4c23-970e-9c05e6ac040e">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-11</dcterms:issued>
+    <dcat:keyword xml:lang="en">Energy</dcat:keyword>
+    <dcterms:identifier>2b23e7fc-4bd9-4c23-970e-9c05e6ac040e</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c0bb66e2-eddc-476e-8781-81be81293e83"/>
+    <dcterms:description xml:lang="en">The data submitted includes the development of technical indicators (onshore wind energy) in the EU28 in the period 2007 - 2018. JRC.C7 provides data on these indicators to the IEA Task 26 group (Cost of wind energy) on an annual basis</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">JRC Onshore Wind Dataset</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d5aab4d6-808b-4710-aee5-47608262b69f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:ckanName>2b23e7fc-4bd9-4c23-970e-9c05e6ac040e</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e052e00b-a97f-40ad-8b93-fce021366edb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9f830a0b-6e94-446b-8ed0-b62a80a4efbf">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ccc765b6-a546-4e0c-9146-dc4051fd3f09">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:09:32</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:09:32</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/2b23e7fc-4bd9-4c23-970e-9c05e6ac040e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c0bb66e2-eddc-476e-8781-81be81293e83">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/2b23e7fc-4bd9-4c23-970e-9c05e6ac040e"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/2b23e7fc-4bd9-4c23-970e-9c05e6ac040e</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/2b23e7fc-4bd9-4c23-970e-9c05e6ac040e</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

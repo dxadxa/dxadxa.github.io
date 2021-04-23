@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8a713615-8fbd-461f-837c-16ebbefa0c19">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Map view</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/budget/euprojects/search-projects_en?view=map&amp;hash=35643536383661393661656465#block-budg-eu-projects-view-switcher-results"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/dc7708ca-a630-4305-a1c5-6cf99e2aca0f">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">984</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-results-projects"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-02-05T12:34:46</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-10T14:08:25</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">875</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-results-projects">
+    <dcatapop:ckanName>eu-results-projects</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5315"/>
+    <dcterms:alternative xml:lang="en">Examples of EU funded projects</dcterms:alternative>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3753e25a-99d0-49b7-8136-1371bacf2c2d"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-30</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8a713615-8fbd-461f-837c-16ebbefa0c19"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/438855"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+    <dcterms:description xml:lang="en">Examples of concrete projects funded by the EU all over the world. The data include project name, location, coordinators and partners, and timeframe. The database also lists the EU budget contribution with the description of the results accomplished and the European Commission’s priorities to which the projects are linked.&#13;
+&#13;
+Disclaimer: The data contained in this database was collected from different sources. As such, small discrepancies are possible.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1005"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/934d8c53-f9be-48c6-b7df-648c9a29587e"/>
+    <dcterms:title xml:lang="en">EU results projects</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/c45b6a56-4587-41dd-9933-68fdac65e1ad"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-30</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4d8c194a-e455-41b4-b6c9-2da779fad397"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3753e25a-99d0-49b7-8136-1371bacf2c2d">
+    <schema:url>https://ec.europa.eu/budget/euprojects/search-projects_en</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/budget/euprojects/search-projects_en</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-results-projects"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/934d8c53-f9be-48c6-b7df-648c9a29587e">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/repository/ec/dg-budg/eu_results.csv"/>
+    <dcterms:title xml:lang="en">EU results</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/c45b6a56-4587-41dd-9933-68fdac65e1ad">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4d8c194a-e455-41b4-b6c9-2da779fad397">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/d3641a08-4388-4b8b-b781-5fd0c05aebbc"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a599e758-3017-4884-8252-5ec18176e903"/>
+    <vcard:organisation-name>DG Budget</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="BUDG-MAILBOX-U03@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a599e758-3017-4884-8252-5ec18176e903">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ec.europa.eu/info/departments/budget_en</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/d3641a08-4388-4b8b-b781-5fd0c05aebbc">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="00322299111"/>
+  </rdf:Description>
+</rdf:RDF>

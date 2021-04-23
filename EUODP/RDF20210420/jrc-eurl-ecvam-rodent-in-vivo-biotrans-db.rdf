@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vivo-biotrans-db">
+    <dcatapop:ckanName>jrc-eurl-ecvam-rodent-in-vivo-biotrans-db</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/442cf611-9da3-451f-819e-ed3a6a08586b"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/828534cf-8b4d-4ab0-8223-0c4ca952b7de"/>
+    <dcterms:title xml:lang="en">EURL ECVAM Rodent In Vivo Biotransformation Database</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-08</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-07</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f37a5e24-9e32-4691-8f55-2f6b7164065b"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>jrc-eurl-ecvam-rodent-in-vivo-biotrans-db</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:description xml:lang="en">The Rodent In Vivo Biotransformation database is an Excel™ workbook and includes rodent (mouse, rat) in vivo biotransformation data (clearance or elimination or half-life, and in most entries additional TK parameters relating to the reported clearance value). There are 2442 entries for approximately 568 unique chemicals. The database has been compiled by ARC Arnot Research and Consulting Inc (Toronto, Canada) for EURL ECVAM (Joint Research Centre, F.3; contract number: CCR.F.C931336.X0) applying quality criteria as outlined in the spreadsheets.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e50a101f-f976-4704-936e-215304fdbb65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/442cf611-9da3-451f-819e-ed3a6a08586b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/RodentInVivoBiotrans/LATEST/"/>
+    <dcterms:description xml:lang="en">Excel workbook: EURL-ECVAM-Rodent-InVivo-biotransformation-DB-09-10-2018.xlsx</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">EURL ECVAM Rodent In Vivo Biotransformation Database</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e50a101f-f976-4704-936e-215304fdbb65">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">https://ec.europa.eu/jrc/en/research-topic/alternatives-animal-testing-and-safety-assessment-chemicals</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vivo-biotrans-db"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/af085500-cd27-4193-9664-7f95bc7f04c1">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f37a5e24-9e32-4691-8f55-2f6b7164065b">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/af085500-cd27-4193-9664-7f95bc7f04c1"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="jrc-computox@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/828534cf-8b4d-4ab0-8223-0c4ca952b7de">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vivo-biotrans-db"/>
+    <schema:url>http://data.europa.eu/89h/jrc-eurl-ecvam-rodent-in-vivo-biotrans-db</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-eurl-ecvam-rodent-in-vivo-biotrans-db</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/adbe4a46-d43e-46df-b98e-136e1f62554b">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-13 12:03:21.471234</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:17:11</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vivo-biotrans-db"/>
+  </rdf:Description>
+</rdf:RDF>

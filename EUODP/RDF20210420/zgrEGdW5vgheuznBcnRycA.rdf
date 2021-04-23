@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6f2e36fd-736c-4755-8168-e0d1f1074d9a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Download dataset in CSV format (not compressed)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format CSV (non compressé)</dcterms:title>
+    <dcterms:title xml:lang="de">Datensatz im CSV Format (entpackt) herunterladen</dcterms:title>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_expsumm$tps00076?format=csv&amp;compressed=false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/0c554ef8-d6c4-4d3d-8623-a6562d51c46e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Directorate-General for Employment, Social Affairs and Inclusion European Commission 1049 Bruxelles/Brussel Belgium</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/77decdd6-4de1-4bf7-b0d3-1a1469e052ff">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Eurostat - European statistics : online help</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/zgrEGdW5vgheuznBcnRycA"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/eurostat/online-help/public/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1d591123-4b37-46cb-878d-eca6cd4e9085">
+    <dcterms:title xml:lang="en">Download dataset in JSON format (not compressed)</dcterms:title>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format JSON (non compressé)</dcterms:title>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_expsumm$tps00076?format=json&amp;compressed=false"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Datensatz im JSON Format herunterladen (entpackt)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/74465273-6dfe-4ac5-8f76-8d9cb96b9fd3">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/dataflow/EMPL/lmp_expsumm$tps00076/1.0?references=descendants&amp;detail=referencepartial&amp;format=sdmx_2.1_generic&amp;compressed=false"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:title xml:lang="en">Download data structure in SDMX-ML 2.1 format</dcterms:title>
+    <dcterms:title xml:lang="fr">Télécharger une structure de données au format SDMX-ML 2.1</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Strukturdefinition im SDMX-ML 2.1 Format herunterladen</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/zgrEGdW5vgheuznBcnRycA">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/78dfb214-fd6b-4011-91f7-24b0f693ffea"/>
+    <dcterms:identifier>LMP_EXPSUMM$TPS00076</dcterms:identifier>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-20</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/74465273-6dfe-4ac5-8f76-8d9cb96b9fd3"/>
+    <dcatapop:ckanName>zgrEGdW5vgheuznBcnRycA</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0af2f316-1d7b-45df-a894-18ba6bc77bc6"/>
+    <dcterms:description xml:lang="en">Expenditure on labour market policies (LMP) is limited to public interventions which are explicitly targeted                    at groups of persons with difficulties in the labour market: the unemployed, the employed at risk                    of involuntary job loss and inactive persons who would like to enter the labour market. Total expenditure                    is broken down into LMP services (category 1), which covers the costs of the public employment service                    (PES) together with any other publicly funded services for jobseekers; LMP measures (categories 2-7),                    which covers activation measures for the unemployed and other target groups including the categories                    of training, job rotation and job sharing, employment incentives, supported employment and rehabilitation,                    direct job creation, and start-up incentives; and LMP supports (categories 8-9), which covers out-of-work                    income maintenance and support (mostly unemployment benefits) and early retirement benefits.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/dcf6b206-e6b3-41cd-b2fa-41cde88ce367"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6313fb21-e940-4076-9255-7825b84e79b5"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EMPL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c03c11db-3141-4223-8e11-e2d1a2852c71"/>
+    <dcterms:title xml:lang="en">Public expenditure on labour market policies, by type of action</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0568d53f-5e48-4846-a25f-daafd891832e"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="fr">Dépenses publiques pour les politiques du marché du travail, par type d'action</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/732def3b-31f5-4bd2-8164-eea5bb76dc07"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/68d68631-b082-4cde-9383-751b7936e5c0"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/77decdd6-4de1-4bf7-b0d3-1a1469e052ff"/>
+    <dcterms:title xml:lang="de">Öffentliche Ausgaben für Arbeitsmarktpolitik, nach Interventionsart</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1d591123-4b37-46cb-878d-eca6cd4e9085"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6f2e36fd-736c-4755-8168-e0d1f1074d9a"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1802"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:description xml:lang="de">Ausgaben für Arbeitsmarktpolitik (AMP) beschränken sich auf öffentliche Eingriffe, die ausdrücklich auf Personengruppen                    mit Schwierigkeiten auf dem Arbeitsmarkt abzielen: Arbeitslose, Arbeitnehmer, die von unfreiwilliger                    Arbeitslosigkeit bedroht sind, und Nichterwerbspersonen, die in den Arbeitsmarkt eintreten wollen. Die                    Gesamtausgaben sind aufgeschlüsselt nach AMP-Dienstleistungen (Kategorie 1), die die Kosten der öffentlichen                    Arbeitsverwaltungen (PES) umfassen, einschließlich anderer öffentlich finanzierter Dienstleistungen für                    Arbeitssuchende; AMP-Maßnahmen (Kategorien 2-7), die Aktivierungsmaßnahmen für Arbeitslose und andere                    Zielgruppen umfassen: Aus- und Weiterbildung, Arbeitsplatztausch und Job-Sharing, Beschäftigungsanreize,                    geförderte Beschäftigung und Rehabilitation, direkte Schaffung von Arbeitsplätzen, und Gründungsinitiativen;                    und AMP-Unterstützungen (Kategorien 8-9), die Einkommensunterstützung für Arbeitslose (hauptsächlich                    Arbeitslosengeld) und Vorruhestandsleistungen umfassen.</dcterms:description>
+    <dcterms:description xml:lang="fr">Les dépenses pour les politiques du marché du travail (PMT) sont limitées aux interventions publiques                    qui sont explicitement ciblées sur des groupes de personnes éprouvant des difficultés sur le marché                    du travail: les chômeurs, les personnes ayant un emploi mais menacées de le perdre involontairement                    et les inactifs qui aimeraient entrer sur le marché du travail. Les dépenses totales sont divisées                    en services PMT (catégorie 1), qui couvrent les coûts des services publics de l'emploi (SPE) ainsi                    que tous les autres services publics pour les demandeurs d'emploi; mesures PMT (catégories 2-7),                    qui couvrent les mesures d'activation pour les chômeurs et autres groupes cibles incluant les catégories                    de formation professionnelle, rotation dans l'emploi et partage d'emploi, incitations à l'emploi,                    emploi protégé et réadaptation, création directe d'emplois et aides à la création d'entreprise; et                    soutiens PMT (catégories 8-9), qui couvrent le maintien et le soutien du revenu en cas d'absence                    d'emploi (principalement prestations de chômage) et allocations de préretraite.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/78dfb214-fd6b-4011-91f7-24b0f693ffea">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/page/LMP_EXPSUMM$TPS00076"/>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Webseite der Generaldirektion Beschäftigung, Soziales und Integration</dcterms:title>
+    <dcterms:title xml:lang="en">More information on the Website of Directorate-General of Employment, Social Affairs and Inclusion</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Plus d'information sur le site web de la direction Générale Emploi, Affaires Sociales et Inclusion</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0568d53f-5e48-4846-a25f-daafd891832e">
+    <dcterms:title xml:lang="fr">Visualisation de données. Des visualisations sous forme de tableau, graphique et carte géographique sont aussi disponibles.</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/view/LMP_EXPSUMM$TPS00076"/>
+    <dcterms:title xml:lang="en">Data visualization. Table, graphs and map visualizations are also available.</dcterms:title>
+    <dcterms:title xml:lang="de">Datenvisualisierung. Tabellen, Grafiken und geografische Darstellungen sind ebenfalls verfügbar.</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/732def3b-31f5-4bd2-8164-eea5bb76dc07">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c3c29280-4783-45d8-b3e9-a9850194373a"/>
+    <vcard:organisation-name>Directorate General for Employment,social affairs and inclusion</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/0c554ef8-d6c4-4d3d-8623-a6562d51c46e"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/a7e67cc2-8a82-4890-a711-91fec41ac452"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c03c11db-3141-4223-8e11-e2d1a2852c71">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Datensatz im TSV Format (entpackt) herunterladen</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format TSV (non compressé)</dcterms:title>
+    <dcterms:title xml:lang="en">Download dataset in TSV format (not compressed)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_expsumm$tps00076?format=tsv&amp;compressed=false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0af2f316-1d7b-45df-a894-18ba6bc77bc6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/page/LMP_EXPSUMM%24TPS00076</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/zgrEGdW5vgheuznBcnRycA"/>
+    <schema:url>https://webgate.ec.europa.eu/empl/redisstat/databrowser/product/page/LMP_EXPSUMM%24TPS00076</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dcf6b206-e6b3-41cd-b2fa-41cde88ce367">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/employment_social/employment_analysis/lmp/lmp_esms.htm</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/zgrEGdW5vgheuznBcnRycA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6313fb21-e940-4076-9255-7825b84e79b5">
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format SDMX-ML 2.1 generic</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Datensatz im SDMX-ML 2.1 generic Format herunterladen</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_expsumm$tps00076?format=sdmx_2.1_generic&amp;compressed=true"/>
+    <dcterms:title xml:lang="en">Download dataset in SDMX-ML 2.1 generic format</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/de4cb5e1-1298-497f-9ef3-a347adf0e116">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-08-20T13:29:14</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/zgrEGdW5vgheuznBcnRycA"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 13:40:32.719137</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c3c29280-4783-45d8-b3e9-a9850194373a">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/social/main.jsp?catId=2</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/68d68631-b082-4cde-9383-751b7936e5c0">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/a7e67cc2-8a82-4890-a711-91fec41ac452">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+3222991111"/>
+  </rdf:Description>
+</rdf:RDF>

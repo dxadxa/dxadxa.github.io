@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/585ce8bb-5ac2-46d3-b153-57d3e07af2fe">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tsdph400</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdph400</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/LGJDkigfmJrDi0VptBsIA">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/295cb432-74f2-425d-bc49-f4f574a34878"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified>2018-08-30 14:32:57.249246</dcterms:modified>
+    <dcterms:description xml:lang="de">Die standardisierte Inzidenzquote eines Landes wird berechnet, indem die Inzidenzquote für jeden Wirtschaftszweig mit der Beziehungszahl aus der wirtschaftszweigspezifischen und der gesamten EU-Bezugsgesamtheit (Erwerbstätige) multipliziert wird. Danach werden die gewichteten Inzidenzquoten addiert. Bei der standardisierten Inzidenzquote wird davon ausgegangen, dass in jedem Land der relative Anteil der Bezugsgesamtheit eines Wirtschaftszweigs genauso groß ist wie in der EU insgesamt. Weil sich Wirtschaftszweige mit hohem oder niedrigem Risiko nicht auswirken, ist so ein direkter Vergleich der Inzidenzquoten zwischen den Ländern möglich. Die (nicht standardisierte) Inzidenzquote wird für jedes Land und jeden Wirtschaftszweig berechnet als die Zahl der Arbeitsunfälle (mit Ausfallzeiten von vier oder mehr Kalendertagen) dividiert durch die Zahl der Erwerbstätigen im jeweiligen Land und Wirtschaftszweig A, C, D,... N nach NACE Revision 2, multipliziert mit 100 000. Ein Arbeitsunfall ist ein während der Arbeit eintretendes konkretes Ereignis, das zu einem physischen oder psychischen Schaden führt. Dazu gehören alle Unfälle während der Arbeit unabhängig davon, ob sie sich innerhalb oder außerhalb des Betriebs des Arbeitgebers, an öffentlichen Orten, oder auf dem Weg von der und zur Arbeit oder zu Hause (z. B. während der Telearbeit) ereignen. Dies umfasst auch Fälle akuter Vergiftung und vorsätzliche Handlungen anderer Personen.</dcterms:description>
+    <dcterms:title xml:lang="de">Nicht-tödliche Arbeitsunfälle nach Geschlecht (NACE Rev. 2, A, C-N)</dcterms:title>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Non-fatal accidents at work by sex (NACE Rev. 2, A, C-N)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <owl:versionInfo>None</owl:versionInfo>
+    <dcterms:description xml:lang="fr">Le taux d'incidence standardisé pour un pays est calculé en multipliant le taux d'incidence pour chaque secteur économique par le rapport entre la population de référence (personnes occupées) spécifique au secteur et celle de l'ensemble de l'UE, puis en additionnant les taux d'incidence pondérés. Le taux d'incidence standardisé suppose que la taille relative des secteurs économiques, en termes de population de référence, dans chaque pays est la même qu'au niveau de l'UE. Il est ainsi possible de procéder à une comparaison directe des taux d'incidence entre les pays, sans que celle ci soit influencée par des secteurs à haut ou bas risque de taille plus ou moins grande. Le taux d'incidence (non normalisé) est calculé, pour chaque pays et chaque secteur économique, comme le nombre d'accidents du travail (avec 4 jours civils d'absence du travail ou plus) divisé par le nombre de personnes occupées travaillant dans le pays considéré et dans le secteur économique A, C, D,... N selon la nomenclature NACE, révision 2, et multiplié par 100 000. Un accident du travail est «un événement de courte durée survenant au cours d'une activité professionnelle et causant un préjudice physique ou psychologique». Cela inclut tous les accidents survenant au cours d'une activité professionnelle, qu'ils se produisent à l'intérieur ou à l'extérieur des locaux de l'employeur, dans des lieux publics, pendant le transport ou à la maison (en cas de télétravail, par exemple). Sont également inclus les cas d'empoisonnement aigu et les actes intentionnels de la part d'autres personnes.</dcterms:description>
+    <dcterms:temporal rdf:resource="period_of_time-a6c7af96-e970-421d-baea-04c320edbaae"/>
+    <dcterms:description xml:lang="en">The product has been discontinued since: 30 Nov 2017.&#13;
+&#13;
+The standardised incidence rate for a country is calculated by multiplying the incidence rate for each economic sector with the ratio between the sector-specific and the total EU reference population (employed persons), and then summing up the weighted incidence rates. The standardised incidence rate assumes that the economic sectors in each country have the same relative size in terms of reference populations as the sectors at EU level. This enables a direct comparison of incidence rates between countries without being influenced by larger high or low risk sectors. The (non-standardised) incidence rate is calculated, for each country and economic sector, as the number of accidents at work (with 4 calendar days of absence from work or more) divided by the number of employed persons working in the relevant country and economic sector A, C, D, …N according to the NACE classification, revision 2, and multiplied by 100,000. An accident at work is 'a discrete occurrence in the course of work which leads to physical or mental harm'. This includes all accidents in the course of work, whether they happen inside or outside the premises of the employer, in public places or during transport and at home (such as during teleworking). It also includes cases of acute poisoning and wilful acts of other persons.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/585ce8bb-5ac2-46d3-b153-57d3e07af2fe"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/19b17469-1db4-413e-b664-ceef15fdd3b1"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="fr">Accidents non-mortels du travail par sexe (NACE Rev. 2, A, C-N)</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:49:54.496376</dcterms:issued>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/825"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2870"/>
+    <dcatapop:ckanName>LGJDkigfmJrDi0VptBsIA</dcatapop:ckanName>
+    <dcterms:identifier>tsdph400</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/19b17469-1db4-413e-b664-ceef15fdd3b1">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/7b7a6ed8-0578-4514-b334-869d4a5dbda5"/>
+    <vcard:hasTelephone rdf:resource="telephone-1176520b-1b6d-474a-964a-df605d96247bc9baa86c-4f50-4a8b-b8d1-97cc41abe402"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b48109cc-836e-4347-9280-c2471ce3ff41"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-a6c7af96-e970-421d-baea-04c320edbaae">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/492338f7-c72f-46e1-80b2-bad79538dc4a">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/LGJDkigfmJrDi0VptBsIA"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">608</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30 14:32:57.249246</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:49:54.496376</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/295cb432-74f2-425d-bc49-f4f574a34878">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/LGJDkigfmJrDi0VptBsIA"/>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdph400</schema:url>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b48109cc-836e-4347-9280-c2471ce3ff41">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/b48109cc-836e-4347-9280-c2471ce3ff41</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-1176520b-1b6d-474a-964a-df605d96247bc9baa86c-4f50-4a8b-b8d1-97cc41abe402">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/7b7a6ed8-0578-4514-b334-869d4a5dbda5">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

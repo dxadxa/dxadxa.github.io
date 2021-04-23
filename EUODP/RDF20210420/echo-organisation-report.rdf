@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cbe69362-22ee-43fb-9cd5-41d356d1f75b">
+    <dcat:downloadURL rdf:resource="http://tools.aidinfolabs.org/csv/direct_from_registry/?xml=https%3A//webgate.ec.europa.eu/hac/IATI/ec-echo-2019.xml"/>
+    <dcterms:title xml:lang="en">CSV conversion tool</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:issued xml:lang="en">2019</dcterms:issued>
+    <dcat:accessURL rdf:resource="https://iatiregistry.org/dataset/ec-echo-org"/>
+    <dcterms:description xml:lang="en">CSV conversion tool available offering the option to either (1) select the data to convert (from IATI registry) or (2) select among THREE available CSV serialisations of IATI data:&#13;
+(a) Simple activity summary (CSV).&#13;
+Top-level information with a row for each aid activity. Total figures for each type of transaction. Sector codes are included as a ';' separated list. Useful for basic research.&#13;
+(b) Full activity data (CSV).&#13;
+Full flattened version of each IATI Activity record - one row per activity. Where multiple values exist for a column (e.g. multiple sectors, or many transactions) these are separated by ';'.&#13;
+(c) All transactions (CSV).&#13;
+Detailed list of all transactions, with currencies, amounts and classifications with a row for each transaction.</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/echo-organisation-report">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e52baf88-0c01-4184-b826-5996c518a0f9"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1005"/>
+    <dcterms:title xml:lang="en">ECHO organisation report</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/786b9452-6c91-4210-8ab4-4946200c2121"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5873"/>
+    <dcatapop:ckanName>echo-organisation-report</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-15</dcterms:issued>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3074"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cbe69362-22ee-43fb-9cd5-41d356d1f75b"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/862"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ef35a8a4-e6f0-4733-9f5b-ad39fa5a6e13"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a611409c-bcf2-4cda-b196-059162c561c2"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a997dc90-978d-41be-a6c4-f080eb93be7d"/>
+    <dcterms:description xml:lang="en">Organisation report for European Commission activities financed by DG Humanitarian Aid and Civil Protection starting from 01/01/2012.</dcterms:description>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-26</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a611409c-bcf2-4cda-b196-059162c561c2">
+    <schema:url xml:lang="en">https://webgate.ec.europa.eu/hac/listReport/Documentations_export_xml_V1.1.doc</schema:url>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:title xml:lang="en">Learn how to manage XML data in Excel</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/echo-organisation-report"/>
+    <dcterms:description xml:lang="en">A step-by-step guide on how to export XML from within EDRIS and how to load it into Excel (including description and screenshots).</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DOC"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a997dc90-978d-41be-a6c4-f080eb93be7d">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/05c4bb18-8dc9-4bc5-b9a4-66203f20637c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="ECHO-HOLIS@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/05c4bb18-8dc9-4bc5-b9a4-66203f20637c">
+    <schema:url>https://ec.europa.eu/echo/contact_en</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e52baf88-0c01-4184-b826-5996c518a0f9">
+    <schema:url>https://www.iatiregistry.org/dataset/ec-echo-org</schema:url>
+    <dcterms:title xml:lang="en">title_https://www.iatiregistry.org/dataset/ec-echo-org</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/echo-organisation-report"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ef35a8a4-e6f0-4733-9f5b-ad39fa5a6e13">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2019</dcterms:issued>
+    <dcterms:title xml:lang="en">ECHO organisation report </dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:downloadURL rdf:resource="https://webgate.ec.europa.eu/hac/IATI/EU-4.xml"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/hac/IATI/EU-4.xml"/>
+    <dcterms:description xml:lang="en">The URL address provides access to the rich raw data.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/786b9452-6c91-4210-8ab4-4946200c2121">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/da1834bd-3c8e-4481-bbbd-390bd70961d8">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-07T14:19:21</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/echo-organisation-report"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-07-15T18:08:29</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

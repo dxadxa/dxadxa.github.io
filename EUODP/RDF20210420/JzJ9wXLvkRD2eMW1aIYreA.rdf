@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/06df99d6-4957-46d6-9210-2f8958587439">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3abde913-008e-438a-9912-bbc999ac5f0a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_ehis_tadlhi.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/829ed8c4-ad47-4cb5-9e04-92095c1b9c1d">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_ehis_tadlhi.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6f51de03-e84e-46a2-824a-cff8bd0fea7a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews>0</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads>0</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/JzJ9wXLvkRD2eMW1aIYreA"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:33:36</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-12-01T15:45:42</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3106e225-2986-4b96-94f8-bb35f5999c99">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/8da200ee-bdeb-4d69-843c-7a46a46d8556"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/75d26247-5dd4-47b7-bab4-87965b798f2e"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/06df99d6-4957-46d6-9210-2f8958587439"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/JzJ9wXLvkRD2eMW1aIYreA">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3abde913-008e-438a-9912-bbc999ac5f0a"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-26</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6334b464-ec5f-499f-9d6e-861caf40366c"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2d94e1ef-5328-439b-ad0b-2e1c26ecb5a5"/>
+    <dcterms:description xml:lang="fr">Besoin d'aide pour les activités de soins personnels ou dans les activités domestiques par âge, quintile de revenu et niveau de difficulté rencontré dans ces activités</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/1e04e0bc-7195-4de8-b1a7-4c33a17f2bf6"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1280"/>
+    <dcterms:description xml:lang="de">Bedarf an Hilfe bei Aktivitäten der Körperpflege oder bei Haushaltstätigkeiten nach Alter, Einkommensquintil und Schwierigkeitsgrad dieser Aktivitäten</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/829ed8c4-ad47-4cb5-9e04-92095c1b9c1d"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">Need for help with personal care or household activities by age, income quintile and level of difficulty experienced in those activities</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/25faee8c-bbfd-46cd-bf11-d30436bf3bac"/>
+    <dcterms:identifier>hlth_ehis_tadlhi</dcterms:identifier>
+    <dcatapop:ckanName>JzJ9wXLvkRD2eMW1aIYreA</dcatapop:ckanName>
+    <dcterms:title xml:lang="de">Bedarf an Hilfe bei Aktivitäten der Körperpflege oder bei Haushaltstätigkeiten nach Alter, Einkommensquintil und Schwierigkeitsgrad dieser Aktivitäten</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3106e225-2986-4b96-94f8-bb35f5999c99"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:title xml:lang="fr">Besoin d'aide pour les activités de soins personnels ou dans les activités domestiques par âge, quintile de revenu et niveau de difficulté rencontré dans ces activités</dcterms:title>
+    <dcterms:description xml:lang="en">Need for help with personal care or household activities by age, income quintile and level of difficulty experienced in those activities</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1e04e0bc-7195-4de8-b1a7-4c33a17f2bf6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_ehis_tadlhi</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_ehis_tadlhi</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/JzJ9wXLvkRD2eMW1aIYreA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6334b464-ec5f-499f-9d6e-861caf40366c">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/hlth_ehis_tadlhi.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2d94e1ef-5328-439b-ad0b-2e1c26ecb5a5">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/JzJ9wXLvkRD2eMW1aIYreA"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/hlth_ehis_tadlhi</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/8da200ee-bdeb-4d69-843c-7a46a46d8556">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/25faee8c-bbfd-46cd-bf11-d30436bf3bac">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/75d26247-5dd4-47b7-bab4-87965b798f2e">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

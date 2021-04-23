@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a255b891-32d2-475e-b72b-2b762c072d0c">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2fd3c69e-cbf8-48e0-b40d-4c94d65edbfe">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis710.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/a18aa495-6f28-4f97-a72d-f620eb18043c">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4e14310a-c986-4fc8-ae3d-226b0581549a">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_is_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/N95MNmmWv7dvYEcb8vGyg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9ae0ad76-4e3c-445a-a82a-7c3b99332de7">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/N95MNmmWv7dvYEcb8vGyg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teiis710</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teiis710</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8b7e28fb-01b4-444b-a0e6-0894a3e43cdb">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teiis710"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b2fc2f9b-9998-4e22-b940-0123d9e39fef">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis710.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/N95MNmmWv7dvYEcb8vGyg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4184cf9f-f61a-406f-bd74-2f72df87045d"/>
+    <dcterms:description xml:lang="de">Das Ziel des Umsatzindexes ist es die Entwicklung auf dem Dienstleistungsmarkt aufzuzeigen. Der Umsatz umfaßt die von der Beobachtungseinheit während des Bezugszeitraums berechneten Gesamtbeträge, die dem Marktverkauf geleisteter Dienstleistungen an Dritte entsprechen. Umsatz schließt auch andere Kosten mit ein (Transport, Verpackung, etc.), die an den Kunden weitergeleitet werden, auch wenn diese Kosten separat in der Rechnung aufgeführt werden. Umsatz schließt alle Steuern und Abgaben ein, die auf den von der Einheit in Rechnung gestellten Dienstleistungen liegen, mit Ausnahme der Mehrwertsteuer und in ähnlicher Weise absetzbare Steuern, die direkt mit dem Umsatz verbunden sind. Dienstleistungen werden definiert als NACE 2 Abschnitte G (Handel, Instandhaltung und Reparatur von Kraftfahrzeugen, aber ausgenommen sind Wiederverkauf und Reparatur), Abschnitt H (Verkehr und Lagerei), I (Gastgewerbe/Beherbergung und Gastronomie), J (Information und Kommunikation), K (Erbringung von Finanz- und Versicherungsdienstleistungen), L (Grundstücks- und Wohnungswesen), M (Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen), und N (Erbringung von sonstigen wirtschaftlichen Dienstleistungen) definiert. Je nach Land, wird der Index als Laspeyres Typ oder als einfacher relativer Wert erstellt. Das Basisjahr ist zur Zeit 2015 (Index 2015=100). Der Index wird in kalendereffekt- und saisonbereinigter Form dargestellt. Wachstumsraten in Bezug auf das vorhergehende Quartal (Q/Q-1) werden mit saisonbereinigten und kalendereffektbereinigten Angaben berechnet, derweil werden Wachstumsraten in Bezug zum gleichen Quartal des Vorjahres (Q/Q-4) auf der Grundlage von kalendereffektbereinigten Angaben berechnet.</dcterms:description>
+    <dcterms:title xml:lang="en">Turnover in services - index and percentage changes</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/a18aa495-6f28-4f97-a72d-f620eb18043c"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/82933bba-4765-4001-93b8-c42de57cbafb"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2fd3c69e-cbf8-48e0-b40d-4c94d65edbfe"/>
+    <dcterms:description xml:lang="en">The objective of the turnover index is to show the development of the market of services. Turnover comprises the totals invoiced by the observation unit during the reference period, and this corresponds to market sales of services supplied to third parties. Turnover also includes all other charges (transport, packaging, etc.) passed on to the customer, even if these charges are listed separately in the invoice. Turnover excludes VAT and other similar deductible taxes directly linked to turnover as well all duties and taxes on services invoiced by the unit. Service is defined as the Nace 2 branches G (Wholesale, retail trade and repair of motor vehicles but retail trade and repair are excluded), H (transportation and storage), I (accommodation and food services activities), J (information and communication), K (financial and insurance activities), L (real estate activities), M (professional, scientific and technical activities) and N (administrative and support service activities). Depending of the countries, the index is compiled either as a Laspeyres type or either as a simple value relative. The current base year is 2015 (Index 2015 = 100). The index is presented in calendar and seasonally adjusted form. Growth rates with respect to the previous quarter (Q/Q-1) are calculated from seasonally and calendar adjusted figures while growth rates with respect to the same quarter of the previous year (Q/Q-4) are calculated from calendar adjusted figures.</dcterms:description>
+    <dcterms:title xml:lang="fr">Chiffre d'affaires dans les services - indice et variation en pourcentage</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8b7e28fb-01b4-444b-a0e6-0894a3e43cdb"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9ae0ad76-4e3c-445a-a82a-7c3b99332de7"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4e86cf85-166b-4e5a-8325-c33a773f6442"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b5500d2f-b5f6-4935-87a4-4cd0c370a147"/>
+    <dcterms:title xml:lang="de">Umsätze aus Dienstleistungen - Index und prozentuale Veränderungen</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-30</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4e14310a-c986-4fc8-ae3d-226b0581549a"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcatapop:ckanName>N95MNmmWv7dvYEcb8vGyg</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/936924a6-82b0-4e45-8e74-b2ba39a8a7d5"/>
+    <dcterms:description xml:lang="fr">L’objectif de l’indice du chiffre d’affaires des Services est de suivre le développement du marché des services. Le chiffre d’affaires comprend le total des factures émises par l’unité observée au cours de la période de référence. Ce qui correspond aux prestations de services exécutées pour des tiers. Le chiffre d’affaires comprend aussi toutes autres charges (transport, emballage, etc.) facturées au client même si ces charges sont présentées séparément dans la facture. Le chiffre d’affaires ne comprend pas la TVA et autres taxes déductibles similaires directement liées au chiffre d’affaire. Sont également exclues les droits et taxes sur les services facturés par l’unité de référence. Les services comprennent les branches G (commerce et réparation d’automobile et de motocycle excepté le commerce de détail et les réparations), H (Transport et entreposage), I (Hébergement et restauration), J (Information et communication), K (Activités financières et d’assurance), L (Activités immobilières), M (Activités spécialisées, scientifiques et techniques) et N (Activités de services administratifs et de soutien). En fonction des pays, l’indice du chiffre pour les services est compilé soit comme un indice Laspeyres soit comme une simple valeur relative. L’année de base courante est 2015 (Indice 2015=100). L’indice est présenté sous forme corrigée des variations saisonnières et calendaires. Les taux de croissance par rapport au trimestre précédent (Q/Q-1) sont calculés à partir des données ajustées des variations calendaires et saisonnières. Les taux de croissance relatifs au même trimestre de l’année précédente (Q/Q-4) sont quant à eux calculés à partir des données ajustées des variations calendaires.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:identifier>teiis710</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ee4025f3-a472-4d19-a5e4-8ff53f861b9f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b2fc2f9b-9998-4e22-b940-0123d9e39fef"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/82933bba-4765-4001-93b8-c42de57cbafb">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/N95MNmmWv7dvYEcb8vGyg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teiis710</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b5500d2f-b5f6-4935-87a4-4cd0c370a147">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/d88b641c-0cb8-48d7-bb74-45273d2b9236"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a255b891-32d2-475e-b72b-2b762c072d0c"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/ac66295b-46b9-47b6-88bf-235fec47298f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/d88b641c-0cb8-48d7-bb74-45273d2b9236">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4184cf9f-f61a-406f-bd74-2f72df87045d">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teiis710"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/936924a6-82b0-4e45-8e74-b2ba39a8a7d5">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teiis710"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/391266c6-1b01-4d67-b2c0-47bff577bfa6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-30T11:50:50</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/N95MNmmWv7dvYEcb8vGyg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3431</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3677</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 12:54:34.703815</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4e86cf85-166b-4e5a-8325-c33a773f6442">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_is_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/N95MNmmWv7dvYEcb8vGyg"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ee4025f3-a472-4d19-a5e4-8ff53f861b9f">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis710.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/ac66295b-46b9-47b6-88bf-235fec47298f">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

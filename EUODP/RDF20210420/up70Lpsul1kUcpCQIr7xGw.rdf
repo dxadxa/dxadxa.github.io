@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c5db2b56-2795-4723-a927-5c3217c23296">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/c5db2b56-2795-4723-a927-5c3217c23296</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e84df77d-7724-4bad-8788-d7a7d10b4794">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c5db2b56-2795-4723-a927-5c3217c23296"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="telephone-11305244-0230-4b59-a8d2-92e0f7910ecf1637ecde-5490-43dc-8fc4-e1670a61918d"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/44ed1c1f-5d06-42b6-bb96-6235e27a473e"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/21ef2f1f-2a99-4c84-a8a0-93aec7966668">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/up70Lpsul1kUcpCQIr7xGw"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/proj_13raasfr</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-7ee51af4-f029-40e5-923e-9e011ed42211">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2080-01-01T00:00:00</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/eb89ecb9-a0dd-4b92-9dfe-451bbcd4af2f">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/proj_13raasfr</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/proj_13raasfr</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/44ed1c1f-5d06-42b6-bb96-6235e27a473e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-11305244-0230-4b59-a8d2-92e0f7910ecf1637ecde-5490-43dc-8fc4-e1670a61918d">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/up70Lpsul1kUcpCQIr7xGw">
+    <dcterms:title xml:lang="de">Hauptszenario - Altersspezifische Geburtenraten und NUTS-2-Regionen</dcterms:title>
+    <dcterms:temporal rdf:resource="period_of_time-7ee51af4-f029-40e5-923e-9e011ed42211"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:title xml:lang="fr">Scénario principal - Taux de fécondité par âge et région NUTS 2</dcterms:title>
+    <dcterms:modified>2018-09-03 13:51:58.132385</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:33:32.810455</dcterms:issued>
+    <dcatapop:ckanName>up70Lpsul1kUcpCQIr7xGw</dcatapop:ckanName>
+    <dcterms:description xml:lang="de">Hauptszenario - Projizierte demographischen Bilanzen und Indikatoren und NUTS-3-Regionen</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Main scenario - Age specific fertility rates by NUTS 2 regions</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/eb89ecb9-a0dd-4b92-9dfe-451bbcd4af2f"/>
+    <dcterms:description xml:lang="en">The product has been discontinued since: 06 Jul 2018.</dcterms:description>
+    <dcterms:description xml:lang="fr">Scénario principal - Projetées bilans et indicateurs démographiques par région NUTS 3</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6543"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/21ef2f1f-2a99-4c84-a8a0-93aec7966668"/>
+    <dcterms:identifier>proj_13raasfr</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e84df77d-7724-4bad-8788-d7a7d10b4794"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <owl:versionInfo>None</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/fdb6f1ce-f319-4e9f-bd61-e341bbec516a">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-03 13:51:58.132385</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/up70Lpsul1kUcpCQIr7xGw"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:33:32.810455</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212</dcatapop:numberOfViews>
+  </rdf:Description>
+</rdf:RDF>

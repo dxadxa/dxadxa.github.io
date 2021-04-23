@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/13a15302-22d0-45b7-b06d-37772f1439f5">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/avia_goexcc.tsv.gz&amp;unzip=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/kqponDPVToAs6Wa3iDNg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/13a15302-22d0-45b7-b06d-37772f1439f5"/>
+    <dcterms:title xml:lang="de">Beförderung von Fracht und Post im internationalen Extra-EU-Luftverkehr nach Meldeländern und Partnerregionen und -ländern weltweit</dcterms:title>
+    <dcterms:identifier>avia_goexcc</dcterms:identifier>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/82b97991-1e69-4f2d-b36a-667cdf214f70"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/2000521c-38bd-4d92-8f42-1a0c256d3ef3"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/89e4d3a3-6469-49c0-963b-5e4aef1b46be"/>
+    <dcterms:title xml:lang="fr">Transport aérien international extra-UE de fret et de courrier par pays déclarants et par pays et régions du monde partenaires</dcterms:title>
+    <dcterms:description xml:lang="fr">Transport aérien international extra-UE de fret et de courrier par pays déclarants et par pays et régions du monde partenaires</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcterms:title xml:lang="en">International extra-EU freight and mail air transport by reporting country and partner world regions and countries</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/dc34ac60-857d-4eaa-98cc-6acfc56cf9af"/>
+    <dcatapop:ckanName>kqponDPVToAs6Wa3iDNg</dcatapop:ckanName>
+    <dcterms:description xml:lang="de">Beförderung von Fracht und Post im internationalen Extra-EU-Luftverkehr nach Meldeländern und Partnerregionen und -ländern weltweit</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d756f349-84df-416d-ba9c-a40d938f4731"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/2b1418f7-8614-477c-bd95-735e9948afdc"/>
+    <dcterms:description xml:lang="en">International extra-EU freight and mail air transport by reporting country and partner world regions and countries</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/df4a76ab-be0c-4d7b-a3ed-548342d0e8da"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bbd82062-bb7c-490a-b80f-89a919cf888d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/89e4d3a3-6469-49c0-963b-5e4aef1b46be">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/avia_goexcc.sdmx.zip"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/2000521c-38bd-4d92-8f42-1a0c256d3ef3">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dc34ac60-857d-4eaa-98cc-6acfc56cf9af">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/kqponDPVToAs6Wa3iDNg"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/avia_goexcc</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/avia_goexcc</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1ac466fd-8696-4875-9273-8e9e21998111">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/2b1418f7-8614-477c-bd95-735e9948afdc">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/1f39a965-2444-4844-bb3c-7da4d1b80589"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/859a0e33-213a-411d-9a72-6322d478eecc"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1ac466fd-8696-4875-9273-8e9e21998111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2d9c49e3-91a4-4764-988c-ad5db2599167">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:25:36.454050</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/kqponDPVToAs6Wa3iDNg"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:24:27</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/859a0e33-213a-411d-9a72-6322d478eecc">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/df4a76ab-be0c-4d7b-a3ed-548342d0e8da">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/kqponDPVToAs6Wa3iDNg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/avia_pa_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bbd82062-bb7c-490a-b80f-89a919cf888d">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/avia_pa_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/kqponDPVToAs6Wa3iDNg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/82b97991-1e69-4f2d-b36a-667cdf214f70">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/avia_goexcc.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d756f349-84df-416d-ba9c-a40d938f4731">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/kqponDPVToAs6Wa3iDNg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/avia_goexcc</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/1f39a965-2444-4844-bb3c-7da4d1b80589">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

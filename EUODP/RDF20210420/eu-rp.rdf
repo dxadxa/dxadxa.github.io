@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c96a140e-390b-42b0-bf61-d871b2cf451b">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/4610c96b-f8e7-481d-9021-f8872840d85b"/>
+    <vcard:organisation-name>European Securities and Markets Authority (ESMA)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-rp">
+    <dcat:keyword xml:lang="en">Europe</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_896e199b"/>
+    <dcterms:description xml:lang="en">Individual credit ratings and rating outlooks of all registered and certified CRAs (Credit Rating Agencies) plus rating history details from 1 July 2015 onwards, press releases accompanying rating issuances and research reports for sovereign ratings.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1804"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">European Rating Platform (ERP)</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4195"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fcc0d983-ad92-418a-b2d7-34b762e8986b"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_8f89faac"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESMA"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">credit rating</dcat:keyword>
+    <dcat:keyword xml:lang="en">sovereign rating</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/34c4a758-4178-4dcf-8173-9b078a1c0572"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:keyword xml:lang="en">Finance</dcat:keyword>
+    <dcatapop:ckanName>eu-rp</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">CRA</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-16 11:11:29.267451</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c96a140e-390b-42b0-bf61-d871b2cf451b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/102c46cd-5a5a-4e3b-bffc-f0f300a6bcf3">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2881</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-rp"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-11T10:24:00</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-16 11:11:29.267451</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fcc0d983-ad92-418a-b2d7-34b762e8986b">
+    <dcterms:title xml:lang="en">Access the European Rating Platform</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_radar"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4610c96b-f8e7-481d-9021-f8872840d85b">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://registers.esma.europa.eu/publication/contactPage</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/34c4a758-4178-4dcf-8173-9b078a1c0572">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_radar</dcterms:title>
+    <schema:url>https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_radar</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+</rdf:RDF>

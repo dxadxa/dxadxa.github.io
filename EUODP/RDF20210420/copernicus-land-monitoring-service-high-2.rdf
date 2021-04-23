@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4bf26b77-1b76-4b15-b973-07cc03c17141">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/copernicus-land-monitoring-service-high-2"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:22:30</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:22:30</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/copernicus-land-monitoring-service-high-2">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword>waw</dcat:keyword>
+    <dcat:keyword>land cover</dcat:keyword>
+    <dcterms:description xml:lang="en">The combined Water and Wetness product is a thematic product showing the occurrence of water and wet surfaces over the period from 2009 to 2015. Two products are available:
+o	The main Water and Wetness (WAW) product with defined classes of (1) permanent water, (2) temporary water, (3) permanent wetness and (4) temporary wetness.
+o	The additional expert product: Water &amp; Wetness Probability Index (WWPI)
+ 
+The products show the occurrence of water and indicate the degree of wetness in a physical sense, assessed independently of the actual vegetation cover and are thus not limited to a specific land cover class and their relative frequencies.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword>water</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-16T12:24:44Z</dcterms:issued>
+    <dcterms:title xml:lang="en">[DEPRECATED] Copernicus Land Monitoring Service - High Resolution Layers - Water and Wetness</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3dcb212b-8023-4ddd-bf7e-4492273fc1b8"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7cc8031e-4ac4-42cc-a5ea-6ffc1817fbd1"/>
+    <dcat:keyword>wetness</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>high resolution</dcat:keyword>
+    <dcat:keyword>geospatial data</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-16T12:24:44Z</dcterms:modified>
+    <dcat:keyword>land use</dcat:keyword>
+    <dcterms:identifier>DAT-202-en</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/56458d65-4fb3-476b-aab8-90a232dafe05"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/597"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b4d0f811-8838-4be0-8fca-13c508fe21d0"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4630"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7cc8031e-4ac4-42cc-a5ea-6ffc1817fbd1">
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/14050d50-01e1-41b5-ab6f-dd67f77b94e1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/cd4ec4d7-4d93-4bcf-be9e-88a554b5c9ee"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/7e990f9e-274f-4db4-af0c-beb264b85df5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/56458d65-4fb3-476b-aab8-90a232dafe05">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://land.copernicus.eu/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015/view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Water and wetness probability index 2015</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/cd4ec4d7-4d93-4bcf-be9e-88a554b5c9ee">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/14050d50-01e1-41b5-ab6f-dd67f77b94e1">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b4d0f811-8838-4be0-8fca-13c508fe21d0">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/copernicus-land-monitoring-service-high-2"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/copernicus-land-monitoring-service-high-2</schema:url>
+    <dcterms:title xml:lang="en">[DEPRECATED] Copernicus Land Monitoring Service - High Resolution Layers - Water and Wetness</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3dcb212b-8023-4ddd-bf7e-4492273fc1b8">
+    <dcterms:title xml:lang="en">Water and wetness 2015</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcat:accessURL rdf:resource="https://land.copernicus.eu/pan-european/high-resolution-layers/water-wetness/status-maps/2015/view"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+</rdf:RDF>

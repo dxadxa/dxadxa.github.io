@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_copernicus-land-monitoring-service-eu-dem">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e8cbfb6b-43a5-46de-bfca-b6f78ecb2a7d"/>
+    <dcat:keyword>elevation</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a18d16bc-bf6b-44c3-bf0f-fa5851fcaa2a"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-07T14:19:19Z</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b32cb2b5-94e0-4502-961b-83d8fb383239"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/eec97cc0-089f-4a13-9e3e-d820881ff96f"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-07T14:19:19Z</dcterms:modified>
+    <dcterms:identifier>DAT-193-en</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/303d6e60-001f-492a-9aa1-4fe1fca28135"/>
+    <dcat:keyword>eu-dem</dcat:keyword>
+    <dcat:keyword>dsm</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">EU-DEM is a digital surface model (DSM) of EEA member and cooperating countries representing the first surface as illuminated by the sensors. It is a hybrid product based on SRTM and ASTER GDEM data fused by a weighted averaging approach.</dcterms:description>
+    <dcterms:title xml:lang="en">[DEPRECATED] Copernicus Land Monitoring Service - EU-DEM</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/eec97cc0-089f-4a13-9e3e-d820881ff96f">
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/eu-dem"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description>The Digital Elevation Model over Europe from the GMES RDA project (EU-DEM) is a Digital Surface Model (DSM) representing the first surface as illuminated by the sensors. The EU-DEM dataset is a realisation of the Copernicus programme, managed by the European Commission, DG Enterprise and Industry.</dcterms:description>
+    <dcterms:title xml:lang="en">OLDER VERSION - 2013-10-18</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a18d16bc-bf6b-44c3-bf0f-fa5851fcaa2a">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/c0628af0-9149-47db-b95e-55bfb9d5b386"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/1f665c71-d084-4ddd-a118-2a4f079c0021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/2f5a9ce0-f7e1-4635-a5db-682ee7971432"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e8cbfb6b-43a5-46de-bfca-b6f78ecb2a7d">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">EU-DEM v1.0</dcterms:title>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://land.copernicus.eu/pan-european/satellite-derived-products/eu-dem/eu-dem-v1-0-and-derived-products/view"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4697649e-7d4d-4dee-8e96-af8711d89e1f">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:34:45</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:34:45</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_copernicus-land-monitoring-service-eu-dem"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">548</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b32cb2b5-94e0-4502-961b-83d8fb383239">
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/copernicus-land-monitoring-service-eu-dem</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_copernicus-land-monitoring-service-eu-dem"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Copernicus Land Monitoring Service - EU-DEM</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/303d6e60-001f-492a-9aa1-4fe1fca28135">
+    <dcterms:description></dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">EU-DEM v1.1</dcterms:title>
+    <dcat:accessURL rdf:resource="https://land.copernicus.eu/pan-european/satellite-derived-products/eu-dem/eu-dem-v1.1/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/c0628af0-9149-47db-b95e-55bfb9d5b386">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/1f665c71-d084-4ddd-a118-2a4f079c0021">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+</rdf:RDF>

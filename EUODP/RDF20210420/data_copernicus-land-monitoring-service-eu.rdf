@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e2e2963d-879b-477c-828f-cfe2f854703b">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">EU-Hydro public beta</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://land.copernicus.eu/pan-european/satellite-derived-products/eu-hydro/eu-hydro-public-beta"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3acaa20b-a5ad-40eb-99a2-e65f84456985">
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/copernicus-land-monitoring-service-eu</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_copernicus-land-monitoring-service-eu"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Copernicus Land Monitoring Service - EU-Hydro</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4d31aae1-ee3a-4f73-8fe2-17c0709e1ca6">
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/85668854-708f-499d-b613-4cc81c75a4af"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/d69610fe-abda-4817-b55a-2555d73b4fb2"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/b9963f4b-827a-4ecb-9851-d91baa4c2397"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_copernicus-land-monitoring-service-eu">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e2e2963d-879b-477c-828f-cfe2f854703b"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/597"/>
+    <dcterms:identifier>DAT-194-en</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3acaa20b-a5ad-40eb-99a2-e65f84456985"/>
+    <dcat:keyword>dsm</dcat:keyword>
+    <dcat:keyword>coastal line</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4d31aae1-ee3a-4f73-8fe2-17c0709e1ca6"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-07T14:56:28Z</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>hydrography</dcat:keyword>
+    <dcterms:title xml:lang="en">[DEPRECATED] Copernicus Land Monitoring Service - EU-Hydro</dcterms:title>
+    <dcat:keyword>drainage model</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword>river network</dcat:keyword>
+    <dcat:keyword>elevation</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-07T14:56:28Z</dcterms:modified>
+    <dcterms:description xml:lang="en">EU-Hydro for all EEA member and cooperating countries provides 1) a photo-interpreted river network, consisting of surface interpretation of water bodies (lakes and wide rivers) and 2) a modelled drainage network with catchments and drainage lines (derived from EU-DEM v1.0). EU-Hydro public beta version replaces EU-Hydro beta version (available only internally at the EEA) which was created in the frame of GMES RDA Preparatory action 2009-2012.</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/85668854-708f-499d-b613-4cc81c75a4af">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/06a304b5-6a59-4260-baff-686cc408221c">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:34:39</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_copernicus-land-monitoring-service-eu"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:34:39</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/d69610fe-abda-4817-b55a-2555d73b4fb2">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

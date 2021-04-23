@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/tax-reforms-germany">
+    <dcterms:title xml:lang="en">Tax reforms: Germany</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/a33c63cc-59f9-4d89-90c8-94a71291225b"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcatapop:ckanName>tax-reforms-germany</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/57"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1310"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1021"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e52b7f33-ac98-4ba5-a7a8-576052658c57"/>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/dataset/taxes-in-europe-database"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1318"/>
+    <dcterms:description xml:lang="en">The dataset contains a table summarizing the main tax reforms in Germany.   &#13;
+The tables include the latest reforms announced, legislated or implemented during the current year and not published in the last [Tax policies in the European Union Survey] (https://ec.europa.eu/taxation_customs/business/company-tax/tax-good-governance/european-semester/tax-policies-european-union-survey_en).   &#13;
+The reforms are categorized by type of measure (VAT, CIT, PIT, etc.) and a brief description is provided along with the direction of change of the reform (base increase/decrease, rate increase/decrease).</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/561"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6343"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fe61efdf-2b28-4633-a1e0-ecb72104b65f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2504"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fe61efdf-2b28-4633-a1e0-ecb72104b65f">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Latest tax reforms - Germany</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_de-tax-reforms-tables.xlsx"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_de-tax-reforms-tables.xlsx"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e004de65-f57c-4f56-ad29-78fd6941b67b">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-germany"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:13:12</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T13:19:38</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a33c63cc-59f9-4d89-90c8-94a71291225b">
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-germany"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e52b7f33-ac98-4ba5-a7a8-576052658c57">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Taxation and Customs Union DG</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c73f3fb4-5b76-4771-9ba1-09332f469333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c73f3fb4-5b76-4771-9ba1-09332f469333">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/contacts_en</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

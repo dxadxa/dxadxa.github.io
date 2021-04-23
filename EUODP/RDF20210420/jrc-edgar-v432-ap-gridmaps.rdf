@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-gridmaps">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:description xml:lang="en">Global emission gridmaps of air pollutants (SO2, NOx, CO, NMVOC, NH3, PM10, PM2.5, BC, OC)  from 1970 till 2012 with sector-specific break-down.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcatapop:ckanName>jrc-edgar-v432-ap-gridmaps</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-08</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2e180e3c-ca8b-4146-b47e-9f15c0079922"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/640a8a58-242a-4d8e-ac09-3d313139f23b"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>jrc-edgar-v432-ap-gridmaps</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-08</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/06752fcf-ec08-499a-b7c9-715a29e49180"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d769c59f-c7b9-404a-9bc8-a8fe4038e597"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ebaccc0a-541f-44bc-b8b1-2d18b0f65bc2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5650"/>
+    <dcterms:title xml:lang="en">Emissions Database for Global Atmospheric Research, version v4.3.2 part II Air Pollutants (gridmaps)</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2e180e3c-ca8b-4146-b47e-9f15c0079922">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">JRC-EDGARv4.3.2: AP emissions gridmaps</dcterms:title>
+    <dcterms:description xml:lang="en">Global emission gridmaps in txt and NetCDF format with sector-specific break-down from 1970-2012.</dcterms:description>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v432_AP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/06752fcf-ec08-499a-b7c9-715a29e49180">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-gridmaps"/>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=432_AP</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/640a8a58-242a-4d8e-ac09-3d313139f23b">
+    <dcterms:title xml:lang="en">Gridded emissions of air pollutants for the period 1970-2012 within EDGAR v4.3.2</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">https://doi.org/10.5194/essd-10-1987-2018</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E., Dentener, F., Van Aardenne, J., Monni, S., Doering, U., Olivier, J., Pagliari, V. and Janssens-Maenhout, G., Gridded emissions of air pollutants for the period 1970-2012 within EDGAR v4.3.2, Earth System Science Data (ESSD) and Earth System Science Data Discussions, ISSN 1866-3508 (online), 10, 2018, p. 1987-2013, JRC111111.</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-gridmaps"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d769c59f-c7b9-404a-9bc8-a8fe4038e597">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-edgar-v432-ap-gridmaps</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-edgar-v432-ap-gridmaps</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-gridmaps"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f7fb7f84-b156-4cdd-8528-dee100183857">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:35</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-gridmaps"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:35</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ebaccc0a-541f-44bc-b8b1-2d18b0f65bc2">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

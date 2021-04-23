@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2d818bf9-b566-4c9a-af61-131de2fb2b64">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_15_20.tsv.gz&amp;unzip=true"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5efc8014-b8fe-40a5-9e92-1ffd5bfa4939">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_15_20.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dd8e7b65-21c4-4bf3-a9b8-f65ee9ed4e8b">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/sdg_15_20_esmsip2.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4OybxxuVfOpCfdybPE16Ug"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e4388746-ce85-429e-82d5-06b81bb30ac5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/4OybxxuVfOpCfdybPE16Ug">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d8f4220a-5f4e-472a-b063-208d7cf0021a"/>
+    <dcterms:description xml:lang="de">Der Indikator misst die Fläche von unter Natura 2000 ausgewiesenen terrestrischen Schutzgebieten. Das Natura 2000 Schutzgebietsnetz umfasst die im Rahmen der Habitatrichtlinie und der Vogelschutzrichtline ausgewiesenen marinen und terrestrische Flächen. Diese Schutzgebiete wurden mit dem Ziel ernannt den Schutzstatus von besonders schützenswerten Arten und Lebensraumtypen zu erhalten oder wiederherzustellen. Jedes Land muss ein Standarddatenformular ausfüllen, auf dem die im Rahmen der Richtlinien ausgewiesenen Gebiete im Einzelnen aufgeführt werden, einschließlich der Größe des Gebiets in km², der Lebensräume und Arten sowie der prozentualen Abdeckung des Gebiets. Zur Unterstützung der genauen Berichterstattung wurde eine genaue Typologie entwickelt.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/9f94c353-1472-4d37-a04c-e9d56469179c"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2d818bf9-b566-4c9a-af61-131de2fb2b64"/>
+    <dcterms:title xml:lang="de">Fläche der im Rahmen von Natura 2000 ausgewiesenen Landflächen (Quelle: DG ENV, EUA)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6bc796db-2864-444d-b79f-ec7aaebe50ae"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6402"/>
+    <dcterms:title xml:lang="fr">Surface des sites terrestres désignés sous Natura 2000 (source: DG ENV, AEE)</dcterms:title>
+    <dcterms:description xml:lang="fr">L'indicateur mesure la surface des sites terretres désignés sous Natura 2000. Le réseau Natura 2000 comprend des sites protégées marines et terrestres désignées dans les directives de l'UE sur les habitats et les oiseaux dans le but de maintenir ou de rétablir un statut de conservation favorable pour les types d'habitat et les espèces de l'UE intérêt. Chaque pays est tenu de remplir un formulaire standard des données lorsque les sites désignés en vertu de la directive sont communiquées de manière détaillée, y compris l’étendue du site en km², les habitats et les espèces existantes et leur pourcentage de couverture du site. Une typologie détaillée a été élaborée à l’appui de rapports précis.</dcterms:description>
+    <dcterms:description xml:lang="en">The indicator measures the surface of terrestrial sites designated under Natura 2000. The Natura 2000 network comprises both marine and terrestrial protected areas designated under the EU Habitats and Birds Directives with the goal to maintain or restore a favourable conservation status for habitat types and species of EU interest. Each country is required to fill in a standard data form where sites designated under the Directives are reported in detail, included the size of the site in km2, the existing habitats and species and their percentage cover of the site. A thorough typology has been developed to support precise reporting.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/dd8e7b65-21c4-4bf3-a9b8-f65ee9ed4e8b"/>
+    <dcatapop:ckanName>4OybxxuVfOpCfdybPE16Ug</dcatapop:ckanName>
+    <dcterms:identifier>sdg_15_20</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b69388c3-02fd-4da7-a7ed-0d6e97aaa9ef"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c7678cae-2529-4939-89d1-796971a511ef"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5efc8014-b8fe-40a5-9e92-1ffd5bfa4939"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:title xml:lang="en">Surface of terrestrial sites designated under Natura 2000 (source: DG ENV, EEA)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4e70713e-d5eb-4fc0-bc7e-79fb9616152e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fa6b7a15-1ef0-4cd8-9c64-83cc3cd166a8"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ab950b53-60f4-4e0b-aaa0-5ac4ed44511e"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/fdb1554d-a456-4ce3-8460-04a3fae9df07"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/9f94c353-1472-4d37-a04c-e9d56469179c">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d8f4220a-5f4e-472a-b063-208d7cf0021a">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=sdg_15_20"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b69388c3-02fd-4da7-a7ed-0d6e97aaa9ef">
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=sdg_15_20"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6bc796db-2864-444d-b79f-ec7aaebe50ae">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=sdg_15_20"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fdb1554d-a456-4ce3-8460-04a3fae9df07">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/sdg_15_20_esmsip2.htm</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4OybxxuVfOpCfdybPE16Ug"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4e70713e-d5eb-4fc0-bc7e-79fb9616152e">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_15_20</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4OybxxuVfOpCfdybPE16Ug"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fa6b7a15-1ef0-4cd8-9c64-83cc3cd166a8">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_15_20.sdmx.zip"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/78457759-3e5f-4207-9b0c-26133e163215">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/4OybxxuVfOpCfdybPE16Ug"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-07 06:42:02.435792</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:54:01</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c7678cae-2529-4939-89d1-796971a511ef">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_15_20</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_15_20</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4OybxxuVfOpCfdybPE16Ug"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ab950b53-60f4-4e0b-aaa0-5ac4ed44511e">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/4a657ad1-1497-49b9-abcb-eede47cde479"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/9273a677-9ce9-4c99-9d52-828757aea238"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e4388746-ce85-429e-82d5-06b81bb30ac5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/9273a677-9ce9-4c99-9d52-828757aea238">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/4a657ad1-1497-49b9-abcb-eede47cde479">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

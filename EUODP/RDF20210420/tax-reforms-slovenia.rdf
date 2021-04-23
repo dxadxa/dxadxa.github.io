@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/18a8beae-5506-4994-bd24-8a6e822e0b0a">
+    <schema:url>https://ec.europa.eu/taxation_customs/contacts_en</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e8f436ff-8e83-4fbd-930b-d8d0f184916d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Latest tax reforms - Slovenia</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_si-tax-reforms-tables.xlsx"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_si-tax-reforms-tables.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/60dc4f26-14ef-4fb9-a63a-3b6253abcabb">
+    <vcard:organisation-name>European Commission, Taxation and Customs Union DG</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/18a8beae-5506-4994-bd24-8a6e822e0b0a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/tax-reforms-slovenia">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1021"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1310"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6343"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcatapop:ckanName>tax-reforms-slovenia</dcatapop:ckanName>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e8f436ff-8e83-4fbd-930b-d8d0f184916d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/57"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e287bc3d-2cf2-4432-9bf8-677c517a02d3"/>
+    <dcterms:description xml:lang="en">The dataset contains a table summarizing the main tax reforms in Slovenia.   &#13;
+The tables include the latest reforms announced, legislated or implemented during the current year and not published in the last [Tax policies in the European Union Survey] (https://ec.europa.eu/taxation_customs/business/company-tax/tax-good-governance/european-semester/tax-policies-european-union-survey_en).   &#13;
+The reforms are categorized by type of measure (VAT, CIT, PIT, etc.) and a brief description is provided along with the direction of change of the reform (base increase/decrease, rate increase/decrease).</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2504"/>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/dataset/taxes-in-europe-database"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/561"/>
+    <dcterms:title xml:lang="en">Tax reforms: Slovenia</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5898"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/60dc4f26-14ef-4fb9-a63a-3b6253abcabb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e287bc3d-2cf2-4432-9bf8-677c517a02d3">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-slovenia"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</schema:url>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/tax-reforms-tables_en</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/690d1acc-54be-4ed9-b68b-d405d6498050">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/tax-reforms-slovenia"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T14:02:04</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-06T14:02:04</dcterms:modified>
+  </rdf:Description>
+</rdf:RDF>

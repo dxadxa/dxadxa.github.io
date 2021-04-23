@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9ea9c184-6e34-412d-bf4a-2449315f763d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/lfso_05posse1.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3bb1507c-0ce5-40fc-955e-11442ea5a054">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6SQWBjXbMr5mnbHOK1Jdg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/lfso_05_esms.htm</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/239718b7-9cd1-4bb9-b496-931ca46f063a">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/lfso_05posse1.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/dfa27f70-42c1-4faa-9d21-75420908d4f8">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/lfso_05posse1.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/r6SQWBjXbMr5mnbHOK1Jdg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/239718b7-9cd1-4bb9-b496-931ca46f063a"/>
+    <dcatapop:ckanName>r6SQWBjXbMr5mnbHOK1Jdg</dcatapop:ckanName>
+    <dcterms:description xml:lang="de">Zahl der beschäftigten Personen im Alter zwischen 15 und 64 Jahren, die den Beginn und das Ende des Arbeitstages aus familiären Gründen variieren können, nach Wirtschaftszweigen</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3bb1507c-0ce5-40fc-955e-11442ea5a054"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/cf2377a4-8d04-490a-91d1-1af7c096afdc"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/dfa27f70-42c1-4faa-9d21-75420908d4f8"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-12</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9ea9c184-6e34-412d-bf4a-2449315f763d"/>
+    <dcterms:title xml:lang="en">Number of employed persons between 15 and 64 years old who can vary start/end of working day for family reasons, by economic activity</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/73d7f374-6044-4492-82ab-dafad85b8dfc"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/af3507e1-303b-4803-8d6f-b228bdb68659"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f40a99b9-1bb1-4fbf-a62a-6d6f3387dd6d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1802"/>
+    <dcterms:description xml:lang="en">Number of employed persons between 15 and 64 years old who can vary start/end of working day for family reasons, by economic activity</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="fr">Nombre de travailleurs entre 15 et 64 ans pouvant modifier le début et/ou la fin de leur journée de travail pour des raisons familiales, par activité économique</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/96650c68-ce2c-445e-b040-3ee1416b7fe3"/>
+    <dcterms:title xml:lang="de">Zahl der beschäftigten Personen im Alter zwischen 15 und 64 Jahren, die den Beginn und das Ende des Arbeitstages aus familiären Gründen variieren können, nach Wirtschaftszweigen</dcterms:title>
+    <dcterms:identifier>lfso_05posse1</dcterms:identifier>
+    <dcterms:description xml:lang="fr">Nombre de travailleurs entre 15 et 64 ans pouvant modifier le début et/ou la fin de leur journée de travail pour des raisons familiales, par activité économique</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/7aca019e-a534-4f8b-9f8a-a674be703a2d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/af3507e1-303b-4803-8d6f-b228bdb68659">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6SQWBjXbMr5mnbHOK1Jdg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/lfso_05_esms.sdmx.zip</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f40a99b9-1bb1-4fbf-a62a-6d6f3387dd6d">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6SQWBjXbMr5mnbHOK1Jdg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/lfso_05posse1</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/96650c68-ce2c-445e-b040-3ee1416b7fe3">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6SQWBjXbMr5mnbHOK1Jdg"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/lfso_05posse1</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/lfso_05posse1</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/73d7f374-6044-4492-82ab-dafad85b8dfc">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/7aca019e-a534-4f8b-9f8a-a674be703a2d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/ec0e8bd9-4b29-4605-a8f8-dcdd34c9a276"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/79887da6-753d-4d95-b0a6-f2b19e37c504"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c4ffa46e-ee33-44d0-b2e9-4d88246a4006">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/r6SQWBjXbMr5mnbHOK1Jdg"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 13:41:22.549347</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:53:22</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/79887da6-753d-4d95-b0a6-f2b19e37c504">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/cf2377a4-8d04-490a-91d1-1af7c096afdc">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/ec0e8bd9-4b29-4605-a8f8-dcdd34c9a276">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b1471dad-a258-4c4d-8278-8ce90562c613">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_peps60.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/aa02dde8-d978-4973-ae89-49b9e51f8bc1">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ilc_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ySJ4QZmw8oIoAJiXpaS7Dg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cc5e28cd-6a20-4a5d-af64-7a09dc598433">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_peps60.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/ySJ4QZmw8oIoAJiXpaS7Dg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b1471dad-a258-4c4d-8278-8ce90562c613"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/ba9d37eb-0581-4c59-a8b8-46210f1af48d"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:identifier>ilc_peps60</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cc5e28cd-6a20-4a5d-af64-7a09dc598433"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3659"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/66da1182-ee8b-405c-96a2-2ce4ad10c499"/>
+    <dcterms:title xml:lang="de">Von Armut oder sozialer Ausgrenzung bedrohte Kinder nach dem höchsten Bildungsabschluss der Eltern (Personen im Alter von 0 bis 17 Jahren)</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a95f0c1d-e18f-4d1d-bbe4-8fe5b4ee8f9a"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:description xml:lang="en">Children at risk of poverty or social exclusion by educational attainment level of their parents (population aged 0 to 17 years)</dcterms:description>
+    <dcatapop:ckanName>ySJ4QZmw8oIoAJiXpaS7Dg</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/aa02dde8-d978-4973-ae89-49b9e51f8bc1"/>
+    <dcterms:title xml:lang="fr">Enfants menacés de pauvreté ou d'exclusion sociale selon le niveau d'éducation atteint des parents (population âgée de 0 à 17 ans)</dcterms:title>
+    <dcterms:title xml:lang="en">Children at risk of poverty or social exclusion by educational attainment level of their parents (population aged 0 to 17 years)</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/2434496e-3d42-4b96-84fb-09a9f47c0dbf"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f12d505d-0245-4057-91ee-acd2c5a1730b"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1469"/>
+    <dcterms:description xml:lang="de">Von Armut oder sozialer Ausgrenzung bedrohte Kinder nach dem höchsten Bildungsabschluss der Eltern (Personen im Alter von 0 bis 17 Jahren)</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f9784636-8d80-4bf2-a34e-b0a4419b88ad"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4050"/>
+    <dcterms:description xml:lang="fr">Enfants menacés de pauvreté ou d'exclusion sociale selon le niveau d'éducation atteint des parents (population âgée de 0 à 17 ans)</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/83"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/5e94147f-2d3f-4285-a234-a105fb2da251">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/ba9d37eb-0581-4c59-a8b8-46210f1af48d">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/66da1182-ee8b-405c-96a2-2ce4ad10c499">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/ab23a0a1-82e4-4238-b956-0948dac84392"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/5e94147f-2d3f-4285-a234-a105fb2da251"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/42effd55-f3cd-4e4c-ac9f-e806ca7520c3"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a95f0c1d-e18f-4d1d-bbe4-8fe5b4ee8f9a">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ilc_esms.sdmx.zip</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ySJ4QZmw8oIoAJiXpaS7Dg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f9784636-8d80-4bf2-a34e-b0a4419b88ad">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ilc_peps60.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ab23a0a1-82e4-4238-b956-0948dac84392">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2434496e-3d42-4b96-84fb-09a9f47c0dbf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_peps60</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ySJ4QZmw8oIoAJiXpaS7Dg"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_peps60</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/98754b06-c890-4887-bf10-54eb4998e7e7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">519</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/ySJ4QZmw8oIoAJiXpaS7Dg"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:54:46</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:19:27.612643</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">552</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f12d505d-0245-4057-91ee-acd2c5a1730b">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ySJ4QZmw8oIoAJiXpaS7Dg"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/ilc_peps60</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/42effd55-f3cd-4e4c-ac9f-e806ca7520c3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

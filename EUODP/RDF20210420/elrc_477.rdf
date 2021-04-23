@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1710a092-6c9a-4233-96b9-0cfcd7b92fa5">
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:description>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/national-health-fund-dataset-processed/14c798b0d0e911e7b7d400155d0267061d27883e75d24f468a0de2916bd85303/"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_477">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b7650aea-27ac-401d-82fc-838b1744f641"/>
+    <dcterms:description xml:lang="en">The dataset is a 274K-token Polish-English parallel resource in XLIFF format created on the basis of "Diagnosis-Related Groups in Europe" publication of the Polish National Health Fund.&#13;
+It was converted into a 5208-TUs Polish-English parallel resource in TMX format&#13;
+&#13;
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-15</dcterms:modified>
+    <dcterms:title xml:lang="en">National Health Fund Dataset (Processed)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1710a092-6c9a-4233-96b9-0cfcd7b92fa5"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcatapop:ckanName>elrc_477</dcatapop:ckanName>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+    <dcterms:identifier>ELRC_477</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/de2bdcc6-c337-47ea-9293-0a2457bb1741"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b7650aea-27ac-401d-82fc-838b1744f641">
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_477</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_477</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_477"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1255b8a5-d6eb-4675-95ba-50dda21b0c7b">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_477"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">345</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-20T08:21:35</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-02-22T07:51:56</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/de2bdcc6-c337-47ea-9293-0a2457bb1741">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

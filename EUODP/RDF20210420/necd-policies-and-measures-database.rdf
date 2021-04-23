@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/cc670c07-659c-4820-9fd3-260014a84546">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/83dc00f8-9f3a-4fea-b12a-3c6e215b74f7"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/f755702d-a635-4811-b402-443df3e68576"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/50a543ab-578c-406e-8a84-1a4a700e0c85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/35e9b514-6c04-4280-bdc6-5bab7d70bc99">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] NECD policies and measures database</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/necd-policies-and-measures-database"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/necd-policies-and-measures-database</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/80798e58-59d1-4ef0-98c4-4d68ea341368">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/necd-policies-and-measures-database/necd-policies-and-measures-database/necd_pams_database_27062019/view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">NECD_PaMs_Database_27062019</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/83dc00f8-9f3a-4fea-b12a-3c6e215b74f7">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/f755702d-a635-4811-b402-443df3e68576">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/necd-policies-and-measures-database">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/80798e58-59d1-4ef0-98c4-4d68ea341368"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] NECD policies and measures database</dcterms:title>
+    <dcterms:identifier>DAT-213-en</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/35e9b514-6c04-4280-bdc6-5bab7d70bc99"/>
+    <dcat:keyword>eu28</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/cc670c07-659c-4820-9fd3-260014a84546"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-27T13:37:32Z</dcterms:issued>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-27T13:37:32Z</dcterms:modified>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description xml:lang="en">This database contain policies and measures (PaMs) reported by EU Member States following European Commission Implementing Decision (EU) 2018/1522 of 11 October 2018 laying down a common format for national air pollution control programmes under Directive (EU) 2016/2284 of the European Parliament and of the Council on the reduction of national emissions of certain atmospheric pollutants.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/0d230245-e610-4640-89f1-fb8cc631a1af">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/necd-policies-and-measures-database"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:26:53</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:26:53</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

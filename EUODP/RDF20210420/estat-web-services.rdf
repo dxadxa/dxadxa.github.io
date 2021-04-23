@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/estat-web-services">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">data retrieval</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:keyword xml:lang="en">statistics</dcat:keyword>
+    <dcat:keyword xml:lang="en">query builder</dcat:keyword>
+    <dcat:keyword xml:lang="en">json and unicode web services</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">API</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6030"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7ada69b2-d166-444d-9bcf-5f3360af7e1d"/>
+    <dcat:keyword xml:lang="en">unicode api</dcat:keyword>
+    <dcat:keyword xml:lang="en">data access</dcat:keyword>
+    <dcatapop:datasetGroup rdf:resource="api"/>
+    <dcat:keyword xml:lang="en">programming interface</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ac47e7fd-9f4b-4d35-99f9-2c3709ba2065"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/38923cb0-f805-453f-b6bf-241d262848dd"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-04-06 12:49:53.648609</dcterms:modified>
+    <dcterms:description xml:lang="en">Eurostat data contains many indicators (short-term, structural, theme-specific and others) on the EU-28 and the Eurozone, the Member States and their partners.&#13;
+The database of Eurostat contains always the latest version of the datasets meaning that there is no versioning on the data.&#13;
+Datasets are updated twice a day, at 11:00 and at 23:00, in case new data is available or because of structural change.&#13;
+&#13;
+It is possible to access the datasets through SDMX Web Services, as well as through Json and Unicode Web Services.&#13;
+&#13;
+SDMX Web Services are a programmatic access to Eurostat data, with the possibility to:&#13;
+&#13;
+- get a complete list of publicly available datasets;&#13;
+- detail the complete structure definition of a given dataset;&#13;
+- download a subset of a given dataset or a full dataset.&#13;
+&#13;
+SDMX Web Services:&#13;
+&#13;
+- provide access to datasets listed under database by themes, and predefined tables listed under tables by themes;&#13;
+- provide data in SDMX 2.0 and 2.1 formats;&#13;
+- support both Representation State Transfer (REST) and Simple Object Access Protocol (SOAP) protocols;&#13;
+- return responses in English language only;&#13;
+- are free of charge.&#13;
+&#13;
+The JSON &amp; UNICODE Web Services are a programmatic access to Eurostat data, with the possibility to download a subset of a given dataset. This operation allows customizing requests for data. You can filter on dimensions to retrieve specific data subsets.&#13;
+&#13;
+The JSON &amp; UNICODE Web Services: &#13;
+&#13;
+- provide data in JSON-stat and UNICODE formats;&#13;
+- support only Representation State Transfer (REST) protocol;&#13;
+- deliver responses in English, French and German language;&#13;
+- are free of charge.&#13;
+</dcterms:description>
+    <dcat:keyword xml:lang="en">statistical data</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/34df3b46-5d1f-469e-970a-594dc123c78e"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-02-27 13:10:16.593945</dcterms:issued>
+    <dcatapop:ckanName>estat-web-services</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:keyword xml:lang="en">web services</dcat:keyword>
+    <dcat:keyword xml:lang="en">web service</dcat:keyword>
+    <dcterms:alternative xml:lang="en">Application programming interface</dcterms:alternative>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4258"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/57ca4159-73d5-4936-9f6c-004210a328bf"/>
+    <dcat:keyword xml:lang="en">json</dcat:keyword>
+    <dcterms:title xml:lang="en">Eurostat web services and dissemination APIs</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/126fb881-b3dd-4c25-8011-bc1a16542f04"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5587900b-0f4b-4a36-ba84-d1e21aea4b45"/>
+    <dcatapop:datasetGroup rdf:resource="web-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/34df3b46-5d1f-469e-970a-594dc123c78e">
+    <dcterms:issued xml:lang="en">2017-02-27 14:18:45.566354</dcterms:issued>
+    <dcterms:title xml:lang="en">4. JSON and UNICODE Web Services – data scope and query size </dcterms:title>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/web/json-and-unicode-web-services/data-scope-and-query-size"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/web/json-and-unicode-web-services/data-scope-and-query-size"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">The Web Services provide access to datasets listed under database by themes, and&#13;
+predefined tables listed under tables by themes.&#13;
+</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/57ca4159-73d5-4936-9f6c-004210a328bf">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">The JSON &amp; UNICODE Web Services are a programmatic access to Eurostat data, with the possibility to download a subset of a given dataset. This operation allows customizing requests for data. You can filter on dimensions to retrieve specific data subsets.</dcterms:description>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/web/json-and-unicode-web-services/about-this-service"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/web/json-and-unicode-web-services/about-this-service"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:issued xml:lang="en">2017-02-27 14:14:27.673819</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:title xml:lang="en">3. Json and Unicode Web Services</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/126fb881-b3dd-4c25-8011-bc1a16542f04">
+    <dcterms:description xml:lang="en">These SDMX Web Services are a programmatic access to Eurostat data, with the possibility to:&#13;
+&#13;
+get a complete list of publicly available datasets.&#13;
+ &#13;
+detail the complete structure definition of a given dataset.&#13;
+ &#13;
+download a subset of a given dataset or a full dataset.&#13;
+This operation allows customizing requests for data. You can choose which dimensions with which values you want to retrieve data for. Processing time and the resulting data depend on the query, where a small subset of a dataset could have size of a couple kilobytes and can be served in a couple of seconds whereas a full dataset could reach to a several megabytes and service time might take around several minutes.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/web/sdmx-web-services/about-this-service"/>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/web/sdmx-web-services/about-this-service"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:title xml:lang="en">1. SDMX Web Services</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2017-02-27 14:12:54.981758</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7ada69b2-d166-444d-9bcf-5f3360af7e1d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/web/json-and-unicode-web-services/getting-started/query-builder"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/web/json-and-unicode-web-services/getting-started/query-builder"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:description xml:lang="en">Query builder.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2017-02-27 14:15:49.794747</dcterms:issued>
+    <dcterms:title xml:lang="en">5. JSON and UNICODE Web Services – query builder </dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/38923cb0-f805-453f-b6bf-241d262848dd">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/ea3ad8a1-7449-4a43-957b-7f67a8004318"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/64e16939-8695-4e62-bbaa-0ea0729df0d4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5587900b-0f4b-4a36-ba84-d1e21aea4b45">
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/web/sdmx-web-services/query-builder"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/web/sdmx-web-services/query-builder"/>
+    <dcterms:title xml:lang="en">2. SDMX Web Services – query builder </dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2017-02-27 14:17:20.695577</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">Eurostat has created an easy to use tool which generates SDMX-compliant queries for a limited number of datasets. This is only an educational aid which can be used by software vendors to generate some example SDMX queries. These queries can then be exploited to learn how to obtain statistical data from the SDMX Web Service hosted at Eurostat. Next chapters of this guideline are describing in details steps required to construct SDMX queries from scratch.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/95552d6a-8c34-43f5-a537-628424efd302">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/estat-web-services"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2808</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-17T14:11:02</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-27 13:10:16.593945</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2518</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ea3ad8a1-7449-4a43-957b-7f67a8004318">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/64e16939-8695-4e62-bbaa-0ea0729df0d4">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ac47e7fd-9f4b-4d35-99f9-2c3709ba2065">
+    <schema:url>http://ec.europa.eu/eurostat/data/web-services</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/data/web-services</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/estat-web-services"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/15e3fd61-ac55-46a2-a2e3-fbef40f1d7d9">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-78"/>
+    <schema:url xml:lang="en">https://esdac.jrc.ec.europa.eu/content/european-landslide-susceptibility-map-elsus-v2</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-78">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/a665d3fe-3f1f-403f-ac8c-df57a11aa568"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4f764b18-fcb4-4634-bcf1-042ac5d7836f"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-04</dcterms:modified>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcatapop:ckanName>jrc-esdac-78</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</dcterms:issued>
+    <dcterms:title xml:lang="en">European Landslide Susceptibility Map version 2 (ELSUS v2)</dcterms:title>
+    <dcterms:description xml:lang="en">The spatial dataset (GIS map) shows landslide susceptibility levels at European scale, derived from heuristic-statistical modelling of main landslide conditioning factors using also landslide location data. It covers all EU member states except Malta, in addition to Albania, Andorra, Bosnia and Herzegovina, Croatia, FYR Macedonia, Iceland, Kosovo, Liechtenstein, Montenegro, Norway, San Marino, Serbia, and Switzerland. This dataset is available together with ancillary spatial datasets</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ba69adfd-132e-4642-bd84-383a01923e72"/>
+    <dcterms:identifier>jrc-esdac-78</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/15e3fd61-ac55-46a2-a2e3-fbef40f1d7d9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ba69adfd-132e-4642-bd84-383a01923e72">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/52ef48d5-e7c1-45a7-97de-371587cb7a66"/>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/52ef48d5-e7c1-45a7-97de-371587cb7a66">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4f764b18-fcb4-4634-bcf1-042ac5d7836f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/european-landslide-susceptibility-map-elsus-v2"/>
+    <dcterms:title xml:lang="en">European Landslide Susceptibility Map version 2 (ELSUS v2)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a665d3fe-3f1f-403f-ac8c-df57a11aa568">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-78"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-78</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-78</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/494e1510-9dca-4845-a87e-1f056c95c505">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-78"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:48:58</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 13:56:22.662097</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

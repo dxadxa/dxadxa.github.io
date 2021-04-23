@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/72bf0bf2-4d90-47f6-8637-2bfc98f65044">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9a2c8153-3b85-4bfb-b5ca-b202859d4206">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/57a615eb-cfbc-435a-a8c5-553bd40f76c9"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/57a615eb-cfbc-435a-a8c5-553bd40f76c9</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/57a615eb-cfbc-435a-a8c5-553bd40f76c9</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e70d8364-47c4-41d0-84ab-26c793d9d3a8">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/72bf0bf2-4d90-47f6-8637-2bfc98f65044"/>
+    <vcard:hasEmail rdf:resource="albana.kona@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f4bf77fe-9853-4e75-b423-92e1b45eefb1">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/57a615eb-cfbc-435a-a8c5-553bd40f76c9"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:28</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:28</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/196d9c34-3082-428d-9b77-e21306dddabc">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Global Covenant of Mayors - A dataset of GHG emissions for 6,200 cities in Europe and the Southern Mediterranean countries</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/public/JRC-OpenData/CoM/GlobalCOM/LATEST/GlobalCoM.xlsx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/57a615eb-cfbc-435a-a8c5-553bd40f76c9">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e70d8364-47c4-41d0-84ab-26c793d9d3a8"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:title xml:lang="en">A dataset of GHG emissions for 6,200 cities in Europe and the Southern Mediterranean countries</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9a2c8153-3b85-4bfb-b5ca-b202859d4206"/>
+    <dcatapop:ckanName>57a615eb-cfbc-435a-a8c5-553bd40f76c9</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/196d9c34-3082-428d-9b77-e21306dddabc"/>
+    <dcterms:identifier>57a615eb-cfbc-435a-a8c5-553bd40f76c9</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-22</dcterms:issued>
+    <dcterms:description xml:lang="en">The Global Covenant of Mayors for Climate and Energy (GCoM) is the largest dedicated international initiative to promote climate action at city level, covering globally over 10,000 cities and in the European Union almost half the population by end of March 2020. 
+The present dataset refers to a harmonised, complete and verified dataset of GHG inventories for 6,200 cities, signatories of the GCoM initiative as of end of 2019, in the: European Union, EFTA countries and UK, Western Balkans, Eastern and Southern EU neighbourhoods countries The methodology and the general approach for the data collection can be found in Bertoldi et. al. 2018. Guidebook: How to develop a Sustainable Energy Climate Action Plan (SECAP). (2018) doi:10.2760/223399.</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

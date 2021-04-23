@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/27d1a151-1a39-4726-bb03-0d909ad16708">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/natural-assemblage-tree-species-indicator"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Natural assemblage tree species indicator 2006 dataset</dcterms:title>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/natural-assemblage-tree-species-indicator</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3dca9f57-e84b-48bc-bd1a-1ae245336cb3">
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/a33a04a3-615d-4433-9568-84bc0b6d0691"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/c532b12f-e4ba-4fcb-bd78-2a18da609c4a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/4d498ee3-8c58-4f02-92a8-fc10cbd94856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9c62802a-c678-419b-b14d-c97318d885a1">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/natural-assemblage-tree-species-indicator"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:31:03</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:31:03</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/natural-assemblage-tree-species-indicator">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3dca9f57-e84b-48bc-bd1a-1ae245336cb3"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Natural assemblage tree species indicator 2006 dataset</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword>forest indicators</dcat:keyword>
+    <dcat:keyword>forest</dcat:keyword>
+    <dcat:keyword>forest ecosystem</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-06T07:38:39Z</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8550"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword>indigenous forest</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/27d1a151-1a39-4726-bb03-0d909ad16708"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5706f9ee-a22b-41bd-9463-7db0b87e6207"/>
+    <dcterms:description xml:lang="en">The natural assemblage species indicator dataset is a forest dataset that measures the congruency between the potential and current tree species distribution. The natural assemblage indicator is considered one of the key indicator for the identification of High Nature Value forest area in Europe. The reference year for this data set is 2006 and the spatial coverage is including the 28 EU Member States, Liechtenstein, Norway, Switzerland, and Turkey.
+The methodological approach is based on two data sources: (1) EUNIS woodland, forest and other wooded land habitats, predicted potential distribution of habitat suitability –EEA- as potential distribution; (2) Relative probability of presence of forest tree species (RPP) of European Atlas of Forest Tree Species –JRC- as current distribution.
+The dataset values express, in the fuzzy values between 0 and 1, the percentage of tree species vegetation agreed with potentially dominant tree species by pixels. This measure is independent of the current forest coverage. The values close to 1 mean high percentage of native tree species (natural) whereas values close to 0 are an approximation of a low level of naturalness, being a high percentage of non-native species.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-06T07:38:39Z</dcterms:modified>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5219"/>
+    <dcat:keyword>environmental indicator</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1063"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>DAT-220-en</dcterms:identifier>
+    <dcat:keyword>forest conservation</dcat:keyword>
+    <dcat:keyword>primary forest</dcat:keyword>
+    <dcat:keyword>forest policy</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c067c0fa-bbea-4735-837d-c61e9f53af26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5706f9ee-a22b-41bd-9463-7db0b87e6207">
+    <dcterms:title xml:lang="en">Natural assemblage tree species indicator 2006 dataset INSPIRE metadata</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/1f598e5a-66af-4981-970d-28b1f0c29648"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/c532b12f-e4ba-4fcb-bd78-2a18da609c4a">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c067c0fa-bbea-4735-837d-c61e9f53af26">
+    <dcterms:title xml:lang="en">Natural assemblage tree species indicator 2006 dataset</dcterms:title>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/natural-assemblage-tree-species-indicator/natural-assemblage-tree-species-indicator/natural-assemblage-tree-species-indicator/view"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/4d498ee3-8c58-4f02-92a8-fc10cbd94856">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

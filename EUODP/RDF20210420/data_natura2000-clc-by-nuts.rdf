@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c32e0711-89c4-4703-91d0-d4e019924625">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/natura2000-clc-by-nuts/n2k_clc_nuts_area.xlsx/n2000v2015_clcv16_nuts_area.xlsx/view"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">N2000v2015_CLCv16_NUTS_area.xlsx</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4819c8db-821e-4402-bc44-6a6c5887b166">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_natura2000-clc-by-nuts"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">577</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:35:09</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:35:09</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7b987dd3-222f-4dee-94ee-cba94c0679e8">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Natura2000v15-CLCv16-NUTS3 area calculation methodology</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description></dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/natura2000-clc-by-nuts/raster-based-approach-methodology-document-1/natura2000v15-clcv16-nuts3-area-calculation-methodology/view"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_natura2000-clc-by-nuts">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c32e0711-89c4-4703-91d0-d4e019924625"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-07T08:12:31Z</dcterms:issued>
+    <dcat:keyword>natura 2000</dcat:keyword>
+    <dcat:keyword>biodiversity</dcat:keyword>
+    <dcat:keyword>nuts</dcat:keyword>
+    <dcat:keyword>statistics</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <dcat:keyword>corine land cover</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7b987dd3-222f-4dee-94ee-cba94c0679e8"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-07T08:12:31Z</dcterms:modified>
+    <dcterms:description xml:lang="en">Natura 2000 is the key instrument to protect biodiversity in the European Union. It is an ecological network of protected areas, set up to ensure the survival of Europe's most valuable species and habitats. This statistic provides information about the land cover inside Natura 2000 sites, version 2015. It is calculated using a raster approach. The coverage (km2) of Corine land cover (CLC) classes inside Natura 2000 sites aggregated by NUTS regions. The resulting statistic has three pivot tables, one for the CLC area in Natura 2000 sites designated under the Birds Directive (SPAs) only, one for the CLC area in Natura 2000 sites designated under the Habitats Directive (SCIs/SACs) only and one for the CLC area in the full Natura 2000 network, i.e. sites designated under both Directives.</dcterms:description>
+    <dcterms:title xml:lang="en">[DEPRECATED] Coverage of Corine land cover classes inside Natura 2000 sites aggregated by NUTS regions</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6bb649a9-0a79-4d3e-adeb-26ee508387f1"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcterms:identifier>DAT-162-en</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ed0c1593-3f00-45b3-99d8-54eb003c5d6e"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4256"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ed0c1593-3f00-45b3-99d8-54eb003c5d6e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/83b8bd1b-4ff9-4a62-a75d-68e0ca3cc9b1"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/2ade4436-9a9d-431d-8dc9-577ccd903152"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/d678ba94-93d8-497d-a664-f49862a171b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6bb649a9-0a79-4d3e-adeb-26ee508387f1">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_natura2000-clc-by-nuts"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/natura2000-clc-by-nuts</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Coverage of Corine land cover classes inside Natura 2000 sites aggregated by NUTS regions</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/83b8bd1b-4ff9-4a62-a75d-68e0ca3cc9b1">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/d678ba94-93d8-497d-a664-f49862a171b5">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

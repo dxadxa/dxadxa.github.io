@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cc4587cd-fddd-4d06-ae8b-46f06703f080">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">European map of soil suitability to provide a platform for most human activities (EU28)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://esdac.jrc.ec.europa.eu/content/european-map-soil-suitability-provide-platform-most-human-activities-eu28"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7863fb1b-8e9d-474d-ac9a-2e902fca35f9">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-42"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://esdac.jrc.ec.europa.eu/content/european-map-soil-suitability-provide-platform-most-human-activities-eu28</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-42">
+    <dcterms:description xml:lang="en">This dataset (map)(2016) presents the suitability of soil as a platform for most human activities in the EU. Calculation of suitability was done using vaious properties of the European Soil database (soil type, soil water regime, limitation to agricultural use, depth to rock, land use) and slope of the terrain.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7863fb1b-8e9d-474d-ac9a-2e902fca35f9"/>
+    <dcatapop:ckanName>jrc-esdac-42</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:title xml:lang="en">European map of soil suitability to provide a platform for most human activities (EU28)</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0e896951-2c78-4117-b8a9-069e530e738f"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/dbe40d31-6563-4cd3-8028-cfcfb655ed78"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>jrc-esdac-42</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-01</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cc4587cd-fddd-4d06-ae8b-46f06703f080"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-06</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3839e63d-eb36-4c31-b749-fe658323f210">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/dbe40d31-6563-4cd3-8028-cfcfb655ed78">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/3839e63d-eb36-4c31-b749-fe658323f210"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/460d66d1-f683-4daf-98d1-5ef2f90ac24e">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:35:07</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-42"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 13:22:37.731496</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">434</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0e896951-2c78-4117-b8a9-069e530e738f">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-42</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-42"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-42</schema:url>
+  </rdf:Description>
+</rdf:RDF>

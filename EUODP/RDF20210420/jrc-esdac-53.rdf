@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/21db32a2-a3b3-484c-af4d-8d679d9a1193">
+    <dcterms:title xml:lang="en">Soil erosion in forestland in Europe (using RUSLE2015)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://esdac.jrc.ec.europa.eu/content/soil-erosion-forestland-europe-using-rusle2015"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/07d968a4-fe9c-4955-b9b4-de43d20cd1a9">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-53"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 13:25:36.524947</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T15:04:44</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/24fabe17-9c39-4b5a-bb2b-1e8d2a7a774d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-53"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-53</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-53</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a2cef10b-b806-4905-b79b-96940be7ae89">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-53"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://esdac.jrc.ec.europa.eu/content/soil-erosion-forestland-europe-using-rusle2015</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/dadad29c-c4c1-4d9b-9273-8aa2a063f7db">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/f7bc9c84-578f-4284-83f8-730689bfb989"/>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-53">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/21db32a2-a3b3-484c-af4d-8d679d9a1193"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:ckanName>jrc-esdac-53</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/24fabe17-9c39-4b5a-bb2b-1e8d2a7a774d"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">Dataset (2 GIS-maps) (2016) related to soil erosion in Forestland in Europe. One map is the soil loss potential for EU28; the other map is the European Forest Cover Change for 36 European countries.</dcterms:description>
+    <dcterms:title xml:lang="en">Soil erosion in forestland in Europe (using RUSLE2015)</dcterms:title>
+    <dcterms:identifier>jrc-esdac-53</dcterms:identifier>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-12</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a2cef10b-b806-4905-b79b-96940be7ae89"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/dadad29c-c4c1-4d9b-9273-8aa2a063f7db"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f7bc9c84-578f-4284-83f8-730689bfb989">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

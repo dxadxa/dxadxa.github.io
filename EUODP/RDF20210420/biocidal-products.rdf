@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b0546c0e-df88-4260-9ef3-58a21884d34d">
+    <schema:url>https://www.echa.europa.eu/information-on-chemicals/biocidal-products</schema:url>
+    <dcterms:title xml:lang="en">title_https://www.echa.europa.eu/information-on-chemicals/biocidal-products</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/biocidal-products"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/biocidal-products">
+    <dcterms:title xml:lang="en">List of authorised biocidal products</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2739"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:keyword xml:lang="en">chemicals legislation</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a3cf34bd-126d-44f5-9c5b-e6cad3723c0a"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHA"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/29ab62c0-995a-4c42-8dcb-1f0078eef2d1"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_39cda9ba"/>
+    <dcatapop:ckanName>biocidal-products</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">biocidal product</dcat:keyword>
+    <dcterms:description xml:lang="en">The database contains information on biocidal products authorised on the EU/EEA market, in accordance with the Biocidal Products Directive (Directive 98/8/EC) or the Biocidal Products Regulation (Regulation (EU) No 528/2012).  &#13;
+&#13;
+Information from three authorisation types is available:    &#13;
+- Simplified authorisations: These biocidal products have a more favourable environmental or human and animal health profile and therefore follow a simpler procedure. The authorisation is published together with the related notifications for placing a biocidal product on the market.  &#13;
+- Union authorisations: These biocidal products are allowed to be placed on the market throughout the entire EU/EEA and Switzerland.  &#13;
+- National authorisations: These biocidal products are authorised in specific EU countries. The authorisation is published together with the related mutual recognitions in the other Member States where the biocidal product has been allowed on the market.&#13;
+&#13;
+</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5451"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1362"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b0546c0e-df88-4260-9ef3-58a21884d34d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cc9d85cb-1f77-4a65-b630-138a4ee7a118">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">404</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">318</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-18T14:38:08</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-03-12T18:00:27</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/biocidal-products"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/29ab62c0-995a-4c42-8dcb-1f0078eef2d1">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.echa.europa.eu/information-on-chemicals/biocidal-products"/>
+    <dcterms:title xml:lang="en">Search the biocidal products database</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en">You can search for biocidal products with:    &#13;
+- Product trade name;  &#13;
+- Product-type;  &#13;
+- The active substance in the product (includes the option to search by active substances known to be candidates for substitution);  &#13;
+- Authorisation data, (for example authorisation holder or authorisation number);  &#13;
+- Product details, for example use information, such as target organism and application method of a product, or hazard and precautionary statements).  &#13;
+&#13;
+You can export the biocidal product results to the ECHA website standard formats (XLS, CSV and XML). The exported results are arranged per product authorisation, e.g. each authorisation will be presented in an individual row.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a3cf34bd-126d-44f5-9c5b-e6cad3723c0a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

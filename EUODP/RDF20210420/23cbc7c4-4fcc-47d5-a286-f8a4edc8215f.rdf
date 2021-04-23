@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/9d193abe-acc3-47c8-8097-1dde47b80c96">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a2620211-8054-4375-b909-5ed839b392a4"/>
+    <vcard:hasEmail rdf:resource="marc.de-cort@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5d899496-7d1b-4386-8c63-cc212c3ddc41">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/23cbc7c4-4fcc-47d5-a286-f8a4edc8215f</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/23cbc7c4-4fcc-47d5-a286-f8a4edc8215f</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/23cbc7c4-4fcc-47d5-a286-f8a4edc8215f"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6fc3c980-522a-458a-97f6-cee283a123c5">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Air concentration samples</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURDEP/Ruthenium/ruthenium_samples.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d9a259e1-c224-49dd-bcb4-0a02599a0607">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">https://remon.jrc.ec.europa.eu/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/23cbc7c4-4fcc-47d5-a286-f8a4edc8215f"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/23cbc7c4-4fcc-47d5-a286-f8a4edc8215f">
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:title xml:lang="en">Ruthenium-106 event (air concentration samples)</dcterms:title>
+    <dcterms:identifier>23cbc7c4-4fcc-47d5-a286-f8a4edc8215f</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5d899496-7d1b-4386-8c63-cc212c3ddc41"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d9a259e1-c224-49dd-bcb4-0a02599a0607"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6fc3c980-522a-458a-97f6-cee283a123c5"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/9d193abe-acc3-47c8-8097-1dde47b80c96"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:ckanName>23cbc7c4-4fcc-47d5-a286-f8a4edc8215f</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">International issues</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-10</dcterms:modified>
+    <dcterms:description xml:lang="en">Between the end of September and early October 2017, several European networks involved in the monitoring of atmospheric radioactive contamination recorded 106Ru presence.  Some regions of Central and Eastern Europe measured one-day mean activity concentrations up to 10-100 mBq/m³, although the resulting exposure were far below radiological concern. Based on the meteorological conditions and modelling analysis, the most plausible zone of release, lies in the Southern Ural region of Russia and possibly Northern Kazakhstan, although it continues unknown until today.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-10</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a2620211-8054-4375-b909-5ed839b392a4">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/fa52cd15-a9d4-40ae-94e4-bc14850ab5ec">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/23cbc7c4-4fcc-47d5-a286-f8a4edc8215f"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:07:06</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-01T07:14:17</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

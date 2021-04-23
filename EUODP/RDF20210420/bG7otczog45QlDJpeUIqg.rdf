@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4a26c3a7-8f9a-4812-8413-20cd144ba864">
+    <dcterms:title xml:lang="en">Download dataset in JSON format (not compressed)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/api/dissemination/sdmx/2.1/data/aid_scb_inst?format=json&amp;compressed=false"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9ed7e08b-abee-4171-962b-b6db9c192561">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/competition/contacts/index_en.html</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d8ff723e-a828-4d39-b70a-e67aa48dee80">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/api/dissemination/sdmx/2.1/data/aid_scb_inst?format=csv&amp;compressed=false"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Download dataset in CSV format (not compressed)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d434a640-5eb9-47b7-947f-0bb37e7423cb">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/api/dissemination/sdmx/2.1/data/aid_scb_inst?format=sdmx_2.1_generic&amp;compressed=true"/>
+    <dcterms:title xml:lang="en">Download dataset in SDMX-ML 2.1 generic format</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/b49ba8e4-365e-4f13-9d1f-09d4dbc9e4df">
+    <vcard:hasValue rdf:resource="+3222991111"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d6114683-b62a-4daa-96e7-6e208537e8f2">
+    <dcterms:title xml:lang="en">Data visualization. Table, graphs and map visualizations are also available.</dcterms:title>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/databrowser/product/view/AID_SCB_INST"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/bG7otczog45QlDJpeUIqg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5bc73a83-2ba6-4bab-9011-18eeb5b50001"/>
+    <dcterms:title xml:lang="en">Aid by instruments in current prices</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ade8ae95-cf5a-4127-8816-38ed262743ae"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcatapop:ckanName>bG7otczog45QlDJpeUIqg</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4a26c3a7-8f9a-4812-8413-20cd144ba864"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d6114683-b62a-4daa-96e7-6e208537e8f2"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d434a640-5eb9-47b7-947f-0bb37e7423cb"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4cd5518e-9c74-4e7c-ab18-18904a098678"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COMP"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a006fa18-5dc3-4604-8db8-e6aa7633b42c"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:identifier>AID_SCB_INST</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/592388d7-2b5c-44cb-a395-a3eb322550c7"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d8ff723e-a828-4d39-b70a-e67aa48dee80"/>
+    <dcterms:description xml:lang="en">Aid by instruments in current prices</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-05</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/a9a3881c-85e6-401f-8252-3b76ad524177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/592388d7-2b5c-44cb-a395-a3eb322550c7">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/b49ba8e4-365e-4f13-9d1f-09d4dbc9e4df"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/40f168a0-64b7-4813-a6cf-7a4f240a043d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9ed7e08b-abee-4171-962b-b6db9c192561"/>
+    <vcard:organisation-name>Directorate General for Competition</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ade8ae95-cf5a-4127-8816-38ed262743ae">
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/databrowser/product/page/AID_SCB_INST"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">More information on the Website of Directorate General Competition</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4cd5518e-9c74-4e7c-ab18-18904a098678">
+    <dcterms:title xml:lang="en">Eurostat - European statistics : online help</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/bG7otczog45QlDJpeUIqg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/eurostat/online-help/public/</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c8eeb3b9-8076-4ab2-ad8d-67ca08691e3d">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-05-07T15:02:34</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/bG7otczog45QlDJpeUIqg"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-05-07T15:25:19</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5bc73a83-2ba6-4bab-9011-18eeb5b50001">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/api/dissemination/sdmx/2.1/data/aid_scb_inst?format=tsv&amp;compressed=false"/>
+    <dcterms:title xml:lang="en">Download dataset in TSV format (not compressed)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a9a3881c-85e6-401f-8252-3b76ad524177">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/bG7otczog45QlDJpeUIqg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://webgate.ec.europa.eu/comp/redisstat/databrowser/product/page/AID_SCB_INST</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://webgate.ec.europa.eu/comp/redisstat/databrowser/product/page/AID_SCB_INST</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a006fa18-5dc3-4604-8db8-e6aa7633b42c">
+    <dcterms:title xml:lang="en">Download data structure in SDMX-ML 2.1 format</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/comp/redisstat/api/dissemination/sdmx/2.1/dataflow/COMP/aid_scb_inst/1.0?references=descendants&amp;detail=referencepartial&amp;format=sdmx_2.1_generic&amp;compressed=false"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/40f168a0-64b7-4813-a6cf-7a4f240a043d">
+    <vcard:street-address>Directorate-General for Competition European Commission Place Madou/Madouplein 1 1210 Bruxelles/Brussel Belgium</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

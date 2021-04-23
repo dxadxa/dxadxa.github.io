@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_2034">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c24900ba-4d7f-4240-8242-64dbe24e12c7"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dcatapop:ckanName>elrc_2034</dcatapop:ckanName>
+    <dcterms:identifier>ELRC_2034</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/580d9e56-a4e4-4a57-ae6c-3255177401e9"/>
+    <dcterms:description xml:lang="en">Parallel Global Voices EN-NL is a parallel corpus generated from the Global Voices multilingual group of websites (http://globalvoices.org/), where volunteers publish and translate news stories in more than 40 languages. The original content from the Global Voices websites is available by the authors and publishers under a Creative Commons Attribution license. The content was crawled in July-August 2015 by researchers at the NLP group of the Institute for Language and Speech Processing. Documents that are translations of each other were paired on the basis of their link information. After document pairing, segment alignments were automatically extracted. The results of the automatic alignment at document and segment level are distributed  under a Creative Commons Attribution license.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3cd3f01f-0096-4e58-b40c-249d6534ef4f"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-01</dcterms:modified>
+    <dcterms:title xml:lang="en">Parallel Global Voices (English - Dutch) (Processed)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3cd3f01f-0096-4e58-b40c-249d6534ef4f">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/parallel-global-voices-english-dutch-processed/e184bc84545011e9a7e100155d0267069253b6701ab74cc5b01558b9162f6e73/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2a8daaad-ecba-4f2c-b203-515f397f1d24">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-11T12:59:21</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:41:33</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_2034"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/580d9e56-a4e4-4a57-ae6c-3255177401e9">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_2034</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_2034"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_2034</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c24900ba-4d7f-4240-8242-64dbe24e12c7">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

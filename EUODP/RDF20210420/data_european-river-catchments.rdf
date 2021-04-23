@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/a57e1682-4de1-438c-8f21-e3c75ddfc57b">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/190a3760-d52e-4156-b8f5-899a5f959d07">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">951</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_european-river-catchments"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:52:34</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1016</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:52:34</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/b227a66c-12bf-48dc-ac97-8d073d33437f">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_european-river-catchments">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/597"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2efc6417-256e-40eb-98ab-15a8069c41c7"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-25T11:57:57Z</dcterms:modified>
+    <dcat:keyword>geospatial data</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/272a9e69-3a1c-44e9-9b0c-2d3d5af834e1"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcterms:description xml:lang="en">The purpose of the European river catchments (ERC) is to provide a homogeneous European catchments dataset at scale 1:1 million that can be used together with the digital topographic data of  EuroGlobalMap.</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword>vector data</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6139ed74-cc1d-4aa8-bc78-831e15ed05f1"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d7b365e2-6d62-4bc6-8dc8-2599eb5eba43"/>
+    <dcterms:identifier>DAT-59-en</dcterms:identifier>
+    <dcterms:title xml:lang="en">[DEPRECATED] European river catchments</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-12-31T23:00:00Z</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>catchment</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b7cb1b7c-09d9-4707-9865-2a86d081f153"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword>eea owned data sets</dcat:keyword>
+    <dcat:keyword>rivers</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/272a9e69-3a1c-44e9-9b0c-2d3d5af834e1">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/european-river-catchments</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_european-river-catchments"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] European river catchments</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b7cb1b7c-09d9-4707-9865-2a86d081f153">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/a57e1682-4de1-438c-8f21-e3c75ddfc57b"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/b227a66c-12bf-48dc-ac97-8d073d33437f"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/5b73516c-e10c-4b87-9fa3-71a85f081af2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d7b365e2-6d62-4bc6-8dc8-2599eb5eba43">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/european-river-catchments/european-river-catchments-version-1-01-gis-vector-data/european-river-catchments-version-1-01-gis-vector-data/view"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">European river catchments version 1.01 GIS vector data</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2efc6417-256e-40eb-98ab-15a8069c41c7">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">European river catchments version 1.01 Documentation</dcterms:title>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/european-river-catchments/european-river-catchments-version-1-01-documentation/european-river-catchments-version-1-01-documentation/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6139ed74-cc1d-4aa8-bc78-831e15ed05f1">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">EEA stylesheet to read EEA xml metadata can be downloaded here.</dcterms:title>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/european-river-catchments/eea-stylesheet-to-read-eea-xml-metadata-can-be-downloaded-here/eea-stylesheet-to-read-eea-xml-metadata-can-be-downloaded-here/view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+</rdf:RDF>

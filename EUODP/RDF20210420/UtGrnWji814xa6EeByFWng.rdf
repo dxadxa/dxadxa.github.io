@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/47191b32-fd32-4597-8470-1c7434f68aea">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/qoe_ewcs_4a5.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b99d0236-3812-4bf3-9fc3-a12ddb68abd4">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/b677b3e0-00a5-45a5-9f03-373fabfee03f"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/61709ae5-2ac9-441a-90df-e6691b405255"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/99eb064d-8ca5-4f2c-9728-14812ab50072"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1936adf6-6fb4-4125-9f7f-3b267c81fa9e">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/qoe_ewcs_4a5.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/05c916e9-07c9-431b-a942-288a22d55237">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/qoe_ewcs_4a5</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/UtGrnWji814xa6EeByFWng"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/99eb064d-8ca5-4f2c-9728-14812ab50072">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/61709ae5-2ac9-441a-90df-e6691b405255">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/UtGrnWji814xa6EeByFWng">
+    <dcterms:description xml:lang="en">Employed persons expecting a possible loss of their job in the next 6 months by sex and age (source: Eurofound)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/2ecc6ea0-f7a2-4db6-a928-5221cc55d294"/>
+    <dcterms:title xml:lang="de">Erwerbstätige, die denken, dass sie in den nächsten 6 Monaten ihre Arbeit verlieren könnten, nach Geschlecht und Alter (Quelle: Eurofound)</dcterms:title>
+    <dcterms:title xml:lang="en">Employed persons expecting a possible loss of their job in the next 6 months by sex and age (source: Eurofound)</dcterms:title>
+    <dcterms:description xml:lang="fr">Personnes en emploi s'attendant à une possible perte de leur emploi dans les six prochains mois par sexe et âge (source: Eurofound)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1b6a28d0-abe7-4853-90a4-0fc5c584ce23"/>
+    <dcatapop:ckanName>UtGrnWji814xa6EeByFWng</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-28</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/05c916e9-07c9-431b-a942-288a22d55237"/>
+    <dcterms:description xml:lang="de">Erwerbstätige, die denken, dass sie in den nächsten 6 Monaten ihre Arbeit verlieren könnten, nach Geschlecht und Alter (Quelle: Eurofound)</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b99d0236-3812-4bf3-9fc3-a12ddb68abd4"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1936adf6-6fb4-4125-9f7f-3b267c81fa9e"/>
+    <dcterms:identifier>qoe_ewcs_4a5</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/47191b32-fd32-4597-8470-1c7434f68aea"/>
+    <dcterms:title xml:lang="fr">Personnes en emploi s'attendant à une possible perte de leur emploi dans les six prochains mois par sexe et âge (source: Eurofound)</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/681b3367-412b-4790-bdfc-ecd308a9a5e9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e7766cb5-88db-4f42-8420-57c13fbfaf76">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:25:16</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-05 05:25:58.900605</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/UtGrnWji814xa6EeByFWng"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/b677b3e0-00a5-45a5-9f03-373fabfee03f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/2ecc6ea0-f7a2-4db6-a928-5221cc55d294">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/681b3367-412b-4790-bdfc-ecd308a9a5e9">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/qoe_ewcs_4a5</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/qoe_ewcs_4a5</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/UtGrnWji814xa6EeByFWng"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1b6a28d0-abe7-4853-90a4-0fc5c584ce23">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/qoe_ewcs_4a5.tsv.gz"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+</rdf:RDF>

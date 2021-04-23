@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ce3a4e56-c30a-4743-ab60-7caedc2dd70c">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Full ELCD Database</dcterms:title>
+    <dcat:accessURL rdf:resource="http://eplca.jrc.ec.europa.eu/ELCD3/"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Landing Page to download the full ELCD Database.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e5faccec-52bc-4bb4-af5c-b1edf6a225cf">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/6622f715-1f53-4892-bbdf-22f3d1c89537"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="ec-eplca@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/cc614642-e582-4a78-b09c-155aed93328e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ce3a4e56-c30a-4743-ab60-7caedc2dd70c"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e5faccec-52bc-4bb4-af5c-b1edf6a225cf"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcterms:title xml:lang="en">Process steam from light fuel oil; heat plant; consumption mix, at plant; MJ (Location: IE)</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:description xml:lang="en">Good overall data quality. Energy carrier mix information based on official statistical information including import / export. A detailed heat plant model was used, which combine measured emissions plus calculated values for not measured emissions of e.g. organics or heavy metals. Energy carrier extraction and processing data is of sufficient to good (e.g. refinery) data quality. Inventory is partly based on primary industry data, partly on secondary literature data.
+
+Technical Purpose: Process steam (MJ) at heat plant for final consumers.
+
+Geographical Representation: IE</dcterms:description>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/965176d3-da38-476a-9381-060b418ebc36"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:ckanName>jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:identifier>jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-01</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2923d1b1-42a0-4680-a2ce-e7c2b0edb21b">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:27:41</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 14:11:27.405688</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cc614642-e582-4a78-b09c-155aed93328e">
+    <schema:url>http://data.europa.eu/89h/jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6622f715-1f53-4892-bbdf-22f3d1c89537">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/965176d3-da38-476a-9381-060b418ebc36">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eplca-1eb2b423-53be-4937-95be-8b4a69b6b9ad"/>
+    <schema:url xml:lang="en">http://eplca.jrc.ec.europa.eu/ELCD3/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

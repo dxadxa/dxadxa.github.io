@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e99d6753-1d80-4da6-971d-92953c259c4b"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRL"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/151f395a-19b3-4e24-93e8-714b12a97b49"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/36c787fb-3a35-4b48-b465-e5b96cca8465"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:title xml:lang="en">Electricity grid mix 1kV-60kV; AC; consumption mix, at consumer; 1kV - 60kV (Location: IS)</dcterms:title>
+    <dcatapop:ckanName>jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ISL"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/656de38c-0393-45f7-b446-5b31c5ef7cb3"/>
+    <dcterms:description xml:lang="en">Data sets represents the average country or region specific electricity supply for final consumers, including own consumption, net losses and imports from neighbouring countries. The national energy carrier mixes used for electricity production as well as data about effciencies, net losses and own consumption are taken from official statistics (mainly International Energy Agency) for the relevant reference year. Detailed power plant models were used, which combine measured emissions plus calculated values for not measured emissions of e.g. organics or heavy metals. Inventory is partly based on primary industry data, partly on secondary literature data.
+
+Synonyms: Power grid mix
+
+Technical Purpose: Provision of medium voltage (1kV - 60kV) electricity for final consumers.
+
+Geographical Representation: IS</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</dcterms:issued>
+    <dcterms:identifier>jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b7f21c06-8d70-4f56-a6ce-2638026769d5">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/656de38c-0393-45f7-b446-5b31c5ef7cb3">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e99d6753-1d80-4da6-971d-92953c259c4b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://eplca.jrc.ec.europa.eu/ELCD3/</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/151f395a-19b3-4e24-93e8-714b12a97b49">
+    <dcterms:title xml:lang="en">Full ELCD Database</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Landing Page to download the full ELCD Database.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://eplca.jrc.ec.europa.eu/ELCD3/"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/36c787fb-3a35-4b48-b465-e5b96cca8465">
+    <vcard:hasEmail rdf:resource="ec-eplca@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b7f21c06-8d70-4f56-a6ce-2638026769d5"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/50dc8ea5-8ce2-479c-b637-3423362782d1">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eplca-e35262d2-f91a-487b-af42-7e88f30c0d71"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 14:02:22.946128</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:10:17</dcterms:modified>
+  </rdf:Description>
+</rdf:RDF>

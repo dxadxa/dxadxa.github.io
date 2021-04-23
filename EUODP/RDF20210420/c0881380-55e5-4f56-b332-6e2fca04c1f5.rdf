@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/488dd91a-5bf6-4304-9b43-7dac133c51c4">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/c0881380-55e5-4f56-b332-6e2fca04c1f5"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/c0881380-55e5-4f56-b332-6e2fca04c1f5</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/c0881380-55e5-4f56-b332-6e2fca04c1f5</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/54a12bde-ddf7-4a28-a650-319a53ed55ab">
+    <dcterms:description xml:lang="en">RAMON-LD is an experimental Linked Data implementation of the EUROSTAT RAMON registry. It includes the RAMON classification schemes used by IPSO - COFOG, CPA, NACE, and NUTS.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">RAMON-LD</dcterms:title>
+    <dcat:accessURL rdf:resource="https://ipsoeu.github.io/ramon-ld/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bf730cc2-9731-431e-88d3-06e581baa100">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://ipsoeu.github.io/taxonomy/</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/c0881380-55e5-4f56-b332-6e2fca04c1f5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/adafd40a-2040-4213-88ac-0bbce4777a38">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">CoS Taxonomy is an experimental Linked Data implementation of the taxonomy for public services developed in the framework of the Catalogue of Services Action of the EU ISA² Programme.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://ipsoeu.github.io/cos-taxonomy/"/>
+    <dcterms:title xml:lang="en">CoS Taxonomy</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2263e641-cacf-4486-be1a-e9ab00ec84da">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/c0881380-55e5-4f56-b332-6e2fca04c1f5">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/54a12bde-ddf7-4a28-a650-319a53ed55ab"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/488dd91a-5bf6-4304-9b43-7dac133c51c4"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:title xml:lang="en">IPS Taxonomies</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/36311206-9dfe-4959-94e6-d6b13e1eb1ce"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Government and public sector</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bf730cc2-9731-431e-88d3-06e581baa100"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/98ff861d-82fe-4662-8bfa-07352f7531b6"/>
+    <dcterms:identifier>c0881380-55e5-4f56-b332-6e2fca04c1f5</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-05</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/adafd40a-2040-4213-88ac-0bbce4777a38"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcatapop:ckanName>c0881380-55e5-4f56-b332-6e2fca04c1f5</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">This datasets includes the taxonomies re-used or defined in the framework of the Innovative Public Services (IPS) Action of the EU ISA² Programme, and used in the service catalogue of the IPS Observatory (IPSO).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e7528512-49c6-4505-b330-4f74ce118524">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/c0881380-55e5-4f56-b332-6e2fca04c1f5"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-16T11:23:56</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-16T11:23:56</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/36311206-9dfe-4959-94e6-d6b13e1eb1ce">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">IPSO Taxonomy</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://ipsoeu.github.io/taxonomy/"/>
+    <dcterms:description xml:lang="en">IPSO Taxonomy is an experimental Linked Data implementation of the taxonomies defined in the framework of the Innovative Public Services Observatory (IPSO).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/98ff861d-82fe-4662-8bfa-07352f7531b6">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/2263e641-cacf-4486-be1a-e9ab00ec84da"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-ips@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+</rdf:RDF>

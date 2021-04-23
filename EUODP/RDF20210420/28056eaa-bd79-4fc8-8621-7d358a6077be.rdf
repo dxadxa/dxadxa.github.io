@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/83a6e4f4-09a2-4e47-8c1f-596e047ee68b">
+    <dcterms:title xml:lang="en">Container-Trip Locations - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcat:accessURL rdf:resource="https://contraffic.jrc.ec.europa.eu/resources/v1/KnownPlacesService.json"/>
+    <dcterms:description xml:lang="en">Provide the locations involved in a container-trip based on the identification of the container-trip through the container ID and date</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ba4445c8-5037-481e-865f-d8ca77dff4fe">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcat:accessURL rdf:resource="https://contraffic.jrc.ec.europa.eu/resources/v1/ContainerHistoryService.json"/>
+    <dcterms:title xml:lang="en">ConTraffic Container History Service  - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+    <dcterms:description xml:lang="en">Provides the Container Status Messages for a selected container ID and date range</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/28056eaa-bd79-4fc8-8621-7d358a6077be">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f4c14d44-642d-4d9f-bea3-4ac8eb0fb20c"/>
+    <dcatapop:ckanName>28056eaa-bd79-4fc8-8621-7d358a6077be</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>28056eaa-bd79-4fc8-8621-7d358a6077be</dcterms:identifier>
+    <dcterms:description xml:lang="en">Container Status Messages as received from OLAF AFIS-CSM system and Container Trip Information &amp; Vessel Stop Information records derived by the ConTraffic system. The information is collected and processed based on Regulation (EC) 515/97 and is restricted to the authorized parties defined by the Regulation.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ba4445c8-5037-481e-865f-d8ca77dff4fe"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ef58a855-5767-46aa-9e0a-3043c345e0a4"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3e22fcd0-5efe-46f4-8f14-ad6264c79e7f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/83a6e4f4-09a2-4e47-8c1f-596e047ee68b"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7efef2ef-92c6-4ad3-9360-2f4dc27d242e"/>
+    <dcat:keyword xml:lang="en">Transport</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">ConTraffic-AFIS-CSM-CTI-VSI</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5592ebfd-afe3-4ee6-936d-2eab188419ed">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ef58a855-5767-46aa-9e0a-3043c345e0a4">
+    <schema:url>http://data.europa.eu/89h/28056eaa-bd79-4fc8-8621-7d358a6077be</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/28056eaa-bd79-4fc8-8621-7d358a6077be</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/28056eaa-bd79-4fc8-8621-7d358a6077be"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9c00b425-775f-40b3-b878-2f1bf1f5b1ef">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-24T18:47:00</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/28056eaa-bd79-4fc8-8621-7d358a6077be"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:40:35</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7efef2ef-92c6-4ad3-9360-2f4dc27d242e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/28056eaa-bd79-4fc8-8621-7d358a6077be"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://contraffic.jrc.ec.europa.eu/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f4c14d44-642d-4d9f-bea3-4ac8eb0fb20c">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">ConTraffic Visual Analytics for AFIS-CSM data - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcat:accessURL rdf:resource="https://contraffic.jrc.ec.europa.eu/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">The Visual Analytics functions allows to search in the large ConTraffic database, visualize the results and export small subsets to CSV files</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3e22fcd0-5efe-46f4-8f14-ad6264c79e7f">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/5592ebfd-afe3-4ee6-936d-2eab188419ed"/>
+    <vcard:hasEmail rdf:resource="aris.tsois@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

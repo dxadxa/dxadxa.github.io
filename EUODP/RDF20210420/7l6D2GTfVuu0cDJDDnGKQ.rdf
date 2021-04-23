@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/5a5a7c30-3608-4c6d-ad37-e27f438e5764">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-4e0be3b0-4576-4461-8d00-9ad9ff0831fef78e6c52-6b42-4233-a184-17bb0429632f">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-0518d6a1-a31c-45ab-844f-6d7ed24ac1b5">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-01T00:00:00</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/85ecb52a-2e37-4bf7-81aa-f02515360502">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/85ecb52a-2e37-4bf7-81aa-f02515360502</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3f2b1637-60b0-4fe0-ab7d-8ffae55c61f6">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ten00111</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/7l6D2GTfVuu0cDJDDnGKQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/03c7c2e4-06e8-4cf9-8cd2-49926f8167f1">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/7l6D2GTfVuu0cDJDDnGKQ"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">505</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30 10:00:34.280625</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">538</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:01:05.096442</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/7l6D2GTfVuu0cDJDDnGKQ">
+    <dcterms:title xml:lang="fr">Déchets générés par les activités des ménages, par catégorie de déchets et dangerosité (2012)</dcterms:title>
+    <dcterms:description xml:lang="fr">Quantité de déchets générés par les ménages (EP-HH) , par catégorie de déchets (EWC-Stat 4) et dangerosité, dernière année disponible.</dcterms:description>
+    <dcterms:identifier>ten00111</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3f2b1637-60b0-4fe0-ab7d-8ffae55c61f6"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6402"/>
+    <dcterms:temporal rdf:resource="period_of_time-0518d6a1-a31c-45ab-844f-6d7ed24ac1b5"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b5d3d2ef-1e7d-4c12-9d5b-6f5f3009d86f"/>
+    <dcatapop:ckanName>7l6D2GTfVuu0cDJDDnGKQ</dcatapop:ckanName>
+    <dcterms:modified>2018-08-30 10:00:34.280625</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="en">The product has been discontinued since: 06 Oct 2016.&#13;
+&#13;
+Waste generated by households (EP-HH) and by waste category (EWC-Stat 4) and hazardousness, latest available year.</dcterms:description>
+    <dcterms:title xml:lang="de">Abfallaufkommen aus Haushalten nach Abfallkategorie und Gefährlichkeit (2012)</dcterms:title>
+    <owl:versionInfo>None</owl:versionInfo>
+    <dcterms:description xml:lang="de">Abfallaufkommen aus Haushalten (EP-HH) nach Abfallkategorie (EWC-Stat 4) und Gefährlichkeit, aktuelles Berichtsjahr.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:01:05.096442</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6a850696-2c15-44ec-9330-df0c04a569a0"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Generation of waste by households activities, by waste category and hazardousness (2012)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b5d3d2ef-1e7d-4c12-9d5b-6f5f3009d86f">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/85ecb52a-2e37-4bf7-81aa-f02515360502"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="telephone-4e0be3b0-4576-4461-8d00-9ad9ff0831fef78e6c52-6b42-4233-a184-17bb0429632f"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/5a5a7c30-3608-4c6d-ad37-e27f438e5764"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6a850696-2c15-44ec-9330-df0c04a569a0">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ten00111</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/ten00111</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+</rdf:RDF>

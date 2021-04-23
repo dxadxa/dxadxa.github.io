@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/53cb5b44-9766-4f88-b35b-c4b294669c97">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/3e33f168-59f3-4f1b-a8a5-288d67a90855"/>
+    <vcard:hasEmail rdf:resource="jrc-b2-housing@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ce921a3e-98ae-42ec-9287-43bb3aa68c9c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Housing taxation database 1995-2017</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Dataset - excel file</dcterms:description>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/HousingTaxation/HousingTaxationDatabase_1995-2017/LATEST/Housing-taxation-database_1995-2017_v1.0.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c271da5c-0096-4429-86fb-07d35a398d8d">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/jrc/en/publication/eur-scientific-and-technical-research-reports/housing-taxation-new-database-europe"/>
+    <dcterms:title xml:lang="en">Housing taxation: a new database for Europe, JRC Working Papers on Taxation and Structural Reforms No 08/2019</dcterms:title>
+    <dcterms:description xml:lang="en">Related paper - PDF file</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7829ca7f-211e-4e51-9253-007f7f72309b">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Housing taxation database. Technical annex.</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Technical description of the dataset - PDF file</dcterms:description>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/HousingTaxation/HousingTaxationDatabase_1995-2017/LATEST/Housing-database-Technical-Annex_v1.0.pdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/07209c4d-b14d-4d06-a2d8-6f5df2b457b2">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T10:46:41</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/fb2f5d12-d265-45a9-bb3e-10cbd9da150b"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:33:20</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/fb2f5d12-d265-45a9-bb3e-10cbd9da150b">
+    <dcatapop:ckanName>fb2f5d12-d265-45a9-bb3e-10cbd9da150b</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-21</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c271da5c-0096-4429-86fb-07d35a398d8d"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-21</dcterms:issued>
+    <dcterms:description xml:lang="en">Database and technical annex for years 1995 to 2017</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/07079f6d-0268-4e87-8a47-ca28302f5163"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/53cb5b44-9766-4f88-b35b-c4b294669c97"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7829ca7f-211e-4e51-9253-007f7f72309b"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ce921a3e-98ae-42ec-9287-43bb3aa68c9c"/>
+    <dcterms:identifier>fb2f5d12-d265-45a9-bb3e-10cbd9da150b</dcterms:identifier>
+    <dcterms:title xml:lang="en">Housing taxation: a new database for Europe, JRC Working Papers on Taxation and Structural Reforms No 08/2019</dcterms:title>
+    <dcat:keyword xml:lang="en">Economy and finance</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/07079f6d-0268-4e87-8a47-ca28302f5163">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/fb2f5d12-d265-45a9-bb3e-10cbd9da150b</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/fb2f5d12-d265-45a9-bb3e-10cbd9da150b</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/fb2f5d12-d265-45a9-bb3e-10cbd9da150b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3e33f168-59f3-4f1b-a8a5-288d67a90855">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+</rdf:RDF>

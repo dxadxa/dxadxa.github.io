@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-1">
+    <dcterms:title xml:lang="en">European Soil Database v2.0 (vector and attribute data)</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</dcterms:issued>
+    <dcat:keyword xml:lang="en">European Soil Database</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/bc2df6d6-0025-46b3-8998-baf0b92eab42"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-07</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4dd85b4b-d47a-4105-aaaa-9f4af3487aab"/>
+    <dcterms:description xml:lang="en">This database (2004) is the only harmonized soil database for Europe, extending also to Eurasia. It contains a soil geographical database SGDBE (polygons) to which a number of essential soil attributes are attached, and an associate database PTRDB, with attributes which values have been derived through pedotransfer rules. Also part of the database is the Soil Profile Analytical Database, that contains measured and estimated soil profiles for Europe.</dcterms:description>
+    <dcat:keyword xml:lang="en">geoscientific information</dcat:keyword>
+    <dcterms:identifier>http://data.europa.eu/89h/jrc-esdac-1</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/100151"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">Soil</dcat:keyword>
+    <dcatapop:ckanName>european-soil-database-v2-0-vector-and-attribute-data</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">European soil bureau network</dcat:keyword>
+    <dcat:keyword xml:lang="en">Base de Donnees Geographique des Sols d Eurasie au 1 1 000 000</dcat:keyword>
+    <dcat:keyword xml:lang="en">Land Management</dcat:keyword>
+    <dcat:keyword xml:lang="en">Soil Geographical Database of Eurasia</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">Soils</dcat:keyword>
+    <dcat:keyword xml:lang="en">SGDBE</dcat:keyword>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:identifier>jrc-esdac-1</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5e9f5b58-64a0-4091-8b6f-8b534a1c2930"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/fe875c63-ab2d-4703-8338-d4fbb65d9302"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5e9f5b58-64a0-4091-8b6f-8b534a1c2930">
+    <schema:url>http://data.europa.eu/88u/dataset/jrc-esdac-1</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/jrc-esdac-1</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-1"/>
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4dd85b4b-d47a-4105-aaaa-9f4af3487aab">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-data"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">ESRI ArcSDE (internal to JRC)Applications  ArcIMS Service (external)Maps (on CD-ROM, for EC use only)</dcterms:description>
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">European Soil Database v2.0 (vector and attribute data)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/RESTRICTED">
+    <rdfs:label xml:lang="en">restricted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bc2df6d6-0025-46b3-8998-baf0b92eab42">
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-1</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-1"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/878289f4-2c6f-47bc-b777-e079fd0ccda4">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 12:58:39.305104</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">670</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T15:18:56</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/fe875c63-ab2d-4703-8338-d4fbb65d9302">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+    <vcard:hasEmail rdf:resource="mailto:ec-esdac@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

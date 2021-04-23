@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9392cbb9-d6fb-46dc-8848-790f7ad45c0b">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10088-10009"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-13 12:05:46.120438</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:50:05</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e5b5501d-e15f-4abb-8770-934a03981c20">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e706bb9a-5227-4707-bceb-c7bbf0e98e7c"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-f3-enquiries@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/36538763-4402-4921-bbbc-8ea6e38a62cf">
+    <schema:url>http://data.europa.eu/89h/jrc-10088-10009</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10088-10009</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10088-10009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/da5175b7-fd8c-4ef1-bca9-666eb12bb81b">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/nanomile-hts-heparg-db/LATEST/OtherResources.zip</schema:url>
+    <dcterms:title xml:lang="en">Background Information</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10088-10009"/>
+    <dcterms:description xml:lang="en">The Zip file contains the following elements: (1) investigation.xlsx, a file with metadata of the experiments, assay specific information, the experimental plate layouts and NM characterisation; (2) methods containing the data acquisition codes and the dispertion protocols; (3) RawData.zip and (4) TransformedData.zip, two zip archives with the original and processed data.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10088-10009">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/36538763-4402-4921-bbbc-8ea6e38a62cf"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/da5175b7-fd8c-4ef1-bca9-666eb12bb81b"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-16</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/802ae885-6dae-4e35-bf00-6dc1733bfe5f"/>
+    <dcterms:description xml:lang="en">The large amount of existing nanomaterials demands for rapid and reliable ways to test their potential toxicological effect on human health, preferably by means of relevant in vitro tests in order to reduce testing on animals. Combining high throughput workflows with automated high content imaging techniques allows to derive much more information from cell-based assays than with the typical readouts (i.e. one measurement per well) with optical plate-readers. We present here a dataset including up to 14 different read outs including viable cell count, cell membrane permeability, apoptotic cell death, mitochondrial membrane potential and steatosis of the human hepatoma HepaRG cell line treated with a large set of nanomaterials, coatings and supernatants at different concentrations. The database, given its size, can be utilized for the development of in silico hazard assessment and prediction tools or can be combined with toxicity effect on other in vitro test systems.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-13</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/feb7aa29-9a3a-4dbe-b397-d036fba4b19e"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e5b5501d-e15f-4abb-8770-934a03981c20"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>jrc-10088-10009</dcterms:identifier>
+    <dcatapop:ckanName>jrc-10088-10009</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:title xml:lang="en">HTS DB of Nanomaterials on HepaRGs</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/49c73d82-5601-4925-9a74-147abfbc4581"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/802ae885-6dae-4e35-bf00-6dc1733bfe5f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">NanoMILE HTS HepaRG</dcterms:title>
+    <dcterms:description xml:lang="en">The Excel file contains the original database.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/nanomile-hts-heparg-db/LATEST/DB.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e706bb9a-5227-4707-bceb-c7bbf0e98e7c">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/49c73d82-5601-4925-9a74-147abfbc4581">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10088-10009"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/jrc/en/research-topic/alternatives-animal-testing-and-safety-assessment-chemicals</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/feb7aa29-9a3a-4dbe-b397-d036fba4b19e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">A high throughput imaging database of toxicological effects of nanomaterials tested on HepaRG cells</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10088-10009"/>
+    <schema:url xml:lang="en">https://doi.org/10.1038/s41597-019-0053-2</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">Joossens, E., Macko, P., Palosaari, T., Gerloff, K., Ojea Jimenez, I., Gilliland, D., Novak, J., Fortaner Torrent, S., Gineste, J., Romer, I., Briffa, S., Valsami-Jones, E., Lynch, I. and Whelan, M., A high throughput imaging database of toxicological effects of nanomaterials tested on HepaRG cells, SCIENTIFIC DATA, ISSN 2052-4463 (online), 6 (46), 2019, p. 1-10, JRC114500.</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

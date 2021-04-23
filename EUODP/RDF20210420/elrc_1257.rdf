@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_1257">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9d217bbf-09c1-4bd1-bfdb-5d2d73d48d04"/>
+    <dcterms:description xml:lang="en">This is a parallel corpus of bilingual texts crawled from multilingual websites, which contains 2,840 TUs. &#13;
+Period of crawling : 15/11/2016 - 23/01/2017.&#13;
+A strict validation process was already followed for the source data, which resulted in discarding:&#13;
+- TUs from crawled websites that do not comply to the PSI directive, &#13;
+- TUs with more than 99% of mispelled tokens, &#13;
+- TUs identified during the manual validation process and all the TUs from websites which error rate in the sample extracted for manual validation are strictly above the following thresholds: &#13;
+50% of TUs with language identification errors, &#13;
+50% of TUs with alignment errors, &#13;
+50% of TUs with tokenization errors, &#13;
+20% of TUs identified as machine translated content, &#13;
+50% of TUs with translation errors.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcatapop:ckanName>elrc_1257</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-11</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcterms:identifier>ELRC_1257</dcterms:identifier>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e66c46a1-6866-48f0-bfdb-3b2794015d80"/>
+    <dcterms:title xml:lang="en">Spanish-German website parallel corpus (Processed)</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/07c6aa4b-9b7e-49db-bd87-a635aa0d3e62"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9d217bbf-09c1-4bd1-bfdb-5d2d73d48d04">
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_1257</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_1257</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_1257"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ef74c27d-9148-4864-ab19-97df4d19bb9b">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-11T12:57:52</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:28:45</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_1257"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/07c6aa4b-9b7e-49db-bd87-a635aa0d3e62">
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/spanish-german-website-parallel-corpus-processed/552ec3ba313211e9a4d400155d0267062865c204b7664909b92f968ce897fc50/"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e66c46a1-6866-48f0-bfdb-3b2794015d80">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

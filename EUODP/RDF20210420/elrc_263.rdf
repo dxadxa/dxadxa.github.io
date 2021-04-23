@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d99f9cdc-f152-4112-b9fd-f84a1d7eb78d">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_263"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_263</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_263</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b9964c35-d2d7-4c3b-a8f1-f25b5f54cc13">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">557</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_263"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:47:01</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14 17:05:35.610920</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">661</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_263">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/be65eed8-1ae0-4ebd-a00b-af0d935b6774"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d99f9cdc-f152-4112-b9fd-f84a1d7eb78d"/>
+    <dcterms:description xml:lang="en">Parallel Global Voices EL-ES is a parallel corpus generated from the Global Voices multilingual group of websites (http://globalvoices.org/), where volunteers publish and translate news stories in more than 40 languages. The original content from the Global Voices websites is available by the authors and publishers under a Creative Commons Attribution license. The original content was crawled in 2015-2016 and web documents were exported to XML by researchers at the Institute for Language and Speech Processing (http://www.ilsp.gr/). Crawled documents that were translations of each other were paired on the basis of their link information. After document pairing, sentence alignments were generated with the hunalign sentence aligner. This dataset contains one tmx file with alignments from 3161 el-es document pairs.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ELL"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-14 17:05:35.610920</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-14 10:47:57.320002</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcterms:title xml:lang="en">Parallel Global Voices (Greek - Spanish)</dcterms:title>
+    <dcatapop:ckanName>elrc_263</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcterms:identifier>ELRC_263</dcterms:identifier>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/be65eed8-1ae0-4ebd-a00b-af0d935b6774">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

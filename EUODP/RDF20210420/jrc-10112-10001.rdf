@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/21b03b99-d2e8-413b-af6b-ba9b064431e7">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">https://mars.jrc.ec.europa.eu/asap/download.php</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10001"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5489fa62-214a-4f66-b944-cb49e6ff0735">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10001"/>
+    <dcterms:description xml:lang="en">Rembold, F., Meroni, M., Urbano, F., Csak, G., Kerdiles, H., Perez Hoyos, A., Lemoine, G., Leo, O. and Negre, T., ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis, AGRICULTURAL SYSTEMS, ISSN 0308-521X, 168, 2019, p. 247-257, JRC109950.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.agsy.2018.07.002</schema:url>
+    <dcterms:title xml:lang="en">ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/df1642f0-8d4e-42f3-b69f-c38513b6e048">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/06d035d6-6987-4a04-b75d-c598143348da">
+    <dcterms:description xml:lang="en">The compressed zip file contains a csv with the historical time series of warnings at sub-national level</dcterms:description>
+    <dcterms:title xml:lang="en">CSV File</dcterms:title>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/warnings_ts.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9b3a3a92-1c09-4244-90db-fc02cda5060f">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11 15:23:42.765514</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:58:57</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10001"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10112-10001">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-30</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">Ten-daily automatic warnings about agricultural vegetation anomalies</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/42c151f9-4ab2-4597-85d0-4ae4e5e90c4b"/>
+    <dcterms:identifier>jrc-10112-10001</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/21b03b99-d2e8-413b-af6b-ba9b064431e7"/>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/06d035d6-6987-4a04-b75d-c598143348da"/>
+    <dcatapop:ckanName>jrc-10112-10001</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ae750361-d0a6-4ef8-a080-a26d69f6c68b"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5489fa62-214a-4f66-b944-cb49e6ff0735"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">The dataset contains warnings about low or delayed vegetation performance at sub-national level for crops and rangelands. The warning classification scheme is applied globally and is based on rainfall estimates (RFE) and NDVI anomalies. The results are a reliable warning of hydrological stress for agricultural production and the warning level ranges from 1 to 4.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ae750361-d0a6-4ef8-a080-a26d69f6c68b">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10001"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-10112-10001</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10112-10001</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/42c151f9-4ab2-4597-85d0-4ae4e5e90c4b">
+    <vcard:hasEmail rdf:resource="jrc-asap@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/df1642f0-8d4e-42f3-b69f-c38513b6e048"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

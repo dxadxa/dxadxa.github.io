@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/6ae78aa3-5aee-4e12-b43d-a401f18b0d86">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/19739f8a-f047-4220-975d-dc64233ab6db"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/a9e1f8c1-d952-45c4-851b-c441390bdf8b"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/7340a209-8dbf-4863-8ea2-54a4b04ba3c1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c219ceb8-54ad-43c6-b3b0-11d1ba1cb705">
+    <dcterms:title xml:lang="en">EEA potential flood-prone area extent, Jan. 2020 - INSPIRE Metadata</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/28c36420-c31b-440e-80c5-8064696f3517"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eea-potential-flood-prone-area-extent">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-31T09:03:11Z</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/05f6b5c7-2ba9-4104-b64e-328d21eca13b"/>
+    <dcat:keyword>flood prone</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c219ceb8-54ad-43c6-b3b0-11d1ba1cb705"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/597"/>
+    <dcterms:description xml:lang="en">The EEA potential flood prone area extent delineates the area that is flooded once every 100 years, i.e. the probability of flooding is 1% assuming that flooding is unrestricted. The potential flood prone area is comprised of the river channel and floodplain. In reality, the floodplain is split into an active floodplain where flooding still occurs, and former floodplain where flooding is restricted due to flood protection. The former floodplain could be flooded again either if a flood exceeds the capacity of flood protection, or if factors that control the presence of water were removed. These factors include channel and floodplain morphological alterations as well as structural flood protection measures.
+The spatial coverage of the data set is EEA39 countries.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/6ae78aa3-5aee-4e12-b43d-a401f18b0d86"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:keyword>flood probability</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-31T09:03:11Z</dcterms:modified>
+    <dcterms:identifier>DAT-231-en</dcterms:identifier>
+    <dcterms:title xml:lang="en">[DEPRECATED] EEA potential flood-prone area extent</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/53f05924-0c9e-4ee3-934b-d7baf5565c90"/>
+    <dcat:keyword>potential flood</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/05f6b5c7-2ba9-4104-b64e-328d21eca13b">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">EEA potential flood-prone area extent, Jan. 2020</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/eea-potential-flood-prone-area-extent/eea-potential-flood-prone-area-extent/eea-potential-flood-prone-area-1/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/a9e1f8c1-d952-45c4-851b-c441390bdf8b">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/99542080-4672-4f8f-b1d0-d5465f556622">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eea-potential-flood-prone-area-extent"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">330</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:25:25</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:25:25</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/19739f8a-f047-4220-975d-dc64233ab6db">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/53f05924-0c9e-4ee3-934b-d7baf5565c90">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eea-potential-flood-prone-area-extent"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/eea-potential-flood-prone-area-extent</schema:url>
+    <dcterms:title xml:lang="en">[DEPRECATED] EEA potential flood-prone area extent</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

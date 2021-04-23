@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ca8cd279-3a00-4d0f-889b-c01dbe7c1976">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/lfso_04oncwisna.tsv.gz&amp;unzip=true"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/af33f7df-4051-4c54-9e2e-eb77f0545dec">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/lfso_04oncwisna.tsv.gz"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5e531826-bb1c-4f10-88cc-660938c7a0e1">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/lfso_04_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/uyvnZnJbel0CddD13YAoA"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d3069706-6495-49c0-854c-037c99bafa74">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:14:08</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 13:04:01.385291</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/uyvnZnJbel0CddD13YAoA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/uyvnZnJbel0CddD13YAoA">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ca8cd279-3a00-4d0f-889b-c01dbe7c1976"/>
+    <dcterms:identifier>lfso_04oncwisna</dcterms:identifier>
+    <dcterms:title xml:lang="en">Number of employees working on call by sex, age, occupation and economic activity</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-10</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/af33f7df-4051-4c54-9e2e-eb77f0545dec"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/cc6fe074-9236-4d7e-a81d-7df635a6f5dd"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1802"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/e6624c18-159d-4572-b01b-e050d8069d49"/>
+    <dcatapop:ckanName>uyvnZnJbel0CddD13YAoA</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="de">Zahl der abhängig Beschäftigten mit Arbeit auf Abruf, nach Geschlecht, Alter, Beruf und Wirtschaftszweigen</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:title xml:lang="fr">Nombre de salariés travaillant sur appel, par sexe, âge, profession et activité économique</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/52deb815-80cb-4ed5-9c26-38b10c30c960"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5e531826-bb1c-4f10-88cc-660938c7a0e1"/>
+    <dcterms:description xml:lang="en">Number of employees working on call by sex, age, occupation and economic activity</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d07b9690-cebb-4b54-b607-e982034a592c"/>
+    <dcterms:description xml:lang="fr">Nombre de salariés travaillant sur appel, par sexe, âge, profession et activité économique</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7e3b0084-5b73-44a0-9674-fe0da3188f21"/>
+    <dcterms:title xml:lang="de">Zahl der abhängig Beschäftigten mit Arbeit auf Abruf, nach Geschlecht, Alter, Beruf und Wirtschaftszweigen</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d4aa8317-728b-4ed0-a0a2-beb5d5a67667"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/52deb815-80cb-4ed5-9c26-38b10c30c960">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/lfso_04oncwisna.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/315b8b7c-ace6-4d13-bf0e-83ba8ebe15ac">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7e3b0084-5b73-44a0-9674-fe0da3188f21">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/lfso_04oncwisna</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/uyvnZnJbel0CddD13YAoA"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cc6fe074-9236-4d7e-a81d-7df635a6f5dd">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/lfso_04_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/uyvnZnJbel0CddD13YAoA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/4efb80af-add0-45a4-b81b-a5d88cc63838">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d4aa8317-728b-4ed0-a0a2-beb5d5a67667">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/4efb80af-add0-45a4-b81b-a5d88cc63838"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/1c3b58f2-33e4-446d-98b8-3b33f60e1f33"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/315b8b7c-ace6-4d13-bf0e-83ba8ebe15ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d07b9690-cebb-4b54-b607-e982034a592c">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/uyvnZnJbel0CddD13YAoA"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/lfso_04oncwisna</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/lfso_04oncwisna</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/1c3b58f2-33e4-446d-98b8-3b33f60e1f33">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/e6624c18-159d-4572-b01b-e050d8069d49">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</schema:endDate>
+  </rdf:Description>
+</rdf:RDF>

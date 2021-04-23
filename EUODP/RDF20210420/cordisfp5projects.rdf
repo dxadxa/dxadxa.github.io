@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/cordisfp5projects">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/603af8d9-3fdc-4d1a-80e5-ce7644aae10f"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-08-03 08:47:25.822830</dcterms:issued>
+    <dcterms:title xml:lang="en">CORDIS - EU research projects under FP5 (1998-2002)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcat:keyword xml:lang="en">FP5</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">research and innovation</dcat:keyword>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7e4fd319-241e-4310-badf-553f2b05d61e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7e26202f-0361-4d93-a06e-3557168cac4f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8454"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2801"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3656"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/8368c037-12ad-4280-ad69-9ffdb4314a1f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ceba8f0b-a8e8-4697-ac3a-46a00a614afe"/>
+    <dcterms:alternative xml:lang="en">FP5 research projects</dcterms:alternative>
+    <dcatapop:ckanName>cordisfp5projects</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/068e50a6-704a-4248-8cc3-77c155d4a3f6"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/NEVER"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-14 09:37:19.964950</dcterms:modified>
+    <dcterms:description xml:lang="en">This dataset contains all projects funded by the European Union under the fifth framework programme for research and technological development (FP5) from 1998 to 2002.&#13;
+&#13;
+The file 'FP5 Projects' contains the public grant information for each project, including the following information: Record Control Number (RCN), project ID (grant agreement number), project acronym, project status, funding programme, topic, project title, project start date, project end date, project objective, project total cost, EC max contribution (commitment), call ID, funding scheme (type of action), coordinator, coordinator country, participants (ordered in a semi-colon separated list), participant countries (ordered in a semi-colon separated list).&#13;
+&#13;
+The participating organisations are listed in the file 'FP5 Organisations' which includes: project Record Control Number (RCN), project ID, project acronym, organisation role, organisation ID, organisation name, organisation short name, organisation type, participation ended (true/false), EC contribution, organisation country.&#13;
+&#13;
+**The dataset has been updated to match the structure of more recent datasets - some fields may not be populated.**&#13;
+&#13;
+Reference data (countries, funding schemes/types of action, subjects (SIC codes)) can be found in this dataset: https://data.europa.eu/euodp/en/data/dataset/cordisref-data</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1878c6a5-e24b-4849-a731-f23689a2654c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ceba8f0b-a8e8-4697-ac3a-46a00a614afe">
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP5/cordis-fp5projects.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:title xml:lang="en">FP5 Projects</dcterms:title>
+    <dcterms:description xml:lang="en">FP5 Projects</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8368c037-12ad-4280-ad69-9ffdb4314a1f">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>https://cordis.europa.eu/guidance/archive_en.html</schema:url>
+    <dcterms:title xml:lang="en">title_https://cordis.europa.eu/guidance/archive_en.html</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/603af8d9-3fdc-4d1a-80e5-ce7644aae10f">
+    <vcard:hasEmail rdf:resource="cordis@publications.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/786fdf28-2b7b-4e97-90ee-3f07c5804190"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/4436c263-1e57-4862-b5d1-425dd1f3d65a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/068e50a6-704a-4248-8cc3-77c155d4a3f6">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">FP5 Organisations</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP5/cordis-fp5organizations.xlsx"/>
+    <dcterms:description xml:lang="en">List of participating organisations including project Record Control Number (RCN), project ID, project acronym, organisation role, organisation name, organisation short name, organisation type, organisation country</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/786fdf28-2b7b-4e97-90ee-3f07c5804190">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352292942210"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7e4fd319-241e-4310-badf-553f2b05d61e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:description xml:lang="en">FP5 Projects</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">FP5 Projects</dcterms:title>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP5/cordis-fp5projects.csv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4436c263-1e57-4862-b5d1-425dd1f3d65a">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>https://cordis.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1878c6a5-e24b-4849-a731-f23689a2654c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP5/cordis-fp5projects-xml.zip"/>
+    <dcterms:description xml:lang="en">FP5 Projects (individual XML files)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">FP5 Projects (individual XML files)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f7f5733d-18e5-4a1e-a9dc-049cbc56edaf">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3997</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03 08:47:25.822830</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-02-01T13:07:40</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/cordisfp5projects"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4091</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7e26202f-0361-4d93-a06e-3557168cac4f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:description xml:lang="en">List of participating organisations including project Record Control Number (RCN), project ID, project acronym, organisation role, organisation name, organisation short name, organisation type, organisation country</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">FP5 Organisations</dcterms:title>
+    <dcat:accessURL rdf:resource="https://cordis.europa.eu/data/FP5/cordis-fp5organizations.csv"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="period_of_time-943c372b-5d93-43a8-86ee-7362cf180ecf">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-01-01T00:00:00</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-01-01T00:00:00</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-630edc3f-fa53-440a-bf22-636bf6725322887b8bfe-3b27-469f-8aee-e5a49c783e87">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/d16bf4d3-fb40-4a6d-8714-145c42f88c51">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3ae47793-5f3e-4ee7-9e4c-813a3c72ad51">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/d16bf4d3-fb40-4a6d-8714-145c42f88c51"/>
+    <vcard:hasTelephone rdf:resource="telephone-630edc3f-fa53-440a-bf22-636bf6725322887b8bfe-3b27-469f-8aee-e5a49c783e87"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c48e3bb9-24e0-485d-b4f9-e38c7b970318"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/740800c1-4d28-4dc4-a3be-3e7b32a3c6cf">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/trng_cvts3_21</schema:url>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/t6CxgItnlIePfkBql1EFWg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f8c93d84-bae7-4cfd-af2f-1965999ac7f7">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/trng_cvts3_21</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/trng_cvts3_21</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/t6CxgItnlIePfkBql1EFWg">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:temporal rdf:resource="period_of_time-943c372b-5d93-43a8-86ee-7362cf180ecf"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5905"/>
+    <dcterms:description xml:lang="fr">Pourcentage des heures totales dans les cours de formation professionnelle continue, par type de cours et classe de taille</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="de">Gesamtstunden in Weiterbildungskursen nach Kurstyp und Größenklasse (%)</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3ae47793-5f3e-4ee7-9e4c-813a3c72ad51"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:11:36.307783</dcterms:issued>
+    <dcatapop:ckanName>t6CxgItnlIePfkBql1EFWg</dcatapop:ckanName>
+    <dcterms:title xml:lang="de">% ausbildender Unternehmen, die Fremdberatung nutzen, nach NACE Rev. 1.1</dcterms:title>
+    <dcterms:identifier>trng_cvts3_21</dcterms:identifier>
+    <owl:versionInfo>None</owl:versionInfo>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Percentage of training enterprises making use of an External advisory service by NACE Rev. 1.1</dcterms:title>
+    <dcterms:title xml:lang="fr">Pourcentage d'entreprises «formatrices» faisant appel à un service de conseil externe, selon la NACE Rév. 1.1</dcterms:title>
+    <dcterms:modified>2018-08-30 12:50:34.818946</dcterms:modified>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1074"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">The product has been discontinued since: 12 Feb 2018.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/740800c1-4d28-4dc4-a3be-3e7b32a3c6cf"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/f8c93d84-bae7-4cfd-af2f-1965999ac7f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c48e3bb9-24e0-485d-b4f9-e38c7b970318">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/c48e3bb9-24e0-485d-b4f9-e38c7b970318</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c0e4e153-7db0-4ddd-855b-9fe97066ea7c">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:11:36.307783</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30 12:50:34.818946</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">542</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/t6CxgItnlIePfkBql1EFWg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509</dcatapop:numberOfDownloads>
+  </rdf:Description>
+</rdf:RDF>

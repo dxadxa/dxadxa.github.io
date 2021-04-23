@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/04d96977-c9ac-4ef4-84ca-ce1e3ff8a829">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10008"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-09 05:23:23.427860</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:37:44</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4098ff24-4aa4-440c-9387-f15cf0fbcd68">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis</dcterms:title>
+    <dcterms:description xml:lang="en">Rembold, F., Meroni, M., Urbano, F., Csak, G., Kerdiles, H., Perez Hoyos, A., Lemoine, G., Leo, O. and Negre, T., ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis, AGRICULTURAL SYSTEMS, ISSN 0308-521X, 168, 2019, p. 247-257, JRC109950.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.agsy.2018.07.002</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10008"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cef381f2-172f-4e02-875a-615aea421d80">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c2a14593-862c-401c-96eb-f5e2f64d7086">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10008"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://mars.jrc.ec.europa.eu/asap/download.php</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9e1cc7f6-e269-40cb-8dcd-ea83cd10f2c1">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">The tiff file contains the number of growing season (i.e. one or two) per year for each pixel.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Number of seasons</dcterms:title>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/phenonseasons_v02.tif"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c28b343e-9858-4360-a332-8c37b5b5f981">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10112-10008</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10008"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-10112-10008</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10112-10008">
+    <dcatapop:ckanName>jrc-10112-10008</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c2a14593-862c-401c-96eb-f5e2f64d7086"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9e1cc7f6-e269-40cb-8dcd-ea83cd10f2c1"/>
+    <dcterms:title xml:lang="en">Global land surface phenology - Number of growing seasons</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">The satellite- derived phenology is computed on the long-term average of 10-day MODIS NDVI data produced by BOKU University starting from MOD13A2 and MYD13A2 V006 16-DAY Global data at 1 km resolution. Phenology was extracted using the SPIRITS software applied to the historical average of the smoothed NDVI over the period 2003-2016. For each pixel, the number of growing season per year (i.e. one or two) is retrieved.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-26</dcterms:issued>
+    <dcterms:identifier>jrc-10112-10008</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5846258a-baa0-4324-889f-eaaf1443a08f"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4098ff24-4aa4-440c-9387-f15cf0fbcd68"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c28b343e-9858-4360-a332-8c37b5b5f981"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5846258a-baa0-4324-889f-eaaf1443a08f">
+    <vcard:hasEmail rdf:resource="jrc-asap@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/cef381f2-172f-4e02-875a-615aea421d80"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+</rdf:RDF>

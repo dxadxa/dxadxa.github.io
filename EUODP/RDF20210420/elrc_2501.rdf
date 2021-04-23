@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/933d5041-b89b-4cbe-8588-ba04192b9ddc">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_2501</dcterms:title>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_2501</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_2501"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_2501">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/933d5041-b89b-4cbe-8588-ba04192b9ddc"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcterms:identifier>ELRC_2501</dcterms:identifier>
+    <dcatapop:ckanName>elrc_2501</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-03</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">French Monolingual legal corpus from Official Journal of France as collected from https://www.legifrance.gouv.fr/ web site
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8c02f05f-e0b5-4f82-bf2c-e39279dc9f33"/>
+    <dcterms:title xml:lang="en">French Monolingual legal corpus from Official Journal of France</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6762e306-8eab-4f41-b302-178ae263fb62"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/927e7c9e-dc86-4e95-8cb6-99ba65219951">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_2501"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-11T13:00:49</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:48:06</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6762e306-8eab-4f41-b302-178ae263fb62">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: Plain text</dcterms:description>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: Plain text</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/french-monolingual-legal-corpus-from-official-journal-of-france/c04ef9c0ce3111e9913100155d0267062d17f77108f34e28859ec065da277584/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8c02f05f-e0b5-4f82-bf2c-e39279dc9f33">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

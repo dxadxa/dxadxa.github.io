@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8a7067cb-d2cf-4c2e-8a2e-bc8d623e0af9">
+    <schema:url>http://data.europa.eu/89h/b8136d6d-6088-4773-aca9-bc1995db3c68</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/b8136d6d-6088-4773-aca9-bc1995db3c68"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/b8136d6d-6088-4773-aca9-bc1995db3c68</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3e810268-26bc-4f1f-867c-c43c5e2c2e68">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:10:03</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:10:03</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/b8136d6d-6088-4773-aca9-bc1995db3c68"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/b8136d6d-6088-4773-aca9-bc1995db3c68">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/92f15d40-9b01-4ec8-b57f-9ea54115b12f"/>
+    <dcatapop:ckanName>b8136d6d-6088-4773-aca9-bc1995db3c68</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/99569aae-94da-4397-b675-d711e8f285b7"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/8a7067cb-d2cf-4c2e-8a2e-bc8d623e0af9"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/66ca59e5-7dd2-4e16-a618-ee54612f9b55"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:description xml:lang="en">This dataset is derived from the state-of-the-art global daily streamflow reanalysis GloFAS Reanalysis v3.0 at 0.1° resolution. River floods occurred in all major world rivers in 1980-2018 are selected using a peak over threshold routine. The set of flood peaks is then analyzed to identify the seasonality of floods, including the start, peak and end of the flood events, assuming the 1 in 2 year event as flood threshold.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:identifier>b8136d6d-6088-4773-aca9-bc1995db3c68</dcterms:identifier>
+    <dcterms:title xml:lang="en">Flood seasonality</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-13</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/99569aae-94da-4397-b675-d711e8f285b7">
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS-RA/flood_seasonality/LATEST/nc_files.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Global statistics on flood seasonality</dcterms:title>
+    <dcterms:description xml:lang="en">The dataset includes statistics on the seasonality of floods, as simulated by the GloFAS Reanalysis v3.0 for 1980-2018. Available data include:
+1) monthly percent occurrence of the start, peak and end of flood events;
+2) month with the largest percent occurrence of flood start, peak and end;
+3) mean day of the year of the start, peak and end of floods.
+The dataset is complemented with raster maps of the flow drainage direction (ldd.nc) and of the upstream area of each grid cell (upArea.nc)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/92f15d40-9b01-4ec8-b57f-9ea54115b12f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS-RA/flood_seasonality/LATEST/nc_files.zip</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/b8136d6d-6088-4773-aca9-bc1995db3c68"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/66ca59e5-7dd2-4e16-a618-ee54612f9b55">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_339">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5de1a0aa-6d7b-4ff6-9bdb-d29fe491a7a2"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-14 17:04:14.936849</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/661bfe76-4000-41fa-9751-7e6f3651fd44"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcterms:description xml:lang="en">This is a parallel corpus of bilingual texts crawled from multilingual websites, which contains 21,007 TUs. &#13;
+Period of crawling : 15/11/2016 - 23/01/2017 &#13;
+A strict validation process has been followed, which resulted in discarding:&#13;
+- TUs from crawled websites that do not comply to the PSI directive, &#13;
+- TUs with more than 99% of mispelled tokens, &#13;
+- TUs identified during the manual validation process and all the TUs from websites which error rate in the sample extracted for manual validation is strictly above the following thresholds: &#13;
+50% of TUs with language identification errors, &#13;
+50% of TUs with alignment errors, &#13;
+50% of TUs with tokenization errors, &#13;
+20% of TUs identified as machine translated content, &#13;
+50% of TUs with translation errors.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcatapop:ckanName>elrc_339</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/22e1afe3-47a8-4e5b-a184-96b56014c1cb"/>
+    <dcterms:identifier>ELRC_339</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcterms:title xml:lang="en">Spanish-English website parallel corpus</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-14 10:22:38.264976</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/fae14a39-aa84-4b76-b6a3-fb7f4059cd42">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_339"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3291</dcatapop:numberOfViews>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14 17:04:14.936849</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:29:57</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/661bfe76-4000-41fa-9751-7e6f3651fd44">
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: application/x-tmx+xml</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:issued xml:lang="en">2017-12-18 16:42:50.570247</dcterms:issued>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/spanish-english-website-parallel-corpus/0cb6cd0d13f811e7bfe700155d0205023170d9220cae4b2b8331fb9bdc7a4fa3/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: application/x-tmx+xml</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5de1a0aa-6d7b-4ff6-9bdb-d29fe491a7a2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_339</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_339"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_339</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/22e1afe3-47a8-4e5b-a184-96b56014c1cb">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ad08b400-21c3-4eee-98d9-f1c70437ebc7">
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/esd</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_esd"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Effort Sharing Decision (ESD)</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/02a5d778-6f3e-4f5a-ba51-f8978040008c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/244e0a4c-aa2c-4722-8ec8-2f498f3cc6f7">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">GHG_ESD.xlsx</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/esd/esd.xlsx/ghg_exd.xlsx/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_esd">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>DAT-170-en</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcterms:description xml:lang="en">The Effort Sharing Decision (ESD) No 406/2009/EC establishes binding annual greenhouse gas emission targets for Member States for the period 2013–2020. These targets concern emissions from most sectors not included in the EU Emissions Trading System (EU ETS), such as transport, buildings, agriculture and waste. The ESD introduced an annual compliance cycle requiring a review of Member States’ greenhouse gas inventories. 
+The EEA supports the annual reviews of Member States' greenhouse gas emission inventories to ensure that the European Commission has accurate, reliable and verified information on annual greenhouse gas in order to determine compliance with the ESD targets.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/244e0a4c-aa2c-4722-8ec8-2f498f3cc6f7"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6011"/>
+    <dcat:keyword>emissions</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:keyword>greenhouse gases</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>climate</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ad08b400-21c3-4eee-98d9-f1c70437ebc7"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c3b85d15-f9c7-4535-96c7-fdfe3d600301"/>
+    <dcat:keyword>eu 2020 targets</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-12T14:54:36Z</dcterms:modified>
+    <dcat:keyword>effort sharing decision</dcat:keyword>
+    <dcterms:title xml:lang="en">[DEPRECATED] Effort Sharing Decision (ESD)</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-02T08:40:00Z</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c3b85d15-f9c7-4535-96c7-fdfe3d600301">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/02a5d778-6f3e-4f5a-ba51-f8978040008c"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/dd2cccad-4a84-4fa4-a18d-ebfc6c79c0fb"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/d21822da-061e-4c81-a81d-15061c9a7bf3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/d21822da-061e-4c81-a81d-15061c9a7bf3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/99a89689-cc85-466b-8b71-1e9c8c2f51fc">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_esd"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:38:27</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:38:27</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1631</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1827</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

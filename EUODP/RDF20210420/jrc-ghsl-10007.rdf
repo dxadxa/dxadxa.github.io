@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/083f123f-3bb6-45e9-956a-f28a1cc22afa">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-ghsl-10007">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/569f9db9-2646-435d-9046-2ea41fc575bf"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/df439785-3754-4d65-a2bb-8ff3bcd72832"/>
+    <dcterms:title xml:lang="en">GHS-BUILT R2018A - GHS built-up grid, derived from Landsat, multitemporal (1975-1990-2000-2014)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:keyword xml:lang="en">Regions and cities</dcat:keyword>
+    <dcterms:description xml:lang="en">Multi-temporal information layer on the presence of built-up surfaces derived from global Landsat satellite data collected from 1975 to 2014, at the native spatial resolution varying from 80 meters (Landsat MSS sensor), 30 meters (Landsat TM sensor), and 15/30 meters (Landsat ETM sensor). The image data collections  were prepared by the Global Land Survey (GLS1975, GLS1990, GLS2000) and by the JRC (Landsat 8 collection for 2014). The data was processed by fully automatic and reproducible methods based on statistical learning (Symbolic Machine Learning). No manual or ad-hoc rule-based editing of the results was applied in the post-processing. The product it is provided with a spatial resolution of 30 meters.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/99154e04-a6cc-46ab-9c17-95f8cc37c585"/>
+    <dcatapop:ckanName>jrc-ghsl-10007</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-18</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:identifier>jrc-ghsl-10007</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f6d3d218-d6ed-4670-85d0-76edc4df7b78"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a989af63-32c0-4b71-9f8c-47bbeb7076d6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f6d3d218-d6ed-4670-85d0-76edc4df7b78">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://ghsl.jrc.ec.europa.eu/</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10007"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/df439785-3754-4d65-a2bb-8ff3bcd72832">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">GHS_BUILT_LDSMT_GLOBE_R2018A</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_BUILT_LDSMT_GLOBE_R2018A/"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">The data are organised in several datasets. 
+The main product (GHS_BUILT_LDSMT_GLOBE_R2018A_3857_30) is a multitemporal built-up grid (built-up classes: 1975, 1990, 2000, 2014 epoch), which has been produced at high resolution (30m).  Multi-temporal built-up area classification map: 0 = no data; 1 = water surface; 2 = land no built-up in any epoch; 3 = built-up from 2000 to 2014 epochs; 4 = built-up from 1990 to 2000 epochs; 5 = built-up from 1975 to 1990 epochs; 6 = built-up up to 1975 epoch. Data organisation: VRT file (with GeoTIFF tiles) or GeoTIFF files; pyramids ArcGIS users of the 30-m product: *ESRI.vrt.file. Resolution: 30m. Projection: Spherical Mercator (EPSG:3857).
+The 30m grid has been used to derive additional layers per each epoch, offered at middle and low resolution (250m in Mollweide and 1km in Mollweide). 
+Each dataset is distributed in a compressed ZIP, that contains TIF file with pyramids and documentation.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4036fa1f-bcb8-473d-aa36-3a131d99a01d">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:43:11</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10007"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">751</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">874</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-30 05:20:19.047901</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/569f9db9-2646-435d-9046-2ea41fc575bf">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.3390/rs8050399</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">Pesaresi M; Syrris V; Julea A. A New Method for Earth Observation Data Analytics Based on Symbolic Machine Learning. REMOTE SENSING 8 (5); 2016. p. 399. JRC99747</dcterms:description>
+    <dcterms:title xml:lang="en">A New Method for Earth Observation Data Analytics Based on Symbolic Machine Learning</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a989af63-32c0-4b71-9f8c-47bbeb7076d6">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/083f123f-3bb6-45e9-956a-f28a1cc22afa"/>
+    <vcard:hasEmail rdf:resource="jrc-ghsl-data@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/99154e04-a6cc-46ab-9c17-95f8cc37c585">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10007"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-ghsl-10007</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-ghsl-10007</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

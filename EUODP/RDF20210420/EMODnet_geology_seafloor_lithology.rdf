@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b0929185-a72b-42c0-8fc5-267a52a5459e">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">The map consists of a layer selection and configuration menu to the left. Browse through available groups and layers. When a layer is selected, additional tools and information will automatically appear below the layer title. If using PC or Mac, layers and layer groups can be rearranged by dragging their title along the y-axis. Legends and metadata can be copied to the upper right of the map by using the buttons below the entries.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">EMODnet Geology map viewer</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://www.emodnet-geology.eu/map-viewer/"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:15:57.182343</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:accessURL rdf:resource="http://www.emodnet-geology.eu/map-viewer/"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c9e8fc46-cc9e-494f-aaee-e23dbf94b188">
+    <dcat:downloadURL rdf:resource="http://drive.emodnet-geology.eu/geoserver/EMODnetGeology/ows?SERVICE=WMS&amp;request=GetMap&amp;version=1.1.1&amp;layers=seafloor_lithology&amp;format=image/png&amp;info_format=text/html&amp;tiled=false&amp;width=900&amp;height=750&amp;srs=EPSG:4326&amp;bbox=-36.0,25.000003840000034,42.999994943999965,85.0"/>
+    <dcterms:title xml:lang="en">Web Map Service (WMS)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:15:57.182353</dcterms:issued>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PNG"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://drive.emodnet-geology.eu/geoserver/EMODnetGeology/ows?SERVICE=WMS&amp;request=GetMap&amp;version=1.1.1&amp;layers=seafloor_lithology&amp;format=image/png&amp;info_format=text/html&amp;tiled=false&amp;width=900&amp;height=750&amp;srs=EPSG:4326&amp;bbox=-36.0,25.000003840000034,42.999994943999965,85.0"/>
+    <dcterms:description xml:lang="en">Web Map Service (WMS) of the EMODnet Geology portal</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/EMODnet_geology_seafloor_lithology">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcat:keyword xml:lang="en">lithology</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2107"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <dcat:keyword xml:lang="en">bedrock</dcat:keyword>
+    <dcat:keyword xml:lang="en">geology</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/449b0ade-bab7-40e2-87b8-67882a080456"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 10:15:56.485261</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/fe18f4cd-2a26-4bf8-83ed-ca80b59d73c4"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LVA"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c9e8fc46-cc9e-494f-aaee-e23dbf94b188"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+    <dcterms:title xml:lang="en">EMODnet sea-floor lithology</dcterms:title>
+    <dcatapop:ckanName>EMODnet_geology_seafloor_lithology</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CYP"/>
+    <dcterms:modified>2018-08-29 08:08:48.276170</dcterms:modified>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ROU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcat:keyword xml:lang="en">sediment</dcat:keyword>
+    <dcterms:alternative xml:lang="en"> Map of the lithology of the marine bedrock of the European marine areas</dcterms:alternative>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/940"/>
+    <dcterms:description xml:lang="en">This map was derived and compiled from many larger scale data sources and has thus been generalized. It represents the lithology of marine bedrock of the IGME 5000 GIS and database at the time of plotting. The geological feature types are transferred after the OneGeology-Europe requirements, especially lithology was mapped into 1GE_Lithology. The download package contains all data used for the four layers under “Sea-floor (bedrock)” on the map page.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcat:keyword xml:lang="en">seabed</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/582b498f-b9bb-4b4f-b2c9-fd9850840a32"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1151"/>
+    <owl:versionInfo></owl:versionInfo>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EST"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cb8aa3f5-96b5-4c4d-8af4-6ea1e0a1695c"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/MAPPING"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b0929185-a72b-42c0-8fc5-267a52a5459e"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcat:keyword xml:lang="en">European marine areas</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a1813164-b1b0-4e8e-b5ce-8e7051579d77"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/be38015d-1045-40cb-b68a-3018a5003155"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:identifier>0ba7aed9005e21b1f877525254089e0688fecb4f</dcterms:identifier>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/be38015d-1045-40cb-b68a-3018a5003155">
+    <dcat:accessURL rdf:resource="http://drive.emodnet-geology.eu/geoserver/EMODnetGeology/wfs?SERVICE=WFS&amp;VERSION=1.0.0&amp;request=GetFeature&amp;typeName=EMODnetGeology:seafloor_lithology&amp;OUTPUTFORMAT=application/json&amp;bbox=-1.3,0.3,49.2,49.9"/>
+    <dcterms:title xml:lang="en">Web Feature Service (WFS)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://drive.emodnet-geology.eu/geoserver/EMODnetGeology/wfs?SERVICE=WFS&amp;VERSION=1.0.0&amp;request=GetFeature&amp;typeName=EMODnetGeology:seafloor_lithology&amp;OUTPUTFORMAT=application/json&amp;bbox=-1.3,0.3,49.2,49.9"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:15:57.182348</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">Web Feature Service (WFS) of the EMODnet Geology portal. Maximum number of features per request might be limited.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/582b498f-b9bb-4b4f-b2c9-fd9850840a32">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://egdi.geology.cz/records/0ba7aed9005e21b1f877525254089e0688fecb4f?format=application/xml</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_https://egdi.geology.cz/records/0ba7aed9005e21b1f877525254089e0688fecb4f?format=application/xml</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cb8aa3f5-96b5-4c4d-8af4-6ea1e0a1695c">
+    <dcterms:description xml:lang="en">Data product download service of the EMODnet Geology portal</dcterms:description>
+    <dcterms:title xml:lang="en">Download (ESRI shapefile)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:15:57.182319</dcterms:issued>
+    <dcat:downloadURL rdf:resource="https://www.emodnet-geology.eu/data-products/sea-floor-download/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://www.emodnet-geology.eu/data-products/sea-floor-download/"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fe18f4cd-2a26-4bf8-83ed-ca80b59d73c4">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">EMODnet Geology data portal</dcterms:title>
+    <dcterms:description xml:lang="en">EMODnet Geology brings together harmonised offshore data including sea-floor geology, seabed substrates, rates of coastline migration, geological events and probabilities and mineral resources.</dcterms:description>
+    <schema:url>http://www.emodnet-geology.eu/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_geology_seafloor_lithology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c29bdb06-53c5-46a4-898b-c1e8cd22f05b">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/c29bdb06-53c5-46a4-898b-c1e8cd22f05b</dcterms:title>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">https://www.bgr.bund.de/EN/Home/homepage_node_en.html</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/449b0ade-bab7-40e2-87b8-67882a080456">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:description xml:lang="en">Metadata record of the dataset</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_geology_seafloor_lithology"/>
+    <schema:url>https://egdi.geology.cz/records/0ba7aed9005e21b1f877525254089e0688fecb4f</schema:url>
+    <dcterms:title xml:lang="en">Metadata record</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/c4ec6461-188f-4b17-a9df-3a0cc9151acc">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">BGR Geodatendienste - Stilleweg 2, Hannover, 30655, Germany</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9d696f24-3e71-4cdc-8094-51454930bb73">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-29 08:08:48.276170</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_geology_seafloor_lithology"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">719</dcatapop:numberOfDownloads>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 10:15:56.485261</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a1813164-b1b0-4e8e-b5ce-8e7051579d77">
+    <vcard:hasEmail rdf:resource="geodatenmanagement@bgr.de"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/c4ec6461-188f-4b17-a9df-3a0cc9151acc"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c29bdb06-53c5-46a4-898b-c1e8cd22f05b"/>
+    <vcard:organisation-name>Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/47461efb-6ef0-4cb2-a116-fc7427c24d9a">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DZA"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/TUN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/VAT"/>
+    <dcterms:identifier>47461efb-6ef0-4cb2-a116-fc7427c24d9a</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4b8be477-6f1a-4126-9eb2-91f4472023d4"/>
+    <dcatapop:ckanName>47461efb-6ef0-4cb2-a116-fc7427c24d9a</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LIE"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/35a40f1b-b1a5-4db2-afee-1983dc3c684b"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CHE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:description xml:lang="en">Ambient Air Quality measurements of NO, NO2, O3, CO and SO2 at the JRC Ispra site. Data are unvalidated and updated once per day. Available validated data can be found using the link to ABC-IS webpage. Missing data is expressed as -999.99 or -999.98999</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0236d363-369f-46fe-a027-785ac15a3f4f"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:title xml:lang="en">Inorganic gases-2018</dcterms:title>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MCO"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MNE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SMR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BIH"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3df6cc55-fe01-459c-951b-aea165249eec"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a54e72df-1776-411d-9e5d-6f3d121e00af">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/47461efb-6ef0-4cb2-a116-fc7427c24d9a"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-24T19:01:14</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:47:06</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/35a40f1b-b1a5-4db2-afee-1983dc3c684b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Inorganic gases annual measurements</dcterms:title>
+    <dcterms:description xml:lang="en">Unvalidated 10 min averages in UTC time-base of NO, NO2, O3 and SO2, all in ppb, CO in ppm</dcterms:description>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/ABCIS/InorganicGases/Ver2018-01-01/InorganicGases_2018.csv"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4b8be477-6f1a-4126-9eb2-91f4472023d4">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="jean.putaud@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e1a31586-0de8-446e-8a59-5648cf1ebe7f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3df6cc55-fe01-459c-951b-aea165249eec">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://abc-is.jrc.ec.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/47461efb-6ef0-4cb2-a116-fc7427c24d9a"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e1a31586-0de8-446e-8a59-5648cf1ebe7f">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0236d363-369f-46fe-a027-785ac15a3f4f">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/47461efb-6ef0-4cb2-a116-fc7427c24d9a</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/47461efb-6ef0-4cb2-a116-fc7427c24d9a"/>
+    <schema:url>http://data.europa.eu/89h/47461efb-6ef0-4cb2-a116-fc7427c24d9a</schema:url>
+  </rdf:Description>
+</rdf:RDF>

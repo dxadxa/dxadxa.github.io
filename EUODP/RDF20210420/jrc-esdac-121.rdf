@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/18febc0d-b926-4690-908d-5d1c57a2dc05">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-121">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="en">The dataset contains the data of physical and chemical properties analysed in samples taken in Switzerland within the context of LUCAS 2015 survey. These data have been used in the study "Comparison of sampling with a spade and gouge auger for topsoil monitoring at the continental scale", published in the European Journal of Soil Science (https://onlinelibrary.wiley.com/doi/abs/10.1111/ejss.12862). The dataset format is an Excel file.</dcterms:description>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:identifier>jrc-esdac-121</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/393c1a31-f2c4-4de9-a532-511aae4c5249"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcterms:title xml:lang="en">LUCAS 2015 Topsoil data of Switzerland</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/1a9fc48f-9594-4b5f-8ad3-621da4343005"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/773a54ed-6e57-4a2f-af33-6934bf650df9"/>
+    <dcatapop:ckanName>jrc-esdac-121</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3303303d-7e7e-4dd8-99af-46f06c7a31bc"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/393c1a31-f2c4-4de9-a532-511aae4c5249">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/18febc0d-b926-4690-908d-5d1c57a2dc05"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/773a54ed-6e57-4a2f-af33-6934bf650df9">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">LUCAS 2015 Topsoil data of Switzerland</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/lucas-2015-topsoil-data-switzerland"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1a9fc48f-9594-4b5f-8ad3-621da4343005">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-121</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-121</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3303303d-7e7e-4dd8-99af-46f06c7a31bc">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://esdac.jrc.ec.europa.eu/content/lucas-2015-topsoil-data-switzerland</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-121"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/69fa2248-f020-416a-ab24-e69aa33df1cc">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T09:45:32</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-121"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:49:42</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

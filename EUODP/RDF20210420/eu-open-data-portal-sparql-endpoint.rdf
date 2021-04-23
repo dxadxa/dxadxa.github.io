@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/15595fbc-c9dc-4c7a-8cb2-d3736fe001fd">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:downloadURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+++%3Fpublisher+%3Ftopic+%3Ftitle+%3FdateIssued%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B+%3FDatasetURI+a+dcat%3ACatalogRecord+%3B%0D%0A%09foaf%3AprimaryTopic+%3Ftopic+%3B%0D%0A%09dc%3Aissued+%3FdateIssued.++++%0D%0A%0D%0A%3Ftopic+dct%3Apublisher+%3Fpublisher+%3B%0D%0A++++dct%3Atitle+%3Ftitle+.%0D%0A++++%0D%0A%09%0D%0A+%7D++%0D%0A++FILTER+%28+%3FdateIssued+%3E%3D%222018-12-31T01%3A01%3A01%22%5E%5Exsd%3Adate+%26%26+lang+%28%3Ftitle%29%3D%27en%27%29%0D%0A++%09%7D%0D%0AORDER+BY+%28%3Fpublisher%29%0D%0A&amp;format=application%2Frdf%2Bxml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">List of datasets created since January 2019</dcterms:title>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+++%3Fpublisher+%3Ftopic+%3Ftitle+%3FdateIssued%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B+%3FDatasetURI+a+dcat%3ACatalogRecord+%3B%0D%0A%09foaf%3AprimaryTopic+%3Ftopic+%3B%0D%0A%09dc%3Aissued+%3FdateIssued.++++%0D%0A%0D%0A%3Ftopic+dct%3Apublisher+%3Fpublisher+%3B%0D%0A++++dct%3Atitle+%3Ftitle+.%0D%0A++++%0D%0A%09%0D%0A+%7D++%0D%0A++FILTER+%28+%3FdateIssued+%3E%3D%222018-12-31T01%3A01%3A01%22%5E%5Exsd%3Adate+%26%26+lang+%28%3Ftitle%29%3D%27en%27%29%0D%0A++%09%7D%0D%0AORDER+BY+%28%3Fpublisher%29%0D%0A&amp;format=application%2Frdf%2Bxml"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-open-data-portal-sparql-endpoint">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/30506132-cbf4-4be2-9954-2fc9b9b40176"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-10-26</dcterms:issued>
+    <dcat:keyword xml:lang="en">SPARQL endpoint</dcat:keyword>
+    <dcatapop:ckanName>eu-open-data-portal-sparql-endpoint</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">metadata</dcat:keyword>
+    <dcat:keyword xml:lang="en">endpoint</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">data</dcat:keyword>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/IEPD"/>
+    <dcterms:description xml:lang="en">The EU Open Data Portal also can be accessed by the machine readable SPARQL endpoint. SPARQL is a  RDF query language, a semantic query language for databases. SPARQL endpoint is a conformant SPARQL protocol service. SPARQL endpoint enables users (human or other) to query a knowledge base via the SPARQL language. Results are typically returned in one or more machine-processable formats.&#13;
+&#13;
+It is used for manipulation of data, which is able to be stored in Resource Description Framework (RDF) format. SPARQL queries RDF graphs. An RDF graph is a set of triples.  For example: &#13;
+&#13;
+You can find specifications of SPARQL on the W3C web site: http://www.w3.org/TR/rdf-sparql-query/. The models used to describe datasets catalogued on the EU Open Data Portal are described on the ‘Linked data’ page under ‘Metadata vocabulary’.</dcterms:description>
+    <dcat:keyword xml:lang="en">vocabulary</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">query language</dcat:keyword>
+    <dcterms:alternative xml:lang="en">Conformant SPARQL protocol service</dcterms:alternative>
+    <dcat:keyword xml:lang="en">databases</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5589"/>
+    <dcat:keyword xml:lang="en">EU</dcat:keyword>
+    <dcterms:title xml:lang="en">EU Open Data Portal SPARQL endpoint</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5399"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d31e029a-1a63-4ae4-8d07-7286134a2e8f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/110999c0-9c6f-46c6-a3ac-41a7da352cc9"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">catalogue</dcat:keyword>
+    <dcat:keyword xml:lang="en">semantic query language</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6d62f983-8f5e-4376-8008-5cf426b78832"/>
+    <dcatapop:datasetGroup rdf:resource="sparql-endpoints"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/03620124-c77e-470c-8838-d877cb36da5a"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f8e117e3-adfa-4b3e-8cef-71801445c4e6"/>
+    <dcat:keyword xml:lang="en">sparql</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-04-06</dcterms:modified>
+    <dcat:keyword xml:lang="en">Open Data Portal</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_5ea6e5c4"/>
+    <dcat:keyword xml:lang="en">datasets</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/70355f9d-ef4d-41a8-a023-6d7f7dd76a4f"/>
+    <dcat:keyword xml:lang="en">RDF graph</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/58dc1c66-fc51-4ce2-a6ab-b5b1c8ecf5ff"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/15595fbc-c9dc-4c7a-8cb2-d3736fe001fd"/>
+    <dcat:keyword xml:lang="en">resource description framework</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/147be219-c0e3-4bd1-b739-e443b06b699e"/>
+    <dcat:keyword xml:lang="en">RDF</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/70355f9d-ef4d-41a8-a023-6d7f7dd76a4f">
+    <vcard:organisation-name>Publications Office of the European Union</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="op-odp-contact@publications.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/1be78dab-06a5-4a14-a288-85cdbe0455ef"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/68ff8d69-db2d-465a-b38d-e6adcb603f89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d31e029a-1a63-4ae4-8d07-7286134a2e8f">
+    <dcat:downloadURL rdf:resource="https://data.europa.eu/euodp/en/linked-data"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/en/linked-data"/>
+    <dcterms:title xml:lang="en">EU ODP SPARQL endpoint query editor</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/68ff8d69-db2d-465a-b38d-e6adcb603f89">
+    <schema:url>https://data.europa.eu/euodp/en/data</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/03620124-c77e-470c-8838-d877cb36da5a">
+    <dcat:downloadURL rdf:resource="http://data.europa.eu/euodp/sparqlep"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued xml:lang="en">2016-10-27 13:51:04.882404</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:title xml:lang="en">EU Open Data Portal SPARQL endpoint</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SPARQLQ"/>
+    <dcterms:description xml:lang="en">The machine readable sparql end point of the European Union Open Data Portal. Data formats that may be readily parsed by computer programs without access to proprietary libraries. For example, CSV, TSV and RDF formats are machine readable, but PDF and Microsoft Excel are not. Creating and publishing data following Linked Data principles helps search engines and humans to find, access and re-use data. Once information is found, computer programs can re-use data without the need for custom scripts to manipulate the content.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://data.europa.eu/euodp/sparqlep"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ad3405e8-ded0-467b-a36c-2132de37fdb8">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3199</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2892</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-open-data-portal-sparql-endpoint"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-26 14:08:15.049075</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-17T15:12:39</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f8e117e3-adfa-4b3e-8cef-71801445c4e6">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-open-data-portal-sparql-endpoint"/>
+    <schema:url xml:lang="en">http://www.w3.org/TR/rdf-sparql-query/</schema:url>
+    <dcterms:title xml:lang="en">W3C SPARQL Query Language for RDF</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">RDF is a directed, labeled graph data format for representing information in the Web. This specification defines the syntax and semantics of the SPARQL query language for RDF. SPARQL can be used to express queries across diverse data sources, whether the data is stored natively as RDF or viewed as RDF via middleware. SPARQL contains capabilities for querying required and optional graph patterns along with their conjunctions and disjunctions. SPARQL also supports extensible value testing and constraining queries by source RDF graph. The results of SPARQL queries can be results sets or RDF graphs. </dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6d62f983-8f5e-4376-8008-5cf426b78832">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">List all the datasets by publisher and by title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:downloadURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+%3FDatasetURI+%3FPublisher+%3FTitle%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B%3FDatasetURI+a+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset%3E%3B+%0D%0A+++++dc%3Atitle+%3FTitle+%3B%0D%0A+++++dc%3Apublisher+%3FPublisher++.%0D%0A%09++%0D%0A%0D%0A%09+FILTER+%28lang%28%3FTitle%29+%3D+%27en%27%29%0D%0A%0D%0A+%7D++%0D%0A%7D+ORDER+BY+%28%3FPublisher%29%0D%0A%0D%0A&amp;format=text%2Fcsv"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+%3FDatasetURI+%3FPublisher+%3FTitle%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B%3FDatasetURI+a+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset%3E%3B+%0D%0A+++++dc%3Atitle+%3FTitle+%3B%0D%0A+++++dc%3Apublisher+%3FPublisher++.%0D%0A%09++%0D%0A%0D%0A%09+FILTER+%28lang%28%3FTitle%29+%3D+%27en%27%29%0D%0A%0D%0A+%7D++%0D%0A%7D+ORDER+BY+%28%3FPublisher%29%0D%0A%0D%0A&amp;format=text%2Fcsv"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/1be78dab-06a5-4a14-a288-85cdbe0455ef">
+    <vcard:street-address>2, rue Mercier 2985 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/30506132-cbf4-4be2-9954-2fc9b9b40176">
+    <schema:url>http://data.europa.eu/euodp/en/linked-data</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/linked-data</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-open-data-portal-sparql-endpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/147be219-c0e3-4bd1-b739-e443b06b699e">
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/repository/ec/publ/ODP_DATASETS_CATALOGUE_6.html"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Number of datasets by EU data provider</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:downloadURL rdf:resource="https://data.europa.eu/euodp/repository/ec/publ/ODP_DATASETS_CATALOGUE_6.html"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/58dc1c66-fc51-4ce2-a6ab-b5b1c8ecf5ff">
+    <dcat:downloadURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+%3FDatasetURI+%3FPublisher+%3FTitle%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B%3FDatasetURI+a+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset%3E%3B+%0D%0A+++++dc%3Atitle+%3FTitle+%3B%0D%0A+++++dc%3Apublisher+%3FPublisher++.%0D%0A%09++%0D%0A%0D%0A%09+FILTER+%28lang%28%3FTitle%29+%3D+%27en%27%29%0D%0A%0D%0A+%7D++%0D%0A%7D+ORDER+BY+%28%3FPublisher%29%0D%0A%0D%0A&amp;format=application%2Frdf%2Bxml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+%3FDatasetURI+%3FPublisher+%3FTitle%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B%3FDatasetURI+a+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset%3E%3B+%0D%0A+++++dc%3Atitle+%3FTitle+%3B%0D%0A+++++dc%3Apublisher+%3FPublisher++.%0D%0A%09++%0D%0A%0D%0A%09+FILTER+%28lang%28%3FTitle%29+%3D+%27en%27%29%0D%0A%0D%0A+%7D++%0D%0A%7D+ORDER+BY+%28%3FPublisher%29%0D%0A%0D%0A&amp;format=application%2Frdf%2Bxml"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">List all the datasets by publisher and by title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/110999c0-9c6f-46c6-a3ac-41a7da352cc9">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+++%3Fpublisher+%3Ftopic+%3Ftitle+%3FdateIssued%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B+%3FDatasetURI+a+dcat%3ACatalogRecord+%3B%0D%0A%09foaf%3AprimaryTopic+%3Ftopic+%3B%0D%0A%09dc%3Aissued+%3FdateIssued.++++%0D%0A%0D%0A%3Ftopic+dct%3Apublisher+%3Fpublisher+%3B%0D%0A++++dct%3Atitle+%3Ftitle+.%0D%0A++++%0D%0A%09%0D%0A+%7D++%0D%0A++FILTER+%28+%3FdateIssued+%3E%3D%222018-12-31T01%3A01%3A01%22%5E%5Exsd%3Adate+%26%26+lang+%28%3Ftitle%29%3D%27en%27%29%0D%0A++%09%7D%0D%0AORDER+BY+%28%3Fpublisher%29%0D%0A+&amp;format=text%2Fcsv"/>
+    <dcterms:title xml:lang="en">List of datasets created since January 2019</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:downloadURL rdf:resource="https://data.europa.eu/euodp/sparqlep?query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+odp%3A++%3Chttp%3A%2F%2Fdata.europa.eu%2Feuodp%2Fontologies%2Fec-odp%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E+SELECT+DISTINCT+++%3Fpublisher+%3Ftopic+%3Ftitle+%3FdateIssued%0D%0A%0D%0AWHERE++%7B+graph+%3Fg++%0D%0A+%7B+%3FDatasetURI+a+dcat%3ACatalogRecord+%3B%0D%0A%09foaf%3AprimaryTopic+%3Ftopic+%3B%0D%0A%09dc%3Aissued+%3FdateIssued.++++%0D%0A%0D%0A%3Ftopic+dct%3Apublisher+%3Fpublisher+%3B%0D%0A++++dct%3Atitle+%3Ftitle+.%0D%0A++++%0D%0A%09%0D%0A+%7D++%0D%0A++FILTER+%28+%3FdateIssued+%3E%3D%222018-12-31T01%3A01%3A01%22%5E%5Exsd%3Adate+%26%26+lang+%28%3Ftitle%29%3D%27en%27%29%0D%0A++%09%7D%0D%0AORDER+BY+%28%3Fpublisher%29%0D%0A+&amp;format=text%2Fcsv"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="period_of_time-608b4e77-7f52-4570-a680-3bec97a54b16">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-01-01T00:00:00</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-01T00:00:00</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/eb975402-72fe-4359-bea3-d9cb140a9602">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/3a2d6c8c-95ae-4282-9954-56bfa3fe23a2"/>
+    <vcard:hasTelephone rdf:resource="telephone-f852fce5-3f55-4367-90b3-f7334e995b361d0435a5-0c1b-4f7f-bb85-9a768f71c8b7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/d933c944-5034-492a-89fa-3f077b5de0a2"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8bf5bd44-a2b3-4af3-806c-f97be3fc171f">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/NagfgNw1bQW6wmRJ9NrLA"/>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tec00053</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/d933c944-5034-492a-89fa-3f077b5de0a2">
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/NagfgNw1bQW6wmRJ9NrLA">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8bf5bd44-a2b3-4af3-806c-f97be3fc171f"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4671"/>
+    <dcat:keyword xml:lang="en">international trade</dcat:keyword>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Direct investment outward flows by main country of destination</dcterms:title>
+    <dcterms:temporal rdf:resource="period_of_time-608b4e77-7f52-4570-a680-3bec97a54b16"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:33:58.848568</dcterms:issued>
+    <dcterms:description xml:lang="de">Für alle Auskunftgebenden sind die DI-Abflüsse nach dem schwerpunktmä²igen Anlageland aufgeschlüsselt. Die empfangenden Länder oder Gebiete sind in grau gekennzeichnet. Direktinvestitionen (DI) sind internationale Investitionen, die eine in einem Wirtschaftsgebiet ansässige Einheit tätigt (Direktinvestor), um eine langfristige Beteiligung an einem in einem anderen Wirtschaftsgebiet ansässigen Unternehmen zu erwerben (Direktinvestitionsobjekt). Das dauerhafte Interesse wird vermutet, wenn der Investor wenigstens 10 % des Aktienkapitals des Unternehmens erwirbt.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:keyword xml:lang="en">balance of payments</dcat:keyword>
+    <dcterms:identifier>tec00053</dcterms:identifier>
+    <dcterms:description xml:lang="en">The product has been discontinued since: 02 Feb 2018.&#13;
+&#13;
+For all reporters, outward FDI flows are broken down by main destination of the investment. Destination countries or zones are highlighted in grey. Foreign direct investment (FDI) is the category of international investment made by a resident entity (direct investor) to acquire a lasting interest in an entity operating in an economy other than that of the investor (direct investment enterprise). The lasting interest is deemed to exist if the investor acquires at least 10 % of the equity capital of the enterprise.</dcterms:description>
+    <dcatapop:ckanName>NagfgNw1bQW6wmRJ9NrLA</dcatapop:ckanName>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="fr">Flux d'investissement direct sortants selon le pays de destination principal</dcterms:title>
+    <dcat:keyword xml:lang="fr">balance des paiements</dcat:keyword>
+    <dcterms:title xml:lang="de">Ausgehende Direktinvestitionsströme nach wichtigem Anlageland</dcterms:title>
+    <dcterms:modified>2018-08-30 08:36:30.571627</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/eb975402-72fe-4359-bea3-d9cb140a9602"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:keyword xml:lang="de">Zahlungsbilanz</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9a4e540c-a67c-4e30-8955-ea1334be8dac"/>
+    <dcterms:description xml:lang="fr">Pour tous les déclarants, les flux d'IDE sortants sont ventilés selon la destination principale de l'investissement. Les pays ou les zones de destination sont mis en évidence sur fond gris. Les investissements directs étrangers (IDE) sont des investissements internationaux qui reflètent l'intention d'une entité résidente d'une économie (investisseur direct) d'acquérir un intérêt durable dans une entreprise opérant dans une autre économie (entreprise d'investissement direct). L'intérêt durable est supposé exister si l'investisseur acquiert au moins 10% des capitaux propres de l'entreprise.</dcterms:description>
+    <owl:versionInfo>None</owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9a4e540c-a67c-4e30-8955-ea1334be8dac">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tec00053</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tec00053</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/97b8e01f-bb0a-4492-87b0-565f2bbd0620">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/NagfgNw1bQW6wmRJ9NrLA"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:33:58.848568</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30 08:36:30.571627</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">767</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">701</dcatapop:numberOfDownloads>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3a2d6c8c-95ae-4282-9954-56bfa3fe23a2">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/3a2d6c8c-95ae-4282-9954-56bfa3fe23a2</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-f852fce5-3f55-4367-90b3-f7334e995b361d0435a5-0c1b-4f7f-bb85-9a768f71c8b7">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

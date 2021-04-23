@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2ee673d3-56fb-44a2-81aa-083b43e79a93">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teiis701"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5bb50c9b-67c9-45cd-8dda-cbb37d40dad3">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teiis701</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teiis701</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/fej52jwdmWERkwBPb5tYJw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7ae39541-6538-487f-abe4-ac54948f43d4">
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teiis701"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c8de0342-12db-4237-9b61-81fcac1b8326">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis701.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/23ead35c-5d4c-4ca8-9bf7-671eee713cbf">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_is_esms.htm</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/fej52jwdmWERkwBPb5tYJw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/fej52jwdmWERkwBPb5tYJw">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/160e3245-72ed-42fb-9b1c-c5869b29a5d0"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/23ead35c-5d4c-4ca8-9bf7-671eee713cbf"/>
+    <dcterms:description xml:lang="de">Mit dem Umsatzindex soll die Entwicklung des Marktes für Dienstleistungen dargestellt werden. Der Umsatz umfasst die von der Erhebungseinheit während des Berichtszeitraums insgesamt in Rechnung gestellten Beträge, die den Verkäufen von Dienstleistungen an Dritte entsprechen. Außerdem beinhaltet der Umsatz alle Nebenkosten (Transport, Verpackung usw.), die an die Kunden weitergegeben werden, selbst wenn diese Kosten getrennt in Rechnung gestellt werden. Nicht im Umsatz enthalten sind die Mehrwertsteuer und sonstige, in ähnlicher Weise absetzbare, direkt mit dem Umsatz verbundene Steuern sowie alle Steuern und Abgaben, die auf die von der Einheit in Rechnung gestellten Dienstleistungen erhoben werden. Als Dienstleistungen werden die Abschnitte G bis N (ohne Einzelhandel und Reparatur) der NACE Rev. 2 definiert. Je nach Land wird der Index entweder als ein Laspeyres-Index oder als einfacher relativer Wert erstellt. Das derzeitige Basisjahr ist 2015 (Index 2015 = 100). Der Index wird kalender- und saisonbereinigt. Zuwachsraten gegenüber dem Vorquartal (Q/Q-1) werden anhand von kalender- und saisonbereinigten Zahlen berechnet, Zuwachsraten gegenüber dem entsprechenden Quartal des Vorjahres (Q/Q-4) anhand von kalenderbereinigten Zahlen.</dcterms:description>
+    <dcterms:title xml:lang="de">Umsatz aus Dienstleistungen nach NACE Rev. 2 - Index (2015 = 100)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c8de0342-12db-4237-9b61-81fcac1b8326"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2ee673d3-56fb-44a2-81aa-083b43e79a93"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:identifier>teiis701</dcterms:identifier>
+    <dcatapop:ckanName>fej52jwdmWERkwBPb5tYJw</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/519771a6-e799-4849-896c-103c21d5d303"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/39b95e8b-85e3-46e4-aa99-8c24063881aa"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7ae39541-6538-487f-abe4-ac54948f43d4"/>
+    <dcterms:title xml:lang="en">Turnover in services by NACE Rev. 2 - Index (2015 = 100)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/abb49254-f7af-46e4-86d0-d7397d7de5c6"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-30</dcterms:modified>
+    <dcterms:title xml:lang="fr">Chiffre d'affaires dans les services par NACE Rév. 2 - Indice (2015 = 100)</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5bb50c9b-67c9-45cd-8dda-cbb37d40dad3"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">The objective of the turnover index is to show the development of the market of services. Turnover comprises the totals invoiced by the observation unit during the reference period, and this corresponds to market sales of services supplied to third parties. Turnover also includes all other charges (transport, packaging, etc.) passed on to the customer, even if these charges are listed separately in the invoice. Turnover excludes VAT and other similar deductible taxes directly linked to turnover as well all duties and taxes on services invoiced by the unit. Service is defined as the Nace Rev.2 branches from G to N (except retail trade and repair). Depending of the countries, the index is compiled either as a Laspeyres type or either as a simple value relative. The current base year is 2015 (Index 2015 = 100). The index is presented in calendar and seasonally adjusted form. Growth rates with respect to the previous quarter (Q/Q-1) are calculated from seasonally and calendar adjusted figures while growth rates with respect to the same quarter of the previous year (Q/Q-4) are calculated from calendar adjusted figures.</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/022b6c49-5c32-429b-a33f-bc216dc49395"/>
+    <dcterms:description xml:lang="fr">L’objectif de cet indice est de présenter l’évolution du marché des biens et des services. Le chiffre d'affaires comprend les montants facturés par l'unité d'observation au cours de la période de référence, à savoir les ventes sur le marché des services fournis à des tiers. Il comprend également toutes les autres charges (transport, emballage, etc.) imputées aux clients, même si celles-ci figurent séparément sur la facture. Le chiffre d’affaires ne comprend pas la TVA, ni les autres taxes déductibles similaires directement liées au chiffre d’affaires, ni les impôts et taxes grevant les services facturés par l’unité. Les services englobent les sections G à N de la NACE Rév. 2 (sauf commerce de détail et réparation). Selon les pays, l’indice est élaboré en tant qu’indice de type Laspeyres ou comme simple valeur relative. L’année de base actuelle est 2015 (indice 2015 = 100). L'indice est présenté sous forme corrigée des variations saisonnières et calendaires. Les taux de croissance trimestriels (Q/Q-1) sont calculés à partir des chiffres corrigés des variations saisonnières et calendaires, tandis que les taux de croissance trimestriels en glissement annuel (doc. Q/Q-4) sont calculés à partir des chiffres corrigés des effets calendaires.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5b2e4933-182c-44d4-a38b-bbab536b97ef"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/93701faf-6c79-4c34-b7f7-d2f2614d1995"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/160e3245-72ed-42fb-9b1c-c5869b29a5d0">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/fej52jwdmWERkwBPb5tYJw"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_is_esms.sdmx.zip</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ca256580-7ec5-4fa9-b78c-ad056ee94352">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-30T11:49:33</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2018-06-01 06:29:14.021903</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1638</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/fej52jwdmWERkwBPb5tYJw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/93701faf-6c79-4c34-b7f7-d2f2614d1995">
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teiis701"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5b2e4933-182c-44d4-a38b-bbab536b97ef">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/c51a765b-fde7-4c3f-a86b-619710dcb3e4"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/700812e4-4c56-4fc0-a64c-548f3ba3fe7a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/3f4a9b4c-b744-4861-b167-b9fc5512c310"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/39b95e8b-85e3-46e4-aa99-8c24063881aa">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis701.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/022b6c49-5c32-429b-a33f-bc216dc49395">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/abb49254-f7af-46e4-86d0-d7397d7de5c6">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis701.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3f4a9b4c-b744-4861-b167-b9fc5512c310">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/519771a6-e799-4849-896c-103c21d5d303">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teiis701</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/fej52jwdmWERkwBPb5tYJw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/c51a765b-fde7-4c3f-a86b-619710dcb3e4">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/700812e4-4c56-4fc0-a64c-548f3ba3fe7a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

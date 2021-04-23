@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b852ba82-ea70-433f-9cfc-99ada242ab7d">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">https://mars.jrc.ec.europa.eu/asap/download.php</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10005"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5170fb28-2d36-4549-abf4-40ae816025b3">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10112-10005">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:title xml:lang="en">Global crop and rangeland masks</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2af732f3-239e-4e94-81fe-12916273462c"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-26</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8a5d9e50-82a5-4b41-b1f2-619cb4663047"/>
+    <dcterms:identifier>jrc-10112-10005</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/76a5f99c-9beb-46d9-a8c9-7cf93ee3dce1"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/07dc8310-ad6a-42fc-b30a-2d2c0f04281f"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4e7963b7-4e40-4943-b6d2-f23eb853b07f"/>
+    <dcatapop:ckanName>jrc-10112-10005</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f8f4ca32-421b-4f14-a2f1-6ae72d00a8fe"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b852ba82-ea70-433f-9cfc-99ada242ab7d"/>
+    <dcterms:description xml:lang="en">The dataset contains global crop and rangeland masks at 0.0089286 deg resolution (about 1 squared kilometer).  Each pixel represents the area fraction of the specific cover (i.e. percentage of the pixel with crops/rangelands)</dcterms:description>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/76a5f99c-9beb-46d9-a8c9-7cf93ee3dce1">
+    <dcterms:description xml:lang="en">Rembold, F., Meroni, M., Urbano, F., Csak, G., Kerdiles, H., Perez Hoyos, A., Lemoine, G., Leo, O. and Negre, T., ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis, AGRICULTURAL SYSTEMS, ISSN 0308-521X, 168, 2019, p. 247-257, JRC109950.</dcterms:description>
+    <dcterms:title xml:lang="en">ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10005"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.agsy.2018.07.002</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2af732f3-239e-4e94-81fe-12916273462c">
+    <dcterms:description xml:lang="en">Tiff file where data are scaled between 1 and 200: image values V=0-200, scaling 0.5 -&gt; physical value 0-100%.</dcterms:description>
+    <dcterms:title xml:lang="en">Crop mask</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/asap_mask_crop_v02.tif"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4e7963b7-4e40-4943-b6d2-f23eb853b07f">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10005"/>
+    <schema:url>http://data.europa.eu/89h/jrc-10112-10005</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10112-10005</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f8f4ca32-421b-4f14-a2f1-6ae72d00a8fe">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/5170fb28-2d36-4549-abf4-40ae816025b3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-asap@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/07dc8310-ad6a-42fc-b30a-2d2c0f04281f">
+    <dcterms:title xml:lang="en">Comparison of Global Land Cover Datasets for Cropland Monitoring</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.3390/rs9111118</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10005"/>
+    <dcterms:description xml:lang="en">Perez Hoyos, A., Rembold, F., Kerdiles, H. and Gallego Pinilla, F., Comparison of Global Land Cover Datasets for Cropland Monitoring, REMOTE SENSING, ISSN 2072-4292, 9 (11), 2017, p. 1118, JRC107552.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e09948ad-7992-4eb2-b0c5-ee48b6f2f17c">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">487</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:22:27</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10005"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-09 05:23:02.041549</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8a5d9e50-82a5-4b41-b1f2-619cb4663047">
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/asap_mask_rangeland_v02.tif"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Rangeland mask</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Tiff file where data are scaled between 1 and 200: image values V=0-200, scaling 0.5 -&gt; physical value 0-100%.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+</rdf:RDF>

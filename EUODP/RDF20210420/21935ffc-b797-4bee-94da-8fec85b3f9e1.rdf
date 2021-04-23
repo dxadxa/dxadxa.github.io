@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/35193980-dd8c-4e0a-8765-a45f916804fb">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/21935ffc-b797-4bee-94da-8fec85b3f9e1">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/09c062cd-3d3c-4177-9ad4-b16fc1d6d70e"/>
+    <dcterms:title xml:lang="en">Downscaled-GOME2-SIF</dcterms:title>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:description xml:lang="en">A dataset of sun-induced fluorescence (SIF) retrieved from the GOME-2 instrument and spatially downscaled to 0.05 decimal degrees with a semi-empirical light-use efficiency model. The dataset consists of two separate products based each on a different SIF retrieval, either JJ (Joiner et al. 2013) or PK (Köhler et al. 2015). The temporal coverage of the dataset is 2007 to 2018. The temporal sampling of the product is 8 days, but every record is based on SIF input data retrieved over a 16-day moving window. The day reported in the NetCDF file corresponds to the 9th day of the 16-day retrieval period.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:ckanName>21935ffc-b797-4bee-94da-8fec85b3f9e1</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3ce314d4-837e-4d6a-b056-44a6f6bca2bf"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a5c11d93-e570-4e48-8d8c-f5bb8e5f12b1"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a21163a7-573c-4d70-b117-61b7c899c8f4"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3eb0cc0b-6562-47b6-a29c-8d4cf6f52d90"/>
+    <dcterms:identifier>21935ffc-b797-4bee-94da-8fec85b3f9e1</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a21163a7-573c-4d70-b117-61b7c899c8f4">
+    <schema:url xml:lang="en">https://doi.org/10.5194/essd-12-1101-2020</schema:url>
+    <dcterms:title xml:lang="en">A spatially downscaled sun-induced fluorescence global product for enhanced monitoring of vegetation productivity</dcterms:title>
+    <dcterms:description xml:lang="en">Duveiller Bogdan, G., Filipponi, F., Walther, S., Köhler, P., Frankenberg, C., Guanter, L. and Cescatti, A., A spatially downscaled sun-induced fluorescence global product for enhanced monitoring of vegetation productivity, EARTH SYSTEM SCIENCE DATA, ISSN 1866-3508 (online), 12 (2), 2020, p. 1101-1116, JRC117337.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/21935ffc-b797-4bee-94da-8fec85b3f9e1"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3eb0cc0b-6562-47b6-a29c-8d4cf6f52d90">
+    <dcterms:title xml:lang="en">Spatially downscaling sun-induced chlorophyll fluorescence leads to an improved temporal correlation with gross primary productivity</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.rse.2016.04.027</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Duveiller Bogdan G, Cescatti A. Spatially downscaling sun-induced chlorophyll fluorescence leads to an improved temporal correlation with gross primary productivity. REMOTE SENSING OF ENVIRONMENT 182; 2016. p. 72-89. JRC98454</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/21935ffc-b797-4bee-94da-8fec85b3f9e1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a5c11d93-e570-4e48-8d8c-f5bb8e5f12b1">
+    <dcterms:title xml:lang="en">NetCDF Distribution</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/ECOCLIM/Downscaled-GOME2-SIF"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/92918199-3da5-4247-94fe-850debefff82">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">265</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:23</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-07T10:17:16</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/21935ffc-b797-4bee-94da-8fec85b3f9e1"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/09c062cd-3d3c-4177-9ad4-b16fc1d6d70e">
+    <vcard:hasEmail rdf:resource="gregory.duveiller@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/35193980-dd8c-4e0a-8765-a45f916804fb"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3ce314d4-837e-4d6a-b056-44a6f6bca2bf">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/21935ffc-b797-4bee-94da-8fec85b3f9e1</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/21935ffc-b797-4bee-94da-8fec85b3f9e1</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/21935ffc-b797-4bee-94da-8fec85b3f9e1"/>
+  </rdf:Description>
+</rdf:RDF>

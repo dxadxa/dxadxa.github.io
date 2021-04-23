@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b">
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/c63b7c73-e285-4ba0-bdde-9e70cb3517ee"/>
+    <dcatapop:ckanName>global-ch4-flux-inversion-2000-2012-macc-noaa-only</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Inverse modelling of global CH4 emissions during 2000-2012 based on TM5-4DVAR model and NOAA surface observations (described in detail in Bergamaschi, P., S. Houweling, A. Segers, M. Krol, C. Frankenberg,
+R. A. Scheepmaker, E. Dlugokencky, S. C. Wofsy, E. A. Kort, C. Sweeney, T. Schuck,C. Brenninkmeijer, H. Chen, V. Beck, and C. Gerbig (2013), Atmospheric CH4 in the first decade of the 21st century: Inverse modeling analysis using SCIAMACHY satellite retrievals and NOAA surface measurements, J. Geophys. Res. Atmos., 118, 7350–7369, doi:10.1002/jgrd.50480). The data set includes gridded monthly average fluxes and daily average 3D CH4 concentration fields
+</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:title xml:lang="en">Global CH4 flux inversion 2000-2012 (MACC / NOAA only)</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5700aba5-4eda-4178-a73f-a316f8c7e5bf"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a0904ab4-d054-434a-b522-afee973bc703"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-09</dcterms:issued>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/f58406d5-528b-439c-9011-b5ebd957a6a2"/>
+    <dcterms:identifier>http://data.europa.eu/89h/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b</dcterms:identifier>
+    <dcterms:identifier>9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bd7777b6-409b-4955-aa01-9eb873c54a1f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f58406d5-528b-439c-9011-b5ebd957a6a2">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b"/>
+    <schema:url>http://data.europa.eu/89h/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bd7777b6-409b-4955-aa01-9eb873c54a1f">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:accessRights rdf:resource="http://data.jrc.ec.europa.eu/access-rights/registration-required"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">CH4 inversions reanalysis using only the NOAA surface observations (v10-S1NOAA_ra)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/NETCDF"/>
+    <dcat:accessURL rdf:resource="https://apps.ecmwf.int/datasets/data/macc-ghg-inversions/"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5700aba5-4eda-4178-a73f-a316f8c7e5bf">
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <schema:url>http://data.europa.eu/88u/dataset/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/c63b7c73-e285-4ba0-bdde-9e70cb3517ee">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b4f92c10-96e8-4d8b-b4b2-5fa8fc825cc2">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/9aa3ca5c-1b0f-4e33-9ebd-4ba8bc00fa9b"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T03:57:35</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:35</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a0904ab4-d054-434a-b522-afee973bc703">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="mailto:peter.bergamaschi@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+  </rdf:Description>
+</rdf:RDF>

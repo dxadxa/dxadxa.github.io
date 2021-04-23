@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/reference-layers-of-the-idp">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:keyword>land use</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/81ee6fc6-d10a-4bb2-b586-61fc1c837fd1"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T15:37:05Z</dcterms:modified>
+    <dcterms:identifier>DAT-228-en</dcterms:identifier>
+    <dcterms:title xml:lang="en">[DEPRECATED] Environmental Accounting Reference Layers - SDI</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T10:25:00Z</dcterms:issued>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4630"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/534cc3bf-f6a7-4f11-82c8-d42f53be09a1"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">This is a collection of the geospatial Environmental Accounting Reference Layers of the Integrated Data Platform published on the website and registered in EEA`s Spatial Data Infrastructure (SDI). The link under "GIS data" points to the SDI thematic node on Environmental Accounting Reference Layers.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/81ee6fc6-d10a-4bb2-b586-61fc1c837fd1">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Environmental Accounting Reference Layers - SDI</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/reference-layers-of-the-idp</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/reference-layers-of-the-idp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/9c22d7f2-d68e-4872-b726-8438cf145722">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/534cc3bf-f6a7-4f11-82c8-d42f53be09a1">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/bc17c052-103a-4c28-8dbf-0d799a5187ea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/9c22d7f2-d68e-4872-b726-8438cf145722"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/d75e6380-b5fa-4acc-afa8-18e7422b5d44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cdd8ed97-c3ce-4ae7-8aba-82a1e6be0fbd">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:25:58</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/reference-layers-of-the-idp"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:25:58</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/bc17c052-103a-4c28-8dbf-0d799a5187ea">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+</rdf:RDF>

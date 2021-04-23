@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/022cdeed-159f-407d-be18-0dface69ef92">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+    <dcat:keyword xml:lang="en">Natural Risk Zones</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ALB"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EST"/>
+    <dcat:keyword xml:lang="en">Europe</dcat:keyword>
+    <dcat:keyword xml:lang="en">modelling</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-28</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/JOR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/TUR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AZE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BIH"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SYR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MDA"/>
+    <dcatapop:ckanName>022cdeed-159f-407d-be18-0dface69ef92</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/840d51c9-2b71-40a2-b3d6-adb28f7ae0a7"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MAR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+    <dcat:keyword xml:lang="en">forest resource</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/89a8d763-12fc-4d74-945b-139b8da34b63"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/JEY"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GEO"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DZA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRO"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/UKR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BLR"/>
+    <dcat:keyword xml:lang="en">natural hazard</dcat:keyword>
+    <dcterms:description xml:lang="en">This dataset series refers to the information on burnt areas and fire severity provided by the European Forest Fire Information System (EFFIS). ▷_How to cite: see below_◁&#13;
+  &#13;
+&#13;
+1 - Burnt areas.&#13;
+The burnt area mapping is a service implemented since 2000 that detects and analyzes the evolution of the fire events during the fire seasons and since 2007 during the whole year. A burnt area monitored in the EFFIS system is an area damaged by a wildfire event; in the system only areas that are about 30 hectares or larger are detected. Fires occurred only on agricultural areas are not mapped. A wildfire event can start either from an agricultural area or from a wildland area. Irrespective of the ignition point, to be considered in EFFIS a fire event must damage a wildland area. This means that the fire was either generated in the natural areas by spontaneous or anthropogenic sources, or sparked in agricultural fields and went out of control up to damage wildland. The mapping provided by EFFIS is on a day-by-day basis, and integrates multiple sources: the fire news, the MODIS and VIIRS satellite thermal anomalies, the near real-time (NRT) fire monitoring based on them, and the MODIS Terra and Aqua images. The NRT Fire Monitoring is useful to obtain an early approximation of the last state of large fires with a short time-lag. A subsequent integrated analysis generates consolidated best estimates of the burnt area. Each day, a semi-automatic procedure takes as input the satellite images and runs an automated classification. The burn scars automatically detected with the thermal anomalies, along with the fire news geolocations, serve as auxiliary data for the final visual check through a computer assisted photointerpretation by a GIS analysts / expert photointerpreter who verifies the reliability of the candidate areas. Once confirmed, the final polygons of the burnt area product contains multiple information fields: affected area in hectares; spatial location (country, province, and municipality); and temporal window (start and end dates of the fires, and date of the last update of the events).&#13;
+&#13;
+2 - Fire severity.&#13;
+&#13;
+Fire severity is the degree to which a fire altered the burnt area. It is assessed by EFFIS using the Normalized Burn Ratio (NBR) index (also sensitive to chlorophyll, water content, vegetation, ash), computed for pre-fire and post-fire satellite images. The “differenced NBR” (dNBR) represents the difference between NBR values before and after the event. The estimated “differenced NBR” is remapped into five categories of severity (very low, low, moderate, high, and very high).&#13;
+&#13;
+ &#13;
+ &#13;
+&#13;
+&#13;
+__How to cite__ - When using these data, please cite the relevant data sources. A suggested citation is included in the following:       &#13;
+&#13;
+- San-Miguel-Ayanz, J., Houston Durrant, T., Boca, R., Libertà, G., Branco, A., de Rigo, D., Ferrari, D., Maianti, P., Artés Vivancos, T., Schulte, E., Loffler, P., Benchikha, A., Abbas, M., Humer, F., Konstantinov, V., Pešut, I., Petkoviček, S., Papageorgiou, K., Toumasis, I., Kütt, V., Kõiv, K., Ruuska, R., Anastasov, T., Timovska, M., Michaut, P., Joannelle, P., Lachmann, M., Pavlidou, K., Debreceni, P., Nagy, D., Nugent, C., Di Fonzo, M., Leisavnieks, E., Jaunķiķis, Z., Mitri, G., Repšienė, S., Assali, F., Mharzi Alaoui, H., Botnen, D., Piwnicki, J., Szczygieł, R., Janeira, M., Borges, A., Sbirnea, R., Mara, S., Eritsov, A., Longauerová, V., Jakša, J., Enriquez, E., Lopez, A., Sandahl, L., Reinhard, M., Conedera, M., Pezzatti, B., Dursun, K. T., Baltaci, U., Moffat, A., 2017. Forest fires in Europe, Middle East and North Africa 2016. Publications Office of the European Union, Luxembourg. ISBN:978-92-79-71292-0, https://doi.org/10.2760/17690       &#13;
+&#13;
+- San-Miguel-Ayanz, J., Schulte, E., Schmuck, G., Camia, A., 2013. The European Forest Fire Information System in the context of environmental policies of the European Union. Forest Policy and Economics 29, 19-25. https://doi.org/10.1016/j.forpol.2011.08.012      &#13;
+&#13;
+- San-Miguel-Ayanz, J., Schulte, E., Schmuck, G., Camia, A., Strobl, P., Libertà, G., Giovando, C., Boca, R., Sedano, F., Kempeneers, P., McInerney, D., Withmore, C., de Oliveira, S. S., Rodrigues, M., Houston Durrant, T., Corti, P., Oehler, F., Vilar, L., Amatulli, G., 2012. Comprehensive monitoring of wildfires in Europe: the European Forest Fire Information System (EFFIS). In: Tiefenbacher, J. (Ed.), Approaches to Managing Disaster - Assessing Hazards, Emergencies and Disaster Impacts. InTech, Ch. 5. http://doi.org/10.5772/28441      &#13;
+&#13;
+ </dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-07</dcterms:modified>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EGY"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GIB"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6a09f602-a10c-42cf-bc7c-693afde74c75"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/VAT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CYP"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LBN"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcat:keyword xml:lang="en">environmental data</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SMR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SAU"/>
+    <dcterms:title xml:lang="en">Fire events in the European Forest Fire Information System (version 2-3-1)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GGY"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/RUS"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ALA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRQ"/>
+    <dcat:keyword xml:lang="en">fire</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4359"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IMN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/04776904-c895-4f93-886d-a0af44d9e747"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1063"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LIE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SRB"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MRT"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1335"/>
+    <dcat:keyword xml:lang="en">spatial distribution</dcat:keyword>
+    <dcat:keyword xml:lang="en">scientific research</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MKD"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/1A0"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ARM"/>
+    <dcterms:identifier>022cdeed-159f-407d-be18-0dface69ef92</dcterms:identifier>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ISR"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MNE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4426"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcat:keyword xml:lang="en">disaster</dcat:keyword>
+    <dcat:keyword xml:lang="en">vegetation</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CHE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/2dada6c9-5337-48ea-89c1-04080e1efed2"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLI"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ISL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/TUN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LVA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LBY"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESH"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MCO"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PSE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AND"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/413"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ROU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/04776904-c895-4f93-886d-a0af44d9e747">
+    <dcterms:description xml:lang="en">Data download service for thematic typologies of data related to wildfires in Europe (including fire events, burnt area and severity; fire danger; active fires).</dcterms:description>
+    <dcat:accessURL rdf:resource="http://effis.jrc.ec.europa.eu/applications/data-and-services/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">[Download] Data Download Service</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/840d51c9-2b71-40a2-b3d6-adb28f7ae0a7">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/022cdeed-159f-407d-be18-0dface69ef92</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/022cdeed-159f-407d-be18-0dface69ef92"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/022cdeed-159f-407d-be18-0dface69ef92</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/fee1b89c-0933-4870-a5ac-e5d7266a0d90">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">393</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/022cdeed-159f-407d-be18-0dface69ef92"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-23T17:59:00</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-30 05:24:29.302552</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/2dada6c9-5337-48ea-89c1-04080e1efed2">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b685fdb9-5170-42ac-ae79-c5ee49c277e8"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-effis@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/89a8d763-12fc-4d74-945b-139b8da34b63">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en">EFFIS view service for thematic typologies of data related to wildfires in Europe (including fire events, burnt area and severity; fire danger; active fires).</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://effis.jrc.ec.europa.eu/static/effis_current_situation/public/"/>
+    <dcterms:title xml:lang="en">[VIEW] [WMS] EFFIS View Service</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b685fdb9-5170-42ac-ae79-c5ee49c277e8">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6a09f602-a10c-42cf-bc7c-693afde74c75">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/022cdeed-159f-407d-be18-0dface69ef92"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://effis.jrc.ec.europa.eu/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

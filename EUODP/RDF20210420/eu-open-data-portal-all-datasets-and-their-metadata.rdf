@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b6bc656b-16a6-4b7e-a246-5481d7d1c489">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-open-data-portal-all-datasets-and-their-metadata"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T15:09:10</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-18T17:39:33</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d4615b6c-533e-453b-abcb-b241825216e9">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Datasets - Directorates-General of the European Commission</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SPARQLQRES"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/en/linked-data#query=PREFIX+lemon%3A+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+dcat%3A++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0APREFIX+dc%3A++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX+lemon%3A+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23%3E%0APREFIX+nal%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fauthority%2F%3E%0A%0A%0ASELECT+%3FDatasetURI+%3FPublisher+%3FRDFLink+%3FaccessURL+%3FdownloadURL+%0AWHERE+%7Bgraph+%3Fg+%0A%0A%7B+%3FPublisher+a+skos%3AConcept+%3B%0A++skos%3AinScheme+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%3E%3B+%0A%09lemon%3Acontext%09%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fuse-context%2FODP%3E+%3B%0A+skos%3Abroader+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%2FCOM%3E%3B%0A+nal%3Adeprecated+%22false%22.%0A%7D%0A%0A%0A%0A%7B%3FDatasetURI+a+dcat%3ADataset+%3B++++%0A+++dc%3Atitle+%3FDatasetTitle%3B+%0A+++dc%3Apublisher+%3FPublisher+%3B%0A+++++++dcat%3Adistribution+%3FResource.+%0A++++%0A+%0A%3FResource+dc%3Aformat+%3Fformat%3B%0A+++++++dcat%3AaccessURL+%3FaccessURL+.%0A+++++++OPTIONAL+%7B+%3FResource+dcat%3AdownloadURL+%3FdownloadURL.+%7D%0A+++++++%0A++%7D++%0A++BIND+(CONCAT(STR(%3FDatasetURI)%2C%22.rdf%22)+AS+%3FRDF+)%0A++BIND+(URI(%3FRDF)+AS+%3FRDFLink)%0A%7D&amp;contentTypeConstruct=text%2Fcsv&amp;contentTypeSelect=application%2Fsparql-results%2Bjson&amp;endpoint=https%3A%2F%2Fdata.europa.eu%2Feuodp%2Fsparqlep&amp;requestMethod=POST&amp;tabTitle=Query+3&amp;headers=%7B%7D&amp;outputFormat=table"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/02f1e3d3-19e1-4390-8ce6-9b5757723c22">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SPARQLQRES"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/en/linked-data#query=PREFIX+lemon%3A+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+dcat%3A++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0APREFIX+dc%3A++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX+lemon%3A+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23%3E%0APREFIX+nal%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fauthority%2F%3E%0A%0A%0ASELECT+%3FDatasetURI+%3FPublisher+%3FRDFLink+%3FaccessURL+%3FdownloadURL+%0AWHERE+%7Bgraph+%3Fg+%0A%0A%7B+%3FPublisher+a+skos%3AConcept+%3B%0A++skos%3AinScheme+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%3E%3B+%0A%09lemon%3Acontext%09%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fuse-context%2FODP%3E+%3B%0A+skos%3Abroader+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%2FEURUN%3E%3B%0A+nal%3Adeprecated+%22false%22.%0A%7D%0A%0A%0A%0A%7B%3FDatasetURI+a+dcat%3ADataset+%3B++++%0A+++dc%3Atitle+%3FDatasetTitle%3B+%0A+++dc%3Apublisher+%3FPublisher+%3B%0A+++++++dcat%3Adistribution+%3FResource.+%0A++++%0A+%0A%3FResource+dc%3Aformat+%3Fformat%3B%0A+++++++dcat%3AaccessURL+%3FaccessURL+.%0A+++++++OPTIONAL+%7B+%3FResource+dcat%3AdownloadURL+%3FdownloadURL.+%7D%0A+++++++%0A++%7D++%0A++BIND+(CONCAT(STR(%3FDatasetURI)%2C%22.rdf%22)+AS+%3FRDF+)%0A++BIND+(URI(%3FRDF)+AS+%3FRDFLink)%0A%7D&amp;contentTypeConstruct=text%2Fcsv&amp;contentTypeSelect=application%2Fsparql-results%2Bjson&amp;endpoint=https%3A%2F%2Fdata.europa.eu%2Feuodp%2Fsparqlep&amp;requestMethod=POST&amp;tabTitle=Query+3&amp;headers=%7B%7D&amp;outputFormat=table"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Datasets - EU Institutions and Bodies</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-open-data-portal-all-datasets-and-their-metadata">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5399"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/febb712e-d192-418b-8f65-cc60e59a1827"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1451"/>
+    <dcterms:title xml:lang="en">EU Open Data Portal - all datasets and their metadata</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2163"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_5ea6e5c4"/>
+    <dcterms:description xml:lang="en">This dataset contains a set of SPARQL queries used for extracting the datasets published by the Directorates-general of the European Commission, the EU Agencies or the other EU Institutions and Bodies. The query results contain a list of Dataset URIs with, for each dataset,  a link to the Dataset RDF representation  as well as the access or download URLs of the resources distributed in the dataset.&#13;
+</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/40914b4f-b18b-4607-b754-918f401bf8fe"/>
+    <dcatapop:ckanName>eu-open-data-portal-all-datasets-and-their-metadata</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/02f1e3d3-19e1-4390-8ce6-9b5757723c22"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5769"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/bd72e5dc-e08f-4d2e-abed-12ace9be0ace"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4038"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/712e5fed-f3b8-44b7-b6c1-9ff8adc758f6"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d4615b6c-533e-453b-abcb-b241825216e9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/febb712e-d192-418b-8f65-cc60e59a1827">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SPARQLQRES"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/en/linked-data#query=PREFIX+lemon%3A+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+dcat%3A++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0APREFIX+dc%3A++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX+lemon%3A+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23%3E%0APREFIX+nal%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fauthority%2F%3E%0A+%0ASELECT+%3FDatasetURI+%3FPublisher+%3FRDFLink+%3FaccessURL+%3FdownloadURL+%0AWHERE+%7Bgraph+%3Fg+%0A%0A%7B+%3FPublisher+a+skos%3AConcept+%3B%0A++skos%3AinScheme+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%3E%3B+%0A++lemon%3Acontext%09%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fuse-context%2FODP%3E+%3B%0A+skos%3Abroader+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%2FEURAG%3E%3B%0A+nal%3Adeprecated+%22false%22.%0A%7D%0A%0A%7B%3FDatasetURI+a+dcat%3ADataset+%3B++++%0A+++dc%3Atitle+%3FDatasetTitle%3B+%0A+++dc%3Apublisher+%3FPublisher+%3B%0A+++++++dcat%3Adistribution+%3FResource.+%0A++++%0A+%3FResource+dc%3Aformat+%3Fformat%3B%0A++++dcat%3AaccessURL+%3FaccessURL+.%0A+OPTIONAL+%7B+%3FResource+dcat%3AdownloadURL+%3FdownloadURL.+%7D%0A+++++++%0A++%7D++%0A++BIND+(CONCAT(STR(%3FDatasetURI)%2C%22.rdf%22)+AS+%3FRDF+)%0A++BIND+(URI(%3FRDF)+AS+%3FRDFLink)%0A%7D%0A&amp;contentTypeConstruct=text%2Fcsv&amp;contentTypeSelect=application%2Fsparql-results%2Bjson&amp;endpoint=https%3A%2F%2Fdata.europa.eu%2Feuodp%2Fsparqlep&amp;requestMethod=POST&amp;tabTitle=Query+3&amp;headers=%7B%7D&amp;outputFormat=table"/>
+    <dcterms:title xml:lang="en">Datasets - EU Agencies</dcterms:title>
+    <dcterms:description xml:lang="en">test</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/712e5fed-f3b8-44b7-b6c1-9ff8adc758f6">
+    <schema:url>https://data.europa.eu/euodp/en/home</schema:url>
+    <dcterms:title xml:lang="en">title_https://data.europa.eu/euodp/en/home</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-open-data-portal-all-datasets-and-their-metadata"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/40914b4f-b18b-4607-b754-918f401bf8fe">
+    <dcterms:title xml:lang="en">Number of datasets per EU publisher</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu/euodp/repository/ec/publ/ODP_DATASETS_CATALOGUE_6.html"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b4995940-c8f4-4367-89fe-8e8233967602">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>https://data.europa.eu/euodp/en/contact</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/bd72e5dc-e08f-4d2e-abed-12ace9be0ace">
+    <vcard:organisation-name>EU Open Data Portal</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b4995940-c8f4-4367-89fe-8e8233967602"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

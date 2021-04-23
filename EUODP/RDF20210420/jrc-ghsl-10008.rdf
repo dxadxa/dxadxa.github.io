@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/aa529300-e0ed-4a14-bd18-68bdce06620c">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_BUILT_S1NODSM_GLOBE_R2018A/GHS_BUILT_S1NODSM_GLOBE_R2018A_3857_20/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">GHS_BUILT_S12016NODSM_GLOBE_R2018A</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">The grid is provided as a VRT file (with GeoTIFF tiles), and with pyramids. Classification map depicting built-up presence: 0 = no built-up or no data; 1 = built-up area. Spatial resolution: 20m; CRS: EPSG:3857 (Pseudo Mercator).</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/eb20e8bc-ea4c-490d-84bb-5e479e943f71">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-ghsl-10008</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10008"/>
+    <schema:url>http://data.europa.eu/89h/jrc-ghsl-10008</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bdd38cbd-edff-41b3-bca7-36c234e4d81c">
+    <dcterms:description xml:lang="en">Pesaresi M; Syrris V; Julea A. A New Method for Earth Observation Data Analytics Based on Symbolic Machine Learning. REMOTE SENSING 8 (5); 2016. p. 399. JRC99747</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">A New Method for Earth Observation Data Analytics Based on Symbolic Machine Learning</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://doi.org/10.3390/rs8050399</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-ghsl-10008">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Regions and cities</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ae657c23-0c88-441d-8b6d-3a6251015bae"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/fb8de801-e94d-4473-81fd-9dffb16c7639"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/aa529300-e0ed-4a14-bd18-68bdce06620c"/>
+    <dcterms:identifier>jrc-ghsl-10008</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bdd38cbd-edff-41b3-bca7-36c234e4d81c"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/eb20e8bc-ea4c-490d-84bb-5e479e943f71"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">GHS built-up grid, derived from Sentinel-1 (2016), R2018A</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ae6ef18f-799f-46c1-a4a9-9a2f085b9521"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-18</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcatapop:ckanName>jrc-ghsl-10008</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Information layer on the presence of built-up surfaces derived from global Sentinel-1 Synthetic Aperture Radar (SAR) satellite data, collected during 2016. The native spatial resolution of the data is 20 meters with a pixel spacing of 10 meters and dual polarisation acquisitions (VV and VH). The data was processed by fully automatic and reproducible methods based on statistical learning (Symbolic Machine Learning). No manual or ad-hoc rule-based editing of the results was applied in the post-processing. The product it is provided with a spatial resolution of 20 meters.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/bd1d7fc1-bafe-4e95-bc8a-1ed9140d057d">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">388</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:51:22</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10008"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-30 05:19:27.064268</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ae6ef18f-799f-46c1-a4a9-9a2f085b9521">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Corban, C., Pesaresi, M., Politis, P., Syrris, V., Florczyk, A., Soille, P., Maffenini, L., Burger, A., Vasilev, V., Rodriguez Aseretto, R., Sabo, F., Dijkstra, L. and Kemper, T., Big Earth Data Analytics on Sentinel-1 and Landsat imagery in support to global human settlements mapping, In: Big Earth Data, 2017, ISSN 2096-4471, 1 (1-2), p. 118-144, JRC108814.</dcterms:description>
+    <dcterms:title xml:lang="en">Big Earth Data Analytics on Sentinel-1 and Landsat imagery in support to global human settlements mapping</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10008"/>
+    <schema:url xml:lang="en">https://doi.org/10.1080/20964471.2017.1397899</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5c134618-7144-40a4-b219-07ef4aba4da0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ae657c23-0c88-441d-8b6d-3a6251015bae">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ghsl-10008"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://ghsl.jrc.ec.europa.eu/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/fb8de801-e94d-4473-81fd-9dffb16c7639">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/5c134618-7144-40a4-b219-07ef4aba4da0"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-ghsl-data@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

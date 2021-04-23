@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/6380e2fb-90be-4fd1-9089-f870125d17f8">
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="mailto:stefan.storcksdieck@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c602f950-a850-4366-a91d-fceff1aeed79">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/82dc713d-d501-4107-8eee-d056518db9bd"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-31T02:50:08</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:54:14</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/82dc713d-d501-4107-8eee-d056518db9bd">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/84b50a9e-1a54-4fb6-bc2a-8145c60a02ac"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">prevention</dcat:keyword>
+    <dcat:keyword xml:lang="en">lifestyle education</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9fc51c26-a1e3-430e-bfa9-2092671e78a6"/>
+    <dcterms:identifier>82dc713d-d501-4107-8eee-d056518db9bd</dcterms:identifier>
+    <dcterms:description xml:lang="en">Overview of European school food policies and their key features, validated by Member States. The database can be made available upon request, whereas the summary report is freely downloadable.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/blanknode#__Ndc5a2f022c62404a825764d92b36aa0b"/>
+    <dcat:keyword xml:lang="en">school food policy</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">healthy eating</dcat:keyword>
+    <dcatapop:ckanName>european-national-school-food-policy-database</dcatapop:ckanName>
+    <dcterms:identifier>http://data.europa.eu/89h/82dc713d-d501-4107-8eee-d056518db9bd</dcterms:identifier>
+    <dcat:keyword xml:lang="en">childhood obesity</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/beb9462b-d1da-4659-8dc1-22aa8e010eb0"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/6380e2fb-90be-4fd1-9089-f870125d17f8"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</dcterms:issued>
+    <dcterms:title xml:lang="en">European national school food policy database</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/beb9462b-d1da-4659-8dc1-22aa8e010eb0">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">School food policy country factsheets</dcterms:title>
+    <dcterms:description xml:lang="en">In light of the growing childhood obesity epidemic, the European Commission and Member States have developed the EU Action Plan on Childhood Obesity 2014-2020. Supporting its implementation, the JRC has been facilitating knowledge exchange by mapping national school food policies and fostering stakeholder dialogue.
+
+To provide further insight into the various school food policies in place across Europe, the JRC has produced country factsheets that answer questions such as: what are the common objectives of school food policies in Europe? Which nutrient-based standards are used for lunch-time meals? Which countries restrict food marketing in schools, and how?
+
+Country by country, the factsheets give details about policy objectives, evaluation measures, food- and nutrient-based standards or guidelines, restrictions on vending services and food marketing in schools, and whether food and nutrition education is a mandatory part of the national curriculum. The information is complemented by key figures on population size and the prevalence of childhood overweight and obesity in different age groups.</dcterms:description>
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/jrc/en/publication/school-food-policy-country-factsheets"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9fc51c26-a1e3-430e-bfa9-2092671e78a6">
+    <schema:url>http://data.europa.eu/88u/dataset/82dc713d-d501-4107-8eee-d056518db9bd</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/82dc713d-d501-4107-8eee-d056518db9bd"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/82dc713d-d501-4107-8eee-d056518db9bd</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/84b50a9e-1a54-4fb6-bc2a-8145c60a02ac">
+    <schema:url>http://data.europa.eu/89h/82dc713d-d501-4107-8eee-d056518db9bd</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/82dc713d-d501-4107-8eee-d056518db9bd"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC">
+    <rdfs:label xml:lang="en">public</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

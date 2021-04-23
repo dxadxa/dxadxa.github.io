@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/72d633eb-a675-465e-9095-3f669a58b676">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00173.sdmx.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6d02acbf-7c2d-447f-9ebb-267b8976dcf1">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tps00173"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/23a2ef0d-ca9a-4080-99d1-f640f9d21200">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tps00173"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dC1cNzS5GJLqorSqKFvOQA">
+    <dcat:keyword xml:lang="en">pay</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/98f76c56-72d4-4944-b0cd-1ede5b11a92a"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:description xml:lang="de">Diese Tabelle enthält Daten zu den durchschnittlichen Arbeitskosten pro Stunde. Sie sind definiert als Gesamtarbeitskosten dividiert durch die entsprechende Anzahl der geleisteten Arbeitsstunden der durchschnittlichen jährlichen Anzahl der Beschäftigten in Vollzeitäquivalente. Arbeitskosten decken Löhne und Gehälter (D11) und Lohnnebenkosten (Arbeitgeberbeiträge zuzüglich Steuern abzüglich Subventionen: D12+D4-D5)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5f695f2e-ccba-4e95-8e2e-70d5ded8370b"/>
+    <dcat:keyword xml:lang="en">wage cost</dcat:keyword>
+    <dcterms:title xml:lang="en">Labour costs annual data - NACE Rev. 2</dcterms:title>
+    <dcterms:title xml:lang="de">Arbeitskosten - jährliche Daten - NACE Rev. 2</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/72d633eb-a675-465e-9095-3f669a58b676"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6d02acbf-7c2d-447f-9ebb-267b8976dcf1"/>
+    <dcterms:identifier>tps00173</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="en">This table contains data on Average hourly labour costs which are defined as total labour costs divided by the corresponding number of hours worked by the yearly average number of employees, expressed in full-time units." Labour Costs (D) cover Wages and Salaries (D11) and non-wage costs (Employers’ social contributions plus taxes less subsidies: D12+D4-D5)</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/1fa442d4-c7ad-49f1-b487-d5d7eb3417fb"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/23a2ef0d-ca9a-4080-99d1-f640f9d21200"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ed346c70-f9ae-48e4-872b-a1588e4922e9"/>
+    <dcterms:description xml:lang="fr">Cette table contient des données sur les coûts horaires moyens qui sont définis comme les coûts de main-d'oeuvre totaux divisés par le nombre correspondant d'heures travaillées par le nombre moyen annuel des employés, exprimés en unités de temps plein. Les coûts du travail (D) couvrent les salaires (D11) et les coûts non salariaux (cotisations sociales patronales plus impôts moins subventions : D12+D4-D5)</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1802"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8c4de016-09a3-44b3-a4ff-18717fa54391"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/589e06a6-a1f6-4861-bae1-0622ba6361cf"/>
+    <dcat:keyword xml:lang="en">wage</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ba347e1b-c573-49a5-9ae9-820bb7f5468e"/>
+    <dcatapop:ckanName>dC1cNzS5GJLqorSqKFvOQA</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="fr">Coût de la main d'oeuvre - données annuelles - NACE Rév. 2</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d9a2017b-a164-46a3-b6a2-dfb6c738d417">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dC1cNzS5GJLqorSqKFvOQA"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">782</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:32:45</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">754</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:01:15.777325</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ed346c70-f9ae-48e4-872b-a1588e4922e9">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dC1cNzS5GJLqorSqKFvOQA"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tps00173</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5f695f2e-ccba-4e95-8e2e-70d5ded8370b">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00173.tsv.gz&amp;unzip=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6307e981-5b8e-4d59-bb8d-0f3d32ccada2">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/1fa442d4-c7ad-49f1-b487-d5d7eb3417fb">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/98f76c56-72d4-4944-b0cd-1ede5b11a92a">
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tps00173"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8c4de016-09a3-44b3-a4ff-18717fa54391">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00173.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/d6d3aac7-958d-4ea7-be10-e74c59e2746f">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ba347e1b-c573-49a5-9ae9-820bb7f5468e">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tps00173</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tps00173</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dC1cNzS5GJLqorSqKFvOQA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/5f01e262-013b-41d1-9e98-19cceaf9cf31">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/589e06a6-a1f6-4861-bae1-0622ba6361cf">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/d6d3aac7-958d-4ea7-be10-e74c59e2746f"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/6307e981-5b8e-4d59-bb8d-0f3d32ccada2"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/5f01e262-013b-41d1-9e98-19cceaf9cf31"/>
+  </rdf:Description>
+</rdf:RDF>

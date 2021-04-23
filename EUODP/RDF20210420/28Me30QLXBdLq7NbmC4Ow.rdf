@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/62900977-cb18-46e1-8077-54e2d77a1569">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tin00153.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1b681120-c91d-459c-979b-85915cef5167">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7e06209e-57ff-4127-a24c-3b29e745fc0a">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tin00153.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/60b2a7b0-375d-4d7b-bc90-096c4ccfa2d4">
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tin00153"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e7c969c0-0cea-4aea-a369-1090d27fe8f3">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tin00153</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/28Me30QLXBdLq7NbmC4Ow"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/28Me30QLXBdLq7NbmC4Ow">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/60b2a7b0-375d-4d7b-bc90-096c4ccfa2d4"/>
+    <dcterms:description xml:lang="de">Die lohnbereinigte Arbeitsproduktivität ist ein Indikator für Arbeitsproduktivität aus der strukturellen Unternehmensstatistik. Er ist definiert als Wertschöpfung geteilt durch Personalkosten, mit einer anschließenden Anpassung an den Anteil der sozialversicherungspflichtig Beschäftigten an den insgesamt Beschäftigten. Oder einfacher ausgedrückt, die scheinbare Arbeitsproduktivität geteilt durch die durchschnittlichen Personalkosten (als Prozentsatz ausgedrückt). Da dieser Indikator auf den Ausgaben für Arbeitsinput ausgedrückt wird, und nicht als Zahl der Beschäftigten, ist er eher geeignet für die vergleichende Analyse zwischen Sektoren (oder Ländern), die sich hinsichtlich ihrer Anteile an Teilzeit-Beschäftigung oder freiberufliche Tätigkeit sehr unterschiedlich darstellen.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e7c969c0-0cea-4aea-a369-1090d27fe8f3"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/9a3ff059-a0cc-4e1c-937c-86b8d62852a5"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fe2fe07f-59ea-405c-8090-5e297ed469c6"/>
+    <dcatapop:ckanName>28Me30QLXBdLq7NbmC4Ow</dcatapop:ckanName>
+    <dcterms:title xml:lang="de">Lohnbereinigte Arbeitsproduktivität nach NACE Rev. 2</dcterms:title>
+    <dcat:keyword xml:lang="en">employment statistics</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9b05c757-0652-49d7-b776-b71e8a722b7e"/>
+    <dcterms:identifier>tin00153</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:title xml:lang="en">Wage adjusted labour productivity by NACE Rev. 2</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-08</dcterms:modified>
+    <dcterms:description xml:lang="fr">Le ratio de productivité du travail salaire ajusté est un indicateur de la productivité du travail dérivé à partir des statistiques structurelles sur les entreprises. Il est défini comme la valeur ajoutée divisée par les frais de personnel qui est ensuite ajusté par la part des salariés dans le nombre total de personnes occupées, ou plus simplement, de la productivité apparente du travail divisé par les coûts moyens de personnel (exprimé comme un ratio en termes de pourcentage). Étant donné que cet indicateur est basé sur les dépenses de main-d'œuvre plutôt que sur l'effectif de main-d'œuvre, il est plus pertinent pour les comparaisons entre les activités (ou pays) avec un effet très différent de l'emploi à temps partiel ou du travail indépendant.</dcterms:description>
+    <dcterms:title xml:lang="fr">Taux de productivité de la main-d'oeuvre ajustée par les salaires par NACE Rev. 2</dcterms:title>
+    <dcterms:description xml:lang="en">The wage-adjusted labour productivity ratio is an indicator of labour productivity that is derived from structural business statistics. It is defined as value added divided by personnel costs which is subsequently adjusted by the share of paid employees in the total number of persons employed, or more simply, apparent labour productivity divided by average personnel costs (expressed as a ratio in percentage terms). Given that this indicator is based on expenditure for labour input rather than a headcount of labour input, it is more relevant for comparisons across activities (or countries) with very different incidences of part-time employment or self-employment.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5909"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fa425596-a1ab-4f25-8ced-3238520f1ad7"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4470"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/98e0333f-de9f-4e71-a4ef-fdd92ca07968"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/00b2a03d-72c8-4936-a4f6-e7ae1f9dd74b"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7e06209e-57ff-4127-a24c-3b29e745fc0a"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/62900977-cb18-46e1-8077-54e2d77a1569"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d79fed94-76c4-4403-95e2-b69cb06fefba">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 10:47:25.402944</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:31:12</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2035</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/28Me30QLXBdLq7NbmC4Ow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/98e0333f-de9f-4e71-a4ef-fdd92ca07968">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1b681120-c91d-459c-979b-85915cef5167"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/7b338aa4-7961-4bc7-bc07-ed5616048371"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/0f6ed3ec-03f8-471c-bb09-ba38fd1ce467"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fa425596-a1ab-4f25-8ced-3238520f1ad7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tin00153.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9b05c757-0652-49d7-b776-b71e8a722b7e">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tin00153"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/00b2a03d-72c8-4936-a4f6-e7ae1f9dd74b">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tin00153</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tin00153</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/28Me30QLXBdLq7NbmC4Ow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fe2fe07f-59ea-405c-8090-5e297ed469c6">
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tin00153"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/9a3ff059-a0cc-4e1c-937c-86b8d62852a5">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/7b338aa4-7961-4bc7-bc07-ed5616048371">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/0f6ed3ec-03f8-471c-bb09-ba38fd1ce467">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

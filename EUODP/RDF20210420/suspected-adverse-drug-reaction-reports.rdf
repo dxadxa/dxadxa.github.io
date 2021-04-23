@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/da95e0c8-ad37-495d-b39e-d603d977601f">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/suspected-adverse-drug-reaction-reports"/>
+    <schema:url xml:lang="en">http://www.adrreports.eu/en/data_quality.html</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">data_quality.html</dcterms:description>
+    <dcterms:title xml:lang="en">Data quality</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/18a43843-3911-4d71-bd17-d6be98acf4fa">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/suspected-adverse-drug-reaction-reports"/>
+    <dcterms:title xml:lang="en">title_http://www.adrreports.eu/en/index.html</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://www.adrreports.eu/en/index.html</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/1facaee0-dc71-4a26-b036-ca504a506c46">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/bb960346-1efc-41e3-ac0e-aa264d863bf7"/>
+    <vcard:organisation-name>European Medicines Agency</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/851cb984-f096-4349-88b5-381b3f51e758">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2626</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-10-14T17:24:26</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2570</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/suspected-adverse-drug-reaction-reports"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-27 14:28:27.170944</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b8985598-a5f7-41f0-896e-3e41bd2e7145">
+    <dcterms:issued xml:lang="en">2014-03-04 14:09:26.504789</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEVELOP"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Online access to EudraVigilance  (European database of suspected adverse drug reaction reports)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://www.adrreports.eu/en/search.html#"/>
+    <dcterms:description xml:lang="en">Search for centrally authorised medicines, access to reports is granted both by the name of the medicine or the name of the active substance.  &#13;
+&#13;
+Search  for non-centrally authorised medicines, access is granted based on the name of the active substance only. </dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://www.adrreports.eu/en/search.html#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/suspected-adverse-drug-reaction-reports">
+    <dcterms:title xml:lang="en">European database of suspected adverse drug reaction reports (EudraVigilance)</dcterms:title>
+    <dcatapop:ckanName>suspected-adverse-drug-reaction-reports</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:keyword xml:lang="en">medicine safety</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2773"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 14:28:27.170944</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3730"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EMEA"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">The dataset provides data on suspected side-effects also known as suspected adverse drug reactions for authorised medicines in the European Economic Area (EEA).&#13;
+&#13;
+For centrally authorised medicines, access to reports is granted both by the name of the medicine or the name of the active substance. For non-centrally authorised medicines, access is granted based on the name of the active substance only. &#13;
+</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5916"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/1facaee0-dc71-4a26-b036-ca504a506c46"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:alternative xml:lang="en">Suspected ADR Reports</dcterms:alternative>
+    <dcat:keyword xml:lang="en">drug side effect</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-10 12:31:09.420914</dcterms:modified>
+    <dcterms:identifier>TBD</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/da95e0c8-ad37-495d-b39e-d603d977601f"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6904"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/18a43843-3911-4d71-bd17-d6be98acf4fa"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b8985598-a5f7-41f0-896e-3e41bd2e7145"/>
+    <dcat:keyword xml:lang="en">adverse drug reaction</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5fab8bdb-b779-42d5-93ad-056023b5b0bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bb960346-1efc-41e3-ac0e-aa264d863bf7">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>https://www.ema.europa.eu/en/about-us/contacts-european-medicines-agency</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5fab8bdb-b779-42d5-93ad-056023b5b0bb">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/suspected-adverse-drug-reaction-reports"/>
+    <schema:url xml:lang="en">http://www.adrreports.eu/en/data_source.html</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en">Data source</dcterms:description>
+    <dcterms:title xml:lang="en">Data source</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

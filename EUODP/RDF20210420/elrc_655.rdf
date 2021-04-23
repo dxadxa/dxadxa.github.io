@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_655">
+    <dcterms:title xml:lang="en">Parallel Global Voices (Greek - French) (Processed)</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4478"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcatapop:ckanName>elrc_655</dcatapop:ckanName>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ELL"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">Parallel Global Voices EL-FR is a parallel corpus generated from the Global Voices multilingual group of websites (http://globalvoices.org/), where volunteers publish and translate news stories in more than 40 languages. The original content from the Global Voices websites is available by the authors and publishers under a Creative Commons Attribution license. The original content was crawled in 2015-2016 and web documents were exported to XML by researchers at the Institute for Language and Speech Processing (http://www.ilsp.gr/). Crawled documents that were translations of each other were paired on the basis of their link information. After document pairing, sentence alignments were generated with the hunalign sentence aligner. This dataset contains one tmx file with alignments from 1945 el-fr document pairs.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-04-06</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/2aabc72f-391d-4d5b-968a-88c6bd7f166a"/>
+    <dcterms:identifier>ELRC_655</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fa3daf7e-8b84-4c0f-99ab-38ce95b20485"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/572ad3b4-3c88-4070-8dcd-0f1a4fa03142"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/572ad3b4-3c88-4070-8dcd-0f1a4fa03142">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_655</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_655"/>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_655</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fa3daf7e-8b84-4c0f-99ab-38ce95b20485">
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:description>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/parallel-global-voices-greek-french-processed/7168e0e6165411e8b7d400155d02670619d9294dbde8492e962feb48a8dd77f0/"/>
+    <dcterms:title xml:lang="en">Data archive containing files in the following formats: TMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d30df850-10c6-4f39-ba44-75b93ae367ae">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_655"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:45:25</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-11T12:55:25</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/2aabc72f-391d-4d5b-968a-88c6bd7f166a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

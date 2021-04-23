@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/e9a1ed87-bf95-4fff-bd9a-064a1ed79c3b">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/07d750bc-8de6-407f-a208-b5be7dc77a0c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/inn_cis11_finrd.tsv.gz"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/a21b6d9e-96ac-460b-9418-cb6ca759f9c5">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d6183542-b8fc-4dc5-9a6d-81484f068b75">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/AZPy6urtBrfOJWkDRzICYw"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-01-15T10:37:37</dcterms:issued>
+    <dcatapop:numberOfDownloads>0</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:05:40</dcterms:modified>
+    <dcatapop:numberOfViews>0</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/AZPy6urtBrfOJWkDRzICYw">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/07d750bc-8de6-407f-a208-b5be7dc77a0c"/>
+    <dcterms:identifier>inn_cis11_finrd</dcterms:identifier>
+    <dcterms:title xml:lang="de">Unternehmen, die Kredit- oder Beteiligungsfinanzierung für Forschung und Entwicklungs- (F&amp;E) oder andere Innovationsaktivitäten erhalten haben, nach NACE Rev. 2 Tätigkeit und Größenklasse</dcterms:title>
+    <dcterms:title xml:lang="fr">Entreprises ayant obtenu un financement par dettes ou par fonds propres pour recherche et développement (R&amp;D) ou d'autres activités innovantes par activité de la NACE Rév. 2 et classe de taille</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8310dfe1-5412-41d0-be64-4d233ff25368"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcatapop:ckanName>AZPy6urtBrfOJWkDRzICYw</dcatapop:ckanName>
+    <dcterms:description xml:lang="fr">Entreprises ayant obtenu un financement par dettes ou par fonds propres pour recherche et développement (R&amp;D) ou d'autres activités innovantes par activité de la NACE Rév. 2 et classe de taille</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d9a0ba2f-0d67-4b12-b60b-b1592d37cb73"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f7ba07af-8512-4093-8f5b-d98e2bec1a1d"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/e9a1ed87-bf95-4fff-bd9a-064a1ed79c3b"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-14</dcterms:modified>
+    <dcterms:description xml:lang="en">Enterprises that obtained debt or equity finance for R&amp;D or other innovation activities by NACE Rev. 2 activity and size class</dcterms:description>
+    <dcterms:description xml:lang="de">Unternehmen, die Kredit- oder Beteiligungsfinanzierung für Forschung und Entwicklungs- (F&amp;E) oder andere Innovationsaktivitäten erhalten haben, nach NACE Rev. 2 Tätigkeit und Größenklasse</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/14ac54c9-7036-49a3-8ebd-3afceb206d9c"/>
+    <dcterms:title xml:lang="en">Enterprises that obtained debt or equity finance for R&amp;D or other innovation activities by NACE Rev. 2 activity and size class</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d4d110c7-ddc9-422e-9274-57c3f2d7b05d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4177c717-3e24-42aa-b874-f6a0596c1d52">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/c5dc4794-9a66-49d0-9ea4-11b1ce8eb4ba">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d9a0ba2f-0d67-4b12-b60b-b1592d37cb73">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/inn_cis11_finrd.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f7ba07af-8512-4093-8f5b-d98e2bec1a1d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/AZPy6urtBrfOJWkDRzICYw"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/inn_cis11_finrd</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d4d110c7-ddc9-422e-9274-57c3f2d7b05d">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/4177c717-3e24-42aa-b874-f6a0596c1d52"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/c5dc4794-9a66-49d0-9ea4-11b1ce8eb4ba"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/a21b6d9e-96ac-460b-9418-cb6ca759f9c5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8310dfe1-5412-41d0-be64-4d233ff25368">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/inn_cis11_finrd.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/14ac54c9-7036-49a3-8ebd-3afceb206d9c">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/inn_cis11_finrd</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/inn_cis11_finrd</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/AZPy6urtBrfOJWkDRzICYw"/>
+  </rdf:Description>
+</rdf:RDF>

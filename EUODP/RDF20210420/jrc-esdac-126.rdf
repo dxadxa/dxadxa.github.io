@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-126">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">soil organic carbon</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/904973a5-a7ca-46a0-a41b-15a06b27a4cb"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/585c5c73-c91b-491f-9451-c8c590f941c6"/>
+    <dcatapop:ckanName>carbon-mitigation-potential-and-radiative-agricultural-land-management</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6629726c-3c20-4aac-a7b4-3b1cb3708758"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/100151"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ae95e648-22c7-4666-afeb-98666aa3fb18"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:identifier>jrc-esdac-126</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:description xml:lang="en">Maximising climate mitigation potential by carbon and radiative agricultural land management with cover crops</dcterms:description>
+    <dcterms:title xml:lang="en">Carbon mitigation potential and radiative agricultural land management</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-08</dcterms:modified>
+    <dcterms:identifier>http://data.europa.eu/89h/jrc-esdac-126</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ae95e648-22c7-4666-afeb-98666aa3fb18">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-126"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-126</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6629726c-3c20-4aac-a7b4-3b1cb3708758">
+    <schema:url>http://data.europa.eu/88u/dataset/jrc-esdac-126</schema:url>
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-126"/>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/jrc-esdac-126</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/585c5c73-c91b-491f-9451-c8c590f941c6">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>
+    <dcterms:description xml:lang="en">Carbon mitigation potential and radiative agricultural land management</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/carbon-mitigation-potential-and-radiative-agricultural-land-management"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Carbon mitigation potential and radiative agricultural land management</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/RESTRICTED">
+    <rdfs:label xml:lang="en">restricted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1eab5e46-864e-40cd-ab4a-985fced02989">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-126"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:02:35</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T15:20:01</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/904973a5-a7ca-46a0-a41b-15a06b27a4cb">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="mailto:ec-esdac@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+  </rdf:Description>
+</rdf:RDF>

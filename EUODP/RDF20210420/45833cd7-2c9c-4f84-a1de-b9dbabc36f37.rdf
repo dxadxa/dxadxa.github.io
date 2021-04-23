@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b4139962-fd8c-4e19-86ba-f9797f92c025">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/22afb2a0-a29f-46df-812b-3552274a0f56">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/45833cd7-2c9c-4f84-a1de-b9dbabc36f37"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://abc-is.jrc.ec.europa.eu/</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c1f2fa46-fe92-4f03-acaa-4440d281bf52">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:10:17</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/45833cd7-2c9c-4f84-a1de-b9dbabc36f37"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:10:17</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4c763e26-24cf-49da-b6bd-293bca6ccde1">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/45833cd7-2c9c-4f84-a1de-b9dbabc36f37</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/45833cd7-2c9c-4f84-a1de-b9dbabc36f37</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/45833cd7-2c9c-4f84-a1de-b9dbabc36f37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/45833cd7-2c9c-4f84-a1de-b9dbabc36f37">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/22afb2a0-a29f-46df-812b-3552274a0f56"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-27</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:identifier>45833cd7-2c9c-4f84-a1de-b9dbabc36f37</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4c763e26-24cf-49da-b6bd-293bca6ccde1"/>
+    <dcterms:title xml:lang="en">GreenHouse Gases Concentration - 2020</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>45833cd7-2c9c-4f84-a1de-b9dbabc36f37</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d34832c0-f7fc-4b0f-92cf-6fbdeda07734"/>
+    <dcterms:description xml:lang="en">Measurement of atmospheric concentration of GreenHouse Gases (carbon dioxide, methane).</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b6f0a0d3-c616-46fe-a7e4-0070c1c44942"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d34832c0-f7fc-4b0f-92cf-6fbdeda07734">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/ABCIS/GreenHouseGases/Ver2020-01-01/JRC_NRT_GHG_2020.CSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Not validated, Near-Real-Time, hourly averages of GreenHouse gas atmospheric concentration measured at the European Commission Atmospheric Observatory in Ispra (Italy). No QA/QC applied. The GreenHouse gases measured are carbon dioxide (CO2) and methane (CH4). Gases are measured at three heights above ground level: 40 m , 60 m and 100 m. Time is UTC and refers to the end of the averaging period. Data stored in one file, daily updated.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:title xml:lang="en">NRT measurement of GreenHouse Gas atmospheric concentration in Ispra</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b6f0a0d3-c616-46fe-a7e4-0070c1c44942">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b4139962-fd8c-4e19-86ba-f9797f92c025"/>
+    <vcard:hasEmail rdf:resource="giovanni.manca@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+</rdf:RDF>

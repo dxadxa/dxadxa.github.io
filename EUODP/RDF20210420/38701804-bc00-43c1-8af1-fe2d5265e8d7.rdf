@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c70d76be-d2d9-4f20-8737-b6f4460d293c">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:02:27</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/38701804-bc00-43c1-8af1-fe2d5265e8d7"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:02:27</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/38701804-bc00-43c1-8af1-fe2d5265e8d7">
+    <dcatapop:ckanName>38701804-bc00-43c1-8af1-fe2d5265e8d7</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-23</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a78f50d3-4a05-48e7-bc48-145f9003f33a"/>
+    <dcterms:identifier>38701804-bc00-43c1-8af1-fe2d5265e8d7</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/33a63ce0-a2d8-4426-941b-293b7bb77a3f"/>
+    <dcat:keyword xml:lang="en">Economy and finance</dcat:keyword>
+    <dcterms:description xml:lang="en">The EURL ECVAM Genotoxicity and Carcinogenicity Consolidated Database is a structured master database that compiles available genotoxicity and carcinogenicity information, originating from different sources, for substances tested in the bacterial reverse mutation test (Ames test). 
+The JRC presents here a new curated collection of 211 substances eliciting negative results in the Ames test. The collection adds to the previously published EURL ECVAM Genotoxicity and Carcinogenicity Consolidated Database of Ames positive substances (https://data.jrc.ec.europa.eu/dataset/jrc-eurl-ecvam-genotoxicity-carcinogenicity-ames) that has become, over the years, a reference for a number of activities in the area of genotoxicity testing across different product-type sectors, including regulatory initiatives, exploratory projects, development of testing strategies, and validation of new genotoxicity tests. 
+Detailed information on the data and construction of the database are reported in Madia et al. 2020 https://doi.org/10.1016/j.mrgentox.2020.503199, recently published in Mutation Research - Genetic Toxicology and Environmental Mutagenesis journal.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b7934129-5252-473b-b617-7ac0e72e2288"/>
+    <dcterms:title xml:lang="en">EURL ECVAM Genotoxicity and Carcinogenicity Consolidated Database of Ames Negative Chemicals</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cb607cad-8581-49dd-b4a1-49c816a1800a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4a9eaaf9-bff6-48fb-923b-cb8f097b0dbf">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a78f50d3-4a05-48e7-bc48-145f9003f33a">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/4a9eaaf9-bff6-48fb-923b-cb8f097b0dbf"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="raffaella.corvi@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cb607cad-8581-49dd-b4a1-49c816a1800a">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">EURL ECVAM Genotoxicity and Carcinogenicity Consolidated Database of Ames Negative Chemicals</dcterms:title>
+    <dcterms:description xml:lang="en">By using a harmonised format to capture the information, the database now contains information of available in vitro and in vivo genotoxicity, and carcinogenicity results for 211 substances. 
+All the substances are defined by Chemical name, CAS number, InChiKey code, Smile and log P and available results for the following tests:
+in vitro genotoxicity: mouse lymphoma Tk+/− mutation assay and Hprt mutation assay (MCGM), micronucleus test (MNvit) and chromosome aberration test (CAvit). 
+in vivo genotoxicity: micronucleus test (MNviv), chromosome aberration test (CAviv), transgenic rodent study (TGR), unscheduled DNA synthesis (UDSviv), Cometviv (DNA damage including comet and alkaline elution). 
+Carcinogenicity: rodent carcinogenicity and IARC classification where assigned.
+In addition, the database contains list of consulted sources and references.
+Detailed information on the data and construction of the database are reported in Madia et al. 2020 https://doi.org/10.1016/j.mrgentox.2020.503199, recently published in Mutation Research - Genetic Toxicology and Environmental Mutagenesis journal.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://onedrive.live.com/download?cid=341816D8BFC4C985&amp;resid=341816D8BFC4C985%21420&amp;authkey=AF0ieT491Vhnu2U&amp;em=2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b7934129-5252-473b-b617-7ac0e72e2288">
+    <dcterms:description xml:lang="en">The bacterial reverse mutation test (Ames test) is the most commonly used genotoxicity test; it is a primary component of the chemical safety assessment data required by regulatory agencies worldwide. Within the current accepted in vitro genotoxicity test battery, it is considered capable of revealing DNA reactivity, and identifying substances that can produce gene mutations via different mechanisms. The previously published consolidated EURL ECVAM Genotoxicity and Carcinogenicity Database, which includes substances that elicited a positive response in the Ames test, constitutes a collection of data that serves as a reference for a number of regulatory activities in the area of genotoxicity testing. Consequently, we considered it important to expand the database to include substances that fail to elicit a positive response in the Ames test, i.e., Ames negative substances. Here, we describe a curated collection of 211 Ames negative substances, with a summary of complementary data available for other genotoxicity endpoints in vitro and in vivo, plus available carcinogenicity data. A descriptive analysis of the data is presented. This includes a representation of the chemical space formed by the Ames-negative database with respect to other substances (e.g. REACH registered substances, approved drugs, pesticides, etc.) and a description of the organic functional groups found in the database. We also provide some suggestions on further analyses that could be made.</dcterms:description>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.mrgentox.2020.503199</schema:url>
+    <dcterms:title xml:lang="en">EURL ECVAM Genotoxicity and Carcinogenicity Database of Substances Eliciting Negative Results in the Ames Test: Construction of the Database</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/38701804-bc00-43c1-8af1-fe2d5265e8d7"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/33a63ce0-a2d8-4426-941b-293b7bb77a3f">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/38701804-bc00-43c1-8af1-fe2d5265e8d7</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/38701804-bc00-43c1-8af1-fe2d5265e8d7</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/38701804-bc00-43c1-8af1-fe2d5265e8d7"/>
+  </rdf:Description>
+</rdf:RDF>

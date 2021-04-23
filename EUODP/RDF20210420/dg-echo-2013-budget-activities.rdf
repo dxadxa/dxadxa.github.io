@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dg-echo-2013-budget-activities">
+    <dcterms:description xml:lang="en">The European Emergency Disaster Response Information System (EDRIS) contains Humanitarian Aid activity report for all activities financed by the European Commission budget through Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO). &#13;
+&#13;
+This dataset contains reports for the year 2013.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHO"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1005"/>
+    <dcatapop:ckanName>dg-echo-2013-budget-activities</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5873"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/1bc47d59-bcf1-4c06-88ea-167d7c652456"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:datasetGroup rdf:resource="transparency"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/fa558e7c-f5c5-4912-ae69-b62342f8b0b0"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0b054bb4-b422-46c0-81a4-b04e772a9400"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c7775978-55e6-423e-9969-f8b15d80767c"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3074"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/da4568ab-2dbd-4423-95d2-5f8770d29126"/>
+    <dcterms:title xml:lang="en">Humanitarian aid financed by the 2013 EC budget through DG ECHO</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e685e693-ee40-4b84-b559-67a2557b1e28"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/862"/>
+    <dcatapop:datasetGroup rdf:resource="eu-budget-and-spending"/>
+    <dcterms:isPartOf rdf:resource="https://data.europa.eu/euodp/en/data/dataset/edris-european-emergency-disaster-response-information-system"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/790058dd-3ed1-4cc5-a35d-efa7e2275038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fa558e7c-f5c5-4912-ae69-b62342f8b0b0">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dg-echo-2013-budget-activities"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://www.iatiregistry.org/dataset/ec-echo-2013</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://www.iatiregistry.org/dataset/ec-echo-2013</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/790058dd-3ed1-4cc5-a35d-efa7e2275038">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">CSV conversion tool</dcterms:title>
+    <dcat:accessURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//webgate.ec.europa.eu/hac/IATI/ec-echo-2013.xml"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">CSV conversion tool available offering the option to either (1) select the data to convert (from IATI registry) or (2) select among THREE available CSV serialisations of IATI data:&#13;
+(a) Simple activity summary (CSV).&#13;
+Top-level information with a row for each aid activity. Total figures for each type of transaction. Sector codes are included as a ';' separated list. Useful for basic research.&#13;
+(b) Full activity data (CSV).&#13;
+Full flattened version of each IATI Activity record - one row per activity. Where multiple values exist for a column (e.g. multiple sectors, or many transactions) these are separated by ';'.&#13;
+(c) All transactions (CSV).&#13;
+Detailed list of all transactions, with currencies, amounts and classifications with a row for each transaction.</dcterms:description>
+    <dcat:downloadURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//webgate.ec.europa.eu/hac/IATI/ec-echo-2013.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/1bc47d59-bcf1-4c06-88ea-167d7c652456">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-01T00:00:00</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/da4568ab-2dbd-4423-95d2-5f8770d29126">
+    <schema:url xml:lang="en">https://webgate.ec.europa.eu/hac/listReport/Documentations_export_xml_V1.1.doc</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dg-echo-2013-budget-activities"/>
+    <dcterms:title xml:lang="en">Learn how to manage XML data in Excel</dcterms:title>
+    <dcterms:description xml:lang="en">A step-by-step guide on how to export XML from within EDRIS and how to load it into Excel (including description and screenshots).</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DOC"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e33ea278-fe44-454f-b953-5eacd79f5fb6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">635</dcatapop:numberOfViews>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dg-echo-2013-budget-activities"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29 16:52:37.512321</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-07-15T18:40:01</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0b054bb4-b422-46c0-81a4-b04e772a9400">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">The URL address provides access to the rich raw data.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:downloadURL rdf:resource="https://webgate.ec.europa.eu/hac/IATI/ec-echo-2013.xml"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/hac/IATI/ec-echo-2013.xml"/>
+    <dcterms:title xml:lang="en">Humanitarian aid financed by the 2013 EC budget through DG ECHO</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e685e693-ee40-4b84-b559-67a2557b1e28">
+    <vcard:hasEmail rdf:resource="ECHO-HOLIS@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/97a1baec-9fa3-42dc-9e2b-0b011898bd9a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c7775978-55e6-423e-9969-f8b15d80767c">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:accessURL rdf:resource="https://euaidexplorer.ec.europa.eu/"/>
+    <dcterms:title xml:lang="en">EU Aid Explorer</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/97a1baec-9fa3-42dc-9e2b-0b011898bd9a">
+    <schema:url>https://ec.europa.eu/echo/contact_en</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

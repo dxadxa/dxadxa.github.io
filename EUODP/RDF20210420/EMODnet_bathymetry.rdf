@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="period_of_time-8020a065-854b-450d-9dc1-c69dd5f5a0c0">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-31T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1830-01-01T00:00:00</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/EMODnet_bathymetry">
+    <dcat:keyword xml:lang="en">Madeira</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:keyword xml:lang="en">Gravity</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4172"/>
+    <dcat:keyword xml:lang="en">English Channel</dcat:keyword>
+    <dcat:keyword xml:lang="en">ocean depth</dcat:keyword>
+    <dcat:keyword xml:lang="en">Elevation</dcat:keyword>
+    <dcat:keyword xml:lang="en">EMODnet</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5736"/>
+    <dcat:keyword xml:lang="en">Canary Islands</dcat:keyword>
+    <dcat:keyword xml:lang="en">Baltic Sea</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d70dae3b-ad7b-4db0-9400-83db9bc49de2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2114"/>
+    <dcat:keyword xml:lang="en">Aegean Sea</dcat:keyword>
+    <dcat:keyword xml:lang="en">Norvegian Sea</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-10 15:54:32.890623</dcterms:issued>
+    <dcat:keyword xml:lang="en">Iceland Sea</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a1a06301-e702-4d24-96f9-428d62a779b1"/>
+    <dcat:keyword xml:lang="en">Digital Terrain Model</dcat:keyword>
+    <dcat:keyword xml:lang="en">Seabed</dcat:keyword>
+    <dcat:keyword xml:lang="en">Black Sea</dcat:keyword>
+    <dcat:keyword xml:lang="en">Administration and dimensions</dcat:keyword>
+    <dcat:keyword xml:lang="en">Bay of Biscay</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1871"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/38ae2945-128e-44e7-b8a4-2e8e6caf7bbb"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ddb227d8-6e53-4c64-bce6-3503e5da1708"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/940"/>
+    <dcterms:identifier>c7b53704-999d-4721-b1a3-04ec60c87238</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">North Sea</dcat:keyword>
+    <dcat:keyword xml:lang="en">Terrestrial</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2107"/>
+    <dcat:keyword xml:lang="en">DTM</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1f47ed06-f8c3-42f8-8f56-54fbcd6b315e"/>
+    <dcat:keyword xml:lang="en">Reference numbers</dcat:keyword>
+    <dcterms:description xml:lang="en">The "EMODnet Digital Bathymetry (DTM)" is a multilayer bathymetric product for Europe’s sea basins covering::&#13;
+• the Greater North Sea, including the Kattegat and stretches of water such as Fair Isle, Cromarty, Forth, Forties, Dover, Wight, and Portland&#13;
+• the English Channel and Celtic Seas&#13;
+• Western and Central Mediterranean Sea and Ionian Sea&#13;
+• Bay of Biscay, Iberian coast and North-East Atlantic&#13;
+• Adriatic Sea&#13;
+• Aegean - Levantine Sea (Eastern Mediterranean)&#13;
+• Azores - Madeira EEZ&#13;
+• Canary Islands&#13;
+• Baltic Sea&#13;
+• Black Sea&#13;
+• Norwegian – Icelandic seas&#13;
+&#13;
+The DTM is based upon more than 7700 bathymetric survey data sets and Composite DTMs that have been gathered from 27 data providers from 18 European countries and involving 169 data originators. The gathered survey data sets can be discovered and requested for access through the Common Data Index (CDI) data discovery and access service that also contains additional European survey data sets for global waters. The Composite DTMs can be discovered through the Sextant Catalogue service. Both discovery services make use of SeaDataNet standards and services and have been integrated in the EMODnet Bathymetry web portal (http://www.emodnet-bathymetry.eu). In addition, the Bathymetry Viewing and Download service of the EMODnet bathymetry portal gives users wide functionality for viewing and downloading the EMODnet digital bathymetry such as:&#13;
+• water depth (refering to the Lowest Astronomical Tide Datum - LAT) in gridded form &#13;
+on a DTM grid of 1/8 * 1/8 arc minute of longitude and latitude (ca 230 * 230 meters)&#13;
+• option to view depth parameters of individual DTM cells and references to source data&#13;
+• option to download DTM in 16 tiles in different formats: ESRI ASCII, XYZ, EMODnet CSV, NetCDF (CF), GeoTiff and SD&#13;
+• layer with a number of high resolution DTMs for coastal regions&#13;
+• layer with wrecks from the UKHO Wrecks database.&#13;
+The NetCDF (CF) DTM files are fit for use in a special 3D Viewer software package which is based on the existing open source NASA World Wind JSK application. It has been developed in the frame of the EU FP7 Geo-Seas project (another sibling of SeaDataNet for marine geological and geophysical data) and is freely available. The 3D viewer also supports the ingestion of WMS overlay maps. The SD files can also be used for 3D viewing by means of the freely available iView4De(Fledermaus) software.&#13;
+&#13;
+The original datasets themselves are not distributed but described in the metadata services, giving clear information about the background survey data used for the DTM, their access restrictions, originators and distributors and facilitating requests by users to originator.</dcterms:description>
+    <dcat:keyword xml:lang="en">Metadata parameters</dcat:keyword>
+    <dcat:keyword xml:lang="en">Celtic Seas</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d2388b17-3017-48ad-86b4-4cc0090b4bcb"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/MAPPING"/>
+    <dcatapop:ckanName>EMODnet_bathymetry</dcatapop:ckanName>
+    <dcterms:temporal rdf:resource="period_of_time-8020a065-854b-450d-9dc1-c69dd5f5a0c0"/>
+    <dcat:keyword xml:lang="en">magnetics and bathymetry</dcat:keyword>
+    <dcat:keyword xml:lang="en">Bathymetry</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2110"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5221"/>
+    <dcat:keyword xml:lang="en">Azores</dcat:keyword>
+    <dcat:keyword xml:lang="en">Bathymetry and Elevation</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4d05a05b-6d15-4481-8f4d-8624a48ee662"/>
+    <dcat:keyword xml:lang="en">Adriatic Sea</dcat:keyword>
+    <dcat:keyword xml:lang="en">seafloor depth</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1877"/>
+    <dcterms:title xml:lang="en">EMODnet Digital Bathymetry (DTM)</dcterms:title>
+    <dcat:keyword xml:lang="en">Mediterranean Sea</dcat:keyword>
+    <dcat:keyword xml:lang="en">North-East Atlantic</dcat:keyword>
+    <owl:versionInfo></owl:versionInfo>
+    <dcat:keyword xml:lang="en">bathymetric data</dcat:keyword>
+    <dcterms:alternative xml:lang="en">Mean depth full coverage with land coverage</dcterms:alternative>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1d73723f-9612-4f0d-87b6-6eead5f2ce28"/>
+    <dcterms:modified>2018-08-28 08:18:31.776703</dcterms:modified>
+    <dcat:keyword xml:lang="en">European seas</dcat:keyword>
+    <dcat:keyword xml:lang="en">grid</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4d05a05b-6d15-4481-8f4d-8624a48ee662">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://sextant.ifremer.fr/geonetwork/srv/eng/xml.metadata.get?uuid=c7b53704-999d-4721-b1a3-04ec60c87238</dcterms:title>
+    <schema:url>https://sextant.ifremer.fr/geonetwork/srv/eng/xml.metadata.get?uuid=c7b53704-999d-4721-b1a3-04ec60c87238</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/819c97f2-0b5a-42ea-a353-dd836ae1453e">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/819c97f2-0b5a-42ea-a353-dd836ae1453e</dcterms:title>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://www.ifremer.fr/sismer/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d70dae3b-ad7b-4db0-9400-83db9bc49de2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ows.emodnet-bathymetry.eu/wcs?service=wcs&amp;version=1.0.0&amp;request=getcoverage&amp;coverage=emodnet:mean&amp;crs=EPSG:4326&amp;BBOX=15,20.5,30,32.5&amp;format=image/tiff&amp;interpolation=nearest&amp;resx=0.00208333&amp;resy=0.00208333"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:title xml:lang="en">Web coverage service (OGC WCS)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TIFF"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:downloadURL rdf:resource="http://ows.emodnet-bathymetry.eu/wcs?service=wcs&amp;version=1.0.0&amp;request=getcoverage&amp;coverage=emodnet:mean&amp;crs=EPSG:4326&amp;BBOX=15,20.5,30,32.5&amp;format=image/tiff&amp;interpolation=nearest&amp;resx=0.00208333&amp;resy=0.00208333"/>
+    <dcterms:description xml:lang="en">A WCS provides access to coverage data in forms that are useful for client-side rendering, as input into scientific models, and for other clients. The WCS may be compared to the OGC Web Feature Service (WFS) and the Web Map Service (WMS). As with WMS and WFS service instances, a WCS allows clients to choose portions of a server's information holdings based on spatial constraints and other query criteria. </dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-13 10:49:57.077372</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1d73723f-9612-4f0d-87b6-6eead5f2ce28">
+    <dcterms:description xml:lang="en">The EMODnet-Bathymetry portal is being developed in the framework of the European Marine Observation and Data Network (EMODnet) as initiated by the European Commission.&#13;
+It provides a service for viewing and downloading a harmonised Digital Terrain Model (DTM) for the European sea regions that is generated by the EMODnet Bathymetry partnership on the basis of an increasing number of bathymetric data sets. These are managed as survey data sets and composite DTMs by data providers from government and research. Services for discovery and requesting access to these data sets are provided as well.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url>http://www.emodnet-bathymetry.eu/home</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_bathymetry"/>
+    <dcterms:title xml:lang="en">EMODnet bathymetry Web portal</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a1a06301-e702-4d24-96f9-428d62a779b1">
+    <dcterms:title xml:lang="en">Download (NetCDF, RGB GeoTiff, ESRI ASCII, ...)</dcterms:title>
+    <dcterms:description xml:lang="en">Bathymetry viewing and download service</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-13 08:27:22.250370</dcterms:issued>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://portal.emodnet-bathymetry.eu/"/>
+    <dcat:downloadURL rdf:resource="http://portal.emodnet-bathymetry.eu/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ddb227d8-6e53-4c64-bce6-3503e5da1708">
+    <dcat:accessURL rdf:resource="http://portal.emodnet-bathymetry.eu/"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-13 11:21:11.494318</dcterms:issued>
+    <dcat:downloadURL rdf:resource="http://portal.emodnet-bathymetry.eu/"/>
+    <dcterms:description xml:lang="en">The DTM is a grid of 1/8 * 1/8 arc minute of longitude and latitude (ca 230 * 230 meters). Each grid cell has the following information: - x,y coordinates - minimum waterdepth in meters to LAT - average waterdepth in meters to LAT - maximum waterdepth in meters to LAT - standard deviation of waterdepth in meters - number of values used for interpolation over the grid cell - interpolation flag : 1 when extrapolated from the neighbouring cells - average waterdepth smoothed by means of a spline function in meters to LAT - an indicator of the offsets between the average and smoothed waterdepth as a % of the waterdepth - reference to the prevailing source of data with metadata. Source data : The DTM values have been determined from 3 possible sources of data: - Bathymetric surveys : More than 14000 high resolution data sets from single and multibeam surveys, managed by 27 data centres from 18 countries and originated from 169 institutes, as referenced via the CDI Data Discovery and Access service. - Digital Terrain Model data : 78 composite data sets produced and delivered by a number of external data providers such as Hydrographic Offices derived from their internal bathymetric database and based upon historic surveys. These are referenced via the Sextant Catalogue service - GEBCO 2014 30” gridded data, used to complete area coverage in case there are no survey data or composite data sets available to the partners. From these a subset has been used as input for analysing and generating the EMODnet digital terrain model (DTM). No new data has or will be collected specifically for this project. GEBCO (General Bathymetric Chart of the Oceans) is partner in the project and not only provides the latest GEBCO releases for filling gaps but also uses the EMODnet DTM for upgrading the GEBCO DTM for the Baltic Sea synergy takes place with the Baltic Sea Bathymetry Database project of the Baltic Sea Hydrographic Commission. Additionnal QA/QC and DTM production details are available on the EMODnet Bathymetry portal.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Web map viewer</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1f47ed06-f8c3-42f8-8f56-54fbcd6b315e">
+    <dcat:downloadURL rdf:resource="http://ows.emodnet-bathymetry.eu/wms?service=WMS&amp;request=GetMap&amp;version=1.1.1&amp;layers=emodnet%3Amean_atlas_land&amp;format=image%2Fpng&amp;transparent=true&amp;info_format=text%2Fhtml&amp;tiled=false&amp;width=900&amp;height=600&amp;srs=EPSG%3A4326&amp;bbox=-36.0%2C25.000003840000034%2C42.999994943999965%2C85.0"/>
+    <dcterms:title xml:lang="en">Web Map Service (WMS)</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PNG"/>
+    <dcterms:description xml:lang="en">The GIS layers in the Bathymetry Viewing and Download service can be shared as OGC WMS and WCS services with other EMODnet portals and beyond. Also WMS layers from other EMODnet portals and external services can be added to the Bathymetry Viewer and Download service.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-13 10:56:09.999871</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://ows.emodnet-bathymetry.eu/wms?service=WMS&amp;request=GetMap&amp;version=1.1.1&amp;layers=emodnet%3Amean_atlas_land&amp;format=image%2Fpng&amp;transparent=true&amp;info_format=text%2Fhtml&amp;tiled=false&amp;width=900&amp;height=600&amp;srs=EPSG%3A4326&amp;bbox=-36.0%2C25.000003840000034%2C42.999994943999965%2C85.0"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d2388b17-3017-48ad-86b4-4cc0090b4bcb">
+    <schema:url>https://sextant.ifremer.fr/record/c7b53704-999d-4721-b1a3-04ec60c87238/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Metadata Record</dcterms:title>
+    <dcterms:description xml:lang="en">DOI of the dataset: http://doi.org/10.12770/c7b53704-999d-4721-b1a3-04ec60c87238</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_bathymetry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/38ae2945-128e-44e7-b8a4-2e8e6caf7bbb">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/819c97f2-0b5a-42ea-a353-dd836ae1453e"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/1dcde3e2-1b5c-4bd3-95b4-19a4d34d1de8"/>
+    <vcard:hasEmail rdf:resource="sismer@ifremer.fr"/>
+    <vcard:hasTelephone rdf:resource="telephone-48c4cc63-2959-4729-ac33-3fcb07685e3a2e7ec283-729a-401d-af8e-7cce4cbeb9de"/>
+    <vcard:organisation-name>IFREMER/IDM/SISMER</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/8ef5afdf-386f-43f1-8783-2c967a413981">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3317</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-28 08:18:31.776703</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_bathymetry"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-10 15:54:32.890623</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/1dcde3e2-1b5c-4bd3-95b4-19a4d34d1de8">
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Centre IFREMER de Brest BP 70 F-29280 Plouzane</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-48c4cc63-2959-4729-ac33-3fcb07685e3a2e7ec283-729a-401d-af8e-7cce4cbeb9de">
+    <vcard:hasValue rdf:resource="+330298224916"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d2ff29ba-a0b0-4e0f-b9b7-98ebf57be79e">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/ac885dbb-2de6-47f1-8b73-b1f940f73514</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ac885dbb-2de6-47f1-8b73-b1f940f73514"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/ac885dbb-2de6-47f1-8b73-b1f940f73514</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/ac885dbb-2de6-47f1-8b73-b1f940f73514">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1274"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1efd5612-cda8-457f-862b-8927426a454d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:description xml:lang="en">Time series of quality checked atmospheric concentrations of methane measured in building 77r (IPR-3) from 2016 till 2017.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d2ff29ba-a0b0-4e0f-b9b7-98ebf57be79e"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <dcatapop:ckanName>cc7b97b2-177b-4447-b58c-98b02a96f05a</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/0e349011-5d48-4bdb-8749-47237241915c"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fc72ad29-19e2-4517-aa95-b3051cdf9cd1"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>ac885dbb-2de6-47f1-8b73-b1f940f73514</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-08</dcterms:issued>
+    <dcterms:title xml:lang="en">Atmospheric methane concentration at IPR-3 (2016-2017)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fc72ad29-19e2-4517-aa95-b3051cdf9cd1">
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/ABCIS/GreenHouseGases/FinalData_IPR-3/Pre-ICOS/CH4/IPR_3_123_CH4_2_20161207_20171206.txt"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Quality checked atmospheric methane concentration measures at IPR-3</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Quality checked, hourly averages of methane atmospheric concentration measured at JRC-Ispra site (building 77r, IPR-3), Italy. Concentrations are measured by a Picarro G2401 analyzer. Sampling points are at 40 m, 60 m and 100 m above ground level. Time is UTC and it refers to beginning of averaging period.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1efd5612-cda8-457f-862b-8927426a454d">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ac885dbb-2de6-47f1-8b73-b1f940f73514"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">http://publications.jrc.ec.europa.eu/repository/handle/JRC114973</schema:url>
+    <dcterms:description xml:lang="en">Manca, G., Ispra Atmosphere Biosphere Climate Integrated monitoring Station of the JRC, European Commission, Ispra, 2018, JRC114973.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Ispra Atmosphere Biosphere Climate Integrated monitoring Station of the JRC</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/52495fe4-3a15-4b3a-b499-e34059ed4fd7">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/ac885dbb-2de6-47f1-8b73-b1f940f73514"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:02:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:02:02</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/0e349011-5d48-4bdb-8749-47237241915c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/0558260f-f1a0-4d62-85fb-70c3625efb0f">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/543f57b9-5969-4ae6-b9ba-d86e9fed2836">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tipser20"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8c52038d-c7fe-4560-9846-625ad6195a8a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipser20.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5de14a34-8dce-4f27-82f6-b4bfae5c3320">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/243df26e-be72-433f-9539-be91054b8276">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tipser20"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/VyX4rqVqnoRyK7WB5LcPOg">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d0656c84-4bd1-4a02-9905-b1cc88515a80"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-02</dcterms:modified>
+    <dcatapop:ckanName>VyX4rqVqnoRyK7WB5LcPOg</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c4b3c77a-fd62-4415-b097-6ef7a358d779"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/243df26e-be72-433f-9539-be91054b8276"/>
+    <dcterms:description xml:lang="de">Der reale effektive Wechselkurs (REER – Real Effective Exchange Rate) soll die preisliche oder kostenmäßige Wettbewerbsfähigkeit eines Landes (oder eines Währungsgebiets) gegenüber seinen wichtigsten Konkurrenten im Euro-Währungsgebiet bewerten. Veränderungen der kostenmäßigen und preislichen Wettbewerbsfähigkeit hängen nicht nur von Wechselkursentwicklungen, sondern auch von Kosten- und Preistrends ab. Der spezifische REER für das Verfahren bei einem makroökonomischen Ungleichgewicht wird anhand des Verbraucherpreisindex (der Volkswirtschaft insgesamt) gegenüber den Partnern des Euro-Währungsgebiets deflationiert. Zur Berechnung der REER werden doppelte Exportgewichte verwendet, die nicht nur den Wettbewerb auf dem Heimatmarkt der verschiedenen Wettbewerber widerspiegeln, sondern auch den Wettbewerb auf ausländischen Exportmärkten. Ein positiver Wert bedeutet reale Aufwertung. Die Daten werden als prozentuale Veränderung über drei Jahre, über ein Jahr präsentiert und Index, 2010=100. Datenquelle: Generaldirektion Wirtschaft und Finanzen (GD ECFIN)</dcterms:description>
+    <dcterms:description xml:lang="en">The REER (Real Effective Exchage Rate) aims to assess a country (or currency area's) price or cost competitiveness relative to its principal competitors in the euro area. Changes in cost and price competitiveness depend not only on exchange rate movements but also on cost and price trends. The specific REER for the Macroeconomic Imbalance Procedure is deflated by the consumer price index (total economy) against the euro area partners. Double export weights are used to calculate REERs, reflecting not only competition in the home markets of the various competitors, but also competition in export markets elsewhere. A rise in the index means a loss of competitiveness. The data are presented as 3 years % change, 1 year % change and Index, 2010=100. Data source: Directorate General for Economic and Financial Affairs (DG ECFIN).</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/265c5067-0aa6-488d-ace2-615f98026a4f"/>
+    <dcterms:title xml:lang="fr">Taux de change effectif réel - partenaires commerciaux zone euro</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/543f57b9-5969-4ae6-b9ba-d86e9fed2836"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8c52038d-c7fe-4560-9846-625ad6195a8a"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fbbd3a14-6235-40d5-af9b-ee088016496a"/>
+    <dcterms:identifier>tipser20</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ec0a2d99-3a86-464e-85f3-609b6426e27d"/>
+    <dcterms:title xml:lang="en">Real effective exchange rate – euro area trading partners</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0cd1f3cf-6683-4a43-b687-b56d6346f82e"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/cf788759-0c73-438f-8c37-0ed24d4d2406"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/aabbe472-f8ee-4d01-a0ed-8e4c077ae54d"/>
+    <dcterms:title xml:lang="de">Realer effektiver Wechselkurs - Handelspartner Euroraum</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/a6455f3d-447f-4219-ab78-82285305b648"/>
+    <dcterms:description xml:lang="fr">Le REER (ou «taux de change effectif réel») vise à évaluer la compétitivité-prix ou la compétitivité-coûts d’un pays (ou d'une zone monétaire) par rapport à ses principaux concurrents dans la zone euro. Les variations de la compétitivité-coûts et de la compétitivité-prix dépendent non seulement des modifications du taux de change, mais aussi de l'évolution des coûts et des prix. Le REER spécifique pour la procédure concernant les déséquilibres macroéconomiques est déflaté à l’aide des indices de prix (économie totale) par rapport aux autres pays de la zone euro. Une double pondération des exportations est utilisée pour calculer les REER, de manière à tenir compte non seulement de la concurrence sur les marchés nationaux des divers concurrents, mais aussi sur les autres marchés d'exportation. Une valeur positive signifie une appréciation réelle. Les données sont exprimées sous forme de variation en pourcentage sur trois ans, de variation en pourcentage sur un an et Indice, 2010=100. Source des données: direction générale des affaires économiques et financières (DG ECFIN).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/265c5067-0aa6-488d-ace2-615f98026a4f">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipser20.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fbbd3a14-6235-40d5-af9b-ee088016496a">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipser20.tsv.gz&amp;unzip=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/aabbe472-f8ee-4d01-a0ed-8e4c077ae54d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/VyX4rqVqnoRyK7WB5LcPOg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/tipser10_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c4b3c77a-fd62-4415-b097-6ef7a358d779">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tipser20</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/VyX4rqVqnoRyK7WB5LcPOg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0cd1f3cf-6683-4a43-b687-b56d6346f82e">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tipser20"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3f200663-422b-41d3-a286-6f1710576f70">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2232</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/VyX4rqVqnoRyK7WB5LcPOg"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2441</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:42:19.760859</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:50:33</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ec0a2d99-3a86-464e-85f3-609b6426e27d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/VyX4rqVqnoRyK7WB5LcPOg"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tipser20</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tipser20</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d0656c84-4bd1-4a02-9905-b1cc88515a80">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/5de14a34-8dce-4f27-82f6-b4bfae5c3320"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/e8e20dc9-39ca-42ba-b8ef-c9a5b2a66eb7"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/0558260f-f1a0-4d62-85fb-70c3625efb0f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cf788759-0c73-438f-8c37-0ed24d4d2406">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/VyX4rqVqnoRyK7WB5LcPOg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/tipser10_esms.sdmx.zip</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/a6455f3d-447f-4219-ab78-82285305b648">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/e8e20dc9-39ca-42ba-b8ef-c9a5b2a66eb7">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/88997b25-a53a-44be-8045-1ea9c05ced54">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/68e63089-2b00-4e81-ada4-a6c9cd46ec94"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/3a1fd4fc-d255-4be6-8d3a-ecc027f816a0"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9c343587-ad58-492f-b619-8f4c9925e695"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/r7Z7IZCTwDd1qUFBZbOw">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/88997b25-a53a-44be-8045-1ea9c05ced54"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/af48c137-7ae6-403b-a93a-c4103725dccf"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9919f884-7c27-4088-acaf-7d915e64f697"/>
+    <dcterms:description xml:lang="en">Volume index = value index / unit-value index Value index: The value index is calculated as the percentage change between the trade value of the current month and the average monthly trade value of the previous year. Unit-value index: Monthly raw data are processed at the most detailed level in order to calculate elementary unit-values defined by trade value/quantity. These unit-values are divided by the average unit-value of the previous year to obtain elementary unit-value indices, from which outliers are detected and removed. Elementary unit-value indices are then aggregated over countries and commodities, by using the Laspeyres, Paasche and Fisher formulae. Finally, the Fisher unit-value indices are chained back to the reference year (2015 = 100).</dcterms:description>
+    <dcatapop:ckanName>r7Z7IZCTwDd1qUFBZbOw</dcatapop:ckanName>
+    <dcterms:description xml:lang="fr">Indice de volume = Indice de valeur / Indice de valeur unitaire. Indice de valeur : L'indice de valeur correspond à l'évolution en pourcentage entre la valeur des échanges pour le mois de référence et la valeur mensuelle moyenne des échanges au cours de l'année précédente. L'indice de valeur unitaire : Les données mensuelles brutes sont traitées au niveau le plus détaillé de manière à pouvoir calculé les valeurs unitaires de base définies par le rapport valeur de commerce / quantité. Ces valeurs unitaires sont divisées par la valeur unitaire moyenne de l'année précédente pour obtenir des indices de valeurs unitaires à partir desquels les valeurs aberrantes sont détectées et supprimées. Les indices de valeurs unitaires sont ensuite agrégés par pays et marchandise au moyen de formules de Laspeyres, Paasche et Fisher. Enfin, les indices de valeurs unitaires Fisher sont reliés les uns aux autres en remontant jusqu'à l'année de référence (2015 = 100).</dcterms:description>
+    <dcterms:title xml:lang="fr">Indices de volume, par pays déclarant</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c924b309-1d18-4cf2-a7d5-fff9530dd7ad"/>
+    <dcterms:title xml:lang="en">Trade volume indices, by reporting country</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a6664ac6-8e89-43e1-bcbb-0268c6010d5c"/>
+    <dcterms:description xml:lang="de">Volumenindex = Wertindex / Index des Einheitswerts. Wertindex: Wertindizes werden als die prozentuale Differenz zwischen dem Handelswert des laufenden Monats und dem durchschnittlichen monatlichen Handelswert des vorigen Jahres berechnet. Index des Einheitswerts: Monatliche Rohdaten werden auf der detailliertesten Stufe verarbeitet, um elementare Einheitswerte zu berechnen, die durch den Handelswert/die Handelsmenge festgelegt werden. Diese Einheitswerte werden durch den durchschnittlichen Einheitswert des vergangenen Jahres dividiert, um elementare Einheitswertindizes zu erhalten. Ausreißer in diesen Indizes werden ermittelt und entfernt. Anschließend werden mit Hilfe der Formel von Laspeyres, Paasche und Fisher elementare Einheitswertindizes nach Ländern und Waren berechnet. Schließlich werden die Einheitswertindizes nach Fisher mit dem Referenzjahr (2015 = 100) verglichen.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">international trade</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/66e0d8f9-fbd8-494c-849c-3a05fefb02d1"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dcterms:modified>
+    <dcterms:title xml:lang="de">Volumindizes, nach Meldeland</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/060c89c1-98a5-4f3a-a4c0-c080a38a8350"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/050fbd63-e7cf-4831-afd6-db141708aacd"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:keyword xml:lang="en">trade statistics</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/439af713-36c6-4dfc-b634-61f3e8a53ce2"/>
+    <dcterms:identifier>tet00001</dcterms:identifier>
+    <dcat:keyword xml:lang="en">trade volume</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/72efd652-a804-4490-b625-66b3e4203b70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c924b309-1d18-4cf2-a7d5-fff9530dd7ad">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tet00001.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/72efd652-a804-4490-b625-66b3e4203b70">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tet00001"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/66e0d8f9-fbd8-494c-849c-3a05fefb02d1">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tet00001</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r7Z7IZCTwDd1qUFBZbOw"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/050fbd63-e7cf-4831-afd6-db141708aacd">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tet00001.sdmx.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9c343587-ad58-492f-b619-8f4c9925e695">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3bbb8a74-fc44-4945-bc39-0e7fb8870db6">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1297</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/r7Z7IZCTwDd1qUFBZbOw"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:10:30</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1176</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:56:12.895801</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9919f884-7c27-4088-acaf-7d915e64f697">
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tet00001"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a6664ac6-8e89-43e1-bcbb-0268c6010d5c">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tet00001.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/3a1fd4fc-d255-4be6-8d3a-ecc027f816a0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/af48c137-7ae6-403b-a93a-c4103725dccf">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tet00001"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/060c89c1-98a5-4f3a-a4c0-c080a38a8350">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/68e63089-2b00-4e81-ada4-a6c9cd46ec94">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/439af713-36c6-4dfc-b634-61f3e8a53ce2">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r7Z7IZCTwDd1qUFBZbOw"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tet00001</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tet00001</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

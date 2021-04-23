@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/80f6d53c-2d2b-4a3a-8447-96216071fa3e">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/9e503657-cfb7-4a5b-98e5-fb99b047069e"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/2ece9aab-f469-4000-9f81-04e298fd1f43"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/0ef3f704-f36d-41be-9765-2ee2626e4ec5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/024c89af-6cde-42c5-a26d-949201696c81">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=sdg_12_60"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/19e6a81e-37df-451d-9a7a-b109f6cdf7b3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=sdg_12_60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b5121e0d-64b6-4208-8949-c95f853795f3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_12_60.tsv.gz&amp;unzip=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2d84fdf1-a97e-4747-9dca-bb17cd905c04">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_12_60.sdmx.zip"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/FAb16swRtQW4NtsEgwnUQ">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2c244fc3-73a7-472a-a29e-686a3ff401a4"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <dcterms:description xml:lang="fr">L’indicateur mesure la proportion des déchets d’un pays, ou de l’UE, qui sont recyclés. En raison des fortes fluctuations dans la production de déchets dans l’exploitation minière et la construction et de la qualité et de la comparabilité des données limitées dans ces secteurs, les principaux déchets minéraux, boues de dragage et les sols en sont exclus. Cette exclusion améliore la comparabilité entre les pays, parce que certains pays, avec une grande activité économique dans l’exploitation minière et la construction, produisent de grandes quantités de déchets minéraux. Les données reflètent le traitement des déchets nationaux et excluent les déchets qui sont importés de pays hors UE. Les données reflètent le traitement des déchets nationaux et excluent les déchets importés d'autres pays de l'UE ; au niveau de l'UE, les importations de déchets en provenance de pays tiers sont exclues. Dans les séries de données sources, les informations sur le traitement des déchets est subdivisé en six types de traitement: la valorisation (recyclage, valorisation énergétique, remblayage) et élimination (incinération, décharges, d’autres types d’élimination). L’indicateur présente uniquement des données sur le traitement de valorisation - recyclage.</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/3076db04-d4fa-46f5-8508-3ba05ca1b7fa"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/80f6d53c-2d2b-4a3a-8447-96216071fa3e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b5121e0d-64b6-4208-8949-c95f853795f3"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e7f1fed3-4227-4a1e-ae48-78dd7bfa7ba0"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:title xml:lang="de">Verwertungsquote von Abfällen, dominante mineralische Abfälle ausgenommen</dcterms:title>
+    <dcterms:title xml:lang="fr">Taux de recyclage des déchets exceptés des déchets minéraux principaux</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/829d1252-3e10-4a83-827b-54e8dd71c864"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c525ef72-c329-4077-82a6-897b7e977230"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/80693843-4cf0-4f2f-9248-7c465faf71ec"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0a3f43e5-0e4b-4e87-9a2a-350dcbf49ad8"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/19e6a81e-37df-451d-9a7a-b109f6cdf7b3"/>
+    <dcterms:identifier>sdg_12_60</dcterms:identifier>
+    <dcterms:description xml:lang="en">The indicator measures the share of a country’s, or the EU’s, own waste, which is recycled. Due to the strong fluctuations in waste generation in the mining and construction sectors and their limited data quality and comparability, major mineral wastes, dredging spoils and soils are excluded. This exclusion enhances comparability across countries as mineral waste accounts for high quantities in some countries and economic activities such as mining and construction. The data reflect the treatment of national waste and exclude waste that is imported from other EU countries; on EU total level the waste imports from non-EU countries are excluded. In the source dataset, the information on waste treatment is broken down into six treatment types: recovery (recycling, energy recovery, backfilling) and disposal (incineration, landfill, other disposal. The indicator presents only data on the treatment type of recovery - recycling.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2d84fdf1-a97e-4747-9dca-bb17cd905c04"/>
+    <dcterms:description xml:lang="de">Der Indikator misst den Anteil der Abfälle eines Landes oder der EU, die recycelt oder deponiert werden. Aufgrund der starken Schwankungen des Abfallaufkommens im Bergbau und im Bausektor und der begrenzten Datenqualität und Vergleichbarkeit der Daten sind wichtige mineralische Abfälle, Baggergut und Böden ausgeschlossen. Dieser Ausschluss erhöht die länderübergreifende Vergleichbarkeit als mineralische Abfälle, da in einigen Ländern hohe Mengen an mineralischen Abfällen und in einigen Ländern wirtschaftliche Tätigkeiten wie Bergbau und Baugewerbe anfallen. Die Daten spiegeln die Behandlung nationaler Abfälle wider und schließen Abfälle aus Nicht-EU-Staaten aus. Im Quelldatensatz werden die Informationen über die Abfallbehandlung in sechs Behandlungsarten untergliedert: Verwertung, Verbrennung mit Energierückgewinnung, sonstige Verbrennung, Entsorgung von Land und Land, sonstige Entsorgung. Der Indikator enthält nur Daten über die Verwertungsarten der Verwertung („Recycling“) und die Entsorgung auf dem Landweg („Deponie“).</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/024c89af-6cde-42c5-a26d-949201696c81"/>
+    <dcterms:title xml:lang="en">Recycling rate of waste excluding major mineral wastes</dcterms:title>
+    <dcatapop:ckanName>FAb16swRtQW4NtsEgwnUQ</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6402"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0a3f43e5-0e4b-4e87-9a2a-350dcbf49ad8">
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=sdg_12_60"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/829d1252-3e10-4a83-827b-54e8dd71c864">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/FAb16swRtQW4NtsEgwnUQ"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_12_60</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_12_60</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e7f1fed3-4227-4a1e-ae48-78dd7bfa7ba0">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/FAb16swRtQW4NtsEgwnUQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_12_60</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/80693843-4cf0-4f2f-9248-7c465faf71ec">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/FAb16swRtQW4NtsEgwnUQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/sdg_12_60_esmsip2.htm</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/7f93c880-0f19-4cb4-a7c6-9bbdab2a7de7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:02:34</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/FAb16swRtQW4NtsEgwnUQ"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-07 06:39:39.050006</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c525ef72-c329-4077-82a6-897b7e977230">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_12_60.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0ef3f704-f36d-41be-9765-2ee2626e4ec5">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2c244fc3-73a7-472a-a29e-686a3ff401a4">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/FAb16swRtQW4NtsEgwnUQ"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/sdg_12_60_esmsip2.sdmx.zip</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/9e503657-cfb7-4a5b-98e5-fb99b047069e">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/2ece9aab-f469-4000-9f81-04e298fd1f43">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/3076db04-d4fa-46f5-8508-3ba05ca1b7fa">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

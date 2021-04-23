@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/167d8e20-2756-4b0e-b613-6965758f4b05">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00066.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9cb253be-14d2-463e-b3c7-ca7aa18abd34">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tps00066"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/db072e4f-85e9-444b-a418-3ce29c79fc11">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tps00066"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/51eecb90-5721-44b5-bd6f-7cf521b3cb9a">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0gr4alq4bbjaqFk1pzCyfw"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tps00066</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/0gr4alq4bbjaqFk1pzCyfw">
+    <dcterms:title xml:lang="de">Arbeitslosenquoten der Bevölkerung im Alter von 25 bis 64 Jahren nach Bildungsstand</dcterms:title>
+    <dcat:keyword xml:lang="en">cca23824</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/10fa0fcd-c22d-437e-835a-b486210ae7f1"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/e5c1342f-5745-4b12-a307-7090dd8650d9"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/167d8e20-2756-4b0e-b613-6965758f4b05"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/db072e4f-85e9-444b-a418-3ce29c79fc11"/>
+    <dcatapop:ckanName>0gr4alq4bbjaqFk1pzCyfw</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9cb253be-14d2-463e-b3c7-ca7aa18abd34"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <dcat:keyword xml:lang="en">unemployment</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2d2e41d5-d733-490f-ba3c-e5b1416034cf"/>
+    <dcterms:title xml:lang="en">Unemployment rates of the population aged 25-64 by educational attainment level</dcterms:title>
+    <dcterms:description xml:lang="fr">L'indicateur porte sur la tranche des 25 à 64 ans. Il mesure la "probabilité" d'être sans emploi pour les personnes qui voudraient en avoir un, ventilée par niveau d'éducation atteint. L'indicateur permet d'évaluer les difficultés rencontrées sur le marché du travail par des personnes avec des niveaux d'études différents et donne une première idée du rôle joué par l'éducation dans la réduction des risques de chômage. Le niveau d'éducation atteint est codé selon la Classification Internationale Type de l’Education (CITE). Jusqu’en 2013, la CITE 1997 est utilisée et à partir de 2014 la CITE 2011 est en application. • Inférieur à l'enseignement primaire, enseignement primaire et premier cycle de l'enseignement secondaire (niveaux 0 à 2) • Deuxième cycle de l'enseignement secondaire et enseignement post-secondaire non-supérieur (niveaux 3 et 4) • Enseignement supérieur (niveaux 5 à 8) (CITE 1997: niveaux 5 et 6)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fca1d1f4-7ab7-45a1-9f7e-b6f38ea1fa5d"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/590a135f-9496-4768-9b8f-8377adeb4d35"/>
+    <dcterms:title xml:lang="fr">Taux de chômage de la population âgée de 25 à 64 ans par niveau d'éducation atteint</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/55aa1cdd-7b00-4809-a57f-bb15213f4f6d"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/51eecb90-5721-44b5-bd6f-7cf521b3cb9a"/>
+    <dcat:keyword xml:lang="en">education</dcat:keyword>
+    <dcterms:identifier>tps00066</dcterms:identifier>
+    <dcterms:description xml:lang="de">Der Indikator bezieht sich auf die Gruppe der 25- bis 64-Jährigen. Er gibt die nach Bildungsstand aufgeschlüsselte "Wahrscheinlichkeit" dafür an, dass eine arbeitswillige Person arbeitslos ist. Der Indikator liefert ein Maß für die Schwierigkeiten, mit denen Personen mit unterschiedlichen Bildungsabschlüssen auf dem Arbeitsmarkt konfrontiert sind, und vermittelt eine Vorstellung davon, wie sich die Bildung auf die Reduzierung des Risikos der Arbeitslosigkeit auswirkt. Der Bildungsstand wird gemäß der Internationalen Standard-Klassifikation des Bildungswesens (ISCED) ausgewiesen. Daten bis 2013 beziehen sich auf die ISCED 1997 und Daten ab 2014 auf die ISCED 2011. • Unterhalb des Primarbereichs, Primarbereich und Sekundarbereich I (Stufen 0-2) • Sekundarbereich II und postsekundarer, nicht tertiärer Bereich (Stufen 3 und 4) • Tertiärbereich (Stufen 5-8) (ISCED 1997: Stufen 5 und 6)</dcterms:description>
+    <dcterms:description xml:lang="en">The indicator focuses on the 25 to 64 years old. It shows the "probability" of being without a job for those who would like to have one, broken-down by educational attainment level. The indicator provides a measure of difficulties that people with different levels of education have to face in the labour market and offers a first idea of the impact of education in reducing the chances of being unemployed. The educational attainment level is coded according to the International Standard Classification of Education (ISCED). Data until 2013 are classified according to ISCED 1997 and data as from 2014 according to ISCED 2011. • Less than primary, primary and lower secondary education (ISCED levels 0-2) • Upper secondary and post-secondary non-tertiary education (ISCED levels 3 and 4) • Tertiary education (ISCED levels 5-8) (ISCED 1997: levels 5 and 6)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/590a135f-9496-4768-9b8f-8377adeb4d35">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/2536d3b8-883b-4369-876b-134cd7380057"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/fd489e6d-b7c5-4f47-8463-f616863843ca"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/cf85d096-0768-4668-a029-21d99f8b80f3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fca1d1f4-7ab7-45a1-9f7e-b6f38ea1fa5d">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00066.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/55aa1cdd-7b00-4809-a57f-bb15213f4f6d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tps00066"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2d2e41d5-d733-490f-ba3c-e5b1416034cf">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00066.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/cf85d096-0768-4668-a029-21d99f8b80f3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2536d3b8-883b-4369-876b-134cd7380057">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/10fa0fcd-c22d-437e-835a-b486210ae7f1">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tps00066</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tps00066</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0gr4alq4bbjaqFk1pzCyfw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/609ae25f-2b90-406f-8e78-cd61e51458f5">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:52:36.480989</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1335</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:48:35</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1251</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/0gr4alq4bbjaqFk1pzCyfw"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/e5c1342f-5745-4b12-a307-7090dd8650d9">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/fd489e6d-b7c5-4f47-8463-f616863843ca">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

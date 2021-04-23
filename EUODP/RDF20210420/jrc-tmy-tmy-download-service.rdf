@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8974ea18-6fef-4830-abdd-7830c9403fd8">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tmy-tmy-download-service"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://e3p.jrc.ec.europa.eu/articles/typical-meteorological-year-tmy</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a1d3e15e-f464-4a79-a9b5-6939f3c8c93d">
+    <dcterms:description xml:lang="en">Satellite-based solar radiation data calculated from geostationary satellite images</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tmy-tmy-download-service"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">TMY-SARAH</dcterms:title>
+    <schema:url xml:lang="en">http://www.cmsaf.eu/EN/Documentation/Documentation/PUM/pdf/SAF_CM_DWD_PUM_METEOSAT_HEL_1_1.pdf?__blob=publicationFile</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ebb5cd11-6e52-43bb-9fdf-1d157c49c822">
+    <dcterms:description xml:lang="en">ECMWF uses its forecast models and data assimilation systems to 'reanalyse' archived observations, creating global data sets describing the recent history of the atmosphere, land surface, and oceans.
+http://www.ecmwf.int/en/research/climate-reanalysis/era-interim</dcterms:description>
+    <schema:url xml:lang="en">http://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/</schema:url>
+    <dcterms:title xml:lang="en">TMY-ERA</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tmy-tmy-download-service"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/850227ce-4a59-4a24-a396-12272714a960">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3265</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14 18:00:21.306671</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tmy-tmy-download-service"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3345</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:19:33</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-tmy-tmy-download-service">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/65bf3ce5-b8cb-4a53-acb3-cc21b9a040a4"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1b84a2a6-bb4b-4ec7-84cf-2347d2e5d62b"/>
+    <dcterms:title xml:lang="en">Typical Meteorological Data access service</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/2f1e6257-1fe8-4287-8709-ce37714dd894"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-24</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a1d3e15e-f464-4a79-a9b5-6939f3c8c93d"/>
+    <dcterms:description xml:lang="en">A typical meteorological year (TMY) is a set of meteorological data with data values for every hour in a year for a given geographical location. The data are selected from hourly data in a longer time period (normally 10 years or more). For each month in the year the data have been selected from the year that was considered most "typical" for that month. For instance, January might be from 2007, February from 2012 and so on.The solar radiation data used for the TMY have been calculated from satellite data by the CM SAF collaboration (www.cmsaf.eu). All other data have been taken from the ECMWF ERA-interim reanalysis (www.ecmwf.int). Air temperature data have been corrected for elevation. The selection of the months for the TMY is done using the method described in the international Standard ISO 15927-4. The selection is done based on air temperature, global horizontal irradiance and relative humidity.</dcterms:description>
+    <dcat:keyword xml:lang="en">Energy</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8974ea18-6fef-4830-abdd-7830c9403fd8"/>
+    <dcterms:identifier>jrc-tmy-tmy-download-service</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/213cc827-0692-4c3e-be4a-9220d8022022"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ebb5cd11-6e52-43bb-9fdf-1d157c49c822"/>
+    <dcatapop:ckanName>jrc-tmy-tmy-download-service</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/213cc827-0692-4c3e-be4a-9220d8022022">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://re.jrc.ec.europa.eu/pvg_tools/en/tools.html"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Typical Meteorological Data multilanguage access service</dcterms:title>
+    <dcterms:description xml:lang="en">This service allows users to produce, view and download typical meteorological year datasets.
+The datasets are also available in epw format.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1b84a2a6-bb4b-4ec7-84cf-2347d2e5d62b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">This service allows users to produce, view and download typical meteorological year datasets.
+The datasets are also available in epw format.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://re.jrc.ec.europa.eu/pvgis5/tmy.html"/>
+    <dcterms:title xml:lang="en">Typical Meteorological Data access service</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2f1e6257-1fe8-4287-8709-ce37714dd894">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-tmy-tmy-download-service</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-tmy-tmy-download-service</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tmy-tmy-download-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/65bf3ce5-b8cb-4a53-acb3-cc21b9a040a4">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/6d59fbe9-6bdf-4c23-984f-c418c3fa3f3b"/>
+    <vcard:hasEmail rdf:resource="thomas.huld@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6d59fbe9-6bdf-4c23-984f-c418c3fa3f3b">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+</rdf:RDF>

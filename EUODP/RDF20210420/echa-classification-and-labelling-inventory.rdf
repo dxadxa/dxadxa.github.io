@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/48993661-9a7e-48ae-aac5-2f75b63a5ebc">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-03-12T17:44:51</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-03-12T17:38:52</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/echa-classification-and-labelling-inventory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fa556397-e653-4d42-8d18-2ee156820aee">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Searching the C&amp;L inventory database</dcterms:title>
+    <dcat:accessURL rdf:resource="https://www.echa.europa.eu/information-on-chemicals/cl-inventory-database"/>
+    <dcterms:description xml:lang="en">Search results can be exported in CSV or XLS.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/echa-classification-and-labelling-inventory">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fa556397-e653-4d42-8d18-2ee156820aee"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">This database contains classification and labelling information on notified and registered substances received from manufacturers and importers.</dcterms:description>
+    <dcat:keyword xml:lang="en">chemicals legislation</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHA"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHA"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2739"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8990fe55-62e2-4826-bd6c-387e19507b6d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6004"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">ECHA classification and labelling inventory</dcterms:title>
+    <dcatapop:ckanName>echa-classification-and-labelling-inventory</dcatapop:ckanName>
+    <dcterms:alternative xml:lang="en">C&amp;L inventory</dcterms:alternative>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d43740fe-8e98-4376-b6db-919bf52d79d1"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1362"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4308"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d43740fe-8e98-4376-b6db-919bf52d79d1">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.echa.europa.eu/information-on-chemicals/cl-inventory-database</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_https://www.echa.europa.eu/information-on-chemicals/cl-inventory-database</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8990fe55-62e2-4826-bd6c-387e19507b6d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

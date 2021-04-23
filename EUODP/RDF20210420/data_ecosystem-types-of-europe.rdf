@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_ecosystem-types-of-europe">
+    <dcat:keyword>eunis</dcat:keyword>
+    <dcat:keyword>bise</dcat:keyword>
+    <dcterms:identifier>DAT-146-en</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c74dc898-785d-4be0-839e-6f2ef514e823"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-02-26T11:09:32Z</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword>maes</dcat:keyword>
+    <dcat:keyword>ecosystem</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/31f89acb-218e-46db-a4e6-cf62b5eb097d"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description xml:lang="en">The dataset combines the Corine based MAES ecosystem classes with the non-spatial EUNIS habitat classification for a better biological characterization of ecosystems across Europe. As such it represents probabilities of EUNIS habitat presence for each MAES ecosystem type.</dcterms:description>
+    <dcat:keyword>eu 2020 biodiversity strategy target 2</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-09T08:25:00Z</dcterms:issued>
+    <dcat:keyword>land cover</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword>eunis habitat classification</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/664"/>
+    <dcat:keyword>habitats</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Ecosystem types of Europe</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1a31391b-8b2a-48c7-9223-553f2e2ab6c2"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1301cbfd-1e54-4830-a4d0-278f6d12aa15"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/1cee62d0-851c-47ff-9f3e-6b4f4a5ebdf0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1a31391b-8b2a-48c7-9223-553f2e2ab6c2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://cmshare.eea.europa.eu/s/WJEsDYcHBj2LGem/download"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:title xml:lang="en">100m</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/31f89acb-218e-46db-a4e6-cf62b5eb097d">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">1km</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcat:accessURL rdf:resource="https://cmshare.eea.europa.eu/s/PB2NnMYe3aGnDsZ/download"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/d467b5ba-fae3-471f-8a01-702c6bb28fe7">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/1cee62d0-851c-47ff-9f3e-6b4f4a5ebdf0">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/d467b5ba-fae3-471f-8a01-702c6bb28fe7"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/97b7d45e-2345-4846-9f60-5b2aef32fc23"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/8bf785b4-202f-4a31-beb3-482fb677c1ca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/8bf785b4-202f-4a31-beb3-482fb677c1ca">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c74dc898-785d-4be0-839e-6f2ef514e823">
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/ecosystem-types-of-europe</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_ecosystem-types-of-europe"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Ecosystem types of Europe</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1301cbfd-1e54-4830-a4d0-278f6d12aa15">
+    <dcat:accessURL rdf:resource="https://cmshare.eea.europa.eu/s/EBTGQrkdWcBmGDL/download"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">100m</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/5e82a4e2-cbc4-4325-9ee5-ae5286aa8ec6">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">734</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:40:48</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_ecosystem-types-of-europe"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">772</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:40:48</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

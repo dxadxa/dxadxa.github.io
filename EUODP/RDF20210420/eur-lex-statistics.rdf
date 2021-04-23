@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ec94a27a-d36b-4259-bfce-4cb60b93e80b">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://data.europa.eu/euodp/en/data/dataset/eur-lex-statistics</schema:url>
+    <dcterms:title xml:lang="en">title_https://data.europa.eu/euodp/en/data/dataset/eur-lex-statistics</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eur-lex-statistics">
+    <dcterms:temporal rdf:resource="period_of_time-8038d992-dddf-4ec1-9545-4cf23932b01a"/>
+    <dcterms:description xml:lang="en">This dataset provides statistics on EUR-Lex website from two views: type of content and number of legal acts available. It is updated on a daily basis.&#13;
+&#13;
+1) The statistics on the content of EUR-Lex (from 1990 to 2018) show &#13;
+&#13;
+a) how many legal texts in a given language and document format were made available in EUR-Lex in a particular month and year. They include: &#13;
+&#13;
+* corrigenda and amending acts&#13;
+* legal acts, both those that are in force and those that are no longer in force&#13;
+* proposals, whether awaiting adoption or already adopted.&#13;
+	&#13;
+Since the eight parliamentary term, parliamentary questions are no longer included.  &#13;
+&#13;
+b) bibliographical notices by sector (e.g. case-law, treaties).&#13;
+&#13;
+2) The statistics on legal acts (from 1990 to 2018) provide yearly and monthly figures on the number of adopted acts (also by author and by type) as well as those repealed and expired in a given month.&#13;
+</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/caded43f-b766-45fc-ad5e-d7373440e57e"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6775"/>
+    <dcatapop:datasetGroup rdf:resource="content-statistics"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4256"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ec94a27a-d36b-4259-bfce-4cb60b93e80b"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/19f9000e-7b0e-4392-93f6-1d67cdbe7f74"/>
+    <dcterms:title xml:lang="en">EUR-Lex —  Content statistics</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21 09:52:56.237533</dcterms:issued>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified>2018-04-19 12:50:10.939035</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <owl:versionInfo></owl:versionInfo>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/525"/>
+    <dcatapop:ckanName>eur-lex-statistics</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/59ae727b-5dee-4628-96eb-9ed438dd92f0"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f54cca46-5b88-49fa-888d-2ceb56f7a82a"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6088"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4258"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/59ae727b-5dee-4628-96eb-9ed438dd92f0">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://eur-lex.europa.eu/statistics/legislative-acts-statistics.html"/>
+    <dcterms:description xml:lang="en">Legal acts – statistics</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21 10:52:56.452934</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://eur-lex.europa.eu/statistics/legislative-acts-statistics.html"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Legal acts – statistics</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/19f9000e-7b0e-4392-93f6-1d67cdbe7f74">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:downloadURL rdf:resource="http://eur-lex.europa.eu/statistics/eu-law-statistics.html"/>
+    <dcterms:description xml:lang="en">EUR-Lex content statistics</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://eur-lex.europa.eu/statistics/eu-law-statistics.html"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21 10:52:56.452893</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:title xml:lang="en">EUR-Lex content statistics</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-8038d992-dddf-4ec1-9545-4cf23932b01a">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-01T00:00:00</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/caded43f-b766-45fc-ad5e-d7373440e57e">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eur-lex-statistics"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://eur-lex.europa.eu/statistics/legislative-acts-statistics.html</schema:url>
+    <dcterms:title xml:lang="en">Legal acts - statistics</dcterms:title>
+    <dcterms:description xml:lang="en">Consult, by year and by month, the number of regulations, directives and decisions adopted in a given month as well as those repealed and expired in a given month.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/42ea170a-c773-41e4-831e-a9d7365a0311">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">907</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21 09:52:56.237533</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eur-lex-statistics"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-19 12:50:10.939035</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1064</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/83f083a7-0910-4bf6-9c4c-54be048d12f7">
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://eur-lex.europa.eu/content/contact/contact.html</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/83f083a7-0910-4bf6-9c4c-54be048d12f7</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f54cca46-5b88-49fa-888d-2ceb56f7a82a">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/83f083a7-0910-4bf6-9c4c-54be048d12f7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>EUR-Lex editorial team</vcard:organisation-name>
+  </rdf:Description>
+</rdf:RDF>

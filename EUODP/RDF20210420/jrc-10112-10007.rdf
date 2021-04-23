@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/33d1c18f-1d0a-49f9-83b4-02f4cd31967a">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10007"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://mars.jrc.ec.europa.eu/asap/download.php</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3450421a-c775-48d8-beff-3fa63530efa0">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/90525ec7-8018-4e33-a7ce-ec7fd22b9d3e"/>
+    <vcard:hasEmail rdf:resource="jrc-asap@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/90525ec7-8018-4e33-a7ce-ec7fd22b9d3e">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e6857473-128d-4c9c-949f-65eea4b225cc">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Max of the second season</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/phenom2_v02.tif"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Tiff file containg value V which is expressed over a 3 years period, from 1 to 108 dekads (i.e. ten day periods).  This is done to be able to treat the circular variable dekad as an ordinal variable. To get the timing T in the 1-36 dekad units (calendar year): i)if value V is smaller or eaual with 36, then T=V, ii) if value V is larger than 36 and smaller or equal with 72, then T= V-36,and iii)if value V is larger than 72, then T=V-72.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10112-10007">
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3450421a-c775-48d8-beff-3fa63530efa0"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1c67f3e5-7dcb-46e1-b4f1-4dfad6b65a3f"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3d865946-13c0-4199-8af0-dc35aa7a9d27"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:identifier>jrc-10112-10007</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">The satellite- derived phenology is computed on the long-term average of 10-day MODIS NDVI data produced by BOKU University starting from MOD13A2 and MYD13A2 V006 16-DAY Global data at 1 km resolution. Phenology was extracted using the SPIRITS software applied to the historical average of the smoothed NDVI over the period 2003-2016. For each pixel, time of maximum NDVI was retrieved.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/443c8c73-4837-4bb8-bff2-baef0fefb47e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e6857473-128d-4c9c-949f-65eea4b225cc"/>
+    <dcterms:title xml:lang="en">Global land surface phenology - Max of the season</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/33d1c18f-1d0a-49f9-83b4-02f4cd31967a"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-26</dcterms:issued>
+    <dcatapop:ckanName>jrc-10112-10007</dcatapop:ckanName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/443c8c73-4837-4bb8-bff2-baef0fefb47e">
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.agsy.2018.07.002</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">Rembold, F., Meroni, M., Urbano, F., Csak, G., Kerdiles, H., Perez Hoyos, A., Lemoine, G., Leo, O. and Negre, T., ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis, AGRICULTURAL SYSTEMS, ISSN 0308-521X, 168, 2019, p. 247-257, JRC109950.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10007"/>
+    <dcterms:title xml:lang="en">ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3d865946-13c0-4199-8af0-dc35aa7a9d27">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-10112-10007</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10112-10007</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a35c1b53-e595-4e7e-a008-cc32d61b64a4">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-09 05:22:07.644111</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">359</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:38:29</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">271</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1c67f3e5-7dcb-46e1-b4f1-4dfad6b65a3f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Tiff file containg value V which is expressed over a 3 years period, from 1 to 108 dekads (i.e. ten day periods).  This is done to be able to treat the circular variable dekad as an ordinal variable. To get the timing T in the 1-36 dekad units (calendar year): i)if value V is smaller or eaual with 36, then T=V, ii) if value V is larger than 36 and smaller or equal with 72, then T= V-36,and iii)if value V is larger than 72, then T=V-72.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/phenom1_v02.tif"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Max of the first season</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

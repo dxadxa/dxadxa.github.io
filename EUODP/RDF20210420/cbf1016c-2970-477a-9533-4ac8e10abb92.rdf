@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/cbf1016c-2970-477a-9533-4ac8e10abb92">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b3f25492-a2a8-424d-a447-d117b43ea03f"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/22db6c1d-9960-4dd5-93e4-300e18954403"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2381a677-9d51-4b9f-be4d-1fbc9e39598f"/>
+    <dcterms:title xml:lang="en">S2MOSAIC L2A 2017</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-13</dcterms:issued>
+    <dcterms:description xml:lang="en">Global mosaic of Copernicus Sentinel -2 L2A data 2017</dcterms:description>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcatapop:ckanName>cbf1016c-2970-477a-9533-4ac8e10abb92</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>cbf1016c-2970-477a-9533-4ac8e10abb92</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Government and public sector</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/450a0cfd-6014-4c81-8505-137f3078cec9"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a8925b6a-28d0-4d47-976e-f861ffd7e1ac"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2381a677-9d51-4b9f-be4d-1fbc9e39598f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/cbf1016c-2970-477a-9533-4ac8e10abb92"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/7801b3f2-98fb-448c-93bd-7972229458a2">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:21:03</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-01T07:12:54</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/cbf1016c-2970-477a-9533-4ac8e10abb92"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/22db6c1d-9960-4dd5-93e4-300e18954403">
+    <dcterms:title xml:lang="en">S2_L2A_2017</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Sentinel-2 mosaic based on level 2A for 2017
+https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/JEODPP/S2/
+***
+To download the entire dataset, use an FTP client, selecting  the host: cidportal.jrc.ec.europa.eu and remote path: /jrc-opendata/JEODPP/S2/ 
+***
+Data is tiled, following the military grid reference system (MGRS), in the UTM projection. Each spectral band is stored in a separate GeoTIFF file. Virtual files have been created, which represent all tiles that belong to the same UTM zone (separating the northern and southern hemisphere), and can be downloaded from the corresponding VRT folder.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/JEODPP/S2/S2_L2A_2017/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b3f25492-a2a8-424d-a447-d117b43ea03f">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="pieter.kempeneers@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a773875c-714b-4485-8ead-affcc23583a2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/450a0cfd-6014-4c81-8505-137f3078cec9">
+    <schema:url>http://data.europa.eu/89h/cbf1016c-2970-477a-9533-4ac8e10abb92</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/cbf1016c-2970-477a-9533-4ac8e10abb92"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/cbf1016c-2970-477a-9533-4ac8e10abb92</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a8925b6a-28d0-4d47-976e-f861ffd7e1ac">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Optimizing Sentinel-2 image selection in a big data context</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.1080/20964471.2017.1407489</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/cbf1016c-2970-477a-9533-4ac8e10abb92"/>
+    <dcterms:description xml:lang="en">Kempeneers, P. and Soille, P., Optimizing Sentinel-2 image selection in a big data context, 2017, 1 (1-2), p. 145-158, JRC109026.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a773875c-714b-4485-8ead-affcc23583a2">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

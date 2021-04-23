@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3aedbd21-8760-497d-acd9-11a5da586b0f">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">EDGARv4.2 Emission Maps</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://doi.org/DOI:10.2904/EDGARv4.2"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">The global emissions in the EDGAR v4.2 are calculated for each compound on an annual basis for each sector using: the country-specific activity data (AD), the mix of technologies (TECH), the abatement percentage (EoP), and the country-specific emission factor (EF).
+These parameters are included in the calculations based on evaluation of scientific literature, inventory guidance, inventory reports, industry reports, dataset documentation or when data was found not available or incomplete own parameter calculations have been made. Data sources (e.g.): 1. AD from IEA, USGS, FAO, GFED; 2. TECH and EoP from UCI Platts Power Plant DB, EURO class vehicles; 3. EFs from IPCC 2006 and 1996, EMEP/EEA 2009 guidebooks, scientific literature etc. Emissions by country are allocated on a spatial grid, using proxy data, to provide gridded emissions dataset for atmospheric modeling. Proxy data (e.g.): 1. For diffusive emission sources - urban and rural population, road network, animal density, land use, inland waterways, and aviation and international shipping trajectories; 2. For point sources - maps with individual plant and industrial activity locations, such as power plants, iron and steel plants, cement plants, but also location of coal mines and oil and gas production sites.Emissions are calculated for the following substances: 1.Direct greenhouse gases:Carbon Dioxide (CO2), Methane (CH4), Nitrous Oxide (N2O), Hydrofluorocarbons (HFC-23, 32, 125, 134a, 143a, 152a, 227ea, 236fa, 245fa, 365mfc, 43-10-mee), Perfluorocarbons (PFCs: CF4, C2F6, C3F8, c-C4F8, C4F10, C5F12, C6F14, C7F16), Sulfur Hexafluoride (SF6) and Nitrogen Trifluoride (NF3); 2.Ozone precursor gases: Carbon Monoxide (CO), Nitrogen Oxides (NOx), Non-Methane Volatile Organic Compounds (NMVOC) and Methane (CH4); 3.Acidifying gases: Ammonia (NH3), Nitrogen oxides (NOx) and Sulfur Dioxide (SO2).; 4.Stratospheric Ozone Depleting Substances: Hydrochlorofluorocarbons (HCFC-141b, 142b). These emissions are presented as emissions on the grid using Geographical Coordinate System (lon, lat) in the following formats: txt, netcdf for 0.1 degree, netcdf for 0.5 degree and 1 degree global gridmaps.
+Annual gridded emission by compound and selected sectors are available for download in 2 formats:
+• in ASCII format: in ton substance / (0.1 degree x 0.1 degree) /yr.
+• in netcdf format: in kg substance /m2 /s. 
+The 0.1degree x 0.1 degree grid cells are defined with the lower left corner.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv42">
+    <dcatapop:ckanName>jrc-edgar-emissionmapsv42</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:identifier>jrc-edgar-emissionmapsv42</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3aedbd21-8760-497d-acd9-11a5da586b0f"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b3640089-4dfa-4a10-8fb5-66a577da3e42"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:description xml:lang="en">The ‘Emission Database for Global Atmospheric Research version 4.2’, is a product of the Joint Research Centre and the PBL Netherlands Assessment Agency, referred to as EDGAR 4.2 and contains global emission inventories for greenhouse gases and air pollutants.
+These emissions are calculated as total by country and sector for the 1970-2008 period, and distributed on the grid using proxy data. The global emissions for all countries are spatially allocated on 0.1x0.1, 0.5x0.5 and 1x1 degree resolution grids over the globe. The standard sources are defined using the IPCC source categories and codes developed by the IPCC National Greenhouse Gas Inventories Programme (Reporting guidelines in the revised 1996 IPCC guidelines). The first number identifies the main source sector: 1.Energy (including biofuel combustion and gas leakage, venting and flaring); 2.Industrial processes (nonfuel combustion sources, incl. F-gas use); 3.Solvents and other product use; 4.Agriculture (including savannah fires); 5.Land-Use Change and Forestry (including post-burn decay and drained peatlands); 6.Waste; 7.Other. The EDGAR v4.2 provides independent estimates of the global anthropogenic emissions and emission trends, based on publicly available statistics, for the use in atmospheric models and policy evaluation. This scientific independent emissions inventory is characterized by a coherent world historical trend.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e236e5cc-e47b-402a-8676-45a35a7f91e6"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1c75fc2a-d9ba-4024-b048-d4649436bd27"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6400"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-31</dcterms:issued>
+    <dcterms:title xml:lang="en">EDGARv4.2 Emission Maps</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/845fb357-ccae-4f98-9cfc-cce0203a8a74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e236e5cc-e47b-402a-8676-45a35a7f91e6">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/845fb357-ccae-4f98-9cfc-cce0203a8a74">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv42"/>
+    <dcterms:title xml:lang="en">The EDGAR project homepage</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1c75fc2a-d9ba-4024-b048-d4649436bd27">
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=42</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b3640089-4dfa-4a10-8fb5-66a577da3e42">
+    <schema:url>http://data.europa.eu/89h/jrc-edgar-emissionmapsv42</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-edgar-emissionmapsv42</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cad07554-0a1f-4418-b0fb-60a43f26baa7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">659</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">780</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:11</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv42"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:11</dcterms:modified>
+  </rdf:Description>
+</rdf:RDF>

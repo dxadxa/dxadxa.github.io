@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9fab0bb0-cced-4e79-877e-f01a54f3a557">
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/APIS4DGOV/cases/LATEST/API-cases.ods"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">API cases (ODS format)</dcterms:title>
+    <dcterms:description xml:lang="en">The API cases in OpenOffice format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/45ca8d82-ac31-4360-b3a1-ba43b0b07377">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/daf6aa96-e009-4841-a9ac-1e66369056c0"/>
+    <dcterms:description xml:lang="en">This list contains the government API cases collected, cleaned and analysed in the APIs4DGov study "Web API landscape: relevant general purpose ICT standards, technical specifications and terms". 
+
+The list does not represent a complete list of all government cases in Europe, as it is built to support the goals of the study and is limited to the analysis and data gathered from the following  sources:
+
+- The EU open data portal
+ 
+- The European data portal
+
+- The INSPIRE catalogue
+
+- JoinUp: The API cases collected from the European Commission JoinUp platform 
+
+- Literature-document review: the API cases gathered from the research activities of the study performed till the end of 2019
+
+- ProgrammableWeb: the ProgrammableWeb API directory
+
+- Smart 2015/0041: the database of 395 cases created by the study ‘The project Towards faster implementation and uptake of open government’ (SMART 2015/0041).
+
+- Workshops/meetings/interviews: a list of API cases collected in the workshops, surveys and interviews organised within the APIs4DGov 
+
+Each API case is classified accordingly to the following rationale:
+
+- Unique id: a unique key of each case, obtained by concatenating the following fields: (Country Code) + (Governmental level) + (Name Id) + (Type of API)
+
+- API Country or type of provider: the country in which the API case has been published
+
+- API provider: the specific provider that published and maintain the API case
+
+- Name Id: an acronym of the name of the API case (it can be not unique)
+
+- Short description
+
+-  Type of API: (i) API registry, a set, catalogue, registry or directory of APIs; (ii) API platform: a platform that supports the use of APIs; (iii) API tool: a tool used to manage APIs; (iv) API standard: a set of standards related to government APIs; (v) Data catalogue, an API published to access metadata of datasets, normally published by a data catalogue; (vi) Specific API, a unique (can have many endpoints) API built for a specific purpose
+
+- Number of APIs: normally only one, in the case of API registry, the number of APIs published by the registry at the 31/12/2019
+
+- Theme: list of domains related to the API case (controlled vocabulary)
+
+- Governmental level: the geographical scope of the API (city, regional, national or international)
+
+- Country code: the country two letters internal code
+
+- Source: the source (among the ones listed in the previous) from where the API case has been gathered</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:title xml:lang="en">List of government APIs</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9fab0bb0-cced-4e79-877e-f01a54f3a557"/>
+    <dcatapop:ckanName>45ca8d82-ac31-4360-b3a1-ba43b0b07377</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5851a7cf-5432-4ab5-81bc-0c94a0ea3ed7"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6a6e85ac-d89b-4436-8afd-8f4c5eeff348"/>
+    <dcterms:identifier>45ca8d82-ac31-4360-b3a1-ba43b0b07377</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/fa3cadc8-c0d7-4440-80ef-57142c2bf51b"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-21</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5851a7cf-5432-4ab5-81bc-0c94a0ea3ed7">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">The API cases in Excel format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:title xml:lang="en">API cases (Excel format)</dcterms:title>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/APIS4DGOV/cases/LATEST/API-cases.xlsx"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/8807e394-1ce7-4074-98f0-7c34d0f2f4b8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/45ca8d82-ac31-4360-b3a1-ba43b0b07377"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:08:26</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T12:17:53</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6a6e85ac-d89b-4436-8afd-8f4c5eeff348">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/45ca8d82-ac31-4360-b3a1-ba43b0b07377</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/45ca8d82-ac31-4360-b3a1-ba43b0b07377"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/45ca8d82-ac31-4360-b3a1-ba43b0b07377</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/57591e46-0401-41d4-9015-0ce502d2b888">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/daf6aa96-e009-4841-a9ac-1e66369056c0">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/45ca8d82-ac31-4360-b3a1-ba43b0b07377"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/digital-single-market/en/news/improving-use-api-digital-government</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/fa3cadc8-c0d7-4440-80ef-57142c2bf51b">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/57591e46-0401-41d4-9015-0ce502d2b888"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="jrc-apis4dgov@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f9ca0227-1e54-4c4e-a80e-a646f169343f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/73ba0e9d-d4f6-4e83-aae9-e5976571acd5"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/230aab06-23d0-40c6-82bc-9c699613dc86"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/5de9cfc6-1e26-4a41-8c58-0071bfb72e29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/c72413ad-b12c-45d2-b7df-4230661463e7">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/230aab06-23d0-40c6-82bc-9c699613dc86">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e00081ab-9522-4989-9827-c9ce485219c7">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiet140.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ef5574f8-8473-494d-8d8b-a69fb5c0d0d8">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiet140.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/6raBTPyZMd9f8wa35rIRw">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c8206572-f930-4701-88ab-988a28182326"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dcterms:modified>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:identifier>teiet140</dcterms:identifier>
+    <dcatapop:ckanName>6raBTPyZMd9f8wa35rIRw</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="fr">Importations de biens - combustibles minéraux, lubrifiants et produits connexes</dcterms:title>
+    <dcat:keyword xml:lang="en">import of goods</dcat:keyword>
+    <dcterms:title xml:lang="en">Imports of goods - mineral fuels, lubricants and related materials</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e00081ab-9522-4989-9827-c9ce485219c7"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ec33aa5c-5364-41b1-8622-03a356f78893"/>
+    <dcterms:description xml:lang="de">Mit der Außenhandelsstatistik werden Warenbewegungen zwischen den Mitgliedstaaten der EU und Nichtmitgliedstaaten (Extra-EU-Handel) sowie zwischen einem Mitgliedstaat und einem anderen (Intra-EU-Handel) erfasst. Waren sind materielle, hergestellte Artikel, an denen Eigentumsrechte begründet werden können; das wirtschaftliche Eigentum an ihnen kann durch Transaktionen von einer institutionellen Einheit auf eine andere übertragen werden. Die Aufgliederungen nach Produkten in NewCronos/Euroindikatoren beruhen auf Aggregaten, die von den großen Wirtschaftskategorien (BEC) und dem Internationalen Warenverzeichnis für den Außenhandel (SITC) abgeleitet werden.</dcterms:description>
+    <dcterms:description xml:lang="fr">Les statistiques du commerce international couvrent l'ensemble des mouvements de marchandises entre les États membres de l’UE et les pays tiers (commerce extra-UE) ainsi qu'entre États membres (commerce intra-UE). Par marchandises, on entend les biens physiques qui ont été produits, dont les droits de propriété peuvent être établis et dont la propriété économique peut passer d'une unité institutionnelle à l’autre par le biais de transactions. Les ventilations de produits disponibles dans Newcronos/Euro-indicateurs reposent sur des agrégats tirés de la classification par grandes catégories économiques (GCE) et de la classification type pour le commerce international (CTCI).</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e99c867d-bb00-48c3-a346-85aac6b94506"/>
+    <dcterms:description xml:lang="en">International trade statistics cover any movements of goods between the EU Member States and non-member countries (extra-EU trade), and from one Member State to another (intra-EU trade). Goods are physical, produced items over which ownership rights can be established and whose economic ownership can be passed from one institutional unit to another by engaging in transactions. The product breakdowns available in Newcronos/Euro-indicators are based on aggregates derived from the Broad Economic Categories (BEC) classification and the Standard International Trade Classification (SITC).</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/48bef523-cff6-4ceb-9448-e2343a6f9cfe"/>
+    <dcat:keyword xml:lang="en">lubricants</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ef5574f8-8473-494d-8d8b-a69fb5c0d0d8"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/c72413ad-b12c-45d2-b7df-4230661463e7"/>
+    <dcat:keyword xml:lang="en">import</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/647461c0-6b31-49cc-bc02-7d101c9c33fc"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a265d046-b375-45c1-8f83-490b346d6500"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/65806df9-1eba-4a35-968a-33fb02a857f7"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:title xml:lang="de">Warenimporte insgesamt - Mineralische Brennstoffe, Schmiermittel und verwandte Erzeugnisse</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ef0eb45a-5b1b-4865-a78d-8b7b69ef9253"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f9ca0227-1e54-4c4e-a80e-a646f169343f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a265d046-b375-45c1-8f83-490b346d6500">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_et_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/6raBTPyZMd9f8wa35rIRw"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/73ba0e9d-d4f6-4e83-aae9-e5976571acd5">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ec33aa5c-5364-41b1-8622-03a356f78893">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teiet140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c8206572-f930-4701-88ab-988a28182326">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teiet140"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/647461c0-6b31-49cc-bc02-7d101c9c33fc">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teiet140"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e99c867d-bb00-48c3-a346-85aac6b94506">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiet140.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ef0eb45a-5b1b-4865-a78d-8b7b69ef9253">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teiet140</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/6raBTPyZMd9f8wa35rIRw"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/48bef523-cff6-4ceb-9448-e2343a6f9cfe">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/6raBTPyZMd9f8wa35rIRw"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_et_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cc25cd14-8d4a-4153-a288-d1be570e41af">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/6raBTPyZMd9f8wa35rIRw"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:48:20</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:32:54.015243</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">662</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">732</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/5de9cfc6-1e26-4a41-8c58-0071bfb72e29">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/65806df9-1eba-4a35-968a-33fb02a857f7">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teiet140</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teiet140</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/6raBTPyZMd9f8wa35rIRw"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/77b382e0-af1f-4c8b-82ea-56189e80680c">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d85e4b67-f170-4ff2-a640-30e4809f20e0">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Total gamma dose rates</dcterms:title>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURDEP/Ruthenium/ruthenium_dose_rates.zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-10</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-10</dcterms:issued>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <dcterms:identifier>0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="en">Between the end of September and early October 2017, several European networks involved in the monitoring of atmospheric radioactive contamination recorded 106Ru presence.  Some regions of Central and Eastern Europe measured one-day mean activity concentrations up to 10-100 mBq/m³, although the resulting exposure were far below radiological concern. Based on the meteorological conditions and modelling analysis, the most plausible zone of release, lies in the Southern Ural region of Russia and possibly Northern Kazakhstan, although it continues unknown until today.</dcterms:description>
+    <dcterms:title xml:lang="en">Ruthenium-106 event (total gamma dose rates)</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/409edf8a-b9c5-4ad3-b2f3-7ad5037c0643"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5287"/>
+    <dcat:keyword xml:lang="en">International issues</dcat:keyword>
+    <dcatapop:ckanName>0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560</dcatapop:ckanName>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0bc1767e-918b-4092-81e5-e1aec703b6e9"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d85e4b67-f170-4ff2-a640-30e4809f20e0"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/663ded97-68b5-4ffa-baf8-4751f841236c"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/28c75fc1-d654-446d-a558-5a12de88f7c4">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-01T07:13:54</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T14:45:04</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/409edf8a-b9c5-4ad3-b2f3-7ad5037c0643">
+    <schema:url xml:lang="en">https://remon.jrc.ec.europa.eu/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0bc1767e-918b-4092-81e5-e1aec703b6e9">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/0f9f3e2d-c8d7-4f46-bbe7-eacf3eed1560</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/663ded97-68b5-4ffa-baf8-4751f841236c">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/77b382e0-af1f-4c8b-82ea-56189e80680c"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="marc.de-cort@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-ch-oef-npp-dataset">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">Nuclear Power Plants (NPP) records</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcat:keyword xml:lang="en">Economy and finance</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/41d9efbe-f27a-4397-8206-522588b6c6b9"/>
+    <dcterms:identifier>jrc-ch-oef-npp-dataset</dcterms:identifier>
+    <dcatapop:ckanName>jrc-ch-oef-npp-dataset</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c639dadc-d993-406a-bdd0-fb07f2e054bb"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-24</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/630e88fd-3f56-4288-9518-e9f767e4572d"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-07</dcterms:issued>
+    <dcterms:description xml:lang="en">The objective of this content type is to complement the information of the OEF records with the technical details of the related nuclear facilities.</dcterms:description>
+    <dcat:keyword xml:lang="en">Energy</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/834b55c0-e794-4807-ab61-0374f93772b4"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c639dadc-d993-406a-bdd0-fb07f2e054bb">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-ch-oef-npp-dataset</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ch-oef-npp-dataset"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-ch-oef-npp-dataset</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/630e88fd-3f56-4288-9518-e9f767e4572d">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ch-oef-npp-dataset"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://clearinghouse-oef.jrc.ec.europa.eu</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/0d90b72c-4a7c-4705-b00f-049e6f334e9e">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-ch-oef-npp-dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">951</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:42:00</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-26 14:53:23.185381</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">962</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/41d9efbe-f27a-4397-8206-522588b6c6b9">
+    <dcterms:description xml:lang="en">The web-interface can be accessed from the general menu of the website. This web-interface allow search, filtering of results, basic data visualisation and data export as CSV file.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://clearinghouse-oef.jrc.ec.europa.eu/search/npp_records/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">NPP records (download)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/834b55c0-e794-4807-ab61-0374f93772b4">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e4ffc26f-d1d7-4df5-a4f8-cef819cc3cfa"/>
+    <vcard:hasEmail rdf:resource="jorge.tanarro-colodron@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e4ffc26f-d1d7-4df5-a4f8-cef819cc3cfa">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

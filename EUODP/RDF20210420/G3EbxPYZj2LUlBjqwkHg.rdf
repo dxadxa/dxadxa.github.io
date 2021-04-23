@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/71c4d8ce-ea1c-4aa3-8676-b6051528b480">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/euroind_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/G3EbxPYZj2LUlBjqwkHg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ab491ff9-b8eb-4b3a-a8f9-c58214b8b40b">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teiis550"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6b15f1bf-1840-46a5-b456-fbeab8903580">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis550.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/G3EbxPYZj2LUlBjqwkHg">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ab491ff9-b8eb-4b3a-a8f9-c58214b8b40b"/>
+    <dcatapop:ckanName>G3EbxPYZj2LUlBjqwkHg</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">Building permits - monthly data</dcterms:title>
+    <dcterms:identifier>teiis550</dcterms:identifier>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/bcd831b9-00c5-4212-a1e5-c40d0d694c6c"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-25</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c434b8e4-1f58-4cff-a888-5de06cd034f6"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2c1a3ad2-bcf5-4426-8916-0730412d98d7"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/05f9702b-9a9a-423c-8cd9-e13cceff0143"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/387b39d5-d9f6-49ab-800c-cbc2c4f66abe"/>
+    <dcterms:description xml:lang="de">Es ist das Ziel des Baugenehmigungen Index die zukünftige Entwicklung von Bautätigkeit bezüglich Quadratmeter nützliche Fläche darzustellen. Derzeit ist die Basisjahr 2015 (Index 2015 = 100). Der Index ist in eine saisonbereinigte Form präsentiert. Wachstumsraten bezüglich des Vormonats (M/M 1) werden auf der Grundlage von saisonbereinigten Angaben berechnet, Wachstumsraten bezüglich des gleichen Monats im Vorjahr (M/M 12) auf der Grundlage von Rohdaten.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7083d2f9-325e-4080-8153-b7f23baadf08"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6b15f1bf-1840-46a5-b456-fbeab8903580"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:description xml:lang="fr">L’objectif de l’indice de permis de construire est de montrer quantitativement le futur de l’activité de construction par le biais de la surface utile en mètres carrés. La base actuelle de l’indice est 2015 (Indice 2015 =100). L’index est corrigé des variations saisonnières. Les taux de croissance par rapport au mois précédent (M/M-1) sont calculés à partir des données corrigées des variations saisonnières. Les taux de croissance par rapport au même mois de l’année précédente (M/M-12) sont quant à eux calculés avec des données brutes.</dcterms:description>
+    <dcterms:title xml:lang="fr">Permis de construire - données mensuelles</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/7cdbb2af-8bd5-4db2-bda7-94650cc2065b"/>
+    <dcterms:title xml:lang="de">Baugenehmigungen - monatliche Daten</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/226bf4d8-892f-40ed-bed2-3d20b403b91c"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="en">The objective of the building permit index is to show the future development of construction activity in terms of per square meter of useful floor. The current base year is 2015 (Index 2015 = 100). The index is presented in seasonally adjusted form. Growth rates with respect to the previous month (M/M-1) are calculated from seasonally adjusted figures while growth rates with respect to the same month of the previous year (M/M-12) are calculated from raw data.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/71c4d8ce-ea1c-4aa3-8676-b6051528b480"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b18f1f54-8ecf-4534-9b9f-a40f6051f7a5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7cdbb2af-8bd5-4db2-bda7-94650cc2065b">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teiis550</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teiis550</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/G3EbxPYZj2LUlBjqwkHg"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/226bf4d8-892f-40ed-bed2-3d20b403b91c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teiis550"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/05f9702b-9a9a-423c-8cd9-e13cceff0143">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis550.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/387b39d5-d9f6-49ab-800c-cbc2c4f66abe">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/G3EbxPYZj2LUlBjqwkHg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/euroind_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c434b8e4-1f58-4cff-a888-5de06cd034f6">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/1bc9b66b-d050-4a4c-8fef-24f3e133b32b"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/b2ffc338-24fe-43dd-9c84-87cfb802fd3f"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/f29923ee-852f-4b39-8431-1b3217d5a099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/81a738b4-7f22-41b8-b524-95ee63f752a6">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2633</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 12:49:47.970951</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:29:38</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/G3EbxPYZj2LUlBjqwkHg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f29923ee-852f-4b39-8431-1b3217d5a099">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b18f1f54-8ecf-4534-9b9f-a40f6051f7a5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teiis550"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2c1a3ad2-bcf5-4426-8916-0730412d98d7">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/G3EbxPYZj2LUlBjqwkHg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teiis550</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7083d2f9-325e-4080-8153-b7f23baadf08">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis550.sdmx.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/bcd831b9-00c5-4212-a1e5-c40d0d694c6c">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/1bc9b66b-d050-4a4c-8fef-24f3e133b32b">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/b2ffc338-24fe-43dd-9c84-87cfb802fd3f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

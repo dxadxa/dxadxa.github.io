@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6e684bcb-2739-4ae8-bb10-3a559b9799a9">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00120.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f5b5da04-f225-4f22-9833-c8d822c8050c">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00120.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0eb11492-5f91-455f-9c82-d666d00a1254">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tag00120"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/61390445-5b08-469b-9b03-3f730f0b7fbd">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/5vRvb5IZGseiMkV3xX0TTQ">
+    <dcterms:description xml:lang="fr">Ce tableau contient les superficies pour tous les arbres fruitiers (pommes, poires et cerises, en particulier), tous les arbres à fruits à coque, toutes les plantations de baies (à l’exception des fraises), tous les agrumes, toutes les vignes, tous les oliviers et toutes les autres cultures permanentes utilisées pour la consommation humaine. Cet indicateur utilise les notions de "superficie en production". La "superficie en production" correspond à la superficie qui peut être récoltée pendant l’année de récolte de référence. Toutes les superficies non productives, telles que les nouvelles plantations qui n’ont pas encore commencé à produire, sont exclues, ainsi que les superficies abandonnées. En outre, seules les superficies plantées de cultures permanentes qui sont entièrement ou principalement destinées à produire pour le marché sont incluses.</dcterms:description>
+    <dcterms:title xml:lang="fr">Cultures permanentes pour la consommation humaine par superficie</dcterms:title>
+    <dcterms:identifier>tag00120</dcterms:identifier>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/61390445-5b08-469b-9b03-3f730f0b7fbd"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3f18317c-b0b0-482d-b9b8-4f1c07e6740c"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6e684bcb-2739-4ae8-bb10-3a559b9799a9"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8b18909e-3075-4528-94f9-ffca57333d33"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0eb11492-5f91-455f-9c82-d666d00a1254"/>
+    <dcterms:description xml:lang="en">This table includes the areas of all fruit trees (in particular apples, pears and cherries) all nut trees, all berry plantations (except strawberries), all citrus fruit trees, all vineyards, all olive trees and all other permanent crops used for human consumption. This indicator uses the concepts of "production area". The "production area" corresponds to the area that can be harvested in the reference harvest year. All of the non-producing areas, such as new plantations that have not yet started to produce, are not excluded, as well as the abandoned areas. In addition, only the areas planted with permanent crops that are entirely or mainly intended to produce for the market are included.</dcterms:description>
+    <dcterms:title xml:lang="en">Permanent crops for human consumption by area</dcterms:title>
+    <dcatapop:ckanName>5vRvb5IZGseiMkV3xX0TTQ</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/384822d7-9aee-4854-a877-117cdd0ead5e"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/85617ab8-8c5f-46d0-adc4-b64cd228842b"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7547e77f-15a6-4456-9598-4e2d141e1a23"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f5b5da04-f225-4f22-9833-c8d822c8050c"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="de">Diese Tabelle beinhaltet die Flächen aller Obstbäume (insbesondere Äpfel, Birnen und Kirschen), aller Nussbäume, aller Strauchbeerenanlagen, aller Bäume mit Zitrusfrüchten, aller Rebflächen, aller Olivenbäume und aller sonstigen Dauerkulturen zur menschlichen Ernährung. Diesem Indikator liegen die Begriffe „Produktionsfläche“ zugrunde. Die „Produktionsfläche“ entspricht der Fläche, die im Bezugserntejahr abgeerntet werden kann. Alle nicht in die Erzeugung einbezogenen Flächen, wie Neuanplanzungen, die noch keine Frucht bringen, sowie aufgegebene Flächen werden hierbei nicht ausgeschlossen. Ferner werden nur die Flächen einbezogen, die mit Dauerkulturen bepflanzt sind, deren Erzeugung vollständig oder hauptsächlich für den Markt bestimmt ist.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/1bee6346-073b-41eb-a156-4f172d410bb8"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:title xml:lang="de">Dauerkulturen zur menschlichen Ernährung nach Fläche</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7547e77f-15a6-4456-9598-4e2d141e1a23">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tag00120"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1d5c2dc8-1dba-41e5-82ed-5cd784806765">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8b18909e-3075-4528-94f9-ffca57333d33">
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tag00120"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/85617ab8-8c5f-46d0-adc4-b64cd228842b">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/5vRvb5IZGseiMkV3xX0TTQ"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tag00120</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/384822d7-9aee-4854-a877-117cdd0ead5e">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/cb28a9b9-3ad0-43f8-8a69-1dc127688bec"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1d5c2dc8-1dba-41e5-82ed-5cd784806765"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/edacb0ef-34ae-4ed5-9af1-21281ee87f55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/edacb0ef-34ae-4ed5-9af1-21281ee87f55">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/5ffe6dd5-2bc0-4fed-86dc-a7afa7a6cc95">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:32:24</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">601</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/5vRvb5IZGseiMkV3xX0TTQ"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2016-09-20 22:16:48.930801</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">691</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3f18317c-b0b0-482d-b9b8-4f1c07e6740c">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00120.tsv.gz&amp;unzip=true"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/cb28a9b9-3ad0-43f8-8a69-1dc127688bec">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1bee6346-073b-41eb-a156-4f172d410bb8">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tag00120</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tag00120</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/5vRvb5IZGseiMkV3xX0TTQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

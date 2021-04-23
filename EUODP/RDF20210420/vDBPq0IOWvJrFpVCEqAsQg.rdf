@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f307d378-df5a-4389-a57b-c7a5ccddb874">
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/mar_go_am_uk05</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/vDBPq0IOWvJrFpVCEqAsQg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a8a6b202-2391-4256-841a-865a9a973a26">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/a8a6b202-2391-4256-841a-865a9a973a26</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/67e7a68e-575c-448c-9c49-a30accee2fdb">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a8a6b202-2391-4256-841a-865a9a973a26"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/7cc2d1b7-aa1b-410f-9f10-b8907a430155"/>
+    <vcard:hasTelephone rdf:resource="telephone-b316b5ee-fea7-4b42-86e3-33a4e53536a674cbb8b0-525d-43ca-a35a-c396bc0a7f28"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/57452eac-b68b-42eb-a665-c3f96a2659e8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/vDBPq0IOWvJrFpVCEqAsQg"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20 07:01:53.074323</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:23:56.904468</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b499fcff-a34e-4620-9c44-063a9b7aca8c">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/mar_go_am_uk05.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20 09:01:53.106737</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/mar_go_am_uk05.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/vDBPq0IOWvJrFpVCEqAsQg">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:title xml:lang="fr">Poids brut des marchandises transportées, sorties/entrées des principaux ports - Royaume-Uni - données annuelles (2000 - 2005)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/05ba704b-8d73-49e7-bb5f-ef2b1ebf529f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b499fcff-a34e-4620-9c44-063a9b7aca8c"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/7abe3244-50af-4760-b2db-9af6f9fbb343"/>
+    <dcterms:title xml:lang="de">Bruttogewicht der nach/aus Haupthäfen umgeschlagenen Güter - Vereinigte Königreich - jährliche Daten (2000 - 2005)</dcterms:title>
+    <owl:versionInfo></owl:versionInfo>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f307d378-df5a-4389-a57b-c7a5ccddb874"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3f8310e6-546f-42d0-81ee-d6ae4aa623e4"/>
+    <dcterms:temporal rdf:resource="period_of_time-b8eb870a-591c-42db-b394-06d7d129de0d"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/67e7a68e-575c-448c-9c49-a30accee2fdb"/>
+    <dcatapop:ckanName>vDBPq0IOWvJrFpVCEqAsQg</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcterms:modified>2018-07-20 07:01:53.074323</dcterms:modified>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5f640a19-59e6-4d0a-9c79-c6a882d99d76"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ee45177d-4298-4f44-ba9c-8a91d77c5932"/>
+    <dcterms:identifier>mar_go_am_uk05</dcterms:identifier>
+    <dcterms:description xml:lang="de">Bruttogewicht der nach/aus Haupthäfen umgeschlagenen Güter - Vereinigte Königreich - jährliche Daten (2000 - 2005)</dcterms:description>
+    <dcterms:description xml:lang="en">Gross weight of goods transported to/from main ports - United Kingdom - annual data (2000 - 2005)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:title xml:lang="en">Gross weight of goods transported to/from main ports - United Kingdom - annual data (2000 - 2005)</dcterms:title>
+    <dcterms:description xml:lang="fr">Poids brut des marchandises transportées, sorties/entrées des principaux ports - Royaume-Uni - données annuelles (2000 - 2005)</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:23:56.904468</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-b8eb870a-591c-42db-b394-06d7d129de0d">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-01-01T00:00:00</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T00:00:00</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3f8310e6-546f-42d0-81ee-d6ae4aa623e4">
+    <schema:url>http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/mar_esms.sdmx.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/vDBPq0IOWvJrFpVCEqAsQg"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ee45177d-4298-4f44-ba9c-8a91d77c5932">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/mar_go_am_uk05.sdmx.zip"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20 09:01:53.106747</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/mar_go_am_uk05.sdmx.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5f640a19-59e6-4d0a-9c79-c6a882d99d76">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/mar_go_am_uk05.tsv.gz&amp;unzip=true"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/mar_go_am_uk05.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20 09:01:53.106742</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7abe3244-50af-4760-b2db-9af6f9fbb343">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/mar_go_am_uk05</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/mar_go_am_uk05</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/05ba704b-8d73-49e7-bb5f-ef2b1ebf529f">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/vDBPq0IOWvJrFpVCEqAsQg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/cache/metadata/en/mar_esms.htm</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-b316b5ee-fea7-4b42-86e3-33a4e53536a674cbb8b0-525d-43ca-a35a-c396bc0a7f28">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/7cc2d1b7-aa1b-410f-9f10-b8907a430155">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

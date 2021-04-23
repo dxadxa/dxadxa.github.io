@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b538821a-29fb-410a-8157-124f020cf760">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data-on-taxation-in-norway"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/data-taxation_en</dcterms:title>
+    <schema:url>https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/data-taxation_en</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ab3dc156-3742-4428-ba19-31fceb5f819f">
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/taxation_customs/sites/taxation/files/resources/documents/taxation/gen_info/economic_analysis/data_on_taxation/no-national-tax.xlsx"/>
+    <dcterms:description xml:lang="en">Detailed list of taxes and social contributions according to national classification. Tax name according to national classification. Economic function. &#13;
+Explanatory notes about the sub-items according to national classification, for the codes used for economic functions and environmental taxes and the codes for specific entries.</dcterms:description>
+    <dcterms:issued xml:lang="en">2017-02-17 10:39:25.501953</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/taxation_customs/sites/taxation/files/resources/documents/taxation/gen_info/economic_analysis/data_on_taxation/no-national-tax.xlsx"/>
+    <dcterms:title xml:lang="en">2. National tax list for Norway</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/36c4cec3-e6d9-4578-a51a-5cd37f9eac91">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">477</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data-on-taxation-in-norway"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-10T09:48:48</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-17 09:36:27.751292</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">562</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data-on-taxation-in-norway">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/250"/>
+    <dcat:keyword xml:lang="en">national tax authorities</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1316"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ab3dc156-3742-4428-ba19-31fceb5f819f"/>
+    <dcterms:title xml:lang="en">Data on taxation in Norway</dcterms:title>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:keyword xml:lang="en">tax aggregates</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/aec57262-8e79-4422-962b-f530029cdf20"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1021"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1313"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/093ff610-176c-46e0-8336-d3f8760b0554"/>
+    <dcterms:description xml:lang="en">This dataset provides information about the taxation in Norway on the basis of information collected from national databases and the relevant indicators. The data is available for the following types of taxes:  &#13;
+&#13;
+- Indirect taxes;   &#13;
+- Direct taxes;  &#13;
+- Social contributions;  &#13;
+- Property taxes;  &#13;
+- Implicit tax rates;  &#13;
+- Environmental taxes.  &#13;
+&#13;
+The application of VAT is decided by the national tax authorities. There are some standard EU rules that in general are applied. </dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">environmental taxes</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1310"/>
+    <dcatapop:ckanName>data-on-taxation-in-norway</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-02-17 09:36:27.751292</dcterms:issued>
+    <dcat:keyword xml:lang="en">taxation</dcat:keyword>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/bb3c7e74-b88f-4c1c-a3f5-42f6d84731d7"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:keyword xml:lang="en">indirect taxes</dcat:keyword>
+    <dcat:keyword xml:lang="en">direct taxes</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bd502fa5-5887-47bb-baf9-b4f96866aa64"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1314"/>
+    <dcat:keyword xml:lang="en">social contributions</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-04 09:25:59.229657</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b538821a-29fb-410a-8157-124f020cf760"/>
+    <dcat:keyword xml:lang="en">VAT</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1319"/>
+    <dcat:keyword xml:lang="en">EU rules</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4266"/>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <dcat:keyword xml:lang="en">Norway</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5839"/>
+    <dcat:keyword xml:lang="en">property taxes</dcat:keyword>
+    <dcat:keyword xml:lang="en">implicit tax rates</dcat:keyword>
+    <dcat:keyword xml:lang="en">data</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/093ff610-176c-46e0-8336-d3f8760b0554">
+    <dcterms:description xml:lang="en">Structure by type of tax.&#13;
+Structure by level of government. &#13;
+Structure by economic function. &#13;
+Different types of taxes.</dcterms:description>
+    <dcterms:issued xml:lang="en">2017-02-17 10:37:33.750945</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/taxation_customs/sites/taxation/files/resources/documents/taxation/gen_info/economic_analysis/data_on_taxation/no-summary-tables-country.xlsx"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">1. Summary table for the tax revenue in Norway</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/taxation_customs/sites/taxation/files/resources/documents/taxation/gen_info/economic_analysis/data_on_taxation/no-summary-tables-country.xlsx"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/bb3c7e74-b88f-4c1c-a3f5-42f6d84731d7">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/68344bfe-8b92-4086-a0fb-4a187bf04dc0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>https://ec.europa.eu/taxation_customs/contacts_en</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/aec57262-8e79-4422-962b-f530029cdf20">
+    <vcard:organisation-name>European Commission, Taxation and Customs Union DG</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/68344bfe-8b92-4086-a0fb-4a187bf04dc0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bd502fa5-5887-47bb-baf9-b4f96866aa64">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:description xml:lang="en">This report contains a detailed statistical and economic analysis of the tax systems of the 28 Member States of the European Union, plus Iceland and Norway which are members of the European Economic Area.&#13;
+</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data-on-taxation-in-norway"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/taxation_customs/business/economic-analysis-taxation/taxation-trends-eu-union_en</schema:url>
+    <dcterms:title xml:lang="en">Taxation trends in the European Union</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+</rdf:RDF>

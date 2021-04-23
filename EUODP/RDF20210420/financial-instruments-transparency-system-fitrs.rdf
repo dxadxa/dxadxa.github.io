@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0cc47a8b-1ee0-470b-a967-85ac3de3a56d">
+    <dcterms:title xml:lang="en">Access the Non-Equity Transparency Calculation Results Register</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_fitrs_equities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/financial-instruments-transparency-system-fitrs">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0cc47a8b-1ee0-470b-a967-85ac3de3a56d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4195"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8c74c597-9946-4b27-991c-502d876b6904"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/547e1e8a-36ef-4b68-983f-9c94e5bd980a"/>
+    <dcterms:description xml:lang="en">Database of equity and non-equity transparency calculation results.&#13;
+&#13;
+MiFID II/MiFIR introduces transparency requirements for equities, bonds, structured finance products, emission allowances and derivatives, empowering competent authorities (CAs) to waive the obligation for market operators and investment firms operating a trading venue, to make public pre-trade information for non-equity instruments. Furthermore, transactions may also benefit from deferred publication. In addition, for equity instruments the Regulation introduces a tick size regime and the determination of the standard market size (SMS) and of the most relevant market in terms of liquidity.&#13;
+&#13;
+&#13;
+Commission Delegated Regulations 2017/567, 2017/587 and 20174/588, on transparency requirements for equity instruments, require the relevant competent authorities to calculate and publish information related to the liquidity classification, the transparency thresholds (LIS and SMS) and tick size band assessment of equities.&#13;
+&#13;
+&#13;
+Commission Delegated Regulation 2017/583 on transparency requirements for non-equity instruments requires the relevant competent authorities to publish information on the liquidity classification of financial instruments, sizes large in scale compared to the standard market size (LIS) and the size specific to the instrument (SSTI).&#13;
+&#13;
+</dcterms:description>
+    <dcatapop:ckanName>financial-instruments-transparency-system-fitrs</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_34746c6e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/aed38438-9e6c-4f38-a61a-9bcb96069b42"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESMA"/>
+    <dcterms:title xml:lang="en">Financial Instruments Transparency System (FITRS)</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1459"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1804"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/aed38438-9e6c-4f38-a61a-9bcb96069b42">
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_fitrs_nonequities"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Access the Non-Equity Transparency Calculation Results Register</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8c74c597-9946-4b27-991c-502d876b6904">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Access the FITRS Register</dcterms:title>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_fitrs_files"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/5b8bfc07-286f-4edc-abd5-b73b7dbc6fa0">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-12-18T14:32:55</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/financial-instruments-transparency-system-fitrs"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-11T12:14:05</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1618</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/547e1e8a-36ef-4b68-983f-9c94e5bd980a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

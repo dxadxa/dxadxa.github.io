@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/f244a1d7-4a29-444a-b2cc-0e9352a61931">
+    <dcat:keyword xml:lang="en">Transport</dcat:keyword>
+    <dcterms:identifier>f244a1d7-4a29-444a-b2cc-0e9352a61931</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fa16c2f4-f3be-4302-bc25-f7ceef39d2e5"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/bd0bd0ad-7056-483e-8973-3a6c7502c073"/>
+    <dcterms:description xml:lang="en">Container Status Messages collected from open web sources through deep-web mining and Container Trip Information &amp; Vessel Stop Information records derived by the ConTraffic system. In April 2019 the collection of new information was terminated due to the overlap with the AFIS-CSM database. The information was collected and processed based on Regulation (EC) 515/97 and is restricted to the authorized parties defined by the Regulation.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/af9a2572-4e18-4561-81bf-fc62ec74835d"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1db6322e-de78-45b8-8b51-74d7ce4bf017"/>
+    <dcatapop:ckanName>f244a1d7-4a29-444a-b2cc-0e9352a61931</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9f683384-bd5f-4091-942f-a9df0f90a50c"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c3ff74d8-7107-4a55-8d39-ff797d570e64"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">ConTraffic-CSM-CTI-VSI</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9f683384-bd5f-4091-942f-a9df0f90a50c">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">ConTraffic Transship Patterns Service - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://contraffic.jrc.ec.europa.eu/resources/v1/TPService.json"/>
+    <dcterms:description xml:lang="en">Provides the most frequent routes followed by shipping containers when transported from the provided departure port to the provided destination port along with statistics on the typical voyage duration.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/af9a2572-4e18-4561-81bf-fc62ec74835d">
+    <dcat:accessURL rdf:resource="https://contraffic.jrc.ec.europa.eu/"/>
+    <dcterms:description xml:lang="en">The Visual Analytics functions allows to search in the large ConTraffic database, visualize the results and export small subsets to CSV files</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">ConTraffic Visual Analytics for CSM data collected in ConTraffic - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bd0bd0ad-7056-483e-8973-3a6c7502c073">
+    <schema:url>http://data.europa.eu/89h/f244a1d7-4a29-444a-b2cc-0e9352a61931</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/f244a1d7-4a29-444a-b2cc-0e9352a61931"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/f244a1d7-4a29-444a-b2cc-0e9352a61931</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fa16c2f4-f3be-4302-bc25-f7ceef39d2e5">
+    <dcat:accessURL rdf:resource="https://contraffic.jrc.ec.europa.eu/resources/v1/PaeService.json"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Provides key container route information and customs risk analysis flags based on the container-trip information identified by the provided container ID and date.</dcterms:description>
+    <dcterms:title xml:lang="en">ConTraffic pre-arrival enrichment - NB: A GIS client is required to access and use this distribution.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1db6322e-de78-45b8-8b51-74d7ce4bf017">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://contraffic.jrc.ec.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/f244a1d7-4a29-444a-b2cc-0e9352a61931"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/91ac7e96-6cae-4a13-b69f-21ff0f2dffd3">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:46:47</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-24T18:40:12</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/f244a1d7-4a29-444a-b2cc-0e9352a61931"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c17e67f6-af57-4fd9-abc7-bf42ab714f9f">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c3ff74d8-7107-4a55-8d39-ff797d570e64">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="aris.tsois@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c17e67f6-af57-4fd9-abc7-bf42ab714f9f"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e3ce00b7-4a92-41de-aefb-1327941140a8">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://ec.europa.eu/easme/en/cosme</schema:url>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/easme/en/cosme</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/cosme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a01f8bdb-c249-492b-b2b7-f5e96a7f2d63">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="https://cosme.easme-web.eu/"/>
+    <dcterms:title xml:lang="en">Cosme data hub</dcterms:title>
+    <dcterms:description xml:lang="en">Features beneficiaries who have been awarded grants co-financed by the COSME programme.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:issued xml:lang="en">2018-02-22 11:51:18.132014</dcterms:issued>
+    <dcat:downloadURL rdf:resource="https://cosme.easme-web.eu/"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/cosme">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/01e68bf8-490f-4f8d-86ea-944bc00fd8d3"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a01f8bdb-c249-492b-b2b7-f5e96a7f2d63"/>
+    <dcat:keyword xml:lang="en">competitivness</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:keyword xml:lang="en">SMEs</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EASME"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/45"/>
+    <dcatapop:ckanName>cosme</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1439"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2359"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-21 10:19:26.718615</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-19 13:09:23.542077</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/0c147fe7-5e28-4072-91f8-fb436fb31541"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7da4079d-89cc-4cdd-8657-779732d25e59"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6749"/>
+    <dcat:keyword xml:lang="en">entrepreneurship</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e3ce00b7-4a92-41de-aefb-1327941140a8"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">COSME is an EU programme for the Competitiveness of Small and Medium-sized Enterprises (SMEs) running from 2014 – 2020, with a planned budget of EUR 2.3 billion. It helps SMEs achieve their full potential by supporting better access to finance, access to markets, entrepreneurship and a more business-friendly environment.</dcterms:description>
+    <dcterms:title xml:lang="en">COSME</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/01e68bf8-490f-4f8d-86ea-944bc00fd8d3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:issued xml:lang="en">2018-02-21 11:19:27.004626</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">Map, statistics and description of  companies and projects supported by the COSME programme.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">COSME datahub</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/easme/en/cosme-data-hub"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/easme/en/cosme-data-hub"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7da4079d-89cc-4cdd-8657-779732d25e59">
+    <dcterms:title xml:lang="en">COSME web page</dcterms:title>
+    <dcterms:description xml:lang="en">COSME web page</dcterms:description>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/easme/en/cosme"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/easme/en/cosme"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2018-02-21 11:19:27.004662</dcterms:issued>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/71b06e83-5147-4bfd-8cb7-f1c8583be006">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">759</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-05-18T09:25:30</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">662</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/cosme"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21 10:19:26.718615</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/0c147fe7-5e28-4072-91f8-fb436fb31541">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="easme-communication@ec.europa.eu"/>
+    <vcard:organisation-name>Marie Faturova</vcard:organisation-name>
+  </rdf:Description>
+</rdf:RDF>

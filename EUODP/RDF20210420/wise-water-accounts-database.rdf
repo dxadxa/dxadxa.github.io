@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/wise-water-accounts-database">
+    <dcterms:identifier>DAT-224-en</dcterms:identifier>
+    <dcat:keyword>water quantity accounts</dcat:keyword>
+    <dcterms:title xml:lang="en">[DEPRECATED] WISE Water Accounts database for Europe</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ac538275-bc75-4686-9452-a551e9844d9c"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-17T09:11:45Z</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:keyword>wise</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/cfc34e0f-daae-4d6e-8956-fd2053d98efc"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8169297d-3555-4ab3-ab3f-02a9d835ea71"/>
+    <dcat:keyword>water quantity</dcat:keyword>
+    <dcat:keyword>water accounts</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/597"/>
+    <dcterms:description xml:lang="en">The WISE Water Accounts database contains monthly water accounts for the years 1990-2015 for 117 European river basins extracted from the ECRINS functional river basin districts.
+
+The water accounts data can be downloaded in two different formats: a spreadsheet that contains each accounting variable in a separate worksheet, and a database that contains all the variables of the asset and flow accounts to facilitate an integrated analysis. 
+
+The WISE Water Accounts Spatial Units can also be downloaded from the EEA web site.
+
+Extensive clarifications on the development of the European water accounts can be found in the following reports published by the European Commission (DG ENV): 
+"Guidance document on the application of water balances for supporting the implementation of the Water Framework Directive" (http://ec.europa.eu/environment/water/blueprint/balances.htm) and 
+"Water ecosystem accounts reports" (http://ec.europa.eu/environment/water/blueprint/balances.htm)</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/db9617cd-1acb-401e-840b-305d0e1d0912"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-17T09:11:45Z</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8169297d-3555-4ab3-ab3f-02a9d835ea71">
+    <dcat:accessURL rdf:resource="https://ftp.eea.europa.eu/www/wise/water_accounts/WISE_WaterAccounts_v2018r3_accdb.zip"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">WISE Water Accounts - DATABASE - version 2018 revision 3</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/d904e3d1-5fdb-4abe-989c-5084ea397b8c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/db9617cd-1acb-401e-840b-305d0e1d0912">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/bd4db711-7556-404a-87cf-cc4fc47a1fcf"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/d904e3d1-5fdb-4abe-989c-5084ea397b8c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/204f9531-9672-483f-a0a4-f40298fdc38d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d275566d-0d9a-4749-88e8-2869bce53346">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/wise-water-accounts-database"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:29:12</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:29:12</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ac538275-bc75-4686-9452-a551e9844d9c">
+    <dcterms:title xml:lang="en">[DEPRECATED] WISE Water Accounts database for Europe</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/wise-water-accounts-database</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/wise-water-accounts-database"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/cfc34e0f-daae-4d6e-8956-fd2053d98efc">
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">WISE Water Accounts - SPREADSHEET - version 2018 revision 3</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://ftp.eea.europa.eu/www/wise/water_accounts/WISE_WaterAccounts_v2018r3_xlsx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/bd4db711-7556-404a-87cf-cc4fc47a1fcf">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

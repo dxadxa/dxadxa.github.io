@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5cea114f-4596-446a-a7b5-935607693607">
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tag00075"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/bf41197a-6ae2-4b5e-9b59-42d05dda31e3">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/26298f6d-d513-4b70-86e8-14699da36fc8"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/a9f1b720-a0b5-4cb0-b720-a7cebc61d8c0"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/2f1766e8-4087-40ae-891f-8aa55e2de2e2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0f44d3cc-15a7-4bb3-8d9a-3fa742db595d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00075.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/73a4ec17-95a4-4409-aa6d-a17a4c7b642d">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f1472f29-4af8-4389-9397-a96e6c1a4046">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6W6EGPQHkz8mHKIkVqP5w"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/fish_aq_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/528f3b69-e288-4bb8-bed7-0007a0d65fde">
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tag00075"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/777ced6d-b923-411f-b10a-53feece39a6f">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1171</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:08:35</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1286</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/r6W6EGPQHkz8mHKIkVqP5w"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:44:37.473057</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e754064e-cb87-4b53-9791-abc06cc1f688">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6W6EGPQHkz8mHKIkVqP5w"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tag00075</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/r6W6EGPQHkz8mHKIkVqP5w">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/528f3b69-e288-4bb8-bed7-0007a0d65fde"/>
+    <dcterms:identifier>tag00075</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5cea114f-4596-446a-a7b5-935607693607"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1dba3126-bacb-4456-a0f6-a28de0f45688"/>
+    <dcat:keyword xml:lang="en">aquaculture</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0f44d3cc-15a7-4bb3-8d9a-3fa742db595d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4260"/>
+    <dcatapop:ckanName>r6W6EGPQHkz8mHKIkVqP5w</dcatapop:ckanName>
+    <dcterms:title xml:lang="fr">Production de l'aquaculture en tonnes et valeur</dcterms:title>
+    <dcat:keyword xml:lang="en">fishery product</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-12</dcterms:modified>
+    <dcterms:title xml:lang="en">Aquaculture production in tonnes and value</dcterms:title>
+    <dcterms:description xml:lang="de">Gesamtproduktion an Fischen, Weich- und Krebstieren sowie sonstigen im Wasser lebenden Organismen durch Aquakultur (Fischzucht). Die Daten sind in Lebendgewicht (TLW, einschließlich der Schalen, Skelette, etc.). Euro oder Euro/Tonne angegeben. Produktionsdaten der Aufzucht- und Brutanlagen sind in den Tabellen fish_aq2b, fish_aq4a und fish_aq4b enthalten. Ältere Daten (1950-2007), ohne Brut und Aufzucht, befinden sich in der Datenbank "Aquakulturproduktion bis 2007" (fish_aq08).</dcterms:description>
+    <dcterms:title xml:lang="de">Aquakulturerzeugung in Tonnen und Preise Werte</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e754064e-cb87-4b53-9791-abc06cc1f688"/>
+    <dcterms:description xml:lang="fr">Production totale de poissons, de crustacés, de mollusques et d'autres organismes aquatiques par aquaculture (élevage de poissons) à partir de 2008, à l'exception des écloseries et nurseries. Les données sont exprimées en Tonnes de poids vif (TPV, y compris coquillages, squelettes, etc.), Euro et Euro/Tonne. Les données de production des écloseries et nurseries se trouvent dans les tableaux fish_aq2b, fish_aq4a et fish_aq4. Les données de 1950 à 2007 (sans écloseries et nurseries) sont disponibles dans les ensembles de données "Production de l'aquaculture jusqu'au 2007" (fish_aq08).</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/332b6cb2-79dd-44b2-9098-fe03bbba914e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/05950bf9-ec9c-4d18-a213-4efc57b318a9"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1ab224f9-8dc8-4ee1-98df-b0a0708da716"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/73a4ec17-95a4-4409-aa6d-a17a4c7b642d"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/bf41197a-6ae2-4b5e-9b59-42d05dda31e3"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:keyword xml:lang="en">fishing statistics</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/4e65fe6b-c108-4c81-9b61-a95ca45b1567"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f1472f29-4af8-4389-9397-a96e6c1a4046"/>
+    <dcterms:description xml:lang="en">Total production of fish, crustaceans, molluscs and other aquatic organisms from aquaculture ("fish-farming") from 2008 onwards, excluding hatcheries and nurseries. The data are expressed in Tonnes Live Weight (TLW, incl. shells, skeletons, etc.), Euro and Euro/Tonne. Production data from hatcheries and nurseries can be found in the fish_aq2b, fish_aq4a and fish_aq4b tables. Older data (1950-2007), excluding production from hatcheries and nurseries, are contained in the "Aquaculture production until 2007 (fish_aq08)" database.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1dba3126-bacb-4456-a0f6-a28de0f45688">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00075.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/26298f6d-d513-4b70-86e8-14699da36fc8">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/05950bf9-ec9c-4d18-a213-4efc57b318a9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tag00075"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1ab224f9-8dc8-4ee1-98df-b0a0708da716">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00075.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/332b6cb2-79dd-44b2-9098-fe03bbba914e">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6W6EGPQHkz8mHKIkVqP5w"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tag00075</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tag00075</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4e65fe6b-c108-4c81-9b61-a95ca45b1567">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/r6W6EGPQHkz8mHKIkVqP5w"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/fish_aq_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/a9f1b720-a0b5-4cb0-b720-a7cebc61d8c0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/2f1766e8-4087-40ae-891f-8aa55e2de2e2">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/48e3277a-b422-4238-a042-3ed036d4b27d">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/b7597ada-148d-4560-9079-ab0a5539cad3"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/jrc/en/scientific-tool/database-alternative-methods-animal-experimentation</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/b7597ada-148d-4560-9079-ab0a5539cad3">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/355974e4-a0d4-4162-a336-2424d4b37b86"/>
+    <dcterms:description xml:lang="en">DB-ALM dataset is a publicly accessible collection of alternative method summaries and protocols. DB-ALM focuses primarily on methods submitted to EURL ECVAM for validation, and those identified in ad hoc reviews of the literature and end-users in specific application areas between 2000 and 2019. 
+
+All method summaries and protocols can be searched in an intuitive web interface and then retrieved individually, but they can also be downloaded completely for flexible perusal on a local PC. Search criteria include topic areas, biological endpoints, experimental systems, and others.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c12d6c39-4298-4459-af72-9b0f7bd990b8"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/dbd2985a-0668-4b92-b18b-ecc8132da15e"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/48e3277a-b422-4238-a042-3ed036d4b27d"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3a68ff9c-df78-49e1-9784-6152ee01110a"/>
+    <dcterms:identifier>b7597ada-148d-4560-9079-ab0a5539cad3</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">EURL ECVAM dataset on alternative methods to animal experimentation (DB-ALM)</dcterms:title>
+    <dcatapop:ckanName>b7597ada-148d-4560-9079-ab0a5539cad3</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/dbd2985a-0668-4b92-b18b-ecc8132da15e">
+    <dcterms:description xml:lang="en">This downloadable version of the DB-ALM dataset is a zip file that should be extracted locally on the user's PC.
+
+It is composed of an Excel file allowing the search for method summaries and protocols using different search criteria, and of a folder named "DBALM catalogue" containing all related documents describing method summaries and protocols
+
+Searches can be performed by using the filters located in the column titles of the Excel file and related documents opened using the hyperlinks located in the "Title" column.</dcterms:description>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/DBALM/LATEST/downloadable/DBALM_dataset.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">EURL ECVAM dataset on alternative methods to animal experimentation (downloadable version)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c12d6c39-4298-4459-af72-9b0f7bd990b8">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-dbalm-contact@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e156a7a7-40a3-47e4-bf60-4481f8fedcd1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e156a7a7-40a3-47e4-bf60-4481f8fedcd1">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/355974e4-a0d4-4162-a336-2424d4b37b86">
+    <dcterms:title xml:lang="en">EURL ECVAM dataset on alternative methods to animal experimentation (on-line version)</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">This on-line version of the DB-ALM dataset is an HTML file that can be consulted on-line from any web browser .
+
+Searches can be performed by using the filters located in the column titles and related documents opened using the hyperlinks located in the "Title" column. Supplementary documentation can be accessed clicking on the "+" icon of the first column when available.
+
+The search field located above the table allows search on all table cells.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/DBALM/LATEST/online/dbalm.html"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/08ebdbe2-7fb6-42ab-bd6b-00bcef64bc21">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:27:25</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T09:26:23</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/b7597ada-148d-4560-9079-ab0a5539cad3"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3a68ff9c-df78-49e1-9784-6152ee01110a">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/b7597ada-148d-4560-9079-ab0a5539cad3"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/b7597ada-148d-4560-9079-ab0a5539cad3</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/b7597ada-148d-4560-9079-ab0a5539cad3</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

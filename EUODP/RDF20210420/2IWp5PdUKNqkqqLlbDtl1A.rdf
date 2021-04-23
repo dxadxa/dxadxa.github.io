@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e26f4022-4201-405e-bda9-4694ba08864e">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/e26f4022-4201-405e-bda9-4694ba08864e</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/eb08e0b6-fd4c-486b-bde5-772f52b2e7e4">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:58:44.151523</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1526</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1409</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05 13:47:10.820166</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/2IWp5PdUKNqkqqLlbDtl1A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-97514a56-c47e-4778-9ff5-1ec1745b4845">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01T00:00:00</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d4c8df46-8a46-479b-8130-3fcac50e4adf">
+    <vcard:hasTelephone rdf:resource="telephone-319b9b09-381b-408d-a16d-8a9274ae46fec856a69a-05b4-4174-88b7-f9ae60816570"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e26f4022-4201-405e-bda9-4694ba08864e"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/1f6e2668-b1fa-45d7-8cdc-87d1304d2d43"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/2IWp5PdUKNqkqqLlbDtl1A">
+    <dcterms:modified>2018-09-05 13:47:10.820166</dcterms:modified>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Water exploitation index</dcterms:title>
+    <dcterms:title xml:lang="de">Wassernutzungsindex</dcterms:title>
+    <owl:versionInfo>None</owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">The product has been split, please select one of the products below:  &#13;
+[Water exploitation index](https://data.europa.eu/euodp/en/data/dataset/ycGYsLsczMUOpk8jMzKGw)  &#13;
+[Water exploitation index by type of water source](https://data.europa.eu/euodp/en/data/dataset/byObiw86OozdduikcWmlXg)&#13;
+&#13;
+The indicator presents i) the annual total fresh water abstraction in a country as a percentage of its long term average available water (LTAA) from renewable fresh water resources; ii) the annual groundwater abstraction as a percentage of the country’s long-term annual average groundwater available for abstraction; and iii) the annual surface water abstraction as a percentage of the country’s long-term annual average surface water resources available for abstraction. The latter is calculated as the total fresh water resources (external inflow plus precipitation less evapotranspiration) less groundwater available for abstraction. Total fresh water abstraction includes water removed from any fresh water source, either permanently or temporarily. Mine water and drainage water as well as water abstractions from precipitation are included, whereas water used for hydroelectricity generation (in situ use) is excluded. The minimum period taken into account for the calculation of long term annual averages (LTAA) is 20 years. The warning threshold of 20% for this indicator distinguishes a non-stressed from a water scarce region, with severe scarcity occurring where the WEI exceeds 40%. However the indicator is limited for several reasons: Firstly, the total fresh water abstraction does not distinguish between abstracted water that is redirected after use (and after appropriate treatment) back to the water body or if it is used for irrigation purposes with inevitable evaporation. Secondly, the abstraction and WEI are national data and disregard regional and seasonal changing conditions during the course of the year (water bodies/river basins with different level of water scarcity and hot spots in summer time). Eurostat is in maintaining more differentiated data but coverage is not yet considered sufficient. As soon as the more advanced indicator WEI+ is established, it will replace the WEI. More information can be found in Statistics Explained.</dcterms:description>
+    <dcterms:identifier>tsdnr310</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d4c8df46-8a46-479b-8130-3fcac50e4adf"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/46ea1795-19e2-4268-8712-39eb4741f6a5"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:temporal rdf:resource="period_of_time-97514a56-c47e-4778-9ff5-1ec1745b4845"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:description xml:lang="de">Der Indikator entspricht i) der jährliche Gesamtsüßwasserentnahme in ein Land als Prozentsatz des langfristig im Durchschnitt verfügbaren Wasser (LTAA), von erneuerbare Süßwasserquellen; ii) die jährliche gesamte Bruttogrundwasserentnahme wird als Prozentsatz des für die Entnahme zur Verfügung stehenden erneuerbaren Grundwasservorkommens in den Mitgliedsstaaten ausgegeben; und iii) die jährliche gesamte Bruttoentnahme aus Oberflächensüßwasser wird ausgegeben als Prozentsatz des für die Entnahme zur Verfügung stehenden erneuerbaren Oberflächenwasservorkommens in den Mitgliedsstaaten, dass sich berechnet aus dem langfristig verfügbarem Süßwasservorkommen (Fremdwasser zuzüglich Niederschlag abzüglich Verdunstung) abzüglich des für die Entnahme verfügbaren Grundwassers. Diese Gesamtsüßwasserentnahme umfasst das Wasser, das jährlich entweder dauerhaft oder zeitweise aus allen Süßwasserquellen entnommen wird. Darin enthalten sind auch Grubenwasser und Dränage Wasser sowie entnommenes Niederschlagswasser, nicht enthalten ist zur Stromerzeugung verwendetes Wasser (Vor-Ort-Verwendung). Zur Berechnung der langfristig jährlich verfügbaren Durchschnittsmengen (LTAA) wird ein Zeitraum von mindestens 20 Jahren herangezogen. Die Warnschwelle von 20 % trennt eine in Bezug auf Wasser problemfreie Region von einer wasserarmen Region, und bei einem Wassernutzungsindex von über 40 % ist von großer Knappheit auszugehen. Der Indikator erweist sich jedoch aus mehreren Gründen als eingeschränkt: Erstens wird bei der Gesamtsüßwasserentnahme nicht unterschieden zwischen entnommenem Wasser, das nach seiner Nutzung (und angemessenen Behandlung) dem Wasserkörper wieder zugeführt wird, und dem zur Bewässerung verwendeten Wasser mit zwangsläufiger Verdunstung. Zweitens handelt es sich bei den Daten zur Entnahme und beim Wassernutzungsindex (WEI) um nationale Daten, bei denen regional und saisonal bedingte Änderungen im Laufe des Jahres nicht berücksichtigt werden (Gewässer/Flussbecken mit unterschiedlich stark ausgeprägter Wasserknappheit und Austrocknung im Sommer). Eurostat liegen differenziertere Daten vor, die Erfassung ist jedoch insgesamt noch nicht ausreichend. Sobald der erweiterte Indikator WEI+ eingeführt wird, ersetzt dieser den WEI. Weitere Informationen in Statistics Explained.</dcterms:description>
+    <dcatapop:ckanName>2IWp5PdUKNqkqqLlbDtl1A</dcatapop:ckanName>
+    <dcterms:title xml:lang="fr">Indice d'exploitation de l'eau</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e452194a-075f-439a-b5dc-8c78929abc8d"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6402"/>
+    <dcterms:description xml:lang="fr">L’indicateur présente : i)L’extraction totale annuelle d’eau fraîche d’un pays en pourcentage de sa moyenne d’eau disponible à long terme (LTAA) issue des ressources d’eau fraîche renouvelable, ii)l’extraction des eaux souterraines en pourcentage de la moyenne annuelle à long terme des eaux souterraines du pays disponible à la captation et iii) l’extraction annuelle des eaux de surface en pourcentage de la moyenne annuelle à long terme des eaux de surface du pays disponible au captage. Cette dernière est calculée comme le total des ressources d’eau fraîche (apport externe plus les précipitations moins l’évapotranspiration) moins les ressources en eau souterraine disponible au captage. Le total des extractions en eau fraîche comprend les eaux extraites de toute source d’eau fraîche que ce soit de façon permanente ou de façon temporaire. L’eau des mines ainsi que les eaux de drainage tout comme le captage des eaux des précipitations sont incluses tandis que les eaux utilisées pour la génération de l’hydroélectricité (utilisation in situ) sont exclues. La période minimale prise en compte pour le calcul des moyennes annuelles de long terme (LTAA) est de 20 ans. Le seuil d’alerte de 20% de cet indicateur distingue les régions sans carence des régions avec des manques d’eau, avec des carences sévères pour celles dont l’indicateur WEI dépasse 40%. Cependant l’indicateur a des limites pour plusieurs raisons: La première est que le total des extractions des eaux fraîches ne fait pas la distinction entre les eaux extraites qui sont réintégrées après utilisation (et après un traitement approprié) dans le réservoir d’eau ou si l’eau est utilisée à des fins d’irrigation avec inévitablement l’évaporation. En second lieu, les extractions et les indicateurs WEI sont des données nationales et ne tiennent pas compte des variations régionales ou intra-annuelles (réservoir d’eau/bassins hydrographiques avec différent niveau de carence et les points de tensions survenant au cours de l’été). Eurostat poursuit ses efforts de fournir des données différenciées mais la couverture n’est pas encore acceptable. Dès que l’indicateur amélioré WEI+ sera élaboré, il remplacera l’indicateur WEI actuel. Plus informations en Statistics Explained.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:58:44.151523</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e452194a-075f-439a-b5dc-8c78929abc8d">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tsdnr310</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdnr310</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/1f6e2668-b1fa-45d7-8cdc-87d1304d2d43">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/46ea1795-19e2-4268-8712-39eb4741f6a5">
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/2IWp5PdUKNqkqqLlbDtl1A"/>
+    <dcterms:title xml:lang="en">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdnr310</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-319b9b09-381b-408d-a16d-8a9274ae46fec856a69a-05b4-4174-88b7-f9ae60816570">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

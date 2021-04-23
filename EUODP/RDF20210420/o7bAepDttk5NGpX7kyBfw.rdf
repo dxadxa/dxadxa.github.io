@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fac06ed9-4c9f-4d50-b4e2-9992ecd049aa">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsii15.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/06f35860-06e4-4631-9275-2e3a6993cf09">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5db6e418-1bfb-4e6c-957c-cef909bab21a">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/o7bAepDttk5NGpX7kyBfw"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/tipsii_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3461084c-1d25-44f9-8b86-8729eea9802e">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tipsii15"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/o7bAepDttk5NGpX7kyBfw">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a5da2094-9f88-453c-9b67-b334fa4f495b"/>
+    <dcterms:description xml:lang="de">Der Auslandsvermögensstatus (AVS) ist eine statistische Angabe über den Wert und die Zusammensetzung folgender Positionen zu einem bestimmten Zeitpunkt: - Finanzielle Vermögenswerte Gebietsansässiger eines Wirtschaftsgebiets, die Forderungen gegenüber Gebietsfremden darstellen, und als Währungsreserve gehaltenes Barrengold, sowie - Verbindlichkeiten Gebietsansässiger eines Wirtschaftsgebiets gegenüber Gebietsfremden. Der Unterschied zwischen den finanziellen Forderungen und Verbindlichkeiten einer Volkswirtschaft gegenüber dem Ausland ist der Nettoauslandsvermögensstatus, der positiv oder negativ ausfallen kann. Je nach funktionaler Kategorie werden die grenzüberschreitenden finanziellen Positionen wie folgt eingestuft: 1) für die Forderungen – Direktinvestitionen; Wertpapieranlagen; Finanzderivate und Mitarbeiteraktienoptionen; Übriger Kapitalverkehr und Währungsreserven; 2) für die Verbindlichkeiten – Direktinvestitionen; Wertpapieranlagen; Finanzderivate und Mitarbeiteraktienoptionen und Übriger Kapitalverkehr. Diese finanziellen Positionen werden außerdem nach den verschiedenen Instrumenten eingestuft. Die Daten zu Wertpapieranlagen werden in Mio. Landeswährung ausgedrückt. Der Indikator basiert auf den Daten von Eurostat aus der Zahlungsbilanzstatistik. Diese Daten werden von den Mitgliedstaaten der EU vierteljährlich gemeldet. Die Definitionen beruhen auf der sechsten Auflage des IWF-Handbuchs zur Zahlungsbilanzstatistik (BPM6).</dcterms:description>
+    <dcterms:title xml:lang="en">Portfolio investement - annual data, million units of national currency</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f36f0b5b-7729-4787-bc3e-3ed5c4804e9a"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">The international investment position (IIP) is a statistical statement that shows at a point in time the value and composition of: -financial assets of residents of an economy that are claims on non-residents and gold bullion held as reserve assets, and -liabilities of residents of an economy to non-residents. The difference between an economy’s external financial assets and liabilities is the economy’s net IIP, which may be positive or negative. According to the functional category, the cross-border financial positions are classified as: 1) For the assets - Direct investment; Portfolio investment; Financial derivatives and employee stock options ; Other investment and Reserve assets 2) For the liabilities - Direct investment; Portfolio investment; Financial derivatives and employee stock options and Other investment The financial positions are further classified according the different instruments. The data on portfolio investment are expressed in million units of national currency. The indicator is based on the Eurostat data from the Balance of payment statistics, these data are quaterly reported to the ECB by the EU Member States. Definitions are based on the IMF Sixth Balance of Payments Manual (BPM6).</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ea191104-15d5-4370-bfe1-01d59364d501"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/1e8814bf-88e5-4587-8e33-7a62ca55f479"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f0eeec35-3c45-4271-8619-06fdcbdba6c0"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e9847b12-6bec-4650-b869-29949c1f47d3"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:description xml:lang="fr">La position extérieure globale (PEG) est un état statistique qui donne la valeur et la composition à un moment déterminé: - des actifs financiers des résidents d’une économie qui sont des créances sur les non-résidents ou sont détenus sous forme d’or physique à titre d’avoirs de réserve, et - des passifs des résidents d’une économie à l'égard des non-résidents. La différence entre les actifs et les passifs financiers étrangers d'une économie constitue la PEG nette d'une économie, qui peut être positive ou négative. Les catégories fonctionnelles distinguent plusieurs types de positions transfrontalières: 1) pour les actifs - investissements directs, investissements de portefeuille, Produits financiers dérivés et options sur titres des salariés, autres investissements et avoirs de réserve; 2) pour les passifs - investissements directs, investissements de portefeuille, Produits financiers dérivés et options sur titres des salariés et autres investissements. Les positions financières sont également classées par type d'instrument. Les données relatives aux Portfolio investements sont exprimées en millions d'unités monétaires nationales. L'indicateur est établi sur la base des données d'eurostat issues des statistiques de la balance des paiements. Ces données sont transmises chaque trimestre par les États membres de l'UE. Les définitions sont fondées sur le 6e manuel de la balance des paiements (MBP6).</dcterms:description>
+    <dcterms:title xml:lang="de">Wertpapieranlagen - jährliche Daten, Millionen Landeswährung</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4671"/>
+    <dcterms:identifier>tipsii15</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fac06ed9-4c9f-4d50-b4e2-9992ecd049aa"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3461084c-1d25-44f9-8b86-8729eea9802e"/>
+    <dcatapop:ckanName>o7bAepDttk5NGpX7kyBfw</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d95d1ca7-c1dd-462f-9d69-9f79dc83f5e3"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3cef9907-1cff-4d3d-9335-e822e8157183"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:title xml:lang="fr">Actifs d'investissements de portefeuille - données annuelles, millions d'unités monétaires nationales</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5db6e418-1bfb-4e6c-957c-cef909bab21a"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9e4323e1-9714-40b9-b14f-481ba3ece5b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a5da2094-9f88-453c-9b67-b334fa4f495b">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/86c13f49-99e6-4380-8f85-9ccd34366c5c"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/06f35860-06e4-4631-9275-2e3a6993cf09"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/78a2deab-c261-4ab2-8a4b-a35b098d163d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d95d1ca7-c1dd-462f-9d69-9f79dc83f5e3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/tipsii_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/o7bAepDttk5NGpX7kyBfw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ea191104-15d5-4370-bfe1-01d59364d501">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsii15.tsv.gz"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f36f0b5b-7729-4787-bc3e-3ed5c4804e9a">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tipsii15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/78a2deab-c261-4ab2-8a4b-a35b098d163d">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e9847b12-6bec-4650-b869-29949c1f47d3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tipsii15"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/1e8814bf-88e5-4587-8e33-7a62ca55f479">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f0eeec35-3c45-4271-8619-06fdcbdba6c0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/o7bAepDttk5NGpX7kyBfw"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tipsii15</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9e4323e1-9714-40b9-b14f-481ba3ece5b6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tipsii15</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tipsii15</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/o7bAepDttk5NGpX7kyBfw"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f058959d-807e-41e5-a1fe-7a3625fd20e2">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:41:37</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/o7bAepDttk5NGpX7kyBfw"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:31:50.791179</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3cef9907-1cff-4d3d-9335-e822e8157183">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsii15.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/86c13f49-99e6-4380-8f85-9ccd34366c5c">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

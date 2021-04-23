@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5d19df7d-013f-45ed-a6b0-f386bb2f5ad5">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:issued xml:lang="en">2017-01-20 12:18:17.208603</dcterms:issued>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://www.eea.europa.eu/sitemap-all-content-rdf.xml"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://www.eea.europa.eu/sitemap-all-content-rdf.xml"/>
+    <dcterms:title xml:lang="en">Full content catalogue</dcterms:title>
+    <dcterms:description xml:lang="en">European Environment Agency full content catalogue for Linked Data spiders ( RDF).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fb472a8d-10a9-40e9-bc2b-0e85f698f2b0">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Shared bookmarked SPARQL queries</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcat:accessURL rdf:resource="http://semantic.eea.europa.eu/sharedSparqlBookmarks.action"/>
+    <dcterms:description xml:lang="en">Examples of SPARQL queries.</dcterms:description>
+    <dcterms:issued xml:lang="en">2017-01-17 16:30:12.986137</dcterms:issued>
+    <dcat:downloadURL rdf:resource="http://semantic.eea.europa.eu/sharedSparqlBookmarks.action"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/european-environment-agency-sparql-endpoint">
+    <dcat:keyword xml:lang="en">SPARQL endpoint</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-04-06 13:21:14.508468</dcterms:modified>
+    <dcat:keyword xml:lang="en">SPARQL language</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fb472a8d-10a9-40e9-bc2b-0e85f698f2b0"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6030"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/22dd2e15-4a51-4a72-ae55-9a65ce6ce1e7"/>
+    <dcat:keyword xml:lang="en">bookmarked queries</dcat:keyword>
+    <dcatapop:ckanName>european-environment-agency-sparql-endpoint</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">open data sets</dcat:keyword>
+    <dcat:keyword xml:lang="en">prefixs</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_a17a2156"/>
+    <dcat:keyword xml:lang="en">endpoint</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:datasetGroup rdf:resource="sparql-endpoints"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f2b18b79-c035-4cf5-9298-263acd27f37d"/>
+    <dcat:keyword xml:lang="en">human-readable</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1428"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/77b02844-ca15-4735-bd67-9bddafb449e8"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/04d1386c-00d2-43e3-865f-0028c758c490"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword xml:lang="en">SPARQL</dcat:keyword>
+    <dcat:keyword xml:lang="en">repository</dcat:keyword>
+    <dcat:keyword xml:lang="en">format</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-21 16:42:56.920665</dcterms:issued>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5d19df7d-013f-45ed-a6b0-f386bb2f5ad5"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/019fa1b8-84b8-434f-b5a2-97d4f0399e19"/>
+    <dcterms:description xml:lang="en">A SPARQL endpoint is a conformant SPARQL protocol service as defined in the SPROT specification. A SPARQL endpoint enables users (human or other) to query a knowledge base via the SPARQL language. Results are typically returned in one or more machine-processable formats. SPARQL endpoint is mostly conceived as a machine-friendly interface towards a knowledge base. Both the formulation of the queries and the human-readable presentation of the results should typically be implemented by the calling software, and not be done manually by human users.</dcterms:description>
+    <dcat:keyword xml:lang="en">interface</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/256fccf3-550c-4be1-b010-2a22fdce8721"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:title xml:lang="en">European Environment Agency SPARQL endpoint</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f35ba6e9-66d7-4119-bff6-eaf21ce47ea5"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">query</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/77b02844-ca15-4735-bd67-9bddafb449e8">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">Semantic Data Service (sparql repository).&#13;
+Lisf ot linked open data sets available via semantic.eea.europa.eu </dcterms:description>
+    <dcterms:title xml:lang="en">SPARQL repository</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://www.eea.europa.eu/data-and-maps/daviz/sds"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued xml:lang="en">2016-11-22 13:22:30.492884</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcat:accessURL rdf:resource="http://www.eea.europa.eu/data-and-maps/daviz/sds"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b1583a12-0120-484c-9112-581fb7eb2bcd">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://www.eea.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/04d1386c-00d2-43e3-865f-0028c758c490">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://semantic.eea.europa.eu/sparql</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/european-environment-agency-sparql-endpoint"/>
+    <schema:url>http://semantic.eea.europa.eu/sparql</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/22dd2e15-4a51-4a72-ae55-9a65ce6ce1e7">
+    <dcterms:issued xml:lang="en">2017-01-20 12:22:22.005805</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://www.eea.europa.eu/content-activity/indicators/published-daviz-connected-with-sparql/@@view"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:description xml:lang="en">Data table via SPARQL. &#13;
+Downloadable dataset.</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:downloadURL rdf:resource="http://www.eea.europa.eu/content-activity/indicators/published-daviz-connected-with-sparql/@@view"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Published Daviz connected with Sparql</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f2b18b79-c035-4cf5-9298-263acd27f37d">
+    <dcat:accessURL rdf:resource="http://semantic.eea.europa.eu/sparql"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://semantic.eea.europa.eu/sparql"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:description xml:lang="en">SPARQL queries.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued xml:lang="en">2016-11-22 13:40:17.610485</dcterms:issued>
+    <dcterms:title xml:lang="en">SPARQL endpoint</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/256fccf3-550c-4be1-b010-2a22fdce8721">
+    <dcterms:description xml:lang="en">Data table via SPARQL. &#13;
+Downloadable this datasets. </dcterms:description>
+    <dcterms:title xml:lang="en">Eurostat datasets related to environment</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/european-environment-agency-sparql-endpoint"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://www.eea.europa.eu/data-and-maps/daviz/sds/eurostat-datasets-related-to-environment/@@view</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a83c42df-4a6f-490e-abc5-c70106cf4c99">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-07-10T13:36:08</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-21 16:42:56.920665</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/european-environment-agency-sparql-endpoint"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1350</dcatapop:numberOfViews>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1182</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/2555754c-9657-4b39-bc9d-32344e29b479">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/019fa1b8-84b8-434f-b5a2-97d4f0399e19">
+    <schema:url xml:lang="en">http://semantic.eea.europa.eu/documentation</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Documentation</dcterms:title>
+    <dcterms:description xml:lang="en">General principles.&#13;
+Post-harvest scripts.&#13;
+SPARQL Example 1 - joining two SDMX datasets.&#13;
+SPARQL Example 2 - sub-selects.&#13;
+SPARQL Functions Reference.&#13;
+SPARQL introduction.&#13;
+Commonly used vocabularies.</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/european-environment-agency-sparql-endpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f35ba6e9-66d7-4119-bff6-eaf21ce47ea5">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/2555754c-9657-4b39-bc9d-32344e29b479"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Environment Agency </vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/7db84d41-d9de-4878-adb8-dd59515085e4"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b1583a12-0120-484c-9112-581fb7eb2bcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/7db84d41-d9de-4878-adb8-dd59515085e4">
+    <vcard:street-address>Kongens Nytorv 6 1050 Copenhagen K Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8974decd-0baf-439a-8b62-f3642a0f219d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:description xml:lang="en">Unvalidated, near real time, hourly averages of GreenHouse Gases concentration from the monitoring station in Ispra (building 5), Italy. No QA/QC applied. Time is UTC and refers to end of averaging period. Data stored in one file, daily updated.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">NRT data of GreenHouse Gases concentration measured in Ispra, at building 5</dcterms:title>
+    <dcat:accessURL rdf:resource="ftp://ftp-ccu.jrc.it/pub/ABCIS/GreenHouseGases/Ver2017-01-01/JRC_GHG_NRT_2017.csv"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-abcis-ghg-2017">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>jrc-abcis-ghg-2017</dcterms:identifier>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/VAT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MNE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MCO"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8974decd-0baf-439a-8b62-f3642a0f219d"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BIH"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:description xml:lang="en">Measurement of GreenHouse Gases (CO2, CH4, N2O and SF6) concentrations at the station IT-IPR in Ispra, Italy.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/TUN"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/418509c4-3ec4-4bb4-8eed-e7f0997e17be"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-01</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3efcfe2b-cdc9-40e0-83c8-5a27a46e9681"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DZA"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LIE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>jrc-abcis-ghg-2017</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SMR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CHE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e9e99715-3f5a-4847-ac3f-3b6ab70684e0"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcterms:title xml:lang="en">GreenHouse Gases concentration-2017</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/418509c4-3ec4-4bb4-8eed-e7f0997e17be">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-abcis-ghg-2017"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-abcis-ghg-2017</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-abcis-ghg-2017</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/708c7fc1-32ee-4e6d-88a6-6ec2aa1cbc55">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e9e99715-3f5a-4847-ac3f-3b6ab70684e0">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/708c7fc1-32ee-4e6d-88a6-6ec2aa1cbc55"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="giovanni.manca@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/98264258-bac0-4fd7-b34b-9f23c9bd28b5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 13:58:46.769628</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-abcis-ghg-2017"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:26:16</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3efcfe2b-cdc9-40e0-83c8-5a27a46e9681">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">http://abc-is.jrc.ec.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-abcis-ghg-2017"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+</rdf:RDF>

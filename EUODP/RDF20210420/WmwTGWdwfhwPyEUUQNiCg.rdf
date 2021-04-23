@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9795f365-1124-4df1-b22c-89092ad7987a">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/bd48fec2-2cd8-4f7e-9944-4f1491d2449b">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/982b7fc1-5678-4379-8c77-523f1a5e927e">
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tag00058"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/004be023-5d8a-4ac7-bc2a-584261a7a822">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tag00058"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c1e50d34-3cdb-4555-9839-2bfe0f7073f2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tag00058</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/WmwTGWdwfhwPyEUUQNiCg"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tag00058</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ff192542-bb94-4cdf-b5e5-afd868081552">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/bd48fec2-2cd8-4f7e-9944-4f1491d2449b"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/9df55ccf-62e1-4352-aaca-d158200a231b"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/9795f365-1124-4df1-b22c-89092ad7987a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/WmwTGWdwfhwPyEUUQNiCg">
+    <dcat:keyword xml:lang="en">wood production</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6331"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:title xml:lang="fr">Valeur ajoutée du secteur sylvicole, aux prix de base</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-08</dcterms:modified>
+    <dcterms:identifier>tag00058</dcterms:identifier>
+    <dcterms:description xml:lang="fr">Les comptes économiques de la sylviculture se basent sur les comptes nationaux, mais sont collectés de façon plus détaillée. Le prix courant est le prix de l’année en question. Pour comparer les valeurs des plusieurs années, il faudra encore tenir compte de l’inflation annuelle. Le prix de base est le prix perçu par le producteur, déduction faite de tous les impôts sur les produits mais y compris l'ensemble des subventions sur les produits. La valeur ajoutée brute correspond à la valeur de la production, déduction faite de la valeur de la consommation intermédiaire. Les biens durables (par exemple machines, bâtiments) sont soit acquis (c'est la formation brute de capital fixe), soit consommés (c'est la consommation annuelle de capital fixe). La définition de la branche sylvicole est basée sur la division 2 de la NACE, Rév. 2.</dcterms:description>
+    <dcterms:title xml:lang="en">Gross value added of the forestry industry, at basic prices</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/aaed1907-4e57-4e4e-b802-0a9263f3ed50"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d61bdb56-a4da-40d2-abd9-21a479c9aa50"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f3ea146b-847f-4976-a53f-199dd40e9c6a"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/004be023-5d8a-4ac7-bc2a-584261a7a822"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:keyword xml:lang="en">forestry statistics</dcat:keyword>
+    <dcterms:title xml:lang="de">Bruttowertschöpfung der Forstwirtschaft zu Herstellungspreisen</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/982b7fc1-5678-4379-8c77-523f1a5e927e"/>
+    <dcterms:description xml:lang="en">The economic accounts for forestry and logging are based on national accounts, but are collected with greater detail. Current prices means prices of that particular year. Annual inflation must yet be taken into account if one wishes to compare the values of different years. Basic prices means the price received by the producer after deduction of all taxes on products, but including all subsidies on products. Gross value added is the value of the output less the value of intermediate consumption. Fixed capital relates to longer-lived assets (e.g. equipment or buildings) that are either acquired (this is gross fixed capital formation) or consumed (this is fixed capital consumption, the annual reduction in the value of fixed assets). The definition of the activity of forestry and logging is based on Division 02 of NACE Rev. 2.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a32a63a1-5c2f-4a1e-8653-2fe93f205694"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/339ae616-2477-4044-a159-53014dcd5cb9"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ff192542-bb94-4cdf-b5e5-afd868081552"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>WmwTGWdwfhwPyEUUQNiCg</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c1e50d34-3cdb-4555-9839-2bfe0f7073f2"/>
+    <dcterms:description xml:lang="de">Die forstwirtschaftlichen Gesamtrechnungen basieren auf den volkswirtschaftlichen Gesamtrechnungen, werden aber detaillierter erfasst. Zu jeweiligen Preisen meint zu den Preisen des angeführten Jahres. Will man die Entwicklung über Jahre hinweg vergleichen, so muss erst noch die jährliche Inflation berücksichtigt werden. Herstellungspreise, auch Erzeugerpreise genannt, sind die Beträge, die der Erzeuger erhält, abzüglich aller Gütersteuern und zuzüglich aller empfangenen Subventionen für die Erzeugnisse. Die Bruttowertschöpfung ist der Produktionswert abzüglich Vorleistungen. Längerlebige Vermögenswerte (z.B. Anlagen, Gebäude) werden entweder erworben (das sind die Bruttoanlageinvestionen) oder verbraucht (das sind die jährlichen Abschreibungen). Die Definition der Forstwirtschaft beruht auf Abteilung 02 der Systematik NACE Rev. 2.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6465dfee-2849-4d81-9dd3-df097fe9018d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a32a63a1-5c2f-4a1e-8653-2fe93f205694">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00058.sdmx.zip"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f3ea146b-847f-4976-a53f-199dd40e9c6a">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00058.tsv.gz"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d61bdb56-a4da-40d2-abd9-21a479c9aa50">
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tag00058"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6465dfee-2849-4d81-9dd3-df097fe9018d">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tag00058</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/WmwTGWdwfhwPyEUUQNiCg"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/86c2eea8-03b8-437d-b4e1-4b90cafc47d5">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">529</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:20:15</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 10:38:41.201126</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/WmwTGWdwfhwPyEUUQNiCg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">484</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/9df55ccf-62e1-4352-aaca-d158200a231b">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/339ae616-2477-4044-a159-53014dcd5cb9">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00058.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/aaed1907-4e57-4e4e-b802-0a9263f3ed50">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+  </rdf:Description>
+</rdf:RDF>

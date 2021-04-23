@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/af8bd4b2-daa1-4ea1-af18-42e4b264bb62">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/79ecceff-ec7b-4752-b5f6-6a131e0fbfec"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1079487e-a93a-46f0-934b-f6a98401a02b"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="telephone-87f93e39-69af-460c-b00e-ca5ca4231907f7cb9d6f-1223-4c08-abd3-e4edd64b8b47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/8nlqleFnfYlpLSv8bM6fQ">
+    <dcterms:description xml:lang="fr">La productivité de la main d'oeuvre par heure de travail est calculée comme la production réelle (PIB hors inflation mesuré en volume avec série chainée liée pour l’année de référence 2010) par unité de main-d'oeuvre (mesurée par le nombre total d'heures de travail). La mesure de la productivité de la main d'oeuvre par heure travaillée fournit une meilleure représentation des développements de la productivité dans l'économie que la productivité de la main d'oeuvre par personne employée, puisqu'elle élimine les différences entre plein temps et mi-temps dans la composition de la main-d'oeuvre entre les pays et dans le temps.</dcterms:description>
+    <dcterms:title xml:lang="fr">Productivité de la main-d'oeuvre par heure travaillée (SEC 2010)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f9626410-8fd1-4ff9-b31d-a598f7207a69"/>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Labour productivity per hour worked (ESA 2010)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:modified>2018-08-30 13:33:30.265330</dcterms:modified>
+    <dcterms:description xml:lang="en">The product has been discontinued since: 08 Feb 2018.&#13;
+&#13;
+Labour productivity per hour worked is calculated as real output (deflated GDP measured in chain-linked volumes, reference year 2010) per unit of labour input (measured by the total number of hours worked). Measuring labour productivity per hour worked provides a better picture of productivity developments in the economy than labour productivity per person employed, as it eliminates differences in the full time/part time composition of the workforce across countries and years.</dcterms:description>
+    <dcterms:temporal rdf:resource="period_of_time-bb613193-f610-47de-810e-4a9ca10ba1cc"/>
+    <dcterms:title xml:lang="de">Arbeitsproduktivität je geleisteter Arbeitstunde (ESVG 2010)</dcterms:title>
+    <dcterms:description xml:lang="de">Die Arbeitsproduktivität je geleisteter Arbeitsstunde wird berechnet als die tatsächliche Produktionsleistung aus BIB (inflationsbereinigte verkettete Volumen, Referenzjahr 2010) und der Menge der eingesetzten Arbeitseinheiten (gemessen an der Gesamtzahl der Arbeitsstunden). Die gemessene Arbeitsproduktivität je geleisteter Arbeitsstunde liefert ein besseres Bild der Produktivitätsentwicklung in der Wirtschaft als die Arbeitsproduktivität je Beschäftigten, da es Unterschiede von Vollzeit/Teilzeit Erwerbstätiger über Länder und Jahre beseitigt.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcatapop:ckanName>8nlqleFnfYlpLSv8bM6fQ</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/56"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>tsdec310</dcterms:identifier>
+    <owl:versionInfo>None</owl:versionInfo>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/af8bd4b2-daa1-4ea1-af18-42e4b264bb62"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6d0f98cc-2fe1-4378-9953-6b4648ad2183"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:20:52.499505</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-bb613193-f610-47de-810e-4a9ca10ba1cc">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6d0f98cc-2fe1-4378-9953-6b4648ad2183">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdec310</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tsdec310</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-87f93e39-69af-460c-b00e-ca5ca4231907f7cb9d6f-1223-4c08-abd3-e4edd64b8b47">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4786aa46-1744-412f-90d9-934580828d3f">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1493</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1594</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/8nlqleFnfYlpLSv8bM6fQ"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30 13:33:30.265330</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:20:52.499505</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f9626410-8fd1-4ff9-b31d-a598f7207a69">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdec310</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/8nlqleFnfYlpLSv8bM6fQ"/>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1079487e-a93a-46f0-934b-f6a98401a02b">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/1079487e-a93a-46f0-934b-f6a98401a02b</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/79ecceff-ec7b-4752-b5f6-6a131e0fbfec">
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/636a2628-f680-4499-8290-48daca86783b">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-feed-protein-balance-sheet"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ec.europa.eu/info/food-farming-fisheries/farming/facts-and-figures/markets/overviews/balance-sheets-sector/oilseeds-and-protein-crops_en</schema:url>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/info/food-farming-fisheries/farming/facts-and-figures/markets/overviews/balance-sheets-sector/oilseeds-and-protein-crops_en</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/49ef0d00-cfee-4572-a011-a8e02800c572">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-feed-protein-balance-sheet"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/info/sites/info/files/food-farming-fisheries/farming/documents/feed-protein-balanceshe-explanatory-note_en.pdf</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:title xml:lang="en">EU feed protein balance sheet – explanatory note</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/90a37dd9-1c3a-48bd-b4a7-4fe371617792">
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/info/sites/info/files/food-farming-fisheries/farming/documents/eu-feed-protein-bs-and-methodology-2011-19_en.xlsx"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/info/sites/info/files/food-farming-fisheries/farming/documents/eu-feed-protein-bs-and-methodology-2011-19_en.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:title xml:lang="en">EU feed protein balance sheet – 2011-19 and methodology</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-feed-protein-balance-sheet">
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/f19f8374-bcf7-44e1-a0a0-439847c1d237"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1788"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/636a2628-f680-4499-8290-48daca86783b"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2775"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4885"/>
+    <dcterms:title xml:lang="en">Agricultural market - EU balance sheets by sector: EU feed protein</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/90a37dd9-1c3a-48bd-b4a7-4fe371617792"/>
+    <dcterms:description xml:lang="en">The ‘EU Feed Protein Balance Sheet’ covers a broad range of feed protein sources,&#13;
+including protein-rich materials as well as other sources with a lower protein content.&#13;
+The sheet also covers non-plant-based protein materials, such as fishmeal, processed&#13;
+animal proteins, whey, skimmed milk powder, and former foodstuff. The protein sources are classified into four main categories: crops, co-products, non-plant based sources and roughage.&#13;
+&#13;
+For each protein source, it provides data on the following elements:&#13;
+EU production, EU trade, Total EU domestic use, EU feed use, Percentage of feed use of EU origin and percentage of total feed.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/49ef0d00-cfee-4572-a011-a8e02800c572"/>
+    <dcterms:alternative xml:lang="en">TRQ Allocation</dcterms:alternative>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2709"/>
+    <dcatapop:ckanName>eu-feed-protein-balance-sheet</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f9c68550-3e73-4c7b-be47-135136b71932"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2128"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/f19f8374-bcf7-44e1-a0a0-439847c1d237">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d69b1a7d-bab3-4367-a1cf-4a63b7268d38">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-22T15:14:31</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-feed-protein-balance-sheet"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-06T15:58:46</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f9c68550-3e73-4c7b-be47-135136b71932">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/efgs">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:keyword xml:lang="en">cross-border</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3885"/>
+    <dcterms:title xml:lang="en">Key traffic of the European Federation Gateway Service (EFGS)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3b035924-af23-4391-b071-dae519ab0ff8"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">interoperability</dcat:keyword>
+    <dcat:keyword xml:lang="en">EFGS</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:keyword xml:lang="en">contact tracing apps</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+    <dcatapop:ckanName>efgs</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c82d36ea-7d98-4dd2-8c2c-97a9a2af65e3"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SANTE"/>
+    <dcat:keyword xml:lang="en">covid-19</dcat:keyword>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EUR"/>
+    <dcterms:description xml:lang="en">The dataset includes the aggregated traffic volume of contact tracing keys between the backends of national contact tracing and warning applications of the participating Member States exchanged through the European Federation Gateway Service (EFGS). &#13;
+&#13;
+The list of countries connected to the EFGS is available here: &#13;
+https://ec.europa.eu/info/live-work-travel-eu/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en &#13;
+&#13;
+Please note that this only covers the cross-border exchange of keys and is not indicative for the full traffic volume of contact tracing keys within Member States (EU) and EEA countries.  &#13;
+&#13;
+For data on the epidemiological situation in Member States, please visit the ECDC website (https://www.ecdc.europa.eu/en). </dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3b035924-af23-4391-b071-dae519ab0ff8">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:downloadURL rdf:resource="https://circabc.europa.eu/sd/a/438e156d-fcc1-4ee0-abe0-f12c240d33ea/EFGS-keys-traffic-data.csv"/>
+    <dcterms:title xml:lang="en">EFGS keys traffic data</dcterms:title>
+    <dcat:accessURL rdf:resource="https://circabc.europa.eu/sd/a/438e156d-fcc1-4ee0-abe0-f12c240d33ea/EFGS-keys-traffic-data.csv"/>
+    <dcterms:description xml:lang="en">EFGS keys traffic data</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b640c33a-20aa-473e-8f29-20add7a523d5">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-04-14T14:29:53</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-02-08T16:14:12</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/efgs"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews>0</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c82d36ea-7d98-4dd2-8c2c-97a9a2af65e3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

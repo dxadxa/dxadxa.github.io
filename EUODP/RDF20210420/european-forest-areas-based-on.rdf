@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fc432f7b-f410-406e-8d21-41dd1deda9b4">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/2588fc43-d855-439b-a6e9-941a59a0e50e"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">Forest Area 2012 - INSPIRE Metadata</dcterms:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/136a8702-7e2e-487f-b693-510b4b44d334">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/european-forest-areas-based-on"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/european-forest-areas-based-on</schema:url>
+    <dcterms:title xml:lang="en">[DEPRECATED] European Forest Areas based on Copernicus data</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/63ed54cc-54e8-43e1-a8e1-71834c8a84d9">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/abc53bcc-8abd-43e2-8531-bab70ac92248">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:31:11</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/european-forest-areas-based-on"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:31:11</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ada82cea-c97d-40f0-acea-737823d57873">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Forest Area 2015 - INSPIRE Metadata</dcterms:title>
+    <dcat:accessURL rdf:resource="https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/afe358ed-2c31-4176-8a83-13a530c57091"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/european-forest-areas-based-on">
+    <dcat:keyword>forest area</dcat:keyword>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:keyword>hrl</dcat:keyword>
+    <dcat:keyword>copernicus</dcat:keyword>
+    <dcterms:identifier>DAT-216-en</dcterms:identifier>
+    <dcat:keyword>land cover</dcat:keyword>
+    <dcterms:description xml:lang="en">These data sets show the European forest area in 2012 and in 2015 at 100m spatial resolution, covering EEA39 countries. They are based on Copernicus HRL forest products at 20m spatial resolution and comply with the FAO forest definition (i.e. minimum mapping unit of 0.5 ha, minimum coverage of 10% and excluding land that is predominantly under agricultural or urban land use).
+After the selection of those pixels identified as forest by the HRL forest products and also compliant with FAO criteria, the forest area dataset at 100m was computed as a Boolean product (i.e. forest / non-forest). The value 1 (forest area) correspond to the pixels where forest is the major coverage; otherwise the pixel value is 0 (non-forest area).</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e08aab2c-3992-46be-8eea-c5f64d6f6c76"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/452c5951-ea34-4786-9c05-387c172d3265"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ada82cea-c97d-40f0-acea-737823d57873"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/136a8702-7e2e-487f-b693-510b4b44d334"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/69db4e6e-a9ad-453b-8b4f-0c31d7c9c006"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fc432f7b-f410-406e-8d21-41dd1deda9b4"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4630"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] European Forest Areas based on Copernicus data</dcterms:title>
+    <dcat:keyword>forestry</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword>land use</dcat:keyword>
+    <dcat:keyword>afforestation</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5016"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-31T09:22:23Z</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-31T09:22:23Z</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/452c5951-ea34-4786-9c05-387c172d3265">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Forest Area 2012</dcterms:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/european-forest-areas-based-on/european-forest-areas-based-on/forest-area-2012/view"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e08aab2c-3992-46be-8eea-c5f64d6f6c76">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/european-forest-areas-based-on/european-forest-areas-based-on/forest-area-2015/view"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">Forest Area 2015</dcterms:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/18cd0bab-0e85-457c-8daa-31c553c1089c">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/69db4e6e-a9ad-453b-8b4f-0c31d7c9c006">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/a41fe6ef-3a96-4270-a90e-8464bdcd76e3"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/63ed54cc-54e8-43e1-a8e1-71834c8a84d9"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/18cd0bab-0e85-457c-8daa-31c553c1089c"/>
+  </rdf:Description>
+</rdf:RDF>

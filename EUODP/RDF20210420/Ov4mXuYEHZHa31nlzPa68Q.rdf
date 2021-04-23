@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c661b0f3-4293-43ee-bc1a-9de694bab0cb">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4b71e55a-fe66-4595-8f80-e32bea4b2d21">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsbp54.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/41a59482-730b-4409-a662-84464a14c8d5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsbp54.sdmx.zip"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c9ded80c-b75d-4af9-aa17-c70eacf9b3da">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsbp54.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ee29b53e-00bf-49c1-b93a-48143be2b7b0">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tipsbp54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/a507668f-27b7-439b-9d22-5a4478c668e2">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/426660ac-49de-4077-8929-1de25a364bc5">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tipsbp54"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/Ov4mXuYEHZHa31nlzPa68Q">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/41a59482-730b-4409-a662-84464a14c8d5"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/426660ac-49de-4077-8929-1de25a364bc5"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/75dc8c89-c44e-46fc-9609-3a2cf06a08b3"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:description xml:lang="de">Ausländische Direktinvestitionen (ADI) sind eine Kategorie von Investitionen, mit denen ein in einer Volkswirtschaft ansässiges Unternehmen (Direktinvestor) eine langfristige Beteiligung an einem Unternehmen (Direktinvestitionsunternehmen) anstrebt, das in einem anderen Wirtschaftsgebiet ansässig ist. „Langfristige Beteiligung“ bedeutet, dass eine dauerhafte Beziehung zwischen dem Direktinvestor und dem Direktinvestitionsunternehmen besteht und dass der Investor einen maßgeblichen Einfluss auf die Geschäftspolitik des Unternehmens ausübt. Als langfristige Beteiligung gilt der Erwerb von mindestens 10 % der Stimmrechtsanteile an dem Unternehmen, das Gegenstand der Direktinvestition ist. Die Daten werden in Mio. Landeswährung ausgedrückt. Unter Direktinvestitionen fallen folgende Positionen: - Das Beteiligungskapital umfasst Kapitalbeteiligungen an Zweigniederlassungen sowie an Tochtergesellschaften und anderen verbundenen Unternehmen. - Die Position „Reinvestierte Gewinne“ umfasst die Gegenbuchung für den auf den Direktinvestor entfallenden Anteil an den nicht als Dividende ausgeschütteten Erträgen von Tochtergesellschaften oder anderen verbundenen Unternehmen und Erträgen von Zweigniederlassungen, die dem Direktinvestor nicht zugeflossen sind und die unter „Vermögenseinkommen“ erfasst werden. - Schuldtitel. Direktinvestitionen werden hauptsächlich nach dem Richtungsprinzip untergliedert: 1) inländische Direktinvestitionen im Ausland (Direktinvestitionen im Ausland) 2) ausländische Direktinvestitionen im Meldeland (ausländische Direktinvestitionen). Die ausländischen Direktinvestitionen sind Investitionen eines nicht ansässigen Investors in einem Unternehmen, das Gegenstand einer Direktinvestition im Gastland ist; aus der Sicht des Meldelands handelt es sich um eine Einflussnahme durch den ausländischen Direktinvestor im Inland. Ab Oktober 2014 beruhen die entsprechenden Definitionen auf der sechsten Auflage des Zahlungsbilanzhandbuchs (Balance of Payments Manual – BPM 6).</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3b128ec3-8efa-48df-b1c2-7d8b4f003e5a"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/5636d34e-a2fa-4d64-a560-2f1d21ec78da"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-19</dcterms:modified>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4671"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="fr">Investissements directs à l'étranger, principales composantes - données trimestrielles, millions d'unités monétaires nationales</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ab6ef0c8-002f-4ba7-9b06-b05c4dab7eba"/>
+    <dcatapop:ckanName>Ov4mXuYEHZHa31nlzPa68Q</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Foreign direct investment (FDI) is a category of investment that reflects the objective of establishing a lasting interest by a resident enterprise in one economy (direct investor) in an enterprise (direct investment enterprise) that is resident in an economy other than that of the direct investor. The lasting interest implies the existence of a long-term relationship between the direct investor and the direct investment enterprise and a significant degree of influence on the management of the enterprise. The lasting interest is deemed to exist if the investor acquires at least 10% of the voting power of the direct investment enterprise. Data are expressed in millions of national currency. FDI comprises: - Equity capital comprises equity in branches as well as all shares in subsidiaries and associates. - Reinvested earnings consist of the offsetting entry to the direct investor’s share of earnings not distributed as dividends by subsidiaries or associates, and earnings of branches not remitted to the direct investor and which are recorded under Investment income. - debt instruments Direct investment is classified primarily on a directional basis: 1) Resident direct investment abroad (Outward direct investment) 2) Non-resident investment in the reporting economy (Inward direct investment). The Inward direct investment is investment by a non-resident direct investor in a direct investment enterprise resident in the host economy; the direction of the influence by the direct investor is inward for the reporting economy. Starting from October 2014 definitions are based on the IMF's Sixth Balance of Payments Manual (BPM6).</dcterms:description>
+    <dcterms:description xml:lang="fr">La catégorie des investissements directs étrangers (IDE) désigne les investissements qu'une entreprise résidente d'une économie (investisseur direct) effectue dans le but d'acquérir un intérêt durable dans une entreprise opérant dans une autre économie (entreprise d'investissement direct). Par intérêt durable, on entend l'existence d'une relation à long terme entre l'investisseur direct et l'entreprise d'investissement direct, ainsi que l'exercice d'une influence significative sur la gestion de l'entreprise. L'intérêt durable est réputé exister si l'investisseur acquiert au moins 10 % des actions avec droit de vote de l'entreprise d'investissement direct. Les données sont exprimées en millions d'unités monétaires nationales. Parmi les IDE: - le capital social comprend la participation au capital des succursales ainsi que toutes les actions dans les filiales et les entreprises associées; - les bénéfices réinvestis consistent en une écriture de contrepartie de la part de l’investisseur direct dans les bénéfices non distribués comme dividendes par les filiales et les entreprises associées et des bénéfices des succursales non rapatriés à l’investisseur direct et qui sont enregistrés sous revenus d’investissements; - les titres de créance. Les investissements directs sont classés principalement sur la base de leur direction: 1) investissements directs des résidents à l'étranger (investissements directs étrangers sortants); 2) investissements des non-résidents dans l'économie déclarante (investissements directs étrangers entrants). L’investissement direct entrant est l’investissement réalisé par un investisseur direct non résident dans une entreprise d’investissement direct résidente dans l’économie d’accueil; la direction dans laquelle s’exerce l’influence de l’investisseur direct est «entrante» pour l’économie déclarante. À compter d'octobre 2014, les définitions utilisées seront fondées sur le 6e manuel de la balance des paiements (MBP6).</dcterms:description>
+    <dcterms:identifier>tipsbp54</dcterms:identifier>
+    <dcterms:title xml:lang="de">Direktinvestitionen im Ausland, Hauptkomponenten - vierteljährliche Daten, Millionen Landeswährung</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ee29b53e-00bf-49c1-b93a-48143be2b7b0"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7dd31997-27f0-4e0f-9433-56d9bcbe7807"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4b71e55a-fe66-4595-8f80-e32bea4b2d21"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/a243fc51-bc1c-4e1a-b66a-ae21bf25abbf"/>
+    <dcterms:title xml:lang="en">Direct investment abroad, main components - quarterly data, million units of national currency</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c9ded80c-b75d-4af9-aa17-c70eacf9b3da"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c4a8c98c-8152-4585-8285-fe88686df8cf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2bfe4745-616a-4abd-88f7-4b9b3b112271">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T09:48:01</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/Ov4mXuYEHZHa31nlzPa68Q"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 10:23:52.593020</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">406</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/75dc8c89-c44e-46fc-9609-3a2cf06a08b3">
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tipsbp54"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ab6ef0c8-002f-4ba7-9b06-b05c4dab7eba">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ov4mXuYEHZHa31nlzPa68Q"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tipsbp54</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7dd31997-27f0-4e0f-9433-56d9bcbe7807">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ov4mXuYEHZHa31nlzPa68Q"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/tipsbp_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3b128ec3-8efa-48df-b1c2-7d8b4f003e5a">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ov4mXuYEHZHa31nlzPa68Q"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/tipsbp_esms.htm</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c4a8c98c-8152-4585-8285-fe88686df8cf">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c661b0f3-4293-43ee-bc1a-9de694bab0cb"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/a7b81e3d-5f8d-4046-a0a4-1b245ebe0586"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/a507668f-27b7-439b-9d22-5a4478c668e2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/5636d34e-a2fa-4d64-a560-2f1d21ec78da">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a243fc51-bc1c-4e1a-b66a-ae21bf25abbf">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tipsbp54</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tipsbp54</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Ov4mXuYEHZHa31nlzPa68Q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/a7b81e3d-5f8d-4046-a0a4-1b245ebe0586">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

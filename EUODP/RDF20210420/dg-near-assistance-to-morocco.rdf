@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/66b86292-8fa7-441f-958c-c17f15451966">
+    <dcat:downloadURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_MA.xml"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:title xml:lang="en">CSV Conversion Tool</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_MA.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1bcf12c0-334d-45ae-8f6e-65138dfd4ca7">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://eeas.europa.eu/delegations/morocco/index_fr.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/723c72e0-4c10-4fa5-a667-770ee3bf0311">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/c1a784f2-24d0-44b2-9fd8-6bb6ea49fbd8"/>
+    <vcard:organisation-name>Delegation of the European Union to the Kingdom of Morocco</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="mailto:Delegation-morocco@eeas.europa.eu"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/0bfd9e5a-046b-44dc-ba23-33c526a13c9a"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1bcf12c0-334d-45ae-8f6e-65138dfd4ca7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/05bd6da6-35cd-443a-8eaa-67cd111634f3">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-22T16:36:53</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dg-near-assistance-to-morocco"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">536</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-29 14:08:34.994271</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/0bfd9e5a-046b-44dc-ba23-33c526a13c9a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>RIAD BUSINESS CENTER</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dfd3fe6e-a4de-4999-a94c-af843b898bb2">
+    <dcterms:title xml:lang="en">title_http://www.iatiregistry.org/dataset/ec-near-ma</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dg-near-assistance-to-morocco"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://www.iatiregistry.org/dataset/ec-near-ma</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dg-near-assistance-to-morocco">
+    <dcterms:alternative xml:lang="en"> European Commission - Near Activity File - Morocco </dcterms:alternative>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MAR"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3481"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/dfd3fe6e-a4de-4999-a94c-af843b898bb2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/7932"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1819"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/437422"/>
+    <dcatapop:ckanName>dg-near-assistance-to-morocco</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">DG NEAR - Assistance to Morocco</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/723c72e0-4c10-4fa5-a667-770ee3bf0311"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_4d5b6dbd"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d9491fff-681b-48f2-ac14-5181f35dc5f5"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5780"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NEAR"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:description xml:lang="en">Information on projects financed in Morocco through the European Neighbourhood Instrument  and through the European Neighbourhood and Partnership Instrument. Please note that financial assistance to Morocco from 2010 to 2014 was dealt by DG DEVCO - Directorate Generale for International Development and Cooperation. </dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/66b86292-8fa7-441f-958c-c17f15451966"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_2e7c1ac5"/>
+    <dcat:keyword xml:lang="en">southern neighbourhood</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-29 14:08:34.994271</dcterms:issued>
+    <dcterms:identifier>ec-near-ma</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d9491fff-681b-48f2-ac14-5181f35dc5f5">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcat:downloadURL rdf:resource="https://www.iatiregistry.org/dataset/ec-near-ma"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://www.iatiregistry.org/dataset/ec-near-ma"/>
+    <dcterms:title xml:lang="en">Download Near Activity File - Morocco</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/c1a784f2-24d0-44b2-9fd8-6bb6ea49fbd8">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+2120537579800"/>
+  </rdf:Description>
+</rdf:RDF>

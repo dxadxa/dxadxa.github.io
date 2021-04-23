@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/Pig_carcasses_prices">
+    <dcatapop:ckanName>Pig_carcasses_prices</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4692"/>
+    <dcterms:title xml:lang="en">Pig meat prices: carcases</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3ebc1d97-9e7f-46f3-bd9a-95247faf29be"/>
+    <dcat:keyword xml:lang="en">agri-food data</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4e390360-cc60-42b3-93d7-e7564193b9a0"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2639"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/435fa4e2-9f74-4f16-904d-748ca98df8bd"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-08 10:53:09.930037</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/69ce4882-cc7e-43d8-ba06-3151db09f84f"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2656"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9ba8dd06-6c37-4e9b-90c5-ff281e25ab1f"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5263"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-02 08:57:53.602392</dcterms:issued>
+    <dcat:keyword xml:lang="en">agri-food markets</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:description xml:lang="en">Representative weekly market prices for pig carcasses, as notified by Member States in accordance with the Commission Regulation 2017/1185 Art. 11 – Annex I.6.&#13;
+Pig carcass prices are slaughterhouse gate prices paid to the supplier of the animals. &#13;
+</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1788"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3272"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9ba8dd06-6c37-4e9b-90c5-ff281e25ab1f">
+    <dcterms:title xml:lang="en">title_https://agridata.ec.europa.eu/extensions/DataPortal/agricultural_markets.html</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Pig_carcasses_prices"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://agridata.ec.europa.eu/extensions/DataPortal/agricultural_markets.html</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4e390360-cc60-42b3-93d7-e7564193b9a0">
+    <dcterms:title xml:lang="en">Pig carcasses prices</dcterms:title>
+    <dcterms:description xml:lang="en">Prices in EURO per 100kg of pig carcasses, Class E, Class S and average of Class E and S.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEVELOP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:downloadURL rdf:resource="https://agridata.ec.europa.eu/Qlik_Downloads/Pigmeat%20Carcases%20Prices.zip"/>
+    <dcat:accessURL rdf:resource="https://agridata.ec.europa.eu/Qlik_Downloads/Pigmeat%20Carcases%20Prices.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:issued xml:lang="en">2018-05-02 10:59:16.956743</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3ebc1d97-9e7f-46f3-bd9a-95247faf29be">
+    <dcterms:issued xml:lang="en">2018-05-02 11:06:51.152500</dcterms:issued>
+    <dcat:downloadURL rdf:resource="https://agridata.ec.europa.eu/extensions/DashboardPigmeat/PigmeatPriceAnalysis.html?category=Pig"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Agri-food data portal: Pig carcasses prices interactive charts</dcterms:title>
+    <dcat:accessURL rdf:resource="https://agridata.ec.europa.eu/extensions/DashboardPigmeat/PigmeatPriceAnalysis.html?category=Pig?selections=Latest%20Year%20Flag(Price)-1$MS%20NAME%20(Price)-European%20Union$Pig%20Carcass%20Class%20(Price)-E$Pig%20Category%20(Price)-Pig$Price%20Type-Current,Last%20Year"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEVELOP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en">Pig carcasses prices interactive charts</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/bd5b8f62-1c9d-42e9-be17-8422fca35fa4">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-05T12:48:07</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">986</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/Pig_carcasses_prices"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-02 08:57:53.602392</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1055</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/435fa4e2-9f74-4f16-904d-748ca98df8bd">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01T00:00:00</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01T00:00:00</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/69ce4882-cc7e-43d8-ba06-3151db09f84f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

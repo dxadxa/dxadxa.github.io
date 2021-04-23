@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9c696128-fff9-43bc-8456-5f9ca7171154">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-24T19:01:18</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:52:00</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f837f584-3ab4-499e-9286-102fa62a7f0c">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3"/>
+    <dcterms:title xml:lang="en">World Top R&amp;D Investors: Industrial Property Strategies in the Digital Economy</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">Daiko, T., Dernis, H., Dosso, M., Gkotsis, P., Squicciarini, M. and Vezzani, A., World Top RandD Investors: Industrial Property Strategies in the Digital Economy, EUR 28656 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-69700-5 (print),978-92-79-69699-2 (pdf), doi:10.2760/861062 (print),10.2760/837796 (online), JRC107015.</dcterms:description>
+    <schema:url xml:lang="en">https://doi.org/10.2760/861062</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a24626a5-2ace-4062-be71-af75a4009ead">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="petros.gkotsis@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/0d79467b-e336-41bd-9fb8-7105ed8f2c0b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0318c9d0-7d17-4bed-b567-789da7e40246">
+    <dcat:accessURL rdf:resource="https://survey2018.oecd.org/Survey.aspx?s=03d8572cdd7f492aa1ed5350b7b9f044"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:title xml:lang="en">Patent classes</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f1d275d3-4b6e-4966-9ded-921b4f47c0de">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0d79467b-e336-41bd-9fb8-7105ed8f2c0b">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-25</dcterms:issued>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f837f584-3ab4-499e-9286-102fa62a7f0c"/>
+    <dcat:keyword xml:lang="en">Economy and finance</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a24626a5-2ace-4062-be71-af75a4009ead"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcatapop:ckanName>05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Additional patent related information. IPC and WIPO 35 technological classifications.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/f1d275d3-4b6e-4966-9ded-921b4f47c0de"/>
+    <dcterms:title xml:lang="en">Patent classes</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0318c9d0-7d17-4bed-b567-789da7e40246"/>
+    <dcterms:identifier>05ea2b44-a2e2-4a64-bd1a-48fa4736ceb3</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

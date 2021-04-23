@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5faca866-9beb-46ff-89b4-6995d39f5d3a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/transparency/comitology-register/screen/documents"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Document search</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/comitology-register">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a0b8aeee-ce04-4ebb-afa0-bff9d46a1848"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5faca866-9beb-46ff-89b4-6995d39f5d3a"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/800e1a7a-9855-47dc-8906-5bd1eaf98b98"/>
+    <dcterms:title xml:lang="en">Comitology Register</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/caca79c3-fb38-48ae-b66c-2a208a018b63"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <dcterms:description xml:lang="en"> The Commission is often empowered to implement EU legislation with the assistance of committees composed of representatives from EU countries.&#13;
+&#13;
+This register contains background information and documents relating to the work of these committees, including all documents forwarded to the EU Parliament for information or scrutiny. &#13;
+&#13;
+The documents available enable to trace the different stages of an implementing measure throughout its entire lifecycle, to find out about the committees' legal basis and rules of procedure, and to consult the minutes and written consultation documents for each meeting.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6050"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/525"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5506"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5399"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:ckanName>comitology-register</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5511"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5507"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/caca79c3-fb38-48ae-b66c-2a208a018b63">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/transparency/comitology-register/screen/datasets"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/transparency/regcomitology/index.cfm?do=OpenData.list"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:description xml:lang="en">Here you can find datasets in a reusable format (.csv) that allows you to retrieve information on the committees and documents available in the Register.</dcterms:description>
+    <dcterms:title xml:lang="en">Download datasets </dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/bd550c9a-2c4b-4fdb-8d56-c1f3ae975faa">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/comitology-register"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-28T08:52:21</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-23T16:00:48</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/800e1a7a-9855-47dc-8906-5bd1eaf98b98">
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/transparency/comitology-register</dcterms:title>
+    <schema:url>https://ec.europa.eu/transparency/comitology-register</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/comitology-register"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a0b8aeee-ce04-4ebb-afa0-bff9d46a1848">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Secretariat-General, Unit SG.G.4 Institutional Affairs</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="SG-DOC-INSTITUTIONNELLE@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

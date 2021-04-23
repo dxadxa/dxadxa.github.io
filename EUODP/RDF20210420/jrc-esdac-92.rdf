@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fd9d4004-4c73-4680-922d-9020b1f728aa">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-92"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-92</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2e123fbe-16d7-4780-898d-ca3ec15b4b13">
+    <dcterms:title xml:lang="en">LUCAS 2009 TOPSOIL data</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/lucas-2009-topsoil-data"/>
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">LUCAS 2009 TOPSOIL data</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2266beeb-b916-4968-a21e-100abbdacdd3">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T15:20:27</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">485</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-92"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">594</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 12:47:19.626849</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7251baf8-0f11-498e-9c23-9f546d582c2d">
+    <vcard:hasEmail rdf:resource="mailto:ec-esdac@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-92">
+    <dcterms:identifier>jrc-esdac-92</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:ckanName>lucas-2009-topsoil-data</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7251baf8-0f11-498e-9c23-9f546d582c2d"/>
+    <dcterms:description xml:lang="en">Data from the 2009 LUCAS campaign soil component containing soil properties data (clay, silt and sand content, coarse fragments, pH, organic carbon content, CaCO3, nitrogen, phosphorous, potassium, cation exchane capacity) and multispectral absorbance data.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2e123fbe-16d7-4780-898d-ca3ec15b4b13"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-01</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0f627709-72f6-45da-966e-92ff108672eb"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/fd9d4004-4c73-4680-922d-9020b1f728aa"/>
+    <dcterms:identifier>http://data.europa.eu/89h/jrc-esdac-92</dcterms:identifier>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-21</dcterms:modified>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/100151"/>
+    <dcterms:title xml:lang="en">LUCAS 2009 TOPSOIL data</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0f627709-72f6-45da-966e-92ff108672eb">
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-92"/>
+    <schema:url>http://data.europa.eu/88u/dataset/jrc-esdac-92</schema:url>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/jrc-esdac-92</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/RESTRICTED">
+    <rdfs:label xml:lang="en">restricted</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

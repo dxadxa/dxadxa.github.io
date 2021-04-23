@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5d90d203-fe6b-48ee-9a4e-bdbd35d2bdf3">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/563a2fcf-9916-4d7e-bc8d-d1b73e56cfb1">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tipsex13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/751d1707-7780-4035-aca2-dcdd25710a8f">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/24b9a172-05f3-4f67-b8ea-8f1738eb690f">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsex13.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d28bdfde-12b4-4b55-a9cb-a838d6e1d781">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/B0A1aGWhCGBmiuGCqQbAg"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tipsex13</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tipsex13</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1bb81e2f-0e41-46d3-b3fb-0a2b79732adf">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1340</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-30 07:16:45.059939</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-30T07:55:30</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/B0A1aGWhCGBmiuGCqQbAg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1227</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0ef0b1b6-495e-4255-b739-f7835b52d4ed">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsex13.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/B0A1aGWhCGBmiuGCqQbAg">
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/751d1707-7780-4035-aca2-dcdd25710a8f"/>
+    <dcterms:title xml:lang="fr">Part de marché des exportations en volume</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0ef0b1b6-495e-4255-b739-f7835b52d4ed"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/70220349-0fb0-4798-8146-c8df2c3c83d1"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/24c1b159-983b-41f0-9d39-cae824c4d8bb"/>
+    <dcterms:description xml:lang="en">The indicator is calculated by subtracting the world exports volume growth rate from the country exports volume growth rate. Eurostat's National accounts volumes for exports (as for all transactions concerning goods and services) are estimated in previous year prices to eliminate the influence of inflation. The volume growth rate is always calculated by comparing the year Y volume in previous year prices with the year Y-1 figure in current prices. The MIP indicator is expressed as percentage change comparing year Y with year Y-1. Data sources: Eurostat, online data code: nama_10_gdp (country's exports of goods and services) and IMF, World Economic Outlook (WEO) – world exports of goods and services.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d28bdfde-12b4-4b55-a9cb-a838d6e1d781"/>
+    <dcterms:title xml:lang="en">Export market shares in volume</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/24b9a172-05f3-4f67-b8ea-8f1738eb690f"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="de">Der Indikator wird durch Subtraktion der Wachstumsrate des Weltexportvolumens von der Wachstumsrate des Exportvolumens des Landes berechnet. Im Rahmen der Volkswirtschaftlichen Gesamtrechnungen von Eurostat werden die Exportvolumen (wie alle Waren und Dienstleistungen betreffenden Transaktionen) in Vorjahrespreisen veranschlagt, um den Einfluss der Inflation zu eliminieren. Die volumenmäßige Wachstumsrate wird stets berechnet, indem das Volumen des Jahres Y in Vorjahrespreisen mit der Angabe des Jahres Y-1 in jeweiligen Preisen verglichen wird. Der VMU-Indikator wird als prozentuale Veränderung im Jahr Y gegenüber dem Jahr Y-1 angegeben. Datenquellen: Eurostat, Online-Daten-Code: nama_10_gdp (Waren- und Dienstleistungsexporte des Landes) und IWF, World Economic Outlook (WEO) – weltweite Exporte von Waren und Dienstleistungen.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1ca48a52-e3fe-47ef-bb84-63a8ceea1ddf"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9528590c-ab5c-4345-8c36-7cc2bccdf967"/>
+    <dcterms:title xml:lang="de">Exportmarktanteil gemessen am Volumen</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ef33f604-51b1-48d8-9dc9-fe586922241c"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcatapop:ckanName>B0A1aGWhCGBmiuGCqQbAg</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-29</dcterms:modified>
+    <dcterms:identifier>tipsex13</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/563a2fcf-9916-4d7e-bc8d-d1b73e56cfb1"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/56"/>
+    <dcterms:description xml:lang="fr">L'indicateur est calculé en prenant la différence entre le taux de croissance du volume des exportations mondiales et le taux de croissance du volume des exportations de pays. Dans les Comptes nationaux d'Eurostat, les volumes des exportations (pour toutes les transactions concernant des biens et services) sont estimés aux prix de l'année précédente pour éliminer l'influence de l'inflation. Le taux de croissance du volume est à chaque fois calculé en comparant le volume de l'an Y aux prix de l'année précédente au volume de l'année Y - 1 en prix courants. L'indicateur est exprimé en terme de variation de l'année Y sur l'année Y-1. Source: Eurostat, code nama_10_gdp (pour les exportations de biens et services des pays) et FMI , World Economic Outlook (WEO )(pour les exportations mondiales de biens et services).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1ca48a52-e3fe-47ef-bb84-63a8ceea1ddf">
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tipsex13"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ef33f604-51b1-48d8-9dc9-fe586922241c">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipsex13.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/221a0e12-ea79-43b2-a678-47b3fb827812">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9528590c-ab5c-4345-8c36-7cc2bccdf967">
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tipsex13"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/70220349-0fb0-4798-8146-c8df2c3c83d1">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/221a0e12-ea79-43b2-a678-47b3fb827812"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/5d90d203-fe6b-48ee-9a4e-bdbd35d2bdf3"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/215bde94-369d-483f-8783-6939bffd80ce"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/24c1b159-983b-41f0-9d39-cae824c4d8bb">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/B0A1aGWhCGBmiuGCqQbAg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tipsex13</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/215bde94-369d-483f-8783-6939bffd80ce">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

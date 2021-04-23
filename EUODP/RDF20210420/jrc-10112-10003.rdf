@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b5b40f10-277a-487c-bfe3-bdf1f46387d2">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">Development of a national and sub-national crop calendars data set compatible with remote sensing derived land surface phenology</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.2760/25859</schema:url>
+    <dcterms:description xml:lang="en">Dimou, M., Meroni, M. and Rembold, F., Development of a national and sub-national crop calendars data set compatible with remote sensing derived land surface phenology, EUR 29327 EN, Publications Office of the European Union, Luxembourg, 2018, ISBN 978-92-79-92902-1, doi:10.2760/25859, JRC112670.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c3c26b59-7a62-43cd-b3b9-c627663d8f76">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/36c9b2d3-526f-46a9-85a5-5be4ab47f53b">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/crop_calendar_gaul1.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:title xml:lang="en">Crop calendars at sub-national level</dcterms:title>
+    <dcterms:description xml:lang="en">CSV file containg the range of planting, growing and harvesting season at sub-national level.To visualise the information in a GIS environment, use the field asap1_id and join with the spatial layer gaul1_asap (see Dataset Administrative boundaries).</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10112-10003">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b5b40f10-277a-487c-bfe3-bdf1f46387d2"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/9a768b11-95c0-48cf-a1e8-5310631de3c1"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ea2eb4ca-56ec-4e6c-a173-b58fd5c729a9"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>jrc-10112-10003</dcterms:identifier>
+    <dcatapop:ckanName>jrc-10112-10003</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/36c9b2d3-526f-46a9-85a5-5be4ab47f53b"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:description xml:lang="en">The national and sub-national crop calendars are based on FAO data and include only crops for which the original calendars match with the ASAP remote sensing based phenology. The dataset contains the start and end dekad (over the 36 dekads in a year) of the planting (sos_s and sos_e), the start and end dekad of growth (sos_e and eos_s) and the start and end dekad of harvest (eos_s and eos_e). The rest of the year is considered out of season.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-26</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2f007235-f532-4fbd-915e-91a670caaffe"/>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/39c505f8-baef-4bdb-985b-0e156276a73a"/>
+    <dcterms:title xml:lang="en">Crop calendar dataset compatible with satellite-derived land surface phenology</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/99fbb903-5e34-457e-9e6d-fb5b40475417"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/39c505f8-baef-4bdb-985b-0e156276a73a">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/crop_calendar_gaul0.zip"/>
+    <dcterms:description xml:lang="en">CSV file containg the range of planting, growing and harvesting season at national level. To visualise the information in a GIS environment, use the field asap0_id and join with the spatial layer gaul0_asap (see Dataset Administrative boundaries).</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Crop calendars at national level</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ea2eb4ca-56ec-4e6c-a173-b58fd5c729a9">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10003"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10112-10003</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-10112-10003</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2f007235-f532-4fbd-915e-91a670caaffe">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10003"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://mars.jrc.ec.europa.eu/asap/download.php</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/7100d3d1-2019-4cc4-bea8-157e1b50e081">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:55:14</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10003"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">583</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-09 05:22:00.253217</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/9a768b11-95c0-48cf-a1e8-5310631de3c1">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/c3c26b59-7a62-43cd-b3b9-c627663d8f76"/>
+    <vcard:hasEmail rdf:resource="jrc-asap@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/99fbb903-5e34-457e-9e6d-fb5b40475417">
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.agsy.2018.07.002</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Rembold, F., Meroni, M., Urbano, F., Csak, G., Kerdiles, H., Perez Hoyos, A., Lemoine, G., Leo, O. and Negre, T., ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis, AGRICULTURAL SYSTEMS, ISSN 0308-521X, 168, 2019, p. 247-257, JRC109950.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10003"/>
+    <dcterms:title xml:lang="en">ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

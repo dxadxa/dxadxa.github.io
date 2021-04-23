@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f582bcb8-55ed-4b84-9579-adf3489561c3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-26 14:49:09.426897</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T13:23:52</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/456e17f4-2845-40cb-b3a0-27923a0f18f3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8d6d2ef8-9e21-44ba-ab9b-4a21fe7885a7">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/456e17f4-2845-40cb-b3a0-27923a0f18f3"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://emergency.copernicus.eu/EMSR184</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/43664331-2b9d-44b5-a756-d85212cd7bf8">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/65891ff1-6bff-4f7f-a298-e91a12f94cef">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/43664331-2b9d-44b5-a756-d85212cd7bf8"/>
+    <vcard:hasEmail rdf:resource="jrc-ems-rapidmapping@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e8f50612-c1a8-4a37-8ee2-5aec0ad823d8">
+    <dcterms:description xml:lang="en">All maps produced in scope of this Copernicus EMS Rapid Mapping activation downloadable as georeferenced PDFs, TIFFs and JPEGs together with relevant vector data (SHP, KML) as well.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://emergency.copernicus.eu/EMSR184"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Copernicus EMS Rapid Mapping Activation [EMSR184]: Floods in South Eastern Australia (2016-09-26)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/456e17f4-2845-40cb-b3a0-27923a0f18f3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>456e17f4-2845-40cb-b3a0-27923a0f18f3</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUS"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e8f50612-c1a8-4a37-8ee2-5aec0ad823d8"/>
+    <dcat:keyword xml:lang="en">Regions and cities</dcat:keyword>
+    <dcterms:title xml:lang="en">Floods in South Eastern Australia (2016-09-26)</dcterms:title>
+    <dcterms:identifier>456e17f4-2845-40cb-b3a0-27923a0f18f3</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8d6d2ef8-9e21-44ba-ab9b-4a21fe7885a7"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/543cdc4c-15df-4ccc-b532-3ec394f3de94"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/65891ff1-6bff-4f7f-a298-e91a12f94cef"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-26</dcterms:issued>
+    <dcat:keyword xml:lang="en">72 GEOGRAPHY</dcat:keyword>
+    <dcat:keyword xml:lang="en">Orthoimagery</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="en">&lt;br/&gt; 
+Activation time (UTC): 2016-09-26 09:43:00&lt;br/&gt; 
+Event time (UTC): 2016-09-24 00:00:00&lt;br/&gt; 
+Event type: Flood&lt;br/&gt; 
+&lt;br/&gt; 
+Activation reason: &lt;br/&gt; 
+Starting from Saturday September 24th, heavy rains have hit the South Eastern part of Australia. Approximately 34,000 square kilometers of the Lachlan river catchment is flooding, with several cities affected, hundreds of people evacuated and 100 properties affected by floodwaters according to the State Emergency Service.&lt;br/&gt; 
+&lt;br/&gt; 
+Reference products: 0&lt;br/&gt; 
+Delineation products: 27&lt;br/&gt; 
+Grading products: 2&lt;br/&gt; 
+&lt;br/&gt; 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.&lt;br/&gt;</dcterms:description>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/543cdc4c-15df-4ccc-b532-3ec394f3de94">
+    <schema:url>http://data.europa.eu/89h/456e17f4-2845-40cb-b3a0-27923a0f18f3</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/456e17f4-2845-40cb-b3a0-27923a0f18f3</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/456e17f4-2845-40cb-b3a0-27923a0f18f3"/>
+  </rdf:Description>
+</rdf:RDF>

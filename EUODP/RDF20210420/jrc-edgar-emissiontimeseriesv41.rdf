@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-edgar-emissiontimeseriesv41">
+    <dcatapop:ckanName>jrc-edgar-emissiontimeseriesv41</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-07-31</dcterms:issued>
+    <dcterms:description xml:lang="en">The Emissions Database for Global Atmospheric Research (EDGAR) provides global past and present day anthropogenic emissions of greenhouse gases and air pollutants by country and on spatial grid. The current development of EDGAR is a joint project of the European Commission JRC Joint Research Centre and the Netherlands Environmental Assessment Agency (PBL).</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f7c71d82-97b4-4844-98ef-c21e0eda8b84"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:title xml:lang="en">EDGARv4.1 Emission Time Series</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bd104952-aff0-4193-a6f2-cbdedd73e388"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6b7e5e9a-42ce-42e6-8427-e23fc3fc3cf4"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9c777ea2-28bf-4512-ad33-e9198d60d5a7"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6400"/>
+    <dcterms:identifier>jrc-edgar-emissiontimeseriesv41</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8527aa24-dc35-4681-8b75-51d1f7aca871"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9833123b-417a-4f65-9e40-552243737a6c">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:30</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissiontimeseriesv41"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">401</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:30</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f7c71d82-97b4-4844-98ef-c21e0eda8b84">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=41</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissiontimeseriesv41"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9c777ea2-28bf-4512-ad33-e9198d60d5a7">
+    <dcterms:description xml:lang="en">Country emissions are available for download (.xls tables) in 2 different standard formats:
+- Total emissions per country for the period 1970-2005
+- Annual emissions by country and sector</dcterms:description>
+    <dcterms:title xml:lang="en">EDGAR V4.1 EmissionTime Series</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <dcat:accessURL rdf:resource="http://edgar.jrc.ec.europa.eu/overview.php?v=41"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bd104952-aff0-4193-a6f2-cbdedd73e388">
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">The EDGAR project homepage</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissiontimeseriesv41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6b7e5e9a-42ce-42e6-8427-e23fc3fc3cf4">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-edgar-emissiontimeseriesv41</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-edgar-emissiontimeseriesv41</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissiontimeseriesv41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8527aa24-dc35-4681-8b75-51d1f7aca871">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/EMODnet_human_activities_cables_schematic">
+    <dcat:keyword xml:lang="en">location</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/0cc385e0-05e8-4dc6-8078-eab127823ee7"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/52d708bb-7490-4fa7-8fa3-40da9752d779"/>
+    <dcat:keyword xml:lang="en">cables</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0d8474a7-4fdd-42a0-b37b-5adf2096df1e"/>
+    <owl:versionInfo></owl:versionInfo>
+    <dcterms:title xml:lang="en">EMODnet telecommunication cables (schematic routes)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <dcatapop:ckanName>EMODnet_human_activities_cables_schematic</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">routes</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/57b09900-1254-4062-a650-955ff66a3467"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0ed83323-f772-46a5-8528-cf08277aed10"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">EMODnet</dcat:keyword>
+    <dcterms:modified>2018-08-29 08:02:07.280031</dcterms:modified>
+    <dcterms:description xml:lang="en">The dataset on submarine telecom cables was created by Cogea in 2014 for the European Marine Observation and Data Network. The underlying data is property of Telegeography and is available online at https://github.com/telegeography/www.submarinecablemap.com. Compared with the previous version, this version of includes the gigabit per second values that come from the Cable System Database of the Packet Clearing House organization and are available online at https://prefix.pch.net/applications/cablesystem/. The database contains lines and points representing cables and related landing points. Cables are represented as stylised paths, as actual cable routes locations are not available in most cases. The dataset includes any cable that crosses the EU waters (Marine regions). Marine regions and subregions boudaries are defined in Article 4 of the Marine Strategy Framework Directive (MSFD) and available online at https://www.eea.europa.eu/data-and-maps/data/msfd-regions-and-subregions.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5e17c43c-0819-4112-b10c-10299c404ae3"/>
+    <dcat:keyword xml:lang="en">telecommunication</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:51:57.707229</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/af4782f6-c562-45ab-b6ef-f800f456133e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0d8474a7-4fdd-42a0-b37b-5adf2096df1e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:title xml:lang="en">Web Feature Service (WFS)</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://77.246.172.208/geoserver/emodnet/wfs?SERVICE=WFS&amp;VERSION=1.1.0&amp;request=GetFeature&amp;typeName=cablesschematic&amp;OUTPUTFORMAT=json"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://77.246.172.208/geoserver/emodnet/wfs?SERVICE=WFS&amp;VERSION=1.1.0&amp;request=GetFeature&amp;typeName=cablesschematic&amp;OUTPUTFORMAT=json"/>
+    <dcterms:description xml:lang="en">Web Feature Service (WFS) of the EMODnet Geology portal</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 14:51:58.395744</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/52d708bb-7490-4fa7-8fa3-40da9752d779">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:downloadURL rdf:resource="http://www.emodnet-humanactivities.eu/search-results.php?dataname=Telecommunication+Cables+%28schematic+routes%29"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 14:51:58.395719</dcterms:issued>
+    <dcterms:title xml:lang="en">Download (ESRI shapefile)</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">Data product download service of the EMODnet Human Activities portal</dcterms:description>
+    <dcat:accessURL rdf:resource="http://www.emodnet-humanactivities.eu/search-results.php?dataname=Telecommunication+Cables+%28schematic+routes%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0cc385e0-05e8-4dc6-8078-eab127823ee7">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url>http://www.emodnet-humanactivities.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_human_activities_cables_schematic"/>
+    <dcterms:title xml:lang="en">EMODnet Human Activities data portal</dcterms:title>
+    <dcterms:description xml:lang="en">EMODnet Human Activities aims to facilitate access to existing marine data on activities carried out in EU waters, by building a single entry point for geographic information on 14 different themes. The portal makes available information such as geographical position, spatial extent of a series of activities related to the sea, their temporal variation, time when data was provided, and attributes to indicate the intensity of each activity. The data are aggregated and presented so as to preserve personal privacy and commercially-sensitive information. The data also include a time interval so that historic as well as current activities can be included.&#13;
+&#13;
+The information provided through the portal is collated from a variety of sources, harmonised and made interoperable. Data are free and free of any restrictions, in such a way as to ensure their use from a multitude of stakeholders (policy makers, researchers, students, spatial planners, etc.).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e794a600-741d-44de-93eb-414a5792fac4">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:51:57.707229</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_human_activities_cables_schematic"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">649</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-29 08:02:07.280031</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">529</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0ed83323-f772-46a5-8528-cf08277aed10">
+    <dcat:downloadURL rdf:resource="http://www.emodnet-humanactivities.eu/view-data.php"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:description xml:lang="en">Map viewer of the EMODnet Human Activities portal</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:title xml:lang="en">EMODnet Human Activities map viewer</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 14:51:58.395739</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://www.emodnet-humanactivities.eu/view-data.php"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/af4782f6-c562-45ab-b6ef-f800f456133e">
+    <schema:url>http://www.emodnet-humanactivities.eu/search-results.php?dataname=Telecommunication+Cables+%28schematic+routes%29</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://www.emodnet-humanactivities.eu/search-results.php?dataname=Telecommunication+Cables+%28schematic+routes%29</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/57b09900-1254-4062-a650-955ff66a3467">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PNG"/>
+    <dcterms:description xml:lang="en">Web Map Service (WMS) of the EMODnet Human Activities portal</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://77.246.172.208/geoserver/emodnet/wms?LAYERS=cablesschematic&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-30.4269,23.7383,42.3846,72.2793&amp;WIDTH=650&amp;HEIGHT=400"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 14:51:58.395749</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://77.246.172.208/geoserver/emodnet/wms?LAYERS=cablesschematic&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-30.4269,23.7383,42.3846,72.2793&amp;WIDTH=650&amp;HEIGHT=400"/>
+    <dcterms:title xml:lang="en">Web Map Service (WMS)</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5e17c43c-0819-4112-b10c-10299c404ae3">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

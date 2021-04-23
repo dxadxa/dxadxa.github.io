@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/998d1076-7d86-4e92-974c-d012cb464aa2">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">810</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">875</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04 15:22:32.435136</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/V3h3jR5TfOC7MpMEg"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:10:41.616557</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-eba5befc-2041-4419-bbe0-591413dedd33">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T00:00:00</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/bfa3e395-7d7c-423e-837e-877b0c30d60e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="telephone-11e3102b-f9db-4a02-9f4a-a9936baabba6529b1b78-9f3e-48f7-a9ac-d3999e862055"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/40fbf259-9a54-4b1e-9cb8-9694bccf1fe5"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1e56b191-6288-46a3-9894-78fedecc2711"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1e56b191-6288-46a3-9894-78fedecc2711">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/1e56b191-6288-46a3-9894-78fedecc2711</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/40fbf259-9a54-4b1e-9cb8-9694bccf1fe5">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/53117dc2-f014-494a-bfc4-aabff5963abd">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tsdpc440</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdpc440</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/V3h3jR5TfOC7MpMEg">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/568"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/53117dc2-f014-494a-bfc4-aabff5963abd"/>
+    <dcterms:temporal rdf:resource="period_of_time-eba5befc-2041-4419-bbe0-591413dedd33"/>
+    <dcterms:description xml:lang="fr">L'indicateur est défini comme la part de la superficie agricole utilisée totale occupée par l'agriculture biologique (superficie existante et superficie en cours de conversion). L'agriculture biologique est une méthode de production qui met l'accent sur la protection environnementale et, en ce qui concerne l'élevage, sur le bien-être des animaux. Elle évite, ou réduit considérablement l'utilisation d'intrants chimiques synthétiques comme les engrais, pesticides, additifs et médicaments. Au niveau de l'UE, l'agriculture n'est considérée comme biologique que si elle satisfait aux dispositions du Règlement (CE) N° 834/2007 du Conseil, qui ont mis en place un cadre détaillé pour la production biologique des cultures et de l'élevage, pour l'appellation, la transformation et la commercialisation des produits biologiques, tout en réglementant également les importations de produits biologiques dans l'UE. Les modalités d'application de ce Règlement sont définies dans le Règlement (CE) N° 889/2008 de la Commission.</dcterms:description>
+    <dcterms:title xml:lang="en">[DISCONTINUED] Area under organic farming</dcterms:title>
+    <dcterms:description xml:lang="en">The product has been split, please select one of the products below:  &#13;
+[Area under organic farming (t2020_rn120)]( http://data.europa.eu/euodp/data/dataset/pNQ4kwQI9GTkiuFHqoO0Ig)  &#13;
+[Area under organic farming (sdg_02_40)] (http://data.europa.eu/euodp/data/dataset/stZ2aKlz8GeMeaVjNBXurg)    &#13;
+&#13;
+The indicator is defined as the share of total utilised agricultural area (UAA) occupied by organic farming (existing organically-farmed areas and areas in process of conversion). Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.</dcterms:description>
+    <dcatapop:ckanName>V3h3jR5TfOC7MpMEg</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1a2b9d18-013a-406b-8d9c-20cb977d0bc0"/>
+    <owl:versionInfo>None</owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified>2018-09-04 15:22:32.435136</dcterms:modified>
+    <dcterms:identifier>tsdpc440</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="de">Der Indikator wird definiert als der Anteil der Gesamtfläche der landwirtschaftlich genutzten Fläche, der für ökologische Landwirtschaft genutzt wird (bestehend aus vollständig umgewandelte und in Umstellung befindliche Flächen). Ökologische Landwirtschaft ist eine Produktionsmethode, wobei der Schwerpunkt auf Umweltschutz und, hinsichtlich des Viehbestands, auf tierschutzrechtliche Bedingungen, ausgerichtet ist. Sie vermeidet oder schränkt synthetische chemische Einflüße wie Kunstdünger, Pestizide, Zusatzstoffe oder medizinische Produkte stark ein. Landwirtschaft wird auf EU-Ebene nur als ökologisch betrachtet, wenn sie der Verordnung (EG) Nr. 834/2007 des Rates entspricht, welche übergreifende Rahmenbedingungen für die biologische Produktion von Agrarerzeugnissen und Vieh, für die Kennzeichnung, Verarbeitung und Vermarktung von Bioprodukten geschaffen hat, sowie Importe von Bioprodukten in der EU steuert. Die Durchführungsvorschriften zu dieser Verordnung sind in der Verordnung (EG) Nr. 889/2008 der Kommission festgelegt.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 12:10:41.616557</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/bfa3e395-7d7c-423e-837e-877b0c30d60e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1a2b9d18-013a-406b-8d9c-20cb977d0bc0">
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/V3h3jR5TfOC7MpMEg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="fr">Plus dinformation sur le site web dEurostat</dcterms:title>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tsdpc440</schema:url>
+    <dcterms:description xml:lang="en"> </dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="telephone-11e3102b-f9db-4a02-9f4a-a9936baabba6529b1b78-9f3e-48f7-a9ac-d3999e862055">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/net_short_position">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/76183d1e-7fc8-4880-aea7-a30579c8aa6c"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8469"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 14:36:14.922328</dcterms:issued>
+    <dcatapop:ckanName>net_short_position</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">debt ratio</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1804"/>
+    <dcat:keyword xml:lang="en">sovereign issuers</dcat:keyword>
+    <dcat:keyword xml:lang="en">notifications</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESMA"/>
+    <dcat:keyword xml:lang="en">shortselling</dcat:keyword>
+    <dcat:keyword xml:lang="en">short selling</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bb13025e-ad40-49fd-b47d-f7b56895b45d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_ee45cd99"/>
+    <dcterms:description xml:lang="en">According to Article 7(2) of the Short Selling Regulation, ESMA has to publish a list of the thresholds applicable to the sovereign issuers for the purpose of the notification to competent authorities of significant net short position in sovereign debt.&#13;
+&#13;
+The way these notification thresholds are defined is further specified in the Commission Delegated Regulation No 918/2012 (the “DR”). The DR specifies that initial threshold categories shall be:&#13;
+0.1% applicable where the total amount of outstanding issued sovereign debt is between 0 and 500 billion euros;&#13;
+0.5% applicable where the total amount of outstanding issued sovereign debt is above 500 billion euros or where there is a liquid futures market for the particular sovereign debt.&#13;
+&#13;
+The additional incremental levels shall be set at 50% of the initial thresholds. The reporting thresholds shall be monetary amounts fixed by applying the percentage thresholds to the outstanding sovereign debt of the sovereign issuer. They will be revised and updated quarterly to reflect changes in the total amount of outstanding sovereign debt of each sovereign issuer.&#13;
+&#13;
+In addition, the DR states that the amount of outstanding debt should be calculated using a duration adjusted approach. ESMA has published a Q&amp;A document on how to proceed for the duration adjustment.&#13;
+&#13;
+The table of thresholds contains the name of the sovereign issuer, the amount of outstanding debt duration adjusted, the initial threshold amount and the relevant percentage, the incremental threshold amount and the relevant percentage.&#13;
+&#13;
+Please note that the figures of the amount of outstanding debt are duration adjusted (not nominal amounts) and are approximations provided by competent authorities.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d2f4d544-5eb3-40d7-8f8d-a48bcd3aaa71"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/424"/>
+    <dcterms:title xml:lang="en">Net short position notification thresholds for sovereign issuers</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d2f4d544-5eb3-40d7-8f8d-a48bcd3aaa71">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/net_short_position"/>
+    <schema:url>https://www.esma.europa.eu/net-short-position-notification-thresholds-sovereign-issuers</schema:url>
+    <dcterms:title xml:lang="en">title_https://www.esma.europa.eu/net-short-position-notification-thresholds-sovereign-issuers</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bb13025e-ad40-49fd-b47d-f7b56895b45d">
+    <dcterms:title xml:lang="en">Net short position notification thresholds for sovereign issuers</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcat:accessURL rdf:resource="https://www.esma.europa.eu/sites/default/files/library/sovereign_debt_thresholds.xlsx"/>
+    <dcat:downloadURL rdf:resource="https://www.esma.europa.eu/sites/default/files/library/sovereign_debt_thresholds.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cd887c3f-bfcf-4b04-84bb-483d066c3af3">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1578</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-11T17:04:13</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-07-27 14:36:14.922328</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1473</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/net_short_position"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/76183d1e-7fc8-4880-aea7-a30579c8aa6c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

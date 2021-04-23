@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/5a431f38-1e2c-449a-898e-34f2a3234c3b">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/85bd8217-af2e-4e99-aa68-84ec30ee6e5d"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>5a431f38-1e2c-449a-898e-34f2a3234c3b</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/29b36fcd-5b16-4473-9842-e8578b4249fa"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f043061f-6790-4e86-b5c4-3f4246ef0030"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/032c8ce6-4ae5-435b-b61d-2639e125650f"/>
+    <dcatapop:ckanName>5a431f38-1e2c-449a-898e-34f2a3234c3b</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/05db24d7-7c69-444c-a49d-1c7cebac4444"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-24</dcterms:issued>
+    <dcterms:title xml:lang="en">API standards and technical specifications for governments</dcterms:title>
+    <dcterms:description xml:lang="en">This list contains the list of standards and technical specifications analysed in the APIs4DGov  study "Web API landscape: relevant general purpose ICT standards, technical specifications and terms". Notice that the list does not include a set of documents which are considered of (i) general purpose for the Web and (ii) consolidated background knowledge of the reader (e.g. HTTP, JSON, XML, URI, SOA, ROA, RDF, etc.).
+
+Each document is classified accordingly to the following rationale:
+
+- Name: extended name (with acronym, if available).
+
+- TS/S: we distinguish the documents into two main categories: (1)  “Technical Specification” and (2) “Standard”. The definitions of the two terms are in use in official and technical documents, including the ones of CEN, IEC, ISO and Open Geospatial Consortium (OGC). For the purposes of this dataset, we choose the definitions proposed by the OGC: (1) "Specification" or "Technical Specification" (TS): "a document written by a consortium, vendor, or user that specifies a technological area with a well-defined scope, primarily for use by developers as a guide to implementation. A specification is not necessarily a formal standard"; (2) 	"Standard" (S): "a document that specifies a technological area with a well-defined scope, usually by a formal standardisation body and process". 
+
+- Category: each document is classified by its functional specification (Resource Representation, Protocol), Security (Authentication, Authorisation), Usability (Documentation, Design), Test, Performance, and Licence. See section 2.2 for a description of each category.
+
+- Short Description: a short description of the TS/S.
+
+- Link: URL of online document describing the TS/S.
+
+- API Type: RPC or REST, both if not specified.
+
+- Initial Release: the year when the TS/S was proposed the first time (where not available the most probable year, calculated by additional desk research, was given).
+
+- By: the organisation (i.e. standard body, consortium, vendor) or individual that proposes the standard.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/327d135e-a3f4-4d1a-912c-7914d07afd11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/85bd8217-af2e-4e99-aa68-84ec30ee6e5d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/digital-single-market/en/news/new-study-digital-government-apis-apis4dgov-project</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/5a431f38-1e2c-449a-898e-34f2a3234c3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/13561c6f-3966-45a1-8c09-5d7184f146a1">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/032c8ce6-4ae5-435b-b61d-2639e125650f">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+    <dcterms:description xml:lang="en">API standards and technical specifications (ODS format)</dcterms:description>
+    <dcterms:title xml:lang="en">API standards and technical specifications (ODS format)</dcterms:title>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/APIS4DGOV/standards/LATEST/API-Standards.ods"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ab94320f-3be3-4f02-9079-e5cbfb671ddb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/5a431f38-1e2c-449a-898e-34f2a3234c3b"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T12:17:44</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T09:55:52</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/29b36fcd-5b16-4473-9842-e8578b4249fa">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">API standards and technical specifications (XLS format)</dcterms:description>
+    <dcterms:title xml:lang="en">API standards and technical specifications (XLS format)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/APIS4DGOV/standards/LATEST/API-Standards.xlsx"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/327d135e-a3f4-4d1a-912c-7914d07afd11">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/13561c6f-3966-45a1-8c09-5d7184f146a1"/>
+    <vcard:hasEmail rdf:resource="jrc-apis4dgov@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/05db24d7-7c69-444c-a49d-1c7cebac4444">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/5a431f38-1e2c-449a-898e-34f2a3234c3b</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/5a431f38-1e2c-449a-898e-34f2a3234c3b</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/5a431f38-1e2c-449a-898e-34f2a3234c3b"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f043061f-6790-4e86-b5c4-3f4246ef0030">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/5a431f38-1e2c-449a-898e-34f2a3234c3b"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">Santoro, M., Vaccari, L., Mavridis, D., Smith, R., Posada Sanchez, M. and Gattwinkel, D., Web Application Programming Interfaces (APIs): general-purpose standards, terms and European Commission initiatives, EUR 29984 EN, Publications Office of the European Union, Luxembourg, 2019, ISBN 978-92-76-13183-0 (online),978-92-76-14165-5 (ePub), doi:10.2760/675 (online),10.2760/441701 (ePub), JRC118082.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">Web Application Programming Interfaces (APIs): general-purpose standards, terms and European Commission initiatives</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">https://doi.org/10.2760/675</schema:url>
+  </rdf:Description>
+</rdf:RDF>

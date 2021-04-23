@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9e6c5088-b652-4391-a95e-134a1e22ec3d">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_13_10.sdmx.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fb247d7e-f693-494e-a748-9d2398294dcd">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3CoaEwgDNhlg4tUGhb9OfQ"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/sdg_13_10_esmsip2.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ff14cbc5-782b-4ff4-a87c-c85b24c25656">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_13_10.tsv.gz&amp;unzip=true"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/3CoaEwgDNhlg4tUGhb9OfQ">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4257"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9e6c5088-b652-4391-a95e-134a1e22ec3d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9d40d54c-9629-47b9-85c6-dd913afbc12d"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6331"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/cdaabf77-24bd-4c13-b25d-f858cda21036"/>
+    <dcatapop:ckanName>3CoaEwgDNhlg4tUGhb9OfQ</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a09d03c6-87ac-4506-a8c7-39277ad81389"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3609ca85-1e2e-4e2a-8b0b-afdec85db93f"/>
+    <dcterms:title xml:lang="de">Treibhausgasemissionen (Quelle: EUA)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6402"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4260"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:title xml:lang="en">Greenhouse gas emissions (source: EEA)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8e3da2d3-6af9-4577-b151-a033e29b611d"/>
+    <dcterms:title xml:lang="fr">Émissions de gaz à effet de serre (source: AEE)</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-11</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/bef5a2cb-f3a3-486f-848a-c13194c893be"/>
+    <dcterms:description xml:lang="de">Der Indikator misst die gesamten nationalen Emissionen (von den ESD und ETS Sektoren) inklusive die des Internationalen Flugverkehrs des so genannten „Kyoto Korbs“ von Treibhausgasen, einschließlich Kohlendioxid (CO2), Methan (CH4), Distickstoffoxid (N2O), und die so genannten F-Gase (Fluorkohlenwasserstoffe, perfluorierte Kohlenwasserstoffe, Stickstofftriflouride (NF3) und Schwefelhexafluorid (SF6)) von allen Sektoren des Treibhausgasinventars (einschliesslich Internationale Luftfahrt, ausgenommen LULUCF) . Diese werden zu einem einzelnen Indikator zusammengefasst, der in CO2-Äquivalenten ausgedrückt wird. Die Treibhausgasinventare werden jährlich von den EU-Mitgliedstaaten im Rahmen der Berichterstattung gemäß dem Rahmenabkommen der Vereinten Nationen über den Klimawandel (UNFCCC) übermittelt.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ff14cbc5-782b-4ff4-a87c-c85b24c25656"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:identifier>sdg_13_10</dcterms:identifier>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/29bd96ef-5b0d-4653-9c08-c46c6faaa21b"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/0a0340ac-14de-44f9-8428-6633d3124968"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/fb247d7e-f693-494e-a748-9d2398294dcd"/>
+    <dcterms:description xml:lang="fr">Cet indicateur mesure les émissions nationales totales (de les secteurs ESD et ETS), y compris l'aviation internationale de la soi-disant «panier de Kyoto» de gaz à effet de serre, dont le dioxyde de carbone (CO2), le méthane (CH4), le protoxyde d’azote (N2O), et ce que l’on appelle le gaz fluorés (hydrofluorocarbones, perfluorocarbones, d’azote (NF3 triflouride) et l’hexafluorure de soufre (SF6)] provenant de tous les CCNUCC secteurs (y compris l'aviation internationale, à l'exclusion de l'utilisation des terres, du changement d'affectation des terres et de la foresterie (LULUFC)) . Selon chaque gaz individuel de potentiel de réchauffement de la planète (PRP), ils s’intègrent dans un seul indicateur exprimées en unités d’équivalents CO2. Les données relatives aux émissions sont présentées chaque année par les États membres de l’Union européenne dans le cadre de l’établissement de rapports au titre de la convention-cadre des Nations unies sur les changements climatiques (CCNUCC).</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/28790142-1f59-49bf-a097-6a3c2043c517"/>
+    <dcterms:description xml:lang="en">The indicator measures total national emissions (from both ESD and ETS sectors) including international aviation of the so called ‘Kyoto basket’ of greenhouse gases, including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and the so-called F-gases (hydrofluorocarbons, perfluorocarbons, nitrogen triflouride (NF3) and sulphur hexafluoride (SF6)) from all sectors of the GHG emission inventories (including international aviation, excluding land use, land use change and forestry (LULUCF)). Using each gas’ individual global warming potential (GWP), they are being integrated into a single indicator expressed in units of CO2 equivalents. The GHG emission inventories are submitted annually by the EU Member States to the United Nations Framework Convention on Climate Change (UNFCCC).</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9d40d54c-9629-47b9-85c6-dd913afbc12d">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_13_10.tsv.gz"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0a0340ac-14de-44f9-8428-6633d3124968">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3CoaEwgDNhlg4tUGhb9OfQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_13_10</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3609ca85-1e2e-4e2a-8b0b-afdec85db93f">
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=sdg_13_10"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/cdaabf77-24bd-4c13-b25d-f858cda21036">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/12ca2fbd-4b88-4320-a87a-6f56827b778d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/50e46b80-c284-446a-8e6b-53933436d141"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/0ce04516-bb6f-4644-82fe-8f9535d7321c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8e3da2d3-6af9-4577-b151-a033e29b611d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=sdg_13_10"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/29bd96ef-5b0d-4653-9c08-c46c6faaa21b">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/0ce04516-bb6f-4644-82fe-8f9535d7321c">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/28790142-1f59-49bf-a097-6a3c2043c517">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3CoaEwgDNhlg4tUGhb9OfQ"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/sdg_13_10_esmsip2.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/50e46b80-c284-446a-8e6b-53933436d141">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f1af63df-da0a-42a0-927e-75675258a293">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-07 06:36:12.960766</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:54:04</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">431</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">466</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/3CoaEwgDNhlg4tUGhb9OfQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a09d03c6-87ac-4506-a8c7-39277ad81389">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=sdg_13_10"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bef5a2cb-f3a3-486f-848a-c13194c893be">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_13_10</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/3CoaEwgDNhlg4tUGhb9OfQ"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/sdg_13_10</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/12ca2fbd-4b88-4320-a87a-6f56827b778d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

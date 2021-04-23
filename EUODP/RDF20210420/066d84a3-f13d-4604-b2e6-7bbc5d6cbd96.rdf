@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/066d84a3-f13d-4604-b2e6-7bbc5d6cbd96">
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcatapop:ckanName>066d84a3-f13d-4604-b2e6-7bbc5d6cbd96</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">International issues</dcat:keyword>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e6a1e2c0-71c6-4978-a69f-24518b667737"/>
+    <dcterms:description xml:lang="en">In the first half of June 2020, small amounts of artificial (man-made) radioactive substances have been detected at several measuring stations in Northern Europe. Iodine-131 was detected in Norway, while cesium-134, cesium-137, cobalt-60 and ruthenium-103 were detected in Sweden and Finland. The amount of radioactivity was very low and there was no impact on the environment or human health.
+This dataset reports the ambient gamma dose rate measurements collected by the EURDEP network during those days.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/f9d0422f-3c0b-4579-8b8c-5d44ba24d0b5"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a5da93db-5a7c-477d-a945-b899c518a0e0"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:title xml:lang="en">Radioactive substances in the air over Northern Europe (total gamma dose rate)</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:identifier>066d84a3-f13d-4604-b2e6-7bbc5d6cbd96</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/23bc559f-63ee-4a38-8e74-63384c74b2ce"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-18</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f9d0422f-3c0b-4579-8b8c-5d44ba24d0b5">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/066d84a3-f13d-4604-b2e6-7bbc5d6cbd96</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/066d84a3-f13d-4604-b2e6-7bbc5d6cbd96</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/066d84a3-f13d-4604-b2e6-7bbc5d6cbd96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e6a1e2c0-71c6-4978-a69f-24518b667737">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/066d84a3-f13d-4604-b2e6-7bbc5d6cbd96"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://remon.jrc.ec.europa.eu/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/23bc559f-63ee-4a38-8e74-63384c74b2ce">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Total gamma dose rates</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURDEP/NorwaySwedenFinland/2020_06_DoseRates.csv"/>
+    <dcterms:title xml:lang="en">Total gamma dose rates</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d774d388-28bc-49c8-8cc3-f1e63a227bff">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a5da93db-5a7c-477d-a945-b899c518a0e0">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="jrc-remdbsupport@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/d774d388-28bc-49c8-8cc3-f1e63a227bff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/26ec73b3-fe42-4261-b5a8-97e2e6cc5168">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:28</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:28</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/066d84a3-f13d-4604-b2e6-7bbc5d6cbd96"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

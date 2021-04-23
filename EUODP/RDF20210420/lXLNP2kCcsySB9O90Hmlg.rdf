@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fdc02753-1ecf-4f20-9dfe-1de0506b91cd">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tag00025"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5e553088-9b81-4b62-a60f-dd819c677127">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/62066735-845c-4e02-b673-807f060c9a7d"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/0cf38838-cf72-446c-a569-1a6ed62eabe0"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1ed04b54-2cad-48e2-871b-adc998f1f8c5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/cc57ed13-1ad7-4ff2-9d98-bf226c31d1bb">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2016-09-20 22:00:33.622623</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1717</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/lXLNP2kCcsySB9O90Hmlg"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:08:09</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/lXLNP2kCcsySB9O90Hmlg">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/cadac16a-d2f2-4a04-9ea4-718e806e2a05"/>
+    <dcterms:identifier>tag00025</dcterms:identifier>
+    <dcterms:description xml:lang="fr">La superficie agricole utilisée (en abrégé: SAU) désigne la superficie consacrée à l'agriculture. Elle comprend les catégories de terres suivantes: • les terres arables; • les prairies permanentes; • les cultures permanentes; • d’autres terres agricoles, telles que les jardins potagers (même si ceux-ci ne représentent que de petites parties de la SAU totale). Ne sont pas comprises dans la superficie agricole utilisée: les terres agricoles inexploitées, les forêts et les surfaces occupées par des bâtiments, cours de fermes, chemins, étangs, etc. Cet indicateur utilise la notion de "superficie principale", qui désigne la superficie de la parcelle de terre: • dans le cas de cultures annuelles, la superficie principale correspond à la superficie ensemencée; • dans le cas de cultures permanentes, il s'agit de la la superficie plantée totale; • dans le cas de cultures successives, il s'agit de la superficie de la culture principale qui a occupé la parcelle au cours de l'année considérée; • dans le cas de cultures simultanées, il s'agit de la superficie correspondante des différentes cultures.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5e553088-9b81-4b62-a60f-dd819c677127"/>
+    <dcterms:title xml:lang="en">Utilised agricultural area by categories</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e88a8009-416f-4788-97a4-11558d432d32"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b3ae96d8-2159-4c4f-b1bb-7cc2534e2d9f"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/512417ef-cbfd-4cc5-91ea-aeb18b76e335"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fdc02753-1ecf-4f20-9dfe-1de0506b91cd"/>
+    <dcatapop:ckanName>lXLNP2kCcsySB9O90Hmlg</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">The Utilised agricultural area (abbreviated as UAA) describes the area used for farming. It includes the following land categories: •arable land; •permanent grassland; •permanent crops; •other agricultural land such as kitchen gardens (even if they only represent small areas of total UAA). The term does not include unused agricultural land, woodland and land occupied by buildings, farmyards, tracks, ponds, etc. This indicator uses the concept of "main area" that means the area of the land parcel: •in case of annual crops, the main area correspond to the sown area; •in the case of permanent crops, to the total planted area; •in the case of successive crops, to the main crop that occupied the parcel during that year; •and in the case of simultaneous crops, to the corresponding area of the different crops.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f3de1e5c-dd97-4482-9bb6-b85c96a4e815"/>
+    <dcterms:title xml:lang="de">Landwirtschaftlich genutzte Fläche nach Kategorien</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/e1da7f5a-8d6b-4ab7-84e3-d779a129395f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4b6305e6-d5b2-4ed6-912a-562ee030db5c"/>
+    <dcterms:description xml:lang="de">Die landwirtschaftlich genutzte Fläche (LF) ist die bewirtschaftete Fläche. Hierzu zählen folgende Landkategorien: • Ackerland, • Dauergrünland, • Dauerkulturen, • sonstige landwirtschaftliche Flächen wie Haus- und Nutzgärten (selbst wenn sie nur einen geringen Teil der gesamten LF ausmachen). Hierin nicht enthalten sind nicht genutzte Landwirtschafts- oder, Forstflächen sowie sonstige Flächen, die von Gebäuden, Hofflächen, Wegen, Gewässern usw. eingenommen werden. Diesem Indikator liegt der Begriff "Hauptanbaufläche" zugrunde, d. h. die Fläche der landwirtschaftlichen Parzelle entspricht: • bei einjährigen Kulturen der Aussaatfläche, • bei Dauerkulturen der gesamten bepflanzten Fläche, • bei Folgekulturen der Hauptkultur, für die die Parzelle im Laufe des betreffenden Jahres genutzt wurde, • bei gleichzeitig angebauten Kulturen dem jeweiligen Flächenanteil der verschiedenen Kulturen.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0ba0da18-cdec-4cb1-af7c-ba175029c028"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:title xml:lang="fr">Superficie agricole utilisée par catégories</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b3ae96d8-2159-4c4f-b1bb-7cc2534e2d9f">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tag00025"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/512417ef-cbfd-4cc5-91ea-aeb18b76e335">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tag00025</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/lXLNP2kCcsySB9O90Hmlg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1ed04b54-2cad-48e2-871b-adc998f1f8c5">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4b6305e6-d5b2-4ed6-912a-562ee030db5c">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tag00025"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e88a8009-416f-4788-97a4-11558d432d32">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00025.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/e1da7f5a-8d6b-4ab7-84e3-d779a129395f">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0ba0da18-cdec-4cb1-af7c-ba175029c028">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00025.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f3de1e5c-dd97-4482-9bb6-b85c96a4e815">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00025.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/0cf38838-cf72-446c-a569-1a6ed62eabe0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/62066735-845c-4e02-b673-807f060c9a7d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cadac16a-d2f2-4a04-9ea4-718e806e2a05">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tag00025</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tag00025</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/lXLNP2kCcsySB9O90Hmlg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

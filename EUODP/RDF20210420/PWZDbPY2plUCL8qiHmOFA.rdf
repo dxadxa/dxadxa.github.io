@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f6f32bd2-be0b-4362-8b15-c289cf9f544a">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/t2020_rl110.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3a3f1d22-25bf-429d-96ea-7cdf77b5dafd">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/t2020_rl110_esmsip2.sdmx.zip</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PWZDbPY2plUCL8qiHmOFA"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/70e9b1bd-ddaa-46e2-aa8d-d5e1c22228c9">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/PWZDbPY2plUCL8qiHmOFA"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2496</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2661</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 13:06:27.172979</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:25:52</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/498b232b-4bb3-4e23-924e-618f3021cd32">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/PWZDbPY2plUCL8qiHmOFA">
+    <dcterms:title xml:lang="en">Domestic material consumption per capita</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3a3f1d22-25bf-429d-96ea-7cdf77b5dafd"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ce788d35-ce17-4497-8da7-28eff3888dca"/>
+    <dcatapop:ckanName>PWZDbPY2plUCL8qiHmOFA</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a5768e74-c566-4669-87d2-90654f19eae4"/>
+    <dcterms:title xml:lang="fr">La consommation intérieure de matières par habitant</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b56bf064-2eee-4ac0-a18e-2be49337018b"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f6f32bd2-be0b-4362-8b15-c289cf9f544a"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6402"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c37d173a-3c64-4ebc-81e2-d18c3177f988"/>
+    <dcterms:identifier>t2020_rl110</dcterms:identifier>
+    <dcterms:description xml:lang="en">The indicator is defined as the total amount of material directly used in an economy and equals direct material input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals domestic extraction (DE) plus imports. For the ‘per capita’ calculation of the indicator the average population is used (the arithmetic mean of the population on 1st January of two consecutive years). Domestic Material Consumption (DMC) is based on the Economy-wide Material Flow Accounts (EW-MFA). The theory of Economy-wide material flow accounts includes compilations of the overall material inputs into national economy, the changes of material stock within the economy and the material outputs to other economies or to the environment. EW-MFA covers all solid, gaseous, and liquid materials, except water and air. Water included in products is included.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/94d0dc4f-7dcd-499d-9894-92b7b2a72686"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/352de315-4a09-4eed-a1ab-9e9763fcd9b4"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/ee451b93-2f27-45b3-a489-851e339e0eec"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7d572bbd-7ee6-40a7-b087-c72ec3e040cb"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="de">Der Indikator ist definiert als der Gesamtbetrag des direkt in einer Volkswirtschaft verwendeten Materials und entspricht dem direkten Materialeinsatz (DMI) abzüglich der Exporte. Der DMI misst den direkten Input von Materialien für den Einsatz in der Wirtschaft. DMI entspricht Inlandsextraktion (DE) plus Importe. Für die Berechnung des Indikators pro Kopf wird die durchschnittliche Bevölkerungszahl verwendet (das arithmetische Mittel der Bevölkerung am 1. Januar von zwei aufeinander folgenden Jahren). Der inländische Materialverbrauch (DMC) basiert auf den gesamtwirtschaftlichen Materialflusskonten (EW-MFA). Die Theorie volkswirtschaftlicher Materialflussrechnungen umfasst Zusammenfassungen der gesamten Materialeinträge in die Volkswirtschaft, der Veränderungen des Materialbestands innerhalb der Wirtschaft und der materiellen Ergebnisse in andere Volkswirtschaften oder in die Umwelt. EW-MFA umfasst alle festen, gasförmigen und flüssigen Materialien außer Wasser und Luft. Wasser enthalten in Produkten ist eingeschlossen.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5ef1d722-eea5-4b36-8062-4b8b83d99b71"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/f4208805-70dd-4eef-930c-3ae9943c0418"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcterms:title xml:lang="de">Inländischer Materialverbrauch pro Kopf</dcterms:title>
+    <dcterms:description xml:lang="fr">L’indicateur est défini comme la quantité totale de matières directement utilisée dans une économie et est égal à l’apport de matières premières (DMI) diminué des exportations. Le DMI mesure l’apport de matières premières destinées à être utilisées dans l’économie. Le DMI est égal à l’extraction intérieure (DE) augmentée des importations. Pour le calcul « par habitant » de l’indicateur, la population moyenne est utilisée (la moyenne arithmétique de la population au 1er Janvier de deux années consécutives). La consommation intérieure de matières (CIM) est basée sur les comptes des flux de matières à l’échelle de l’économie (CFM-EE). La théorie des comptes des flux de matières à l’échelle de l’économie inclut des compilations d’apports de matières globaux dans l’économie nationale, les changements dans le stock de matières d’une économie et les extrants de matières vers d’autres économies ou vers l’environnement. Les CFM-EE englobent toutes les matières solides, gazeuses, et liquides, sauf l’eau et l’air. L’eau contenue dans les produits est inclue.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ce788d35-ce17-4497-8da7-28eff3888dca">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=t2020_rl110"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/33f7f7a8-8b3c-4fe0-802b-b2f2aa67b78a">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/94d0dc4f-7dcd-499d-9894-92b7b2a72686">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PWZDbPY2plUCL8qiHmOFA"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/t2020_rl110_esmsip2.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5ef1d722-eea5-4b36-8062-4b8b83d99b71">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/33f7f7a8-8b3c-4fe0-802b-b2f2aa67b78a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/498b232b-4bb3-4e23-924e-618f3021cd32"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/73ef741d-45a2-413f-b303-58e7113c6060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b56bf064-2eee-4ac0-a18e-2be49337018b">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=t2020_rl110"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ee451b93-2f27-45b3-a489-851e339e0eec">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rl110</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rl110</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PWZDbPY2plUCL8qiHmOFA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/352de315-4a09-4eed-a1ab-9e9763fcd9b4">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/t2020_rl110.tsv.gz&amp;unzip=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/73ef741d-45a2-413f-b303-58e7113c6060">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7d572bbd-7ee6-40a7-b087-c72ec3e040cb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=t2020_rl110"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c37d173a-3c64-4ebc-81e2-d18c3177f988">
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PWZDbPY2plUCL8qiHmOFA"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rl110</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a5768e74-c566-4669-87d2-90654f19eae4">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/t2020_rl110.sdmx.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/f4208805-70dd-4eef-930c-3ae9943c0418">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

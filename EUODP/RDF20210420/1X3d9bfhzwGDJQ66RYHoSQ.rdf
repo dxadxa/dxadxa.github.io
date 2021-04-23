@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bc21c4cc-a86f-446a-80ef-1a1e7cd3b04d">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tag00103"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5213b097-35fa-4706-80f3-3586c17cd392">
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00103.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6c6a2d3c-8bd0-4ebb-a885-388a44e3dfc6">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/1X3d9bfhzwGDJQ66RYHoSQ"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2016-09-20 22:17:05.390262</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">981</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">874</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:50:22</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/1X3d9bfhzwGDJQ66RYHoSQ">
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5213b097-35fa-4706-80f3-3586c17cd392"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/459694c5-f178-44e4-bd55-62b6f2d9ea4b"/>
+    <dcterms:description xml:lang="fr">Ce tableau contient les superficies sur lesquelles sont semées des pommes de terre (y compris plants de pommes de terre), des betteraves à sucre (semences non comprises), des prairies temporaires pour le pâturage, la production de foin ou l'ensilage (dans le cadre du cycle de rotation des cultures), des plantes légumineuses cultivées et récoltées en vert (en plantes entières, principalement pour la production de fourrage, d'énergie ou d'engrais verts) et d'autres céréales récoltées en vert (maïs ensilage non compris), telles que le seigle, le blé, le triticale, le sorgho annuel, le sarrasin, etc. Cet indicateur utilise la notion de "superficie cultivée", qui correspond: • avant la récolte, à la superficie ensemencée; • après la récolte, à la superficie ensemencée, à l'exclusion de la superficie non récoltée (p. ex. superficie détruite par des catastrophes naturelles, superficie non récoltée pour des raisons d'ordre économique, etc.).</dcterms:description>
+    <dcatapop:ckanName>1X3d9bfhzwGDJQ66RYHoSQ</dcatapop:ckanName>
+    <dcterms:title xml:lang="fr">Plantes sarclées et plantes prélevées en vert sur les terres arables par superficie</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:identifier>tag00103</dcterms:identifier>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/cef03317-4c31-4330-96ea-ebb429f6bce7"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/0915942e-3066-4081-9136-754657fb84a1"/>
+    <dcterms:title xml:lang="en">Root crops and plants harvested green from arable land by area</dcterms:title>
+    <dcterms:description xml:lang="en">This table includes the areas where are sown potatoes (including seed), sugar beet (excluding seed), temporary grasses for grazing, hay or silage (in the crop rotation cycle), leguminous plants grown and harvested green (as the whole plant, mainly for fodder, energy or green manuring use), other cereals harvested green (excluding green maize): rye, wheat, triticale, annual sorghum, buckwheat, etc. This indicator uses the concepts of "area under cultivation" which corresponds: • before the harvest, to the sown area; • after the harvest, to the sown area excluding the non-harvested area (e.g. area ruined by natural disasters, area not harvested for economic reasons, etc.)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b910fcaa-8eec-419f-b993-756bac5dd362"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/61e4f64a-f989-46df-913c-8690e2071e2d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/584b11e8-902b-462a-bbc5-3a089aae0d42"/>
+    <dcterms:description xml:lang="de">Diese Tabelle beinhaltet die Anbauflächen von Kartoffeln (einschließlich Saatkartoffeln), Zuckerrüben (ohne Saatgut) und Feldgras zur Beweidung, Heu- oder Silageherstellung (in der Fruchtfolge stehend), hauptsächlich für Futterzwecke, zur Energieerzeugung oder Gründüngung sowie als ganze Pflanze grün geerntete Leguminosen und sonstige Getreidearten zur Grünernte (ohne Grünmais/Silomais): Roggen, Weizen, Triticale, einjähriges Sorghum, Buchweizen, usw. Diesem Indikator liegt der Begriff „Anbaufläche“ zugrunde; diese entspricht: • vor der Ernte der Aussaatfläche, • nach der Ernte der Aussaatfläche ohne die nicht abgeerntete Fläche (z. B. durch Naturkatastrophen vernichtete Fläche, aus wirtschaftlichen Gründen nicht abgeerntete Fläche, usw.).</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/594e0f2e-0705-4e88-8b56-97ce78e4fb52"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bc21c4cc-a86f-446a-80ef-1a1e7cd3b04d"/>
+    <dcterms:title xml:lang="de">Hackfrüchte und Pflanzen zur Grünernte vom Ackerland nach der Fläche</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5eec4813-1222-4d56-ae76-7416d696de2e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b910fcaa-8eec-419f-b993-756bac5dd362">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00103.sdmx.zip"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/459694c5-f178-44e4-bd55-62b6f2d9ea4b">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tag00103"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cef03317-4c31-4330-96ea-ebb429f6bce7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/1X3d9bfhzwGDJQ66RYHoSQ"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tag00103</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tag00103</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/209d14e7-4a05-4476-9a74-c6cb400df490">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5eec4813-1222-4d56-ae76-7416d696de2e">
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tag00103.tsv.gz&amp;unzip=true"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/584b11e8-902b-462a-bbc5-3a089aae0d42">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tag00103"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/61e4f64a-f989-46df-913c-8690e2071e2d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/62d3450c-dd41-428b-ba79-b6cb612cd6ae"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/5e66ec5a-44c6-4dff-ba5d-52465e4e0a61"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/209d14e7-4a05-4476-9a74-c6cb400df490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/62d3450c-dd41-428b-ba79-b6cb612cd6ae">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/594e0f2e-0705-4e88-8b56-97ce78e4fb52">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tag00103</schema:url>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/1X3d9bfhzwGDJQ66RYHoSQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/0915942e-3066-4081-9136-754657fb84a1">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/5e66ec5a-44c6-4dff-ba5d-52465e4e0a61">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

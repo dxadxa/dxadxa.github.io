@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6a4b9066-8b1a-408e-ac99-39637a4eaa91">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:38</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:38</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/a40a53a8-7419-4660-9f82-185729d30185"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/be79f202-9dbc-4a6f-b193-85c79cdfb1e7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=CO2andGHG1970-2016</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/a40a53a8-7419-4660-9f82-185729d30185"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e559f345-e809-4a89-9f2d-168bf01e7c89">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">JRC-EDGARv4.3.2_FT_2016: fossil CO2 and GHG emissions time-series</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v432_FT2016"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/a40a53a8-7419-4660-9f82-185729d30185">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b2ced14b-3157-4a20-9a29-3b135d435581"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5650"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-01</dcterms:issued>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8462c556-eee6-4f4b-b810-548c632d734a"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/be79f202-9dbc-4a6f-b193-85c79cdfb1e7"/>
+    <dcterms:description xml:lang="en">Timeseries of fossil CO2 emissions from 1970 till 2016 and GHG emissions from 1970 till 2012 for all world countries with sector-specific break-down.</dcterms:description>
+    <dcterms:identifier>a40a53a8-7419-4660-9f82-185729d30185</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcatapop:ckanName>a40a53a8-7419-4660-9f82-185729d30185</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e559f345-e809-4a89-9f2d-168bf01e7c89"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/d82d8fc7-784c-4530-8436-32f52b6df14e"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">Emissions Database for Global Atmospheric Research, version v4.3.2_FT_2016 (fossil CO2 and GHG time-series)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8462c556-eee6-4f4b-b810-548c632d734a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.2760/709792</schema:url>
+    <dcterms:title xml:lang="en">Fossil CO2 and GHG emissions of all world countries</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/a40a53a8-7419-4660-9f82-185729d30185"/>
+    <dcterms:description xml:lang="en">Janssens-Maenhout, G., Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E., Olivier, J., Schure, K. and Peters, J., Fossil CO2 and GHG emissions of all world countries, EUR 28766 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-73207-2 (online),978-92-79-73215-7 (print),978-92-79-75273-5 (ePub), doi:10.2760/709792 (online),10.2760/498455 (print),10.2760/897831 (ePub), JRC107877.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b2ced14b-3157-4a20-9a29-3b135d435581">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/a40a53a8-7419-4660-9f82-185729d30185</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/a40a53a8-7419-4660-9f82-185729d30185</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/a40a53a8-7419-4660-9f82-185729d30185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/d82d8fc7-784c-4530-8436-32f52b6df14e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

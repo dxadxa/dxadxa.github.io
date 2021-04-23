@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/3bce329b-7f47-48af-84c9-71ab03eb77b5">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c32741e0-1d85-49ac-a55c-3a0bf409d950">
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/agriculture/olive-oil/prices_en</dcterms:title>
+    <schema:url>https://ec.europa.eu/agriculture/olive-oil/prices_en</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/olive-oil-market-prices"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/olive-oil-market-prices">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3272"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c32741e0-1d85-49ac-a55c-3a0bf409d950"/>
+    <dcterms:title xml:lang="en">Olive oil market prices</dcterms:title>
+    <dcterms:description xml:lang="en">Olive oil market prices</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-08-01</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2656"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/0f9e9812-d856-436a-b528-15e836a494d2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1788"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1cc230ad-fc01-4189-bdd0-264b3df321f0"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2709"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/3bce329b-7f47-48af-84c9-71ab03eb77b5"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1264"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:ckanName>olive-oil-market-prices</dcatapop:ckanName>
+    <dcterms:relation rdf:resource="http://data.europa.eu/88u/dataset/Wx2qQz5IsWzR8tJZRECzHQ"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1cc230ad-fc01-4189-bdd0-264b3df321f0">
+    <dcterms:title xml:lang="en">Olive oil market prices (weekly update)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/agriculture/sites/agriculture/files/olive-oil/prices/market-prices_en.xlsx"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/agriculture/sites/agriculture/files/olive-oil/prices/market-prices_en.xlsx"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/71c9f44e-2aab-44e7-9059-bf89a6e88d63">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-05T15:46:46</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/olive-oil-market-prices"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">708</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-09-18T11:50:48</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">802</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/0f9e9812-d856-436a-b528-15e836a494d2">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

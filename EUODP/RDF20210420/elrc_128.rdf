@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/23d63583-3b65-438f-b1b4-c73b9868e414">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Metadata description</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://data.europa.eu/data/euodp/dataset/279cadab-6451-4cbc-b08f-1f83f14305c9/resource/a962c336-a4ad-4642-9b5b-efbc58b384cf/download/elrc128pknorlendatasetmd.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3711130f-81b7-497f-a0ee-69f573ebcf3d">
+    <dcterms:description xml:lang="en">Validation report</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://data.europa.eu/data/euodp/dataset/279cadab-6451-4cbc-b08f-1f83f14305c9/resource/dade42ef-bec6-453c-9f56-ae51df43b0d6/download/elrc128pknorlendatasetvalrep.pdf"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/elrc_128">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0ef3ec07-fd1a-488f-96b8-81403b31ac3a"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/23d63583-3b65-438f-b1b4-c73b9868e414"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>ELRC_128</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f17315e8-9439-45ec-a16e-e0efbf7540c0"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:datasetGroup rdf:resource="resources-for-language-technologies"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CNECT"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/17cade58-9563-4b2c-bfd8-16a144f92709"/>
+    <dcterms:title xml:lang="en">PKN Orlen Dataset</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3711130f-81b7-497f-a0ee-69f573ebcf3d"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-14 10:22:02.691474</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-14 17:02:29.845488</dcterms:issued>
+    <dcatapop:ckanName>elrc_128</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">Dataset of the Polish public sector company PKN Orlen, a major Polish oil refiner and petrol retailer. The dataset comprises 4 Polish-English files in XLIFF format, 100K word tokens in total: &#13;
+1. Orlen Annual Report 2015&#13;
+2. Gas (R)evolution in Poland&#13;
+3. Orlen Shale Gas Report&#13;
+4. European Energy Union&#13;
+The texts were aligned semi-automatically at the level of translation segments (mostly sentences and short paragraphs) and manually verified. They are available in the XLiFF format, which preserves the original order of the aligned segments.
+
+This dataset has been created within the framework of the European Language Resource Coordination (ELRC) Connecting Europe Facility - Automated Translation (CEF.AT) actions SMART 2014/1074 and SMART 2015/1091. For further information on the project: http://lr-coordination.eu.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/17cade58-9563-4b2c-bfd8-16a144f92709">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/euodp/en/data/dataset/elrc_128</dcterms:title>
+    <schema:url>http://data.europa.eu/euodp/en/data/dataset/elrc_128</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/elrc_128"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0ef3ec07-fd1a-488f-96b8-81403b31ac3a">
+    <dcterms:description xml:lang="en">Data archive containing files in the following formats: application/xml</dcterms:description>
+    <dcterms:issued xml:lang="en">2017-12-18 16:41:04.246480</dcterms:issued>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://elrc-share.eu/repository/browse/pkn-orlen-dataset/89072d367e4111e6bfe700155d020502eba3039af1a1475c9b7ff01ee7e43e67/"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/bccc3bb8-dfa4-4865-b16d-9eebba555cbe">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">388</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/elrc_128"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-24T17:32:37</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-14 17:02:29.845488</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f17315e8-9439-45ec-a16e-e0efbf7540c0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

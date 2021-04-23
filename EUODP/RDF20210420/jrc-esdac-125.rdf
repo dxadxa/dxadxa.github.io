@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/387e7ca7-5b58-4aa9-b85c-eb120155ae63">
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/jrc-esdac-125</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-125"/>
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/88u/dataset/jrc-esdac-125</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-125">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+    <dcterms:description xml:lang="en">Land use and climate change impacts on global soil erosion by water (2015-2070). This dataset includes the baseline scenario (2015) and the future projections (2070) of soil erosion based on land use changes and climate change effects.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:ckanName>global-soil-erosion-by-water-in-2070</dcatapop:ckanName>
+    <dcterms:identifier>jrc-esdac-125</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6cb7b083-f01e-4f2d-acdd-ae8a2817c4b4"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/f64abd6e-154a-44b0-ab66-ee2ae7f4ccd2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/100151"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/387e7ca7-5b58-4aa9-b85c-eb120155ae63"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-09</dcterms:modified>
+    <dcat:keyword xml:lang="en">soil loss</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3f3b8a31-135b-4d6d-8652-f1acc4bcc96f"/>
+    <dcterms:title xml:lang="en">Global soil erosion by water in 2070</dcterms:title>
+    <dcterms:identifier>http://data.europa.eu/89h/jrc-esdac-125</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6cb7b083-f01e-4f2d-acdd-ae8a2817c4b4">
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/OP_DATPRO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Global soil erosion by water in 2070</dcterms:description>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/global-soil-erosion-water-2070"/>
+    <dcterms:title xml:lang="en">Global soil erosion by water in 2070</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/f64abd6e-154a-44b0-ab66-ee2ae7f4ccd2">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+    <vcard:hasEmail rdf:resource="mailto:ec-esdac@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/606d026a-b23a-44f0-b168-d8f5d1e9dbbf">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-125"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:02:33</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T15:19:48</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3f3b8a31-135b-4d6d-8652-f1acc4bcc96f">
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-125</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-125"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/RESTRICTED">
+    <rdfs:label xml:lang="en">restricted</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

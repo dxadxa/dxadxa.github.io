@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/376177ab-ca92-4b0a-9a91-01cfd5b2dc86">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:downloadURL rdf:resource="http://berec.europa.eu/eng/document_register/subject_matter/berec/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://berec.europa.eu/eng/document_register/subject_matter/berec/"/>
+    <dcterms:description xml:lang="en">Public register of documents</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:issued xml:lang="en">2018-04-11 16:50:38.761262</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:title xml:lang="en">Public register of documents</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fa314f9f-6d08-4bdc-8b8f-7a069766aaa8">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>www.berec.europa.eu</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/berec_berec_office_documents">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e90561ab-b713-4c29-aa25-4bf20701488d"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">The register is structured chronologically and covers all categories of documents issued by BEREC and the BEREC Office, including the agendas and conclusions from the meetings of the contact network.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_4768a12e"/>
+    <dcat:keyword xml:lang="en">berec</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5399"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-08-01</dcterms:issued>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7879e138-d228-4dbd-b1c0-127bde468241"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:title xml:lang="en">Public documents issued by BEREC and the BEREC Office</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4361"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BEREC_OFFICE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/376177ab-ca92-4b0a-9a91-01cfd5b2dc86"/>
+    <dcatapop:ckanName>berec_berec_office_documents</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5936"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e90561ab-b713-4c29-aa25-4bf20701488d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/berec_berec_office_documents"/>
+    <dcterms:title xml:lang="en">title_http://berec.europa.eu/eng/document_register/subject_matter/berec/</dcterms:title>
+    <schema:url>http://berec.europa.eu/eng/document_register/subject_matter/berec/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/285e75d9-0812-4ef5-8db2-e25e5629cbef">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/berec_berec_office_documents"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11 14:48:20.932351</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">795</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">899</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-26T10:49:07</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7879e138-d228-4dbd-b1c0-127bde468241">
+    <vcard:organisation-name>BEREC Office</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="berecoffice@berec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/fa314f9f-6d08-4bdc-8b8f-7a069766aaa8"/>
+  </rdf:Description>
+</rdf:RDF>

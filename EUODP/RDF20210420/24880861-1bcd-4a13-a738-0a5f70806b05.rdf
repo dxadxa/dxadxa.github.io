@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8c09259f-7967-4af2-9f9a-6e9c0e084507">
+    <dcterms:title xml:lang="en">Copernicus EMS Risk and Recovery Mapping Activation [EMSN067]: Flood delineation and water depth, Iran (2020-02-10)</dcterms:title>
+    <dcterms:description xml:lang="en">Maps produced in scope of this Copernicus EMS Risk and Recovery Mapping activation downloadable as georeferenced PDFs, TIFFs and JPEGs together with relevant geodatabase (GDB) and complete final report as well.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://emergency.copernicus.eu/EMSN067"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/43694213-1b01-4e54-86e5-0b797e184667">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/24880861-1bcd-4a13-a738-0a5f70806b05"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">https://emergency.copernicus.eu/EMSN067</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/9db75b15-9b0e-446c-826f-88574262616c">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/66f5ff1b-774f-43b3-858a-c4039c7582b3"/>
+    <vcard:hasEmail rdf:resource="jrc-ems-rapidmapping@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/24880861-1bcd-4a13-a738-0a5f70806b05">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/43694213-1b01-4e54-86e5-0b797e184667"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8c09259f-7967-4af2-9f9a-6e9c0e084507"/>
+    <dcterms:title xml:lang="en">Flood delineation and water depth, Iran (2020-02-10)</dcterms:title>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/18145cb3-2d08-4a8c-a1e3-28678b5b71a2"/>
+    <dcat:keyword xml:lang="en">Orthoimagery</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-10</dcterms:issued>
+    <dcatapop:ckanName>24880861-1bcd-4a13-a738-0a5f70806b05</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRN"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/9db75b15-9b0e-446c-826f-88574262616c"/>
+    <dcat:keyword xml:lang="en">Regions and cities</dcat:keyword>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:identifier>24880861-1bcd-4a13-a738-0a5f70806b05</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:description xml:lang="en">&lt;br/&gt; 
+Activation date: 2020-02-10 &lt;br/&gt; 
+Event type: Flood &lt;br/&gt; 
+ &lt;br/&gt; 
+Activation reason:  &lt;br/&gt; 
+Heavy rains from the 9th to the 11th of January 2020 led to flash floods in south-east Iran (figure 1), where heavy damages on infrastructures, buildings and croplands have been reported. The CEMS Risk and Recovery Mapping service has been activated on the 31st of January. The aim of this activation is to detect flooded areas around two cities, i.e. Minab and Seerik, in order to help assessing the impact of the disaster and managing the aftermath in terms of planning and budget, as well as to use the products as input during the recovery and rebuilding phase. The resulting products show flood extents and estimated water depths.Figure 1:&amp;nbsp;overflowing river in Seerik (source: photo provided by the End User)Proposed solutions and resultsMap the reference hydrology using Sentinel-2 data acquired the 30th of December.Map the post-event hydrology using a fusion of Sentinel-1 and Sentinel-2 data.Erase reference hydrology from crisis hydrology to keep only the flooded areas. Manual refinement of the result.Statistical validation.Water depth computation and validation.&amp;nbsp;Flooded areas surfacesMinab: 11,889.0 haSeerik: 1,934.4 haFigure 2: observed flooded area extent near Seerik (click to zoom).Figure 3: overview map over Minab (click to zoom). &lt;br/&gt; 
+ &lt;br/&gt;</dcterms:description>
+    <dcat:keyword xml:lang="en">72 GEOGRAPHY</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/18145cb3-2d08-4a8c-a1e3-28678b5b71a2">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/24880861-1bcd-4a13-a738-0a5f70806b05"/>
+    <schema:url>http://data.europa.eu/89h/24880861-1bcd-4a13-a738-0a5f70806b05</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/24880861-1bcd-4a13-a738-0a5f70806b05</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a0bfc51a-6235-481e-9704-59d833167aeb">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/24880861-1bcd-4a13-a738-0a5f70806b05"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:28:25</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:28:25</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/66f5ff1b-774f-43b3-858a-c4039c7582b3">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

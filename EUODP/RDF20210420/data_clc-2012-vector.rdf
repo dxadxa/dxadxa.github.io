@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/data_clc-2012-vector">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e0a38993-81c0-41f0-9684-10aa4560f5be"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T15:37:24Z</dcterms:modified>
+    <dcterms:description xml:lang="en">hosted on land.copernicus.eu - Corine land cover 2012 vector</dcterms:description>
+    <dcat:keyword>geospatial data</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-09T15:25:00Z</dcterms:issued>
+    <dcat:keyword>corine land cover</dcat:keyword>
+    <dcat:keyword>clc2012</dcat:keyword>
+    <dcat:keyword>vector data</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/f4e12058-4bbd-48db-867f-d56546e97d3c"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b02bbbb5-8c30-4f1f-aa72-ec63076c7c33"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcterms:identifier>DAT-171-en</dcterms:identifier>
+    <dcterms:title xml:lang="en">[DEPRECATED] Corine Land Cover 2012 seamless vector data</dcterms:title>
+    <dcat:keyword>land cover</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e0a38993-81c0-41f0-9684-10aa4560f5be">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012"/>
+    <dcterms:title xml:lang="en">Corine Land Cover 2012</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b02bbbb5-8c30-4f1f-aa72-ec63076c7c33">
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/41299fd5-32eb-4817-93e3-ffcbbeb928bb"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/63b6e275-0762-40d6-bd31-2a13c82a7aa5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/925f4c01-f2c8-4d0c-b987-45dd7674c52b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/36404fd8-3fe6-4c54-ab58-ea17cd977f00">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:37:22</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/data_clc-2012-vector"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:37:22</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1107</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1005</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f4e12058-4bbd-48db-867f-d56546e97d3c">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/data_clc-2012-vector"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/clc-2012-vector</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Corine Land Cover 2012 seamless vector data</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/925f4c01-f2c8-4d0c-b987-45dd7674c52b">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/63b6e275-0762-40d6-bd31-2a13c82a7aa5">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+</rdf:RDF>

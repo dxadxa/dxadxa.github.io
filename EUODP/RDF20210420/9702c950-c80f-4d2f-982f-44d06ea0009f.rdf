@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/991acb36-39d6-4f57-978b-074ffcf42570">
+    <dcterms:description xml:lang="en">Open Database of car-following experiments involving vehicles with Adaptive Cruise Control systems (ACC). 
+The objective of the OpenACC Database is to provide data about ACC behavior to the whole scientific community in order to achieve a better understanding of the properties of ACC vehicles and to understand how their widespread may influence traffic dynamics in order to anticipate possible problems related to it. As new experimental data will be made available they will be included in OpenACC. External actors willing to include their ACC data can contact the OpenACC contact point.
+The database contains vehicle trajectories from different car-following experiments. Most of them refer to ACC driving, however for comparison purposes there are a few trajectories which also refer to manual driving.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/TransportExpData/JRCDBT0001/LATEST/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Open ACC Database</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/13d0ef6f-46db-4513-878b-c70406f1f841">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:54:15</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/9702c950-c80f-4d2f-982f-44d06ea0009f"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:54:15</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/9702c950-c80f-4d2f-982f-44d06ea0009f">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/953b3fac-7299-49a8-94ce-5659d71c5a39"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/991acb36-39d6-4f57-978b-074ffcf42570"/>
+    <dcterms:identifier>9702c950-c80f-4d2f-982f-44d06ea0009f</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/e1082fd5-7be8-474f-95b9-289ad53d2bcd"/>
+    <dcatapop:ckanName>9702c950-c80f-4d2f-982f-44d06ea0009f</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-30</dcterms:issued>
+    <dcterms:description xml:lang="en">Open Database of car-following experiments involving vehicles with Adaptive Cruise Control systems (ACC). 
+The objective of the OpenACC Database is to provide data about ACC behavior to the whole scientific community in order to achieve a better understanding of the properties of ACC vehicles and to understand how their widespread may influence traffic dynamics in order to anticipate possible problems related to it. As new experimental data will be made available they will be included in OpenACC. External actors willing to include their ACC data can contact the OpenACC contact point.
+The database contains vehicle trajectories from different car-following experiments. Most of them refer to ACC driving, however for comparison purposes there are a few trajectories which also refer to manual driving.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">Open ACC Database</dcterms:title>
+    <dcat:keyword xml:lang="en">Transport</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cb7532ea-4580-42b8-ad52-f18b8e3b0766">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/953b3fac-7299-49a8-94ce-5659d71c5a39">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/9702c950-c80f-4d2f-982f-44d06ea0009f</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/9702c950-c80f-4d2f-982f-44d06ea0009f"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/9702c950-c80f-4d2f-982f-44d06ea0009f</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/e1082fd5-7be8-474f-95b9-289ad53d2bcd">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/cb7532ea-4580-42b8-ad52-f18b8e3b0766"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="biagio.ciuffo@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

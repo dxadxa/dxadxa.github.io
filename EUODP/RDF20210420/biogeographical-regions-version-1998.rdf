@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/5f044645-94b4-46f7-b891-742906c5f639">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3201cb79-1e09-47e4-accb-8360eadc0080">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-version-1998/coordinate-reference-system/coordinate-reference-system/view"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">Coordinate reference system</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b9ba5558-2747-4666-bce9-9c3784ea8eb6">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/biogeographical-regions-version-1998"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Biogeographical regions</dcterms:title>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-version-1998</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/739d99a2-04c1-41c2-8414-953129f0d7b8">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-version-1998/bio-geographic-regions-in-arc-info-export-format-vector/bio-geographic-regions-in-arc-info-export-format-vector/view"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">Bio-geographic regions in Arc/Info export format (vector)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/da9acf8b-291b-446a-9d8c-205a4b0748ef">
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/5f044645-94b4-46f7-b891-742906c5f639"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/3f1ff3a4-ddfd-4657-93ac-5c7eb3e358ca"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/07ed7ab2-2efb-4e0b-850c-9a8b1245ecc1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/biogeographical-regions-version-1998">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/da9acf8b-291b-446a-9d8c-205a4b0748ef"/>
+    <dcat:keyword>eea owned data sets</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:identifier>DAT-85-en</dcterms:identifier>
+    <dcterms:description xml:lang="en">Version 1998 - The bio-geographic regions dataset (Version 1998) contains the official delineations used in the Habitats Directive (92/43/EEC) and for the EMERALD Network set up under the Convention on the Conservation of European Wildlife and Natural Habitats (Bern Convention).</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b9ba5558-2747-4666-bce9-9c3784ea8eb6"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-01-01T00:00:00Z</dcterms:issued>
+    <dcat:keyword>geospatial data</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-27T12:01:43Z</dcterms:modified>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Biogeographical regions</dcterms:title>
+    <dcat:keyword>natlan</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3201cb79-1e09-47e4-accb-8360eadc0080"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/739d99a2-04c1-41c2-8414-953129f0d7b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/09a089ec-c243-4cc0-831a-d050034780df">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/biogeographical-regions-version-1998"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:25:14</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:25:14</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/07ed7ab2-2efb-4e0b-850c-9a8b1245ecc1">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

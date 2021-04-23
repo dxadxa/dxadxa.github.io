@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/608c2040-939c-49c6-a480-34c179bf6baa">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:56:59.378653</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="http://geo.vliz.be/geoserver/Emodnetbio/wms?service=%20WFS&amp;VERSION=1.0.0&amp;request=GetFeature&amp;typeName=%20Emodnetbio:OOPS_products%20&amp;OUTPUTFORMAT=application/json&amp;bbox=4.95,48.05,12.25,60.75"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Web Feature Service (WFS)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcat:accessURL rdf:resource="http://geo.vliz.be/geoserver/Emodnetbio/wms?service=%20WFS&amp;VERSION=1.0.0&amp;request=GetFeature&amp;typeName=%20Emodnetbio:OOPS_products%20&amp;OUTPUTFORMAT=application/json&amp;bbox=4.95,48.05,12.25,60.75"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:description xml:lang="en">Web Feature Service (WFS) of the EMODnet Biology portal. Maximum number of features per request might be limited.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/EMODnet_biology_OOPS">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcat:keyword xml:lang="en">plankton</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/MAPPING"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/608c2040-939c-49c6-a480-34c179bf6baa"/>
+    <dcatapop:ckanName>EMODnet_biology_OOPS</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4921"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EST"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/146dbb01-9b5b-4df7-928b-9696816011e0"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LVA"/>
+    <dcterms:description xml:lang="en">This dataproduct consists of gridded abundance maps of the six most abundant copepod species collected with the Continuous Plankton Recorder (CPR). The product is developed with the DIVA spatial model and provides seasonal abundance data of copepods in the North East Atlantic between 1958 and 2012. &#13;
+The gridded maps are produced for time windows, e.g. combining years 1-10 in one gridded map, years 2-11 in the next etc., so that relatively smooth animated presentations can show the essential change over time.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6366a7cf-ead8-4021-9a3a-0e6e02660172"/>
+    <dcat:keyword xml:lang="en">abundance</dcat:keyword>
+    <dcterms:modified>2018-08-31 04:56:09.158435</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ed3bad20-feab-4fec-bca8-b57c9bd0cee3"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CYP"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 10:56:58.862150</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dcat:keyword xml:lang="en">zooplankton</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+    <dcterms:temporal rdf:resource="period_of_time-6d12d937-6163-479b-ae69-851a64088db2"/>
+    <dcat:keyword xml:lang="en">gridded</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d88a7005-f3c3-428a-9f42-3c57e1a7772d"/>
+    <dcterms:identifier>5f239d08b31d32c7c22efbe51f5aba7fe14b7332</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2107"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/05202167-48f5-455a-8979-790f3b2f5284"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcat:keyword xml:lang="en">European marine areas</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8a611777-bd3a-4da1-94f0-bfe45cc844f4"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ROU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8a939eeb-2ea1-4a09-b904-2e99339b9129"/>
+    <dcterms:title xml:lang="en">EMODnet OOPS zooplankton abundances (10 year AVG)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2395"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+    <owl:versionInfo></owl:versionInfo>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcterms:alternative xml:lang="en"> Map of gridded Copepod abundance data</dcterms:alternative>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6366a7cf-ead8-4021-9a3a-0e6e02660172">
+    <schema:url>http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=5438</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Metadata record</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:description xml:lang="en">Metadata record of the dataset</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_biology_OOPS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/05202167-48f5-455a-8979-790f3b2f5284">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">EMODnet Biology Data Portal</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">The EMODnet biology data portal provides free access to data on temporal and spatial distribution of marine species and species traits from all European regional seas. EMODnet Biology is part of the EU funded European Marine Observation and Data Network and is built upon the World Register of Marine Species and the European Ocean Biogeographic Information System.</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_biology_OOPS"/>
+    <schema:url>http://www.emodnet-biology.eu/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ed3bad20-feab-4fec-bca8-b57c9bd0cee3">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Web Map Service (WMS)</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:56:59.378658</dcterms:issued>
+    <dcat:accessURL rdf:resource="http://geo.vliz.be/geoserver/Emodnetbio/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=Emodnetbio:OOPS_products&amp;styles=&amp;bbox=-4.95,48.05,12.25,60.75&amp;width=512&amp;height=378&amp;srs=EPSG:4326&amp;format=image/png&amp;viewparams=scientificName:Large%20copepods;season:1;AphiaID:1080;startYearCollection:1958;endYearCollection:1967"/>
+    <dcterms:description xml:lang="en">Web Map Service (WMS) of the EMODnet Geology portal</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PNG"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:downloadURL rdf:resource="http://geo.vliz.be/geoserver/Emodnetbio/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=Emodnetbio:OOPS_products&amp;styles=&amp;bbox=-4.95,48.05,12.25,60.75&amp;width=512&amp;height=378&amp;srs=EPSG:4326&amp;format=image/png&amp;viewparams=scientificName:Large%20copepods;season:1;AphiaID:1080;startYearCollection:1958;endYearCollection:1967"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/146dbb01-9b5b-4df7-928b-9696816011e0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://geonetwork.vliz.be/geonetwork/emodnet/eng/xml.metadata.get?uuid=5f239d08b31d32c7c22efbe51f5aba7fe14b7332</dcterms:title>
+    <schema:url>http://geonetwork.vliz.be/geonetwork/emodnet/eng/xml.metadata.get?uuid=5f239d08b31d32c7c22efbe51f5aba7fe14b7332</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bfa24313-037d-465f-b0f8-669e110382e3">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url rdf:datatype="http://xmlns.com/foaf/0.1/Document">https://www.vliz.be</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/88u/document/bfa24313-037d-465f-b0f8-669e110382e3</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8a939eeb-2ea1-4a09-b904-2e99339b9129">
+    <vcard:hasEmail rdf:resource="data@vliz.be"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/ff383abd-97f2-412a-8e1f-6ebf1579e004"/>
+    <vcard:organisation-name>Flanders Marine Institute (VLIZ)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/bfa24313-037d-465f-b0f8-669e110382e3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="period_of_time-6d12d937-6163-479b-ae69-851a64088db2">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1959-01-01T00:00:00</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c9dd98c8-24ea-47a0-b73c-87f8681215b1">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/EMODnet_biology_OOPS"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 10:56:58.862150</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">820</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-31 04:56:09.158435</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">714</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d88a7005-f3c3-428a-9f42-3c57e1a7772d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:downloadURL rdf:resource="http://www.emodnet-biology.eu/portal/index.php"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://www.emodnet-biology.eu/portal/index.php"/>
+    <dcterms:description xml:lang="en">EMODnet Biology map viewer</dcterms:description>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:56:59.378648</dcterms:issued>
+    <dcterms:title xml:lang="en">EMODnet Biology map viewer</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8a611777-bd3a-4da1-94f0-bfe45cc844f4">
+    <dcterms:description xml:lang="en">Data product download from VLIZ geoserver</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-22 12:56:59.378624</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:accessURL rdf:resource="http://geo.vliz.be/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=Emodnetbio:OOPS_products_vliz&amp;viewParams=season:3&amp;outputFormat=shape-zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Download (ESRI shapefile)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:downloadURL rdf:resource="http://geo.vliz.be/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=Emodnetbio:OOPS_products_vliz&amp;viewParams=season:3&amp;outputFormat=shape-zip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/ff383abd-97f2-412a-8e1f-6ebf1579e004">
+    <vcard:street-address rdf:datatype="http://www.w3.org/2006/vcard/ns#Address">Wandelaarkaai 7, 8400 Oostende</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

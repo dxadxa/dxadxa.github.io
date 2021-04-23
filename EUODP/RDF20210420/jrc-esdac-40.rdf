@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/77249813-99a1-4458-af4f-3f77cb0675c2">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-40">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>jrc-esdac-40</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/008046b4-6ca2-4ba8-ac1c-e99fc79e7f36"/>
+    <dcterms:title xml:lang="en">Maps of the Storing and Filtering Capacity of Soils in Europe</dcterms:title>
+    <dcterms:description xml:lang="en">This dataset (2016) contains 10 maps that relate to the soil's storing and filtering capacity in Europe (the EU only): cation storing capacity (STOR_CAPCA), cation filtering capacity (FILT_CAPCA), anion storing capacity (STOR_CAPAN), anion filtering capacity (FILT_CAPAN), solids and pathogenic microorganisms storing capacity (STOR_CAPSO), solids and pathogenic microorganisms filtering capacity (FILT_CAPSO), non-polar organic chemicals storing capacity (STOR_CAPNP), non-polar organic chemicals filtering capacity (FILT_CAPNP), nonaqueous Phase Liquids (NAPL) storing capacity (STOR_NAPL), nonaqueous Phase Liquids (NAPL),  filtering capacity (FILT_NAPL). As input, variables from the European Soil Database have been used.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/00896232-239a-437a-add4-50d0789abad0"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/d62dbefc-4042-4402-831e-fc8c8749fb1b"/>
+    <dcatapop:ckanName>jrc-esdac-40</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-10-07</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bac7721c-407e-40db-a4ac-70ccd44494a8"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bac7721c-407e-40db-a4ac-70ccd44494a8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Maps of the Storing and Filtering Capacity of Soils in Europe</dcterms:title>
+    <dcat:accessURL rdf:resource="http://esdac.jrc.ec.europa.eu/content/maps-storing-and-filtering-capacity-soils-europe"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/00896232-239a-437a-add4-50d0789abad0">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/77249813-99a1-4458-af4f-3f77cb0675c2"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="ec-esdac@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/25b54f5a-a257-4dec-954c-ce0a36fb2664">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-40"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:37:39</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-13 13:52:15.267180</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/008046b4-6ca2-4ba8-ac1c-e99fc79e7f36">
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-40</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-esdac-40</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-40"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d62dbefc-4042-4402-831e-fc8c8749fb1b">
+    <schema:url xml:lang="en">http://esdac.jrc.ec.europa.eu/content/maps-storing-and-filtering-capacity-soils-europe</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-40"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/acfb5b89-5db3-404a-bf46-790c97e036f5">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:title xml:lang="en">Data on COVID-19 vaccination in the EU/EEA</dcterms:title>
+    <dcterms:description xml:lang="en">Downloadable data file containing information on COVID-19 vaccination in the EU/EEA.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="https://opendata.ecdc.europa.eu/covid19/testing/csv"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/394bfb17-b0bf-4fbf-8d0b-56414d97fa60">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <dcterms:description xml:lang="en">This report, published on 26 October 2020, provides an overview of the key aspects related to the initial phases following the introduction of one or more COVID-19 vaccines in the European Union and European Economic Area (EU/EEA) and the United Kingdom (UK). The aim is to support but not define EU policy on COVID-19 vaccination.</dcterms:description>
+    <dcterms:title xml:lang="en">Key aspects regarding the introduction and prioritisation of COVID-19 vaccination in the EU/EEA and the UK: technical report</dcterms:title>
+    <schema:url xml:lang="en">https://www.ecdc.europa.eu/sites/default/files/documents/Key-aspects-regarding-introduction-and-prioritisation-of-COVID-19-vaccination.pdf</schema:url>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/01145efa-3274-4f1a-ab35-77b1673ba318">
+    <schema:url xml:lang="en">https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-vaccination-and-prioritisation-strategies.pdf</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">This document, published on 22 December 2020, builds on a previously published ECDC report, ‘Key aspects regarding the introduction and prioritisation of COVID-19 vaccination in the EU/EEA and the UK’ (26/10/2020). By using mathematical modelling, this document provides EU/EEA countries with information on factors that may affect the choice of COVID-19 vaccination strategies, according to different target groups and based on scenarios of hypothetical vaccine characteristics.</dcterms:description>
+    <dcterms:title xml:lang="en">COVID-19 vaccination and prioritisation strategies in the EU/EEA: technical report</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker">
+    <dcterms:description xml:lang="ro">Informațiile privind trialurile clinice în curs de desfășurare în Spațiul Economic European (SEE) sunt disponibile în [registrul CTR al UE](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Utilizatorii pot găsi informații despre:&#13;
+&#13;
+- trialurile clinice la adulți (faza II - faza IV) efectuate în centre de testare aflate pe teritoriul SEE&#13;
+- trialurile clinice la copii efectuate în centre de testare aflate pe teritoriul UE și trialurile care fac parte dintr-un plan de investigație pediatrică, inclusiv cele derulate în afara UE. Trialurile clinice din faza I realizate exclusiv la adulți nu sunt disponibile pentru public în registrul CTR.&#13;
+&#13;
+Mai multe despre [registrul UE privind trialurile clinice](https://www.clinicaltrialsregister.eu/about.html), inclusiv surse de informații și temei juridic.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EST"/>
+    <dcterms:description xml:lang="hr">Informacije o trenutačnim kliničkim ispitivanjima za COVID-19 u Europskom gospodarskom prostoru (EGP) dostupne su u [Registru EU-a za klinička ispitivanja (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Korisnicima su dostupne informacije o:&#13;
+&#13;
+- kliničkim ispitivanjima na odraslim osobama od faze II. do faze IV. koja se odvijaju na lokacijama unutar EGP-a&#13;
+- svim kliničkim ispitivanjima na djeci koja se odvijaju na lokacijama unutar EU-a i svim ispitivanjima koja su dio plana pedijatrijskog ispitivanja, uključujući ispitivanja koja se odvijaju na lokacijama izvan EU-a. Informacije o kliničkim ispitivanjima faze I. koja se provode isključivo na odraslim osobama nisu javno dostupne u Registru EU-a za klinička ispitivanja.&#13;
+&#13;
+Saznajte više o [Registru EU-a za klinička ispitivanja](https://www.clinicaltrialsregister.eu/about.html), njegovoj pravnoj osnovi i izvoru informacija.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7fda4207-bb0a-4724-9351-13552d2c4942"/>
+    <dcterms:description xml:lang="nl">In het  [EU-register van klinische proeven (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2) is informatie te vinden over lopende klinische test met betrekking tot COVID-19 in de Europese Economische Ruimte (EER).&#13;
+Deze informatie heeft betrekking op:&#13;
+&#13;
+- fase II tot fase IV-tests bij volwassenen voor testlocaties in de EER&#13;
+- alle klinische tests bij kinderen voor testlocaties in de EU en alle klinische tests die deel uitmaken van een pediatrisch onderzoeksplan, ook voor testlocaties buiten de EU Fase I-tests die uitsluitend bij volwassenen plaatsvinden, worden niet via EU CTR openbaar gemaakt.&#13;
+&#13;
+Meer over het [EU-register van klinische proeven](https://www.clinicaltrialsregister.eu/about.html) in de EU, onder meer over de informatiebronnen en de rechtsgrondslag.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/acfb5b89-5db3-404a-bf46-790c97e036f5"/>
+    <dcterms:title xml:lang="sk">Klinické skúšanie v súvislosti s ochorením COVID-19 v Európskom hospodárskom priestore (EHP)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dcterms:title xml:lang="de">Klinische Studien zu COVID-19 im Europäischen Wirtschaftsraum (EWR)</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-17</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:description xml:lang="lt">Informacija apie Europos ekonominėje erdvėje vykdomus COVID-19 klinikinius tyrimus pateikta [ES klinikinių tyrimų registre (ES CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Naudotojai gali rasti informacijos apie:&#13;
+&#13;
+- II–IV fazių suaugusiųjų klinikinius tyrimus, kai tyrimų vietos yra EEE;&#13;
+- bet kokius vaikų klinikinius tyrimus, kai tyrimų vietos yra ES, ir bet kokius tyrimus, kurie yra pediatrinių tyrimų plano dalis, įskaitant tuos, kai tyrimų vietos yra ne ES. I fazės klinikiniai tyrimai atliekami tik su suaugusiaisiais ir ES CTR neviešinami.&#13;
+&#13;
+Daugiau informacijos apie [ES klinikinių tyrimų registrą] (https://www.clinicaltrialsregister.eu/about.html), įskaitant informacijos šaltinį ir teisinį pagrindą.&#13;
+</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <dcterms:title xml:lang="en">COVID-19 Vaccine Tracker</dcterms:title>
+    <dcterms:title xml:lang="lv">Klīniskie izmēģinājumi Eiropas Ekonomikas zonā saistībā ar Covid-19 </dcterms:title>
+    <dcterms:description xml:lang="es">La información sobre los ensayos clínicos en curso relacionados con la COVID-19 en el Espacio Económico Europeo (EEE) está disponible en el [registro de ensayos clínicos de la UE](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Los usuarios pueden encontrar información sobre:&#13;
+&#13;
+-	ensayos clínicos en adultos de la fase II a la fase IV en los que el centro de investigación se encuentre en el EEE;&#13;
+- ensayos clínicos en niños en los que el centro de investigación se encuentre en la UE y cualquier ensayo que forme parte de un plan de investigación pediátrica, incluidos aquellos en los que el centro investigador se encuentre fuera de la UE. Los ensayos clínicos de la fase I realizados únicamente en adultos no se ponen a disposición del público en el registro de ensayos clínicos de la UE.&#13;
+&#13;
+Más información sobre el [registro de ensayos clínicos de la UE](https://www.clinicaltrialsregister.eu/about.html), incluidas la fuente de información y la base jurídica.&#13;
+</dcterms:description>
+    <dcat:keyword xml:lang="en">healthcare</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/21bdaa79-76d9-4abf-a064-1c354b618ea0"/>
+    <dcterms:title xml:lang="pl">COVID-19: badania kliniczne w Europejskim Obszarze Gospodarczym (EOG)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcat:keyword xml:lang="en">vaccine</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4636"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ISL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ROU"/>
+    <dcterms:description xml:lang="pt">O [Registo de ensaios clínicos da UE (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2) contém informações sobre os ensaios clínicos em matéria de COVID-19 atualmente em curso no Espaço Económico Europeu (EEE).&#13;
+&#13;
+Os utilizadores podem obter informações sobre:&#13;
+&#13;
+- fase II a fase IV de ensaios clínicos em adultos, nos casos em que os centros de investigação se encontrem no EEE;&#13;
+- quaisquer ensaios clínicos em crianças, nos locais em que os centros de investigação se encontrem na UE, e quaisquer ensaios que façam parte de um plano de investigação pediátrica, incluindo os ensaios em que os centros de investigação se encontrem fora da UE. Os ensaios clínicos da fase I realizados exclusivamente em adultos não são publicados no CTR.&#13;
+&#13;
+Saiba mais sobre o [Registo de Ensaios Clínicos da UE](https://www.clinicaltrialsregister.eu/about.html), incluindo a fonte da informação e a base jurídica.&#13;
+	</dcterms:description>
+    <dcterms:description xml:lang="pl">Informacje na temat przeprowadzanych badań klinicznych dotyczących COVID-19 w Europejskim Obszarze Gospodarczym (EOG) są dostępne w [unijnym rejestrze badań klinicznych (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Można w nim znaleźć informacje na temat:&#13;
+&#13;
+- drugiej, trzeciej i czwartej fazy badań klinicznych u osób dorosłych przeprowadzanych w ośrodkach badawczych w państwach EOG&#13;
+- wszelkich badań klinicznych u dzieci przeprowadzanych w ośrodkach badawczych w UE oraz wszelkich badań, które stanowią część planu badań klinicznych z udziałem populacji pediatrycznej, w tym badań przeprowadzanych w ośrodkach poza UE. Informacje na temat pierwszej fazy badań klinicznych przeprowadzanych wyłącznie u osób dorosłych nie są udostępniane w rejestrze EU CTR.&#13;
+&#13;
+Więcej informacji na temat [unijnego rejestru badań klinicznych](https://www.clinicaltrialsregister.eu/about.html), w tym źródła informacji i podstawy prawnej.&#13;
+</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:description xml:lang="da">Oplysninger om igangværende kliniske forsøg med covid-19 i Det Europæiske Økonomiske Samarbejdsområde (EØS) er tilgængelige i [EU's register over kliniske forsøg (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Brugerne kan finde oplysninger om:&#13;
+&#13;
+- fase 2- til fase 4-forsøg med voksne kliniske forsøg, hvor forsøgslaboratoriet er beliggende i EØS&#13;
+- kliniske forsøg på børn med forsøgslaboratorier i EU og alle forsøg, der indgår i en pædiatrisk undersøgelsesplan, herunder forsøg, der gennemføres uden for EU. Fase 1-kliniske forsøg, der udelukkende gennemføres hos voksne, gøres ikke offentligt tilgængelige i CTR.&#13;
+&#13;
+Læs mere om [EU's register over kliniske forsøg](https://www.clinicaltrialsregister.eu/about.html), herunder kilden til oplysningerne og retsgrundlaget.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcterms:description xml:lang="el">Πληροφορίες σχετικά με τις εν εξελίξει κλινικές δοκιμές για την COVID-19 στον Ευρωπαϊκό Οικονομικό Χώρο (ΕΟΧ) είναι διαθέσιμες στο [μητρώο κλινικών δοκιμών της ΕΕ (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Οι χρήστες μπορούν να βρουν πληροφορίες σχετικά με:&#13;
+&#13;
+- κλινικές δοκιμές των φάσεων II έως IV σε ενήλικες, οι οποίες διενεργούνται από ερευνητές που βρίσκονται στον ΕΟΧ&#13;
+- κλινικές δοκιμές σε παιδιά, οι οποίες διενεργούνται από ερευνητές  που βρίσκονται στην ΕΕ και δοκιμές που αποτελούν μέρος προγράμματος παιδιατρικής έρευνας, συμπεριλαμβανομένων εκείνων οι οποίες διενεργούνται από ερευνητές που βρίσκονται εκτός ΕΕ. Οι κλινικές δοκιμές της φάσης Ι που διεξάγονται αποκλειστικά σε ενήλικες δεν δημοσιεύονται στο EU CTR.&#13;
+&#13;
+Μάθετε περισσότερα για το [μητρώο κλινικών δοκιμών της ΕΕ](https://www.clinicaltrialsregister.eu/about.html), καθώς και για την πηγή των πληροφοριών και τη νομική βάση.</dcterms:description>
+    <dcat:keyword xml:lang="en">COVID-19</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+    <dcat:keyword xml:lang="en">corona virus</dcat:keyword>
+    <dcterms:description xml:lang="sk">Informácie o prebiehajúcom klinickom skúšaní v súvislosti s ochorením COVID-19 v Európskom hospodárskom priestore (EHP) sú k dispozícii v [Registri klinických skúšok EÚ](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Používatelia tam môžu nájsť informácie o:&#13;
+&#13;
+- klinických skúškach na dospelých vo fáze II až IV, ak sa miesta klinického skúšania nachádzajú v EHP,&#13;
+- akýchkoľvek klinických skúškach na deťoch, ak sa miesta klinického skúšania nachádzajú v EÚ, a akýchkoľvek klinických skúškach, ktoré sú súčasťou výskumného pediatrického plánu, vrátane tých klinických skúšok, pri ktorých sa miesta klinického skúšania nachádzajú mimo EÚ. Klinické skúšky vo fáze I, ktoré sa vykonávajú len na dospelých, nie sú verejne dostupné v Registri klinických skúšok EÚ.&#13;
+&#13;
+Ďalšie informácie o [Registri klinických skúšok EÚ](https://www.clinicaltrialsregister.eu/about.html) vrátane zdroja informácií a právneho základu.</dcterms:description>
+    <dcterms:description xml:lang="sv">Information om pågående kliniska prövningar med anledning av covid-19 i Europeiska ekonomiska samarbetsområdet (EES) finns i [EU:s register över kliniska prövningar (EU-registret)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Du kan hitta information om följande:&#13;
+&#13;
+- Kliniska prövningar i fas II till fas IV med vuxna där prövningsställena ligger i EES.&#13;
+- Alla kliniska prövningar med barn där prövningsställena ligger i EU och alla prövningar som ingår i ett pediatriskt prövningsprogram, även om prövningsställena finns utanför EU. Kliniska prövningar i fas I som görs enbart med vuxna är inte allmänt tillgängliga i EU-registret.&#13;
+&#13;
+Läs mer om [EU:s register över kliniska prövningar](https://www.clinicaltrialsregister.eu/about.html), t.ex. informationskällor och rättslig grund.</dcterms:description>
+    <dcterms:description xml:lang="de">Informationen über laufende klinische Prüfungen zu COVID-19 im Europäischen Wirtschaftsraum (EWR) sind im [EU-Register für klinische Studien (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2) verfügbar.&#13;
+Sie finden dort Informationen über&#13;
+&#13;
+- klinische Studien der Phasen II bis IV mit Erwachsenen an Prüfstellen im EWR;&#13;
+- etwaige klinische Studien mit Kindern an Prüfstellen in der EU und etwaige Versuche im Rahmen eines pädiatrischen Prüfkonzepts auch an Prüfstellen außerhalb der EU. Ausschließlich an Erwachsenen durchgeführte klinische Phase-I-Versuche werden im EU CTR nicht öffentlich zugänglich gemacht.&#13;
+&#13;
+[Weitere Informationen zum EU-Register für klinische Studien](https://www.clinicaltrialsregister.eu/about.html) (Informationsquellen, Rechtsgrundlage usw.)&#13;
+</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcatapop:datasetGroup rdf:resource="covid-19-coronavirus-epidemic"/>
+    <dcterms:title xml:lang="ro">Trialuri clinice privind COVID-19 în Spațiul Economic European (SEE)</dcterms:title>
+    <dcterms:title xml:lang="hr">Klinička ispitivanja za COVID-19 u Europskom gospodarskom prostoru (EGP)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1a7c9750-5f58-41f4-8bef-94cb53f74607"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LVA"/>
+    <dcterms:description xml:lang="cs">Informace o probíhajících klinických hodnoceních týkajících se COVID-19 v Evropském hospodářském prostoru (EHP) jsou k dispozici v [Evropském registru klinických hodnocení](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2) (EU CTR).&#13;
+&#13;
+Uživatelé tam najdou informace o:&#13;
+&#13;
+- fázích II až IV klinických hodnocení prováděných u dospělých, u nichž se zkoušející nacházejí v EHP;&#13;
+- veškerých klinických hodnoceních prováděných u dětí, u nichž se zkoušející nacházejí v EU, a hodnoceních, která jsou součástí plánu pediatrického výzkumu, včetně těch, u nichž se zkoušející nacházejí mimo EU. Hodnocení ve fáze I prováděná výhradně u dospělých nejsou v registru pro veřejnost zpřístupňována.&#13;
+&#13;
+Další informace o [evropském registru klinických hodnocení](https://www.clinicaltrialsregister.eu/about.html) včetně zdroje informací a právním základu.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcterms:description xml:lang="hu">A [klinikai vizsgálatok uniós nyilvántartásában](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2) lehet keresést végezni azon klinikai vizsgálatok között, amelyek a Covid19-cel kapcsolatosak, és amelyek az Európai Gazdasági Térségben (EGT) zajlanak.&#13;
+&#13;
+Az adatbázis tartalmazza:&#13;
+- a II–IV. fázisban lévő, felnőttek bevonásával történő azon klinikai vizsgálatokat, amelyek helyszíne az EGT-ben van;&#13;
+- a gyermekek bevonásával történő azon klinikai vizsgálatokat, amelyek helyszíne az EU-ban van, illetve a gyermekgyógyászati vizsgálati terv részét képező vizsgálatokat (függetlenül a helyszíntől). A kizárólag felnőttek körében végzett, I. fázisban lévő klinikai vizsgálatok nem szerepelnek az adatbázisban.&#13;
+&#13;
+Bővebb információk a [klinikai vizsgálatok uniós nyilvántartásáról](https://www.clinicaltrialsregister.eu/about.html), ideértve az információforrásról és a jogalapról.</dcterms:description>
+    <dcterms:title xml:lang="mt">Provi kliniċi tal-COVID-19 fiż-Żona Ekonomika Ewropea (ŻEE)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:title xml:lang="it">Sperimentazioni cliniche riguardanti la COVID-19 nello Spazio economico europeo (SEE)</dcterms:title>
+    <dcterms:description xml:lang="lv">Informācija par notiekošajiem, ar Covid-19 saistītajiem klīniskajiem izmēģinājumiem Eiropas Ekonomikas zonā (EEZ) ir pieejama [ES Klīnisko izmēģinājumu reģistrā](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Lietotāji var atrast informāciju par:&#13;
+&#13;
+- klīniskajiem izmēģinājumiem ar pieaugušajiem (II – IV fāze), ja pētījumu veikšanas vietas atrodas EEZ;&#13;
+- visiem klīniskajiem izmēģinājumiem ar bērniem, ja pētījumu norises vietas ir ES, un visiem izmēģinājumiem, kas ietilpst pediatrijas pētījumu plānā, ieskaitot tos, kam pētījumu veikšanas vietas atrodas ārpus ES. I fāzes klīniskie izmēģinājumi, kas tiek īstenoti tikai ar pieaugušajiem, netiek publiskoti Klīnisko izmēģinājumu reģistrā ES.&#13;
+&#13;
+Uzziniet vairāk par [ES Klīnisko izmēģinājumu reģistru](https://www.clinicaltrialsregister.eu/about.html), tostarp par informācijas avotu un juridisko pamatu.</dcterms:description>
+    <dcterms:description xml:lang="et">Teave praegu toimuvate COVID-19 kliiniliste uuringute kohta Euroopa Majanduspiirkonnas (EMP) on esitatud [ELi kliiniliste uuringute registris](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Kasutajad leiavad teabe, mis puudutab järgmist:&#13;
+&#13;
+- EMPs asuvates uuringukohtades toimuvad II–IV faasi kliinilised uuringud, milles osalevad täiskasvanud;&#13;
+- kõik ELis asuvates uuringukohtades toimuvad kliinilised uuringud, milles osalevad lapsed, ja kõik uuringud, mis kuuluvad pediaatrilise uuringu programmi, sealhulgas juhul, kui uuringukoht asub väljaspool ELi. Ainult täiskasvanutega läbi viidud I faasi kliiniliste uuringute andmeid ei tehta ELi kliiniliste uuringute registris avalikult kättesaadavaks.&#13;
+&#13;
+Lisateave [ELi kliiniliste uuringute registri](https://www.clinicaltrialsregister.eu/about.html) kohta (muu hulgas teabeallikas ja õiguslik alus).</dcterms:description>
+    <dcterms:description xml:lang="en">This dashboard provides an overview of the progress in the roll-out of COVID-19 vaccines in adults (aged 18 years and above) across EU/EEA Member States. It presents the number of vaccine doses distributed by manufacturers to each Member State for the different vaccines authorised for use in the EU and the number of first, second or unspecified doses administered to adult individuals.&#13;
+The information is visualized via interactive maps, graphs and tables. In the near future, it will become possible to also download the raw data. &#13;
+&#13;
+Data are provided by the EU/EEA Member States via the [European Surveillance System (TESSy)](https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy). Member States are requested to report basic indicators (number of vaccine doses distributed by manufacturers, number of first, second and unspecified doses administered) and data by target groups at national level twice a week (every Tuesday and Friday). Data are subject to retrospective corrections; corrected datasets are released as soon as the processing of updated national data has been completed.&#13;
+For more details, see [Notes on the data](https://qap.ecdc.europa.eu/public/extensions/COVID-19/vaccine-tracker.html#notes-tab).</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/fe592089-fb46-441a-a29b-559576a45505"/>
+    <dcat:keyword xml:lang="en">severe acute respiratory syndrome</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/45f901e3-3491-4279-8358-b859da09d3d4"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3e09c1db-a194-4416-afef-ec830e83f43f"/>
+    <dcterms:title xml:lang="el">Κλινικές δοκιμές για την COVID-19 στον Ευρωπαϊκό Οικονομικό Χώρο (ΕΟΧ)</dcterms:title>
+    <dcterms:title xml:lang="sl">Klinična preskušanja za COVID-19 v Evropskem gospodarskem prostoru (EGP)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/706e91f6-18e3-418c-979b-4cadf6b5b05d"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECDC"/>
+    <dcterms:description xml:lang="ga">Tá eolas faoi thrialacha cliniciúla COVID-19 atáthar a dhéanamh faoi láthair sa Limistéar Eorpach Eacnamaíoch (LEE) le fáil i g[Clár Trialacha Cliniciúla an Aontais Eorpaigh (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2)&#13;
+Gheobhaidh úsáideoirí eolas maidir le:&#13;
+&#13;
+- trialacha chéim II go céim IV le haghaidh trialacha cliniciúla ar dhaoine fásta i suíomhanna imscrúdaithe in LEE;&#13;
+- aon triail chliniciúil ar leanaí i suíomhanna imscrúdaitheora san Aontas Eorpach agus aon triail ar cuid í de phlean imscrúdúcháin phéidiatraigh, na trialacha i suíomhanna imscrúdaitheora lasmuigh den Aontas Eorpach san áireamh. Trialacha cliniciúla chéim I atáthar a dhéanamh ar dhaoine fásta amháin, ní chuirtear iad ar fáil go poiblí in EU CTR.&#13;
+&#13;
+Tá níos mó eolais ar fáil faoi [Chlár Trialacha Cliniciúla an Aontais Eorpaigh](https://www.clinicaltrialsregister.eu/about.html), foinse an eolais agus an bunús dlí san áireamh.</dcterms:description>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="hu">A Covid19-cel kapcsolatos klinikai vizsgálatok az Európai Gazdasági Térségben (EGT)</dcterms:title>
+    <dcterms:description xml:lang="mt">L-informazzjoni dwar il-provi kliniċi tal-COVID-19 li għaddejjin fiż-Żona Ekonomika Ewropea (ŻEE) hi disponibbli  fir-[Reġistru ta’ Provi Kliniċi tal-UE (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+L-utenti jistgħu jsibu l-informazzjoni dwar:&#13;
+&#13;
+- il-fażi II sal-fażi IV tal-provi kliniċi għall-adulti fejn is-siti tal-investigaturi jkunu fiż-ŻEE;&#13;
+- kwalunkwe prova klinika fuq it-tfal meta s-siti investigaturi huma fl-UE u kwalunkwe prova li tifforma parti minn pjan ta’ investigazzjoni pedjatrika, inklużi dawk fejn is-siti investigaturi huma barra mill-UE. Il-provi kliniċi tal-fażi I li twettqu biss fuq adulti mhumiex disponibbli pubblikament fis-EU CTR.&#13;
+&#13;
+Tgħallem aktar dwar ir-[Reġistru ta’ Provi Kliniċi tal-UE](https://www.clinicaltrialsregister.eu/about.html) inkluż is-sors tal-informazzjoni u l-bażi legali.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1852"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="it">Nel [registro UE delle sperimentazioni cliniche (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2) sono disponibili informazioni sulle sperimentazioni cliniche riguardanti la COVID-19 in corso nello Spazio economico europeo (SEE).&#13;
+&#13;
+Gli utenti possono reperire informazioni su:&#13;
+&#13;
+- la sperimentazione clinica sugli adulti (fase da II a IV) presso siti di ricerca situati nel SEE&#13;
+- la sperimentazione clinica sui bambini presso siti di ricerca nell'UE e qualsiasi sperimentazione che faccia parte di un piano d'indagine pediatrica, anche presso siti al di fuori dell'UE. Le informazioni sulle sperimentazioni cliniche di fase I condotte esclusivamente sugli adulti non sono pubblicate nel registro EU CTR.&#13;
+&#13;
+Per saperne di più sul [registro UE delle sperimentazioni cliniche](https://www.clinicaltrialsregister.eu/about.html), comprese le fonti delle informazioni e la base giuridica.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/22533d5d-902a-4c8a-a032-0ab1485fc9fc"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:description xml:lang="fi">Tietoa meneillään olevista covid-19-virukseen liittyvistä kliinisistä tutkimuksista ETA-alueella on [EU:n kliinisten tutkimusten rekisterissä (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Saatavilla on seuraavat tiedot:&#13;
+&#13;
+- aikuisväestössä tehtävät vaiheiden II–IV kliiniset tutkimukset, joiden tutkimuspaikka on ETA-alueella;&#13;
+- lapsilla tehtävät kliiniset tutkimukset, joiden tutkimuspaikka on EU:ssa sekä osana lastenlääkettä koskevaa tutkimusohjelmaa tehtävät tutkimukset – myös sellaiset, joiden tutkimuspaikka on EU:n ulkopuolella. Vain aikuisväestössä tehtäviä vaiheen I kliinisiä tutkimuksia ei julkaista EU:n kliinisten tutkimusten rekisterissä.&#13;
+&#13;
+Lisätietoa [EU:n kliinisten tutkimusten rekisteristä](https://www.clinicaltrialsregister.eu/about.html), sen tiedonlähteistä ja oikeusperustasta.</dcterms:description>
+    <dcterms:title xml:lang="et">COVID-19 kliinilised uuringud Euroopa Majanduspiirkonnas (EMP)</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/02e0af6d-b112-45e0-b461-bcb782926417"/>
+    <dcterms:description xml:lang="bg">Информация за текущи клинични изпитвания в Европейското икономическо пространство (ЕИП), свързани с COVID-19, можете да намерите в [Регистъра на клиничните изпитвания в ЕС](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Потребителите могат да намерят информация за:&#13;
+&#13;
+- клинични изпитвания при възрастни от фаза II до фаза IV, провеждани в изследователски центрове в ЕИП;&#13;
+- всякакви клинични изпитвания при деца, провеждани в изследователски центрове в ЕС, и всякакви изпитвания, които са част от план за педиатрично изследване, включително такива, които се провеждат в изследователски центрове извън ЕС. Клинични изпитвания на фаза I, провеждани само при възрастни, не се оповестяват публично в Регистъра на клиничните изпитвания в ЕС.&#13;
+&#13;
+Научете повече за [Регистъра на клиничните изпитвания в ЕС](https://www.clinicaltrialsregister.eu/about.html), включително за източника на информацията и правното основание.</dcterms:description>
+    <dcterms:title xml:lang="fr">Essais cliniques concernant la COVID-19 dans l’Espace économique européen (EEE)</dcterms:title>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LIE"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_814bb9e4"/>
+    <dcat:keyword xml:lang="en">SARS-CoV-2</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4635"/>
+    <dcatapop:ckanName>covid-19-vaccine-tracker</dcatapop:ckanName>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcat:keyword xml:lang="en">coronavirus</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0387f034-e7c8-4ca5-8a93-cc8cb1d7e683"/>
+    <dcterms:title xml:lang="bg">Клинични изпитвания в Европейското икономическо пространство във връзка с COVID-19</dcterms:title>
+    <dcterms:title xml:lang="pt">COVID-19 ensaios clínicos no Espaço Económico Europeu (EEE)</dcterms:title>
+    <dcterms:description xml:lang="fr">Les informations sur les essais cliniques concernant la COVID-19 en cours dans l’Espace économique européen (EEE) sont disponibles dans le [registre des essais cliniques de l’UE (EU CTR)](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+Les utilisateurs peuvent trouver des informations sur:&#13;
+&#13;
+-	les essais cliniques sur les adultes (phase II à phase IV) lorsque les sites investigateurs sont situés dans l’EEE;&#13;
+-	tous les essais cliniques sur les enfants lorsque les sites investigateurs sont situés dans l’UE et tous les essais faisant partie d’un plan d’investigation pédiatrique, y compris ceux pour lesquels les sites investigateurs sont situés en dehors de l’UE. Les essais cliniques de phase I menés uniquement sur des adultes ne sont pas publiés dans l’EU CTR.&#13;
+&#13;
+En savoir plus sur le [registre des essais cliniques de l’UE](https://www.clinicaltrialsregister.eu/about.html), y compris sur les sources d’information et la base juridique.</dcterms:description>
+    <dcterms:title xml:lang="da">Kliniske forsøg med covid-19 i Det Europæiske Økonomiske Samarbejdsområde (EØS)</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/01145efa-3274-4f1a-ab35-77b1673ba318"/>
+    <dcterms:title xml:lang="cs">Klinická hodnocení COVID-19 v Evropském hospodářském prostoru (EHP)</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/394bfb17-b0bf-4fbf-8d0b-56414d97fa60"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CYP"/>
+    <dcterms:title xml:lang="sv">Covid-19 – kliniska prövningar i EES</dcterms:title>
+    <dcterms:description xml:lang="sl">Informacije o tekočih kliničnih preskušanjih za COVID-19 v Evropskem gospodarskem prostoru (EGP) so na voljo v [Registru kliničnih preskušanj EU](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&amp;page=2).&#13;
+&#13;
+Uporabniki lahko v njem najdejo informacije o:&#13;
+&#13;
+- fazah II do IV kliničnih preskušanj pri odraslih, če se raziskovalno središče nahaja v EGP;&#13;
+- vseh kliničnih preskušanjih pri otrocih, če se raziskovalno središče nahaja v EU, in vseh preskušanjih, ki so del načrta pediatričnih raziskav, vključno s primeri, ko se raziskovalno središče nahaja zunaj EU. Klinična preskušanja v fazi I, ki se izvajajo samo pri odraslih, niso javno dostopna v Registru kliničnih preskušanj EU.&#13;
+&#13;
+Preberite si več informacij o [Registru kliničnih preskušanj EU](https://www.clinicaltrialsregister.eu/about.html), vključno z virom informacij in pravno podlago.</dcterms:description>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ce348c6d-51b4-4207-b5f4-b17bde94f811"/>
+    <dcterms:title xml:lang="es">Ensayos clínicos sobre la COVID-19 en el Espacio Económico Europeo (EEE)</dcterms:title>
+    <dcterms:title xml:lang="nl">Klinische tests met betrekking tot COVID-19 in de Europese Economische Ruimte (EER)</dcterms:title>
+    <dcterms:title xml:lang="ga">Trialacha cliniciúla i leith COVID-19 sa Limistéar Eorpach Eacnamaíoch (LEE)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fe58ade3-3eb1-4a23-9ba0-26afedf29fd1"/>
+    <dcterms:title xml:lang="fi">Covid-19-virukseen liittyvät kliiniset tutkimukset Euroopan talousalueella (ETA)</dcterms:title>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"/>
+    <dcat:keyword xml:lang="en">coronavirus-2</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcterms:title xml:lang="lt">COVID-19 klinikiniai tyrimais Europos ekonominėje erdvėje (EEE)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/74f8b386-f81a-41e9-a1dc-568881a3dc57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/45f901e3-3491-4279-8358-b859da09d3d4">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ELL"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/GLE"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/HRV"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/LAV"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/BUL"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/CES"/>
+    <dcterms:title xml:lang="en">European Vaccination Information Portal</dcterms:title>
+    <dcterms:description xml:lang="en">This website aims to provide accurate, objective, up-to-date evidence on vaccines and vaccination in general. It also provides an overview of the mechanisms in place in the European Union (EU) to ensure that available vaccines conform to the highest standards of safety and effectiveness.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/EST"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FIN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/RON"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/HUN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <schema:url xml:lang="en">https://vaccination-info.eu/</schema:url>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SLV"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POR"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SLK"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/LIT"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DAN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/MLT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3e09c1db-a194-4416-afef-ec830e83f43f">
+    <dcterms:issued xml:lang="en">2020-03-09</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:downloadURL rdf:resource="https://opendata.ecdc.europa.eu/covid19/testing/xlsx"/>
+    <dcterms:description xml:lang="en">Downloadable data file containing information on COVID-19 vaccination in the EU/EEA.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Data on COVID-19 vaccination in the EU/EEA</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ce348c6d-51b4-4207-b5f4-b17bde94f811">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:description xml:lang="en">This document outlines the initial developments in EU/EEA member states and the UK regarding vaccine deployment plans and national vaccination strategies for COVID-19 vaccines, including interim considerations for priority groups, evidence to be considered for the prioritisation of target groups, logistical considerations and monitoring systems for post-marketing surveillance (e.g. vaccine coverage, safety, effectiveness and acceptance).&#13;
+&#13;
+Following publication on 2 December, additional data from France and Ireland were added on 9 December.</dcterms:description>
+    <schema:url xml:lang="en">https://www.ecdc.europa.eu/sites/default/files/documents/Overview-of-EU_EEA-UK-vaccination-deployment-plans.pdf</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Overview of COVID-19 vaccination strategies and vaccine deployment plans in the EU/EEA and the UK: technical report</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7fda4207-bb0a-4724-9351-13552d2c4942">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:accessURL rdf:resource="https://qap.ecdc.europa.eu/public/extensions/COVID-19/vaccine-tracker.html#distribution-tab"/>
+    <dcterms:description xml:lang="en">Interactive maps, graphs and tables visualise the data about the number of vaccine doses distributed and administered per EU/EEA Member State and the proportion of vaccine doses administered. The data are broken down by product (e.g. Pfizer/BioNTech, Moderna, AstraZeneca).</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Doses by product: maps, graphs and tables</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/706e91f6-18e3-418c-979b-4cadf6b5b05d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Overview of the implementation of COVID-19 vaccination strategies and vaccine deployment plans in the EU/EEA: technical report</dcterms:title>
+    <schema:url xml:lang="en">https://www.ecdc.europa.eu/sites/default/files/documents/Overview-of-COVID-19-vaccination-strategies-deployment-plans-in-the-EU-EEA.pdf</schema:url>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:description xml:lang="en">This technical report, published on 1 February 2021, provides an updated overview of the progress of national COVID-19 vaccination strategies including vaccine deployment plans and their rollout in the EU/EEA. It also provides new insights into some of the critical aspects and challenges of the implementation.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/74f8b386-f81a-41e9-a1dc-568881a3dc57">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Vaccine uptake: maps, graphs and tables</dcterms:title>
+    <dcat:accessURL rdf:resource="https://qap.ecdc.europa.eu/public/extensions/COVID-19/vaccine-tracker.html#uptake-tab"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Interactive maps, graphs and tables visualise the data about the uptake of the first and second vaccine dose per EU/EEA Member State.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0387f034-e7c8-4ca5-8a93-cc8cb1d7e683">
+    <dcterms:description xml:lang="en">Downloadable data file containing information on COVID-19 vaccination in the EU/EEA.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcat:downloadURL rdf:resource="https://opendata.ecdc.europa.eu/covid19/testing/json"/>
+    <dcat:accessURL rdf:resource="https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea"/>
+    <dcterms:title xml:lang="en">Data on COVID-19 vaccination in the EU/EEA</dcterms:title>
+    <dcterms:issued xml:lang="en">2020-03-09</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/fe592089-fb46-441a-a29b-559576a45505">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/dc9bc00b-660c-46e6-9b51-f9853d4c8521"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/b6a71b0c-37e7-451d-9361-0327b2d4dd16"/>
+    <vcard:hasEmail rdf:resource="info@ecdc.europa.eu"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/05605e8f-8405-42f5-a119-5c358c77c757"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Centre for Disease Prevention and Control</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/b6a71b0c-37e7-451d-9361-0327b2d4dd16">
+    <vcard:street-address>Gustav III:s Boulevard 40, 16973 Solna, Sweden </vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/21bdaa79-76d9-4abf-a064-1c354b618ea0">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcat:downloadURL rdf:resource="https://opendata.ecdc.europa.eu/covid19/testing/xml"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Data on COVID-19 vaccination in the EU/EEA</dcterms:title>
+    <dcterms:description xml:lang="en">Downloadable data file containing information on COVID-19 vaccination in the EU/EEA.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:issued xml:lang="en">2020-03-09</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dc9bc00b-660c-46e6-9b51-f9853d4c8521">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.ecdc.europa.eu/en/about-us/contact-ecdc</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fe58ade3-3eb1-4a23-9ba0-26afedf29fd1">
+    <dcterms:description xml:lang="en">Interactive maps, graphs and tables visualise the data about the uptake of the first and second vaccine dose per EU/EEA Member State and per target group (e.g. 80+ years old, healthworkers).</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Target groups: maps, graphs and tables</dcterms:title>
+    <dcat:accessURL rdf:resource="https://qap.ecdc.europa.eu/public/extensions/COVID-19/vaccine-tracker.html#target-group-tab"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3d382d68-331b-4d65-9104-3388fff75674">
+    <dcatapop:numberOfViews>0</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-04-12T16:25:52</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-02-01T14:36:47</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">401</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1a7c9750-5f58-41f4-8bef-94cb53f74607">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <schema:url xml:lang="en">https://www.ecdc.europa.eu/en/covid-19/data-collection</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">How data is collected?</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/05605e8f-8405-42f5-a119-5c358c77c757">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+46(0)858601000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/22533d5d-902a-4c8a-a032-0ab1485fc9fc">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker"/>
+    <schema:url>http://vaccinetracker.ecdc.europa.eu/</schema:url>
+    <dcterms:title xml:lang="en">title_http://vaccinetracker.ecdc.europa.eu/</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/02e0af6d-b112-45e0-b461-bcb782926417">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-17</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+</rdf:RDF>

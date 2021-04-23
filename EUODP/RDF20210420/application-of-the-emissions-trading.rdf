@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/6ba5c9d4-33d9-48f0-9a41-69d41c1f36c2">
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/2b769138-851b-4574-9fa9-622002cbab7b">
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ddbdb4b5-0e7a-4dfa-9c5e-b845cb1c2a73">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">EU ETS Article21 queries</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/application-of-the-emissions-trading/data-table/eu-ets-article21queries/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/cf18c092-137c-472c-9699-00fd36f68667">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/6ba5c9d4-33d9-48f0-9a41-69d41c1f36c2"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/2b769138-851b-4574-9fa9-622002cbab7b"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/66be701e-f1d8-4e1f-a1bb-59414e02b739"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/application-of-the-emissions-trading">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/cf18c092-137c-472c-9699-00fd36f68667"/>
+    <dcat:keyword>eu ets</dcat:keyword>
+    <dcat:keyword>air emissions</dcat:keyword>
+    <dcat:keyword>emission trading</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-29T22:00:00Z</dcterms:issued>
+    <dcterms:description xml:lang="en">This data set compiles Member State reports on the application of Directive 2003/87/EC of the European Parliament and of the Council of the European Union (EU) establishing the EU Emissions Trading System (EU ETS). Article 21 of the Directive stipulates that, each year, Member States should report on the application of the Directive. These reports should be based on the ‘Article 21 questionnaire’, which was adopted by the European Commission in Implementing Decision 2014/166/EU. Article 21 further stipulates that, on the basis of the Member States’ reports, the Commission should publish a report on the application of this Directive.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/434843"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ddbdb4b5-0e7a-4dfa-9c5e-b845cb1c2a73"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>DAT-153-en</dcterms:identifier>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-22T14:15:57Z</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3c21bdbc-3f1d-4188-891d-031f6dfdf053"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Application of the Emissions Trading Directive 2003/87/EC (Article 21)</dcterms:title>
+    <dcat:keyword>industry</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3c21bdbc-3f1d-4188-891d-031f6dfdf053">
+    <dcterms:title xml:lang="en">[DEPRECATED] Application of the Emissions Trading Directive 2003/87/EC (Article 21)</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/application-of-the-emissions-trading"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/application-of-the-emissions-trading</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/41c8055d-736c-4a7b-9573-5447ee80c3f9">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:29:21</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:29:21</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/application-of-the-emissions-trading"/>
+  </rdf:Description>
+</rdf:RDF>

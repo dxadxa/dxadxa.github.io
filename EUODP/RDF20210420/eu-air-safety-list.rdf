@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fcb54ce4-1d4a-4e18-8743-5ad32397a9ac">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/transport/modes/air/safety/air-ban/search_en"/>
+    <dcterms:title xml:lang="en">Search banned airlines</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/transport/modes/air/safety/air-ban/search_en"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-air-safety-list">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3125"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fcb54ce4-1d4a-4e18-8743-5ad32397a9ac"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MOVE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c2e66514-1106-4593-9e62-627991544d12"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3df3d7f4-e970-4d72-a3aa-9159fa46c065"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3408ab3c-bc96-4ac0-874a-94beadc35eaa"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>eu-air-safety-list</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5887"/>
+    <dcterms:title xml:lang="en">EU Air Safety List</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4511"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4505"/>
+    <dcterms:description xml:lang="en">The EU Air Safety List contains a list of all airlines banned from operating in Europe (Annex A) and a list of  airlines that are restricted from operating under certain conditions in Europe (Annex B). Both lists are updated regularly and published in the Official Journal of the European Union. </dcterms:description>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcat:keyword xml:lang="en">banned airline</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/54fda34b-c188-44ca-b4f8-da26d4e04e18">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">606</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-31T10:54:05</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-air-safety-list"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-13T10:33:45</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">730</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3408ab3c-bc96-4ac0-874a-94beadc35eaa">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/transport/sites/transport/files/air-safety-list_en.pdf"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Full list of banned airlines</dcterms:title>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/transport/sites/transport/files/air-safety-list_en.pdf"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3df3d7f4-e970-4d72-a3aa-9159fa46c065">
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/transport/modes/air/safety/air-ban_en</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-air-safety-list"/>
+    <schema:url>https://ec.europa.eu/transport/modes/air/safety/air-ban_en</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c2e66514-1106-4593-9e62-627991544d12">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

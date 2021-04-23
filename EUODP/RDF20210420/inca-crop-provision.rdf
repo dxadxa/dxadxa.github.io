@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6e5ec844-d8d7-4e82-a059-3c25166160aa">
+    <schema:url>http://biodiversity.europa.eu/maes</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/inca-crop-provision">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ed44ce99-e544-480d-af1f-f6849df4d229d9812590-3063-4000-83b0-892dbddeadcdbf3d1a6b-cc92-437a-a12c-50c5392824058da0c0b0-fb3d-4a05-b7c1-ebe90052bc0a"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:identifier>ecd792d1-61c3-478c-aa4a-587bad385805</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Bio-geographical regions</dcat:keyword>
+    <dcatapop:ckanName>inca-crop-provision</dcatapop:ckanName>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:modified>
+    <dcat:keyword xml:lang="en">Habitats and biotopes</dcat:keyword>
+    <dcat:keyword xml:lang="en">Land cover</dcat:keyword>
+    <dcat:keyword xml:lang="en">Crop production</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+    <dcterms:description xml:lang="en">This dataset is an output of KIP INCA.&#13;
+&#13;
+The dataset presents the contribution of ecosystems to crop provision by multiplying the yield in tonne/ha with the ecosystem contribution ratio. This ratio is a number between 0 and 1 and expresses the contribution of natural ecosystem inputs to crop yield. (Human inputs including fossile fuels, labour and fertilisers are thus excluded from this dataset).&#13;
+&#13;
+The rastermap shows the actual flow of crop provision as ecosystem service (EC_flow12_tonha_rescaled.tif). It is based on the CAPRI model data (after disentangling the ecosystem contribution for each crop type separately).&#13;
+&#13;
+Given the differences between CAPRI data and EUROSTAT statistics on crops used in the accounting tables of the associated report the map has been readjuted by multiplying with a correction factor so as to make the value reported in the map consistent with the value reported in the accounting table of the associated report. Example: If CAPRI reports 20 tonne and Eurostat reports 18 tonne, then the correction factor is 18/20=0.9</dcterms:description>
+    <dcat:keyword xml:lang="en">Food security</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/80160b15-e938-4a9b-8cd9-9af722d25027"/>
+    <dcterms:title xml:lang="en">INCA - Crop Provision</dcterms:title>
+    <dcat:keyword xml:lang="en">Agricultural and aquaculture facilities</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:keyword xml:lang="en">Crop provision</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/25333225-a163-48da-ae16-21c82176dac3"/>
+    <dcat:keyword xml:lang="en">Ecosystem services</dcat:keyword>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">Land use</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EUR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/80160b15-e938-4a9b-8cd9-9af722d25027">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/6e5ec844-d8d7-4e82-a059-3c25166160aa"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1a45188b-5579-456a-a34d-89ee51d9af53"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/3537d433-211f-49c9-a6a9-e72bbd0abcd6"/>
+    <vcard:organisation-name> European Commission, Joint Research Centre (JRC) </vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="+joachim.maes@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/78f650a5-cb62-4e44-9d03-8bf39e47f186"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/49975a0a-135c-4add-a6bc-110a97e7c6e7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/2d388f52-885c-41f7-896b-c07685613815"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ed44ce99-e544-480d-af1f-f6849df4d229d9812590-3063-4000-83b0-892dbddeadcdbf3d1a6b-cc92-437a-a12c-50c5392824058da0c0b0-fb3d-4a05-b7c1-ebe90052bc0a">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Download Crop Provision ES - KIP-INCA</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/MAES/INCA/LATEST/crop_provision/CropProvision.zip"/>
+    <dcterms:description xml:lang="en">The ZIP compressed dataset contains a raster GeoTiff file with the values for the actual flow of crop provision. For more information, refer to the README.txt included in the download.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1a45188b-5579-456a-a34d-89ee51d9af53">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://biodiversity.europa.eu/maes</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c4f865bf-7189-47db-96e8-4aaa136518b9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-11-23T22:08:25</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/inca-crop-provision"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-11-23T22:08:25</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/25333225-a163-48da-ae16-21c82176dac3">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/inca-carbon-sequestration"/>
+    <dcterms:title xml:lang="en">title_https://data.jrc.ec.europa.eu/dataset/6b805df4-ee6e-4e42-a078-e0d6c72c40f7</dcterms:title>
+    <dcterms:title xml:lang="en">title_https://data.jrc.ec.europa.eu/dataset/3509c9d0-a51f-4bce-8b02-e1738e7ffc2d</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/inca-crop-provision"/>
+    <dcterms:title xml:lang="en">title_https://data.jrc.ec.europa.eu/dataset/a6b63aee-da92-41fa-9812-cd769c7b32dc</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://data.jrc.ec.europa.eu/dataset/ecd792d1-61c3-478c-aa4a-587bad385805</schema:url>
+    <dcterms:title xml:lang="en">title_https://data.jrc.ec.europa.eu/dataset/650331f3-e7ce-427b-8011-bd2c8f40599c</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/inca-flood-control"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://data.jrc.ec.europa.eu/dataset/ecd792d1-61c3-478c-aa4a-587bad385805</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/inca-timber-provision"/>
+    <schema:url>https://data.jrc.ec.europa.eu/dataset/a6b63aee-da92-41fa-9812-cd769c7b32dc</schema:url>
+    <schema:url>https://data.jrc.ec.europa.eu/dataset/650331f3-e7ce-427b-8011-bd2c8f40599c</schema:url>
+    <schema:url>https://data.jrc.ec.europa.eu/dataset/3509c9d0-a51f-4bce-8b02-e1738e7ffc2d</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/inca-crop-pollination"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/inca-outdoor-recreation"/>
+    <schema:url>https://data.jrc.ec.europa.eu/dataset/6b805df4-ee6e-4e42-a078-e0d6c72c40f7</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3537d433-211f-49c9-a6a9-e72bbd0abcd6">
+    <schema:url>http://biodiversity.europa.eu/maes</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/49975a0a-135c-4add-a6bc-110a97e7c6e7">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://biodiversity.europa.eu/maes</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2d388f52-885c-41f7-896b-c07685613815">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://biodiversity.europa.eu/maes</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/78f650a5-cb62-4e44-9d03-8bf39e47f186">
+    <schema:url>http://biodiversity.europa.eu/maes</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+</rdf:RDF>

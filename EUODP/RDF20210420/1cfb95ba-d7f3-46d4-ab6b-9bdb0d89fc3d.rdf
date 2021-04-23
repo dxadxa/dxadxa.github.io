@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d">
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/939ae453-bac7-4c8d-83e0-360b20f6a36a"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">Time series of quality checked atmospheric concentrations of nitrous oxide measured in building 5 (IPR-1) from 2010 till 2018.</dcterms:description>
+    <dcterms:title xml:lang="en">Atmospheric nitrous oxide concentration - IPR-1 (2010-2018)</dcterms:title>
+    <dcatapop:ckanName>1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:identifier>1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b043bd61-dd01-40ad-8b12-0262c35ec443"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/22f7d89c-ca50-4afe-8ac4-3d3a8513b237"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-08</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9f264c85-2677-48db-822a-c4c8a77bc368"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/939ae453-bac7-4c8d-83e0-360b20f6a36a">
+    <dcterms:description xml:lang="en">Quality checked, hourly averages of nitrous oxide atmospheric concentration measured at JRC-Ispra site (building 5, IPR-1), Italy. Concentrations were measured by a gas chromatograph (model Agilent 6890N). Time is UTC+1 and it refers to beginning of averaging period. Uncertainties of measurements are reported in the data file following the InGOS methodology.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/ABCIS/GreenHouseGases/FinalData_IPR-1/N2O/IPR_1_1_N2O_1_20100915_20180223.txt"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Quality checked atmospheric nitrous oxide concentration measured at IPR-1</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b043bd61-dd01-40ad-8b12-0262c35ec443">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Ispra Atmosphere Biosphere Climate Integrated monitoring Station of the JRC</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Manca, G., Ispra Atmosphere Biosphere Climate Integrated monitoring Station of the JRC, European Commission, Ispra, 2018, JRC114973.</dcterms:description>
+    <schema:url xml:lang="en">http://publications.jrc.ec.europa.eu/repository/handle/JRC114973</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/38644e4a-29ef-4cac-a7fd-0426789b5b5d">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">322</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:08:13</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">227</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:08:13</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9f264c85-2677-48db-822a-c4c8a77bc368">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/1cfb95ba-d7f3-46d4-ab6b-9bdb0d89fc3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/22f7d89c-ca50-4afe-8ac4-3d3a8513b237">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

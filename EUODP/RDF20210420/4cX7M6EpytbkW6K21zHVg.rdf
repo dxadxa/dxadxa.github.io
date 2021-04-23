@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3a6c92ec-7abe-4637-8375-9900c80df431">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/b195a387-d123-451f-9cc6-ee1cd1f15bd8"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/bcd7e457-a0d8-4d6d-a93c-57fd1ec8afcf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/e82cefa3-8a74-4235-b36c-9006b1755f7d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/936b437b-95c1-48fe-8143-c8370428d5a2">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4cX7M6EpytbkW6K21zHVg"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_cp_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b2d5421a-5aa2-423f-80d4-d8a6b33a9b82">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teicp210"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/86869904-24c1-4344-ace6-2b75c4fc3bbe">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teicp210</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4cX7M6EpytbkW6K21zHVg"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/4cX7M6EpytbkW6K21zHVg">
+    <dcat:keyword xml:lang="en">HICP</dcat:keyword>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/a74d3832-76d1-47d8-adf7-b881f5d23303"/>
+    <dcterms:description xml:lang="fr">Les indices des prix à la consommation harmonisés (IPCH) sont conçus pour la comparaison de l'inflation des prix à la consommation. Ils sont utilisés dans l'évaluation de la convergence de l'inflation requise par l'article 121 du traité d'Amsterdam et, par la Banque centrale européenne (BCE), pour le monitorage de la stabilité des prix dans le cadre de la politique monétaire. La BCE définit la stabilité des prix en fonction du taux de variation annuel de l'IPCH dans la zone euro. Les IPCH sont compilés sur la base des standards harmonisés obligatoires pour tous les États membres. Les IPCH sont des indices de prix de type de Laspeyres calculés comme des indices de chaîne annuels permettant le changeant de poids chaque année. La classification commune pour les Indices des prix à la consommation harmonisés est la classification des fonctions de la consommation individuelle (COICOP). Une version de cette classification (COICOP/IPCH) a été adaptée pour les IPCH. Les sous-indices publiés par Eurostat sont basés sur cette classification. Les IPCH sont produits et publiés en utilisant une période de référence commune d'indice (2015 = 100). Les taux de croissance sont calculés à partir des indices publiés. Les indices, ainsi que les taux de variations de croissance par rapport au mois précédent (M/M-1) et par rapport au même mois de l'année précédente (M/M-12), ne sont ni corrigés des effets de calendriers ni des variations saisonnières.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6b568ea7-5a6f-4cba-b6e7-6e5fbd72ce4a"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:title xml:lang="fr">IPCH - indice global à l'exclusion d'énergie</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0a075b32-c397-45f6-a902-627ac627e04b"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bdaf3ec8-d854-4589-856f-23371a981d06"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/cd5cd2dd-42f0-4124-a66c-f76d590b1f1a"/>
+    <dcterms:title xml:lang="en">HICP - all items excluding energy</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b2d5421a-5aa2-423f-80d4-d8a6b33a9b82"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:description xml:lang="en">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for monetary policy purposes. The ECB defines price stability on the basis of the annual rate of change of the euro area HICP. HICPs are compiled on the basis of harmonised standards, binding for all Member States. Conceptually, the HICP are Laspeyres-type price indices and are computed as annual chain-indices allowing for weights changing each year. The common classification for Harmonized Indices of Consumer Prices is the COICOP (Classification Of Individual COnsumption by Purpose). A version of this classification (COICOP/HICP) has been specially adapted for the HICP. Sub-indices published by Eurostat are based on this classification. HICP are produced and published using a common index reference period (2015 = 100). Growth rates are calculated from published index levels. Indexes, as well as both growth rates with respect to the previous month (M/M-1) and with respect to the corresponding month of the previous year (M/M-12) are neither calendar nor seasonally adjusted.</dcterms:description>
+    <dcterms:title xml:lang="de">HVPI - Gesamtindex ohne Energie</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/547b8b32-32b0-4deb-b352-fac903e978d3"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/267205db-0312-429b-8f31-927c6a082d5d"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/86869904-24c1-4344-ace6-2b75c4fc3bbe"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2632"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-17</dcterms:modified>
+    <dcterms:identifier>teicp210</dcterms:identifier>
+    <dcat:keyword xml:lang="en">consumer prices</dcat:keyword>
+    <dcatapop:ckanName>4cX7M6EpytbkW6K21zHVg</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/936b437b-95c1-48fe-8143-c8370428d5a2"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a26e81fa-9d40-4bf9-8ddc-475289f0cbee"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3a6c92ec-7abe-4637-8375-9900c80df431"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:description xml:lang="de">Harmonisierte Verbraucherpreisindizes (HVPI) sind für internationale Vergleiche der Verbraucherpreisinflation gedacht. Sie dienen der Bewertung der Inflationskonvergenz gemäß Artikel 121 des Amsterdamer Vertrages und der Europäischen Zentralbank zur Überwachung der Preisstabilität im Rahmen der Währungspolitik. Die EZB definiert Preisstabilität auf Grundlage der jährlichen Veränderungsrate des HVPI für die Euroraum. Die HVPI werden gemäß harmonisierter, für alle Mitgliedstaaten verbindlicher Standards erstellt. Die HVPI sind "Preisindizes vom Typ Laspeyres" und werden als jährliche Kettenindizes berechnet, so dass sich die Gewichte von Jahr zu Jahr ändern können. Die gemeinsame Klassifikation der HVPI ist die COICOP (Internationale Klassifikation des individuellen Verbrauchs nach Verwendungszwecken). Eine Version dieser Klassifikation (COICOP/HVPI) wurde für die HVPI angepasst. Teilindizes, die von Eurostat veröffentlicht werden, basieren auf dieser Klassifizierung. HVPI werden erstellt und veröffentlicht unter Verwendung eines gemeinsamen Indexreferenzzeitraum (2015 = 100). Wachstumsraten werden von veröffentlichten Indexzahlen berechnet. Indizes sowie Wachstumsraten bezüglich des Vormonats (M/M-1) beziehungsweise des entsprechenden Monats des vorherigen Jahres (M/M-12) werden weder von Kalender- noch von Saisoneffekten bereinigt.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/267205db-0312-429b-8f31-927c6a082d5d">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teicp210"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/547b8b32-32b0-4deb-b352-fac903e978d3">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teicp210.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0a075b32-c397-45f6-a902-627ac627e04b">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teicp210"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e82cefa3-8a74-4235-b36c-9006b1755f7d">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6b568ea7-5a6f-4cba-b6e7-6e5fbd72ce4a">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teicp210.sdmx.zip"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6f95a183-bc2a-4b84-a91c-fdd7fa1693c1">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1083</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-16 11:44:17.622485</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/4cX7M6EpytbkW6K21zHVg"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T11:26:38</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1167</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a26e81fa-9d40-4bf9-8ddc-475289f0cbee">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teicp210.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/b195a387-d123-451f-9cc6-ee1cd1f15bd8">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cd5cd2dd-42f0-4124-a66c-f76d590b1f1a">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teicp210</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4cX7M6EpytbkW6K21zHVg"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teicp210</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/a74d3832-76d1-47d8-adf7-b881f5d23303">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-01</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bdaf3ec8-d854-4589-856f-23371a981d06">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/4cX7M6EpytbkW6K21zHVg"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_cp_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/bcd7e457-a0d8-4d6d-a93c-57fd1ec8afcf">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+</rdf:RDF>

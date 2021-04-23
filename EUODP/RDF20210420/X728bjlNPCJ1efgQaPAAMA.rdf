@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0f2d5753-e8ff-4139-959f-c31e834faa7b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ef_ov_luft.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/33ebd20c-9f08-45ce-a79f-b1a3bcc9ddfd">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ef_ov_luft.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6cf8a639-4c2f-4d07-9e38-f7c8295c22d7">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/X728bjlNPCJ1efgQaPAAMA"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ef_esms.sdmx.zip</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/X728bjlNPCJ1efgQaPAAMA">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c58377ed-7326-42a3-a9ad-d745b10a7f9b"/>
+    <dcterms:identifier>ef_ov_luft</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0f2d5753-e8ff-4139-959f-c31e834faa7b"/>
+    <dcatapop:ckanName>X728bjlNPCJ1efgQaPAAMA</dcatapop:ckanName>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/153c5eb3-bcc5-4cec-b462-4d8ed2649fdb"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/326958c7-2504-4a01-8bc6-47c52c496e7f"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-26</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/429155f4-d141-4e29-8c15-5085051a2b3b"/>
+    <dcterms:description xml:lang="fr">Utilisations des sols: nombre d'exploitations et superficies selon l'orientation technico-économique (2 chiffres) et la dimension économique (UDE) de l'exploitation</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/6cf8a639-4c2f-4d07-9e38-f7c8295c22d7"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/f3ab9d62-6fce-4d10-8085-217d8bb68e60"/>
+    <dcterms:title xml:lang="fr">Utilisations des sols: nombre d'exploitations et superficies selon l'orientation technico-économique (2 chiffres) et la dimension économique (UDE) de l'exploitation</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/33ebd20c-9f08-45ce-a79f-b1a3bcc9ddfd"/>
+    <dcterms:title xml:lang="de">Bodennutzung: Anzahl der Betriebe und Flächen nach betriebswirtschaftlicher Ausrichtung (2-stellig) und nach wirtschaftlicher Betriebsgröße (EGE)</dcterms:title>
+    <dcterms:title xml:lang="en">Land use: number of farms and areas by type of farming (2-digit) and economic size of farm (ESU)</dcterms:title>
+    <dcterms:description xml:lang="de">Bodennutzung: Anzahl der Betriebe und Flächen nach betriebswirtschaftlicher Ausrichtung (2-stellig) und nach wirtschaftlicher Betriebsgröße (EGE)</dcterms:description>
+    <dcterms:description xml:lang="en">Land use: number of farms and areas by type of farming (2-digit) and economic size of farm (ESU)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a9990f7c-72e5-429c-991f-cf865a6ff566"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c58377ed-7326-42a3-a9ad-d745b10a7f9b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/ef_ov_luft</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/X728bjlNPCJ1efgQaPAAMA"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/153c5eb3-bcc5-4cec-b462-4d8ed2649fdb">
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/c7840502-1d9c-4206-85ec-0f7e69323b2f"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/ee27b98b-049a-44c3-ab84-02c2eaf99b13"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b1755e88-5f9b-47a8-aab2-3d0193ef2558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a9990f7c-72e5-429c-991f-cf865a6ff566">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/ef_ov_luft.tsv.gz"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/429155f4-d141-4e29-8c15-5085051a2b3b">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ef_esms.htm</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/X728bjlNPCJ1efgQaPAAMA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b1755e88-5f9b-47a8-aab2-3d0193ef2558">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/326958c7-2504-4a01-8bc6-47c52c496e7f">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/ef_ov_luft</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/ef_ov_luft</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/X728bjlNPCJ1efgQaPAAMA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/c7840502-1d9c-4206-85ec-0f7e69323b2f">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/ee27b98b-049a-44c3-ab84-02c2eaf99b13">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/20f1ef52-fa52-40a3-a9e1-c1728a7fe532">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:23:11</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 11:05:53.750356</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/X728bjlNPCJ1efgQaPAAMA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/f3ab9d62-6fce-4d10-8085-217d8bb68e60">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-01</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

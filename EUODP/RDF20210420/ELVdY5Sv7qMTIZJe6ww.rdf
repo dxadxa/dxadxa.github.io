@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/fc15afe2-9a93-482d-8977-7e71ec7240fa">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/808b1c58-93a2-43de-b0cf-cc153868be7d"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/ad79e776-3870-4fb8-9c01-1eaefd6034c0"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/03b02d4d-4a3d-458d-96ae-af1d1849373a"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8cad36b3-a41b-4971-885f-b217508101f9">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teiis110</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teiis110</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ELVdY5Sv7qMTIZJe6ww"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/76f66b6c-d187-4f68-990f-12c657b5cd50">
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teiis110"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/24633ab6-1ecd-45de-a47a-a1da43389355">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ELVdY5Sv7qMTIZJe6ww"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teiis110</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7ea7a3f1-053f-453e-a624-1542a646c9b7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis110.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/974aa9ec-a719-4b33-9ffe-37c4f307b87c">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/ELVdY5Sv7qMTIZJe6ww">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c51d9254-222f-433e-818a-59e7179bf380"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcatapop:ckanName>ELVdY5Sv7qMTIZJe6ww</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:description xml:lang="en">The industrial production index shows the output and activity of the industry sector. It measures changes in the volume of output on a monthly basis. Data are compiled according to the Statistical classification of economic activities in the European Community, (NACE Rev. 2, Eurostat). Industrial production is compiled as a "fixed base year Laspeyres type volume-index". The current base year is 2015 (Index 2015 = 100). The index is presented in calendar and seasonally adjusted form. Growth rates with respect to the previous month (M/M-1) are calculated from calendar and seasonally adjusted figures while growth rates with respect to the same month of the previous year (M/M-12) are calculated from calendar adjusted figures.</dcterms:description>
+    <dcterms:description xml:lang="de">Der Index der Industrieproduktion gibt über Produktion und Aktivität des Wirtschaftszweigs Aufschluss. Er dient zur Messung der monatlichen Produktionsschwankungen. Die Daten werden erstellt nach der Statistischen Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft (NACE Rev. 2, Eurostat). Bei der Industrieproduktion handelt es sich um einen „Volumenindex in der Art des Laspeyres-Index mit festem Basisjahr“. Das derzeitige Basisjahr ist 2015 (Index 2015 = 100). Der Index wird kalender- und saisonbereinigt. Zuwachsraten gegenüber dem Vormonat (M/M-1) werden anhand von kalender- und saisonbereinigten Zahlen berechnet, Zuwachsraten gegenüber dem entsprechenden Monat des Vorjahres (M/M-12) anhand von kalenderbereinigten Zahlen.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/8cad36b3-a41b-4971-885f-b217508101f9"/>
+    <dcterms:identifier>teiis110</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/37a975c6-f086-495a-964b-bf7fb3ffa25b"/>
+    <dcterms:title xml:lang="fr">Production - produits intermédiaires</dcterms:title>
+    <dcat:keyword xml:lang="en">industry commerce and services</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3a3b668c-da0c-4bbb-9097-dee6e9613c27"/>
+    <dcat:keyword xml:lang="en">intermediate goods</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c13b1b3a-448a-4686-8c2e-cdbc6002f869"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-25</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/24633ab6-1ecd-45de-a47a-a1da43389355"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1b157592-f1b2-44c7-a25b-698b3bc0c3cc"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/76f66b6c-d187-4f68-990f-12c657b5cd50"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7ea7a3f1-053f-453e-a624-1542a646c9b7"/>
+    <dcat:keyword xml:lang="en">industrial statistics</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/93bfd7e3-43eb-4718-8fc3-6816fe6179fb"/>
+    <dcterms:title xml:lang="de">Produktion - Vorleistungsgüter</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/fc15afe2-9a93-482d-8977-7e71ec7240fa"/>
+    <dcterms:title xml:lang="en">Production in industry - intermediate goods</dcterms:title>
+    <dcterms:description xml:lang="fr">L’indice de la production industrielle fait apparaître la production et l’activité du secteur de l’industrie. Il mesure les variations du volume de la production sur une base mensuelle. Les données sont compilées conformément à la nomenclature statistique des activités économiques dans la Communauté européenne (NACE Rév. 2, Eurostat). Les valeurs de la production industrielle sont calculées sous la forme d’un «indice des prix de type Laspeyres à année de base fixe». L’année de base actuelle est 2015 (indice 2015 = 100). L’indice est présenté sous forme corrigée des variations calendaires et saisonnières. Les taux de croissance en glissement mensuel (M/M-1) sont calculés à partir de chiffres corrigés des variations calendaires et saisonnières, alors que les taux de croissance en glissement annuel (M/M-12) sont calculés à partir des chiffres corrigés des effets calendaires.</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/974aa9ec-a719-4b33-9ffe-37c4f307b87c"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/808b1c58-93a2-43de-b0cf-cc153868be7d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/37a975c6-f086-495a-964b-bf7fb3ffa25b">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ELVdY5Sv7qMTIZJe6ww"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_is_esms.htm</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/93bfd7e3-43eb-4718-8fc3-6816fe6179fb">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teiis110"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/03b02d4d-4a3d-458d-96ae-af1d1849373a">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c13b1b3a-448a-4686-8c2e-cdbc6002f869">
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teiis110"/>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1b157592-f1b2-44c7-a25b-698b3bc0c3cc">
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis110.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c51d9254-222f-433e-818a-59e7179bf380">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teiis110.tsv.gz&amp;unzip=true"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3a3b668c-da0c-4bbb-9097-dee6e9613c27">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ELVdY5Sv7qMTIZJe6ww"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_is_esms.sdmx.zip</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/70981670-b945-4c6a-85ef-2bff6101d61a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:47:58</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/ELVdY5Sv7qMTIZJe6ww"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1950</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 12:22:02.378691</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1830</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/ad79e776-3870-4fb8-9c01-1eaefd6034c0">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+</rdf:RDF>

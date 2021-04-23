@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/humanitarian-aid-financed-by-the-2021-ec-budget-through-dg-echo">
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/0922ca2d-8cc8-43a7-b7a4-07603acbccec"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/862"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/db612fd5-0aee-435c-bb7e-75951e0b133e"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3074"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9a9b0fe3-3a7f-410d-94e6-73e3394ebef044ae08c2-7622-47c9-a91b-f71f7cd3e0cb"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:isPartOf rdf:resource="https://data.europa.eu/euodp/en/data/dataset/edris-european-emergency-disaster-response-information-system"/>
+    <dcterms:title xml:lang="en">Humanitarian aid financed by the 2021 EC budget through DG ECHO</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1005"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c721e31a-b4d5-4b43-b1d2-a8091521ee9c44ae08c2-7622-47c9-a91b-f71f7cd3e0cb"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/a930582f-cf95-47b2-b104-558806144aa7"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHO"/>
+    <dcterms:description xml:lang="en">The European Emergency Disaster Response Information System (EDRIS) contains Humanitarian Aid activity report for all activities financed by the European Commission budget through Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO). &#13;
+&#13;
+This dataset contains reports for the year 2021.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5873"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5d735476-96d6-473b-bd97-8426143cac4b44ae08c2-7622-47c9-a91b-f71f7cd3e0cb"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcatapop:ckanName>humanitarian-aid-financed-by-the-2021-ec-budget-through-dg-echo</dcatapop:ckanName>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8ddb77f2-b9c3-4758-88ec-837a3b45b162"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8ddb77f2-b9c3-4758-88ec-837a3b45b162">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DOC"/>
+    <dcterms:description xml:lang="en">A step-by-step guide on how to export XML from within EDRIS and how to load it into Excel (including description and screenshots).</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://webgate.ec.europa.eu/hac/listReport/Documentations_export_xml_V1.1.doc</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/humanitarian-aid-financed-by-the-2021-ec-budget-through-dg-echo"/>
+    <dcterms:title xml:lang="en">Learn how to manage XML data in Excel</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9a9b0fe3-3a7f-410d-94e6-73e3394ebef044ae08c2-7622-47c9-a91b-f71f7cd3e0cb">
+    <dcterms:description xml:lang="en">CSV conversion tool available offering the option to either (1) select the data to convert (from IATI registry) or (2) select among THREE available CSV serialisations of IATI data:&#13;
+(a) Simple activity summary (CSV).&#13;
+Top-level information with a row for each aid activity. Total figures for each type of transaction. Sector codes are included as a ';' separated list. Useful for basic research.&#13;
+(b) Full activity data (CSV).&#13;
+Full flattened version of each IATI Activity record - one row per activity. Where multiple values exist for a column (e.g. multiple sectors, or many transactions) these are separated by ';'.&#13;
+(c) All transactions (CSV).&#13;
+Detailed list of all transactions, with currencies, amounts and classifications with a row for each transaction.</dcterms:description>
+    <dcat:accessURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//webgate.ec.europa.eu/hac/IATI/ec-echo-2021.xml"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:title xml:lang="en">CSV conversion tool</dcterms:title>
+    <dcterms:issued xml:lang="en">2019</dcterms:issued>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:downloadURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//webgate.ec.europa.eu/hac/IATI/ec-echo-2021.xml"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5d735476-96d6-473b-bd97-8426143cac4b44ae08c2-7622-47c9-a91b-f71f7cd3e0cb">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">EU Aid Explorer</dcterms:title>
+    <dcat:accessURL rdf:resource="https://euaidexplorer.ec.europa.eu/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0922ca2d-8cc8-43a7-b7a4-07603acbccec">
+    <dcterms:title xml:lang="en">title_https://www.iatiregistry.org/dataset/ec-echo-2021</dcterms:title>
+    <schema:url>https://www.iatiregistry.org/dataset/ec-echo-2021</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/humanitarian-aid-financed-by-the-2021-ec-budget-through-dg-echo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c721e31a-b4d5-4b43-b1d2-a8091521ee9c44ae08c2-7622-47c9-a91b-f71f7cd3e0cb">
+    <dcat:downloadURL rdf:resource="https://webgate.ec.europa.eu/hac/IATI/ec-echo-2021.xml"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:description xml:lang="en">The URL address provides access to the rich raw data.</dcterms:description>
+    <dcterms:title xml:lang="en">Humanitarian aid financed by the 2021 EC budget through DG ECHO</dcterms:title>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/hac/IATI/ec-echo-2021.xml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:issued xml:lang="en">2021</dcterms:issued>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/6f4f0597-392d-4125-b874-52fade186ceb">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-18T15:33:12</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-18T15:24:09</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/humanitarian-aid-financed-by-the-2021-ec-budget-through-dg-echo"/>
+    <dcatapop:numberOfViews>0</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/a930582f-cf95-47b2-b104-558806144aa7">
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</schema:startDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/70a90c7f-dc77-4769-a9bf-24e10e1c92cf">
+    <schema:url>https://ec.europa.eu/echo/contact_en</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/db612fd5-0aee-435c-bb7e-75951e0b133e">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/70a90c7f-dc77-4769-a9bf-24e10e1c92cf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="ECHO-HOLIS@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

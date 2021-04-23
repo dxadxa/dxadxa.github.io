@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f044c7be-1dd0-4a97-9616-7d1b4b47f71b">
+    <schema:url xml:lang="en">https://mars.jrc.ec.europa.eu/asap/download.php</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10010"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1d98d284-dac3-44c5-8c38-d92f0de39bf1">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10010"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:21:01</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-09 05:22:15.482038</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">374</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-10112-10010">
+    <dcterms:identifier>jrc-10112-10010</dcterms:identifier>
+    <dcterms:title xml:lang="en">Global land surface phenology - Start of the season</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f044c7be-1dd0-4a97-9616-7d1b4b47f71b"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcatapop:ckanName>jrc-10112-10010</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-26</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f03226d8-ce0c-4e8e-bb93-cf0a17af88c8"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3de26abf-4e36-404e-abeb-74391d26a145"/>
+    <dcterms:description xml:lang="en">The satellite- derived phenology is computed on the long-term average of 10-day MODIS NDVI data produced by BOKU University starting from MOD13A2 and MYD13A2 V006 16-DAY Global data at 1 km resolution. Phenology was extracted using the SPIRITS software applied to the historical average of the smoothed NDVI over the period 2003-2016. For each pixel, start of the season is retrieved, occuring at the time at which NDVI grows above the 25% the ascending amplitude of the seasonal profile.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f7fd0df5-54c0-4944-b273-ab837853b6f2"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/00f5777f-fdf3-45e8-8728-8201e282042a"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/749f617f-29d4-439b-8048-3d00a6d76fbe"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f7fd0df5-54c0-4944-b273-ab837853b6f2">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">Rembold, F., Meroni, M., Urbano, F., Csak, G., Kerdiles, H., Perez Hoyos, A., Lemoine, G., Leo, O. and Negre, T., ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis, AGRICULTURAL SYSTEMS, ISSN 0308-521X, 168, 2019, p. 247-257, JRC109950.</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10010"/>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.agsy.2018.07.002</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">ASAP: a new global early warning system to detect Anomaly hot Spots of Agricultural Production for food security analysis</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f03226d8-ce0c-4e8e-bb93-cf0a17af88c8">
+    <dcterms:title xml:lang="en">Start of the first season</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/phenos1_v02.tif"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Tiff file containg value V which is expressed over a 3 years period, from 1 to 108 dekads (i.e. ten day periods).  This is done to be able to treat the circular variable dekad as an ordinal variable. To get the timing T in the 1-36 dekad units (calendar year): i)if value V is smaller or eaual with 36, then T=V, ii) if value V is larger than 36 and smaller or equal with 72, then T= V-36,and iii)if value V is larger than 72, then T=V-72.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/749f617f-29d4-439b-8048-3d00a6d76fbe">
+    <vcard:hasEmail rdf:resource="jrc-asap@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/803d0cd4-42bf-4ef0-a1e0-7329e7c97a8a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/803d0cd4-42bf-4ef0-a1e0-7329e7c97a8a">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/00f5777f-fdf3-45e8-8728-8201e282042a">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-10112-10010</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-10112-10010</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-10112-10010"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3de26abf-4e36-404e-abeb-74391d26a145">
+    <dcterms:title xml:lang="en">Start of the second season</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://mars.jrc.ec.europa.eu/asap/files/phenos2_v02.tif"/>
+    <dcterms:description xml:lang="en">Tiff file containg value V which is expressed over a 3 years period, from 1 to 108 dekads (i.e. ten day periods).  This is done to be able to treat the circular variable dekad as an ordinal variable. To get the timing T in the 1-36 dekad units (calendar year): i)if value V is smaller or eaual with 36, then T=V, ii) if value V is larger than 36 and smaller or equal with 72, then T= V-36,and iii)if value V is larger than 72, then T=V-72.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+</rdf:RDF>

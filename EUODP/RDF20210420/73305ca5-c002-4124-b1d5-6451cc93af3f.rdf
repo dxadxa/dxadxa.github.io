@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/73305ca5-c002-4124-b1d5-6451cc93af3f">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7bac0b8a-f68d-4bdb-abb4-0bc89f37dcbf"/>
+    <dcterms:identifier>73305ca5-c002-4124-b1d5-6451cc93af3f</dcterms:identifier>
+    <dcterms:description xml:lang="en">This dataset includes daily maps of discharge (in m3/s) simulated with the Lisflood hydrological model with quasi global extent at 0.1 degree (~10 km) grid resolution. The model was calibrated at 1226 river sections, with total drainage area of 51 million km2 and within 66 world countries, using at least 4 years of observed discharges and ECMWF’s ERA5 as meteorological input dataset. The same dataset and the calibrated model are then used to run a hydrological simulation for the period 1979-2018, where the first year was discarded to allow for model warm-up, to ultimately obtain a 39-year continuous streamflow reanalysis. Further info on www.globalfloods.eu
+
+Reference
+Alfieri, L., Lorini, V., Hirpa, F. A., Harrigan, S., Zsoter, E., Prudhomme, C. and Salamon, P.: A global streamflow reanalysis for 1980-2018, Journal of Hydrology X, 100049, doi:10.1016/j.hydroa.2019.100049, 2019.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-01</dcterms:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/c7ed81b2-3d22-4170-b39b-fc562a75842c"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/7360e9f7-876c-4b4b-9949-9eebe1d468d8"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/927e90cb-e7e2-4dfd-90b3-eec707553ded"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:ckanName>73305ca5-c002-4124-b1d5-6451cc93af3f</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">GloFAS streamflow Reanalysis v3.0 for 1980-2018</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c7ed81b2-3d22-4170-b39b-fc562a75842c">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/73305ca5-c002-4124-b1d5-6451cc93af3f</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/73305ca5-c002-4124-b1d5-6451cc93af3f"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/73305ca5-c002-4124-b1d5-6451cc93af3f</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/927e90cb-e7e2-4dfd-90b3-eec707553ded">
+    <dcterms:description xml:lang="en">This file contains the GloFAS Reanalysis v3.0 for 1980-2018, a dataset with estimates of daily river discharge with quasi-global coverage (90°N-60°S) and spatial resolution of 0.1°. It was produced with the Lisflood hydrological model and the ERA5 atmospheric reanalysis from ECMWF. To produce the GloFAS Reanalysis v3.0, Lisflood was calibrated at 1,226 river sections, with total drainage area of 51 million km2 and within 66 world countries, using at least 4 years of observed discharges. The GloFAS Reanalysis v3.0 is designed for medium to large river basins with drainage area typically larger than 5,000 km2.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS-RA/streamflow_analysis/LATEST/dis_1980_2018.nc"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">GloFAS streamflow Reanalysis v3.0 for 1980-2018</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7360e9f7-876c-4b4b-9949-9eebe1d468d8">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/73305ca5-c002-4124-b1d5-6451cc93af3f"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS-RA/streamflow_analysis/LATEST/dis_1980_2018.nc</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/88c3faf9-eb30-4704-a636-fc651c954230">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/73305ca5-c002-4124-b1d5-6451cc93af3f"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-11-20T10:28:46</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-03-02T16:09:37</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7bac0b8a-f68d-4bdb-abb4-0bc89f37dcbf">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

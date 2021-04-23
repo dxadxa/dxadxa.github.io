@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2d830c4d-981d-4890-865c-11d4fd8c57d2">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Download the list of active substances and suppliers</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://www.echa.europa.eu/information-on-chemicals/active-substance-suppliers"/>
+    <dcat:accessURL rdf:resource="https://www.echa.europa.eu/information-on-chemicals/active-substance-suppliers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/16f539f3-02d6-4c54-9da2-fe773b66fb25">
+    <dcterms:title xml:lang="en">title_https://www.echa.europa.eu/information-on-chemicals/active-substance-suppliers</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://www.echa.europa.eu/information-on-chemicals/active-substance-suppliers</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/biocidal-products-list-of-active-substances-and-suppliers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/851488ff-d0d4-42f0-9478-5d230f4223ed">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>https://www.echa.europa.eu/contact</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/biocidal-products-list-of-active-substances-and-suppliers">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:conformsTo rdf:resource="http://data.europa.eu/eli/reg/2012/528/oj"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/16f539f3-02d6-4c54-9da2-fe773b66fb25"/>
+    <dcterms:description xml:lang="en">List of relevant substances and suppliers ECHA is required to publish under Article 95(1) of the Biocidal Products Regulation (BPR). The list is structured per Active Substances (AS) and product-types (PT). It includes the name and country of the relevant suppliers, if they are substance suppliers and/or product supplier, and the date of their inclusion in the list. Non-EU companies are published together with their appointed EU-representatives.</dcterms:description>
+    <dcterms:title xml:lang="en">Biocidal products: list of active substances and suppliers</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2773"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2d830c4d-981d-4890-865c-11d4fd8c57d2"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/9553d740-72d4-4e64-b1b7-339073f965eb"/>
+    <dcterms:alternative xml:lang="en">Article 95 List</dcterms:alternative>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHA"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2739"/>
+    <dcat:keyword xml:lang="en">biocidal product</dcat:keyword>
+    <dcterms:hasPart rdf:resource="http://data.europa.eu/88u/dataset/biocidal-products-lists-of-disinfectant-active-substances-and-products"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_e5d85c14"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcatapop:ckanName>biocidal-products-list-of-active-substances-and-suppliers</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_39cda9ba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/a0e593cf-1ffe-46c8-b403-669a5b01a7fe">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-03-12T16:51:45</dcterms:issued>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/biocidal-products-list-of-active-substances-and-suppliers"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-03T08:21:51</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/9553d740-72d4-4e64-b1b7-339073f965eb">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/851488ff-d0d4-42f0-9478-5d230f4223ed"/>
+  </rdf:Description>
+</rdf:RDF>

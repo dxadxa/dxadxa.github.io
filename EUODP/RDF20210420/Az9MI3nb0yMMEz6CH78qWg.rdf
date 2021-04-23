@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b103f025-e9c5-4851-af38-a477458c5d5e">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/985c73c1-9a53-4650-8127-481bf00816c1">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teina422_r2.sdmx.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1a681fec-c3d6-4cd8-aebe-98c5d0056139">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_qna_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Az9MI3nb0yMMEz6CH78qWg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/Az9MI3nb0yMMEz6CH78qWg">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcatapop:ckanName>Az9MI3nb0yMMEz6CH78qWg</dcatapop:ckanName>
+    <dcterms:description xml:lang="fr">La Valeur ajoutée brute (VAB) (SEC 2010, 9.31) est définie comme étant la valeur de la production évaluée aux prix de base moins la valeur de la consommation intermédiaire évaluée aux prix d'acquisition. La consommation du capital fixe n'est pas prise en considération. La VAB est un concept proche du PIB (produit intérieur brut). Une ventilation de la valeur ajoutée brute est disponible pour chacune des 10 principales activités économiques de la classification NACE Rev.2. NACE G+H+I = Commerce de gros et de détail, transports, hôtel et restaurants. Le règlement du système européen des comptes nationaux et régionaux (SEC) peut être consulté pour des informations méthodologiques plus spécifiques. Les données sont calculées en tant que volumes chainés (c'est-à-dire des données aux prix de l'année précédente, liés d'une année à l'autre par les taux de croissance appropriés). Les taux de croissance par rapport au trimestre précédent 'q/q-1 (sca)' et par rapport au même trimestre de l'année précédente 'q/q-4 (sca)' sont calculés à partir de données corrigées des effets de calendrier et des variations saisonnières tandis que les taux de croissance par rapport au même trimestre de l'année précédente 'q/q-4 (nsa)' sont calculés à partir de données brutes.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/a17d8485-c403-45c3-96f6-a999e886e0b9"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:keyword xml:lang="en">value added</dcat:keyword>
+    <dcat:keyword xml:lang="en">GVA</dcat:keyword>
+    <dcterms:description xml:lang="en">Gross Value Added (GVA) (ESA 2010, 9.31) is defined as output value at basic prices less intermediate consumption valued at purchasers' prices. GVA is calculated before consumption of fixed capital. GVA is available in a breakdown by 10 main economic activities according to NACE Rev. 2 (Statistical classification of economic activities in the European Community). NACE G+H+I = Wholesale and retail trade, repair of motor vehicles and motorcycles, transportation and storage, accommodation and food service activities. The ESA 2010 (European System of Accounts) regulation may be referred to for more specific explanations on methodology. Data are calculated as chain-linked volumes (i.e. data at previous year's prices, linked over the years via appropriate growth rates). Growth rates 'q/q-1 (sca)' with respect to the previous quarter and 'q/q-4 (sca)' with respect to the same quarter of the previous year are calculated from calendar and seasonally adjusted figures while growth rates 'q/q-4 (nsa)' with respect to the same quarter of the previous year are calculated from raw data.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/94dd0f79-5580-4e70-b78b-8f2f19fb61e0"/>
+    <dcterms:identifier>teina422_r2</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/dfea3251-e492-4c86-8c2c-103aee943a79"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/648f924b-1160-4d73-b48f-13d34797f23e"/>
+    <dcterms:title xml:lang="de">Bruttowertschöpfung - NACE Rev. 2: G-I - Volumen</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ef9ec469-795a-4177-a78d-25a33cdde19e"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9c25eae4-3121-48f0-bea5-7ec2958d5525"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/985c73c1-9a53-4650-8127-481bf00816c1"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:description xml:lang="de">Die Bruttowertschöpfung (BWS) (ESVG 2010, 9.31) ist definiert als Produktionswert zu Herstellungspreisen abzüglich der Vorleistungen zu Marktpreisen. Die BWS wird vor Abzug der Abschreibungen berechnet. Sie ist in die 10 wichtigsten Wirtschaftsbereiche gemäß der NACE Rev. 2 untergliedert verfügbar (NACE = Statistische Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft). NACE G+H+I = Handel, Instandhaltung und Reparatur von Kraftfahrzeugen, Verkehr und Lagerei, Gastgewerbe/Beherbergung und Gastronomie. Wachstumsraten 'q/q-1 (sca)' in Bezug zum vorherigen Quartal und 'q/q-4 (sca)' in Bezug zum Vorjahresquartal sind von kalender- und saisonbereinigten Daten berechnet, während die Wachstumsraten 'q/q-4 (nsa)' in Bezug zum Vorjahresquartal mit unbereinigten Daten berechnet sind. Ausführlichere Erläuterungen zur Methodik können der Verordnung zum ESVG 2010 (Europäisches System volkswirtschaftlicher Gesamtrechnungen) entnommen werden.</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/1a681fec-c3d6-4cd8-aebe-98c5d0056139"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/30f86969-8d7f-4bde-872b-0d887dccdef1"/>
+    <dcat:keyword xml:lang="en">Gross value added</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/56"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dcterms:modified>
+    <dcterms:title xml:lang="fr">Valeur ajoutée brute - NACE Rév.2: G-I - volumes</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/c600d2b5-fc90-4fdd-ac8d-865f5fec962f"/>
+    <dcterms:title xml:lang="en">Gross value added - NACE Rev. 2: G-I - volumes</dcterms:title>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/d6b5b5d1-20e9-4509-bea0-e9a6a6f6ac7f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1e7e9378-d923-4b4d-8b6d-0e95c37fc083"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ef9ec469-795a-4177-a78d-25a33cdde19e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teina422_r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/c600d2b5-fc90-4fdd-ac8d-865f5fec962f">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teina422_r2.tsv.gz&amp;unzip=true"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1e7e9378-d923-4b4d-8b6d-0e95c37fc083">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teina422_r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9c25eae4-3121-48f0-bea5-7ec2958d5525">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teina422_r2.tsv.gz"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/648f924b-1160-4d73-b48f-13d34797f23e">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teina422_r2</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teina422_r2</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Az9MI3nb0yMMEz6CH78qWg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/30f86969-8d7f-4bde-872b-0d887dccdef1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teina422_r2"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dfea3251-e492-4c86-8c2c-103aee943a79">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_qna_esms.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Az9MI3nb0yMMEz6CH78qWg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/a17d8485-c403-45c3-96f6-a999e886e0b9">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b103f025-e9c5-4851-af38-a477458c5d5e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/0540b3ad-4324-4e20-885a-0d6ab74611d0"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/fe13ce48-0be9-42e4-9e08-0e6ecdc4dbc9"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/94dd0f79-5580-4e70-b78b-8f2f19fb61e0">
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teina422_r2</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/Az9MI3nb0yMMEz6CH78qWg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/fe13ce48-0be9-42e4-9e08-0e6ecdc4dbc9">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/d6b5b5d1-20e9-4509-bea0-e9a6a6f6ac7f">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d10c8a3b-0865-4694-9dad-60d367f9043e">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T10:44:25</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/Az9MI3nb0yMMEz6CH78qWg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">734</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 11:49:09.896699</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">775</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/0540b3ad-4324-4e20-885a-0d6ab74611d0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

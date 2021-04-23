@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4739be34-3ce9-4684-bb72-2cce54836a55">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-15 12:58:55.496253</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4229</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-17T14:32:19</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/ecb-web-service"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4876</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fbfce95f-758e-40e8-9e1d-daf8e257ca40">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ecb-registration.escb.eu/statistical-information</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/ecb-web-service">
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECB"/>
+    <dcatapop:ckanName>ecb-web-service</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/17b6d597-6a75-493e-b8c3-e9e2cf09ba0a"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4262"/>
+    <dcat:keyword xml:lang="en">restful</dcat:keyword>
+    <dcat:keyword xml:lang="en">ecb</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6030"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4263"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:alternative xml:lang="ro">Banca Centrală Europeană</dcterms:alternative>
+    <dcterms:alternative xml:lang="mt">Il-Bank Ċentrali Ewropew</dcterms:alternative>
+    <dcat:keyword xml:lang="en">sdmx</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4258"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-07 07:25:24.067356</dcterms:modified>
+    <dcterms:alternative xml:lang="sv">Europeiska centralbanken</dcterms:alternative>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6151"/>
+    <dcterms:alternative xml:lang="lt">Europos Centrinis Bankas</dcterms:alternative>
+    <dcterms:description xml:lang="en">[ECB statistics](https://www.ecb.europa.eu/stats/ecb_statistics/html/index.en.html) covers different statistical domains with a primary focus on the Euro Area.&#13;
+&#13;
+The ECB’s [Statistical Data Warehouse](https://sdw.ecb.europa.eu/) (SDW) contains the statistical data published by ECB.&#13;
+&#13;
+This data can be programmatically accessed via a RESTful Web-Service, which is compliant with the [SDMX](https://sdmx.org/) 2.1 standard. &#13;
+&#13;
+The Web-Service supports different output formats, such as XML, JSON and CSV.&#13;
+Please find the Web-Service with detailed help [here](https://sdw-wsrest.ecb.europa.eu/).</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/2ab7e732-38d5-40d3-89bf-180af1c5fbe3"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:alternative xml:lang="da">Den Europæiske Centralbank</dcterms:alternative>
+    <dcterms:alternative xml:lang="sk">Európska centrálna banka</dcterms:alternative>
+    <dcatapop:datasetGroup rdf:resource="web-services"/>
+    <dcterms:alternative xml:lang="nl">Europese Centrale Bank</dcterms:alternative>
+    <dcterms:alternative xml:lang="fr">Banque centrale européenne</dcterms:alternative>
+    <dcterms:alternative xml:lang="et">Euroopa Keskpank</dcterms:alternative>
+    <dcterms:alternative xml:lang="cs">Evropská centrální banka</dcterms:alternative>
+    <dcterms:alternative xml:lang="hu">Európai Központi Bank</dcterms:alternative>
+    <dcterms:alternative xml:lang="en">sdw-wsrest</dcterms:alternative>
+    <dcat:keyword xml:lang="en">statistics</dcat:keyword>
+    <dcat:keyword xml:lang="en">rest</dcat:keyword>
+    <dcterms:alternative xml:lang="de">Europäische Zentralbank</dcterms:alternative>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4256"/>
+    <dcterms:alternative xml:lang="fi">Euroopan keskuspankki</dcterms:alternative>
+    <dcat:keyword xml:lang="en">metadata</dcat:keyword>
+    <dcterms:alternative xml:lang="bg">Европейска централна банка</dcterms:alternative>
+    <dcterms:alternative xml:lang="it">Banca centrale europea</dcterms:alternative>
+    <dcterms:alternative xml:lang="hr">Europska središnja banka</dcterms:alternative>
+    <dcat:keyword xml:lang="en">web service</dcat:keyword>
+    <dcat:keyword xml:lang="en">statistical data</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-02-15 12:58:55.496253</dcterms:issued>
+    <dcterms:alternative xml:lang="pl">Europejski Bank Centralny</dcterms:alternative>
+    <dcterms:alternative xml:lang="es">Banco Central Europeo</dcterms:alternative>
+    <dcterms:alternative xml:lang="lv">Eiropas Centrālā banka</dcterms:alternative>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:alternative xml:lang="ga">An Banc Ceannais Eorpach</dcterms:alternative>
+    <dcterms:alternative xml:lang="sl">Evropska centralna banka</dcterms:alternative>
+    <dcterms:alternative xml:lang="pt">Banco Central Europeu</dcterms:alternative>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5455"/>
+    <dcatapop:datasetGroup rdf:resource="api"/>
+    <dcterms:title xml:lang="en">ECB SDMX 2.1 RESTful web service</dcterms:title>
+    <dcterms:alternative xml:lang="el">Ευρωπαϊκή Κεντρική Τράπεζα</dcterms:alternative>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/2ab7e732-38d5-40d3-89bf-180af1c5fbe3">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/fbfce95f-758e-40e8-9e1d-daf8e257ca40"/>
+    <vcard:organisation-name>European Central Bank</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/3b73a174-5f8a-472d-8182-2df7ad317e24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/17b6d597-6a75-493e-b8c3-e9e2cf09ba0a">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://sdw-wsrest.ecb.europa.eu/</dcterms:title>
+    <schema:url>https://sdw-wsrest.ecb.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/ecb-web-service"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/3b73a174-5f8a-472d-8182-2df7ad317e24">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>60640 Frankfurt am Main, Germany</vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

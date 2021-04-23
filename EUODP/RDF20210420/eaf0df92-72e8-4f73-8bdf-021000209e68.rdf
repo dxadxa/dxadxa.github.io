@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b33d5e23-40f8-4f64-acbc-9a65a84abac1">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:26</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eaf0df92-72e8-4f73-8bdf-021000209e68"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:00:26</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/470b1c59-5419-4544-9c24-e123d344c48f">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/eaf0df92-72e8-4f73-8bdf-021000209e68</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eaf0df92-72e8-4f73-8bdf-021000209e68"/>
+    <schema:url>http://data.europa.eu/89h/eaf0df92-72e8-4f73-8bdf-021000209e68</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/25a4d2dd-2531-46c9-aab1-dcf1f1359398">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eaf0df92-72e8-4f73-8bdf-021000209e68"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/jrc/geco</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3be69491-36df-42a1-a3fa-0a943cbec27e">
+    <vcard:hasEmail rdf:resource="kimon.keramidas@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/d21a53bc-bd53-436a-9b7f-1880eea72b7c"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eaf0df92-72e8-4f73-8bdf-021000209e68">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3be69491-36df-42a1-a3fa-0a943cbec27e"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0122fdfd-c3f3-4700-b5d1-c38e45b938da"/>
+    <dcterms:description xml:lang="en">Data complementing the JRC Science for Policy Global Energy and Climate Outlook report series. The data is detailed energy, greenhouse gas and air pollutant emissions balances for several scenarios of the GECO 2019 reports (Reference, 2°C, 1.5°C scenarios) for 36 world regions and the EU. The data has been produced with the global energy and GHG emissions model POLES-JRC.</dcterms:description>
+    <dcatapop:ckanName>eaf0df92-72e8-4f73-8bdf-021000209e68</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">Global Energy and Climate Outlook 2019: Energy, Greenhouse gas and Air pollutant emissions balances</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/470b1c59-5419-4544-9c24-e123d344c48f"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:identifier>eaf0df92-72e8-4f73-8bdf-021000209e68</dcterms:identifier>
+    <dcat:keyword xml:lang="en">Energy</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/25a4d2dd-2531-46c9-aab1-dcf1f1359398"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d21a53bc-bd53-436a-9b7f-1880eea72b7c">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0122fdfd-c3f3-4700-b5d1-c38e45b938da">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Global Energy and Climate Outlook 2019: Energy, Greenhouse gas and Air pollutant emissions balances</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GECOutlook/global_energy_and_climate_outlook_2019/LATEST/GECO2019_20191204.zip"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+  </rdf:Description>
+</rdf:RDF>

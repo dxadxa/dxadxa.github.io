@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/16d90ec0-9dbb-47ff-9996-b9f727d390c3">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-eurl-ecvam-chemagora</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-eurl-ecvam-chemagora</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-chemagora"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/48a1ee15-b5a7-4324-b671-2949b2cd4cfe">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">ChemAgora website</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">ChemAgora</dcterms:title>
+    <dcat:accessURL rdf:resource="http://chemagora.jrc.ec.europa.eu/chemagora/"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-chemagora">
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/48a1ee15-b5a7-4324-b671-2949b2cd4cfe"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/3cbe9b78-411c-4ca5-9569-f208f4dd5d8a"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2769dfac-5f34-40be-bfe0-54720b668234"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>jrc-eurl-ecvam-chemagora</dcatapop:ckanName>
+    <dcterms:identifier>jrc-eurl-ecvam-chemagora</dcterms:identifier>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e4c96a82-a723-4288-be2c-541345f4fe2c"/>
+    <dcterms:title xml:lang="en">ChemAgora</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/16d90ec0-9dbb-47ff-9996-b9f727d390c3"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:description xml:lang="en">The ChemAgora web portal provides search capabilities to chemical data from resources available online, enabling users to cross-reference the substances they are working on with both regulatory information and public chemical databases.  ChemAgora is a JRC contribution to assist stakeholders in the chemical risk assessment environment to gain a quick overview of globally available data about chemicals. This speeds up the process of data discovery and saves valuable resources. 
+ChemAgora, through an on-the-fly search, informs whether a chemical is known or not in each of 17 external data sources, and/or the OECD eChemPortal (featuring another 30 external sources), and provides clickable links leading to the third-party web site pages containing the information. These third-party data sources contain regulatory and/or scientific chemical information, typically using the CAS Registry Number (CASRN, a registered trademark of the American Chemical Society) as the substance identifier. ChemAgora can also map InChIKeys to CASRNs, which bridges the gap between more regulatory and scientific environments.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/3cbe9b78-411c-4ca5-9569-f208f4dd5d8a">
+    <vcard:hasEmail rdf:resource="jrc-chemagora@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a46fc0af-1077-4fcf-a546-7d64bfbffef5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2769dfac-5f34-40be-bfe0-54720b668234">
+    <dcterms:description xml:lang="en">Zanzi, A. and Wittwehr, C., Searching online chemical data repositories via the ChemAgora portal, JOURNAL OF CHEMICAL INFORMATION AND MODELING, ISSN 1549-9596, 57 (12), 2017, p. 2905-2910, JRC105359.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-chemagora"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.1021/acs.jcim.7b00086</schema:url>
+    <dcterms:title xml:lang="en">Searching online chemical data repositories via the ChemAgora portal</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/44f4992c-36ea-45d2-9d05-600b728a2c19">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-chemagora"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:10:52</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-18 07:17:03.107620</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">605</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">683</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a46fc0af-1077-4fcf-a546-7d64bfbffef5">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e4c96a82-a723-4288-be2c-541345f4fe2c">
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-chemagora"/>
+    <schema:url xml:lang="en">http://chemagora.jrc.ec.europa.eu/chemagora/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+</rdf:RDF>

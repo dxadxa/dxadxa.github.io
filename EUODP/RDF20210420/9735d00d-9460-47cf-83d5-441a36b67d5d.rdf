@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9d38d9d6-2e12-40c0-b58f-455bfd7617cf">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">All maps produced in scope of this Copernicus EMS Rapid Mapping activation downloadable as georeferenced PDFs, TIFFs and JPEGs together with relevant vector data (SHP, KML) as well.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://emergency.copernicus.eu/EMSR064"/>
+    <dcterms:title xml:lang="en">Copernicus EMS Rapid Mapping Activation [EMSR064]: Wind storm in Poland (2013-12-28)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/dd150ea5-c312-4ff8-af08-4603a612d6b7">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://emergency.copernicus.eu/EMSR064</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/9735d00d-9460-47cf-83d5-441a36b67d5d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3e1c0e2b-5253-4673-8a56-cdf182b10aec">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/9735d00d-9460-47cf-83d5-441a36b67d5d"/>
+    <schema:url>http://data.europa.eu/89h/9735d00d-9460-47cf-83d5-441a36b67d5d</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/9735d00d-9460-47cf-83d5-441a36b67d5d</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5c0ca874-fa47-49fe-a24a-42ba42d0d68e">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/b6ef4d5d-4c40-4d4d-94d2-92d1f9a971fb"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-ems-rapidmapping@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/9050d63d-755a-4342-94f1-6694d346489c">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T13:49:38</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/9735d00d-9460-47cf-83d5-441a36b67d5d"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-26 14:55:34.754655</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/9735d00d-9460-47cf-83d5-441a36b67d5d">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9d38d9d6-2e12-40c0-b58f-455bfd7617cf"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-28</dcterms:issued>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/dd150ea5-c312-4ff8-af08-4603a612d6b7"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5c0ca874-fa47-49fe-a24a-42ba42d0d68e"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">Wind storm in Poland (2013-12-28)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:keyword xml:lang="en">Orthoimagery</dcat:keyword>
+    <dcatapop:ckanName>9735d00d-9460-47cf-83d5-441a36b67d5d</dcatapop:ckanName>
+    <dcterms:description xml:lang="en">&lt;br/&gt; 
+Activation time (UTC): 2013-12-28 11:30:00&lt;br/&gt; 
+Event time (UTC): 2013-12-24 10:00:00&lt;br/&gt; 
+Event type: Wind storm&lt;br/&gt; 
+&lt;br/&gt; 
+Activation reason: &lt;br/&gt; 
+Heavy wind between 24th and 27th of december caused lots of damages of buildings, infrastructures and forest&lt;br/&gt; 
+&lt;br/&gt; 
+Reference products: 3&lt;br/&gt; 
+Delineation products: 0&lt;br/&gt; 
+Grading products: 3&lt;br/&gt; 
+&lt;br/&gt; 
+Copernicus Emergency Management Service - Mapping is a service funded by European Commission aimed at providing actors in the management of natural and man-made disasters, in particular Civil Protection Authorities and Humanitarian Aid actors, with mapping products based on satellite imagery.&lt;br/&gt;</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/3e1c0e2b-5253-4673-8a56-cdf182b10aec"/>
+    <dcat:keyword xml:lang="en">72 GEOGRAPHY</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/RUS"/>
+    <dcat:keyword xml:lang="en">Regions and cities</dcat:keyword>
+    <dcterms:identifier>9735d00d-9460-47cf-83d5-441a36b67d5d</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b6ef4d5d-4c40-4d4d-94d2-92d1f9a971fb">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+</rdf:RDF>

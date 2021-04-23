@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/annual-above-ground-vegetation-productivity">
+    <dcterms:description xml:lang="en">The raster files are the above ground vegetation productivity time-series and the derived linear trend for the period 2000-2016.The data set addresses trends in land surface productivity derived from remote sensing observed time series of vegetation indices. The vegetation index used in the indicator is the Plant Phenology Index (PPI, Jin and Eklundh, 2014). PPI is based on the MODIS Nadir BRDF-Adjusted Reflectance product (MODIS MCD43 NBAR. The product provides reflectance data for the MODIS “land” bands (1 - 7) adjusted using a bi-directional reflectance distribution function. This function models values as if they were collected from a nadir-view to remove so called cross-track illumination effects. The Plant Phenology Index (PPI) is a new vegetation index optimized for efficient monitoring of vegetation phenology. It is derived from radiative transfer solution using reflectance in visible-red (RED) and near-infrared (NIR) spectral domains. PPI is defined to have a linear relationship to the canopy green leaf area index (LAI) and its temporal pattern is strongly similar to the temporal pattern of gross primary productivity (GPP) estimated by flux towers at ground reference stations. PPI is less affected by presence of snow compared to commonly used vegetation indices such as Normalized Difference Vegetation Index (NDVI) or Enhanced Vegetation Index (EVI).The product is distributed with 500 m pixel size (MODIS Sinusoidal Grid) with 8-days compositing period.</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2724"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <dcat:keyword>vegetation growing season</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7a71bf4d-850a-4eae-bdb6-4a2ddfc74063"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Vegetation productivity 2000-2016</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d0296f24-c792-4cbf-987c-5c50652a3d3f"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:keyword>phenology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/bd53ff81-46f6-4cfa-8402-acbe8986214f"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>DAT-225-en</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/de482934-fa29-47df-b78b-5c575cf20b19"/>
+    <dcat:keyword>productivity</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/77132e4f-52d0-4d22-b29b-577aefff5381"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-16T15:45:00Z</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/fc2d4d58-3628-43e0-8814-caa8376812cd"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-16T12:36:01Z</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d0296f24-c792-4cbf-987c-5c50652a3d3f">
+    <dcterms:description></dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/42012fdb-4612-41fb-a8f2-a195692ecf24"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">Trends in annual above ground vegetation productivity 2000-2016, version 1, Mar. 2019 - INSPIRE Metadata</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/a5c694e2-bd67-4c93-baae-989fbb96622d">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/fc2d4d58-3628-43e0-8814-caa8376812cd">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/29ae2d47-7af2-4c09-ba5f-e2fbb7c2b0d1"/>
+    <dcterms:title xml:lang="en">Annual above ground vegetation productivity time-series 2000-2016, version 1, Aug. 2018 - INSPIRE Metadata</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7a71bf4d-850a-4eae-bdb6-4a2ddfc74063">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/a5c694e2-bd67-4c93-baae-989fbb96622d"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/ff9079e6-e687-4bd2-adb0-b3f9ce236b38"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/03125ae5-a25a-4ab4-b335-7938ab14d926"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/de482934-fa29-47df-b78b-5c575cf20b19">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+    <dcat:accessURL rdf:resource="https://cmshare.eea.europa.eu/s/67JC5awA46AEkiH/download"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">Annual above ground vegetation productivity time-series 2000-2016, version 1, Aug. 2018</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/03125ae5-a25a-4ab4-b335-7938ab14d926">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/bd53ff81-46f6-4cfa-8402-acbe8986214f">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description></dcterms:description>
+    <dcat:accessURL rdf:resource="https://ftp.eea.europa.eu/www/LINT/LINT_2000_2016relgrowth.zip"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Trends in annual above ground vegetation productivity 2000-2016, version 1, Mar. 2019</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3ae974d5-7d87-402d-ba87-ed2fffaf9a09">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:28:43</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/annual-above-ground-vegetation-productivity"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:28:43</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</dcatapop:numberOfViews>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/77132e4f-52d0-4d22-b29b-577aefff5381">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/annual-above-ground-vegetation-productivity"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Vegetation productivity 2000-2016</dcterms:title>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/annual-above-ground-vegetation-productivity</schema:url>
+  </rdf:Description>
+</rdf:RDF>

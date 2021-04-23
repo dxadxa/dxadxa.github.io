@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv4tox2">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e3187ff3-26ff-4cce-9f32-a06731b1533f"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:identifier>jrc-edgar-emissionmapsv4tox2</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:description xml:lang="en">The EDGARv4.tox2 is part of the Emission Database for Global Atmospheric Research (EDGAR), which provides time-series of man-made emissions of greenhouse gases, air pollutants and toxic pollutants. The EDGARv4.tox2 contains emissions of total mercury and of the following mercury species: gaseous elemental mercury (GEM) (Hg0), gaseous oxidised mercury (GOM) (Hg2 +) and particle bound mercury (PBM) (Hg-P). This is an independent global mercury emissions inventory consistent across all world countries, which includes emissions from all key mercury emitting sources. Given the local-scale impacts of mercury, the emissions are gridded on 0.1 × 0.1 degree resolution maps using detailed proxy data.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/68ce8662-4a98-47df-9f8d-af1fa6f3c301"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/da51fa77-02c5-4255-8248-a5ecef9df7f5"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/6145fefd-916e-436c-a353-e21c730d9c5b"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-10</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-10</dcterms:modified>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/fdc9892e-95a1-4563-9083-7fe95c3c3002"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6400"/>
+    <dcterms:title xml:lang="en">EDGARv4.tox2 Emission Maps</dcterms:title>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:ckanName>jrc-edgar-emissionmapsv4tox2</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/741081c4-6c4b-4882-a529-8c599c3bbb3e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/68ce8662-4a98-47df-9f8d-af1fa6f3c301">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v4tox2"/>
+    <dcterms:description xml:lang="en">In the EDGARv4.tox2, mercury emissions are disaggregated by sector and gridded
+emission data files are provided in two formats: netCDF (in kg/m2/s) and .txt (in t/cell). The
+EDGARv4.tox2 contains 0.1x0.1 emission gridmaps of total mercury and mercury species
+from 1970-2012. The emissions of total mercury (Hg), gaseous elemental mercury (Hg_G),
+gaseous oxidized mercury (Hg_D) and particle bound mercury (Hg_P) are aggregated by
+sector as following: 1. Cement production (cement); 2. Glass production (glass); 3. Chlor-alkali industry, mercury cell
+technology (chlor); 4. Combustion in power generation and in industry (comb_power_ind);
+5. Combustion in residential and other (comb_res_oth); 6. Artisanal and small-scale gold
+production (gold_A); 7. Large scale gold production (gold_L); 8. Iron and steel production (iro);
+9. Production of Zn, Cu, Pb and Hg (nfe_oth) and 10. Solid waste incineration and agricultural
+waste burning (waste); 11. Road Transport (tro); 12. Shipping (ship). Complete documentation is provided in the paper: Evaluating EDGARv4.tox2 speciated mercury emissions ex-post scenarios and their impacts on modelled global and regional wet deposition patterns.</dcterms:description>
+    <dcterms:title xml:lang="en">EDGAR V4.tox2 Emission Maps</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/fdc9892e-95a1-4563-9083-7fe95c3c3002">
+    <dcterms:title xml:lang="en">The EDGAR project homepage</dcterms:title>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv4tox2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e3187ff3-26ff-4cce-9f32-a06731b1533f">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv4tox2"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Muntean, M., Janssens-Maenhout, G., Song, S., Giang, A., Selin, N., Zhong, H., Zhao, Y., Olivier, J., Guizzardi, D., Crippa, M., Schaaf, E. and Dentener, F., Evaluating EDGARv4.tox2 speciated mercury emissions ex-post scenarios and their impacts on modelled global and regional wet deposition patterns, ATMOSPHERIC ENVIRONMENT, ISSN 1352-2310, 184, 2018, p. 56-68, JRC105323.</dcterms:description>
+    <dcterms:title xml:lang="en">Evaluating EDGARv4.tox2 speciated mercury emissions ex-post scenarios and their impacts on modelled global and regional wet deposition patterns</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.1016/j.atmosenv.2018.04.017</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/2c2a6e1b-e7f6-49a5-8a15-49b7c4e6eff7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv4tox2"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:23</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">444</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:23</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/da51fa77-02c5-4255-8248-a5ecef9df7f5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv4tox2"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=4tox2</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/6145fefd-916e-436c-a353-e21c730d9c5b">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-edgar-emissionmapsv4tox2</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-edgar-emissionmapsv4tox2</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-emissionmapsv4tox2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/741081c4-6c4b-4882-a529-8c599c3bbb3e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

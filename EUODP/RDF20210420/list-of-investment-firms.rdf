@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5e90903c-965a-4d47-ac45-a44cee25e575">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/list-of-investment-firms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_https://www.esma.europa.eu/Investment-Firms</dcterms:title>
+    <schema:url>https://www.esma.europa.eu/Investment-Firms</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d27a2df9-4a84-4eff-bafb-b6cfa7b2cf6b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7D%2B(ae_entityTypeCode%3AMIF)&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=json&amp;indent=true"/>
+    <dcterms:title xml:lang="en">Request the list of Investment Firms and activities (JSON)</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7D%2B(ae_entityTypeCode%3AMIF)&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=json&amp;indent=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/list-of-investment-firms">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/9aab3b66-e0b4-45d4-a572-4ee8ef72d5e6"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/c84c01b3-eae9-4883-86cf-9cf0f4a64122"/>
+    <dcterms:alternative xml:lang="en">MIFID investment firms</dcterms:alternative>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5e90903c-965a-4d47-ac45-a44cee25e575"/>
+    <dcterms:title xml:lang="en">List of investment firms</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/4583c177-5a09-4f6c-9953-1ada29e413e2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8469"/>
+    <dcat:keyword xml:lang="en">investment firms</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/877adeb6-a81c-4167-8bee-0eaac87df6ed"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1804"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1459"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1795"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/63c726cf-169e-4615-98f0-4370b477d9f6"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d27a2df9-4a84-4eff-bafb-b6cfa7b2cf6b"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4195"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESMA"/>
+    <dcterms:description xml:lang="en">The Omnibus Directive requires ESMA to establish a list of all investment firms in the European Union. The Registries database centralises all the relevant information in this regard received from the national competent authorities, and contains information on the services or activities for which the investment firm is authorised.  The database is updated on a regular basis.   &#13;
+&#13;
+The list of investment firms authorised by the national competent authorities of the Member States also includes information on the services and activities for which the relevant investment firm is authorised and on published administrative measure, sanctions or criminal sanctions relating to the relevant investment firm that may have been imposed pursuant to the provisions of national law implementing MAD and MiFID II]. Where a competent authority has withdrawn an authorisation that withdrawal shall be indicated on the list for a period of five years.  &#13;
+&#13;
+This database contains also data related to European Economic Area (EEA) / European Free Trade Association (EFTA) States based on the notifications received by ESMA, the publication of which does not affect the status of incorporation of relevant EU law into the EEA Agreement and any related legal consequences.&#13;
+</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 15:35:31.853525</dcterms:issued>
+    <dcatapop:ckanName>list-of-investment-firms</dcatapop:ckanName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/fea925a1-3171-4fdb-b612-1116cdabc224">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3754</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-07-11T14:41:31</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/list-of-investment-firms"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-07-27 15:35:31.853525</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/c84c01b3-eae9-4883-86cf-9cf0f4a64122">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">https://registers.esma.europa.eu/publication/helpApp#MiFID_UCITS_AIFMD_Information</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/list-of-investment-firms"/>
+    <dcterms:title xml:lang="en">MiFID/UCITS/AIFMD Core Schema Information</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/63c726cf-169e-4615-98f0-4370b477d9f6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Access the MiFID/UCITS/AIFMD entities Register </dcterms:title>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_upreg#"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_upreg#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/9aab3b66-e0b4-45d4-a572-4ee8ef72d5e6">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Request the list of Investment Firms and activities (XML)</dcterms:title>
+    <dcat:accessURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7D%2B(ae_entityTypeCode%3AMIF)&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=xml&amp;indent=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcat:downloadURL rdf:resource="https://registers.esma.europa.eu/solr/esma_registers_upreg/select?q=%7B!join+from%3Did+to%3D_root_%7D%2B(ae_entityTypeCode%3AMIF)&amp;fq=(type_s%3Aparent)(entity_type%3AaeActivity)(entity_type%3AaeActivityHistory)&amp;rows=1000&amp;wt=xml&amp;indent=true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/4583c177-5a09-4f6c-9953-1ada29e413e2">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/877adeb6-a81c-4167-8bee-0eaac87df6ed">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">ESMA Registers - Application to Application Help File</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://registers.esma.europa.eu/publication/helpApp</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/list-of-investment-firms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

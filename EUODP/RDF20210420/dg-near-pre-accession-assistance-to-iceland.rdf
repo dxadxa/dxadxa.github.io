@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/d6b4ded0-83bf-446d-b2b3-17bc0cd81062">
+    <dcterms:title xml:lang="en">CSV Conversion Tool</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:downloadURL rdf:resource="http://tools.aidinfolabs.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_IS.xml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="http://tools.aidinfolabs.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_IS.xml"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/41826392-9034-4f30-9e8d-be9db35b77ce">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/europeaid/files/iati/EC-ELARG_IS.xml</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dg-near-pre-accession-assistance-to-iceland"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/europeaid/files/iati/EC-ELARG_IS.xml</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dg-near-pre-accession-assistance-to-iceland">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/d6b4ded0-83bf-446d-b2b3-17bc0cd81062"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4057"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ISL"/>
+    <dcterms:title xml:lang="en">DG NEAR - Pre-accession assistance to Iceland</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1509"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3b7feaaf-2795-4340-b04e-ba043ee6ad1b"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NEAR"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/b8a9e854-a268-4910-a668-37a1215d8cfe"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6710"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-08 16:35:23.760680</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/7132"/>
+    <dcterms:description xml:lang="en">Information on projects financed through the Instrument for Pre-accession Assistance (IPA) in Iceland from year 2010 to 2013.</dcterms:description>
+    <dcatapop:ckanName>dg-near-pre-accession-assistance-to-iceland</dcatapop:ckanName>
+    <dcterms:alternative xml:lang="en">European Commission - Near Activity File - Iceland </dcterms:alternative>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 17:58:09.807179</dcterms:issued>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/12"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/41826392-9034-4f30-9e8d-be9db35b77ce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3b7feaaf-2795-4340-b04e-ba043ee6ad1b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:issued xml:lang="en">2014-01-06 15:00:57.628189</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:title xml:lang="en">Download Near Activity File - Iceland </dcterms:title>
+    <dcat:accessURL rdf:resource="https://ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_IS.xml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="https://ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_IS.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/b8a9e854-a268-4910-a668-37a1215d8cfe">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/6c27940b-24e3-435e-9ad9-96d07d2c005a"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/f91c2c32-638b-48ae-aa8e-d01bf7342249"/>
+    <vcard:organisation-name>Delegation of the European Union to Iceland</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="mailto:Delegation-Iceland@eeas.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/54a4308a-b055-4644-bb27-c5b79be049fe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/f91c2c32-638b-48ae-aa8e-d01bf7342249">
+    <vcard:hasValue rdf:resource="+3545203399"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/0babee49-4d8d-422d-9a67-2a427033efd7">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-07T17:42:31</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dg-near-pre-accession-assistance-to-iceland"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1274</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1384</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-27 17:58:09.807179</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/54a4308a-b055-4644-bb27-c5b79be049fe">
+    <schema:url>http://eeas.europa.eu/delegations/iceland/index_en.htm</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/6c27940b-24e3-435e-9ad9-96d07d2c005a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Aðalstræti 6, </vcard:street-address>
+  </rdf:Description>
+</rdf:RDF>

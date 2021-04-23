@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/b18d9435-1666-4c4b-9a0a-bcb6dd0c461d">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a87f73a4-a60d-423a-87d9-027e9acd1143"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:description xml:lang="en">Human activities and the corresponding anthropogenic emissions into the atmosphere show marked temporal variations, from inter-annual to hourly levels. Yearly emissions might be unable, for example, to adequately reflect heavy pollution episodes, seasonal trends, or any process which is inherently time-dependant, thus undermining the capability to determine the causes and to take adequate mitigation measure. Moreover, chemical transport models (CTMs) require the use of spatio-temporally distributed emission data, to simulate the dynamics of photochemical compounds in the atmosphere and pollution loadings during different periods of the year and during different hours of the day.</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3440fbbc-e3bc-48ef-a063-d228f4334047"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7ea5505b-be71-4cbd-a0e0-691195d5a0ee"/>
+    <dcterms:title xml:lang="en">EDGAR_temporal_profiles_r1: New high resolution temporal profiles in EDGAR</dcterms:title>
+    <dcterms:identifier>b18d9435-1666-4c4b-9a0a-bcb6dd0c461d</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6400"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d922d48e-8cf2-46ae-b8d9-909d322e4026"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcatapop:ckanName>b18d9435-1666-4c4b-9a0a-bcb6dd0c461d</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7ea5505b-be71-4cbd-a0e0-691195d5a0ee">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/8ee84956-69ae-40ac-8338-e7a2a44c1485">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/b18d9435-1666-4c4b-9a0a-bcb6dd0c461d"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:15</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-07T14:36:15</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d922d48e-8cf2-46ae-b8d9-909d322e4026">
+    <schema:url>http://data.europa.eu/89h/b18d9435-1666-4c4b-9a0a-bcb6dd0c461d</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/b18d9435-1666-4c4b-9a0a-bcb6dd0c461d</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/b18d9435-1666-4c4b-9a0a-bcb6dd0c461d"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3440fbbc-e3bc-48ef-a063-d228f4334047">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/temp_profile"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:description xml:lang="en">High resolution temporal profiles have been developed within the EDGAR database, allowing the disaggregation of the annual emission into monthly and hourly emissions, with country- and sector-specific temporal profiles for regulated gaseous and particulate air pollutants, as well as for greenhouse gases. An additional novelty of this methodology is the development of time-varying yearly profiles for sectors showing a strong seasonal pattern over different years (e.g. power generation and small combustion).</dcterms:description>
+    <dcterms:title xml:lang="en">EDGAR Temporal profiles r1</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a87f73a4-a60d-423a-87d9-027e9acd1143">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/b18d9435-1666-4c4b-9a0a-bcb6dd0c461d"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=temp_profile&amp;SECURE=123</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

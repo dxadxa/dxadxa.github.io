@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3ee2f8d2-2f82-4fcb-9608-447ba81ad6e3">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1/data/post_cube_hist_x$post_ps_let?format=tsv&amp;compressed=false"/>
+    <dcterms:title xml:lang="en">Download dataset in TSV format (not compressed)</dcterms:title>
+    <dcterms:title xml:lang="de">Datensatz im TSV Format (entpackt) herunterladen</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format TSV (non compressé)</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/999bbaeb-0a6b-4ddf-af77-759b337a618f">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <schema:url xml:lang="en">http://ec.europa.eu/growth/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/A8daUUnQuEhp5OPyRgUxg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/58abbe71-b160-4274-b156-49ae2202a40d">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format JSON (non compressé)</dcterms:title>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1/data/post_cube_hist_x$post_ps_let?format=json&amp;compressed=false"/>
+    <dcterms:title xml:lang="de">Datensatz im JSON Format herunterladen (entpackt)</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <dcterms:title xml:lang="en">Download dataset in JSON format (not compressed)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/A8daUUnQuEhp5OPyRgUxg">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e6b3774b-d10e-45a4-bb6d-a7b7f5fb6990"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f0ba9a29-f7f9-45b8-929d-0ba0db30f96a"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/40fd9e99-1a89-4fc5-8596-d82e0e9b9fd7"/>
+    <dcterms:title xml:lang="en">Domestic and international postal services (USP) - letter mail (2004-2011)</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3ee2f8d2-2f82-4fcb-9608-447ba81ad6e3"/>
+    <dcterms:description xml:lang="fr">Services postaux domestiques et internationaux - expédition de lettres (2004-2011)</dcterms:description>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/999bbaeb-0a6b-4ddf-af77-759b337a618f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f311b9e6-0206-4cea-a661-841d00077068"/>
+    <dcterms:identifier>POST_CUBE_HIST_X$POST_PS_LET</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/58abbe71-b160-4274-b156-49ae2202a40d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/836c400e-9213-495c-865b-da02381060da"/>
+    <dcterms:title xml:lang="fr">Services postaux domestiques et internationaux - expédition de lettres (2004-2011)</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-13</dcterms:modified>
+    <dcterms:description xml:lang="de">Inland und internationale postdienste - Briefpost (2004-2011)</dcterms:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4dbb2cce-1fb4-4165-adc7-6d350d164b92"/>
+    <dcterms:title xml:lang="de">Inland und internationale postdienste - Briefpost (2004-2011)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a00ab057-ba5e-48fa-bf6c-5b40a117f256"/>
+    <dcatapop:ckanName>A8daUUnQuEhp5OPyRgUxg</dcatapop:ckanName>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/GROW"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/00fdce1f-ef78-4102-9862-e668b1dcd7ac"/>
+    <dcterms:description xml:lang="en">Domestic and international postal services (USP) - letter mail (2004-2011)</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/6fe8ab42-bdac-40bf-81b9-cea789a65d17"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a00ab057-ba5e-48fa-bf6c-5b40a117f256">
+    <schema:url xml:lang="en">https://ec.europa.eu/eurostat/online-help/public/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/A8daUUnQuEhp5OPyRgUxg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:title xml:lang="en">Eurostat - European statistics : online help</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/6fe8ab42-bdac-40bf-81b9-cea789a65d17">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/3d81b92c-5392-40b7-9ea9-7731d2ed1337"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/5ea2ec3c-4faa-41ca-8caa-d373c24bfc1d"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/f53d32f0-bc1d-4de3-988c-6c9c25c4cde5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Directorate General for Internal Market, Industry, Entrepreneurship and SMEs</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/40fd9e99-1a89-4fc5-8596-d82e0e9b9fd7">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Download dataset in CSV format (not compressed)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="de">Datensatz im CSV Format (entpackt) herunterladen</dcterms:title>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format CSV (non compressé)</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1/data/post_cube_hist_x$post_ps_let?format=csv&amp;compressed=false"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f0ba9a29-f7f9-45b8-929d-0ba0db30f96a">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Mehr Informationen auf der Webseite der Generaldirektion Wachstum, Binnenmarkt, Industrie, Unternehmertum und KMU</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/databrowser/product/page/POST_CUBE_HIST_X$POST_PS_LET"/>
+    <dcterms:title xml:lang="fr">Plus d'information sur le site web de la direction Générale Croissance, Marché intérieur, industrie, entrepreneuriat et PME</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">More information on the Website of Directorate-General of Internal Market, Industry, Entrepreneurship and SMEs</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f311b9e6-0206-4cea-a661-841d00077068">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="fr">Télécharger un dataset au format SDMX-ML 2.1 generic</dcterms:title>
+    <dcterms:title xml:lang="en">Download dataset in SDMX-ML 2.1 generic format</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1/data/post_cube_hist_x$post_ps_let?format=sdmx_2.1_generic&amp;compressed=true"/>
+    <dcterms:title xml:lang="de">Datensatz im SDMX-ML 2.1 generic Format herunterladen</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/836c400e-9213-495c-865b-da02381060da">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:title xml:lang="fr">Télécharger une structure de données au format SDMX-ML 2.1</dcterms:title>
+    <dcterms:title xml:lang="en">Download data structure in SDMX-ML 2.1 format</dcterms:title>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1/dataflow/GROW/post_cube_hist_x$post_ps_let/1.0?references=descendants&amp;detail=referencepartial&amp;format=sdmx_2.1_generic&amp;compressed=false"/>
+    <dcterms:title xml:lang="de">Strukturdefinition im SDMX-ML 2.1 Format herunterladen</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4dbb2cce-1fb4-4165-adc7-6d350d164b92">
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/grow/redisstat/databrowser/product/view/POST_CUBE_HIST_X$POST_PS_LET"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Data visualization. Table, graphs and map visualizations are also available.</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Datenvisualisierung. Tabellen, Grafiken und geografische Darstellungen sind ebenfalls verfügbar.</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="fr">Visualisation de données. Des visualisations sous forme de tableau, graphique et carte géographique sont aussi disponibles.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5ea2ec3c-4faa-41ca-8caa-d373c24bfc1d">
+    <schema:url>http://ec.europa.eu/growth/contact_en</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/f9d5ee6a-415c-4d1c-80d3-79a603f9163e">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-01-25T15:56:03</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-05T07:55:41</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/A8daUUnQuEhp5OPyRgUxg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/00fdce1f-ef78-4102-9862-e668b1dcd7ac">
+    <dcterms:title xml:lang="en">title_https://webgate.ec.europa.eu/grow/redisstat/databrowser/product/page/POST_CUBE_HIST_X%24POST_PS_LET</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/A8daUUnQuEhp5OPyRgUxg"/>
+    <schema:url>https://webgate.ec.europa.eu/grow/redisstat/databrowser/product/page/POST_CUBE_HIST_X%24POST_PS_LET</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/3d81b92c-5392-40b7-9ea9-7731d2ed1337">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Directorate-General for Employment, Social Affairs and Inclusion European Commission udergemselaan 45 1040 Bruxelles/Brussel Belgium</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e6b3774b-d10e-45a4-bb6d-a7b7f5fb6990">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/assets/grow/growth/_toolbox/postal/metadata/en/post_esms.htm</schema:url>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/A8daUUnQuEhp5OPyRgUxg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/f53d32f0-bc1d-4de3-988c-6c9c25c4cde5">
+    <vcard:hasValue rdf:resource="+3222991111"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+</rdf:RDF>

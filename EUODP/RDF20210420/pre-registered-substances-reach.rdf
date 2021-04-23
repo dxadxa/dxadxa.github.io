@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/pre-registered-substances-reach">
+    <dcat:keyword xml:lang="en">European LIst of Notified Chemical Substances</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_e5d85c14"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/701e01e5-1843-4af6-a767-307142ec6572"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcatapop:ckanName>pre-registered-substances-reach</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">pre-registration</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2739"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECHA"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcterms:title xml:lang="en">List of pre-registered substances under REACH</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1f0e8a96-b866-4836-ad3a-825e834da8b3"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 17:15:06.774813</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/534663d1-ca1c-4661-8a24-8bc973031d4d"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:keyword xml:lang="en">chemicals</dcat:keyword>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-26 14:22:47.819132</dcterms:modified>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/728ac647-a6b8-48af-8aac-5564bdf82728"/>
+    <dcat:keyword xml:lang="en">EINECS</dcat:keyword>
+    <dcat:keyword xml:lang="en">chemical substances</dcat:keyword>
+    <dcat:keyword xml:lang="en">REACH</dcat:keyword>
+    <dcat:keyword xml:lang="en">European INventory of Existing Commercial chemical Substances</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">During the six month period from 1 June to 1 December 2008, 143,000 substances were pre-registered&#13;
+by 65,000 companies. The pre-registrations cover all the EU “existing substances” (EINECS) and the list of notified new substances (ELINCS).</dcterms:description>
+    <dcat:keyword xml:lang="en">ELINCS</dcat:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1f0e8a96-b866-4836-ad3a-825e834da8b3">
+    <dcterms:description xml:lang="en">Pre-registered substances list, EC Numbers from 300-000-3 to 500-774-4</dcterms:description>
+    <dcterms:title xml:lang="en">Download the list in XML format (encoded in UTF-8):</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:modified xml:lang="en">2009-03-27 00:00:00</dcterms:modified>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://www.echa.europa.eu/web/guest/information-on-chemicals/pre-registered-substances"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:issued xml:lang="en">2013-07-25 12:49:00.350629</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/728ac647-a6b8-48af-8aac-5564bdf82728">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/pre-registered-substances-reach"/>
+    <schema:url>http://www.echa.europa.eu/web/guest/information-on-chemicals/pre-registered-substances</schema:url>
+    <dcterms:title xml:lang="en">title_http://www.echa.europa.eu/web/guest/information-on-chemicals/pre-registered-substances</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/534663d1-ca1c-4661-8a24-8bc973031d4d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:modified xml:lang="en">2009-03-27 00:00:00</dcterms:modified>
+    <dcterms:issued xml:lang="en">2013-07-25 12:47:53.753051</dcterms:issued>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="https://www.echa.europa.eu/web/guest/information-on-chemicals/pre-registered-substances"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Download the list in CSV format (encoded in UTF-8)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/71282b80-864b-4d28-8365-fad73b599760">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-20T16:13:39</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-27 17:15:06.774813</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">622</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">704</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/pre-registered-substances-reach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/701e01e5-1843-4af6-a767-307142ec6572">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

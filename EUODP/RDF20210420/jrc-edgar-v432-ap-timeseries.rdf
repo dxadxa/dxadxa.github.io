@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/765ed2f7-c54e-400d-8fee-d4de0c01ba33">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-timeseries"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=432_AP</schema:url>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-timeseries">
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">Timeseries of air pollutants (SO2, NOx, CO, NMVOC, NH3, PM10, PM2.5, BC, OC)  from 1970 till 2012 for all world countries with sector-specific break-down.</dcterms:description>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/48829722-028c-407a-bf22-4c88f83966d0"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/a31bbb36-6d86-491a-9597-567eeb0af2df"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/765ed2f7-c54e-400d-8fee-d4de0c01ba33"/>
+    <dcterms:title xml:lang="en">Emissions Database for Global Atmospheric Research, version v4.3.2 part II Air Pollutants (time-series)</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5650"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8ac4bfe9-ac47-4a0c-8731-790c0b4585e2"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:identifier>jrc-edgar-v432-ap-timeseries</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-08</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcatapop:ckanName>jrc-edgar-v432-ap-timeseries</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b6b7f4cf-3f3b-4869-819c-2ca555a5696f"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-08</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8ac4bfe9-ac47-4a0c-8731-790c0b4585e2">
+    <dcterms:description xml:lang="en">Timeseries in csv or excel format with sector- and country-specific emissions from 1970-2012</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v432_AP"/>
+    <dcterms:title xml:lang="en">JRC-EDGARv4.3.2: AP emissions time-series</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b6b7f4cf-3f3b-4869-819c-2ca555a5696f">
+    <dcterms:title xml:lang="en">Gridded emissions of air pollutants for the period 1970-2012 within EDGAR v4.3.2</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.5194/essd-10-1987-2018</schema:url>
+    <dcterms:description xml:lang="en">Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E., Dentener, F., Van Aardenne, J., Monni, S., Doering, U., Olivier, J., Pagliari, V. and Janssens-Maenhout, G., Gridded emissions of air pollutants for the period 1970-2012 within EDGAR v4.3.2, Earth System Science Data (ESSD) and Earth System Science Data Discussions, ISSN 1866-3508 (online), 10, 2018, p. 1987-2013, JRC111111.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-timeseries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/955b9586-cb5f-42be-9381-a5bfa2b860e1">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-timeseries"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:40</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:40</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/48829722-028c-407a-bf22-4c88f83966d0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a31bbb36-6d86-491a-9597-567eeb0af2df">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-edgar-v432-ap-timeseries</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-edgar-v432-ap-timeseries</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-v432-ap-timeseries"/>
+  </rdf:Description>
+</rdf:RDF>

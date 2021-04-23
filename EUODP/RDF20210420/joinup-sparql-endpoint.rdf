@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/joinup-sparql-endpoint">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DIGIT"/>
+    <dcterms:title xml:lang="en">Joinup - SPARQL endpoint</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/7219"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">Joinup is a collaborative platform created by the European Commission and funded by the European Union via the Interoperability solutions for public administrations, businesses and citizens (ISA2) Programme. It offers several services that aim to help e-Government professionals share their experience with each other. We also hope to support them to find, choose, re-use, develop and implement interoperability solutions.&#13;
+&#13;
+The joinup website (https://joinup.ec.europa.eu) exposes a SPARQL endpoint&#13;
+containing all semantic content available on the website.</dcterms:description>
+    <dcat:keyword xml:lang="en">SPARQL</dcat:keyword>
+    <dcatapop:datasetGroup rdf:resource="sparql-endpoints"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5188"/>
+    <dcat:keyword xml:lang="en">joinup</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>joinup-sparql-endpoint</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4c605ca4-22da-4ecd-8547-100239ad1add"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_a17a2156"/>
+    <dcat:keyword xml:lang="en">semantic web</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6894"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/8b8cac9a-a1cd-4430-9282-69272c80fc86"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8d0502f4-d694-42fe-be75-13e61682504a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/8b8cac9a-a1cd-4430-9282-69272c80fc86">
+    <dcterms:description xml:lang="en">The joinup website (https://joinup.ec.europa.eu) exposes a SPARQL endpoint&#13;
+containing all semantic content available on the website.</dcterms:description>
+    <dcat:accessURL rdf:resource="https://joinup.ec.europa.eu/sparql/"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SPARQLQ"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Joinup SPARQL endpoint</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/308397c0-9d00-438e-9433-8df907e6f100">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/joinup-sparql-endpoint"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">713</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-10-16T09:38:05</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-17T14:42:58</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8d0502f4-d694-42fe-be75-13e61682504a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4c605ca4-22da-4ecd-8547-100239ad1add">
+    <dcterms:title xml:lang="en">title_https://joinup.ec.europa.eu</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://joinup.ec.europa.eu</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/joinup-sparql-endpoint"/>
+  </rdf:Description>
+</rdf:RDF>

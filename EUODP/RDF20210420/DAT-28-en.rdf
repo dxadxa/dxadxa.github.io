@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/0c1e24f9-b55f-448d-895a-72477f0d3a30">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-09-13T00:04:09</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-04-11T00:02:46</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/DAT-28-en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/6b2e4443-949a-4fb4-9e38-0c0339a35cbd">
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/730d8bed-96b3-421c-84a0-20ed27a25469"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/dec36ad1-9722-4355-8703-18234881defb"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/6fb364c4-f883-41b8-8a68-5199d48e5aef"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/DAT-28-en">
+    <dcterms:description xml:lang="en">.</dcterms:description>
+    <dcterms:identifier>DAT-28-en</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-01-01T00:00:00Z</dcterms:issued>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6400"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/8550"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:title xml:lang="en">Modelled deposition estimates for sulphur and nitrogen from the EMEP Unified Model on the standard EMEP grid resolution of approx 50km x 50km</dcterms:title>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4218"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/6b2e4443-949a-4fb4-9e38-0c0339a35cbd"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>csi</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/38fee8ae-7b54-4cb1-a30a-1835f0f608ce"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-27T11:36:06Z</dcterms:modified>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4545"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/730d8bed-96b3-421c-84a0-20ed27a25469">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/dec36ad1-9722-4355-8703-18234881defb">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/38fee8ae-7b54-4cb1-a30a-1835f0f608ce">
+    <dcterms:title xml:lang="en">Modelled deposition estimates for sulphur and nitrogen from the EMEP Unified Model on the standard EMEP grid resolution of approx 50km x 50km</dcterms:title>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/modelled-deposition-estimates-for-sulphur-and-nitrogen-from-the-emep-unified-model-on-the-standard-emep-grid-resolution-of-approx-50km-x-50km</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/DAT-28-en"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

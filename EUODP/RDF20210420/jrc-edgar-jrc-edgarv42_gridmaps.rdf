@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/2a377f44-fba3-4a99-a023-056b36628046">
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v42"/>
+    <dcterms:title xml:lang="en">JRC-EDGARv4.2: emissions grid-maps</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Annual gridmaps in txt or netcdf format with sector- and country-specific emissions from 1970-2008</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/61e84870-e3be-41d8-b40d-806869b9f2ee">
+    <dcterms:title xml:lang="en">Global emission inventories in the Emission Database for Global Atmospheric Research (EDGAR) – Manual (I) I. Gridding: EDGAR emissions distribution on global gridmaps</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">Janssens-Maenhout G, Pagliari V, Guizzardi D, Muntean M. Global emission inventories in the Emission Database for Global Atmospheric Research (EDGAR) – Manual (I) I. Gridding: EDGAR emissions distribution on global gridmaps. EUR 25785. Luxembourg (Luxembourg): Publications Office of the European Union; 2013. JRC78261</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-jrc-edgarv42_gridmaps"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <schema:url xml:lang="en">https://doi.org/10.2788/81454</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8da4b067-c50f-49fe-b3f1-f3a9fde8484a">
+    <schema:url xml:lang="en">http://edgar.jrc.ec.europa.eu/overview.php?v=42</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-jrc-edgarv42_gridmaps"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-edgar-jrc-edgarv42_gridmaps">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/8da4b067-c50f-49fe-b3f1-f3a9fde8484a"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">Emissions Database for Global Atmospheric Research, version v4.2 (grid-maps)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/7e9e1d65-f2a6-4ef1-ba86-46918c57bf05"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2527"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/61e84870-e3be-41d8-b40d-806869b9f2ee"/>
+    <dcterms:description xml:lang="en">Gridmaps of greenhouse gas and air pollutant emissions  from 1970 till 2008 for all world countries with sector-specific and monthly break-down.</dcterms:description>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-30</dcterms:issued>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5650"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-30</dcterms:modified>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/2a377f44-fba3-4a99-a023-056b36628046"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2522"/>
+    <dcterms:identifier>jrc-edgar-jrc-edgarv42_gridmaps</dcterms:identifier>
+    <dcatapop:ckanName>jrc-edgar-jrc-edgarv42_gridmaps</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/49d8d5a4-a066-4378-97ef-412136447785"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/49d8d5a4-a066-4378-97ef-412136447785">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/06b07ac8-1603-4a1a-a4a5-3fd4473faef7">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">683</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-jrc-edgarv42_gridmaps"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:18</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-06T17:03:18</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">590</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7e9e1d65-f2a6-4ef1-ba86-46918c57bf05">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-edgar-jrc-edgarv42_gridmaps</schema:url>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-edgar-jrc-edgarv42_gridmaps</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-edgar-jrc-edgarv42_gridmaps"/>
+  </rdf:Description>
+</rdf:RDF>

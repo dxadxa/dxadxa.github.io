@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/377801af-b094-4943-8fdc-f79a7c0c2d19">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/5ad67368-2ebb-4805-8f38-06792686c0f5"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcatapop:ckanName>377801af-b094-4943-8fdc-f79a7c0c2d19</dcatapop:ckanName>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:identifier>377801af-b094-4943-8fdc-f79a7c0c2d19</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/67be4d20-d4b5-40a6-82ba-e4918cb41d7c"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</dcterms:issued>
+    <dcterms:title xml:lang="en">EDGAR v5.0 Global Air Pollutant Emissions</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5878cb09-f67e-425b-84d5-8efc1adc8f0b"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/67fab469-b075-49c7-8ed3-dfe071cff8e8"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/32f49d7c-52e6-4305-80a3-69ecb3fa76d6"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:description xml:lang="en">EDGARv5.0 provides emissions not only for the greenhouse gases per sector and country but also for the air pollutants:
+ - Ozone precursor gases: Carbon Monoxide (CO), Nitrogen Oxides (NOx), Non-Methane Volatile Organic Compounds (NMVOC) and Methane (CH4).
+ - Acidifying gases: Ammonia (NH3), Nitrogen oxides (NOx) and Sulfur Dioxide (SO2).
+ - Primary particulates: Fine Particulate Matter (PM10 and PM2.5 and Carbonaceous speciation (BC, OC).
+
+Emissions from large scale biomass burning with Savannah burning, forest fires, and sources and sinks from land-use, land-use change and forestry (LULUCF) are excluded.
+
+For the energy related sectors the activity data are mainly based on the energy balance statistics of IEA (2017) (Internet: http://www.oecd-ilibrary.org/energy/co2-emissions-from-fuel-combustion-2017_co2_fuel-2017-en), whereas the activity data for the agricultural sectors originate mainly from FAO (2018) (Internet: http://www.fao.org/faostat/en/#home). Additional information can be found in Crippa et al. (2019).
+
+Novelties compared to previous EDGAR release (EDGARv4.3.2 (Crippa et al., 2018)) are: - new temporal profiles to compute monthly and hourly emissions (Crippa et al., 2020, in press),
+ - new spatial proxies to distribute population-related emissions based on the Global Human Settlements Layer product (Pesaresi et al., 2019),
+ - updates in the technologies, emission factors and end-of-pipe reductions for the power generation sector (for Europe, China and USA) based on the Platts 2018 database, and the implementation of the regulation taking place in these regions,
+ - updates in the technologies, emission factors and end-of-pipe reductions for the road transport sector (for Europe only). These updates are based on the EMISIA 2018 data,
+ -Estimates of particulate matter emissions from road surface wear and road vehicle tyre and break wear based on the EMEP/EEA guidebook 2019 Tier 1 approach (https://www.eea.europa.eu/publications/emep-eea-guidebook-2019).</dcterms:description>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/5ad67368-2ebb-4805-8f38-06792686c0f5">
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v50_AP"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <dcterms:title xml:lang="en">EDGARv5.0_AP: air pollutants emissions timeseries</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5878cb09-f67e-425b-84d5-8efc1adc8f0b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/377801af-b094-4943-8fdc-f79a7c0c2d19"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <schema:url xml:lang="en">https://edgar.jrc.ec.europa.eu/overview.php?v=50_AP</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b7d7211c-69a6-4020-8a85-0f5524f1184d">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/377801af-b094-4943-8fdc-f79a7c0c2d19"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:24</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:24</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/67be4d20-d4b5-40a6-82ba-e4918cb41d7c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">EDGARv5.0_AP: air pollutants emissions gridmaps</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v50_AP"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/67fab469-b075-49c7-8ed3-dfe071cff8e8">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/377801af-b094-4943-8fdc-f79a7c0c2d19</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/377801af-b094-4943-8fdc-f79a7c0c2d19</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/377801af-b094-4943-8fdc-f79a7c0c2d19"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/faa53eba-2aa2-4e08-a904-3251fa8ffec7">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/32f49d7c-52e6-4305-80a3-69ecb3fa76d6">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/faa53eba-2aa2-4e08-a904-3251fa8ffec7"/>
+    <vcard:hasEmail rdf:resource="jrc-edgar@ec.europa.eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

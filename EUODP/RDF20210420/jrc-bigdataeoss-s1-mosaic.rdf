@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f3f2766e-156c-4dc2-bceb-f531c324206e">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Syrris, V., Corban, C., Pesaresi, M. and Soille, P., Mosaicking Copernicus Sentinel-1 Data at Global Scale, IEEE TRANSACTIONS ON BIG DATA, 2018, ISSN 2332-7790 (online), JRC110914.</dcterms:description>
+    <dcterms:title xml:lang="en">Mosaicking Copernicus Sentinel-1 Data at Global Scale</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.1109/TBDATA.2018.2846265</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-bigdataeoss-s1-mosaic"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a37bead2-1e00-4f27-add9-ba89b0590513">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-bigdataeoss-s1-mosaic"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:description xml:lang="en">Soille, P. and Marchetti, P., Proceedings of the 2017 conference on Big Data from Space, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-73527-1 (pdf), JRC108361.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Proceedings of the 2017 conference on Big Data from Space</dcterms:title>
+    <schema:url xml:lang="en">https://doi.org/10.2760/383579</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6497ec15-7457-4e5e-9d38-5a57cdddfee1">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://cidportal.jrc.ec.europa.eu/services/webview/jeodpp/databrowser/?default=jeodppS1Mosaic2016"/>
+    <dcterms:description xml:lang="en">A TeraPixel global mosaic of Copernicus Sentinel-1 data at about 20m spatial resolution and covering most the land mass has been created on the JRC Earth Observation Data and Processing Platform (JEODPP).  The scope of this mosaic is to provide a global base layer for visual assessment of natural and man-made features such as built-up areas.</dcterms:description>
+    <dcterms:title xml:lang="en">Sentinel-1 global mosaic</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-bigdataeoss-s1-mosaic">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/f3f2766e-156c-4dc2-bceb-f531c324206e"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6497ec15-7457-4e5e-9d38-5a57cdddfee1"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/7b974487-94bb-460d-852e-af0b66bce307"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/2f1426e9-cea5-49cd-9947-028e3ca0cc7f"/>
+    <dcterms:identifier>jrc-bigdataeoss-s1-mosaic</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:description xml:lang="en">(a) Mosaic of level-1 ground range detected Sentinel-1 (A and B) products with dual polarisation (VV+VH or HH+HV), covering the entire globe and represented as a false colour RGB composition; (b) Large scale mosaics of satellite data are crucial for several applications that involve geo-analysis with remote sensing data such as mapping large natural hazard areas, landcover classification and for guiding field investigations.</dcterms:description>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcterms:title xml:lang="en">Mosaic of Copernicus Sentinel-1 Data at Global Scale</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</dcterms:modified>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a37bead2-1e00-4f27-add9-ba89b0590513"/>
+    <dcatapop:ckanName>jrc-bigdataeoss-s1-mosaic</dcatapop:ckanName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7b974487-94bb-460d-852e-af0b66bce307">
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-bigdataeoss-s1-mosaic</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-bigdataeoss-s1-mosaic"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-bigdataeoss-s1-mosaic</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/7c2569b1-2090-4d52-994f-9442f9f2616e">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/b542bc68-1cb3-43d6-833c-3c2ef6a7957d">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-08 16:38:29.465116</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">957</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">842</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-bigdataeoss-s1-mosaic"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:01:54</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/2f1426e9-cea5-49cd-9947-028e3ca0cc7f">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <vcard:hasEmail rdf:resource="jrc-jeodpp@ec.europa.eu"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/7c2569b1-2090-4d52-994f-9442f9f2616e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+</rdf:RDF>

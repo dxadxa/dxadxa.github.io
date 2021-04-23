@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/530012a9-886f-4768-b3bc-1ee9b61edad6">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/8c4be50b-59be-47fd-92a6-2074e2d3fce5"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/dd9abd2f-c7e0-4d17-9f97-1b37956f679f"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/a182a6a7-0a90-47ad-ba75-bc3f9bd0abb4"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/rains-model-cafe-baseline-pm10-emissions-estimates">
+    <dcterms:description xml:lang="en">.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-01-01T00:00:00Z</dcterms:issued>
+    <dcat:keyword>csi</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4f10de09-4f1a-4f25-9ea5-ac9b48b98157"/>
+    <dcterms:identifier>DAT-46-en</dcterms:identifier>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/530012a9-886f-4768-b3bc-1ee9b61edad6"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-27T12:02:02Z</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] RAINS Model CAFE baseline PM10 emissions estimates</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/3569b24f-44ee-41ed-85b8-961accda7ba7">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/rains-model-cafe-baseline-pm10-emissions-estimates"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:09:27</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T19:09:27</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4f10de09-4f1a-4f25-9ea5-ac9b48b98157">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/rains-model-cafe-baseline-pm10-emissions-estimates</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/rains-model-cafe-baseline-pm10-emissions-estimates"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] RAINS Model CAFE baseline PM10 emissions estimates</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/a182a6a7-0a90-47ad-ba75-bc3f9bd0abb4">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/8c4be50b-59be-47fd-92a6-2074e2d3fce5">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+</rdf:RDF>

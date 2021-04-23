@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e784aa4b-669c-4ffa-bacb-155ae1314f76">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/eu-ecolabel-products"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/ecat/</schema:url>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/ecat/</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/ca609a81-a146-44ab-9823-08217e01dd3e">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/eu-ecolabel-products"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-07-30T17:28:29</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-07-31T15:34:29</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/eu-ecolabel-products">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2747"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2755"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/ec6bda42-43ae-497e-ae16-cb26e249bd7e"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">EU Ecolabel Products</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ed2e2f03-b111-48ca-8a3e-1f21558602c0"/>
+    <dcterms:description xml:lang="en">The dataset contains detailed information about EU Ecolabels, covering  a wide range of product groups, from major areas of manufacturing to tourist accommodation services.&#13;
+&#13;
+The EU Ecolabel is the European Union’s official label for environmental excellence, awarded to products that are sustainably designed, repairable, encourage innovation and save resources, also contributing to EU's 2050 climate neutrality goal and to the circular economy. EU Ecolabel certified products meet high standards that reduce their environmental impact across multiple stages of the product lifecycle: from raw material extraction, to production, use phase and disposal.&#13;
+&#13;
+ </dcterms:description>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e784aa4b-669c-4ffa-bacb-155ae1314f76"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5696"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2228"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2783"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <dcatapop:ckanName>eu-ecolabel-products</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4470"/>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/4ba3baf0-3944-46b8-8a05-684d922c5fd8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ed2e2f03-b111-48ca-8a3e-1f21558602c0">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://webgate.ec.europa.eu/envdataportal/content/Ecolabel/DataExports/MostRecentExport.csv"/>
+    <dcterms:title xml:lang="en">EU Ecolabel Products</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:downloadURL rdf:resource="https://webgate.ec.europa.eu/envdataportal/content/Ecolabel/DataExports/MostRecentExport.csv"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">The dataset contains the following columns:&#13;
+PRODUCT_SERVICE : whether the detail concerns a product or service, &#13;
+LIC_NR : licence number, &#13;
+GROUP_CODE : product/service group code,&#13;
+GROUP_NAME : product/service group name, &#13;
+EXTID_TYPE : identifier type (EAN13 or possibly others in the future),&#13;
+EXT_ID : identifier,&#13;
+NAME : product/service name,&#13;
+DECISION : EC Criterion decision regarding the product/service group,&#13;
+EXPIRATION_DATE : decision expiration date,&#13;
+COMPANY_NAME : Company Name,&#13;
+COMPANY_COUNTRY : Company Country,&#13;
+VAT  Company VAT number,&#13;
+COUNTRY : Country of Licence.&#13;
+</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/4ba3baf0-3944-46b8-8a05-684d922c5fd8">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-31</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/ec6bda42-43ae-497e-ae16-cb26e249bd7e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="EU-ECOLABEL@ec.europa.eu"/>
+  </rdf:Description>
+</rdf:RDF>

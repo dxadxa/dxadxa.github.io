@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/514c4957-c671-4ad3-adbf-ead359b80582">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/cc3326aa-5fdb-4606-b92d-b14553ffb951"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/b614558f-4329-4ad3-a22f-9a2717f3ab4b"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/79f848b3-848a-4e54-9b02-d36d271d12e6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f4d43abb-197d-4102-872f-62e7e916df1e">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipslm10.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/18349ac5-0707-4b86-a215-eeb7f83ccf6a">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/PB5H9GMVEvTZFCyEsP89Wg"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1138</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1210</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T08:09:00</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 11:36:06.906556</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ad60a824-ce6b-4e18-8df6-c95906e7b8cf">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipslm10.tsv.gz&amp;unzip=true"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6c542126-94ac-4fde-bb62-6d52be5cb62b">
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=tipslm10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/9a7a223e-55af-469d-978c-866c37487768">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</schema:startDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/42ce1919-6047-44ec-87d2-b23f32126f4a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tipslm10.sdmx.zip"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/4cebb6ce-a6e2-4c17-a3bb-bc2ffa49fcc1">
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/tipslm10</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PB5H9GMVEvTZFCyEsP89Wg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/tipslm10</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/PB5H9GMVEvTZFCyEsP89Wg">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/bd079442-f843-45db-9373-a5ea0ababb75"/>
+    <dcatapop:ckanName>PB5H9GMVEvTZFCyEsP89Wg</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/36f0d6d5-0885-4d10-b350-e3b2b7ad5f73"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-26</dcterms:modified>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/9a7a223e-55af-469d-978c-866c37487768"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/514c4957-c671-4ad3-adbf-ead359b80582"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/e3de0047-324a-434f-850d-fb8e29c4ca4b"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="fr">Le coût salarial unitaire (CSU) est le ratio entre le coût de la main-d'œuvre et la productivité de la main-d'œuvre. CSU nominal = (D1/EEM) / (B1GQ/ETO), où D1 = Rémunération des salariés, toutes industries, prix courants EEM = Salariés, toutes industries, en personnes (concept intérieur) B1GQ = Produit intérieur brut aux prix du marché en millions, volumes chaînés, année de référence 2010 ETO = Emploi total, toutes industries, en personnes (concept intérieur) Les données d'entrée sont issues des données de la comptabilité nationale transmises officiellement dans le cadre du programme de transmission du SEC 2010. L'indicateur du tableau de bord est la variation en pourcentage sur trois ans du coût salarial unitaire nominal. Le seuil indicatif est de 9 % pour les pays de la zone euro et de 12 % pour les pays hors de la zone euro. L'indicateur du tableau de bord est calculé selon la formule: [(CSUt–CSUt-3)/CSUt-3]*100.</dcterms:description>
+    <dcterms:title xml:lang="de">Nominale Lohnstückkosten - Veränderung in % über 3 Jahre</dcterms:title>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/56"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:identifier>tipslm10</dcterms:identifier>
+    <dcterms:description xml:lang="de">Die Lohnstückkosten (unit labour cost – ULC) sind definiert als das Verhältnis der Arbeitskosten zur Arbeitsproduktivität. Es gilt: Nominale ULC (NULC) = (D1/EEM) / (B1GQ/ETO), wobei D1 = Arbeitnehmerentgelt, alle Wirtschaftsbereiche, zu jeweiligen Preisen EEM = Arbeitnehmer, alle Wirtschaftsbereiche, in Personen (Inlandskonzept) B1GQ = Bruttoinlandsprodukt zu Marktpreisen in Mio., verkettete Volumen, Bezugsjahr 2010 ETO = Erwerbstätigkeit insgesamt, alle Wirtschaftsbereiche, in Personen (Inlandskonzept) Die Eingabedaten werden aus den offiziellen Übermittlungen der Volkswirtschaftlichen Gesamtrechnungen der Länder im Rahmen des ESVG-2010-Übermittlungsprogramms gewonnen. Die Daten werden ausgedrückt als prozentuale Veränderung über drei Jahre sowie als Index (2010 = 100). Der Scoreboard-Indikator ist die prozentuale Veränderung der nominalen Lohnstückkosten (NULC) über drei Jahre mit indikativen Schwellenwerten von 9 % für Länder des Euro-Währungsgebiets und 12 % für Länder außerhalb dieses Gebiets. Der Scoreboard-Indikator wird nach folgender Formel berechnet: [(ULCt–ULCt-3)/ULCt-3]*100.</dcterms:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/4cebb6ce-a6e2-4c17-a3bb-bc2ffa49fcc1"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6c542126-94ac-4fde-bb62-6d52be5cb62b"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/544537a1-a720-42f1-83ab-366435770cd4"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f4d43abb-197d-4102-872f-62e7e916df1e"/>
+    <dcterms:title xml:lang="fr">Coût salarial unitaire nominal - variations en % sur 3 ans</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/92d27bf2-014c-4ff2-8fba-e1573128bb5f"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/42ce1919-6047-44ec-87d2-b23f32126f4a"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ad60a824-ce6b-4e18-8df6-c95906e7b8cf"/>
+    <dcterms:title xml:lang="en">Nominal unit labour cost - 3 years % change</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcterms:description xml:lang="en">The unit labour cost (ULC) is defined as the ratio of labour costs to labour productivity. Nominal ULC (NULC) = (D1/EEM) / (B1GQ/ETO) with D1 = Compensation of employees, all industries, current prices EEM = Employees, all industries, in persons (domestic concept) B1GQ = Gross domestic product at market prices in millions, chain-linked volumes reference year 2010 ETO = Total employment, all industries, in persons (domestic concept) The input data are obtained through official transmissions of national accounts' country data in the ESA 2010 transmission programme. The scoreboard indicator is the percentage change over three years of nominal unit labour cost (NULC). The indicative threshold is 9% for the euro area countries and 12% for the non-euro area countries. The scoreboard indicator is calculated using the formula: [(ULCt-ULCt-3)/ULCt-3]*100.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/e3de0047-324a-434f-850d-fb8e29c4ca4b">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=tipslm10"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/36f0d6d5-0885-4d10-b350-e3b2b7ad5f73">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=tipslm10"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/bd079442-f843-45db-9373-a5ea0ababb75">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PB5H9GMVEvTZFCyEsP89Wg"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/tipslm10_esms.sdmx.zip</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/79f848b3-848a-4e54-9b02-d36d271d12e6">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/544537a1-a720-42f1-83ab-366435770cd4">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/tipslm10_esms.htm</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PB5H9GMVEvTZFCyEsP89Wg"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/92d27bf2-014c-4ff2-8fba-e1573128bb5f">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/PB5H9GMVEvTZFCyEsP89Wg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/tipslm10</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/b614558f-4329-4ad3-a22f-9a2717f3ab4b">
+    <vcard:hasValue rdf:resource="+352430136789"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/cc3326aa-5fdb-4606-b92d-b14553ffb951">
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+</rdf:RDF>

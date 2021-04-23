@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/90f0b5bd-d52e-47fa-a674-c0385184b1e0">
+    <dcat:accessURL rdf:resource="http://aeronet.gsfc.nasa.gov/cgi-bin/type_one_station_seaprism_new?site=Gustav_Dalen_Tower&amp;nachal=2&amp;level=1&amp;place_code=10"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">The Aerosol Robotic Network (AERONET), developed by the National Aeronautics and Space Administration (NASA) to sustain atmospheric studies at various scales with measurements from worldwide distributed autonomous sun-photometers has been extended to support marine applications. This new network component called AERONET – Ocean Color (AERONET-OC), provides the additional capability of measuring the radiance emerging from the sea (i.e., water-leaving radiance) with modified sun-photometers installed on offshore platforms like lighthouses, oceanographic and oil towers. AERONET-OC is instrumental in satellite ocean color validation activities through standardized measurements a) performed at different sites with a single measuring system and protocol, b) calibrated with an identical reference source and method, and c) processed with the same code.</dcterms:description>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:title xml:lang="en">AErosol RObotic NETwork - Ocean Color</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/0c13f83a-abb4-4a6d-ae7d-e3a8a8946ef0">
+    <vcard:hasEmail rdf:resource="giuseppe.zibordi@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/345cf22f-318f-4f72-9d0e-cbb3c9d14737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/8d6544e6-d4fc-4b1f-9e8c-505244cd6288">
+    <dcatapop:ckanName>8d6544e6-d4fc-4b1f-9e8c-505244cd6288</dcatapop:ckanName>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ad80a730-f03d-4b7d-862d-b83c9ccec379"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-11-03</dcterms:issued>
+    <dcat:keyword xml:lang="en">environmental monitoring</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/23c2e821-7bab-47c3-940a-3dfb88b4a4db"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:description xml:lang="en">AERONET-OC “Gustav Dalen Tower” in the Baltic proper. The site is characterized by optically complex waters dominated by colored dissolved organic matter.
+AERONET-OC is the Ocean Color component of the Aerosol Robotic Network (AERONET, Holben et al. 1998), a federated instrument network and data archive, managed by the Goddard Space Flight Center (GSFC) of the U.S. National Aeronautics and Space Administration (NASA) and specifically conceived to support aerosol investigations through standardized instruments and methods (Holben et al. 2001). Similar to AERONET, AERONET-OC (Zibordi et al. 2009) relies on NASA’s commitment for field instruments calibration, data processing and archiving. These activities are complemented by independent actions focused on establishing and maintaining CE-318 modified sun-photometers at coastal sites of interest for individual investigators or research institutions. These modified sun-photometers, called SeaWiFS Photometer Revision for Incident Surface Measurements (SeaPRISM), have the capability of performing autonomous above-water radiometric measurements in addition to usual atmospheric measurements (Zibordi et al. 2004). 
+Key features of AERONET-OC are: i. near-real time data collection and processing (i.e., within a few hours); ii. use of standardized instruments, calibration procedure and data processing; iii. open access to measurements and products through a specified data policy. The primary data product of AERONET-OC is Lwn at wavelengths suitable for satellite ocean color applications. An additional product is the aerosol optical thickness, complemented by phase function, particle size distribution and single scattering albedo of aerosols, all having potential importance to assess the performance of the atmospheric correction process applied to satellite data. 
+AERONET-OC sites are located in coastal regions by taking advantage of available and accessible offshore grounded structures. Deployment requirements for the collection of measurements suitable for ocean color validation activities are summarized as follows: i. fixed deployment platforms allowing for measurement of the direct sun irradiance through accurate sun-tracking; ii. superstructures with height and shape minimizing contamination of the measuring system by sea-spray; and iii. deployment positions allowing unobstructed sea observations at the maximum possible distance from the superstructure at the time of satellite overpass. Recalling that the minimization of superstructure perturbations in above-water radiometric measurements requires observations of the sea surface at distances at least equal to the superstructure height, the measurement systems are generally deployed from dedicated extensions of the main structure.</dcterms:description>
+    <dcat:keyword xml:lang="en">Environmental Monitoring Facilities</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/90f0b5bd-d52e-47fa-a674-c0385184b1e0"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3140"/>
+    <dcterms:identifier>8d6544e6-d4fc-4b1f-9e8c-505244cd6288</dcterms:identifier>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-11-06</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/0c13f83a-abb4-4a6d-ae7d-e3a8a8946ef0"/>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcterms:title xml:lang="en">Normalized Water-Leaving Radiance determined from above-water radiometry - Gustav_Dalen_Tower (58N,17E)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ad80a730-f03d-4b7d-862d-b83c9ccec379">
+    <schema:url xml:lang="en">http://aeronet.gsfc.nasa.gov/cgi-bin/type_one_station_seaprism_new?site=Gustav_Dalen_Tower&amp;nachal=2&amp;level=1&amp;place_code=10</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/8d6544e6-d4fc-4b1f-9e8c-505244cd6288"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/345cf22f-318f-4f72-9d0e-cbb3c9d14737">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/23c2e821-7bab-47c3-940a-3dfb88b4a4db">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/8d6544e6-d4fc-4b1f-9e8c-505244cd6288"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/8d6544e6-d4fc-4b1f-9e8c-505244cd6288</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/8d6544e6-d4fc-4b1f-9e8c-505244cd6288</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/d4bcd9ae-84d1-4552-97fa-e3fa65d233f7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/8d6544e6-d4fc-4b1f-9e8c-505244cd6288"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-31 09:01:12.040390</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</dcatapop:numberOfDownloads>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:48:08</dcterms:modified>
+  </rdf:Description>
+</rdf:RDF>

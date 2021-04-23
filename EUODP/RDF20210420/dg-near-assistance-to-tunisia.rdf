@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/6560dec9-6ab2-4302-9bfe-544b7c708d74">
+    <vcard:street-address>rue du Lac Biwa, B.P. 150</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e990d547-7d79-4cac-a66d-1564183f41d9">
+    <dcterms:title xml:lang="en">title_http://www.iatiregistry.org/dataset/ec-near-tn</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://www.iatiregistry.org/dataset/ec-near-tn</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/dg-near-assistance-to-tunisia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/71007433-2a80-47e4-b729-67a7767bec03">
+    <dcterms:title xml:lang="en">Download Near Activity File - Tunisia </dcterms:title>
+    <dcat:downloadURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_TN.xml"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_TN.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/1003faa9-4ab2-4351-ad9d-d2055154cdef">
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/e2e5bcb1-4a29-467e-9413-ab85e785ecd0"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/6560dec9-6ab2-4302-9bfe-544b7c708d74"/>
+    <vcard:hasEmail rdf:resource="mailto:Delegation-Tunisia@eeas.europa.eu"/>
+    <vcard:organisation-name>Délégation de l'Union européenne en Tunisie</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/ecc7a2cc-6d87-498a-b667-a623ede32160"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b80a3950-17fb-4b84-b57e-a36d5cd93c16">
+    <dcterms:title xml:lang="en">CSV Conversion Tool</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:downloadURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_TN.xml"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="http://csvdownloader.iatistandard.org/csv/direct_from_registry/?xml=https%3A//ec.europa.eu/europeaid/files/iati/XI-IATI-EC_NEAR_C_TN.xml"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/dg-near-assistance-to-tunisia">
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/437422"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_4d5b6dbd"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/5780"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/INTR"/>
+    <dcterms:alternative xml:lang="en">European Commission - Near Activity File - Tunisia </dcterms:alternative>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e990d547-7d79-4cac-a66d-1564183f41d9"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NEAR"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/7932"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/1003faa9-4ab2-4351-ad9d-d2055154cdef"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>ec-near-tn</dcterms:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b80a3950-17fb-4b84-b57e-a36d5cd93c16"/>
+    <dcat:keyword xml:lang="en">southern neighbourhood</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3481"/>
+    <dcatapop:ckanName>dg-near-assistance-to-tunisia</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/71007433-2a80-47e4-b729-67a7767bec03"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4578"/>
+    <dcterms:title xml:lang="en">DG NEAR - Assistance to Tunisia</dcterms:title>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/c_2e7c1ac5"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/TUN"/>
+    <dcterms:description xml:lang="en">Information on projects financed in Tunisia through the European Neighbourhood Instrument () and through the European Neighbourhood and Partnership Instrument. Please note that financial assistance to Tunisia from 2010 to 2014 was dealt by DG DEVCO - Directorate Generale for International Development and Cooperation. </dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-29 14:19:36.839485</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ecc7a2cc-6d87-498a-b667-a623ede32160">
+    <schema:url>http://eeas.europa.eu/delegations/tunisia/index_fr.htm</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/7b00fd75-7861-44e9-8bdc-5f3dd7c20ef1">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-22T15:55:55</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/dg-near-assistance-to-tunisia"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-29 14:19:36.839485</dcterms:issued>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/e2e5bcb1-4a29-467e-9413-ab85e785ecd0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+21671960330"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/13923249-5dbb-4e17-93bf-5831b41e06dd">
+    <dcterms:description xml:lang="en">Results can be exported to CSV or Excel.</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:title xml:lang="en">Export Insurance Undertaking Data to CSV | Excel</dcterms:title>
+    <dcat:accessURL rdf:resource="https://register.eiopa.europa.eu/registers/register-of-insurance-undertakings"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/d8e0b98a-90e4-4df7-aa0e-e81e68024b6a">
+    <schema:url>https://register.eiopa.europa.eu/registers/register-of-insurance-undertakings</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/register-of-insurance-undertakings"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://register.eiopa.europa.eu/registers/register-of-insurance-undertakings</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/b0572ea9-6e9d-4923-96a8-7a5a4f3e794a">
+    <vcard:street-address>Westhafenplatz 1, 60327 Frankfurt am Main, Germany</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/register-of-insurance-undertakings">
+    <dcatapop:ckanName>register-of-insurance-undertakings</dcatapop:ckanName>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/9ec7b07e-019b-4b62-b4e7-7c9709808576"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">EIOPA - Register of Insurance Undertakings</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/34"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/3151"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/d8e0b98a-90e4-4df7-aa0e-e81e68024b6a"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:description xml:lang="en">To provide regularly updated and easily accessible information by the public the European Insurance and Occupational Pensions Authority (EIOPA) in accordance with Article 8 of EIOPA Regulation (Regulation EU No 1094/2010) publishes the information regarding registered financial institutions within its area of competence.   &#13;
+&#13;
+The Register of Insurance undertakings is a representation of the information provided by the respective National Competent Authorities that are responsible for authorisation and/or registration of the reported insurance undertakings activities.</dcterms:description>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EIOPA"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/13923249-5dbb-4e17-93bf-5831b41e06dd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/9ec7b07e-019b-4b62-b4e7-7c9709808576">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>EIOPA - European Insurance and Occupational Pensions Authority</vcard:organisation-name>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/b0572ea9-6e9d-4923-96a8-7a5a4f3e794a"/>
+    <vcard:hasEmail rdf:resource="register@eiopa.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/5e9b7124-b6cb-4ca3-848d-5afdc45d7538">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-05T15:51:42</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-12T14:31:42</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/register-of-insurance-undertakings"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+</rdf:RDF>

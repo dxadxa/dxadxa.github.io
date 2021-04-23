@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5b66678a-8750-45bd-b862-5e673fc82a77">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_https://documents.acer-remit.eu/remit-quarterly/</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/remit-quarterly"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://documents.acer-remit.eu/remit-quarterly/</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a33ecbd5-ef4f-4bdb-a957-66935586ad37">
+    <dcterms:title xml:lang="en">REMIT Quarterly issues</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="https://documents.acer-remit.eu/remit-quarterly/"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/8a842259-131a-4f2c-b29b-403b11569b39">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/7493f922-b88c-408a-ab3d-9e201f7b65fa">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">689</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-02-10T16:48:50</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-03-05T17:25:55</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/remit-quarterly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/remit-quarterly">
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/8a842259-131a-4f2c-b29b-403b11569b39"/>
+    <dcat:keyword xml:lang="en">energy market</dcat:keyword>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/142"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
+    <dcatapop:ckanName>remit-quarterly</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/2312"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ACER"/>
+    <dcterms:description xml:lang="en">Provide updates on the Agency’s activities in the field of REMIT, guidance on the application of REMIT (Regulation on wholesale energy market integrity and transparency) as well as transaction and data reporting. The first issue was published in March 2015.&#13;
+</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/edd7244b-3d8f-4023-8a9e-cb9269c285a3"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/5b66678a-8750-45bd-b862-5e673fc82a77"/>
+    <dcterms:title xml:lang="en">REMIT Quarterly</dcterms:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a33ecbd5-ef4f-4bdb-a957-66935586ad37"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/edd7244b-3d8f-4023-8a9e-cb9269c285a3">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

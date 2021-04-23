@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e1c3a8c1-6e3e-4beb-9f58-85d0719d7ffd">
+    <dcterms:title xml:lang="en">Tutorial for interpolation of weather data from station to grid level</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:description xml:lang="en">This resource is a wiki container to explain the interpolation procedures to aggregate weather data from the european station network at grid level</dcterms:description>
+    <schema:url xml:lang="en">http://marswiki.jrc.ec.europa.eu/agri4castwiki/index.php/Weather_Monitoring#Interpolation</schema:url>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b7ec41bd-4c37-4aeb-b05f-a29c08c06c3b">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-marsop4-7-weather_obs_grid_2019</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-marsop4-7-weather_obs_grid_2019</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/28a3c76e-7e91-46d5-bad1-14548423e870">
+    <dcat:accessURL rdf:resource="http://agri4cast.jrc.ec.europa.eu/DataPortal/Index.aspx"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">The compressed zip file contains a csv with the list of agro climatic parameters for the region of interest.</dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">CSV Files</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/49394a62-9778-4cd2-b692-6d81f24d58f3">
+    <schema:url xml:lang="en">http://agri4cast.jrc.ec.europa.eu/DataPortal/Resource_Files/SupportFiles/grid25.zip</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Shape file</dcterms:title>
+    <dcterms:description xml:lang="en">The compressed zip file contains the shape of the agro climatic grid of Europe projected as Lamber Azimuthal Equal Area EPSG 3035</dcterms:description>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/19d4d794-6074-4915-843e-735bc2260b87">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/1f71a66c-64a5-4b16-ba67-566f408b44ed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="agri4cast-portal@jrc.ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019">
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:keyword xml:lang="en">Agriculture fisheries forestry and food</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/19d4d794-6074-4915-843e-735bc2260b87"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/49394a62-9778-4cd2-b692-6d81f24d58f3"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-14</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">Gridded Agro-Meteorological Data in Europe</dcterms:title>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/28a3c76e-7e91-46d5-bad1-14548423e870"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-30</dcterms:modified>
+    <dcatapop:ckanName>jrc-marsop4-7-weather_obs_grid_2019</dcatapop:ckanName>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dcterms:identifier>jrc-marsop4-7-weather_obs_grid_2019</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/b7ec41bd-4c37-4aeb-b05f-a29c08c06c3b"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e1c3a8c1-6e3e-4beb-9f58-85d0719d7ffd"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/917d399c-bb47-4b30-9b37-f0a2f2df196a"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5db222c0-0e56-432b-b7b4-58e124c8cd7d"/>
+    <dcterms:description xml:lang="en">The JRC MARS Meteorological Database contains meteorological observations from weather stations interpolated on a 25x25 km grid, on a daily basis from 1979 to the last calendar year completed, for the European Union and neighbouring countries.</dcterms:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/13de170f-68c4-4d8e-8f02-e9178fdb17ac">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</dcatapop:numberOfViews>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:26:18</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:26:18</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/917d399c-bb47-4b30-9b37-f0a2f2df196a">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+    <dcterms:title xml:lang="en">Metadata Summary</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://agri4cast.jrc.ec.europa.eu/DataPortal/Resource_Files/PDF_Documents/7.pdf</schema:url>
+    <dcterms:description xml:lang="en">This PDF document contains a detailed list of the dataset metadata</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5db222c0-0e56-432b-b7b4-58e124c8cd7d">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-marsop4-7-weather_obs_grid_2019"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://agri4cast.jrc.ec.europa.eu/DataPortal/Index.aspx</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/1f71a66c-64a5-4b16-ba67-566f408b44ed">
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+</rdf:RDF>

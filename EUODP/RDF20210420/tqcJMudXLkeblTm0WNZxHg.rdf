@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/a90ee9c4-4d16-498e-a24c-8510d848d8ae">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="fr">Carte</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/mapToolClosed.do?tab=map&amp;init=1&amp;plugin=1&amp;language=en&amp;pcode=teibp060"/>
+    <dcterms:title xml:lang="en">Map</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <dcterms:title xml:lang="de">Karte</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/95f254cd-c6ef-441d-b5b5-6e179d4daf59">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format</dcterms:description>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teibp060.tsv.gz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/0dea60d5-37ba-40a3-949c-111929241e42">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) SDMX</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tqcJMudXLkeblTm0WNZxHg"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/ei_bp_esms.sdmx.zip</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/22d3c52d-3d59-46bc-b0a7-431e6a047eac">
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teibp060.tsv.gz&amp;unzip=true"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    <dcterms:description xml:lang="en">Download dataset in TSV format (unzipped)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/71e83e36-9bf6-4bb2-be72-4c5f78d6cbb0">
+    <dcterms:description xml:lang="en">Download dataset in SDMX-ML format</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Default_Title</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/teibp060.sdmx.zip"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/da725492-c131-4f1e-9b0f-226575629d24">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-10-16 10:51:47.913930</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">675</dcatapop:numberOfDownloads>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/tqcJMudXLkeblTm0WNZxHg"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">732</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-26T08:13:21</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/ea8b1643-1d99-4686-9ada-a3953b9301b6">
+    <dcterms:title xml:lang="fr">Graphique</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&amp;plugin=1&amp;language=en&amp;pcode=teibp060"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="de">Graph</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">Graph</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c4ac33f9-4396-40b4-9863-950707e2f0c0">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/7a83887b-53dd-4933-b2c7-975fd539614a"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/288ebbaa-b58b-4214-8eb8-ddbe61d95364"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/f0606b28-7a75-43ef-bea4-0cf298e1d8f9"/>
+    <vcard:organisation-name>Eurostat, the statistical office of the European Union</vcard:organisation-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/51ce4e65-6a75-4cb1-a468-dde39f7fb8be">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</schema:endDate>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/411da6fd-3865-43a9-99fd-8e1ca6886e98">
+    <dcterms:title xml:lang="en">ESMS metadata (Euro-SDMX Metadata structure) HTML</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tqcJMudXLkeblTm0WNZxHg"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/cache/metadata/en/ei_bp_esms.htm</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/7a83887b-53dd-4933-b2c7-975fd539614a">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="+352430136789"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/de46b46b-ac69-4112-adde-68aba5fb3d1b">
+    <dcterms:title xml:lang="en">title_http://ec.europa.eu/eurostat/web/products-datasets/-/teibp060</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://ec.europa.eu/eurostat/web/products-datasets/-/teibp060</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tqcJMudXLkeblTm0WNZxHg"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/288ebbaa-b58b-4214-8eb8-ddbe61d95364">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/eurostat/help/support</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/tqcJMudXLkeblTm0WNZxHg">
+    <dcterms:description xml:lang="fr">La balance des paiements est un état statistique où sont résumées les transactions entre résidents et non-résidents durant une période donnée. Elle comprend le compte des biens et services, le compte du revenu primaire, le compte du revenu secondaire, le compte de capital et le compte financier (MBP6 – 2.12) Dans les comptes internationaux, le compte de capital présente a) les transferts en capital à recevoir et à payer entre résidents et non-résidents ; et b) l’acquisition et la cession d’actifs non financiers non produits entre résidents et non-résidents (MBP6 – 13.1). Les transferts en capital sont des transferts pour lesquels la propriété d’un actif (autre que des espèces ou des stocks) est transférée d’une partie à une autre; ou qui obligent l’une ou les deux parties à acquérir ou à céder un actif (autre que des espèces ou des stocks); ou pour lesquels un engagement est annulé par le créancier. La somme des soldes des comptes transactions courantes et de capital représente la capacité (excédent) ou le besoin de financement (déficit) de l’économie à l’égard du reste du monde (MBP6 2-18). Source des données de la zone euro : Banque Centrale Européenne (BCE)</dcterms:description>
+    <dcat:keyword xml:lang="en">capital market</dcat:keyword>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/71e83e36-9bf6-4bb2-be72-4c5f78d6cbb0"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>
+    <dcterms:title xml:lang="de">Zahlungsbilanz, Vermögensübertragungen, vierteljährliche Daten</dcterms:title>
+    <dcat:keyword xml:lang="en">account</dcat:keyword>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/51ce4e65-6a75-4cb1-a468-dde39f7fb8be"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/95f254cd-c6ef-441d-b5b5-6e179d4daf59"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/a90ee9c4-4d16-498e-a24c-8510d848d8ae"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/22d3c52d-3d59-46bc-b0a7-431e6a047eac"/>
+    <dcterms:title xml:lang="fr">Balance des paiements, compte de capital, données trimestrielles</dcterms:title>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c4ac33f9-4396-40b4-9863-950707e2f0c0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/0dea60d5-37ba-40a3-949c-111929241e42"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/de46b46b-ac69-4112-adde-68aba5fb3d1b"/>
+    <dcterms:description xml:lang="en">The Balance of Payments is the statistical statement that systematically summarises transactions between residents and non-residents. It consists of the goods and services account, the primary income account, the secondary income account, the capital account and the financial account (BPM6 – 2.12) The capital account in the international accounts shows a) capital transfers receivable and payable between residents and nonresidents and b) the acquisition and disposal of nonproduced, nonfinancial assets between residents and nonresidents (BPM6- 13.1). The capital transfers are transfers in which the ownership of an asset (other than cash or inventories) changes from one party to another. The sum of the balances on the current and capital accounts represents the net lending (surplus) or net borrowing (deficit) by the economy with the rest of the world (BPM6 – 2.18).</dcterms:description>
+    <dcat:keyword xml:lang="en">Capital account</dcat:keyword>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/411da6fd-3865-43a9-99fd-8e1ca6886e98"/>
+    <dcterms:title xml:lang="en">Balance of payments, capital account, quarterly data</dcterms:title>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/e2ecaafa-d173-40fd-b05e-1c6d5263bd8d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/811e7ee4-f2bc-4b3d-9682-5b85a22b444d"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/ea8b1643-1d99-4686-9ada-a3953b9301b6"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-19</dcterms:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4671"/>
+    <dcterms:description xml:lang="de">Die Zahlungsbilanz ist eine statistische Übersicht, die systematisch Transaktionen zwischen Gebietsansässigen und Gebietsfremden zusammenfasst. Dabei handelt es sich um den Saldo aller Güter und Dienstleistungen, das primäre und sekundäre Einkommensverteilungskonto und das Kapitalbilanz- und Finanzierungskonto nach BPM (6-2.12) Die Kapitalbilanz in internationalen Konten zeigt a) zu zahlende oder empfangende Vermögenstransfers zwischen Gebietsansässigen und Gebietsfremden und b) den Erwerb und die Veräußerung von nichterzeugten nichtfinanziellen Vermögenswerten zwischen Gebietsansässigen und Gebietsfremden (BPM 6 bis 13.1). Die Kapitalübertragung ist eine Übertragung von Eigentum an einem Vermögenswert (außer Bargeld oder Vorräte) von einer Vertragspartei zur anderen. Die Summe der Salden von Leistungs- und Vermögensbilanz stellt den Finanzierungssaldo (Überschuss bzw. Defizit) dar von der Volkswirtschaft mit der übrigen Welt (BPM 6 – 2.18). Quelle der Daten für die Euro-Zone: Europäische Zentralbank (EZB).</dcterms:description>
+    <dcatapop:ckanName>tqcJMudXLkeblTm0WNZxHg</dcatapop:ckanName>
+    <dcterms:identifier>teibp060</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/f0606b28-7a75-43ef-bea4-0cf298e1d8f9">
+    <vcard:street-address>Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/811e7ee4-f2bc-4b3d-9682-5b85a22b444d">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="de">Tabelle</dcterms:title>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&amp;plugin=1&amp;language=en&amp;pcode=teibp060"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">Table</dcterms:title>
+    <dcterms:title xml:lang="fr">Tableau</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e2ecaafa-d173-40fd-b05e-1c6d5263bd8d">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url xml:lang="en">http://ec.europa.eu/eurostat/web/products-datasets/-/teibp060</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/tqcJMudXLkeblTm0WNZxHg"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <dcterms:title xml:lang="en">More information on Eurostat Website</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>

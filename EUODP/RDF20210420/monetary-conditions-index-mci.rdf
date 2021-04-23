@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/monetary-conditions-index-mci">
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/42c84a82-eac9-461a-abb4-bac50f4973d7"/>
+    <dcterms:title xml:lang="en">Monetary conditions index (MCI)</dcterms:title>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/CONT"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1728"/>
+    <dcterms:description xml:lang="en">This dataset includes Monetary Conditions Index (MCI) calculated by DG ECFIN. &#13;
+A Monetary Conditions Index (MCI) is an index number calculated from a linear combination of the short-run real interest rate and the real effective exchange rate. As a rule, the weights reflect the relative effects of the respective MCI component on aggregate demand (or in some cases on inflation). </dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6151"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4390"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7cba45bc-fdb8-4741-9a8f-b61464e09a47"/>
+    <dcat:keyword xml:lang="en">monetary conditions index</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1352"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/2658c1ec-1d22-4b61-b0f7-a2e11bb9a530"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/518e391a-1e5a-4a55-b275-6c7391644377"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ECFIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcatapop:ckanName>monetary-conditions-index-mci</dcatapop:ckanName>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/1800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2658c1ec-1d22-4b61-b0f7-a2e11bb9a530">
+    <schema:url>https://ec.europa.eu/info/business-economy-euro/indicators-statistics/economic-databases/monetary-conditions-index_en</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/monetary-conditions-index-mci"/>
+    <dcterms:title xml:lang="en">title_https://ec.europa.eu/info/business-economy-euro/indicators-statistics/economic-databases/monetary-conditions-index_en</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/60535ae3-66c1-44ec-80af-507b0c361b87">
+    <vcard:street-address>Rue de la Loi 170/Wetstraat 170 1049 Bruxelles/Brussel</vcard:street-address>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a5ba79e1-6f9e-4f3d-884b-6e74e82c1581">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <schema:url>https://europa.eu/european-union/contact_en</schema:url>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7cba45bc-fdb8-4741-9a8f-b61464e09a47">
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/economy_finance/db_indicators/monetary_conditions_index/mci.xlsx"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/economy_finance/db_indicators/monetary_conditions_index/mci.xlsx"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcterms:title xml:lang="en">MCI release</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/42c84a82-eac9-461a-abb4-bac50f4973d7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO"/>
+    <dcat:accessURL rdf:resource="http://ec.europa.eu/economy_finance/db_indicators/monetary_conditions_index/mci.pdf"/>
+    <dcterms:title xml:lang="en">MCI release</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://ec.europa.eu/economy_finance/db_indicators/monetary_conditions_index/mci.pdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1500daa4-1d77-46f2-867c-6663c88ce885">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-05-10T18:00:22</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-08-08T17:14:06</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/monetary-conditions-index-mci"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338</dcatapop:numberOfDownloads>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/518e391a-1e5a-4a55-b275-6c7391644377">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/60535ae3-66c1-44ec-80af-507b0c361b87"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:organisation-name>Directorate-General for Economic and Financial Affair, European Commission</vcard:organisation-name>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/a5ba79e1-6f9e-4f3d-884b-6e74e82c1581"/>
+  </rdf:Description>
+</rdf:RDF>

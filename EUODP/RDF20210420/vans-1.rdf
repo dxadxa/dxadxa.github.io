@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/221eeaf1-5d53-4625-ad48-9d99fc840e32">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/vans-1"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Monitoring of CO2 emissions from vans – Regulation 510/2011</dcterms:title>
+    <schema:url>https://www.eea.europa.eu/data-and-maps/data/vans-1</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/b7fa5078-49d8-483d-ba8b-c978c4b98e8a">
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcterms:title xml:lang="en">CO2_vans_v2_mdb.zip</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/vans-1/monitoring-of-co2-emissions_2012f/co2_vans_v2_mdb/view"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MDB"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/f04587ad-5871-4b28-a414-9fbcdc96698f">
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/vans-1/monitoring-of-co2-emissions-frommonitoring-of-co2-emissions_2012p/co2_vans_v1_csv.zip/view"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:title xml:lang="en">CO2_vans_v1_csv.zip</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/5af81a3c-349d-4cf1-b500-6449ec62d4ff">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/e2ab922e-8a2e-42ef-aa49-82b0dc6ccd41"/>
+    <vcard:organisation-name>European Environment Agency</vcard:organisation-name>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/2c80f7fb-a09a-4205-be4f-549fa90819a1"/>
+    <foaf:homepage rdf:resource="http://data.europa.eu/88u/document/ed5da404-3e1b-4bc6-abb1-6b69e06aef10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/vans-1">
+    <dcat:keyword>road transport</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/b7fa5078-49d8-483d-ba8b-c978c4b98e8a"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/43326ce5-0fbb-45c1-b098-b94dc779de97"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/f04587ad-5871-4b28-a414-9fbcdc96698f"/>
+    <dcat:keyword>co2 emissions</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEA"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/7a636716-5d5b-48c1-a253-72a3b881b3e1"/>
+    <dcterms:title xml:lang="en">[DEPRECATED] Monitoring of CO2 emissions from vans – Regulation 510/2011</dcterms:title>
+    <dcterms:description xml:lang="en">The Regulation (EC) No 510/2011 requires Member States to record information for each new van registered in its territory. Every year, each Member State shall submit to the Commission all the information related to their new registrations. In particular, the following details are required for each new van registered: manufacturer name, type, variant, version, make and commercial name, specific emissions of CO2, mass of the vehicle, wheel base, track width, fuel type and fuel mode. Additional information, such as type approval number, engine power and engine capacity were also submitted.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-17T11:00:00Z</dcterms:issued>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/596c7095-2c33-48b9-a559-1042098b6b38"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/221eeaf1-5d53-4625-ad48-9d99fc840e32"/>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/4533"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-11T10:44:33Z</dcterms:modified>
+    <dcterms:identifier>DAT-130-en</dcterms:identifier>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/6011"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/5af81a3c-349d-4cf1-b500-6449ec62d4ff"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/596c7095-2c33-48b9-a559-1042098b6b38">
+    <dcterms:title xml:lang="en">CO2_vans_v1_mdb.zip</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description></dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/vans-1/monitoring-of-co2-emissions-frommonitoring-of-co2-emissions_2012p/co2_vans_v1_mdb.zip/view"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MDB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/4258be38-7421-47ed-850d-4c0f7766f737">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:49:10</dcterms:issued>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/vans-1"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-06-15T17:49:10</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/e2ab922e-8a2e-42ef-aa49-82b0dc6ccd41">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Kongens Nytorv 6, 1050 Copenhagen K, Denmark</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/7a636716-5d5b-48c1-a253-72a3b881b3e1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:description></dcterms:description>
+    <dcterms:title xml:lang="en">CO2_vans_v2_csv.zip</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/vans-1/monitoring-of-co2-emissions_2012f/co2_vans_v2_csv/view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/43326ce5-0fbb-45c1-b098-b94dc779de97">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcat:accessURL rdf:resource="https://www.eea.europa.eu/data-and-maps/data/vans"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description>The Regulation (EC) No 510/2011 requires Member States to record information for each new van registered in its territory. Every year, each Member State shall submit to the Commission all the information related to their new registrations. In particular, the following details are required for each new van registered: manufacturer name, type, variant, version, make and commercial name, specific emissions of CO2, mass of the vehicle, wheel base, track width, fuel type and fuel mode. Additional information, such as type approval number, engine power and engine capacity were also submitted.</dcterms:description>
+    <dcterms:title xml:lang="en">OLDER VERSION - 2013-06-18</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/2c80f7fb-a09a-4205-be4f-549fa90819a1">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+    <vcard:hasValue rdf:resource="tel:+4533367100"/>
+  </rdf:Description>
+</rdf:RDF>

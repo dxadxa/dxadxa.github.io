@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/ffef7c5d-9c9b-4ecd-99c1-003fbade82ca">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://ec.europa.eu/jrc/en/research-topic/alternatives-animal-testing-and-safety-assessment-chemicals</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/8f12ee43-479a-4272-aadc-66331c806f94">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db">
+    <dcterms:identifier>jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/14ce9748-49c6-4e6b-b959-902476e4284b"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:ckanName>jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db</dcatapop:ckanName>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/ffef7c5d-9c9b-4ecd-99c1-003fbade82ca"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3c818210-423a-4d52-bc94-f82ee8559590"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-08</dcterms:issued>
+    <dcterms:title xml:lang="en">EURL ECVAM Rodent In Vitro Intrinsic Clearance Database</dcterms:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-08</dcterms:modified>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/0b4f4ec3-bb64-4431-87d6-faba2e3adf79"/>
+    <dcterms:description xml:lang="en">The rodent In Vitro Intrinsic Clearance database is an Excel™ workbook and includes rodent (mouse, rat) in vitro intrinsic clearance rates derived with in vitro methods using rodent S9 fraction, hepatocytes, or microsomes.  There are 8648 entries for approximately 6100 unique chemicals. The database has been compiled by ARC Arnot Research and Consulting Inc (Toronto, Canada) for EURL ECVAM (Joint Research Centre, F.3; contract number: CCR.F.C931336.X0) applying quality criteria as outlined in the spreadsheets.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3c818210-423a-4d52-bc94-f82ee8559590">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">EURL ECVAM Rodent In Vitro Intrinsic Clearance Database</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:description xml:lang="en">Excel workbook: EURL ECVAM Rodent_InVitro_Intrinsic Clearance_DB_09-10-2018.xlsx</dcterms:description>
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/RodentInVitroIntrinsicClearance/LATEST/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/0b4f4ec3-bb64-4431-87d6-faba2e3adf79">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/8f12ee43-479a-4272-aadc-66331c806f94"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-computox@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/14ce9748-49c6-4e6b-b959-902476e4284b">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db</dcterms:title>
+    <schema:url>http://data.europa.eu/89h/jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/c5ad8eff-400c-49ff-bf70-042d282dd57e">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336</dcatapop:numberOfViews>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-eurl-ecvam-rodent-in-vitro-intr-clear-db"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T13:28:33</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-13 12:05:50.397815</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

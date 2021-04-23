@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/437c85d1-a253-4fdd-bccc-4cc6926bd47e">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dcatapop:numberOfDownloads>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:29</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/522efb74-9553-45d4-ba4c-49ae40d82a26"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T14:52:29</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/522efb74-9553-45d4-ba4c-49ae40d82a26">
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/2376b2e3-f255-46b1-9227-d876555c78b4"/>
+    <dcat:keyword xml:lang="en">International issues</dcat:keyword>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-18</dcterms:issued>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/3b01dbaf-c1f5-49c9-bcc0-13b99b1d6af9"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/c91ee1d0-1941-48dd-b6c3-58a05f18ff8d"/>
+    <dcterms:description xml:lang="en">Due to abnormally hot, dry and windy weather, forest wildfires broke out in Ukraine about 3/5 April 2020 in a territory still heavily contaminated by the 1986 Chernobyl nuclear accident. These wildfires reached the exclusion zone and the surrounding environment (about 1 km) of the nuclear power plant from April 8, 2020 and they are up to now the biggest fires ever recorded in the Chernobyl exclusion zone. 
+This event was of major interest due to the fact that since 1986, the forests have accumulated radioactivity, mostly concentrated in the wood and upper soil layers and, because of the fire haze these particles could be resuspended into the air and transported over long distances. Indeed the press reported detection of a small increase of cesium-137 concentrations in the air in Kiev, Germany, Norway, Greece and other countries. The EURDEP network also detected a slight increase of gamma dose rate with respect to the background in the proximity of the fire.
+This dataset reports the ambient gamma dose rate measurements collected by the EURDEP network during those days.</dcterms:description>
+    <dcat:keyword xml:lang="en">Environment</dcat:keyword>
+    <dcatapop:ckanName>522efb74-9553-45d4-ba4c-49ae40d82a26</dcatapop:ckanName>
+    <dcterms:identifier>522efb74-9553-45d4-ba4c-49ae40d82a26</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/9725d44c-1954-4147-9ca9-18558c6468f4"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="en">Chernobyl wildfire (total gamma dose rates)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/3b01dbaf-c1f5-49c9-bcc0-13b99b1d6af9">
+    <dcat:accessURL rdf:resource="http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURDEP/Chernobyl/2020_04_DoseRates.zip"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Total gamma dose rates</dcterms:title>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/c91ee1d0-1941-48dd-b6c3-58a05f18ff8d">
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/f4d7bbe0-57a2-4a4f-ad23-812ba3687a44"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:hasEmail rdf:resource="jrc-remdbsupport@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/2376b2e3-f255-46b1-9227-d876555c78b4">
+    <schema:url xml:lang="en">https://remon.jrc.ec.europa.eu/</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/522efb74-9553-45d4-ba4c-49ae40d82a26"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/f4d7bbe0-57a2-4a4f-ad23-812ba3687a44">
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/9725d44c-1954-4147-9ca9-18558c6468f4">
+    <schema:url>http://data.europa.eu/89h/522efb74-9553-45d4-ba4c-49ae40d82a26</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/522efb74-9553-45d4-ba4c-49ae40d82a26</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/522efb74-9553-45d4-ba4c-49ae40d82a26"/>
+  </rdf:Description>
+</rdf:RDF>

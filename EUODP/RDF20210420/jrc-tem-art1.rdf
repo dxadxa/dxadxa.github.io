@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/91ff129b-1341-4ed8-87f7-200c3682aa7e">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">title_http://data.europa.eu/89h/jrc-tem-art1</dcterms:title>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tem-art1"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://data.europa.eu/89h/jrc-tem-art1</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-tem-art1">
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <dcat:keyword xml:lang="en">Transport</dcat:keyword>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/5168958b-f841-4e9e-b1d9-d8a1f6e67470"/>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:title xml:lang="en">Traffic simulation data for Antwerp</dcterms:title>
+    <dcat:keyword xml:lang="en">Science and technology</dcat:keyword>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/375928fe-5568-43a1-9f2a-1a22622f30f3"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/7c555d74-2319-494f-8ceb-0a62079ae3d5"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/3ea6828d-2fa0-45fd-8b7e-0ffa1e287c46"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-18</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <dcatapop:ckanName>jrc-tem-art1</dcatapop:ckanName>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/91ff129b-1341-4ed8-87f7-200c3682aa7e"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:identifier>jrc-tem-art1</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:description xml:lang="en">Simulation data of traffic in Antwerp during a typical day. Vehicle speed and position, as well as global indicators of transport reported every 60 seconds. The data is used for the analysis of the impacts of connected vehicles in the context of the exploratory research project ART (Autonomous Road Transport)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/7c555d74-2319-494f-8ceb-0a62079ae3d5">
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/41d0d094-ecc1-4f64-a37d-92ff04006b62"/>
+    <vcard:hasEmail rdf:resource="biagio.ciuffo@ec.europa.eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/41d0d094-ecc1-4f64-a37d-92ff04006b62">
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <schema:url>http://ec.europa.eu/jrc/</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/375928fe-5568-43a1-9f2a-1a22622f30f3">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcterms:description xml:lang="en">Full dataset in csv format</dcterms:description>
+    <dcterms:title xml:lang="en">Traffic simulation data for Antwerp</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://doi.org/10.7910/DVN/BCUYIR"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/5168958b-f841-4e9e-b1d9-d8a1f6e67470">
+    <dcterms:description xml:lang="en">Description of dataset features</dcterms:description>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tem-art1"/>
+    <schema:url xml:lang="en">https://doi.org/10.1007/978-3-319-66972-4_18</schema:url>
+    <dcterms:description xml:lang="en">Makridis, M., Mattas, K., Ciuffo, B., Alonso Raposo, M. and Thiel, C., Assessing the Impact of Connected and Automated Vehicles. A Freeway Scenario, In: 21th International Forum on Advanced Microsystems for Automotive Applications (AMAA 2017), 25-26 September 2017, Berlin, Germany (DE), Advanced Microsystems for Automotive Applications 2017, 2017, ISBN 978-3-319-66972-4 (Online),978-3-319-66971-7 (Print), p. 213-225, JRC107902.</dcterms:description>
+    <dcterms:title xml:lang="en">Data dictionary</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Assessing the Impact of Connected and Automated Vehicles. A Freeway Scenario</dcterms:title>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_RELATED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/3ea6828d-2fa0-45fd-8b7e-0ffa1e287c46">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tem-art1"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <dcterms:title xml:lang="en">Landing page</dcterms:title>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">https://doi.org/10.7910/DVN/BCUYIR</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/1a9ee937-9c2d-4743-bd6d-9c966bb8c239">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-tem-art1"/>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1806</dcatapop:numberOfViews>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-01-27T14:48:32</dcterms:modified>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1621</dcatapop:numberOfDownloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-26 13:35:25.079274</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/jrc-esdac-124">
+    <dcterms:identifier>http://data.europa.eu/89h/jrc-esdac-124</dcterms:identifier>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/325586a4-d81f-4f85-afca-778f9d769a93"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:identifier>jrc-esdac-124</dcterms:identifier>
+    <dcat:keyword xml:lang="en">radionuclides</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+    <dcat:keyword xml:lang="en">erosion</dcat:keyword>
+    <dcterms:description xml:lang="en">Plutonium and Cesium inventories in European topsoils. Includes also the Chernobyl-derived 137Cs and Global-derived 137Cs</dcterms:description>
+    <dcterms:subject rdf:resource="http://eurovoc.europa.eu/100151"/>
+    <dcatapop:ckanName>caesium-137-and-plutonium-239-240-in-european-topsoils</dcatapop:ckanName>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/6c3e7038-ff9e-40da-9274-c98aee713915"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:keyword xml:lang="en">plutonium</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcatapop:isPartOfCatalog rdf:resource="http://data.europa.eu/88u/catalog/euodp"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-20</dcterms:modified>
+    <dcterms:title xml:lang="en">Caesium-137 and Plutonium-239+240 in European topsoils</dcterms:title>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/51ecd4a8-dcc9-4a2d-992a-a0d756dd150e"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/98ac4389-3147-4ed0-a239-ee330faa2987"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/75f5829b-c091-4cdb-9489-5b25a124acb2">
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-124"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dcatapop:numberOfDownloads>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2021-03-29T15:19:34</dcterms:modified>
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dcatapop:numberOfViews>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-10-08T15:02:28</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/51ecd4a8-dcc9-4a2d-992a-a0d756dd150e">
+    <dcterms:title xml:lang="en">external_uri</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://data.europa.eu/89h/jrc-esdac-124</schema:url>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-124"/>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ec.europa.eu/info/departments/joint-research-centre">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>https://ec.europa.eu/info/departments/joint-research-centre</schema:url>
+    <foaf:topic rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    <dcterms:title>European Commission, Joint Research Centre (JRC)</dcterms:title>
+    <dcterms:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/6c3e7038-ff9e-40da-9274-c98aee713915">
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/OP_DATPRO"/>
+    <dcterms:description xml:lang="en">Caesium-137 and Plutonium-239+240 in European topsoils</dcterms:description>
+    <dcat:accessURL rdf:resource="https://esdac.jrc.ec.europa.eu/content/caesium-137-and-plutonium-239240-european-topsoils"/>
+    <dcterms:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OP_DATPRO"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:title xml:lang="en">Caesium-137 and Plutonium-239+240 in European topsoils</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/325586a4-d81f-4f85-afca-778f9d769a93">
+    <dcterms:type rdf:resource="http://purl.org/dc/terms/URI"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/jrc-esdac-124"/>
+    <dcterms:title xml:lang="en">http://data.europa.eu/88u/dataset/jrc-esdac-124</dcterms:title>
+    <schema:url>http://data.europa.eu/88u/dataset/jrc-esdac-124</schema:url>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/RESTRICTED">
+    <rdfs:label xml:lang="en">restricted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/98ac4389-3147-4ed0-a239-ee330faa2987">
+    <vcard:hasEmail rdf:resource="mailto:ec-esdac@ec.europa.eu"/>
+    <vcard:organisation-name>European Commission, Joint Research Centre (JRC)</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <foaf:homePage rdf:resource="https://ec.europa.eu/info/departments/joint-research-centre"/>
+  </rdf:Description>
+</rdf:RDF>
