@@ -16,7 +16,7 @@ div.center { text-align: center; }
 <!-- this code aims to demonstrate navigation into SPARQL endpoint , EUPL 2020 X.DESURMONT-->
 
 <!-- the page -->
-<h2><span style="color:red">VI</span><span style="color:green">NA</span><span style="color:blue">LOD</span> Proof of concept (version 20210322)</h2>
+<h2><span style="color:red">VI</span><span style="color:green">NA</span><span style="color:blue">LOD</span> Proof of concept (version 20210428)</h2>
 <FORM NAME="theForm" id="testformid">
 
 <!-- Choice of linguistic version of data -->
@@ -24,15 +24,17 @@ div.center { text-align: center; }
 SparQL endpoint:
 <SELECT id="url" NAME="url" SIZE="1"  >
 <OPTION>(CELLAR)https://publications.europa.eu/webapi/rdf/sparql
-<OPTION>(EU ODP - to be stopped end of April 2021)https://data.europa.eu/euodp/sparqlep
+<OPTION>(EU ODP - only from OP)https://op-odp-fsp.cc.cec.eu.int:8443/euodp/sparqlep
 <OPTION>(DATA.EUROPA.EU)https://data.europa.eu/sparql
-<OPTION>(DATA.EUROPA.EU)http://data.europa.eu/sparql
 <OPTION>(WIKIDATA)https://query.wikidata.org/sparql
 <OPTION>(OPENAIRE)https://lod.openaire.eu/sparql
-<OPTION>(EDP - to be stopped end of April 2021)https://www.europeandataportal.eu/sparql
 <OPTION>(dbpedia)https://dbpedia.org/sparql
 <OPTION>(dbpedia)http://dbpedia.org/sparql
+<OPTION>(EU ODP - stopped end of April 2021)https://data.europa.eu/euodp/sparqlep
+<OPTION>(EDP - to be stopped end of April 2021)https://www.europeandataportal.eu/sparql
+
 <!--<OPTION>-----
+<OPTION>(DATA.EUROPA.EU)http://data.europa.eu/sparql
 <OPTION>(CELLAR)http://publications.europa.eu/webapi/rdf/sparql
 <OPTION>(EU ODP)http://data.europa.eu/euodp/sparqlep
 <OPTION>(WIKIDATA)https://query.wikidata.org/bigdata/namespace/wdq/sparql
@@ -535,6 +537,7 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://www.w3.org/2004/02/skos/core#narrower</td><td>https://upload.wikimedia.org/wikipedia/commons/c/cd/Zoom_in_font_awesome.svg</td></tr>
 <tr><td>http://www.w3.org/2004/02/skos/core#broader</td><td>https://upload.wikimedia.org/wikipedia/commons/b/bc/Zoom_out_font_awesome.svg</td></tr>
 <tr><td>http://publications.europa.eu/ontology/euvoc#contactPoint</td><td>https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png</td></tr>
+<tr><td>http://www.w3.org/ns/dcat#contactPoint</td><td>https://upload.wikimedia.org/wikipedia/commons/d/d5/Contacts_%28iOS%29.png</td></tr>
 <tr><td>http://www.w3.org/ns/org#Organization</td><td>https://upload.wikimedia.org/wikipedia/commons/2/23/Noun_Projects_organization_icon_1235401.svg</td></tr>
 <tr><td>http://www.w3.org/2006/vcard/ns#hasTelephone</td><td>https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png</td></tr>
 <tr><td>http://www.w3.org/2006/vcard/ns#hasEmail</td><td>https://upload.wikimedia.org/wikipedia/commons/5/5f/Email_Silk.svg</td></tr>
@@ -620,6 +623,14 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://www.w3.org/2004/02/skos/core#definition</td><td>https://static.thenounproject.com/png/729118-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/created</td><td>https://static.thenounproject.com/png/3510137-200.png</td></tr>
 <tr><td>http://www.w3.org/2001/XMLSchema#dateTime</td><td>https://static.thenounproject.com/png/943989-200.png</td></tr>
+<tr><td>http://purl.org/dc/terms/modified</td><td>https://static.thenounproject.com/png/2096199-200.png</td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/address-type/FAX</td><td>https://static.thenounproject.com/png/1338047-200.png</td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/address-type/TEL</td><td>https://static.thenounproject.com/png/2972772-200.png</td></tr>
+<tr><td>https://spdx.org/rdf/terms/#checksum</td><td>https://static.thenounproject.com/png/21048-200.png</td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
