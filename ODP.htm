@@ -40,7 +40,7 @@
         color: #696;
         }
   </style>
-  <title>DASHBOARD ODP (rev20210225)</title>
+  <title>DASHBOARD ODP (rev20210424)</title>
 
   
 </head><body>
@@ -49,26 +49,28 @@
 
 <b>The aim of this page is to easily have access to operational information of ODP</b>
 
-<h2 id="BACK">NALs tables</h2>
+<h2>Websites</h2>
+<a href="https://data.europa.eu">data.europa.eu<br/>
+<a href="http://dxadxa.github.io/vinalod_poc_rev30.html">VINALOD Xavier's POC<br/>
+
+<h2>Sparql Endpoints and tools to access data</h2>
+<a href="https://data.europa.eu/sparql">data.europa.eu sparql endpoint (basic version)<br/>
+<a href="http://cellarinternal.publications.europa.eu/webapi/rdf/sparql">CELLAR PROD internal</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">CELLAR PROD Back Office</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://fo1.virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">CELLAR PROD Front Office 1</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://fo2.virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">CELLAR PROD Front Office 2</a> (time-out 6 minutes tested on the 20200505)<br/>
+<a href="http://publications.europa.eu/webapi/rdf/sparql">CELLAR PROD</a> (time-out 6 minutes tested on the 20200505, 10 minutes 20201123)<br/>
+<a href="http://cellar-test.publications.europa.eu/webapi/rdf/sparql">CELLAR cellar-test Front Office</a> (time-out 6 minutes tested on the 20200505)<br/>
 
 
-<h2>Sparql Endpoints</h2>
-
-
-<a href="http://cellarinternal.publications.europa.eu/webapi/rdf/sparql">PROD internal</a> (time-out 6 minutes tested on the 20200505)<br/>
-<a href="http://virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">PROD Back Office</a> (time-out 6 minutes tested on the 20200505)<br/>
-<a href="http://fo1.virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">PROD Front Office 1</a> (time-out 6 minutes tested on the 20200505)<br/>
-<a href="http://fo2.virtuoso.cellar.production.op.aws.cloud.tech.ec.europa.eu/sparql">PROD Front Office 2</a> (time-out 6 minutes tested on the 20200505)<br/>
-<a href="http://publications.europa.eu/webapi/rdf/sparql">PROD</a> (time-out 6 minutes tested on the 20200505, 10 minutes 20201123)<br/>
-<a href="http://cellar-test.publications.europa.eu/webapi/rdf/sparql">cellar-test Front Office</a> (time-out 6 minutes tested on the 20200505)<br/>
-
-
-<H2>authority tables</H2>
+<H2>EU Vocabularies</H2>
 
 <a href="https://op.europa.eu/o/wiw-organization-detail/map.jsp?authority_code=MER">display of maps for site</a><br />
 <a href="http://publications.europa.eu/webapi/rdf/sparql?default-graph-uri=&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E+%0D%0A%0D%0Aselect++distinct+%3FNalConcept++%3FSourceMapping+%0D%0A%0D%0Awhere+%7B%0D%0A%3FNalConcept+%3Chttp%3A%2F%2Flemon-model.net%2Flemon%23context%3E+%3FSourceMapping.%0D%0A%0D%0A%0D%0Afilter%28%3FSourceMapping%3D%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fuse-context%2FODP%3E%29%0D%0A%7D+order+by+%3FNalConcept&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">Display the list of concept related to ODP in OP autority tables</a>
 
-<H2>Dash boards</H2>
+<H2>Dashboards</H2>
+
+<H3>Data providers and published dataset of EU institutions</h3>
 
 <iframe src="https://web-qap.tech.ec.europa.eu/public/single/?appid=535d0160-c6ba-48bc-906e-ba35a550599e&sheet=654ed878-691e-4997-8dea-64743eb4e0e0&opt=currsel%2Cctxmenu" title="Data providers and published dataset of EU institutions" height="720" width="1024"></iframe>
 
