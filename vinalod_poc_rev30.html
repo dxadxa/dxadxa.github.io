@@ -16,7 +16,7 @@ div.center { text-align: center; }
 <!-- this code aims to demonstrate navigation into SPARQL endpoint , EUPL 2020 X.DESURMONT-->
 
 <!-- the page -->
-<h2><span style="color:red">VI</span><span style="color:green">NA</span><span style="color:blue">LOD</span> Proof of concept (version 20210428)</h2>
+<h2><span style="color:red">VI</span><span style="color:green">NA</span><span style="color:blue">LOD</span> Proof of concept (version 20210505)</h2>
 <FORM NAME="theForm" id="testformid">
 
 <!-- Choice of linguistic version of data -->
@@ -363,7 +363,7 @@ var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURICompon
 var tableau = document.getElementById("table_result");
 var theUri= document.getElementById("theUri");
 //theUri.innerHTML="Showing content of URI: "+newSeed;
-theUri.innerHTML="<i>Searching content for </i>"+newSeed +"<BR/><BR/><BR/><BR/><div class='center'>     <img src='https://upload.wikimedia.org/wikipedia/commons/9/92/Loading_icon_cropped.gif' height='40' /></div>";
+theUri.innerHTML="<i>Searching content for </i>"+newSeed + uriToHtml(newSeed) +" <button onclick='copyToClipboard()'>Copy query to clipboard</button><BR/><BR/><BR/><BR/><div class='center'>     <img src='https://upload.wikimedia.org/wikipedia/commons/9/92/Loading_icon_cropped.gif' height='40' /></div>";
 tableau.innerHTML = "";
 var seqNumber = ++queryCount;
 if (1> 0) {
@@ -379,7 +379,9 @@ else
 $.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
 	
-	theUri.innerHTML="<i>Showing content of</i> "+newSeed + " (number of rows: "+results.length+") <button onclick='copyToClipboard()'>Copy query to clipboard</button>";
+	theUri.innerHTML="<i>Showing content of</i> "+newSeed + uriToHtml(newSeed) +" (number of rows: "+results.length+") <button onclick='copyToClipboard()'>Copy query to clipboard</button>";
+	
+	document.documentElement.scrollTop = 0;
 	
 	tableau.innerHTML = "";
 	var ligne = tableau.insertRow(-1);//add a row to the result table    
@@ -628,6 +630,24 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://publications.europa.eu/resource/authority/address-type/FAX</td><td>https://static.thenounproject.com/png/1338047-200.png</td></tr>
 <tr><td>http://publications.europa.eu/resource/authority/address-type/TEL</td><td>https://static.thenounproject.com/png/2972772-200.png</td></tr>
 <tr><td>https://spdx.org/rdf/terms/#checksum</td><td>https://static.thenounproject.com/png/21048-200.png</td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/continent/EUROPE</td><td>https://static.thenounproject.com/png/1466691-200.png</td></tr>
+<tr><td>http://purl.org/dc/terms/temporal</td><td>https://static.thenounproject.com/png/365960-200.png</td></tr>
+<tr><td>http://purl.org/dc/terms/language</td><td>https://static.thenounproject.com/png/3325116-200.png</td></tr>
+<tr><td>http://xmlns.com/foaf/0.1/page</td><td>https://static.thenounproject.com/png/148438-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dcat#landingPage</td><td>https://static.thenounproject.com/png/3257360-200.png</td></tr>
+<tr><td>http://purl.org/dc/terms/accessRights</td><td>https://static.thenounproject.com/png/71752-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dqv#hasQualityMeasurement</td><td>https://static.thenounproject.com/png/2051251-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dqv#hasQualityMetadata</td><td>https://static.thenounproject.com/png/685084-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dqv#hasQualityAnnotation</td><td>https://static.thenounproject.com/png/685084-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dcat#keyword</td><td>https://static.thenounproject.com/png/1782327-200.png</td></tr>
+<tr><td>http://purl.org/dc/terms/spatial</td><td>https://static.thenounproject.com/png/37532-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dcat#distribution</td><td>https://static.thenounproject.com/png/3761573-200.png</td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
