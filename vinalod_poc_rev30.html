@@ -358,13 +358,15 @@ if (isNaN(newSeed))
 
 
 sparqlQuery = sparqlQuery + "}\
-order by DESC(?oLANG) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) ?s ?g ";
+order by DESC(?oLANG) ASC(?p) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) ?s ?g ";
 //if ((!(newSeed.includes('http')))&&backward==false) sparqlQuery = sparqlQuery + "(?o='"+newSeed+"') "; 
 sparqlQuery = sparqlQuery + "LIMIT "+nbResultId.value+" OFFSET "+pageId*nbResultId.value;
 
 
 // let's take the what is after "(XYZ)" in the URL
-var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURIComponent(  sparqlQuery  )+ "&format=json";
+var queryUrl = url.value.split(')')[1] + "?query=" + prefixes +  encodeURIComponent(  sparqlQuery  );
+var queryUrlJson = queryUrl + "&format=json";
+
 
 // encodeURI
 var tableau = document.getElementById("table_result");
@@ -379,14 +381,16 @@ $("result").html("<BR>");
 // 2.Display result of the quick query
 
 if (url.value.includes("wikidata")||url.value.includes("dbpedia"))
-{settings = { url: queryUrl, async: true       }; }
+{settings = { url: queryUrlJson, async: true       }; }
 else
-{settings = { url: queryUrl, async: true   , dataType: 'jsonp'     }; }
+{settings = { url: queryUrlJson, async: true   , dataType: 'jsonp'     }; }
 
 $.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
 	
-	theUri.innerHTML="<i>Showing content of</i> "+newSeed + uriToHtml(newSeed) +" (number of rows: "+results.length+") <button onclick='copyToClipboard()'>Copy query to clipboard</button>";
+	theUri.innerHTML="<i>Showing content of</i> "+newSeed + uriToHtml(newSeed) +" (number of rows: "+results.length+") <button onclick='copyToClipboard()'>Copy query to clipboard</button> <a href=\"" +queryUrl+"\" target='_blank'>[html]</a>";
+	
+
 	
 	document.documentElement.scrollTop = 0;
 	
@@ -652,9 +656,8 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://www.w3.org/ns/dcat#distribution</td><td>https://static.thenounproject.com/png/3761573-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/locn#geometry</td><td>https://static.thenounproject.com/png/172892-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/identifier</td><td>https://static.thenounproject.com/png/3001659-200.png</td></tr>
-
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL</td><td>https://static.thenounproject.com/png/2143916-200.png</td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/file-type/TSV</td><td>https://static.thenounproject.com/png/1131900-200.png</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
@@ -672,6 +675,8 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://publications.europa.eu/resource/authority/membership-classification/SCHENGEN</td><td>TD2</td></tr>
 
 -->
+
+
 
 <script>showTableData();</script>
 
