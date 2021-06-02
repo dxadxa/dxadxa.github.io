@@ -74,6 +74,7 @@ seed URI or nodeID:
 <OPTION>(DEU: Catalogue of datasets of EU ODP)https://europeandataportal.eu/id/catalogue/european-union-open-data-portal
 <OPTION>(DEU: Catalogue of datasets ESIF)https://europeandataportal.eu/id/catalogue/esif
 <OPTION>(DEU: a dataset - NOT WORKING )https://europeandataportal.eu/set/data/cdd979d5-8b42-31a4-a33a-d31d5bc8930a
+<OPTION>(DEU: list of catalogue - go backward)http://www.w3.org/ns/dcat#Catalog
 <OPTION>(CELLAR EuroSciVoc concept "engineering and technology")http://publications.europa.eu/resource/authority/euroscivoc/073eaa71-d67e-4608-9918-8b5b63dbb6e8
 <OPTION>(CELLAR/EU ODP Label "juncker" - backward)juncker
 <OPTION>(CELLAR/EU ODP Label - backward)coronavirus disease
@@ -83,6 +84,8 @@ seed URI or nodeID:
 <OPTION>(CELLAR/EU ODP/EDP: theme of a dataset)http://publications.europa.eu/resource/authority/data-theme/AGRI
 <OPTION>(CELLAR/EU ODP: NUTS CODE: Spain)http://data.europa.eu/nuts/code/ES
 <OPTION>(CELLAR: Site: building MERCIER in Luxembourg)http://publications.europa.eu/resource/authority/site/MER
+<OPTION>(CELLAR: list of concept of table frequency)http://publications.europa.eu/resource/authority/frequency
+<OPTION>(CELLAR: shows at least of NALs tables - back ward)http://www.w3.org/2002/07/owl#Ontology
 <OPTION>(CELLAR: measurement unit: meter)http://publications.europa.eu/resource/authority/measurement-unit/MTR
 <OPTION>(CELLAR/EU ODP/EDP)http://publications.europa.eu/resource/authority/file-type/HTML
 <OPTION>(CELLAR/EU ODP/EDP "FRANCE")http://publications.europa.eu/resource/authority/country/FRA
@@ -359,7 +362,7 @@ if (isNaN(newSeed))
 
 
 sparqlQuery = sparqlQuery + "}\
-order by DESC(?oLANG) ASC(?p) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) ?s ?g ";
+order by DESC(?oLANG) ASC(?p) ASC(?o) ASC(?s) (?p=<http://www.w3.org/2008/05/skos-xl#prefLabel>||?p=<http://www.w3.org/2008/05/skos-xl#altLabel>) ?s ?g ";
 //if ((!(newSeed.includes('http')))&&backward==false) sparqlQuery = sparqlQuery + "(?o='"+newSeed+"') "; 
 sparqlQuery = sparqlQuery + "LIMIT "+nbResultId.value+" OFFSET "+pageId*nbResultId.value;
 
