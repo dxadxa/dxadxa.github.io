@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.anninter.com/" targetNamespace="http://www.anninter.com/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="anninter_country_lang_1.8_20170220.xsd"/>
+	<!-- Version: anninter_1.8_2017-02-20: add type for <web> and <email> 
+			Version: anninter_1.7_2015-11-17: Changes only in anninter_country_lang_1.7_20131117.xsd
+			Version: anninter_1.6_2013-09-05: Changes only in anninter_country_lang_1.6_20120121.xsd
+		Version: anninter_1.5_2012-04-10: IndividualId, parentId, functionId, civilityId, entityId are now restricted string "t_id" with only "A-Z" "0-9" and "-_." characters allowed
+		Version: anninter_1.4_2012-02-21: Changes only in anninter_country_lang_1.4_20120121.xsd
+		Version: anninter_1.3_2012-01-31: Changes only in anninter_country_lang_1.3_20120131.xsd
+		Version: anninter_1.2_2011-05-18: Attribute individual/atTypeId changed from xs:string to xs:integer ; entity/prefix added (optional) ; date format restricted: yyyymmdd ; (date, entity/uploadDate individual/uploadDate and individual/dateOfBirth)
+		Version: 2011-02-21: schema moved to internet: Schema name changed ;  spelling mistake unigue corrected in: civilitiesCivilityIdUnique, functionFunctionIdUnique 
+			  and element_entityIdUnique ; definition of textLines moved to anninter_country_lang_version_date.xsd ; countryCode tag added ; type of country tag changed from countryCode to string ; address structure changed: (province tag added ; addresslines: building deleted, address4 and addressloc added)
+	
+		Version: 2010-03-22
+			- entity/freeText added (optional)
+			- individual/freeText added (optional)
+		Version: 2009-10-21
+			- Changed rules for mandatory telephone number fields in import and export Pivot
+  			  and new rules for address and telephone number formats.
+		Version: 2009-08-03
+			- entity/description added (optional)
+			- entity/footnote added (optional)
+			- individual/footnote added (optional)
+		Version: 2009-02-018
+			- civilities/civility is optional
+			- individual/functionId is optional
+		Version: 2009-01-23
+			- individual/civilityId is optional
+			- individual/miniCv added (optional)
+		Version: 2008-05-07
+			- level attribute added to entity (required)
+			
+			
+			This pivot format is used for importing and exporting data to the ANNINTER database. 
+			
+			This pivot file contains
+			- 	Entities hierarchy. There is 1 root entity, whose parent
+				should be an existing entity code of Anninter. Each other entity should
+				be a child of another entity in the pivot file.
+			-	Individuals of each entity. The parent of individual is the entity 
+				where it belongs. One individual can belong to several entities.
+			-	Functions for the individuals.
+			-	Civilities for the individuals.
+			-	Labels for function, civility and entity may occur in all the 
+				official languages
+				
+			NOTE: The language codes and country codes, which may change (or new codes 
+			may be added) are described in an external file anninter_country_lang_version_date.xsd,
+			including:
+			- 	countryCode type
+			- 	languageCode type
+			- 	languageElements type			
+	-->
+	<!-- 	main pivotAnninter element -->
+	<xs:element name="pivotAnninter">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dataSource" type="xs:string"/>
+				<xs:element name="dataTarget" type="xs:string"/>
+				<xs:element name="title" type="textLines"/>
+				<xs:element name="date">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d{8}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="user" type="xs:string"/>
+				<xs:element name="languageRef" type="languageCode"/>
+				<!-- languageCode type is defined in anninter_country_lang_version_date.xsd -->
+				<xs:element name="description" type="xs:string"/>
+				<xs:element ref="functions"/>
+				<xs:element ref="civilities"/>
+				<xs:element ref="items"/>
+			</xs:sequence>
+		</xs:complexType>
+		<!-- check that civilities civilityId is unique 		-->
+		<xs:unique name="civilitiesCivilityIdUnique">
+			<xs:selector xpath="civilities/civility"/>
+			<xs:field xpath="@civilityId"/>
+		</xs:unique>
+		<!-- check that function functionId is unique 		-->
+		<xs:unique name="functionFunctionIdUnique">
+			<xs:selector xpath="functions/function"/>
+			<xs:field xpath="@functionId"/>
+		</xs:unique>
+		<!-- check that entity entityId is unique 		-->
+		<xs:unique name="element_entityIdUnique">
+			<xs:selector xpath="items/entity"/>
+			<xs:field xpath="@entityId"/>
+		</xs:unique>
+	</xs:element>
+	<!-- elements describing FUNCTIONS -->
+	<xs:element name="functions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="function" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="function">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="male" type="languageElements" minOccurs="0"/>
+				<xs:element name="female" type="languageElements" minOccurs="0"/>
+				<!-- languageElements type is defined in anninter_country_lang_version_date.xsd -->
+			</xs:sequence>
+			<xs:attribute name="functionId" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<!-- elements describing CIVILITIES -->
+	<xs:element name="civilities">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="civility" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="civility">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="names" type="languageElements"/>
+				<!-- languageElements type is defined in anninter_country_lang_version_date.xsd -->
+			</xs:sequence>
+			<xs:attribute name="civilityId" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<!-- elements describing ITEMS -->
+	<xs:element name="items">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="entity" type="entityType" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- ENTITY type -->
+	<xs:complexType name="entityType">
+		<xs:sequence>
+			<xs:element name="names" type="languageElements"/>
+			<xs:element name="searchNames" type="languageElements" minOccurs="0"/>
+			<xs:element name="shortNames" type="languageElements" minOccurs="0"/>
+			<xs:element name="prefix" type="xs:string" minOccurs="0"/>
+			<!-- languageElements type is defined in anninter_country_lang_version_date.xsd -->
+			<xs:element ref="photo" minOccurs="0"/>
+			<xs:element ref="addresses" minOccurs="0"/>
+			<xs:element name="description" type="languageElements" minOccurs="0"/>
+			<xs:element name="footnote" type="languageElements" minOccurs="0"/>
+			<xs:element name="freeText" type="languageElements" minOccurs="0"/>
+			<xs:element name="individual" type="individualType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="entityId" type="t_id" use="required"/>
+		<xs:attribute name="parentId" type="t_id" use="required"/>
+		<xs:attribute name="level" type="xs:string" use="required"/>
+		<xs:attribute name="uploadDate" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="\d{8}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<!-- INDIVIDUAL type -->
+	<xs:complexType name="individualType">
+		<xs:all>
+			<xs:element name="firstName" type="xs:normalizedString"/>
+			<xs:element name="surname" type="xs:normalizedString"/>
+			<xs:element name="searchFirstName" type="xs:normalizedString" minOccurs="0"/>
+			<xs:element name="searchSurname" type="xs:normalizedString" minOccurs="0"/>
+			<xs:element name="origLanguage" type="xs:string" minOccurs="0"/>
+			<xs:element name="origFirstName" type="xs:normalizedString" minOccurs="0"/>
+			<xs:element name="origSurname" type="xs:normalizedString" minOccurs="0"/>
+			<xs:element name="countryOfOrigin" type="countryCode" minOccurs="0"/>
+			<!-- countryCodetype is defined in anninter_country_lang_version_date.xsd -->
+			<xs:element name="gender" type="gender"/>
+			<xs:element name="dateOfBirth" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\d{8}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="functionId" type="t_id" minOccurs="0"/>
+			<xs:element name="civilityId" type="t_id" minOccurs="0"/>
+			<xs:element ref="photo" minOccurs="0"/>
+			<xs:element ref="addresses" minOccurs="0"/>
+			<xs:element name="miniCv" type="languageElements" minOccurs="0"/>
+			<xs:element name="footnote" type="languageElements" minOccurs="0"/>
+			<xs:element name="freeText" type="languageElements" minOccurs="0"/>
+		</xs:all>
+		<xs:attribute name="individualId" type="t_id" use="required"/>
+		<xs:attribute name="parentId" type="t_id" use="required"/>
+		<xs:attribute name="atTypeId" type="xs:integer"/>
+		<xs:attribute name="uploadDate" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="\d{8}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:simpleType name="gender">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="M"/>
+			<xs:enumeration value="F"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="photo" type="xs:string"/>
+	<!-- elements describing ADDRESSES-->
+	<xs:element name="addresses">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="address" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="address">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="street" minOccurs="0"/>
+				<xs:element name="poBox" minOccurs="0"/>
+				<xs:element name="zipCode" minOccurs="0"/>
+				<xs:element name="city" minOccurs="0"/>
+				<xs:element name="province" minOccurs="0"/>
+				<xs:element name="addressLines" minOccurs="0"/>
+				<xs:element name="countryCode" type="countryCode" minOccurs="0"/>
+				<xs:element name="country" minOccurs="0"/>
+				<xs:element name="phone" type="phoneNumber" minOccurs="0"/>
+				<xs:element name="fax" type="phoneNumber" minOccurs="0"/>
+				<xs:element name="email" type="emailURI" minOccurs="0"/>
+				<xs:element name="web" type="httpURI" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="httpURI">
+		<xs:restriction base="xs:anyURI">
+			<xs:pattern value="(https?|ftp)://[^@]+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="emailURI">
+		<xs:restriction base="xs:anyURI">
+			<xs:pattern value="([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="addressLines">
+		<xs:sequence>
+			<xs:element name="address1" minOccurs="0"/>
+			<xs:element name="address2" minOccurs="0"/>
+			<xs:element name="address3" minOccurs="0"/>
+			<xs:element name="address4" minOccurs="0"/>
+			<xs:element name="addressloc" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="phoneNumber">
+		<xs:sequence>
+			<xs:element name="category" type="phoneCategory" minOccurs="0"/>
+			<!-- proneCategoryType type is defined in anninter_country_lang_version_date.xsd -->
+			<xs:element name="internationalIndicator" minOccurs="0"/>
+			<xs:element name="localPrefix" minOccurs="0"/>
+			<xs:element name="localNumber" minOccurs="0"/>
+			<xs:element name="localFullNro" minOccurs="0"/>
+			<xs:element name="internationalFullNro" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="t_id">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9A-Z._-]{0,64}"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
