@@ -20,7 +20,7 @@ div.center { text-align: center; }
 <!-- this code aims to demonstrate navigation into SPARQL endpoint , EUPL 2020 X.DESURMONT-->
 
 <!-- the page -->
-<h2><span style="color:red">VI</span><span style="color:green">NA</span><span style="color:blue">LOD</span> Proof of concept (version 20210505)</h2>
+<h2><span style="color:red">VI</span><span style="color:green">NA</span><span style="color:blue">LOD</span> Proof of concept (version 20210604)</h2>
 <FORM NAME="theForm" id="testformid">
 
 <!-- Choice of linguistic version of data -->
@@ -65,8 +65,8 @@ SparQL endpoint:
 </SELECT>
 
 <!-- choice of name -->
-Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.name.value)">
-<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.name.value)">
+Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.name.value,this.form.url.value.split(')')[1])">
+<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.name.value,this.form.url.value.split(')')[1])">
 <br/>
 seed URI or nodeID:
 <SELECT id="seedid" NAME="seed" SIZE="1"  >
@@ -143,8 +143,8 @@ seed URI or nodeID:
 </SELECT>
 
 
-<INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.seed.value)">
-<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.seed.value)">
+<INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.seed.value,this.form.url.value.split(')')[1])">
+<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.seed.value,this.form.url.value.split(')')[1])">
 
 </FORM>
 
@@ -184,6 +184,7 @@ seed URI or nodeID:
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const uri = urlParams.get('uri')
+const ep = urlParams.get('ep')
 
 var pageId=0;
 var nbResultId = document.getElementById("nbResultId");
@@ -192,6 +193,7 @@ var prefixes = "";
 var searchquery;
 var queryCount=0;
 var newSeed ="";
+var SPARQLEndpointUrl="";
 var backward=false;
 var sparqlQuery;
 
@@ -200,7 +202,7 @@ function OnPageLoaded() {
 if (uri)
 {
   //alert(uri);
-  Go(uri);
+  Go(uri,ep);
 //<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.seed.value)">
 }
 }
@@ -232,9 +234,10 @@ theForm = document.getElementById("testformid");
     QuickQuery(theForm);
 });
 
-function Go (nSeed)
+function Go (nSeed,nSPARQLEndpointUrl)
 {
-	
+	alert(nSPARQLEndpointUrl);
+	SPARQLEndpointUrl= nSPARQLEndpointUrl;
 	backward=false;
 	if (nSeed.includes(')'))
 	{	newSeed = nSeed.split(')')[1];}
@@ -245,8 +248,9 @@ function Go (nSeed)
 	QuickQuery(theForm);
 }
 
-function Back (nSeed)
+function Back (nSeed,nSPARQLEndpointUrl)
 {
+	SPARQLEndpointUrl= nSPARQLEndpointUrl;
 	backward=true;
 	if (nSeed.includes(')'))
 	{	newSeed = nSeed.split(')')[1];}
@@ -398,7 +402,7 @@ sparqlQuery = sparqlQuery + "LIMIT "+nbResultId.value+" OFFSET "+pageId*nbResult
 
 
 // let's take the what is after "(XYZ)" in the URL
-var SPARQLEndpointUrl= url.value.split(')')[1];
+//var SPARQLEndpointUrl= url.value.split(')')[1];
 var queryUrl = SPARQLEndpointUrl + "?query=" + prefixes +  encodeURIComponent(  sparqlQuery  );
 var queryUrlJson = queryUrl + "&format=json";
 
