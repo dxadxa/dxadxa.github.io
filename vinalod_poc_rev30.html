@@ -185,6 +185,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const uri = urlParams.get('uri')
 const ep = urlParams.get('ep')
+const websiteUrl="https://dxadxa.github.io/vinalod_poc_rev30.html";
 
 var pageId=0;
 var nbResultId = document.getElementById("nbResultId");
@@ -236,7 +237,7 @@ theForm = document.getElementById("testformid");
 
 function Go (nSeed,nSPARQLEndpointUrl)
 {
-	alert(nSPARQLEndpointUrl);
+	//alert(nSPARQLEndpointUrl);
 	SPARQLEndpointUrl= nSPARQLEndpointUrl;
 	backward=false;
 	if (nSeed.includes(')'))
@@ -430,7 +431,7 @@ $.ajax(settings).then  (function( _data ) {
 	theUri.innerHTML="<i>Showing content of</i> "+newSeed + uriToHtml(newSeed) +" (number of rows: "+results.length+")";
 theUri.innerHTML+=" <button onclick='copyToClipboard(newSeed)'><img src='https://static.thenounproject.com/png/3613618-200.png' height='20' /></button>";
 	theUri.innerHTML+=" <button onclick='copyQueryToClipboard()'>Copy query to clipboard</button> <a href=\"" +queryUrl+"\" target='_blank'>[html]</a>";
-	theUri.innerHTML+=" <a href=\"file:///C:/Users/dxadx/Documents/GitHub/dxadxa.github.io/vinalod_poc_rev30.html?uri=" +encodeURIComponent(newSeed)+"&ep="+encodeURIComponent(SPARQLEndpointUrl)+"\" target='_blank'>[vinalod_share_link]</a>"
+	theUri.innerHTML+=" <a href=\""+websiteUrl+"?uri=" +encodeURIComponent(newSeed)+"&ep="+encodeURIComponent(SPARQLEndpointUrl)+"\" target='_blank'>[vinalod_share_link]</a>"
 	
 
 	
