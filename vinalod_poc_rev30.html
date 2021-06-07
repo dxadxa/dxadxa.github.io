@@ -143,8 +143,8 @@ seed URI or nodeID:
 </SELECT>
 
 
-<INPUT TYPE="button" NAME="button" Value="Search" onClick="Go(this.form.seed.value,this.form.url.value.split(')')[1])">
-<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.seed.value,this.form.url.value.split(')')[1])">
+<INPUT TYPE="button" NAME="button" Value="Search" onClick="GoWithEP(this.form.seed.value,this.form.url.value.split(')')[1])">
+<INPUT TYPE="button" NAME="button" Value="<-" onClick="BackWithEP(this.form.seed.value,this.form.url.value.split(')')[1])">
 
 </FORM>
 
@@ -203,7 +203,7 @@ function OnPageLoaded() {
 if (uri)
 {
   //alert(uri);
-  Go(uri,ep);
+  GoWithEP(uri,ep);
 //<INPUT TYPE="button" NAME="button" Value="<-" onClick="Back(this.form.seed.value)">
 }
 }
@@ -235,9 +235,9 @@ theForm = document.getElementById("testformid");
     QuickQuery(theForm);
 });
 
-function Go (nSeed,nSPARQLEndpointUrl)
+function GoWithEP (nSeed,nSPARQLEndpointUrl)
 {
-	//alert(nSPARQLEndpointUrl);
+//	alert(nSPARQLEndpointUrl);
 	SPARQLEndpointUrl= nSPARQLEndpointUrl;
 	backward=false;
 	if (nSeed.includes(')'))
@@ -249,7 +249,15 @@ function Go (nSeed,nSPARQLEndpointUrl)
 	QuickQuery(theForm);
 }
 
-function Back (nSeed,nSPARQLEndpointUrl)
+
+function Go (nSeed)
+{
+	GoWithEP (nSeed,document.getElementById("url").value.split(')')[1]);
+}
+
+
+
+function BackWithEP (nSeed,nSPARQLEndpointUrl)
 {
 	SPARQLEndpointUrl= nSPARQLEndpointUrl;
 	backward=true;
@@ -260,6 +268,11 @@ function Back (nSeed,nSPARQLEndpointUrl)
 
 	console.log("let's go to " + newSeed + " as ?o");
 	QuickQuery(theForm);
+}
+
+function Back(nSeed)
+{
+	BackWithEP (nSeed,document.getElementById("url").value.split(')')[1]);
 }
 
 <!-- change of linguistic version ! -->
