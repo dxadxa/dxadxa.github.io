@@ -70,6 +70,7 @@ Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" N
 <br/>
 seed URI or nodeID:
 <SELECT id="seedid" NAME="seed" SIZE="1"  >
+<OPTION>(DEU: dataset with test geographical values)https://europeandataportal.eu/set/data/official-journals-of-the-european-union-2011
 <OPTION>(DEU: dataset with temporal values)https://europeandataportal.eu/set/data/covid-19-coronavirus-data-weekly-from-17-december-2020
 <OPTION>(DEU: dataset with temporal values)https://europeandataportal.eu/set/data/-005ffdad-69a1-4385-b16f-fd31b960fe33-
 <OPTION>(DEU: dataset of EU ODP)https://europeandataportal.eu/set/data/covid-19-vaccine-tracker
@@ -357,8 +358,8 @@ $( 'pageInfo' ).html( '' );
 //from <dcatapop-public> \
 
 // 1. Find the person (quick and light version of the SparQL query)
-sparqlQuery = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \
-select  distinct ?g ?s ?p ?o ?oID ?oLANG \
+sparqlQuery = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \r\n"+ String.fromCharCode(13);
+sparqlQuery += "select  distinct ?g ?s ?p ?o ?oID ?oLANG \
 where {GRAPH ?g {?s ?p ?o.} \
 bind (if(ISBLANK(?o),<LONG::bif:iri_id_num>(?o),'') as ?oID).";
 
@@ -694,7 +695,10 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://www.w3.org/2004/02/skos/core#definition</td><td>https://static.thenounproject.com/png/729118-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/created</td><td>https://static.thenounproject.com/png/3510137-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/issued</td><td>https://static.thenounproject.com/png/3510137-200.png</td></tr>
+<tr><td>http://publications.europa.eu/ontology/euvoc#startDate</td><td>https://static.thenounproject.com/png/3510137-200.png</td></tr>
+<tr><td>http://publications.europa.eu/ontology/authority/start.use</td><td>https://static.thenounproject.com/png/3510137-200.png</td></tr>
 <tr><td>http://www.w3.org/2001/XMLSchema#dateTime</td><td>https://static.thenounproject.com/png/943989-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/prov#generatedAtTime</td><td>https://static.thenounproject.com/png/943989-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/modified</td><td>https://static.thenounproject.com/png/2096199-200.png</td></tr>
 <tr><td>http://publications.europa.eu/resource/authority/address-type/FAX</td><td>https://static.thenounproject.com/png/1338047-200.png</td></tr>
 <tr><td>http://publications.europa.eu/resource/authority/address-type/TEL</td><td>https://static.thenounproject.com/png/2972772-200.png</td></tr>
@@ -706,11 +710,13 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://www.w3.org/ns/dcat#landingPage</td><td>https://static.thenounproject.com/png/3257360-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/accessRights</td><td>https://static.thenounproject.com/png/71752-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/dqv#hasQualityMeasurement</td><td>https://static.thenounproject.com/png/2051251-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dqv#QualityMeasurement</td><td>https://static.thenounproject.com/png/2051251-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/dqv#hasQualityMetadata</td><td>https://static.thenounproject.com/png/685084-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/dqv#hasQualityAnnotation</td><td>https://static.thenounproject.com/png/685084-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/dcat#keyword</td><td>https://static.thenounproject.com/png/1782327-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/spatial</td><td>https://static.thenounproject.com/png/37532-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/dcat#distribution</td><td>https://static.thenounproject.com/png/3761573-200.png</td></tr>
+<tr><td>http://www.w3.org/ns/dcat#Distribution</td><td>https://static.thenounproject.com/png/3761573-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/locn#geometry</td><td>https://static.thenounproject.com/png/172892-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/identifier</td><td>https://static.thenounproject.com/png/3001659-200.png</td></tr>
 <tr><td>http://www.w3.org/ns/adms#identifier</td><td>https://static.thenounproject.com/png/3001659-200.png</td></tr>
@@ -730,17 +736,21 @@ $( 'pageInfo' ).html( '' );
 <tr><td>http://www.w3.org/2008/05/skos-xl#altLabel</td><td>https://static.thenounproject.com/png/2816665-200.png</td></tr>
 <tr><td>http://www.w3.org/2008/05/skos-xl#prefLabel</td><td>https://static.thenounproject.com/png/2496446-200.png</td></tr>
 <tr><td>http://www.w3.org/2008/05/skos-xl#altLabel</td><td>https://static.thenounproject.com/png/2496446-200.png</td></tr>
+<tr><td>http://www.w3.org/2000/01/rdf-schema#label</td><td>https://static.thenounproject.com/png/2496446-200.png</td></tr>
+<tr><td>http://publications.europa.eu/ontology/authority/prefLabel</td><td>https://static.thenounproject.com/png/2496446-200.png</td></tr>
 <tr><td>http://schema.org/startDate</td><td>https://static.thenounproject.com/png/1464737-200.png</td></tr>
 <tr><td>http://schema.org/endDate</td><td>https://static.thenounproject.com/png/1464738-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/PeriodOfTime</td><td>https://static.thenounproject.com/png/487229-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/description</td><td>https://static.thenounproject.com/png/928817-200.png</td></tr>
+<tr><td>http://www.w3.org/2004/02/skos/core#historyNote</td><td>https://static.thenounproject.com/png/928817-200.png</td></tr>
 <tr><td>http://purl.org/dc/terms/relation</td><td>https://static.thenounproject.com/png/3540455-200.png</td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>http://www.w3.org/ns/dcat#accessURL</td><td>https://static.thenounproject.com/png/237136-200.png</td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION</td><td>https://static.thenounproject.com/png/2357682-200.png</td></tr>
+<tr><td>http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE</td><td>https://static.thenounproject.com/png/3262543-200.png</td></tr>
+<tr><td>http://publications.europa.eu/ontology/authority/protocol-order</td><td>https://static.thenounproject.com/png/3863600-200.png</td></tr>
+<tr><td>http://publications.europa.eu/ontology/euvoc#order</td><td>https://static.thenounproject.com/png/3863600-200.png</td></tr>
+<tr><td>http://data.europa.eu/88u/ontology/dcatapop#debugInfo</td><td>https://static.thenounproject.com/png/3911251-200.png</td></tr>
+<tr><td>http://publications.europa.eu/ontology/euvoc#legallyBasedOnTreaty</td><td>https://static.thenounproject.com/png/3338094-200.png</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 
