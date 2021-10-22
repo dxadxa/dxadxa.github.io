@@ -20,7 +20,7 @@ div.center { text-align: center; }
 <!-- this code aims to demonstrate navigation into SPARQL endpoint , EUPL 2020 X.DESURMONT-->
 
 <!-- the page -->
-<h2><span style="color:red">ULTRA</span><span style="color:blue">LOD</span> (version 20210824)</h2>
+<h2><span style="color:red">ULTRA</span><span style="color:blue">LOD</span> (version 20211022)</h2>
 <FORM NAME="theForm" id="testformid">
 
 <!-- Choice of linguistic version of data -->
@@ -30,7 +30,7 @@ SparQL endpoint:
 <OPTION>(DATA.EUROPA.EU)https://data.europa.eu/sparql
 <OPTION>(eu odp legacy)https://data.europa.eu/euodp-sparqlep
 <OPTION>(CELLAR)https://publications.europa.eu/webapi/rdf/sparql
-<OPTION>(EU ODP - only from OP)https://op-odp-fsp.cc.cec.eu.int:8443/euodp/sparqlep
+<OPTION>(CELLAR-test)https://cellar-test.publications.europa.eu/webapi/rdf/sparql
 <OPTION>(WIKIDATA commission)https://query.linkedopendata.eu/sparql
 <OPTION>(WIKIDATA)https://query.wikidata.org/sparql
 <OPTION>(OPENAIRE)https://lod.openaire.eu/sparql
@@ -39,6 +39,7 @@ SparQL endpoint:
 <OPTION>(PPE.DATA.EUROPA.EU)https://ppe.data.europa.eu/sparql
 <OPTION>(EU ODP - stopped end of April 2021)https://data.europa.eu/euodp/sparqlep
 <OPTION>(EDP - to be stopped end of April 2021)https://www.europeandataportal.eu/sparql
+<OPTION>(EU ODP - only from OP)https://op-odp-fsp.cc.cec.eu.int:8443/euodp/sparqlep
 
 <!--<OPTION>-----
 <OPTION>(DATA.EUROPA.EU)http://data.europa.eu/sparql
@@ -71,18 +72,18 @@ Name:<INPUT type="text" NAME="name"  id="nameid" ></INPUT><INPUT TYPE="button" N
 <br/>
 seed URI or nodeID:
 <SELECT id="seedid" NAME="seed" SIZE="1"  >
-<OPTION>(DEU: a dataset with a dataservice)https://europeandataportal.eu/set/data/https-monitor-statnipokladna-cz-api-opendata-monitor-zisk-a-ztraty-2015_12_data_csuis_vykzz
-<OPTION>(DEU: dataset with test geographical values)https://europeandataportal.eu/set/data/official-journals-of-the-european-union-2011
-<OPTION>(DEU: dataset with temporal values)https://europeandataportal.eu/set/data/covid-19-coronavirus-data-weekly-from-17-december-2020
-<OPTION>(DEU: dataset with temporal values)https://europeandataportal.eu/set/data/-005ffdad-69a1-4385-b16f-fd31b960fe33-
-<OPTION>(DEU: dataset of EU ODP)https://europeandataportal.eu/set/data/covid-19-vaccine-tracker
-<OPTION>(DEU: dataset of fiware bus live position in Malaga)https://europeandataportal.eu/set/data/fiware-demo
-<OPTION>(DEU: dataset that shows a map: polygon)https://europeandataportal.eu/set/data/9628b620-d456-11de-bf94-0000c0a8230b
-<OPTION>(DEU: dataset of EU ODP)https://europeandataportal.eu/set/data/eu-whoiswho-the-official-directory-of-the-european-union
-<OPTION>(DEU: dataset of EU ODP)https://europeandataportal.eu/set/data/covid-19-coronavirus-data
+<OPTION>(DEU: a dataset with a dataservice)http://data.europa.eu/88u/dataset/https-monitor-statnipokladna-cz-api-opendata-monitor-zisk-a-ztraty-2015_12_data_csuis_vykzz
+<OPTION>(DEU: dataset with test geographical values)http://data.europa.eu/88u/dataset/official-journals-of-the-european-union-2011
+<OPTION>(DEU: dataset with temporal values)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data-weekly-from-17-december-2020
+<OPTION>(DEU: dataset with temporal values)http://data.europa.eu/88u/dataset/-005ffdad-69a1-4385-b16f-fd31b960fe33-
+<OPTION>(DEU: dataset of EU ODP)http://data.europa.eu/88u/dataset/covid-19-vaccine-tracker
+<OPTION>(DEU: dataset of fiware bus live position in Malaga)http://data.europa.eu/88u/dataset/fiware-demo
+<OPTION>(DEU: dataset that shows a map: polygon)http://data.europa.eu/88u/dataset/9628b620-d456-11de-bf94-0000c0a8230b
+<OPTION>(DEU: dataset of EU ODP)http://data.europa.eu/88u/dataset/eu-whoiswho-the-official-directory-of-the-european-union
+<OPTION>(DEU: dataset of EU ODP)http://data.europa.eu/88u/dataset/covid-19-coronavirus-data
 <OPTION>(DEU: Catalogue of datasets of EU ODP)https://europeandataportal.eu/id/catalogue/european-union-open-data-portal
 <OPTION>(DEU: Catalogue of datasets ESIF)https://europeandataportal.eu/id/catalogue/esif
-<OPTION>(DEU: a dataset - NOT WORKING )https://europeandataportal.eu/set/data/cdd979d5-8b42-31a4-a33a-d31d5bc8930a
+<OPTION>(DEU: a dataset - NOT WORKING )http://data.europa.eu/88u/dataset/cdd979d5-8b42-31a4-a33a-d31d5bc8930a
 <OPTION>(DEU: list of catalogues - go backward)http://www.w3.org/ns/dcat#Catalog
 <OPTION>(DEU: list of dataservices - go backward)http://www.w3.org/ns/dcat#DataService
 <OPTION>(LDS: list of solution - go backward)https://linkedopendata.eu/entity/Q2839858
