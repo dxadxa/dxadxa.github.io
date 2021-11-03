@@ -440,7 +440,13 @@ var queryUrlJson = queryUrl + "&format=json";
 var tableau = document.getElementById("table_result");
 var theUri= document.getElementById("theUri");
 //theUri.innerHTML="Showing content of URI: "+newSeed;
-theUri.innerHTML="<i>Searching content for </i>"+newSeed + uriToHtml(newSeed) +" <button onclick='copyToClipboard()'>Copy query to clipboard</button><BR/><BR/><BR/><BR/><div class='center'>     <img src='https://upload.wikimedia.org/wikipedia/commons/9/92/Loading_icon_cropped.gif' height='40' /></div>";
+
+infoQuery= newSeed + uriToHtml(newSeed) +" <button onclick='copyToClipboard(newSeed)'><img src='https://static.thenounproject.com/png/3613618-200.png' height='20' /></button>" + " <button onclick='copyQueryToClipboard()'>Copy query to clipboard</button> <a href=\"" +queryUrl+"\" target='_blank'>[html]</a>" +" <a href=\""+websiteUrl+"?uri=" +encodeURIComponent(newSeed)+"&ep="+encodeURIComponent(SPARQLEndpointUrl)+"\" target='_blank'>[ultralod_share_link]</a>";
+
+//theUri.innerHTML="<i>Searching content for </i>"+newSeed + uriToHtml(newSeed) +" <button onclick='copyToClipboard()'>Copy query to clipboard</button><BR/><BR/><BR/><BR/><div class='center'>     <img src='https://upload.wikimedia.org/wikipedia/commons/9/92/Loading_icon_cropped.gif' height='40' /></div>";
+
+theUri.innerHTML="<i>Searching content for </i>"+infoQuery+"<BR/><BR/><BR/><BR/><div class='center'>     <img src='https://upload.wikimedia.org/wikipedia/commons/9/92/Loading_icon_cropped.gif' height='40' /></div>";
+
 tableau.innerHTML = "";
 var seqNumber = ++queryCount;
 if (1> 0) {
@@ -455,6 +461,8 @@ else
 
 $.ajax(settings).then  (function( _data ) {
 	var results = _data.results.bindings;
+	
+	//" (number of rows: "+results.length+")";
 	
 	theUri.innerHTML="<i>Showing content of</i> "+newSeed + uriToHtml(newSeed) +" (number of rows: "+results.length+")";
 theUri.innerHTML+=" <button onclick='copyToClipboard(newSeed)'><img src='https://static.thenounproject.com/png/3613618-200.png' height='20' /></button>";
