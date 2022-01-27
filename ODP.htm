@@ -52,6 +52,11 @@
 
 <a href="https://data.europa.eu/sparql?default-graph-uri=&query=PREFIX+dcat%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0A%23SELECT++%3Fcatalog+++%28count%28%3FdatasetURI%29+as+%3FDatasetNumber%29++%28count%28%3FPublisher%29+as+%3FPublisher%29+%0D%0A%0D%0Aselect+distinct+%3Fcatalog+%3FDatasetNumber+%3FpublisherName%0D%0A%7B%0D%0A%3FPublisher+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname%3E+%3FpublisherName%0D%0A%0D%0A%7B%0D%0A%0D%0A%0D%0ASELECT++distinct+%3Fcatalog+++%28count%28%3FdatasetURI%29+as+%3FDatasetNumber%29+%3FPublisher+%0D%0A%23%3FpublisherName%0D%0A%0D%0A%0D%0AWHERE+%7B%0D%0A%3Fcatalog+a+dcat%3ACatalog%3B%0D%0Adcat%3Adataset+%3FdatasetURI.%0D%0A%3FdatasetURI+a+dcat%3ADataset.%0D%0Aoptional+%7B%3FdatasetURI+dc%3Apublisher+%3FPublisher.+%0D%0A%23optional+%7B%3FPublisher+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname%3E+%3FpublisherName%7D%0D%0A%7D%0D%0A%23filter%28regex%28%3FPublisher%2C%22%5Bhttp%7Chttps%5D%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fcorporate-body%2F%22%2C+%22i%22%29%29%0D%0A%7D%0D%0A%23%0D%0A%7D%0D%0A%7D%0D%0Aorder+by+%3Fcatalog&format=text%2Fhtml&timeout=0">List of publishers in each catalog of DEU (the query is not perfect)</a><br/>
 
+<h1>Quality</h1>
+
+<a href="https://data.europa.eu/data/datasets/eu-whoiswho-the-official-directory-of-the-european-union/quality?locale=en">quality of dataset EU Whoiswho</a><br/>
+
+
 <h2>List of validators (not exhaustive):</h2>
 <ul><li>(SEMIC - you can put your own SHACL shapes files) <a href="http://www.itb.ec.europa.eu/shacl/any/upload" class="external-link" rel="nofollow">http://www.itb.ec.europa.eu/shacl/any/upload</a></li><li>(SEMIC - you have to choose configurations of SHACL shapes files defined by SEMIC) <a href="https://www.itb.ec.europa.eu/shacl/dcat-ap/upload" class="external-link" rel="nofollow">https://www.itb.ec.europa.eu/shacl/dcat-ap/upload</a></li><li>(EDP 4.0) <a href="https://www.europeandataportal.eu/mqa/shacl-validator-ui/" class="external-link" rel="nofollow">https://www.europeandataportal.eu/mqa/shacl-validator-ui/</a>&nbsp; (is using the 3 SHACL SHAPES of SEMIC)</li><li><a href="https://shacl.org/playground/" class="external-link" rel="nofollow">https://shacl.org/playground/</a></li></ul><p><br></p>
 
